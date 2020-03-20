@@ -1,0 +1,48 @@
+version: '3'
+services:
+  api:
+    build: ./api
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: prod
+      PORT: $PORT
+      PG_USERNAME: $PG_USERNAME
+      PG_PASS: $PG_PASS
+      PG_HOST: $PG_HOST
+      PG_PORT: $PG_PORT
+      PG_DB: $PG_DB
+  books_update:
+    build: ./scripts/books
+    environment:
+      NODE_ENV: prod
+      PORT: $PORT
+      PG_USERNAME: $PG_USERNAME
+      PG_PASS: $PG_PASS
+      PG_HOST: $PG_HOST
+      PG_PORT: $PG_PORT
+      PG_DB: $PG_DB
+      GOODREADS_USER_ID: $GOODREADS_USER_ID
+      GOODREADS_PERSONAL_TOKEN: $GOODREADS_PERSONAL_TOKEN
+      GOODREADS_SECRET: $GOODREADS_SECRET
+  films_update:
+    build: ./scripts/films
+    environment:
+      NODE_ENV: prod
+      PORT: $PORT
+      PG_USERNAME: $PG_USERNAME
+      PG_PASS: $PG_PASS
+      PG_HOST: $PG_HOST
+      PG_PORT: $PG_PORT
+      PG_DB: $PG_DB
+      LETTERBOXD_KEY: $LETTERBOXD_KEY
+  articles_update:
+    build: ./scripts/articles
+    environment:
+      NODE_ENV: prod
+      PORT: $PORT
+      PG_USERNAME: $PG_USERNAME
+      PG_PASS: $PG_PASS
+      PG_HOST: $PG_HOST
+      PG_PORT: $PG_PORT
+      PG_DB: $PG_DB

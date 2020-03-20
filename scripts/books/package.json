@@ -1,0 +1,19 @@
+{
+  "name": "jackreidscrapers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node update.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "goodreads-api-node": "0.0.10",
+    "sql-template-strings": "^2.2.2",
+    "pg": "7.18.2",
+    "chalk": "3.0.0",
+    "sqlite": "^3.0.3"
+  }
+}

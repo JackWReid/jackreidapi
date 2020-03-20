@@ -1,0 +1,19 @@
+{
+  "name": "jackreidscrapers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node update.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "sql-template-strings": "^2.2.2",
+    "pg": "7.18.2",
+    "chalk": "3.0.0",
+    "unzipper": "^0.10.5"
+  }
+}
