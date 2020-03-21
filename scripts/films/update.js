@@ -162,6 +162,7 @@ async function fetchFilms() {
 (async function main() {
   try {
     console.log(chalk.bold.blue('[FILMS]'), 'Starting update script');
+    await db.query(SQL`DELETE FROM films`);
     const {watched, towatch} = await fetchFilms();
     const merged = [...watched, ...towatch];
     const res = await insertRecords(merged, db);
