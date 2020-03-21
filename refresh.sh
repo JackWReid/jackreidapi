@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker-compose up -d --build >> /root/logs/docker-compose 2>&1
+docker-compose up -d --build
