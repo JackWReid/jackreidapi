@@ -38,7 +38,7 @@ module.exports = cors(morgan('common')(async (req, res) => {
     return watched;
   }
 
-  if (req.url === '/likes') {
+  if (req.url === '/articles') {
     const watched = await feedbin.getLikes();
     return watched;
   }

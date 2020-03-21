@@ -1,26 +1,22 @@
-const { getDb } = require('../db');
+const {runQuery} = require('../db');
 
 async function getToWatch() {
-  const db = await getDb();
   const query = `
     SELECT name, year, link, date_updated FROM films
     WHERE status = 'towatch'
     ORDER BY date_updated DESC;
   `;
-  const result = await db.all(query);
-  await db.close();
+  const result = await runQuery(query);
   return result;
 }
 
 async function getWatched() {
-  const db = await getDb();
   const query = `
     SELECT name, year, link, date_updated FROM films
     WHERE status = 'watched'
     ORDER BY date_updated DESC;
   `;
-  const result = await db.all(query);
-  await db.close();
+  const result = await runQuery(query);
   return result;
 }
 
