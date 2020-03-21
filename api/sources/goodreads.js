@@ -32,7 +32,7 @@ async function getToRead() {
     WHERE status = 'toread'
     ORDER BY date_updated DESC;
   `;
-  const result = await queryQuery(query);
+  const result = await runQuery(query);
   return result;
 }
 
