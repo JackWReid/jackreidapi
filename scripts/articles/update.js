@@ -25,11 +25,19 @@ const FEEDBIN_FEED_URL =
     }),
   );
 
+  await db.runQuery(SQL`DELETE FROM likes`);
   let query;
   for (let i = 0; i < insertItems.length; i++) {
     const first = i === 0;
     const last = i === insertItems.length;
-    const {title, description, content, author, link, date_created} = insertItems[i];
+    const {
+      title,
+      description,
+      content,
+      author,
+      link,
+      date_created,
+    } = insertItems[i];
 
     if (first) {
       query = SQL`INSERT INTO likes (title, description, content, author, link, date_updated) VALUES (${title}, ${description}, ${content}, ${author}, ${link}, ${date_created})`;
@@ -55,7 +63,7 @@ const FEEDBIN_FEED_URL =
       console.error('Failed to run query');
       console.error(JSON.stringify(query));
       console.error(error);
-    console.log(chalk.bold.red('[ARTICLES]'), 'Ended on critical error');
+      console.log(chalk.bold.red('[ARTICLES]'), 'Ended on critical error');
     }
   }
   return;
