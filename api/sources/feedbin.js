@@ -1,4 +1,4 @@
-const { runQuery } = require('../db');
+const {runQuery} = require('../db');
 
 async function getLikes() {
   const query = `
