@@ -1,9 +1,10 @@
-const { runQuery } = require('../db');
+const {runQuery} = require('../db');
 
-async function getLikes() {
+async function getLikes({ sort, limit, offset }) {
   const query = `
     SELECT title, description, link, author, date_updated FROM likes
-    ORDER BY date_updated DESC;
+    ORDER BY date_updated ${sort}
+    LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
   return result;

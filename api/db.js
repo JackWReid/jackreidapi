@@ -11,11 +11,11 @@ const pool = new Pool({
 
 async function runQuery(query) {
   const start = Date.now();
-  return pool.query(query)
-    .then(res => {
-      const timing = Date.now() - start;
-      console.info(`[QUERY] (${timing}ms) ${query}`);
-      return res.rows});
+  return pool.query(query).then(res => {
+    const timing = Date.now() - start;
+    console.info(`[QUERY] (${timing}ms) ${query}`);
+    return res.rows;
+  });
 }
 
 module.exports = {runQuery};
