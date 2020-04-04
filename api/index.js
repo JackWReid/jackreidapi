@@ -6,6 +6,7 @@ const morgan = require('morgan');
 const goodreads = require('./sources/goodreads');
 const letterboxd = require('./sources/letterboxd');
 const feedbin = require('./sources/feedbin');
+const pocket = require('./sources/pocket');
 
 const parseQuery = require('./parseQuery');
 
@@ -71,11 +72,24 @@ app.get('/films/count', async function(req, res) {
 });
 
 app.get('/films/search/:search', async function(req, res) {
-  const counts = await letterboxd.getSearch({
+  const films = await letterboxd.getSearch({
     ...req.config,
     search: req.params.search,
   });
-  return res.send(counts);
+  return res.send(films);
+});
+
+app.get('/pocket', async function(req, res) {
+  const links = await pocket.getLinks(req.config);
+  return res.send(links);
+});
+
+app.get('/pocket/search/:search', async function(req, res) {
+  const links = await pocket.getSearch({
+    ...req.config,
+    search: req.params.search,
+  });
+  return res.send(links);
 });
 
 app.get('/articles', async function(req, res) {

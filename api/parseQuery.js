@@ -5,7 +5,6 @@ const defaults = {
 };
 
 function parseQuery(req, res, next) {
-  console.log(req.params);
   const config = {
     sort: req.query.sort || defaults.sort,
     limit: req.query.limit || defaults.limit,

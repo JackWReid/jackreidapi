@@ -1,12 +1,24 @@
 const { runQuery } = require('../db');
 
-async function getPocketLinks() {
+async function getLinks({ sort, limit, offset }) {
   const query = `
-    SELECT title, link, content, word_count FROM pocket
-    ORDER BY date_updated DESC;
+    SELECT * FROM pocket
+    ORDER BY date_updated ${sort}
+    LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
   return result;
 }
 
-module.exports = {getPocketLinks};
+async function getSearch({sort, limit, offset, search}) {
+  const query = `
+    SELECT * FROM pocket WHERE
+      LOWER(title) LIKE LOWER('%${search}%')
+    ORDER BY date_updated ${sort}
+    LIMIT ${limit} OFFSET ${offset};
+  `;
+  const result = await runQuery(query);
+  return result;
+}
+
+module.exports = {getLinks, getSearch};
