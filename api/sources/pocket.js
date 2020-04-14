@@ -2,7 +2,7 @@ const { runQuery } = require('../db');
 
 async function getLinks({ sort, limit, offset }) {
   const query = `
-    SELECT * FROM pocket
+    SELECT title, link, content, word_count, date_updated FROM pocket
     ORDER BY date_updated ${sort}
     LIMIT ${limit} OFFSET ${offset};
   `;
@@ -12,7 +12,7 @@ async function getLinks({ sort, limit, offset }) {
 
 async function getSearch({sort, limit, offset, search}) {
   const query = `
-    SELECT * FROM pocket WHERE
+    SELECT title, link, content, word_count, date_updated FROM pocket
       LOWER(title) LIKE LOWER('%${search}%')
     ORDER BY date_updated ${sort}
     LIMIT ${limit} OFFSET ${offset};
