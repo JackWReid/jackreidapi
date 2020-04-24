@@ -3,11 +3,11 @@
 const fs = require('fs');
 const path = require('path');
 const {spawn} = require('child_process');
-const chalk = require('chalk');
 const sqlite = require('sqlite');
 const SQL = require('sql-template-strings');
 
 const db = require('./db');
+const console = require('./log');
 
 const DIR = path.resolve('./');
 
@@ -90,7 +90,7 @@ async function insertRecords(records, status, db) {
 
 (async function main() {
   try {
-    console.log(chalk.bold.blue('[BOOKS]'), 'Starting update script');
+    console.log('Starting update script');
     console.log('Creating auth file from env');
     createAuthFile();
     console.log('Starting to scrape Goodreads');
@@ -104,10 +104,10 @@ async function insertRecords(records, status, db) {
     await insertRecords(toread, 'toread', db);
     await insertRecords(read, 'read', db);
     fs.unlinkSync(`${DIR}/books.db`);
-    console.log(chalk.bold.green('[BOOKS]'), 'Finished update script');
+    console.log('Finished update script');
   } catch (err) {
     console.error(err);
-    console.log(chalk.bold.red('[BOOKS]'), 'Ended on critical error');
+    console.log('Ended on critical error');
     process.exit(1);
   }
 })();

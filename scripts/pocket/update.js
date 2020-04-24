@@ -3,10 +3,10 @@
 const fs = require('fs');
 const path = require('path');
 const {execFile} = require('child_process');
-const chalk = require('chalk');
 const SQL = require('sql-template-strings');
 
 const db = require('./db');
+const console = require('./log');
 
 const DIR = path.resolve('./');
 
@@ -30,7 +30,7 @@ async function runPythonScript() {
       ],
       function(err, stdout, stderr) {
         if (err) {
-          console.error(`[ERR] ${err}`);
+          console.error(err);
           return reject();
         }
 
@@ -83,7 +83,7 @@ async function insertRecords(string, db) {
 
 (async function main() {
   try {
-    console.log(chalk.bold.blue('[POCKET]'), 'Starting update script');
+    console.log('Starting update script');
     console.log('Creating auth file from env');
     createAuthFile();
     console.log('Starting to scrape Pocket');
@@ -93,11 +93,11 @@ async function insertRecords(string, db) {
     await db.runQuery(SQL`DELETE FROM pocket`);
     await insertRecords(result, db);
     fs.unlinkSync(`${DIR}/output.json`);
-    console.log(chalk.bold.green('[POCKET]'), 'Finished update script');
+    console.log('Finished update script');
     process.exit(0);
   } catch (err) {
     console.error(err);
-    console.log(chalk.bold.red('[POCKET]'), 'Ended on critical error');
+    console.log('Ended on critical error');
     process.exit(1);
   }
 })();

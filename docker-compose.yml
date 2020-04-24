@@ -25,21 +25,29 @@ services:
       dockerfile: ./scripts/books/Dockerfile
     env_file:
       - api_env.env
+    environment:
+      - APP=books_update
   pocket_update:
     build:
       context: ./
       dockerfile: ./scripts/pocket/Dockerfile
     env_file:
       - api_env.env
+    environment:
+      - APP=pocket_update
   films_update:
     build:
       context: ./
       dockerfile: ./scripts/films/Dockerfile
     env_file:
       - api_env.env
+    environment:
+      - APP=films_update
   articles_update:
     build:
       context: ./
       dockerfile: ./scripts/articles/Dockerfile
     env_file:
       - api_env.env
+    environment:
+      - APP=articles_update

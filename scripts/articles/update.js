@@ -1,17 +1,17 @@
 #!/usr/bin/env node
 
 const SQL = require('sql-template-strings');
-const chalk = require('chalk');
 const Parser = require('rss-parser');
 const parser = new Parser();
 
 const db = require('./db');
+const console = require('./log');
 
 const FEEDBIN_FEED_URL =
   'https://feedbin.com/starred/4265024820b3b2381c0cf39078b571b4.xml';
 
 (async () => {
-  console.log(chalk.bold.blue('[ARTICLES]'), 'Starting update script');
+  console.log('Starting update script');
   let feed = await parser.parseURL(FEEDBIN_FEED_URL);
 
   const insertItems = feed.items.map(
@@ -55,7 +55,7 @@ const FEEDBIN_FEED_URL =
 
   try {
     await db.runQuery(query);
-    console.log(chalk.bold.green('[ARTICLES]'), 'Finished update script');
+    console.log('Finished update script');
   } catch (error) {
     if (error.code === '23505') {
       console.log(`Didn't insert duplicate "${insertItems[0].title}"`);
@@ -63,7 +63,7 @@ const FEEDBIN_FEED_URL =
       console.error('Failed to run query');
       console.error(JSON.stringify(query));
       console.error(error);
-      console.log(chalk.bold.red('[ARTICLES]'), 'Ended on critical error');
+      console.log('Ended on critical error');
     }
   }
   return;

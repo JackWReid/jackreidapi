@@ -2,13 +2,13 @@
 
 const fs = require('fs');
 const path = require('path');
-const chalk = require('chalk');
 const puppeteer = require('puppeteer');
 const unzipper = require('unzipper');
 const csvToJson = require('csvtojson');
 const SQL = require('sql-template-strings');
 
 const db = require('./db');
+const console = require('./log');
 
 const DIR = path.resolve('./');
 const SETTINGS_URL = 'https://letterboxd.com/settings/data';
@@ -161,15 +161,15 @@ async function fetchFilms() {
 
 (async function main() {
   try {
-    console.log(chalk.bold.blue('[FILMS]'), 'Starting update script');
+    console.log('Starting update script');
     const {watched, towatch} = await fetchFilms();
     const merged = [...watched, ...towatch];
     await db.runQuery(SQL`DELETE FROM films`);
     const res = await insertRecords(merged, db);
-    console.log(chalk.bold.green('[FILMS]'), 'Finished update script');
+    console.log('Finished update script');
   } catch (error) {
     console.error(error);
-    console.log(chalk.bold.red('[FILMS]'), 'Ended on critical error');
+    console.log('Ended on critical error');
     process.exit(1);
   }
 })();
