@@ -8,10 +8,11 @@ RUN apt install -y nodejs
 RUN git clone https://github.com/karlicoss/pockexport.git
 RUN cd pockexport && pip3 install --user -r requirements.txt
 
-COPY package*.json ./
+COPY ./scripts/pocket/package*.json ./
 RUN npm install
 
-COPY . .
+COPY ./scripts/pocket .
+COPY ./shared/* .
 
 CMD [ "node", "update.js" ]
 

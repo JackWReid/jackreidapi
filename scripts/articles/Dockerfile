@@ -2,9 +2,11 @@ FROM node:12
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
+COPY ./scripts/articles/package*.json .
 RUN npm install
 
-COPY . .
+COPY ./scripts/articles .
+COPY ./shared/* .
+
 CMD [ "node", "update.js" ]
 

@@ -7,10 +7,11 @@ RUN apt install -y nodejs
 
 RUN pip install goodreads-to-sqlite
 
-COPY package*.json ./
+COPY ./scripts/books/package*.json ./
 RUN npm install
 
-COPY . .
+COPY ./scripts/books .
+COPY ./shared/* .
 
 CMD [ "node", "update.js" ]
 

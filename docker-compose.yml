@@ -1,70 +1,43 @@
 version: '3'
 services:
   api:
-    build: ./api
+    build:
+      context: ./
+      dockerfile: ./api/Dockerfile
     ports:
       - "3000:3000"
-    environment:
-      NODE_ENV: prod
-      PORT: $PORT
-      PG_USERNAME: $PG_USERNAME
-      PG_PASS: $PG_PASS
-      PG_HOST: $PG_HOST
-      PG_PORT: $PG_PORT
-      PG_DB: $PG_DB
+    env_file:
+      - api_env.env
   pgadmin:
     image: dpage/pgadmin4:latest
     ports:
       - "5000:80"
-    environment:
-      PGADMIN_DEFAULT_EMAIL: $PGADMIN_DEFAULT_EMAIL
-      PGADMIN_DEFAULT_PASSWORD: $PGADMIN_DEFAULT_PASSWORD
+    env_file:
+      - api_env.env
     volumes:
       - ./pgadmin_servers.json:/pgadmin4/servers.json
     restart: on-failure
   books_update:
-    build: ./scripts/books
-    environment:
-      NODE_ENV: prod
-      PORT: $PORT
-      PG_USERNAME: $PG_USERNAME
-      PG_PASS: $PG_PASS
-      PG_HOST: $PG_HOST
-      PG_PORT: $PG_PORT
-      PG_DB: $PG_DB
-      GOODREADS_USER_ID: $GOODREADS_USER_ID
-      GOODREADS_PERSONAL_TOKEN: $GOODREADS_PERSONAL_TOKEN
-      GOODREADS_SECRET: $GOODREADS_SECRET
+    build:
+      context: ./
+      dockerfile: ./scripts/books/Dockerfile
+    env_file:
+      - api_env.env
   pocket_update:
-    build: ./scripts/pocket
-    environment:
-      NODE_ENV: prod
-      PORT: $PORT
-      PG_USERNAME: $PG_USERNAME
-      PG_PASS: $PG_PASS
-      PG_HOST: $PG_HOST
-      PG_PORT: $PG_PORT
-      PG_DB: $PG_DB
-      POCKET_CONSUMER: $POCKET_CONSUMER
-      POCKET_TOKEN: $POCKET_TOKEN
+    build:
+      context: ./
+      dockerfile: ./scripts/pocket/Dockerfile
+    env_file:
+      - api_env.env
   films_update:
-    build: ./scripts/films
-    environment:
-      NODE_ENV: prod
-      PORT: $PORT
-      PG_USERNAME: $PG_USERNAME
-      PG_PASS: $PG_PASS
-      PG_HOST: $PG_HOST
-      PG_PORT: $PG_PORT
-      PG_DB: $PG_DB
-      LETTERBOXD_KEY: $LETTERBOXD_KEY
+    build:
+      context: ./
+      dockerfile: ./scripts/films/Dockerfile
+    env_file:
+      - api_env.env
   articles_update:
-    build: ./scripts/articles
-    environment:
-      NODE_ENV: prod
-      PORT: $PORT
-      PG_USERNAME: $PG_USERNAME
-      PG_PASS: $PG_PASS
-      PG_HOST: $PG_HOST
-      PG_PORT: $PG_PORT
-      PG_DB: $PG_DB
+    build:
+      context: ./
+      dockerfile: ./scripts/articles/Dockerfile
+    env_file:
+      - api_env.env
