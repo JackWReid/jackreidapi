@@ -6,7 +6,7 @@ COPY ./scripts/articles/package*.json .
 RUN npm install
 
 COPY ./scripts/articles .
-COPY ./shared/* .
+COPY ./shared/* ./
 
 CMD [ "node", "update.js" ]
 

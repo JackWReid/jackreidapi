@@ -3,6 +3,8 @@ const express = require('express');
 const helmet = require('helmet');
 const morgan = require('morgan');
 
+const console = require('./log');
+
 const goodreads = require('./sources/goodreads');
 const letterboxd = require('./sources/letterboxd');
 const feedbin = require('./sources/feedbin');
@@ -15,8 +17,10 @@ const ENV = process.env.NODE_ENV || 'dev';
 
 const app = express();
 
+process.on('unhandledRejection', () => null);
+
 app.use(cors());
-app.use(morgan());
+app.use(morgan('short'));
 app.use(helmet());
 app.use(parseQuery);
 
@@ -29,72 +33,132 @@ app.get('/health', async function(req, res) {
 });
 
 app.get('/books/reading', async function(req, res) {
-  const reading = await goodreads.getReading(req.config);
-  return res.send(reading);
+  try {
+    const reading = await goodreads.getReading(req.config);
+    return res.send(reading);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
 });
 
 app.get('/books/toread', async function(req, res) {
-  const toread = await goodreads.getToRead(req.config);
-  return res.send(toread);
+  try {
+    const toread = await goodreads.getToRead(req.config);
+    return res.send(toread);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
 });
 
 app.get('/books/read', async function(req, res) {
-  const read = await goodreads.getRead(req.config);
-  return res.send(read);
+  try {
+    const read = await goodreads.getRead(req.config);
+    return res.send(read);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
 });
 
 app.get('/books/search/:search', async function(req, res) {
-  const counts = await goodreads.getSearch({
-    ...req.config,
-    search: req.params.search,
-  });
-  return res.send(counts);
+  try {
+    const counts = await goodreads.getSearch({
+      ...req.config,
+      search: req.params.search,
+    });
+    return res.send(counts);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
 });
 
 app.get('/books/count', async function(req, res) {
-  const counts = await goodreads.getCounts();
-  return res.send(counts);
+  try {
+    const counts = await goodreads.getCounts();
+    return res.send(counts);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
 });
 
 app.get('/films/watched', async function(req, res) {
-  const watched = await letterboxd.getWatched(req.config);
-  return res.send(watched);
+  try {
+    const watched = await letterboxd.getWatched(req.config);
+    return res.send(watched);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
 });
 
 app.get('/films/towatch', async function(req, res) {
-  const towatch = await letterboxd.getToWatch(req.config);
-  return res.send(towatch);
+  try {
+    const towatch = await letterboxd.getToWatch(req.config);
+    return res.send(towatch);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
 });
 
 app.get('/films/count', async function(req, res) {
-  const counts = await letterboxd.getCounts();
-  return res.send(counts);
+  try {
+    const counts = await letterboxd.getCounts();
+    return res.send(counts);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
 });
 
 app.get('/films/search/:search', async function(req, res) {
-  const films = await letterboxd.getSearch({
-    ...req.config,
-    search: req.params.search,
-  });
-  return res.send(films);
+  try {
+    const films = await letterboxd.getSearch({
+      ...req.config,
+      search: req.params.search,
+    });
+    return res.send(films);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
 });
 
 app.get('/pocket', async function(req, res) {
-  const links = await pocket.getLinks(req.config);
-  return res.send(links);
+  try {
+    const links = await pocket.getLinks(req.config);
+    return res.send(links);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
 });
 
 app.get('/pocket/search/:search', async function(req, res) {
-  const links = await pocket.getSearch({
-    ...req.config,
-    search: req.params.search,
-  });
-  return res.send(links);
+  try {
+    const links = await pocket.getSearch({
+      ...req.config,
+      search: req.params.search,
+    });
+    return res.send(links);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
 });
 
 app.get('/articles', async function(req, res) {
-  const articles = await feedbin.getLikes(req.config);
-  return res.send(articles);
+  try {
+    const articles = await feedbin.getLikes(req.config);
+    return res.send(articles);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
 });
 
 app.get('*', async function(req, res) {
@@ -102,4 +166,4 @@ app.get('*', async function(req, res) {
 });
 
 app.listen(PORT);
-console.log(`API listening localhost:${PORT} [${ENV}]`);
+console.log(`API listening localhost:${PORT}`);

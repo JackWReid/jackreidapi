@@ -12,7 +12,7 @@ COPY ./scripts/pocket/package*.json ./
 RUN npm install
 
 COPY ./scripts/pocket .
-COPY ./shared/* .
+COPY ./shared/* ./
 
 CMD [ "node", "update.js" ]
 

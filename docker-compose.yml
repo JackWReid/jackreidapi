@@ -8,6 +8,8 @@ services:
       - "3000:3000"
     env_file:
       - api_env.env
+    environment:
+      - APP=api
   pgadmin:
     image: dpage/pgadmin4:latest
     ports:

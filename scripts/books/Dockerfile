@@ -11,7 +11,7 @@ COPY ./scripts/books/package*.json ./
 RUN npm install
 
 COPY ./scripts/books .
-COPY ./shared/* .
+COPY ./shared/* ./
 
 CMD [ "node", "update.js" ]
 

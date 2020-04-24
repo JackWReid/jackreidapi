@@ -10,7 +10,7 @@ RUN npm install puppeteer
 RUN npm install
 
 COPY ./scripts/films .
-COPY ./shared/* .
+COPY ./shared/* ./
 
 CMD [ "node", "update.js" ]
 
