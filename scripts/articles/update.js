@@ -56,6 +56,7 @@ const FEEDBIN_FEED_URL =
   try {
     await db.runQuery(query);
     console.log('Finished update script');
+    process.exit(1);
   } catch (error) {
     if (error.code === '23505') {
       console.log(`Didn't insert duplicate "${insertItems[0].title}"`);
@@ -64,6 +65,7 @@ const FEEDBIN_FEED_URL =
       console.error(JSON.stringify(query));
       console.error(error);
       console.log('Ended on critical error');
+      process.exit(1);
     }
   }
   return;

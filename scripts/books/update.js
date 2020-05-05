@@ -105,6 +105,7 @@ async function insertRecords(records, status, db) {
     await insertRecords(read, 'read', db);
     fs.unlinkSync(`${DIR}/books.db`);
     console.log('Finished update script');
+    process.exit(0);
   } catch (err) {
     console.error(err);
     console.log('Ended on critical error');

@@ -167,6 +167,7 @@ async function fetchFilms() {
     await db.runQuery(SQL`DELETE FROM films`);
     const res = await insertRecords(merged, db);
     console.log('Finished update script');
+    process.exit(0);
   } catch (error) {
     console.error(error);
     console.log('Ended on critical error');
