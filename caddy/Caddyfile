@@ -1,0 +1,19 @@
+:80 {
+  root * /usr/share/caddy
+  file_server
+  log
+}
+
+api.jackreid.xyz {
+  reverse_proxy http://api:3000 {
+    health_path /health
+  }
+
+  log
+}
+
+dbadmin.jackreid.xyz {
+  reverse_proxy http://dbadmin:5000
+
+  log
+}

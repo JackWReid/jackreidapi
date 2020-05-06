@@ -1,5 +1,15 @@
 version: '3'
 services:
+  server:
+    image: caddy/caddy:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./caddy/index.html:/usr/share/caddy/index.html
+      - ./caddy/Caddyfile:/etc/caddy/Caddyfile
+    depends_on:
+      - api
+      - pgadmin
   api:
     build:
       context: ./
