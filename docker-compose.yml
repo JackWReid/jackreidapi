@@ -3,13 +3,11 @@ services:
   server:
     image: caddy/caddy:latest
     ports:
-      - "8080:80"
+      - "80:80"
+      - "443:443"
     volumes:
       - ./caddy/index.html:/usr/share/caddy/index.html
       - ./caddy/Caddyfile:/etc/caddy/Caddyfile
-    depends_on:
-      - api
-      - pgadmin
   api:
     build:
       context: ./
@@ -20,15 +18,16 @@ services:
       - api_env.env
     environment:
       - APP=api
-  pgadmin:
-    image: dpage/pgadmin4:latest
+  grafana:
+    image: grafana/grafana
     ports:
-      - "5000:80"
-    env_file:
-      - api_env.env
+    - "3001:3000"
+  prometheus:
+    image: prom/prometheus
+    ports:
+    - "9090:9090"
     volumes:
-      - ./pgadmin_servers.json:/pgadmin4/servers.json
-    restart: on-failure
+      - ./prometheus/config.yml:/etc/prometheus/prometheus.yml
   books_update:
     build:
       context: ./

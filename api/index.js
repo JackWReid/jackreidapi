@@ -2,6 +2,7 @@ const cors = require('cors');
 const express = require('express');
 const helmet = require('helmet');
 const morgan = require('morgan');
+const promBundle = require("express-prom-bundle");
 
 const console = require('./log');
 
@@ -16,9 +17,11 @@ const PORT = process.env.PORT || 3000;
 const ENV = process.env.NODE_ENV || 'dev';
 
 const app = express();
+const metricsMiddleware = promBundle({includeMethod: true, includePath: true});
 
 process.on('unhandledRejection', () => null);
 
+app.use(metricsMiddleware);
 app.use(cors());
 app.use(morgan('short'));
 app.use(helmet());
