@@ -8,8 +8,8 @@ async function getLinks({ sort, limit, offset }) {
     LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
-  lookupCounter.labels({type: 'pocket'}).inc();
-  lookupLength.labels({type: 'pocket'}).set(result.length);
+  lookupCounter.labels('pocket').inc();
+  lookupLength.labels('pocket').set(result.length);
   return result;
 }
 

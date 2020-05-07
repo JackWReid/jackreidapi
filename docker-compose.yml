@@ -8,7 +8,7 @@ services:
     volumes:
       - ./caddy/index.html:/usr/share/caddy/index.html
       - ./caddy/certs:/etc/caddy/certs
-       ./caddy/Caddyfile:/etc/caddy/Caddyfile
+      - ./caddy/Caddyfile:/etc/caddy/Caddyfile
   api:
     build:
       context: ./
