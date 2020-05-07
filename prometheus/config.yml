@@ -3,10 +3,12 @@ global:
   evaluation_interval: 15s
 
 scrape_configs:
-  - job_name: david
+  - job_name: prometheus
     static_configs:
     - targets: ['localhost:9090']
-
+  - job_name: grafana
+    static_configs:
+    - targets: ['grafana:3000']
   - job_name: api
     static_configs:
     - targets: ['api:3000']

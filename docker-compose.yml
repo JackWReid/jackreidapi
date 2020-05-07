@@ -7,7 +7,8 @@ services:
       - "443:443"
     volumes:
       - ./caddy/index.html:/usr/share/caddy/index.html
-      - ./caddy/Caddyfile:/etc/caddy/Caddyfile
+      - ./caddy/certs:/etc/caddy/certs
+       ./caddy/Caddyfile:/etc/caddy/Caddyfile
   api:
     build:
       context: ./
