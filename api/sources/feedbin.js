@@ -8,8 +8,8 @@ async function getLikes({sort, limit, offset}) {
     LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
-  lookupCounter.labels({type: 'likes'}).incr();
-  lookupLength.labels({type: 'likes'}).set(result.length);
+  lookupCounter.labels('likes').inc();
+  lookupLength.labels('likes').set(result.length);
   return result;
 }
 

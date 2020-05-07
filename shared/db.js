@@ -2,12 +2,12 @@ const {Pool} = require('pg');
 const promClient = require('prom-client');
 const console = require('./log');
 
-const reqCounter = new client.Counter({
+const reqCounter = new promClient.Counter({
   name: 'db_upstream_request_total',
   help: 'Total database calls sent from the API',
 });
 
-const reqTiming = new client.Gauge({
+const reqTiming = new promClient.Gauge({
   name: 'db_upstream_timing',
   help: 'Timing for upstream database calls sent from API',
 });
@@ -28,7 +28,7 @@ const pool = new Pool({
 async function runQuery(query) {
   const queryPreview = typeof query === 'string' ? tr(query, 1000) : tr(JSON.stringify(query), 1000);
   const start = Date.now();
-  reqCounter.incr();
+  reqCounter.inc();
   reqTiming.setToCurrentTime();
   const endTimer = reqTiming.startTimer();
   return pool.query(query).then(res => {

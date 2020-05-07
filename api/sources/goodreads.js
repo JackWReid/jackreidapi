@@ -9,8 +9,8 @@ async function getReading({sort, limit, offset}) {
     LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
-  lookupCounter.labels({type: 'books-reading'}).incr();
-  lookupLength.labels({type: 'books-reading'}).set(result.length);
+  lookupCounter.labels('books-reading').inc();
+  lookupLength.labels('books-reading').set(result.length);
   return result;
 }
 
@@ -22,8 +22,8 @@ async function getRead({sort, limit, offset}) {
     LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
-  lookupCounter.labels({type: 'books-read'}).incr();
-  lookupLength.labels({type: 'books-read'}).set(result.length);
+  lookupCounter.labels('books-read').inc();
+  lookupLength.labels('books-read').set(result.length);
   return result;
 }
 
@@ -35,8 +35,8 @@ async function getToRead({sort, limit, offset}) {
     LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
-  lookupCounter.labels({type: 'books-toread'}).incr();
-  lookupLength.labels({type: 'books-toread'}).set(result.length);
+  lookupCounter.labels('books-toread').inc();
+  lookupLength.labels('books-toread').set(result.length);
   return result;
 }
 

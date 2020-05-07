@@ -6,6 +6,7 @@ const promBundle = require('express-prom-bundle');
 const promClient = require('prom-client');
 
 const console = require('./log');
+const {reqMetricMiddleware} = require('./metrics');
 
 const goodreads = require('./sources/goodreads');
 const letterboxd = require('./sources/letterboxd');
@@ -24,7 +25,7 @@ const metricsMiddleware = promBundle({includeMethod: true, includePath: true});
 process.on('unhandledRejection', () => null);
 
 app.use(metricsMiddleware);
-app.use(ownMetrics);
+app.use(reqMetricMiddleware);
 app.use(cors());
 app.use(morgan('short'));
 app.use(helmet());
