@@ -1,4 +1,5 @@
 const {runQuery} = require('../db');
+const {lookupCounter, lookupLength} = require('../metrics');
 
 async function getToWatch({sort, limit, offset}) {
   const query = `
@@ -8,6 +9,8 @@ async function getToWatch({sort, limit, offset}) {
     LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
+  lookupCounter.labels({type: 'films-towatch'}).incr();
+  lookupLength.labels({type: 'films-towatch'}).set(result.length);
   return result;
 }
 
@@ -19,6 +22,8 @@ async function getWatched({sort, limit, offset}) {
     LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
+  lookupCounter.labels({type: 'films-watched'}).incr();
+  lookupLength.labels({type: 'films-watched'}).set(result.length);
   return result;
 }
 

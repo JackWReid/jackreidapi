@@ -2,7 +2,8 @@ const cors = require('cors');
 const express = require('express');
 const helmet = require('helmet');
 const morgan = require('morgan');
-const promBundle = require("express-prom-bundle");
+const promBundle = require('express-prom-bundle');
+const promClient = require('prom-client');
 
 const console = require('./log');
 
@@ -17,11 +18,13 @@ const PORT = process.env.PORT || 3000;
 const ENV = process.env.NODE_ENV || 'dev';
 
 const app = express();
+promClient.collectDefaultMetrics();
 const metricsMiddleware = promBundle({includeMethod: true, includePath: true});
 
 process.on('unhandledRejection', () => null);
 
 app.use(metricsMiddleware);
+app.use(ownMetrics);
 app.use(cors());
 app.use(morgan('short'));
 app.use(helmet());
@@ -170,3 +173,24 @@ app.get('*', async function(req, res) {
 
 app.listen(PORT);
 console.log(`API listening localhost:${PORT}`);
+
+process.on('SIGTERM', shutDown);
+process.on('SIGINT', shutDown);
+
+function shutDown() {
+  console.log('Received kill signal, shutting down gracefully');
+  server.close(() => {
+    console.log('Closed out remaining connections');
+    process.exit(0);
+  });
+
+  setTimeout(() => {
+    console.error(
+      'Could not close connections in time, forcefully shutting down',
+    );
+    process.exit(1);
+  }, 10000);
+
+  connections.forEach(curr => curr.end());
+  setTimeout(() => connections.forEach(curr => curr.destroy()), 5000);
+}

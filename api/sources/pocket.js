@@ -1,4 +1,5 @@
 const { runQuery } = require('../db');
+const {lookupCounter, lookupLength} = require('../metrics');
 
 async function getLinks({ sort, limit, offset }) {
   const query = `
@@ -7,6 +8,8 @@ async function getLinks({ sort, limit, offset }) {
     LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
+  lookupCounter.labels({type: 'pocket'}).incr();
+  lookupLength.labels({type: 'pocket'}).set(result.length);
   return result;
 }
 
