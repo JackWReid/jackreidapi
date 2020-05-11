@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="homepage-logo"></div>
+<p aria-hidden="true" class="homepage-title">{{ .Site.Title }}</p>
+<article class="homepage-article">
+{{ .Content }}
+{{- partial "recent_highlights.html" . -}}
+{{- partial "recent_links.html" . -}}
+</article>
+{{ end }}

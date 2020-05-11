@@ -1,0 +1,26 @@
+{{ define "main" }}
+<main>
+  <article>
+    <header>
+      <h1 class="page-title">{{.Title}}</h1>
+    </header>
+    {{.Content}}
+  </article>
+  {{ $paginator := .Paginate .Pages }}
+  <ul class="post-list__list">
+    {{ range .Pages }}
+    <li class="post-list__list-item h-entry">
+      <h2 class="post-list__list-item-title">
+        <a class="p-name" href="{{.Permalink}}">{{ .Title }}</a>
+      </h2>
+      <h3 class="post-list__list-item-subtitle">{{.Params.subtitle}}</h3>
+      <time class="post-list__list-item-date">
+        {{ .Date.Format "2 January 2006" }}
+      </time>
+      <p class="post-list__list-item-summary p-summary">{{.Summary}}</p>
+    </li>
+    {{ end }}
+  </ul>
+  {{ partial "pagination.html" . }}
+</main>
+{{ end }}

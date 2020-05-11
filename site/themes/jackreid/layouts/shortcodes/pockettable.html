@@ -1,0 +1,21 @@
+{{ $scratch := newScratch }}
+{{ $data := "nil" }}
+{{ $scratch.Set "limit" (.Get "limit" | default 100000) }}
+{{ $data = first ($scratch.Get "limit") $.Site.Data.pocket }}
+
+<table class="media-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $data }}
+    <tr>
+      <td class="media-table__date">{{ dateFormat "2 Jan '06" .date_updated }}</td>
+      <td class="media-table__title"><a href="{{ .link }}">{{ .title }}</a></td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>

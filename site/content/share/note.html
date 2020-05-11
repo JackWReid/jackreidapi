@@ -1,0 +1,18 @@
+---
+title: Share Note
+url: /share/note
+layout: baseof
+date: 2020-04-27T09:51:00+01:00
+draft: false
+---
+
+<form class="share-form" action="#" id="noteform" onsubmit="onSubmit(event)">
+  <label for="body">Body</label>
+  <textarea id="body" required></textarea>
+  <label for="ghtoken">Token</label>
+  <input id="ghtoken" required />
+  <input type="submit" value="Post" />
+  <p id="submitmessage"></p>
+</form>
+
+<script src="/share/submit-note.js"></script>

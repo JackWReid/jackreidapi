@@ -1,0 +1,26 @@
+---
+title: Share Highlight
+url: /share/highlight
+layout: baseof
+date: 2019-07-23T15:51:00+01:00
+draft: false
+---
+
+<form class="share-form" action="#" id="noteform" onsubmit="onSubmit(event)">
+  <label for="title">Title</label>
+  <input id="title" placeholder="Boss Fosse & Rihanna" required />
+  <label for="body">Body</label>
+  <textarea id="body" placeholder="Use markdown" required></textarea>
+  <label for="tags">Tags</label>
+  <input id="tags" placeholder="comma, separated" required/>
+  <label for="slug">Slug</label>
+  <input id="slug" placeholder="hyphen-format-please" required/>
+  <label for="ghtoken">Token</label>
+  <input id="ghtoken" required />
+  <input type="submit" value="Post" />
+  <p id="submitmessage"></p>
+
+  <a href="javascript:(function(){var title=document.getElementsByTagName('title')[0].innerHTML;title=encodeURIComponent(title);var selection='';if(window.getSelection){selection=window.getSelection().toString()}else if(document.selection&&document.selection.type!='Control'){selection=document.selection.createRange().text}selection=encodeURIComponent(selection);var url='https://jackreid.xyz/share/highlight/?title='+title+'&body='+selection+'&url='+encodeURIComponent(document.location.href);var opts='resizable,scrollbars,status=0,toolbar=0,menubar=0,titlebar=0,width=680,height=700,location=0';window.open(url,'Sharer',opts)})();">Highlight —> xyz</a>
+</form>
+
+<script src="/share/submit-highlight.js"></script>

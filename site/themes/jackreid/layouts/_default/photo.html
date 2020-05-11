@@ -1,0 +1,24 @@
+{{ define "main" }}
+<main>
+  <article>
+    <header>
+      <h1 class="page-title">{{.Title}}</h1>
+    </header>
+    {{.Content}}
+  </article>
+  {{ $paginator := .Paginate (where .Pages "Type" "photo") }}
+  <ul class="photo-list__list">
+    {{ range $paginator.Pages }}
+      <li class="photo-list__list-item">
+        <h2 class="photo-list__list-item-title">{{ .Title }}</h2>
+        <a class="photo-list__list-item-permalink" href="{{.Permalink}}">{{.Date.Format "2 January 2006"}}</a>
+        {{ with index (.Resources.ByType "image") 0 }}
+          {{ $image := .Resize "800x" }}
+          <img src="{{ $image.RelPermalink | absURL }}" alt="{{ .Title }}">
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+  {{ partial "pagination.html" . }}
+</main>
+{{ end }}

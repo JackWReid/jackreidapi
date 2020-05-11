@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{ if or (eq .Section "highlight") (eq .Section "post") }}
+{{- partial "section_nav.html" .}}
+{{ end }}
+<section class="h-entry single-article__main single-article__main--{{ .Section }}">
+  {{ if ne .Kind "page" }}
+  <time class="single-article__date">
+    <a href="{{ .Permalink }}">{{ .Date.Format "2 January 2006" }}</a>
+  </time>
+  {{ end }}
+
+  {{ if eq .Section "about" }}
+  <h2 class="page-title">{{ .Title }}</h2>
+  {{ else }}
+    {{ if and (.Title) (ne .Section "note") }}
+    <h2 class="p-name single-article__title">{{ .Title }}</h2>
+    {{ end }}
+  {{ end }}
+  {{ if .Params.subtitle }}
+    <h3 class="single-article__subtitle">{{ .Params.subtitle }}</h3>
+  {{ end }}
+  <article class="single-article__article">
+    {{ with .Resources.ByType "image" }}
+      {{ range . }}
+        {{ $image := .Resize "800x" }}
+        <img class="single-article__resource-image" src="{{ $image.RelPermalink | absURL }}" alt="{{ .Name }}">
+      {{ end }}
+    {{ end }}
+    {{ if eq .Section "note" }}
+    {{- partial "card/note.html" . -}}
+    {{ else }}
+    <div class="e-content">
+      {{ .Content }}
+    </div>
+    {{ end }}
+  </article>
+</section>
+<aside>
+  {{ with .Params.tags }}
+  <ul class="single-tags-list">
+    {{ range . }}
+    <li class="single-tags-list__item">
+      <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</aside>
+{{ end }}

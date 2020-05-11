@@ -1,0 +1,12 @@
+<ul class="recent-highlights">
+  <h3>Recent Highlights</h3>
+  <ul>
+  {{ range first 5 (where .Site.Pages "Section" "highlight") }}
+    {{ if ne .Title "Highlights" }}
+    <li>
+      {{- partial "card/highlight.html" . -}}
+    </li>
+    {{ end }}
+  {{ end }}
+  </ul>
+</ul>

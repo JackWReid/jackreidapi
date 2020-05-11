@@ -1,0 +1,15 @@
+<nav class="single-sequence-nav">
+  <h2 class="single-sequence-nav__title">{{ .Section }}s</h2>
+  <ul class="single-sequence-nav__list">
+    {{ with .PrevInSection }}
+    <li class="single-sequence-nav__list-item">
+      <a class="single-sequence-nav__previous" href="{{.Permalink}}"> {{.Title}}</a>
+    </li>
+    {{ end }}
+    {{ with .NextInSection }}
+    <li class="single-sequence-nav__list-item">
+      <a class="single-sequence-nav__next" href="{{.Permalink}}"> {{.Title}}</a>
+    </li>
+    {{ end }}
+  </ul>
+</nav>

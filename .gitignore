@@ -1,4 +1,14 @@
+node_modules
+npm-debug.log*
+
 .DS_Store
+.Ulysses-Group.plist
+
 .env
 api_env.env
 caddy/certs
+
+site/build
+site/public
+site/resources
+site/node_modules

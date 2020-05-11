@@ -1,0 +1,21 @@
+---
+title: "Tinkering"
+subtitle: "A Thank You"
+date: 2016-08-22T15:03:42+01:00
+draft: false
+tags:
+  - tech
+---
+
+I spend a lot of my time picking apart how things work, and a lot of time sticking things together to see if they work in the way that I hope. That’s tinkering. I’ve been thinking about how I first started working this way.
+
+I remember when I was a kid, I spent long days in my dad’s office. His office was actually a garage, a separate building from the house, across the back yard. He had his main desk in the corner, three computers lined up underneath with one of those boxy, ninetees monitors on top. His workspace was never clear and minimal; he was always snowed in with papers, and pieces of circuit board. He had slapped together racks of power supplies and oscilloscopes that spouted wires with little plugs and clips on the ends. On the other side of room was a standing workbench with even more electronics equipment: a soldering iron and endless reels of solder that I used to bend into animal shapes, breadboards and bags of loose microchips. Piled up in the warmest corner of the often chilly building was a set of servers, keyboards, and monitors. Somewhere between three and six servers were built into standard PC boxes, linked up by an octopus of Ethernet cables, VGA leads, and KVM switches.
+
+My dad let me loose on these machines far too often. He taught me that I could get to a pretty usable graphical interface if I used X11 on these Linux boxes. He also told me that if I wanted to, I could achieve whatever I wanted to without opening up that graphical interface, I just had to learn the right commands. I often tried to teach myself the depth of these commands by plucking a huge reference book from the wall-length shelves and poring through it to find some meaning. There were scores of O’Reilly references on Perl, C++, Bash, and Linux on those shelves, as well as more involved documentation for specific microchips printed out and spiral bound. I didn’t scrape the surface of these volumes, really. I always liked the smell of books and surrounding myself with things that looked impossibly complicated, but that doesn’t mean I was really taking anything from them.
+
+I learned by tinkering. I broke things over and over again by deleting things I shouldn’t have, editing crucial text files on Linux systems after begging my dad for the root password (on the condition that I wouldn’t break anything). It went all the way to the hardware level. Thanks to all the spare cases and components lying around, I easily had enough to work with to build some PCs, and I often did. I had my own desktop computer and I added hard drives and other stuff by cannibalising the unplugged boxes’ innards.
+
+It was an education, and I’m incredibly thankful for it.
+Nowadays, I spend a ton of time trying to get to grips with new ways of working so I can build what I want. It’s a little different now, but not too much. Back then I was tinkering just for the sake of play, coming up with totally contrived projects to occupy my time and to help me understand. I still come up with projects all my own. I swear and plug things together until they explode for hours, trying to bash what little knowledge I have into the shape of what I want. The difference is that now, other people sometimes see these projects when they’re “done”, whatever the hell that is. Where I used to be building text adventure games on battered old Linux machines, I now build websites that everybody can see, and many people use. It’s pretty far from how things used to be, sat on the carpet wiggling the broken pins of a VGA cable.
+
+I’m still tinkering. Right now I’m trying to get my head around the latest batch of exciting web technologies. My biggest hope is that people continue to let me tinker with these things try and find solutions, and to build projects that I find cool. My dad let me while away whole afternoons, days, just messing around. Luckily, my time at university has let me burn hours on poking around things and trying to build things that might never go anywhere — and that’s yielded some great results for me. In the future, here’s hoping I get a job where people might even pay me to tinker at compelling problems until they do something impressive.

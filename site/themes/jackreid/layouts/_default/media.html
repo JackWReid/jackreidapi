@@ -1,0 +1,31 @@
+{{ define "main" }}
+<nav class="single-static-nav">
+  <h2 class="single-static-nav__title">Media</h2>
+  <ul class="single-static-nav__list">
+    <li class="single-static-nav__list-item">
+      <a href="{{ "/books/read" | absURL }}">Read</a>
+    </li>
+    <li class="single-static-nav__list-item">
+      <a href="{{ "/books/reading" | absURL }}">Reading</a>
+    </li>
+    <li class="single-static-nav__list-item">
+      <a href="{{ "/books/toread" | absURL }}">To Read</a>
+    </li>
+    <li class="single-static-nav__list-item">
+      <a href="{{ "/films/watched" | absURL }}">Watched</a>
+    </li>
+    <li class="single-static-nav__list-item">
+      <a href="{{ "/films/towatch" | absURL }}">To Watch</a>
+    </li>
+    <li class="single-static-nav__list-item">
+      <a href="{{ "/articles/liked" | absURL }}">Liked Articles</a>
+    </li>
+    <li class="single-static-nav__list-item">
+      <a href="{{ "/articles/saved" | absURL }}">Saved Articles</a>
+    </li>
+  </ul>
+</nav>
+<article>
+  {{ .Content }}
+</article>
+{{ end }}

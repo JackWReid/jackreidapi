@@ -1,0 +1,51 @@
+backend:
+  name: git-gateway
+  branch: master
+
+site_url: "https://jackreid.xyz"
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: note
+    label: Note
+    folder: "content/note"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}T{{hour}}-{{minute}}-{{second}}"
+    fields:
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Title", name: "title", widget: "string" }
+  - name: post
+    label: Post
+    folder: "content/post"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}T{{hour}}-{{minute}}-{{second}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: highlight
+    label: Highlight
+    folder: "content/highlight"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}T{{hour}}-{{minute}}-{{second}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: link
+    label: Link
+    folder: "content/link"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}T{{hour}}-{{minute}}-{{second}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }

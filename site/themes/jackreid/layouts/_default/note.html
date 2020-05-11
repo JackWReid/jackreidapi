@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main>
+  <article>
+    <header>
+      <h1 class="page-title">{{.Title}}</h1>
+    </header>
+    {{.Content}}
+  </article>
+  {{ $paginator := .Paginate .Pages }}
+  <ul class="note-list__list">
+    {{ range $paginator.Pages }}
+    <li>
+      {{- partial "card/note.html" .}}
+    </li>
+    {{ end }}
+  </ul>
+  {{ partial "pagination.html" . }}
+</main>
+{{ end }}

@@ -1,0 +1,22 @@
+<footer class="site-footer">
+  <nav class="site-footer__nav">
+    <ul class="site-footer__nav-list">
+      <li><a rel="me" href="mailto:hello@jackreid.xyz">hello@jackreid.xyz</a></li>
+      <li><a rel="me" href="https://twitter.com/jackreid">Twitter</a></li>
+      <li><a rel="me" href="https://instagram.com/jackwreid">Instagram</a></li>
+      <li><a rel="me" href="https://linkedin.com/in/jackwreid">LinkedIn</a></li>
+      <li><a rel="me" href="https://mastodon.social/@jackreid">Mastodon</a></li>
+    </ul>
+  </nav>
+</footer>
+ <script>
+if (window.netlifyIdentity) {
+  window.netlifyIdentity.on('init', user => {
+    if (!user) {
+      window.netlifyIdentity.on('login', () => {
+        document.location.href = '/admin/';
+      });
+    }
+  });
+}
+ </script>

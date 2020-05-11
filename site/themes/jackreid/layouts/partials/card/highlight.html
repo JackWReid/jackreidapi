@@ -1,0 +1,14 @@
+<div class="h-entry highlight-card">
+  <a href="{{.Permalink}}">{{.Date.Format "2 January 2006"}}</a>
+  <h3 class="p-title highlight-card__title">{{ .Title }}</h3>
+  <div class="e-content">{{ .Content }}</div>
+  {{ with .Params.tags }}
+  <ul class="single-tags-list">
+    {{ range . }}
+    <li class="single-tags-list__item">
+      <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</div>

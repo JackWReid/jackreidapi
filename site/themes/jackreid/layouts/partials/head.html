@@ -1,0 +1,48 @@
+<head>
+  <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Summary }}{{ end }} | {{ .Site.Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  {{ if or (eq .Section "note") (eq .Section "post") }}
+  <meta name="description" content="{{ .Content | truncate 200 }}">
+  {{ else }}
+    {{ if .IsHome }}
+      <meta name="description" content="I'm a software engineer working at BuzzFeed in London. I also do a little bit of photography, a lot of reading, and a bit of writing.">
+    {{ else }}
+      <meta name="description" content="{{ .Content | truncate 200 }}">
+    {{ end }}
+  {{ end }}
+
+  <link rel="icon" type="image/png" href="{{ "favicon.png" | absURL }}" />
+  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+  <link href="https://fonts.googleapis.com/css?family=VT323&display=swap&text=jackreidnoideam8" rel="stylesheet">
+  {{ range .AlternativeOutputFormats -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
+  <meta property="og:site_name" content="{{ .Site.Title }}" />
+  <meta property="og:locale" content="{{ .Site.LanguageCode }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@jackreid" />
+  <meta name="twitter:creator" content="@jackreid" />
+
+  {{ if eq .Section "photo" }}
+    {{ with index (.Resources.ByType "image") 0 }}
+    {{ $image := .Fit "600x300" }}
+    <meta property="og:image" content="{{ $image.RelPermalink | absURL }}">
+    <meta name="twitter:image" content="{{ $image.RelPermalink | absURL }}">
+    {{ end }}
+  {{ else }}
+    <meta property="og:image" content="{{ "/open-graph.png" | absURL }}">
+    <meta name="twitter:image" content="{{ "/open-graph.png" | absURL }}">
+  {{ end }}
+
+  {{ if or (eq .Section "note") (eq .Section "post") }}
+    <meta name="twitter:description" content="{{ .Content | truncate 100 }}">
+  {{ end }}
+
+  <!--<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>-->
+</head>

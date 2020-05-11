@@ -1,0 +1,33 @@
+{{ $scratch := newScratch }}
+
+{{ $data := "nil" }}
+
+{{ $key := .Get "key" }}
+{{ $scratch.Set "limit" (.Get "limit" | default 10000) }}
+
+{{ if eq $key "read" }}
+  {{ $data = first ($scratch.Get "limit") $.Site.Data.books.read }}
+{{ else if eq $key "reading" }}
+  {{ $data = first ($scratch.Get "limit") $.Site.Data.books.reading }}
+{{ else if eq $key "toread" }}
+  {{ $data = first ($scratch.Get "limit") $.Site.Data.books.toread }}
+{{ end }}
+
+<table class="media-table media-table--book">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+      <th>Author</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $data }}
+    <tr>
+      <td class="media-table__date">{{ dateFormat "2 Jan '06" .date_updated }}</td>
+      <td class="media-table__title">{{ .title }}</td>
+      <td class="media-table__author">{{ .author }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>

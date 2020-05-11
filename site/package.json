@@ -1,0 +1,28 @@
+{
+  "name": "jackreid.xyz",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "netlify dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackWReid/personal-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackWReid/personal-website/issues"
+  },
+  "homepage": "https://github.com/JackWReid/personal-website#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "netlify-cli": "^2.12.0"
+  }
+}
