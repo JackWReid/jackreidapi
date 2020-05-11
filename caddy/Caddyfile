@@ -31,7 +31,7 @@
      health_interval 5m
    }
 
-   tls {
-    ca https://acme-staging-v02.api.letsencrypt.org/directory
+   tls /etc/caddy/certs/cert.pem /etc/caddy/certs/privkey.pem {
+    #ca https://acme-staging-v02.api.letsencrypt.org/directory
    }
  }
