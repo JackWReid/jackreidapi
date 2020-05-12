@@ -10,7 +10,7 @@ jackreid.xyz {
   }
 
   log {
-    output net api:3000/log
+    output file /etc/caddy/logs/server_log
   }
 }
 

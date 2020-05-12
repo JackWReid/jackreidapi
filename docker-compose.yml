@@ -6,9 +6,9 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./caddy/index.html:/usr/share/caddy/index.html
       - ./caddy/certs:/etc/caddy/certs
       - ./caddy/Caddyfile:/etc/caddy/Caddyfile
+      - ./caddy/logs:/etc/caddy/logs
       - ./site_output:/usr/share/caddy/site
   api:
     build:
@@ -41,6 +41,12 @@ services:
     - "9090:9090"
     volumes:
       - ./prometheus/config.yml:/etc/prometheus/prometheus.yml
+  log_upload:
+    build:
+      content: ./
+      dockerfile: ./scripts/logs/Dockerfile
+    volumes:
+      - ./caddy/logs:/logs
   books_update:
     build:
       context: ./
