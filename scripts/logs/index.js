@@ -1,14 +1,23 @@
 const fs = require('fs');
+const https = require('https');
 const path = require('path');
 const axios = require('axios');
 
-const DIR = path.resolve('./');
 const UPDATE_INTERVAL = 1000 * 60 * 5; // 5 minutes
-const LOG_PATH = `${DIR}/logs/server_log`;
+const LOG_PATH = `/logs/server_log`;
 const LOG_ENDPOINT = 'https://api.jackreid.xyz/log';
 
+const ax = axios.create({
+  httpsAgent: new https.Agent({
+    rejectUnauthorized: false,
+  }),
+});
+
 function readLogFile() {
-  return fs.readFileSync(LOG_PATH, 'utf8').split('\n');
+  return fs
+    .readFileSync(LOG_PATH, 'utf8')
+    .split('\n')
+    .filter(c => c.length > 0);
 }
 
 (async function main() {
@@ -16,18 +25,31 @@ function readLogFile() {
     console.log('Running log upload script');
     const logLines = readLogFile();
     let ok = 0;
+    let dup = 0;
     let fail = 0;
-    for (let i; i > logLines.length; i++) {
+    for (let i = 0; i < logLines.length; i++) {
       try {
-        const res = await axios.post(LOG_ENDPOINT, JSON.parse(logLines[i]));
-        console.log(res);
+        const body = JSON.parse(logLines[i]);
+        const res = await ax.post(LOG_ENDPOINT, body);
+        ok++;
       } catch (error) {
-        console.error(error);
-        console.error('Inserting log failed');
+        let usefulErr = error;
+        if (error.response) {
+          usefulErr = error.response.data.error;
+        }
+
+        if (usefulErr.includes('duplicate')) {
+          dup++;
+          ok++;
+        } else {
+          console.error(usefulErr);
+          console.error('Inserting log failed');
+          fail++;
+        }
       }
     }
 
-    console.log(`Done: [ok: ${ok}, fail: ${fail}]`);
+    console.log(`Done: [ok: ${ok} (${dup} dup), fail: ${fail}]`);
     process.exit(0);
   } catch (error) {
     console.error(error);
