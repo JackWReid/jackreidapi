@@ -43,7 +43,7 @@ services:
       - ./prometheus/config.yml:/etc/prometheus/prometheus.yml
   log_upload:
     build:
-      content: ./
+      context: ./
       dockerfile: ./scripts/logs/Dockerfile
     volumes:
       - ./caddy/logs:/logs
