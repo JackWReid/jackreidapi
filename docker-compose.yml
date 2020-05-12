@@ -9,6 +9,7 @@ services:
       - ./caddy/index.html:/usr/share/caddy/index.html
       - ./caddy/certs:/etc/caddy/certs
       - ./caddy/Caddyfile:/etc/caddy/Caddyfile
+      - ./site_output:/usr/share/caddy/site
   api:
     build:
       context: ./
@@ -20,13 +21,16 @@ services:
     environment:
       - APP=api
   site:
-    image: dceoy/hugo
-    command: "server --bind=0.0.0.0 --ignoreCache /"
-    working_dir: /site
+    image: jojomi/hugo:latest
+    volumes:
+      - ./site/:/src
+      - ./site_output/:/output
+    restart: always
     ports:
       - "1313:1313"
-    volumes:
-      - ./site:/site
+    environment:
+      - HUGO_BASEURL=https://jackreid.xyz
+      - HUGO_THEME=jackreid
   grafana:
     image: grafana/grafana
     ports:
