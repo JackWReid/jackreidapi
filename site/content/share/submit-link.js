@@ -1,10 +1,9 @@
 const API_FILE_TARGET =
-  'https://api.github.com/repos/JackWReid/jackreid.xyz/contents/content/link/';
+  'https://api.github.com/repos/JackWReid/jackreidapi/contents/site/content/link/';
 
 const formEl = document.querySelector('form');
 const titleEl = formEl.querySelector('#title');
 const linkEL = formEl.querySelector('#link');
-const slugEl = formEl.querySelector('#slug');
 const tokenEl = formEl.querySelector('#ghtoken');
 
 const params = parseQs(location.search.split('?')[1]);

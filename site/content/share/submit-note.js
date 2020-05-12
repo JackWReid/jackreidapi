@@ -1,5 +1,5 @@
 const API_FILE_TARGET =
-  'https://api.github.com/repos/JackWReid/jackreid.xyz/contents/content/note/';
+  'https://api.github.com/repos/JackWReid/jackreidapi/contents/site/content/note/';
 
 const formEl = document.querySelector('form');
 const bodyEl = formEl.querySelector('#body');
