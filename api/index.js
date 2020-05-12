@@ -1,5 +1,6 @@
 const cors = require('cors');
 const express = require('express');
+const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const morgan = require('morgan');
 const promBundle = require('express-prom-bundle');
@@ -12,6 +13,7 @@ const goodreads = require('./sources/goodreads');
 const letterboxd = require('./sources/letterboxd');
 const feedbin = require('./sources/feedbin');
 const pocket = require('./sources/pocket');
+const logs = require('./sources/logs');
 
 const parseQuery = require('./parseQuery');
 
@@ -29,6 +31,7 @@ app.use(reqMetricMiddleware);
 app.use(cors());
 app.use(morgan('short'));
 app.use(helmet());
+app.use(bodyParser());
 app.use(parseQuery);
 
 app.get('/', async function(req, res) {
@@ -168,6 +171,16 @@ app.get('/articles', async function(req, res) {
   }
 });
 
+app.post('/log', async function(req, res) {
+  try {
+    const result = await logs.postLog(req.body);
+    return res.send(result);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
+});
+
 app.get('*', async function(req, res) {
   return res.status(404).send({error: 'not found'});
 });
@@ -180,18 +193,5 @@ process.on('SIGINT', shutDown);
 
 function shutDown() {
   console.log('Received kill signal, shutting down gracefully');
-  server.close(() => {
-    console.log('Closed out remaining connections');
-    process.exit(0);
-  });
-
-  setTimeout(() => {
-    console.error(
-      'Could not close connections in time, forcefully shutting down',
-    );
-    process.exit(1);
-  }, 10000);
-
-  connections.forEach(curr => curr.end());
-  setTimeout(() => connections.forEach(curr => curr.destroy()), 5000);
+  process.exit(0);
 }
