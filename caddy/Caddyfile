@@ -4,10 +4,13 @@
 
 jackreid.xyz {
   encode gzip
-  log
 
   file_server * {
     root /usr/share/caddy/site
+  }
+
+  log {
+    output net api:3000/log
   }
 }
 
