@@ -31,16 +31,6 @@ services:
     environment:
       - HUGO_BASEURL=https://jackreid.xyz
       - HUGO_THEME=jackreid
-  grafana:
-    image: grafana/grafana
-    ports:
-    - "3001:3000"
-  prometheus:
-    image: prom/prometheus
-    ports:
-    - "9090:9090"
-    volumes:
-      - ./prometheus/config.yml:/etc/prometheus/prometheus.yml
   log_upload:
     build:
       context: ./

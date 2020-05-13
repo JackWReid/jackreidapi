@@ -38,29 +38,3 @@ api.jackreid.xyz {
     output file /etc/caddy/logs/server_log
   }
 }
-
-prometheus.jackreid.xyz {
-  encode gzip
-
-  reverse_proxy http://prometheus:9090 {
-    health_path /
-    health_interval 5m
-  }
-
-  log {
-    output file /etc/caddy/logs/server_log
-  }
-}
-
-grafana.jackreid.xyz {
-  encode gzip
-
-  reverse_proxy * http://grafana:3000 {
-    health_path /
-    health_interval 5m
-  }
-
-  log {
-    output file /etc/caddy/logs/server_log
-  }
-}

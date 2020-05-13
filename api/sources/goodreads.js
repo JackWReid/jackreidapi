@@ -1,5 +1,4 @@
 const {runQuery} = require('../db');
-const {lookupCounter, lookupLength} = require('../metrics');
 
 async function getReading({sort, limit, offset}) {
   const query = `
@@ -9,8 +8,6 @@ async function getReading({sort, limit, offset}) {
     LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
-  lookupCounter.labels('books-reading').inc();
-  lookupLength.labels('books-reading').set(result.length);
   return result;
 }
 
@@ -22,8 +19,6 @@ async function getRead({sort, limit, offset}) {
     LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
-  lookupCounter.labels('books-read').inc();
-  lookupLength.labels('books-read').set(result.length);
   return result;
 }
 
@@ -35,8 +30,6 @@ async function getToRead({sort, limit, offset}) {
     LIMIT ${limit} OFFSET ${offset};
   `;
   const result = await runQuery(query);
-  lookupCounter.labels('books-toread').inc();
-  lookupLength.labels('books-toread').set(result.length);
   return result;
 }
 

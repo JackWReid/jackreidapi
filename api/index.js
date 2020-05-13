@@ -3,11 +3,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const morgan = require('morgan');
-const promBundle = require('express-prom-bundle');
-const promClient = require('prom-client');
 
 const console = require('./log');
-const {reqMetricMiddleware} = require('./metrics');
 
 const goodreads = require('./sources/goodreads');
 const letterboxd = require('./sources/letterboxd');
@@ -21,17 +18,13 @@ const PORT = process.env.PORT || 3000;
 const ENV = process.env.NODE_ENV || 'dev';
 
 const app = express();
-promClient.collectDefaultMetrics();
-const metricsMiddleware = promBundle({includeMethod: true, includePath: true});
 
 process.on('unhandledRejection', () => null);
 
-app.use(metricsMiddleware);
-app.use(reqMetricMiddleware);
 app.use(cors());
 app.use(morgan('short'));
 app.use(helmet());
-app.use(bodyParser());
+app.use(bodyParser.json());
 app.use(parseQuery);
 
 app.get('/', async function(req, res) {
