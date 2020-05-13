@@ -26,12 +26,18 @@ function readLogFile() {
     const logLines = readLogFile();
     let ok = 0;
     let dup = 0;
+    let hid = 0;
     let fail = 0;
     for (let i = 0; i < logLines.length; i++) {
       try {
         const body = JSON.parse(logLines[i]);
-        const res = await ax.post(LOG_ENDPOINT, body);
-        ok++;
+        if (JSON.parse(body.request).uri === '/log') {
+          hid++;
+          ok++;
+        } else {
+          const res = await ax.post(LOG_ENDPOINT, body);
+          ok++;
+        }
       } catch (error) {
         let usefulErr = error;
         if (error.response) {
@@ -49,7 +55,7 @@ function readLogFile() {
       }
     }
 
-    console.log(`Done: [ok: ${ok} (${dup} dup), fail: ${fail}]`);
+    console.log(`Done: [ok: ${ok} (${dup} dup, ${hid} hid), fail: ${fail}]`);
     process.exit(0);
   } catch (error) {
     console.error(error);
