@@ -3,7 +3,7 @@ title: Places and Non-Places
 slug: place-non-place
 date: 2020-02-12T15:00:00.579Z
 link: https://www.strongtowns.org/journal/2014/10/14/places-and-non-places
-url: /note/2020-02-12-place-non-place
+url: /note/place-non-place
 tags:
   - urbanism
 ---

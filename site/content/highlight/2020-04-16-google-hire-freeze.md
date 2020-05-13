@@ -3,7 +3,7 @@ title: Google to Slow Hiring for Rest of 2020, CEO Tells Staff
 slug: google-hire-freeze
 date: 2020-04-16T08:41:20.172Z
 link: https://www.bloomberg.com/news/articles/2020-04-15/google-to-slow-hiring-for-rest-of-2020-ceo-pichai-tells-staff
-url: /note/2020-04-16-google-hire-freeze
+url: /note/google-hire-freeze
 tags:
   - covid-19
 ---

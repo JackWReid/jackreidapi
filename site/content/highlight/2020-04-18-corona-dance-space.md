@@ -3,7 +3,7 @@ title: How We Use Our Bodies to Navigate a Pandemic
 slug: corona-dance-space
 date: 2020-04-18T19:13:36.504Z
 link: https://www.nytimes.com/2020/03/31/arts/dance/choreographing-the-street-coronavirus.html
-url: /note/2020-04-18-corona-dance-space
+url: /note/corona-dance-space
 tags:
   - covid-19
 ---
