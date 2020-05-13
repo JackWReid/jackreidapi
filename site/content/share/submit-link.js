@@ -102,6 +102,10 @@ function prefill() {
   if (params.url) {
     linkEl.value = decodeURIComponent(params.url);
   }
+  const preToken = localStorage.getItem('ght');
+  if (preToken) {
+    tokenEl.value = preToken;
+  }
 }
 
 prefill();
