@@ -23,8 +23,9 @@ const sanitize = str => {
 };
 
 function publishPost(payload) {
+  const date = new Date().toISOString();
   const messageEl = document.querySelector('#submitmessage');
-  const url = API_FILE_TARGET + filename;
+  const url = API_FILE_TARGET + `${date}.md`;
 
   const options = {
     method: 'PUT',
@@ -39,6 +40,8 @@ function publishPost(payload) {
   fetch(url, options).then(response => {
     if (response.ok) {
       messageEl.innerText = 'Submitted!';
+      localStorage.setItem('ght', tokenEl.value);
+      window.location = 'https://jackreid.xyz';
     } else {
       messageEl.innerText = 'Failed!';
     }
@@ -53,7 +56,6 @@ function onSubmit(e) {
   };
 
   const date = new Date().toISOString();
-  const filename = `${date}.md`;
 
   const md = `
 ---
@@ -66,7 +68,7 @@ date: ${date}
   const content = btoa(sanitizedContent);
 
   const payload = {
-    message: `Shared note: ${filename}`,
+    message: `Shared note: ${date}.md`,
     content,
     committer: {
       name: 'Jack Reid',
@@ -77,3 +79,12 @@ date: ${date}
 
   publishPost(payload);
 }
+
+function prefill() {
+  const preToken = localStorage.getItem('ght');
+  if (preToken) {
+    tokenEl.value = preToken;
+  }
+}
+
+prefill();
