@@ -25,7 +25,6 @@ services:
     volumes:
       - ./site/:/src
       - ./site_output/:/output
-    restart: always
     ports:
       - "1313:1313"
     environment:
