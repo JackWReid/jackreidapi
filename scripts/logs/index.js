@@ -31,7 +31,7 @@ function readLogFile() {
     for (let i = 0; i < logLines.length; i++) {
       try {
         const body = JSON.parse(logLines[i]);
-        if (JSON.parse(body.request).uri === '/log') {
+        if (body.request.uri === '/log') {
           hid++;
           ok++;
         } else {
