@@ -19,18 +19,9 @@ const sanitize = str => {
   return str.trim();
 };
 
-function publishPost(filename, md) {
+function publishPost(payload) {
   const messageEl = document.querySelector('#submitmessage');
   const url = API_FILE_TARGET + filename;
-
-  const payload = {
-    message: `Shared note: ${filename}`,
-    content: btoa(sanitize(md)),
-    committer: {
-      name: 'Jack Reid',
-      email: 'hello@jackreid.xyz',
-    },
-  };
 
   const options = {
     method: 'PUT',
@@ -68,5 +59,18 @@ date: ${date}
 ---
   `;
 
-  publishPost(filename, md);
+  const sanitizedContent = sanitize(md);
+  const content = btoa(sanitizedContent);
+
+  const payload = {
+    message: `Shared note: ${filename}`,
+    content,
+    committer: {
+      name: 'Jack Reid',
+      email: 'hello@jackreid.xyz',
+    },
+  };
+
+
+  publishPost(payload);
 }

@@ -24,7 +24,6 @@ async function postLog({
       '${JSON.stringify(resp_headers)}'
      )
   `;
-  console.log(query);
   const result = runQuery(query);
   return result;
 }

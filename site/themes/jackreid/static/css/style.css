@@ -577,6 +577,10 @@ td {
 /**
  * Share Form
  */
+.share-form {
+  margin-top: 2rem;
+}
+
 .share-form input,
 .share-form label {
   display: block;
@@ -602,6 +606,10 @@ td {
 .share-form input[type='submit'] {
   margin: 0 auto;
   width: 10rem;
+}
+
+.share-form--note .share-form__body {
+  font-size: 1.5rem;
 }
 
 /**
