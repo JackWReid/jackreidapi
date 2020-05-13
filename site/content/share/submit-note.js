@@ -16,6 +16,9 @@ const sanitize = str => {
   str = str.replace(/”/g, "'");
   str = str.replace(/’/g, "'");
 
+  // kill any non ascii
+  str = str.replace(/[^\x00-\x7F]/g, "");
+
   return str.trim();
 };
 
