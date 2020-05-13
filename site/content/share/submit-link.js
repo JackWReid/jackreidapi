@@ -4,6 +4,7 @@ const API_FILE_TARGET =
 const formEl = document.querySelector('form');
 const titleEl = formEl.querySelector('#title');
 const linkEL = formEl.querySelector('#link');
+const slugEL = formEl.querySelector('#slug');
 const tokenEl = formEl.querySelector('#ghtoken');
 
 const params = parseQs(location.search.split('?')[1]);
