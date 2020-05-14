@@ -7,7 +7,7 @@
       },
       {
         "hits": "4",
-        "url": "/"
+        "url": "/favicon.png"
       },
       {
         "hits": "4",
@@ -15,7 +15,7 @@
       },
       {
         "hits": "4",
-        "url": "/favicon.png"
+        "url": "/"
       },
       {
         "hits": "3",
@@ -59,7 +59,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/2020-05-08t10-22-28/"
+        "url": "/highlight/negroni-season/"
       },
       {
         "hits": "1",
@@ -81,11 +81,11 @@
     "topSiteMisses": [
       {
         "hits": "2",
-        "url": "/favicon.ico"
+        "url": "/robots.txt"
       },
       {
         "hits": "2",
-        "url": "/robots.txt"
+        "url": "/favicon.ico"
       },
       {
         "hits": "1",
@@ -201,10 +201,6 @@
       },
       {
         "hits": "1",
-        "url": "/tags/article/"
-      },
-      {
-        "hits": "1",
         "url": "/t.php"
       },
       {
@@ -278,12 +274,32 @@
       {
         "hits": "1",
         "url": "/wp-content/plugins/vwcleanerplugin/bump.php?cache"
+      },
+      {
+        "hits": "1",
+        "url": "/wp-content/plugins/widget-logic/mini.php"
       }
     ],
     "topApiHits": [
       {
         "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "11",
@@ -294,23 +310,7 @@
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "6",
+        "hits": "7",
         "url": "/analytics"
       }
     ],
@@ -321,14 +321,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "84"
+        "hits": "88"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "101",
+        "hits": "100",
         "url": "/note/index.xml"
       },
       {
@@ -348,7 +348,7 @@
         "url": "/post/index.xml"
       },
       {
-        "hits": "34",
+        "hits": "35",
         "url": "/highlight/index.xml"
       },
       {
@@ -377,15 +377,19 @@
       },
       {
         "hits": "7",
-        "url": "/share/submit-note.js"
+        "url": "/share/note/"
       },
       {
         "hits": "7",
-        "url": "/share/note/"
+        "url": "/share/submit-note.js"
       },
       {
         "hits": "6",
         "url": "/note/"
+      },
+      {
+        "hits": "4",
+        "url": "/books/reading/"
       },
       {
         "hits": "4",
@@ -394,22 +398,6 @@
       {
         "hits": "4",
         "url": "/share/submit-highlight.js"
-      },
-      {
-        "hits": "4",
-        "url": "/books/reading/"
-      },
-      {
-        "hits": "3",
-        "url": "/note/corona-speculative-fiction/"
-      },
-      {
-        "hits": "3",
-        "url": "/films/watched/"
-      },
-      {
-        "hits": "3",
-        "url": "/analytics/day/"
       },
       {
         "hits": "3",
@@ -421,35 +409,31 @@
       },
       {
         "hits": "3",
+        "url": "/note/corona-speculative-fiction/"
+      },
+      {
+        "hits": "3",
         "url": "/work/"
       },
       {
-        "hits": "2",
-        "url": "/post/how-this-site-works/"
+        "hits": "3",
+        "url": "/analytics/day/"
+      },
+      {
+        "hits": "3",
+        "url": "/films/watched/"
       },
       {
         "hits": "2",
-        "url": "/tags/book/"
+        "url": "/highlight/negroni-season/"
       },
       {
         "hits": "2",
-        "url": "/tags/cities/"
+        "url": "/analytics/month/"
       },
       {
         "hits": "2",
-        "url": "/books/read/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/grimes-boat-tour/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/food/"
-      },
-      {
-        "hits": "2",
-        "url": "/films/towatch/"
+        "url": "/analytics/week/"
       },
       {
         "hits": "2",
@@ -457,7 +441,15 @@
       },
       {
         "hits": "2",
-        "url": "/analytics/month/"
+        "url": "/books/read/"
+      },
+      {
+        "hits": "2",
+        "url": "/films/towatch/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/grimes-boat-tour/"
       },
       {
         "hits": "2",
@@ -469,10 +461,6 @@
       },
       {
         "hits": "2",
-        "url": "/note/google-hire-freeze/"
-      },
-      {
-        "hits": "2",
         "url": "/note/2020-02-24-the-runners-victoria/"
       },
       {
@@ -481,11 +469,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/short-story/"
+        "url": "/note/google-hire-freeze/"
       },
       {
         "hits": "2",
-        "url": "/analytics/week/"
+        "url": "/post/how-this-site-works/"
+      },
+      {
+        "hits": "2",
+        "url": "/rss/"
       },
       {
         "hits": "2",
@@ -493,11 +485,35 @@
       },
       {
         "hits": "2",
-        "url": "/rss/"
+        "url": "/tags/book/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/cities/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/food/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/short-story/"
       },
       {
         "hits": "1",
-        "url": "/tags/games/index.xml"
+        "url": "/note/2020-01-15-paradise-lost-pullman/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-01-21-senate-impeachment-hamilton/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-01-27-rise-of-the-blur/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-02-10-little-women-gerwig-crit/"
       },
       {
         "hits": "1",
@@ -505,27 +521,11 @@
       },
       {
         "hits": "1",
-        "url": "/tags/link/"
+        "url": "/note/2020-04-16-corona-speculative-fiction/"
       },
       {
         "hits": "1",
-        "url": "/tags/litcrit/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/nyc/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/poetry/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/race/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/urbanism/"
+        "url": "/note/2020-04-28t07-46-28/"
       }
     ],
     "topSiteMisses": [
@@ -547,11 +547,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/article/"
+        "url": "/note/untranslatable-words/"
       },
       {
         "hits": "2",
-        "url": "/note/animal-crossing-labour/"
+        "url": "/tags/article/"
       },
       {
         "hits": "2",
@@ -559,7 +559,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/untranslatable-words/"
+        "url": "/note/animal-crossing-labour/"
       },
       {
         "hits": "1",
@@ -623,7 +623,7 @@
       },
       {
         "hits": "1",
-        "url": "/s.php"
+        "url": "/support/troubleshooting"
       },
       {
         "hits": "1",
@@ -655,19 +655,15 @@
       },
       {
         "hits": "1",
+        "url": "/olux.php"
+      },
+      {
+        "hits": "1",
         "url": "/note/uss-fitzgerald/"
       },
       {
         "hits": "1",
-        "url": "/note/there-is-so-swing-voter/"
-      },
-      {
-        "hits": "1",
         "url": "/note/sailors-on-wikipedia/"
-      },
-      {
-        "hits": "1",
-        "url": "/olux.php"
       },
       {
         "hits": "1",
@@ -723,6 +719,10 @@
       },
       {
         "hits": "1",
+        "url": "/s.php"
+      },
+      {
+        "hits": "1",
         "url": "/a.php"
       },
       {
@@ -732,24 +732,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "291",
+        "hits": "292",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "292",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "291",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "291",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "291",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "291",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "291",
@@ -760,18 +752,26 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7",
+        "hits": "291",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "291",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "8",
         "url": "/analytics"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "612"
+        "hits": "613"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2044"
+        "hits": "2047"
       }
     ]
   },
@@ -802,7 +802,7 @@
         "url": "/post/index.xml"
       },
       {
-        "hits": "54",
+        "hits": "55",
         "url": "/highlight/index.xml"
       },
       {
@@ -819,11 +819,11 @@
       },
       {
         "hits": "16",
-        "url": "/share/note/"
+        "url": "/share/submit-note.js"
       },
       {
         "hits": "16",
-        "url": "/share/submit-note.js"
+        "url": "/share/note/"
       },
       {
         "hits": "13",
@@ -839,15 +839,15 @@
       },
       {
         "hits": "9",
-        "url": "/share/submit-link.js"
-      },
-      {
-        "hits": "9",
         "url": "/media/"
       },
       {
         "hits": "9",
         "url": "/share/link/"
+      },
+      {
+        "hits": "9",
+        "url": "/share/submit-link.js"
       },
       {
         "hits": "8",
@@ -867,11 +867,11 @@
       },
       {
         "hits": "4",
-        "url": "/rss/"
+        "url": "/share/submit-highlight.js"
       },
       {
         "hits": "4",
-        "url": "/share/submit-highlight.js"
+        "url": "/rss/"
       },
       {
         "hits": "4",
@@ -911,7 +911,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/book/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "2",
@@ -919,7 +919,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/cities/"
+        "url": "/tags/book/"
       },
       {
         "hits": "2",
@@ -939,11 +939,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/accessibility/"
+        "url": "/tags/cities/"
       },
       {
         "hits": "2",
-        "url": "/tags/food/"
+        "url": "/highlight/negroni-season/"
       },
       {
         "hits": "2",
@@ -951,11 +951,11 @@
       },
       {
         "hits": "2",
-        "url": "/share/highlight/?title=Robert%20Pattinson%20on%20Being%20Batman%2C%20%22Tenet%2C%22%20and%20Life%20in%20Isolation%20%7C%20GQ&body=One%20day%20I%20ask%20Robert%20Eggers%2C%20who%20directed%20Pattinson%20in%20last%20year%E2%80%99s%20The%20Lighthouse%E2%80%94in%20which%20Pattinson%20plays%20a%20man%20driven%20to%20insanity%20and%20avian%20homicide%20by%20isolation%20and%20loneliness%E2%80%94why%20he%20cast%20Pattinson%20in%20his%20movie.%20%E2%80%9CWell%2C%E2%80%9D%20Eggers%20says%2C%20from%20his%20own%20solitude%20in%20Belfast%2C%20%E2%80%9Cthat%20paranoid%20quality%20about%20Rob%20that%20you%20kind%20of%20feel%20in%20his%20everyday%20life%2C%20I%20think%2C%20is%20why%20Josh%20and%20Benny%20wanted%20him%20in%20Good%20Time%20and%20why%20I%20thought%20that%20he%20made%20a%20lot%20of%20sense%20in%20The%20Lighthouse.%20Although%20he%E2%80%99s%20good%20enough%20that%20he%20can%20transform.%20But%20I%20think%20that%20paranoid%20quality%20is%20something%20that%20is%20special%20for%20him.%E2%80%9D&url=https%3A%2F%2Fwww.gq.com%2Fstory%2Frobert-pattinson-on-batman-tenet-isolation-june-cover"
+        "url": "/books/toread/"
       },
       {
         "hits": "2",
-        "url": "/books/toread/"
+        "url": "/share/highlight/?title=Robert%20Pattinson%20on%20Being%20Batman%2C%20%22Tenet%2C%22%20and%20Life%20in%20Isolation%20%7C%20GQ&body=One%20day%20I%20ask%20Robert%20Eggers%2C%20who%20directed%20Pattinson%20in%20last%20year%E2%80%99s%20The%20Lighthouse%E2%80%94in%20which%20Pattinson%20plays%20a%20man%20driven%20to%20insanity%20and%20avian%20homicide%20by%20isolation%20and%20loneliness%E2%80%94why%20he%20cast%20Pattinson%20in%20his%20movie.%20%E2%80%9CWell%2C%E2%80%9D%20Eggers%20says%2C%20from%20his%20own%20solitude%20in%20Belfast%2C%20%E2%80%9Cthat%20paranoid%20quality%20about%20Rob%20that%20you%20kind%20of%20feel%20in%20his%20everyday%20life%2C%20I%20think%2C%20is%20why%20Josh%20and%20Benny%20wanted%20him%20in%20Good%20Time%20and%20why%20I%20thought%20that%20he%20made%20a%20lot%20of%20sense%20in%20The%20Lighthouse.%20Although%20he%E2%80%99s%20good%20enough%20that%20he%20can%20transform.%20But%20I%20think%20that%20paranoid%20quality%20is%20something%20that%20is%20special%20for%20him.%E2%80%9D&url=https%3A%2F%2Fwww.gq.com%2Fstory%2Frobert-pattinson-on-batman-tenet-isolation-june-cover"
       },
       {
         "hits": "2",
@@ -1182,46 +1182,46 @@
     ],
     "topApiHits": [
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7",
+        "hits": "8",
         "url": "/analytics"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "1004"
+        "hits": "1006"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2303"
+        "hits": "2311"
       }
     ]
   },
@@ -1252,7 +1252,7 @@
         "url": "/post/index.xml"
       },
       {
-        "hits": "54",
+        "hits": "55",
         "url": "/highlight/index.xml"
       },
       {
@@ -1269,11 +1269,11 @@
       },
       {
         "hits": "16",
-        "url": "/share/note/"
+        "url": "/share/submit-note.js"
       },
       {
         "hits": "16",
-        "url": "/share/submit-note.js"
+        "url": "/share/note/"
       },
       {
         "hits": "13",
@@ -1289,15 +1289,15 @@
       },
       {
         "hits": "9",
-        "url": "/share/submit-link.js"
-      },
-      {
-        "hits": "9",
         "url": "/media/"
       },
       {
         "hits": "9",
         "url": "/share/link/"
+      },
+      {
+        "hits": "9",
+        "url": "/share/submit-link.js"
       },
       {
         "hits": "8",
@@ -1317,11 +1317,11 @@
       },
       {
         "hits": "4",
-        "url": "/rss/"
+        "url": "/share/submit-highlight.js"
       },
       {
         "hits": "4",
-        "url": "/share/submit-highlight.js"
+        "url": "/rss/"
       },
       {
         "hits": "4",
@@ -1361,7 +1361,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/book/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "2",
@@ -1369,7 +1369,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/cities/"
+        "url": "/tags/book/"
       },
       {
         "hits": "2",
@@ -1389,11 +1389,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/accessibility/"
+        "url": "/tags/cities/"
       },
       {
         "hits": "2",
-        "url": "/tags/food/"
+        "url": "/highlight/negroni-season/"
       },
       {
         "hits": "2",
@@ -1401,11 +1401,11 @@
       },
       {
         "hits": "2",
-        "url": "/share/highlight/?title=Robert%20Pattinson%20on%20Being%20Batman%2C%20%22Tenet%2C%22%20and%20Life%20in%20Isolation%20%7C%20GQ&body=One%20day%20I%20ask%20Robert%20Eggers%2C%20who%20directed%20Pattinson%20in%20last%20year%E2%80%99s%20The%20Lighthouse%E2%80%94in%20which%20Pattinson%20plays%20a%20man%20driven%20to%20insanity%20and%20avian%20homicide%20by%20isolation%20and%20loneliness%E2%80%94why%20he%20cast%20Pattinson%20in%20his%20movie.%20%E2%80%9CWell%2C%E2%80%9D%20Eggers%20says%2C%20from%20his%20own%20solitude%20in%20Belfast%2C%20%E2%80%9Cthat%20paranoid%20quality%20about%20Rob%20that%20you%20kind%20of%20feel%20in%20his%20everyday%20life%2C%20I%20think%2C%20is%20why%20Josh%20and%20Benny%20wanted%20him%20in%20Good%20Time%20and%20why%20I%20thought%20that%20he%20made%20a%20lot%20of%20sense%20in%20The%20Lighthouse.%20Although%20he%E2%80%99s%20good%20enough%20that%20he%20can%20transform.%20But%20I%20think%20that%20paranoid%20quality%20is%20something%20that%20is%20special%20for%20him.%E2%80%9D&url=https%3A%2F%2Fwww.gq.com%2Fstory%2Frobert-pattinson-on-batman-tenet-isolation-june-cover"
+        "url": "/books/toread/"
       },
       {
         "hits": "2",
-        "url": "/books/toread/"
+        "url": "/share/highlight/?title=Robert%20Pattinson%20on%20Being%20Batman%2C%20%22Tenet%2C%22%20and%20Life%20in%20Isolation%20%7C%20GQ&body=One%20day%20I%20ask%20Robert%20Eggers%2C%20who%20directed%20Pattinson%20in%20last%20year%E2%80%99s%20The%20Lighthouse%E2%80%94in%20which%20Pattinson%20plays%20a%20man%20driven%20to%20insanity%20and%20avian%20homicide%20by%20isolation%20and%20loneliness%E2%80%94why%20he%20cast%20Pattinson%20in%20his%20movie.%20%E2%80%9CWell%2C%E2%80%9D%20Eggers%20says%2C%20from%20his%20own%20solitude%20in%20Belfast%2C%20%E2%80%9Cthat%20paranoid%20quality%20about%20Rob%20that%20you%20kind%20of%20feel%20in%20his%20everyday%20life%2C%20I%20think%2C%20is%20why%20Josh%20and%20Benny%20wanted%20him%20in%20Good%20Time%20and%20why%20I%20thought%20that%20he%20made%20a%20lot%20of%20sense%20in%20The%20Lighthouse.%20Although%20he%E2%80%99s%20good%20enough%20that%20he%20can%20transform.%20But%20I%20think%20that%20paranoid%20quality%20is%20something%20that%20is%20special%20for%20him.%E2%80%9D&url=https%3A%2F%2Fwww.gq.com%2Fstory%2Frobert-pattinson-on-batman-tenet-isolation-june-cover"
       },
       {
         "hits": "2",
@@ -1632,46 +1632,46 @@
     ],
     "topApiHits": [
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7",
+        "hits": "8",
         "url": "/analytics"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "1004"
+        "hits": "1006"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2303"
+        "hits": "2311"
       }
     ]
   },
@@ -1702,7 +1702,7 @@
         "url": "/post/index.xml"
       },
       {
-        "hits": "54",
+        "hits": "55",
         "url": "/highlight/index.xml"
       },
       {
@@ -1719,11 +1719,11 @@
       },
       {
         "hits": "16",
-        "url": "/share/note/"
+        "url": "/share/submit-note.js"
       },
       {
         "hits": "16",
-        "url": "/share/submit-note.js"
+        "url": "/share/note/"
       },
       {
         "hits": "13",
@@ -1739,15 +1739,15 @@
       },
       {
         "hits": "9",
-        "url": "/share/submit-link.js"
-      },
-      {
-        "hits": "9",
         "url": "/media/"
       },
       {
         "hits": "9",
         "url": "/share/link/"
+      },
+      {
+        "hits": "9",
+        "url": "/share/submit-link.js"
       },
       {
         "hits": "8",
@@ -1767,11 +1767,11 @@
       },
       {
         "hits": "4",
-        "url": "/rss/"
+        "url": "/share/submit-highlight.js"
       },
       {
         "hits": "4",
-        "url": "/share/submit-highlight.js"
+        "url": "/rss/"
       },
       {
         "hits": "4",
@@ -1811,7 +1811,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/book/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "2",
@@ -1819,7 +1819,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/cities/"
+        "url": "/tags/book/"
       },
       {
         "hits": "2",
@@ -1839,11 +1839,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/accessibility/"
+        "url": "/tags/cities/"
       },
       {
         "hits": "2",
-        "url": "/tags/food/"
+        "url": "/highlight/negroni-season/"
       },
       {
         "hits": "2",
@@ -1851,11 +1851,11 @@
       },
       {
         "hits": "2",
-        "url": "/share/highlight/?title=Robert%20Pattinson%20on%20Being%20Batman%2C%20%22Tenet%2C%22%20and%20Life%20in%20Isolation%20%7C%20GQ&body=One%20day%20I%20ask%20Robert%20Eggers%2C%20who%20directed%20Pattinson%20in%20last%20year%E2%80%99s%20The%20Lighthouse%E2%80%94in%20which%20Pattinson%20plays%20a%20man%20driven%20to%20insanity%20and%20avian%20homicide%20by%20isolation%20and%20loneliness%E2%80%94why%20he%20cast%20Pattinson%20in%20his%20movie.%20%E2%80%9CWell%2C%E2%80%9D%20Eggers%20says%2C%20from%20his%20own%20solitude%20in%20Belfast%2C%20%E2%80%9Cthat%20paranoid%20quality%20about%20Rob%20that%20you%20kind%20of%20feel%20in%20his%20everyday%20life%2C%20I%20think%2C%20is%20why%20Josh%20and%20Benny%20wanted%20him%20in%20Good%20Time%20and%20why%20I%20thought%20that%20he%20made%20a%20lot%20of%20sense%20in%20The%20Lighthouse.%20Although%20he%E2%80%99s%20good%20enough%20that%20he%20can%20transform.%20But%20I%20think%20that%20paranoid%20quality%20is%20something%20that%20is%20special%20for%20him.%E2%80%9D&url=https%3A%2F%2Fwww.gq.com%2Fstory%2Frobert-pattinson-on-batman-tenet-isolation-june-cover"
+        "url": "/books/toread/"
       },
       {
         "hits": "2",
-        "url": "/books/toread/"
+        "url": "/share/highlight/?title=Robert%20Pattinson%20on%20Being%20Batman%2C%20%22Tenet%2C%22%20and%20Life%20in%20Isolation%20%7C%20GQ&body=One%20day%20I%20ask%20Robert%20Eggers%2C%20who%20directed%20Pattinson%20in%20last%20year%E2%80%99s%20The%20Lighthouse%E2%80%94in%20which%20Pattinson%20plays%20a%20man%20driven%20to%20insanity%20and%20avian%20homicide%20by%20isolation%20and%20loneliness%E2%80%94why%20he%20cast%20Pattinson%20in%20his%20movie.%20%E2%80%9CWell%2C%E2%80%9D%20Eggers%20says%2C%20from%20his%20own%20solitude%20in%20Belfast%2C%20%E2%80%9Cthat%20paranoid%20quality%20about%20Rob%20that%20you%20kind%20of%20feel%20in%20his%20everyday%20life%2C%20I%20think%2C%20is%20why%20Josh%20and%20Benny%20wanted%20him%20in%20Good%20Time%20and%20why%20I%20thought%20that%20he%20made%20a%20lot%20of%20sense%20in%20The%20Lighthouse.%20Although%20he%E2%80%99s%20good%20enough%20that%20he%20can%20transform.%20But%20I%20think%20that%20paranoid%20quality%20is%20something%20that%20is%20special%20for%20him.%E2%80%9D&url=https%3A%2F%2Fwww.gq.com%2Fstory%2Frobert-pattinson-on-batman-tenet-isolation-june-cover"
       },
       {
         "hits": "2",
@@ -2082,46 +2082,46 @@
     ],
     "topApiHits": [
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "328",
+        "hits": "329",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7",
+        "hits": "8",
         "url": "/analytics"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "1004"
+        "hits": "1006"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2303"
+        "hits": "2311"
       }
     ]
   }
