@@ -1,0 +1,82 @@
+{{ $data := "nil" }}
+{{ $key := .Get "key" }}
+
+{{ if eq $key "hour" }}
+  {{ $data = $.Site.Data.analytics.hour }}
+{{ else if eq $key "day" }}
+  {{ $data = $.Site.Data.analytics.day }}
+{{ else if eq $key "week" }}
+  {{ $data = $.Site.Data.analytics.week }}
+{{ else if eq $key "month" }}
+  {{ $data = $.Site.Data.analytics.month }}
+{{ else if eq $key "year" }}
+  {{ $data = $.Site.Data.analytics.year }}
+{{ end }}
+
+<p class="analytics__built">These analytics were statically generated <span>{{ dateFormat "2 Jan '06, 15:04" now }}</span></p>
+
+<h3>Total Hits</h3>
+<table class="analytics-table">
+  <thead>
+    <th>Website</th>
+    <th>API</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        {{range (first 1 $data.totalSiteHits)}}{{.hits}}{{end}}
+      </td>
+      <td>
+        {{range (first 1 $data.totalApiHits)}}{{.hits}}{{end}}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Top Site Hits</h3>
+<table class="analytics-table">
+  <thead>
+    <th>Hits</th>
+    <th>URL</th>
+  </thead>
+  <tbody>
+    {{ range $data.topSiteHits }}
+    <tr>
+      <td>{{ .hits }}</td>
+      <td>{{ .url }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+
+<h3>Top Site Misses</h3>
+<table class="analytics-table">
+  <thead>
+    <th>Hits</th>
+    <th>URL</th>
+  </thead>
+  <tbody>
+    {{ range $data.topSiteMisses }}
+    <tr>
+      <td>{{ .hits }}</td>
+      <td>{{ .url }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+
+<h3>Top API Hits</h3>
+<table class="analytics-table">
+  <thead>
+    <th>Hits</th>
+    <th>URL</th>
+  </thead>
+  <tbody>
+    {{ range $data.topApiHits }}
+    <tr>
+      <td>{{ .hits }}</td>
+      <td>{{ .url }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>

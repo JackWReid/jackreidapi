@@ -5,6 +5,10 @@
   --c-i-one: #8c7851;
   --c-i-two: #eaddcf;
   --c-accent: #f25042;
+  --f-base: -apple-system, blinkmacsystemfont, 'segoe ui', roboto, oxygen-sans,
+    ubuntu, cantarell, 'helvetica neue', sans-serif;
+  --f-mono: Inconsolata, monospace;
+  --s-width: 40rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,8 +37,7 @@ body {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: var(--f-base);
   line-height: 1.5;
   background-color: var(--c-bg);
   color: var(--c-body);
@@ -87,7 +90,7 @@ ul {
 
 pre {
   max-width: 100%;
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
   overflow-y: scroll;
   background: var(--c-i-two);
   border-radius: 3px;
@@ -114,7 +117,7 @@ pre {
  */
 .site-wrapper {
   width: 100%;
-  max-width: 40rem;
+  max-width: var(--s-width);
   margin: 2rem auto;
   padding: 0 1rem;
 }
@@ -194,7 +197,7 @@ pre {
 }
 
 .site-footer__built {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 @keyframes bob {
@@ -379,7 +382,8 @@ pre {
 }
 
 @media screen and (max-width: 40rem) {
-  .link-card, .link-card > * {
+  .link-card,
+  .link-card > * {
     display: block;
   }
 
@@ -387,7 +391,6 @@ pre {
     margin-bottom: 1rem;
   }
 }
-
 
 /**
  * Single pages
@@ -606,8 +609,7 @@ td {
 }
 
 .share-form__body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: var(--f-mono);
 }
 
 .share-form--note .share-form__body {
@@ -625,4 +627,34 @@ td {
 
 .recent-highlights > ul > li {
   margin-bottom: 2rem;
+}
+
+/**
+ * Analytics Pages
+ */
+.analytics__built span {
+  font-weight: bold;
+}
+
+.analytics-table {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+}
+
+.analytics-table thead {
+  color: var(--c-accent);
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.analytics-table tbody {
+  font-family: var(--f-mono);
+}
+
+.analytics-table td {
+  max-width: calc(var(--s-width) - 20em);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }

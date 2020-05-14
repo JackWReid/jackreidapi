@@ -1,0 +1,25 @@
+{{ define "main" }}
+<nav class="single-static-nav">
+  <h2 class="single-static-nav__title">{{ .Title }}</h2>
+  <ul class="single-static-nav__list">
+    <li class="single-static-nav__list-item">
+      <a href="{{ "/analytics/hour" | absURL }}">Hour</a>
+    </li>
+    <li class="single-static-nav__list-item">
+      <a href="{{ "/analytics/day" | absURL }}">Day</a>
+    </li>
+    <li class="single-static-nav__list-item">
+      <a href="{{ "/analytics/week" | absURL }}">Week</a>
+    </li>
+    <li class="single-static-nav__list-item">
+      <a href="{{ "/analytics/month" | absURL }}">Month</a>
+    </li>
+    <li class="single-static-nav__list-item">
+      <a href="{{ "/analytics/year" | absURL }}">Year</a>
+    </li>
+  </ul>
+</nav>
+<article>
+  {{ .Content }}
+</article>
+{{ end }}

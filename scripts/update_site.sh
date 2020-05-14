@@ -33,6 +33,8 @@ curl -Lk https://api.jackreid.xyz/films/towatch?limit=5000 | jq . > $PWD/site/da
 curl -Lk https://api.jackreid.xyz/pocket?limit=5000 | jq . > $PWD/site/data/pocket.json;
 curl -Lk https://api.jackreid.xyz/articles?limit=5000 | jq . > $PWD/site/data/articles.json;
 
+curl -Lk https://api.jackreid.xyz/analytics | jq . > $PWD/site/data/analytics.json
+
 # Update git
 echo "[$(date)] Committing updated media data files"
 if [ -z "$(git status --porcelain)" ]; then
