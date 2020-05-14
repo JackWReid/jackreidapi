@@ -4,7 +4,6 @@ const API_FILE_TARGET =
 const formEl = document.querySelector('form');
 const titleEl = formEl.querySelector('#title');
 const linkEl = formEl.querySelector('#link');
-const slugEl = formEl.querySelector('#slug');
 const tokenEl = formEl.querySelector('#ghtoken');
 
 const params = parseQs(location.search.split('?')[1]);
@@ -77,16 +76,15 @@ function onSubmit(e) {
 
   const vals = {
     title: titleEl.value,
-    slug: slugEl.value,
-    link: params.url,
+    link: params.url || linkEl.value,
   };
 
   const date = new Date().toISOString();
-  const filename = `${vals.slug}.md`;
+  const filename = `${date.replace(':', '-').replace('Z', '')}.md`;
 
   const md = `
 ---
-title: ${sanitize(vals.title)}\nslug: ${vals.slug}\nlink: ${vals.link}\ndate: ${date}\ntags:
+title: "${sanitize(vals.title)}"\nlink: ${vals.link}\ndate: ${date}
 ---
 
 ${vals.body}

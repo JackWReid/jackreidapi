@@ -193,6 +193,10 @@ pre {
   font-weight: bold;
 }
 
+.site-footer__built {
+  font-size: .8rem;
+}
+
 @keyframes bob {
   0%,
   100% {
@@ -619,6 +623,6 @@ td {
   text-align: left;
 }
 
-.recent-highlights ul > li {
+.recent-highlights > ul > li {
   margin-bottom: 2rem;
 }

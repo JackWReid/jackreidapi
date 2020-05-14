@@ -8,15 +8,5 @@
       <li><a rel="me" href="https://mastodon.social/@jackreid">Mastodon</a></li>
     </ul>
   </nav>
+  <p class="site-footer__built"><span>Built:</span> {{ dateFormat "2 Jan '06, 15:04" now }}</p>
 </footer>
- <script>
-if (window.netlifyIdentity) {
-  window.netlifyIdentity.on('init', user => {
-    if (!user) {
-      window.netlifyIdentity.on('login', () => {
-        document.location.href = '/admin/';
-      });
-    }
-  });
-}
- </script>
