@@ -174,6 +174,16 @@ app.post('/log', async function(req, res) {
   }
 });
 
+app.get('/analytics', async function(req, res) {
+  try {
+    const result = await logs.getAnalytics();
+    return res.send(result);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
+});
+
 app.get('*', async function(req, res) {
   return res.status(404).send({error: 'not found'});
 });
