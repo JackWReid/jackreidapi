@@ -1,5 +1,5 @@
 ---
-title: Names, Legal Names, and Fractally Deferred Responsibility | Nora Codes
+title: Names, Legal Names, and Fractally Deferred Responsibility
 slug: names-gender-code
 link: https%3A%2F%2Fnora.codes%2Fpost%2Fnames-legal-names-and-fractally-deferred-responsibility%2F
 date: 2020-05-14T19:27:39.048Z

@@ -1,7 +1,7 @@
 ---
 title: How Five Friends Saved a Tulip Farm From Covid-19
 slug: tulip-farm-covid
-link: https%3A%2F%2Fwww.nytimes.com%2F2020%2F05%2F09%2Fus%2Fcoronavirus-tulips-washington-skagit.html%3FreferringSource%3DarticleShare
+link: https://www.nytimes.com%2F2020%2F05%2F09%2Fus%2Fcoronavirus-tulips-washington-skagit.html%3FreferringSource%3DarticleShare
 date: 2020-05-14T19:24:25.068Z
 tags:
   - covid-19
