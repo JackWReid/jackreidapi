@@ -1,5 +1,5 @@
 ---
-title: When Manhattan Was Mannahatta: A Stroll Through the Centuries
+title: "When Manhattan Was Mannahatta: A Stroll Through the Centuries"
 slug: new-york-geology
 link: https%3A%2F%2Fwww.nytimes.com%2F2020%2F05%2F13%2Farts%2Fdesign%2Fmanhattan-virtual-tour-virus.html%3Fsmid%3Dtw-share
 date: 2020-05-14T19:22:08.019Z
