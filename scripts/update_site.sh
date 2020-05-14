@@ -42,5 +42,5 @@ else
 	git add . && git commit -m "[$(date)] Updated media data files" && git push origin master;
 fi
 
-/usr/local/bin/docker-compose up -d --build --force-recreate site
+/usr/local/bin/docker-compose up -d --build site
 date +"%Y-%m-%dT%T"
