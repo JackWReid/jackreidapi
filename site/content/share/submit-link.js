@@ -10,7 +10,7 @@ const params = parseQs(location.search.split('?')[1]);
 
 const sanitize = str => {
   // replace endash and emdash with hyphens
-  str = str.replace(/–/g, '');
+  str = str.replace(/–/g, '-');
   str = str.replace(/—/g, '-');
 
   // replace double quotes and apostrophes
@@ -86,8 +86,6 @@ function onSubmit(e) {
 ---
 title: "${sanitize(vals.title)}"\nlink: ${vals.link}\ndate: ${date}
 ---
-
-${vals.body}
   `;
 
   publishPost(filename, md);

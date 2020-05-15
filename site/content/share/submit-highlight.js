@@ -89,7 +89,7 @@ function onSubmit(e) {
 
   const md = `
 ---
-title: ${sanitize(vals.title)}\nslug: ${vals.slug}\nlink: ${vals.link}\ndate: ${date}\ntags:
+title: "${sanitize(vals.title)}"\nslug: ${vals.slug}\nlink: ${vals.link}\ndate: ${date}\ntags:
 ${vals.tags.map(t => `  - ${t}`).join('\n')}
 ---
 
