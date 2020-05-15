@@ -2,8 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/note/index.xml"
+      },
+      {
+        "hits": "2",
+        "url": "/index.xml"
       },
       {
         "hits": "2",
@@ -12,14 +16,6 @@
       {
         "hits": "2",
         "url": "/highlight/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/link/2020-05-04t20-35-00/"
       },
       {
         "hits": "1",
@@ -44,6 +40,10 @@
       {
         "hits": "1",
         "url": "/highlight/robert-pattinson/"
+      },
+      {
+        "hits": "1",
+        "url": "/link/2020-05-04t20-35-00/"
       }
     ],
     "topSiteMisses": [
@@ -54,16 +54,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -83,33 +83,29 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "15"
+        "hits": "17"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "88"
+        "hits": "91"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "107",
+        "hits": "108",
         "url": "/note/index.xml"
       },
       {
-        "hits": "48",
+        "hits": "49",
         "url": "/index.xml"
-      },
-      {
-        "hits": "38",
-        "url": "/"
       },
       {
         "hits": "38",
@@ -120,16 +116,16 @@
         "url": "/highlight/index.xml"
       },
       {
+        "hits": "36",
+        "url": "/"
+      },
+      {
         "hits": "28",
         "url": "/open-graph.png"
       },
       {
         "hits": "26",
         "url": "/highlight/chat-roulette-quar/"
-      },
-      {
-        "hits": "26",
-        "url": "/favicon.png"
       },
       {
         "hits": "25",
@@ -145,7 +141,7 @@
       },
       {
         "hits": "22",
-        "url": "/css/style.css"
+        "url": "/favicon.png"
       },
       {
         "hits": "21",
@@ -153,27 +149,19 @@
       },
       {
         "hits": "19",
+        "url": "/css/style.css"
+      },
+      {
+        "hits": "19",
         "url": "/post/getting-of-of-netlify/"
       },
       {
-        "hits": "6",
+        "hits": "5",
         "url": "/analytics/day/"
       },
       {
-        "hits": "6",
-        "url": "/post/"
-      },
-      {
         "hits": "5",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "4",
-        "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "4",
-        "url": "/analytics/week/"
+        "url": "/post/"
       },
       {
         "hits": "4",
@@ -181,7 +169,19 @@
       },
       {
         "hits": "4",
+        "url": "/analytics/week/"
+      },
+      {
+        "hits": "4",
         "url": "/note/"
+      },
+      {
+        "hits": "4",
+        "url": "/highlight/"
+      },
+      {
+        "hits": "3",
+        "url": "/link/"
       },
       {
         "hits": "3",
@@ -193,11 +193,7 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/robert-pattinson/"
-      },
-      {
-        "hits": "3",
-        "url": "/link/"
+        "url": "/share/submit-note.js"
       },
       {
         "hits": "3",
@@ -208,20 +204,12 @@
         "url": "/share/submit-highlight.js"
       },
       {
-        "hits": "3",
+        "hits": "2",
+        "url": "/tags/accessibility/"
+      },
+      {
+        "hits": "2",
         "url": "/analytics/hour/"
-      },
-      {
-        "hits": "3",
-        "url": "/share/submit-note.js"
-      },
-      {
-        "hits": "2",
-        "url": "/images/uploads/24530.jpeg"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/grimes-boat-tour/"
       },
       {
         "hits": "2",
@@ -229,19 +217,23 @@
       },
       {
         "hits": "2",
+        "url": "/highlight/grimes-boat-tour/"
+      },
+      {
+        "hits": "2",
         "url": "/highlight/real-lord-of-the-flies/"
       },
       {
         "hits": "2",
-        "url": "/books/read/"
+        "url": "/note/2020-05-03t185044.381z/"
       },
       {
         "hits": "2",
-        "url": "/tags/accessibility/"
+        "url": "/highlight/robert-pattinson/"
       },
       {
         "hits": "2",
-        "url": "/tags/films/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "2",
@@ -249,11 +241,23 @@
       },
       {
         "hits": "2",
+        "url": "/tags/films/"
+      },
+      {
+        "hits": "2",
         "url": "/tags/games/"
       },
       {
         "hits": "2",
-        "url": "/work/"
+        "url": "/books/read/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-05-06t094812.757z/"
+      },
+      {
+        "hits": "2",
+        "url": "/media/"
       },
       {
         "hits": "2",
@@ -265,15 +269,15 @@
       },
       {
         "hits": "2",
-        "url": "/media/"
+        "url": "/work/"
       },
       {
-        "hits": "2",
-        "url": "/note/2020-05-03t185044.381z/"
+        "hits": "1",
+        "url": "/link/2020-05-04t20-35-00/"
       },
       {
-        "hits": "2",
-        "url": "/note/2020-05-06t094812.757z/"
+        "hits": "1",
+        "url": "/images/uploads/24530.jpeg"
       },
       {
         "hits": "1",
@@ -285,24 +289,20 @@
       },
       {
         "hits": "1",
-        "url": "/note/2020-04-30t133619.679z/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/spa-fatigue/"
       },
       {
         "hits": "1",
-        "url": "/note/2020-04-28t10-33-55/"
+        "url": "/highlight/helms-deep-analysis/"
       },
       {
         "hits": "1",
-        "url": "/note/2020-04-26-first-note/"
+        "url": "/note/2020-04-30t133619.679z/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "43",
+        "hits": "42",
         "url": "/robots.txt"
       },
       {
@@ -315,6 +315,10 @@
       },
       {
         "hits": "4",
+        "url": "/favicon.ico"
+      },
+      {
+        "hits": "4",
         "url": "/https%3A%2F%2Fwww.benawad.com%2Fscraping-recipe-websites%2F"
       },
       {
@@ -322,12 +326,8 @@
         "url": "/note/corona-nyc-hospitals/"
       },
       {
-        "hits": "4",
-        "url": "/favicon.ico"
-      },
-      {
         "hits": "2",
-        "url": "/phpMyAdmin/scripts/setup.php"
+        "url": "/cgi-bin/test-cgi"
       },
       {
         "hits": "2",
@@ -335,11 +335,11 @@
       },
       {
         "hits": "2",
-        "url": "/login?from=0.000000"
+        "url": "/phpMyAdmin/scripts/setup.php"
       },
       {
         "hits": "2",
-        "url": "/cgi-bin/test-cgi"
+        "url": "/login?from=0.000000"
       },
       {
         "hits": "2",
@@ -376,10 +376,6 @@
       {
         "hits": "1",
         "url": "/photo/ben-nevis/"
-      },
-      {
-        "hits": "1",
-        "url": "/photos/grand-canyon/"
       },
       {
         "hits": "1",
@@ -452,7 +448,7 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
+        "hits": "289",
         "url": "/analytics"
       },
       {
@@ -490,19 +486,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "628"
+        "hits": "612"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2299"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "261",
+        "hits": "262",
         "url": "/note/index.xml"
       },
       {
@@ -514,7 +510,7 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "114",
+        "hits": "115",
         "url": "/index.xml"
       },
       {
@@ -906,35 +902,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "322",
+        "hits": "323",
         "url": "/analytics"
       },
       {
@@ -944,19 +940,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1683"
+        "hits": "1685"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "4817"
+        "hits": "4825"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "261",
+        "hits": "262",
         "url": "/note/index.xml"
       },
       {
@@ -968,7 +964,7 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "114",
+        "hits": "115",
         "url": "/index.xml"
       },
       {
@@ -1360,35 +1356,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "322",
+        "hits": "323",
         "url": "/analytics"
       },
       {
@@ -1398,19 +1394,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1683"
+        "hits": "1685"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "4817"
+        "hits": "4825"
       }
     ]
   },
   "year": {
     "topSiteHits": [
       {
-        "hits": "261",
+        "hits": "262",
         "url": "/note/index.xml"
       },
       {
@@ -1422,7 +1418,7 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "114",
+        "hits": "115",
         "url": "/index.xml"
       },
       {
@@ -1814,35 +1810,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "642",
+        "hits": "643",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "322",
+        "hits": "323",
         "url": "/analytics"
       },
       {
@@ -1852,12 +1848,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1683"
+        "hits": "1685"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "4817"
+        "hits": "4825"
       }
     ]
   }
