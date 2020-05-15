@@ -30,7 +30,12 @@
         "url": "/photo/index.xml"
       }
     ],
-    "topSiteMisses": [],
+    "topSiteMisses": [
+      {
+        "hits": "1",
+        "url": "/dev/"
+      }
+    ],
     "topApiHits": [
       {
         "hits": "12",
@@ -41,12 +46,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -58,11 +59,15 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "11",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "1",
@@ -76,7 +81,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "92"
       }
     ]
   },
@@ -322,6 +327,10 @@
       },
       {
         "hits": "1",
+        "url": "/fckeditor/editor/filemanager/connectors/php/upload.php?Type=Media"
+      },
+      {
+        "hits": "1",
         "url": "/images/editor/separator.gif"
       },
       {
@@ -414,15 +423,15 @@
       },
       {
         "hits": "1",
+        "url": "/dev/"
+      },
+      {
+        "hits": "1",
         "url": "/.env"
       },
       {
         "hits": "1",
         "url": "/favicon.ico"
-      },
-      {
-        "hits": "1",
-        "url": "/fckeditor/editor/filemanager/connectors/php/upload.php?Type=Media"
       }
     ],
     "topApiHits": [
@@ -435,8 +444,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
@@ -448,15 +461,11 @@
       },
       {
         "hits": "287",
-        "url": "/books/read?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2",
@@ -470,14 +479,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2301"
+        "hits": "2300"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/note/index.xml"
       },
       {
@@ -712,31 +721,11 @@
       },
       {
         "hits": "4",
-        "url": "/d"
-      },
-      {
-        "hits": "4",
         "url": "/https%3A%2F%2Fwww.benawad.com%2Fscraping-recipe-websites%2F"
       },
       {
-        "hits": "3",
-        "url": "/phpmyadmin/scripts/setup.php"
-      },
-      {
-        "hits": "3",
-        "url": "/login?from=0.000000"
-      },
-      {
-        "hits": "3",
-        "url": "/phpMyAdmin/scripts/setup.php"
-      },
-      {
-        "hits": "3",
-        "url": "/note/uss-fitzgerald/"
-      },
-      {
-        "hits": "3",
-        "url": "/note/top-books-2019/"
+        "hits": "4",
+        "url": "/d"
       },
       {
         "hits": "3",
@@ -744,11 +733,31 @@
       },
       {
         "hits": "3",
+        "url": "/login?from=0.000000"
+      },
+      {
+        "hits": "3",
+        "url": "/note/uss-fitzgerald/"
+      },
+      {
+        "hits": "3",
+        "url": "/phpMyAdmin/scripts/setup.php"
+      },
+      {
+        "hits": "3",
+        "url": "/note/top-books-2019/"
+      },
+      {
+        "hits": "3",
+        "url": "/phpmyadmin/scripts/setup.php"
+      },
+      {
+        "hits": "3",
         "url": "/horde/imp/test.php"
       },
       {
         "hits": "2",
-        "url": "/note/tools-i-wish-existed/"
+        "url": "/note/untranslatable-words/"
       },
       {
         "hits": "2",
@@ -768,15 +777,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/the-trossachs/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/untranslatable-words/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/there-is-so-swing-voter/"
+        "url": "/tags/article/"
       },
       {
         "hits": "2",
@@ -784,7 +785,19 @@
       },
       {
         "hits": "2",
-        "url": "/tags/article/"
+        "url": "/note/tools-i-wish-existed/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/the-trossachs/"
+      },
+      {
+        "hits": "2",
+        "url": "/wp-login.php"
+      },
+      {
+        "hits": "2",
+        "url": "/note/james-joyce-estate/"
       },
       {
         "hits": "2",
@@ -792,7 +805,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/james-joyce-estate/"
+        "url": "/note/plath-vs-hughes/"
       },
       {
         "hits": "2",
@@ -804,23 +817,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/plath-vs-hughes/"
-      },
-      {
-        "hits": "2",
-        "url": "/wp-login.php"
-      },
-      {
-        "hits": "2",
         "url": "/note/corona-crisis-18-months/"
       },
       {
-        "hits": "1",
-        "url": "/fckeditor/editor/filemanager/connectors/php/upload.php?Type=Media"
-      },
-      {
-        "hits": "1",
-        "url": "/analytics/day"
+        "hits": "2",
+        "url": "/note/there-is-so-swing-voter/"
       },
       {
         "hits": "1",
@@ -828,7 +829,15 @@
       },
       {
         "hits": "1",
+        "url": "/analytics/day"
+      },
+      {
+        "hits": "1",
         "url": "/.env"
+      },
+      {
+        "hits": "1",
+        "url": "/d.php"
       },
       {
         "hits": "1",
@@ -840,7 +849,7 @@
       },
       {
         "hits": "1",
-        "url": "/d.php"
+        "url": "/dev/"
       },
       {
         "hits": "1",
@@ -848,11 +857,7 @@
       },
       {
         "hits": "1",
-        "url": "/new_license.php"
-      },
-      {
-        "hits": "1",
-        "url": "/misc/ajax.js"
+        "url": "/m.php"
       },
       {
         "hits": "1",
@@ -868,11 +873,15 @@
       },
       {
         "hits": "1",
-        "url": "/m.php"
+        "url": "/1.php"
       },
       {
         "hits": "1",
-        "url": "/1.php"
+        "url": "/misc/ajax.js"
+      },
+      {
+        "hits": "1",
+        "url": "/media/jackreid.xyz"
       },
       {
         "hits": "1",
@@ -881,35 +890,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "390",
+        "hits": "391",
         "url": "/analytics"
       },
       {
@@ -919,19 +928,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1781"
+        "hits": "1782"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "5363"
+        "hits": "5371"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/note/index.xml"
       },
       {
@@ -1166,31 +1175,11 @@
       },
       {
         "hits": "4",
-        "url": "/d"
-      },
-      {
-        "hits": "4",
         "url": "/https%3A%2F%2Fwww.benawad.com%2Fscraping-recipe-websites%2F"
       },
       {
-        "hits": "3",
-        "url": "/phpmyadmin/scripts/setup.php"
-      },
-      {
-        "hits": "3",
-        "url": "/login?from=0.000000"
-      },
-      {
-        "hits": "3",
-        "url": "/phpMyAdmin/scripts/setup.php"
-      },
-      {
-        "hits": "3",
-        "url": "/note/uss-fitzgerald/"
-      },
-      {
-        "hits": "3",
-        "url": "/note/top-books-2019/"
+        "hits": "4",
+        "url": "/d"
       },
       {
         "hits": "3",
@@ -1198,11 +1187,31 @@
       },
       {
         "hits": "3",
+        "url": "/login?from=0.000000"
+      },
+      {
+        "hits": "3",
+        "url": "/note/uss-fitzgerald/"
+      },
+      {
+        "hits": "3",
+        "url": "/phpMyAdmin/scripts/setup.php"
+      },
+      {
+        "hits": "3",
+        "url": "/note/top-books-2019/"
+      },
+      {
+        "hits": "3",
+        "url": "/phpmyadmin/scripts/setup.php"
+      },
+      {
+        "hits": "3",
         "url": "/horde/imp/test.php"
       },
       {
         "hits": "2",
-        "url": "/note/tools-i-wish-existed/"
+        "url": "/note/untranslatable-words/"
       },
       {
         "hits": "2",
@@ -1222,15 +1231,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/the-trossachs/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/untranslatable-words/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/there-is-so-swing-voter/"
+        "url": "/tags/article/"
       },
       {
         "hits": "2",
@@ -1238,7 +1239,19 @@
       },
       {
         "hits": "2",
-        "url": "/tags/article/"
+        "url": "/note/tools-i-wish-existed/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/the-trossachs/"
+      },
+      {
+        "hits": "2",
+        "url": "/wp-login.php"
+      },
+      {
+        "hits": "2",
+        "url": "/note/james-joyce-estate/"
       },
       {
         "hits": "2",
@@ -1246,7 +1259,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/james-joyce-estate/"
+        "url": "/note/plath-vs-hughes/"
       },
       {
         "hits": "2",
@@ -1258,23 +1271,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/plath-vs-hughes/"
-      },
-      {
-        "hits": "2",
-        "url": "/wp-login.php"
-      },
-      {
-        "hits": "2",
         "url": "/note/corona-crisis-18-months/"
       },
       {
-        "hits": "1",
-        "url": "/fckeditor/editor/filemanager/connectors/php/upload.php?Type=Media"
-      },
-      {
-        "hits": "1",
-        "url": "/analytics/day"
+        "hits": "2",
+        "url": "/note/there-is-so-swing-voter/"
       },
       {
         "hits": "1",
@@ -1282,7 +1283,15 @@
       },
       {
         "hits": "1",
+        "url": "/analytics/day"
+      },
+      {
+        "hits": "1",
         "url": "/.env"
+      },
+      {
+        "hits": "1",
+        "url": "/d.php"
       },
       {
         "hits": "1",
@@ -1294,7 +1303,7 @@
       },
       {
         "hits": "1",
-        "url": "/d.php"
+        "url": "/dev/"
       },
       {
         "hits": "1",
@@ -1302,11 +1311,7 @@
       },
       {
         "hits": "1",
-        "url": "/new_license.php"
-      },
-      {
-        "hits": "1",
-        "url": "/misc/ajax.js"
+        "url": "/m.php"
       },
       {
         "hits": "1",
@@ -1322,11 +1327,15 @@
       },
       {
         "hits": "1",
-        "url": "/m.php"
+        "url": "/1.php"
       },
       {
         "hits": "1",
-        "url": "/1.php"
+        "url": "/misc/ajax.js"
+      },
+      {
+        "hits": "1",
+        "url": "/media/jackreid.xyz"
       },
       {
         "hits": "1",
@@ -1335,35 +1344,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "390",
+        "hits": "391",
         "url": "/analytics"
       },
       {
@@ -1373,19 +1382,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1781"
+        "hits": "1782"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "5363"
+        "hits": "5371"
       }
     ]
   },
   "year": {
     "topSiteHits": [
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/note/index.xml"
       },
       {
@@ -1620,31 +1629,11 @@
       },
       {
         "hits": "4",
-        "url": "/d"
-      },
-      {
-        "hits": "4",
         "url": "/https%3A%2F%2Fwww.benawad.com%2Fscraping-recipe-websites%2F"
       },
       {
-        "hits": "3",
-        "url": "/phpmyadmin/scripts/setup.php"
-      },
-      {
-        "hits": "3",
-        "url": "/login?from=0.000000"
-      },
-      {
-        "hits": "3",
-        "url": "/phpMyAdmin/scripts/setup.php"
-      },
-      {
-        "hits": "3",
-        "url": "/note/uss-fitzgerald/"
-      },
-      {
-        "hits": "3",
-        "url": "/note/top-books-2019/"
+        "hits": "4",
+        "url": "/d"
       },
       {
         "hits": "3",
@@ -1652,11 +1641,31 @@
       },
       {
         "hits": "3",
+        "url": "/login?from=0.000000"
+      },
+      {
+        "hits": "3",
+        "url": "/note/uss-fitzgerald/"
+      },
+      {
+        "hits": "3",
+        "url": "/phpMyAdmin/scripts/setup.php"
+      },
+      {
+        "hits": "3",
+        "url": "/note/top-books-2019/"
+      },
+      {
+        "hits": "3",
+        "url": "/phpmyadmin/scripts/setup.php"
+      },
+      {
+        "hits": "3",
         "url": "/horde/imp/test.php"
       },
       {
         "hits": "2",
-        "url": "/note/tools-i-wish-existed/"
+        "url": "/note/untranslatable-words/"
       },
       {
         "hits": "2",
@@ -1676,15 +1685,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/the-trossachs/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/untranslatable-words/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/there-is-so-swing-voter/"
+        "url": "/tags/article/"
       },
       {
         "hits": "2",
@@ -1692,7 +1693,19 @@
       },
       {
         "hits": "2",
-        "url": "/tags/article/"
+        "url": "/note/tools-i-wish-existed/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/the-trossachs/"
+      },
+      {
+        "hits": "2",
+        "url": "/wp-login.php"
+      },
+      {
+        "hits": "2",
+        "url": "/note/james-joyce-estate/"
       },
       {
         "hits": "2",
@@ -1700,7 +1713,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/james-joyce-estate/"
+        "url": "/note/plath-vs-hughes/"
       },
       {
         "hits": "2",
@@ -1712,23 +1725,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/plath-vs-hughes/"
-      },
-      {
-        "hits": "2",
-        "url": "/wp-login.php"
-      },
-      {
-        "hits": "2",
         "url": "/note/corona-crisis-18-months/"
       },
       {
-        "hits": "1",
-        "url": "/fckeditor/editor/filemanager/connectors/php/upload.php?Type=Media"
-      },
-      {
-        "hits": "1",
-        "url": "/analytics/day"
+        "hits": "2",
+        "url": "/note/there-is-so-swing-voter/"
       },
       {
         "hits": "1",
@@ -1736,7 +1737,15 @@
       },
       {
         "hits": "1",
+        "url": "/analytics/day"
+      },
+      {
+        "hits": "1",
         "url": "/.env"
+      },
+      {
+        "hits": "1",
+        "url": "/d.php"
       },
       {
         "hits": "1",
@@ -1748,7 +1757,7 @@
       },
       {
         "hits": "1",
-        "url": "/d.php"
+        "url": "/dev/"
       },
       {
         "hits": "1",
@@ -1756,11 +1765,7 @@
       },
       {
         "hits": "1",
-        "url": "/new_license.php"
-      },
-      {
-        "hits": "1",
-        "url": "/misc/ajax.js"
+        "url": "/m.php"
       },
       {
         "hits": "1",
@@ -1776,11 +1781,15 @@
       },
       {
         "hits": "1",
-        "url": "/m.php"
+        "url": "/1.php"
       },
       {
         "hits": "1",
-        "url": "/1.php"
+        "url": "/misc/ajax.js"
+      },
+      {
+        "hits": "1",
+        "url": "/media/jackreid.xyz"
       },
       {
         "hits": "1",
@@ -1789,35 +1798,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "710",
+        "hits": "711",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "390",
+        "hits": "391",
         "url": "/analytics"
       },
       {
@@ -1827,12 +1836,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1781"
+        "hits": "1782"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "5363"
+        "hits": "5371"
       }
     ]
   }
