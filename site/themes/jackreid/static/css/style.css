@@ -96,6 +96,23 @@ pre {
   border-radius: 3px;
 }
 
+figure {
+  margin: 0;
+  padding: 1rem;
+  background: var(--c-accent);
+}
+
+figure audio {
+  width: 100%;
+}
+
+figcaption {
+  margin-top: .5rem;
+  font-style: italic;
+  font-weight: bold;
+  color: var(--c-bg);
+}
+
 .pagination {
   margin-top: 2rem;
   display: flex;

@@ -2,6 +2,9 @@
 {{ if or (eq .Section "highlight") (eq .Section "post") }}
 {{- partial "section_nav.html" .}}
 {{ end }}
+{{ if eq .Section "journal" }}
+{{- partial "section_nav.html" .}}
+{{ end }}
 <section class="h-entry single-article__main single-article__main--{{ .Section }}">
   {{ if ne .Kind "page" }}
   <time class="single-article__date">
@@ -11,10 +14,10 @@
 
   {{ if eq .Section "about" }}
   <h2 class="page-title">{{ .Title }}</h2>
-  {{ else }}
-    {{ if and (.Title) (ne .Section "note") }}
-    <h2 class="p-name single-article__title">{{ .Title }}</h2>
-    {{ end }}
+  {{ else if and (.Title) (ne .Section "note") }}
+  <h2 class="p-name single-article__title">{{ .Title }}</h2>
+  {{ else if eq .Section "journal" }}
+  <h2>{{ .Date.Format "Monday 2 January 2006" }}</h2>
   {{ end }}
   {{ if .Params.subtitle }}
     <h3 class="single-article__subtitle">{{ .Params.subtitle }}</h3>

@@ -3,12 +3,24 @@
   <ul class="single-sequence-nav__list">
     {{ with .PrevInSection }}
     <li class="single-sequence-nav__list-item">
-      <a class="single-sequence-nav__previous" href="{{.Permalink}}"> {{.Title}}</a>
+      <a class="single-sequence-nav__previous" href="{{.Permalink}}">
+        {{ if .Title }}
+         {{.Title}}
+        {{ else }}
+         {{ .Date.Format "Monday 2 January 2006" }}
+        {{ end }}
+      </a>
     </li>
     {{ end }}
     {{ with .NextInSection }}
     <li class="single-sequence-nav__list-item">
-      <a class="single-sequence-nav__next" href="{{.Permalink}}"> {{.Title}}</a>
+      <a class="single-sequence-nav__next" href="{{.Permalink}}">
+        {{ if .Title }}
+         {{.Title}}
+        {{ else }}
+         {{ .Date.Format "Monday 2 January 2006" }}
+        {{ end }}
+      </a>
     </li>
     {{ end }}
   </ul>

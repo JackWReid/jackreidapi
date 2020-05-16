@@ -1,5 +1,13 @@
 <head>
-  <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Summary }}{{ end }} | {{ .Site.Title }}</title>
+  <title>
+    {{ if .Title }}
+      {{ .Title }}
+    {{ else if eq .Section "journal" }}
+      Journal: {{ .Date.Format "Monday 2 January 2006" }}
+    {{ else }}
+      {{ .Summary }}
+    {{ end }} | {{ .Site.Title }}
+  </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="canonical" href="{{ .Permalink }}">
 

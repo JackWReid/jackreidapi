@@ -20,10 +20,23 @@
         {{- partial "card/link.html" .}}
       {{ else }}
       <h2 class="list-page__list-item-title">
-        <a href="{{.Permalink}}">{{ .Title }}</a>
+        <a href="{{.Permalink}}">
+          {{ if eq .Section "journal" }}
+            {{ .Date.Format "Monday 2 January 2006" }}
+          {{ else }}
+            {{ .Title }}
+          {{ end }}
+        </a>
       </h2>
+
+      {{ if eq .Kind "taxonomy" }}
       <h3 class="tag-list-section"><span>{{ .Section }}</span></h3>
+      {{ end }}
+
+      {{ if ne .Section "journal" }}
       <time class="list-page__list-item-date">{{ .Date.Format "2 January 2006" }}</time>
+      {{ end }}
+
       <p class="list-page__list-item-summary">{{.Summary}}</p>
       {{ end }}
     </li>
