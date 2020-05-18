@@ -2,16 +2,20 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "4",
+        "hits": "3",
         "url": "/note/index.xml"
       },
       {
-        "hits": "2",
-        "url": "/index.xml"
+        "hits": "1",
+        "url": "/highlight/"
       },
       {
         "hits": "1",
         "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -36,10 +40,6 @@
       {
         "hits": "1",
         "url": "/post/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/"
       }
     ],
     "topSiteMisses": [
@@ -58,42 +58,42 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "14"
+        "hits": "12"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "96"
       }
     ]
   },
@@ -311,11 +311,15 @@
       },
       {
         "hits": "4",
-        "url": "/photo/loch-lomond/"
+        "url": "/note/bob-fosse/"
       },
       {
         "hits": "4",
-        "url": "/note/bob-fosse/"
+        "url": "/photo/isle-of-skye/"
+      },
+      {
+        "hits": "4",
+        "url": "/photo/loch-lomond/"
       },
       {
         "hits": "4",
@@ -324,10 +328,6 @@
       {
         "hits": "4",
         "url": "/note/iran-nuclear-era/"
-      },
-      {
-        "hits": "4",
-        "url": "/photo/isle-of-skye/"
       },
       {
         "hits": "4",
@@ -479,6 +479,10 @@
       },
       {
         "hits": "3",
+        "url": "/photo/norfolk-shore/"
+      },
+      {
+        "hits": "3",
         "url": "/tags/video/"
       },
       {
@@ -496,24 +500,28 @@
       {
         "hits": "3",
         "url": "/note/avalanche-school/"
-      },
-      {
-        "hits": "3",
-        "url": "/note/carlos-williams-love/"
       }
     ],
     "topApiHits": [
+      {
+        "hits": "289",
+        "url": "/analytics"
+      },
+      {
+        "hits": "288",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
       {
         "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "287",
@@ -521,19 +529,11 @@
       },
       {
         "hits": "287",
-        "url": "/films/towatch?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "1",
@@ -547,7 +547,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2303"
       }
     ]
   },
@@ -958,35 +958,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1126",
+        "hits": "1127",
         "url": "/analytics"
       },
       {
@@ -1005,7 +1005,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "11255"
+        "hits": "11263"
       }
     ]
   },
@@ -1416,35 +1416,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1126",
+        "hits": "1127",
         "url": "/analytics"
       },
       {
@@ -1463,7 +1463,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "11255"
+        "hits": "11263"
       }
     ]
   },
@@ -1874,35 +1874,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1446",
+        "hits": "1447",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1126",
+        "hits": "1127",
         "url": "/analytics"
       },
       {
@@ -1921,7 +1921,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "11255"
+        "hits": "11263"
       }
     ]
   }
