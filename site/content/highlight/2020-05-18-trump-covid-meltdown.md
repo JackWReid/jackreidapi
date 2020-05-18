@@ -1,5 +1,5 @@
 ---
-title: 'Inside Trump's coronavirus meltdown'
+title: Inside Trump's coronavirus meltdown
 slug: trump-covid-meltdown
 link: https%3A%2F%2Fwww.ft.com%2Fcontent%2F97dc7de6-940b-11ea-abcd-371e24b679ed
 date: 2020-05-18T08:35:37.977Z
