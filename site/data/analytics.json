@@ -38,7 +38,7 @@
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/analytics"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "12",
@@ -46,22 +46,22 @@
       },
       {
         "hits": "12",
-        "url": "/pocket?limit=5000"
+        "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/watched?limit=5000"
       },
       {
@@ -76,7 +76,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "95"
       }
     ]
   },
@@ -124,19 +124,19 @@
       },
       {
         "hits": "5",
-        "url": "/note/"
-      },
-      {
-        "hits": "5",
         "url": "/highlight/ronan-farrow-too-good/"
       },
       {
         "hits": "5",
-        "url": "/highlight/trump-covid-meltdown/"
+        "url": "/note/"
       },
       {
         "hits": "5",
         "url": "/highlight/snowden-gellman/"
+      },
+      {
+        "hits": "5",
+        "url": "/highlight/trump-covid-meltdown/"
       },
       {
         "hits": "4",
@@ -144,11 +144,11 @@
       },
       {
         "hits": "4",
-        "url": "/media/"
+        "url": "/journal/2020-05-16/"
       },
       {
         "hits": "4",
-        "url": "/journal/2020-05-16/"
+        "url": "/media/"
       },
       {
         "hits": "3",
@@ -168,7 +168,11 @@
       },
       {
         "hits": "3",
-        "url": "/note/2020-05-12t214826.383z/"
+        "url": "/journal/2020-05-11/"
+      },
+      {
+        "hits": "3",
+        "url": "/tags/magazine/"
       },
       {
         "hits": "3",
@@ -176,7 +180,7 @@
       },
       {
         "hits": "3",
-        "url": "/tags/magazine/"
+        "url": "/note/2020-05-12t13-22-03/"
       },
       {
         "hits": "3",
@@ -185,10 +189,6 @@
       {
         "hits": "3",
         "url": "/tags/literature/"
-      },
-      {
-        "hits": "3",
-        "url": "/journal/2020-05-11/"
       },
       {
         "hits": "3",
@@ -204,7 +204,7 @@
       },
       {
         "hits": "3",
-        "url": "/note/2020-05-12t13-22-03/"
+        "url": "/note/2020-05-12t214826.383z/"
       },
       {
         "hits": "3",
@@ -212,27 +212,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-05-18t111925.301z/"
-      },
-      {
-        "hits": "2",
         "url": "/note/corona-speculative-fiction/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-05-13t180824.451z/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-05-13t084605.059z/"
-      },
-      {
-        "hits": "2",
-        "url": "/journal/2020-05-03/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-05-13t132423.795z/"
       },
       {
         "hits": "2",
@@ -240,15 +220,23 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-04-02-du-coudray-book/"
+        "url": "/note/2020-05-13t132423.795z/"
       },
       {
         "hits": "2",
-        "url": "/note/2020-02-02-roman-silphium/"
+        "url": "/note/2020-05-13t084605.059z/"
       },
       {
         "hits": "2",
-        "url": "/note/2020-03-23-meyer-get-static/"
+        "url": "/note/2020-05-13t180824.451z/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-05-18t111925.301z/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/little-women-gerwig-crit/"
       },
       {
         "hits": "2",
@@ -256,7 +244,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-01-02-04-coronavirus-central-lockdown/"
+        "url": "/note/2020-03-23-meyer-get-static/"
       },
       {
         "hits": "2",
@@ -264,11 +252,7 @@
       },
       {
         "hits": "2",
-        "url": "/journal/2020-05-02/"
-      },
-      {
-        "hits": "2",
-        "url": "/elsewhere/"
+        "url": "/note/2020-04-26-animal-crossing-labour/"
       },
       {
         "hits": "2",
@@ -276,11 +260,27 @@
       },
       {
         "hits": "2",
-        "url": "/analytics/day/"
+        "url": "/note/2020-04-02-du-coudray-book/"
       },
       {
         "hits": "2",
-        "url": "/highlight/names-gender-code/"
+        "url": "/journal/2020-05-02/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/2020-05-03/"
+      },
+      {
+        "hits": "2",
+        "url": "/elsewhere/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-01-28-tools-i-wish-existed/"
+      },
+      {
+        "hits": "2",
+        "url": "/analytics/day/"
       }
     ],
     "topSiteMisses": [
@@ -477,7 +477,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "571"
+        "hits": "570"
       }
     ],
     "totalApiHits": [
@@ -893,35 +893,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1572",
+        "hits": "1573",
         "url": "/analytics"
       },
       {
@@ -940,7 +940,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "14827"
+        "hits": "14835"
       }
     ]
   },
@@ -1351,35 +1351,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1572",
+        "hits": "1573",
         "url": "/analytics"
       },
       {
@@ -1398,7 +1398,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "14827"
+        "hits": "14835"
       }
     ]
   },
@@ -1809,35 +1809,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1892",
+        "hits": "1893",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1572",
+        "hits": "1573",
         "url": "/analytics"
       },
       {
@@ -1856,7 +1856,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "14827"
+        "hits": "14835"
       }
     ]
   }
