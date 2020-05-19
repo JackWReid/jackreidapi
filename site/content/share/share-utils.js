@@ -39,17 +39,29 @@ function getByteLength(normal_val) {
   var byteLen = 0;
   for (var i = 0; i < normal_val.length; i++) {
     var c = normal_val.charCodeAt(i);
-    byteLen +=  c < (1 <<  7) ? 1 :
-      c < (1 << 11) ? 2 :
-      c < (1 << 16) ? 3 :
-      c < (1 << 21) ? 4 :
-      c < (1 << 26) ? 5 :
-      c < (1 << 31) ? 6 : Number.NaN;
+    byteLen +=
+      c < 1 << 7
+        ? 1
+        : c < 1 << 11
+          ? 2
+          : c < 1 << 16
+            ? 3
+            : c < 1 << 21
+              ? 4
+              : c < 1 << 26
+                ? 5
+                : c < 1 << 31
+                  ? 6
+                  : Number.NaN;
   }
   return byteLen;
-} 
+}
 
-const filterBadChars = string => string.split('').filter(c => getByteLength(c) === 1).join('');
+const filterBadChars = string =>
+  string
+    .split('')
+    .filter(c => getByteLength(c) === 1)
+    .join('');
 
 async function publishToApi({contentType, bodyString, slug, token}) {
   const requestUrl = fileUrl(contentType, slug);
@@ -74,15 +86,38 @@ async function publishToApi({contentType, bodyString, slug, token}) {
   }
 }
 
-function createFileBody({contentType, vals}) {
-  const md = `
----
-title: ${vals.body}
-date: ${isoDateString()}
----
-  `;
+const tagList = tags =>
+  tags
+    .replace(/ /g, '')
+    .split(',')
+    .map(t => `- ${t}`)
+    .join('\n');
 
-  return btoa(md);
+const titleEscape = title => title.replace(/"/g, "'");
+
+function createFileBody({contentType, vals}) {
+  const titleString = contentType === note ? vals.body : vals.title;
+
+  let fileString = `---
+title: "${titleString}"
+date: ${isoDateString()}\n`;
+
+  if (contentType === 'link') {
+    fileString = fileString.append(`link: "${vals.link}"\n`);
+  }
+
+  if (['highlight', 'post'].includes(contentType)) {
+    fileString = fileString.append(`slug: ${vals.slug}\n`);
+    fileString = fileString.append(`tags:\n${tagList(vals.tags)}\n`);
+  }
+
+  fileString = fileString.append('---\n\n');
+
+  if (['highlight', 'post', 'journal'].includes(contentType)) {
+    fileString = fileString.append(vals.body);
+  }
+
+  return btoa(fileString);
 }
 
 function createGitHubPayload({contentType, fileBody}) {
@@ -108,17 +143,28 @@ function reportStack(message, status) {
 
 async function onFormSubmit(event) {
   event.preventDefault();
-  const contentType = 'note';
+  const contentType = location.pathname.split('/');
+
+  const titleEl = formEl.querySelector('#title');
   const bodyEl = formEl.querySelector('#body');
+  const bodyEl = formEl.querySelector('#body');
+  const linkEl = formEl.querySelector('#link');
+  const slugEl = formEl.querySelector('#slug');
+  const tagsEl = formEl.querySelector('#tags');
   const tokenEl = formEl.querySelector('#ghtoken');
   const token = tokenEl.value;
 
   const vals = {
+    title: titleEl.value,
     body: bodyEl.value,
-  }
+    link: linkEl.value,
+    slug: slugEl.value,
+    tags: tagsEl.value,
+  };
 
   const fileBody = createFileBody({contentType, vals});
   const bodyString = createGitHubPayload({contentType, fileBody});
+
   try {
     reportStack('LOADING', 'loading');
     await publishToApi({contentType, bodyString, token});
@@ -144,6 +190,28 @@ function filterCharHandler(event) {
 function attachCharFilterHandlers() {
   const fields = document.querySelectorAll('[data-filter-char]');
   fields.forEach(f => f.addEventListener('keyup', filterCharHandler));
+}
+
+function prefillContentFields() {
+  const titleEl = formEl.querySelector('#title');
+  const linkEl = formEl.querySelector('#link');
+  const bodyEl = formEl.querySelector('#body');
+
+  if (params.title) {
+    titleEl.value = decodeURIComponent(params.title);
+  }
+
+  if (params.url) {
+    linkEl.value = decodeURIComponent(params.url);
+  }
+
+  if (params.body && params.url) {
+    bodyEl.value = `> ${decodeURIComponent(params.body)}
+
+&mdash; [${decodeURIComponent(params.title)}](${decodeURIComponent(
+      params.url,
+    )})`;
+  }
 }
 
 prefillTokenField();

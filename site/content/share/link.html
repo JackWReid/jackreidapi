@@ -12,7 +12,7 @@ draft: false
   <label for="link">Link</label>
   <input id="link" placeholder="https://..." required/>
   <label for="slug">Slug</label>
-  <input id="slug" placeholder="slug-case-please" required/>
+  <input id="slug" pattern="/^[a-z0-9-]+$/" placeholder="hyphen-format-please" required/>
   <label for="ghtoken">Token</label>
   <input id="ghtoken" required />
   <input type="submit" value="Post" />
