@@ -6,13 +6,14 @@ date: 2020-04-27T09:51:00+01:00
 draft: false
 ---
 
-<form class="share-form share-form--note" action="#" id="noteform" onsubmit="onSubmit(event)">
-  <label for="body">Body</label>
-  <textarea id="body" rows="3" class="share-form__body" required></textarea>
+<form class="share-form share-form--note" action="#" id="noteform" onsubmit="onFormSubmit(event)">
+  <label for="body" required>Body</label>
+  <textarea data-filter-char id="body" rows="5" class="share-form__body" required></textarea>
   <label for="ghtoken">Token</label>
   <input name="ghtoken" id="ghtoken" required />
   <input type="submit" value="Post" />
-  <p id="submitmessage"></p>
+  <div class="share-form__report-wrapper"></div>
 </form>
 
-<script src="/share/submit-note.js"></script>
+
+<script src="/share/share-utils.js"></script>
