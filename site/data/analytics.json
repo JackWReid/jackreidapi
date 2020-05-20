@@ -41,24 +41,12 @@
     "topSiteMisses": [],
     "topApiHits": [
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -71,6 +59,18 @@
       {
         "hits": "11",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -80,7 +80,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "93"
+        "hits": "88"
       }
     ]
   },
@@ -91,7 +91,7 @@
         "url": "/note/index.xml"
       },
       {
-        "hits": "50",
+        "hits": "49",
         "url": "/index.xml"
       },
       {
@@ -148,15 +148,11 @@
       },
       {
         "hits": "3",
-        "url": "/note/2020-05-13t222527.312z/"
+        "url": "/highlight/ronan-farrow-too-good/"
       },
       {
         "hits": "3",
         "url": "/highlight/tulip-farm-covid/"
-      },
-      {
-        "hits": "3",
-        "url": "/highlight/ronan-farrow-too-good/"
       },
       {
         "hits": "3",
@@ -172,15 +168,19 @@
       },
       {
         "hits": "3",
-        "url": "/note/2020-05-12t214826.383z/"
-      },
-      {
-        "hits": "3",
         "url": "/post/2015-03-02-internet-rhizome/"
       },
       {
         "hits": "3",
         "url": "/rss/"
+      },
+      {
+        "hits": "3",
+        "url": "/note/2020-05-13t222527.312z/"
+      },
+      {
+        "hits": "3",
+        "url": "/note/2020-05-12t214826.383z/"
       },
       {
         "hits": "2",
@@ -192,19 +192,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-05-14t230243.919z/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-05-13t132423.795z/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-05-13t084605.059z/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-05-13t180824.451z/"
+        "url": "/note/2020-05-18t111925.301z/"
       },
       {
         "hits": "2",
@@ -212,11 +200,27 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-05-18t111925.301z/"
+        "url": "/note/2020-05-13t180824.451z/"
       },
       {
         "hits": "2",
-        "url": "/note/2020-03-27-1918-flu-letter/"
+        "url": "/note/2020-05-13t084605.059z/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-05-13t132423.795z/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-05-14t230243.919z/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/corona-speculative-fiction/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-04-02-du-coudray-book/"
       },
       {
         "hits": "2",
@@ -224,7 +228,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-04-02-du-coudray-book/"
+        "url": "/note/2020-04-07-murakami-women-interview/"
       },
       {
         "hits": "2",
@@ -244,10 +248,6 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-04-07-murakami-women-interview/"
-      },
-      {
-        "hits": "2",
         "url": "/analytics/day/"
       },
       {
@@ -260,15 +260,19 @@
       },
       {
         "hits": "2",
+        "url": "/note/2020-05-12t13-22-03/"
+      },
+      {
+        "hits": "2",
         "url": "/note/2019-12-30-2010-lists/"
       },
       {
         "hits": "2",
-        "url": "/note/2019-08-05-eugenics-statistics/"
+        "url": "/elsewhere/"
       },
       {
         "hits": "2",
-        "url": "/elsewhere/"
+        "url": "/note/2019-08-05-eugenics-statistics/"
       },
       {
         "hits": "2",
@@ -281,10 +285,6 @@
       {
         "hits": "2",
         "url": "/articles/saved/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2019-07-31-madame-tussaud/"
       }
     ],
     "topSiteMisses": [
@@ -467,16 +467,28 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
-        "url": "/articles?limit=5000"
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/analytics"
       },
       {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
+        "hits": "287",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
@@ -487,30 +499,18 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
-      },
-      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "540"
+        "hits": "538"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2301"
+        "hits": "2298"
       }
     ]
   },
@@ -525,7 +525,7 @@
         "url": "/index.xml"
       },
       {
-        "hits": "263",
+        "hits": "264",
         "url": "/post/index.xml"
       },
       {
@@ -921,35 +921,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1654",
+        "hits": "1655",
         "url": "/analytics"
       },
       {
@@ -968,7 +968,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "15483"
+        "hits": "15491"
       }
     ]
   },
@@ -987,7 +987,7 @@
         "url": "/"
       },
       {
-        "hits": "275",
+        "hits": "276",
         "url": "/post/index.xml"
       },
       {
@@ -1379,35 +1379,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1654",
+        "hits": "1655",
         "url": "/analytics"
       },
       {
@@ -1421,12 +1421,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "4308"
+        "hits": "4309"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "15483"
+        "hits": "15491"
       }
     ]
   },
@@ -1445,7 +1445,7 @@
         "url": "/"
       },
       {
-        "hits": "275",
+        "hits": "276",
         "url": "/post/index.xml"
       },
       {
@@ -1837,35 +1837,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1974",
+        "hits": "1975",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1654",
+        "hits": "1655",
         "url": "/analytics"
       },
       {
@@ -1879,12 +1879,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "4308"
+        "hits": "4309"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "15483"
+        "hits": "15491"
       }
     ]
   }
