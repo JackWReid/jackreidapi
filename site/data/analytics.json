@@ -90,8 +90,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -111,7 +111,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -121,7 +121,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "91"
       }
     ]
   },
@@ -165,15 +165,15 @@
       },
       {
         "hits": "2",
+        "url": "/note/"
+      },
+      {
+        "hits": "2",
         "url": "/tags/link/"
       },
       {
         "hits": "2",
         "url": "/note/little-women-gerwig-crit/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/bring-back-blogs/"
       },
       {
         "hits": "2",
@@ -185,7 +185,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/snowden-gellman/"
+        "url": "/highlight/bring-back-blogs/"
       },
       {
         "hits": "2",
@@ -194,6 +194,10 @@
       {
         "hits": "2",
         "url": "/tags/funny/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "2",
@@ -209,15 +213,11 @@
       },
       {
         "hits": "2",
-        "url": "/articles/saved/"
-      },
-      {
-        "hits": "2",
         "url": "/tags/film/"
       },
       {
         "hits": "2",
-        "url": "/note/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "2",
@@ -226,10 +226,6 @@
       {
         "hits": "2",
         "url": "/note/2020-02-24-the-runners-victoria/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-01-13-flights/"
       },
       {
         "hits": "1",
@@ -326,11 +322,15 @@
       {
         "hits": "1",
         "url": "/tags/race/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/snowden/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "47",
+        "hits": "46",
         "url": "/robots.txt"
       },
       {
@@ -540,12 +540,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -557,11 +553,15 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "1",
@@ -570,12 +570,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "332"
+        "hits": "331"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2300"
       }
     ]
   },
@@ -703,10 +703,6 @@
       },
       {
         "hits": "12",
-        "url": "/share/submit-highlight.js"
-      },
-      {
-        "hits": "12",
         "url": "/journal/2020-05-11/"
       },
       {
@@ -718,8 +714,8 @@
         "url": "/highlight/robert-pattinson/"
       },
       {
-        "hits": "11",
-        "url": "/tags/covid-19/"
+        "hits": "12",
+        "url": "/share/submit-highlight.js"
       },
       {
         "hits": "11",
@@ -735,11 +731,15 @@
       },
       {
         "hits": "11",
+        "url": "/rss/"
+      },
+      {
+        "hits": "11",
         "url": "/journal/2020-05-03/"
       },
       {
         "hits": "11",
-        "url": "/rss/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "10",
@@ -784,7 +784,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "285",
+        "hits": "284",
         "url": "/robots.txt"
       },
       {
@@ -986,16 +986,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "2021",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2021",
-        "url": "/pocket?limit=5000"
-      },
-      {
         "hits": "2020",
-        "url": "/books/read?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "2020",
@@ -1011,10 +1003,18 @@
       },
       {
         "hits": "2020",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2020",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1901",
+        "hits": "2020",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "1902",
         "url": "/analytics"
       },
       {
@@ -1028,12 +1028,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "3824"
+        "hits": "3823"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16055"
+        "hits": "16054"
       }
     ]
   },
@@ -1444,35 +1444,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1901",
+        "hits": "1902",
         "url": "/analytics"
       },
       {
@@ -1491,7 +1491,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "17460"
+        "hits": "17468"
       }
     ]
   },
@@ -1902,35 +1902,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2221",
+        "hits": "2222",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1901",
+        "hits": "1902",
         "url": "/analytics"
       },
       {
@@ -1949,7 +1949,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "17460"
+        "hits": "17468"
       }
     ]
   }
