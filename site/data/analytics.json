@@ -3,11 +3,15 @@
     "topSiteHits": [
       {
         "hits": "3",
-        "url": "/note/index.xml"
+        "url": "/films/watched/"
       },
       {
         "hits": "3",
-        "url": "/films/watched/"
+        "url": "/note/index.xml"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/index.xml"
       },
       {
         "hits": "2",
@@ -19,19 +23,11 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/the-american-room/"
-      },
-      {
-        "hits": "2",
-        "url": "/index.xml"
-      },
-      {
-        "hits": "2",
         "url": "/post/index.xml"
       },
       {
         "hits": "2",
-        "url": "/photo/index.xml"
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -39,15 +35,15 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/lbj-movies/"
-      },
-      {
-        "hits": "1",
         "url": "/articles/liked/"
       },
       {
         "hits": "1",
-        "url": "/highlight/"
+        "url": "/analytics/month/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/names-gender-code/"
       },
       {
         "hits": "1",
@@ -59,15 +55,11 @@
       },
       {
         "hits": "1",
-        "url": "/analytics/month/"
+        "url": "/highlight/chat-roulette-quar/"
       },
       {
         "hits": "1",
         "url": "/films/towatch/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/grimes-boat-tour/"
       },
       {
         "hits": "1",
@@ -79,10 +71,6 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/helms-deep-analysis/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/human-scale-cities/"
       },
       {
@@ -91,7 +79,7 @@
       },
       {
         "hits": "1",
-        "url": "/journal/2020-03-28/"
+        "url": "/highlight/lbj-movies/"
       },
       {
         "hits": "1",
@@ -103,11 +91,11 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/covid-flour-surge/"
+        "url": "/note/2020-01-011-il-formaggio-virmi/"
       },
       {
         "hits": "1",
-        "url": "/highlight/names-gender-code/"
+        "url": "/note/2020-01-07-driving-school/"
       },
       {
         "hits": "1",
@@ -123,15 +111,11 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/covid-19-virus-profile/"
+        "url": "/highlight/page/3/"
       },
       {
         "hits": "1",
-        "url": "/books/reading/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/page/6/"
+        "url": "/highlight/page/4/"
       },
       {
         "hits": "1",
@@ -139,15 +123,19 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/page/7/"
+        "url": "/highlight/helms-deep-analysis/"
       },
       {
         "hits": "1",
-        "url": "/highlight/page/8/"
+        "url": "/books/reading/"
       },
       {
         "hits": "1",
         "url": "/highlight/pandemic-cars/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/page/8/"
       },
       {
         "hits": "1",
@@ -167,7 +155,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/chat-roulette-quar/"
+        "url": "/highlight/the-american-room/"
       },
       {
         "hits": "1",
@@ -175,38 +163,46 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/page/4/"
+        "url": "/highlight/grimes-boat-tour/"
       },
       {
         "hits": "1",
-        "url": "/journal/2020-03-19/"
+        "url": "/link/index.xml"
       },
       {
         "hits": "1",
-        "url": "/journal/2020-03-21/"
+        "url": "/note/2019-12-18-finland-media-literacy/"
       },
       {
         "hits": "1",
-        "url": "/highlight/page/3/"
+        "url": "/note/2019-12-18-screen-protectors/"
       },
       {
         "hits": "1",
-        "url": "/journal/2020-03-30/"
+        "url": "/note/2019-12-29-plath-vs-hughes/"
       },
       {
         "hits": "1",
-        "url": "/journal/2020-04-05/"
+        "url": "/note/2019-12-29-the-great-regression/"
       },
       {
         "hits": "1",
-        "url": "/highlight/cessna-badass-plane/"
+        "url": "/highlight/page/7/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-01-02-04-coronavirus-central-lockdown/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/page/6/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/covid-19-virus-profile/"
       }
     ],
     "topSiteMisses": [
-      {
-        "hits": "2",
-        "url": "/robots.txt"
-      },
       {
         "hits": "1",
         "url": "/note/animal-crossing-labour/"
@@ -218,6 +214,10 @@
       {
         "hits": "1",
         "url": "/post/getting-of-off-netlify"
+      },
+      {
+        "hits": "1",
+        "url": "/robots.txt"
       }
     ],
     "topApiHits": [
@@ -256,7 +256,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "218"
+        "hits": "207"
       }
     ],
     "totalApiHits": [
@@ -676,8 +676,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "290",
+        "hits": "291",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "291",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "291",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "291",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "290",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "290",
@@ -686,22 +702,6 @@
       {
         "hits": "290",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "290",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "290",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "290",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "290",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -715,7 +715,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2322"
+        "hits": "2326"
       }
     ]
   },
@@ -738,7 +738,7 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "233",
+        "hits": "234",
         "url": "/highlight/index.xml"
       },
       {
@@ -953,19 +953,15 @@
       },
       {
         "hits": "8",
-        "url": "/note/animal-crossing-labour/"
-      },
-      {
-        "hits": "8",
         "url": "/note/2010-lists/"
       },
       {
-        "hits": "7",
-        "url": "/note/bob-fosse/"
+        "hits": "8",
+        "url": "/note/animal-crossing-labour/"
       },
       {
         "hits": "7",
-        "url": "/horde/imp/test.php"
+        "url": "/photo/loch-lomond/"
       },
       {
         "hits": "7",
@@ -973,7 +969,15 @@
       },
       {
         "hits": "7",
-        "url": "/photo/loch-lomond/"
+        "url": "/horde/imp/test.php"
+      },
+      {
+        "hits": "7",
+        "url": "/note/bob-fosse/"
+      },
+      {
+        "hits": "7",
+        "url": "/cgi-bin/test-cgi"
       },
       {
         "hits": "7",
@@ -988,20 +992,16 @@
         "url": "/post/getting-of-off-netlify"
       },
       {
-        "hits": "7",
-        "url": "/cgi-bin/test-cgi"
-      },
-      {
-        "hits": "6",
-        "url": "/photo/south-india/"
-      },
-      {
         "hits": "6",
         "url": "/note/dawn-or-dusk-painting/"
       },
       {
         "hits": "6",
         "url": "/note/willard-maps-of-time/"
+      },
+      {
+        "hits": "6",
+        "url": "/photo/south-india/"
       },
       {
         "hits": "5",
@@ -1017,10 +1017,6 @@
       },
       {
         "hits": "5",
-        "url": "/note/duchy-of-cornwall/"
-      },
-      {
-        "hits": "5",
         "url": "/note/eugenics-statistics/"
       },
       {
@@ -1033,15 +1029,19 @@
       },
       {
         "hits": "5",
-        "url": "/tags/article/"
-      },
-      {
-        "hits": "5",
         "url": "/tags/medicine/"
       },
       {
         "hits": "5",
         "url": "/note/joe-biden-stutter/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/article/"
+      },
+      {
+        "hits": "5",
+        "url": "/note/low-tech-election-iowa/"
       },
       {
         "hits": "5",
@@ -1065,7 +1065,7 @@
       },
       {
         "hits": "5",
-        "url": "/note/low-tech-election-iowa/"
+        "url": "/note/duchy-of-cornwall/"
       },
       {
         "hits": "4",
@@ -1081,15 +1081,7 @@
       },
       {
         "hits": "4",
-        "url": "/photo/transcontinental-flight/"
-      },
-      {
-        "hits": "4",
         "url": "/note/plath-vs-hughes/"
-      },
-      {
-        "hits": "4",
-        "url": "/note/paradise-lost-pullman/"
       },
       {
         "hits": "4",
@@ -1105,7 +1097,7 @@
       },
       {
         "hits": "4",
-        "url": "/https%3A%2F%2Fwww.benawad.com%2Fscraping-recipe-websites%2F"
+        "url": "/photo/transcontinental-flight/"
       },
       {
         "hits": "4",
@@ -1122,28 +1114,28 @@
       {
         "hits": "4",
         "url": "/photo/isle-of-skye/"
+      },
+      {
+        "hits": "4",
+        "url": "/note/paradise-lost-pullman/"
+      },
+      {
+        "hits": "4",
+        "url": "/photo/norfolk-shore/"
       }
     ],
     "topApiHits": [
       {
-        "hits": "2021",
+        "hits": "2020",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2021",
+        "hits": "2020",
         "url": "/analytics"
       },
       {
-        "hits": "2021",
+        "hits": "2020",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2020",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2020",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2020",
@@ -1152,6 +1144,14 @@
       {
         "hits": "2020",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2020",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2020",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2020",
@@ -1168,12 +1168,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "4056"
+        "hits": "4057"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16175"
+        "hits": "16172"
       }
     ]
   },
@@ -1200,7 +1200,7 @@
         "url": "/"
       },
       {
-        "hits": "306",
+        "hits": "307",
         "url": "/highlight/index.xml"
       },
       {
@@ -1584,35 +1584,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2150",
+        "hits": "2151",
         "url": "/analytics"
       },
       {
@@ -1626,12 +1626,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "5463"
+        "hits": "5464"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "19453"
+        "hits": "19461"
       }
     ]
   },
@@ -1658,7 +1658,7 @@
         "url": "/"
       },
       {
-        "hits": "306",
+        "hits": "307",
         "url": "/highlight/index.xml"
       },
       {
@@ -2042,35 +2042,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2470",
+        "hits": "2471",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2150",
+        "hits": "2151",
         "url": "/analytics"
       },
       {
@@ -2084,12 +2084,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "5463"
+        "hits": "5464"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "19453"
+        "hits": "19461"
       }
     ]
   }
