@@ -1,5 +1,5 @@
 ---
-title: 'Alison Roman, Bon Appétit, and the Global Pantry Problem'
+title: 'Alison Roman, Bon Appetit, and the Global Pantry Problem'
 slug: alison-roman-culture
 link: https%3A%2F%2Fwww.eater.com%2F2020%2F5%2F20%2F21262304%2Fglobal-pantry-alison-roman-bon-appetit
 date: 2020-05-21T14:44:05.108Z
