@@ -1,5 +1,5 @@
 ---
-title: 'Inside King Arthur Flour, the Company Supplying America's Sudden Baking Obsession | Marker'
+title: 'Inside King Arthur Flour'
 slug: covid-flour-surge
 link: https%3A%2F%2Fmarker.medium.com%2Finside-the-flour-company-supplying-americas-sudden-baking-obsession-623034583579
 date: 2020-05-21T17:19:19.596Z
