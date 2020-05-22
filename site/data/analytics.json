@@ -59,6 +59,10 @@
     "topApiHits": [
       {
         "hits": "11",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "11",
         "url": "/analytics"
       },
       {
@@ -86,8 +90,8 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
+        "hits": "1",
+        "url": "/"
       }
     ],
     "totalSiteHits": [
@@ -97,7 +101,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "88"
+        "hits": "89"
       }
     ]
   },
@@ -112,16 +116,16 @@
         "url": "/index.xml"
       },
       {
-        "hits": "30",
+        "hits": "29",
         "url": "/post/index.xml"
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "15",
@@ -145,10 +149,6 @@
       },
       {
         "hits": "3",
-        "url": "/articles/liked/"
-      },
-      {
-        "hits": "3",
         "url": "/tags/accessibility/"
       },
       {
@@ -157,7 +157,7 @@
       },
       {
         "hits": "3",
-        "url": "/films/watched/"
+        "url": "/journal/"
       },
       {
         "hits": "3",
@@ -165,19 +165,11 @@
       },
       {
         "hits": "3",
+        "url": "/highlight/covid-flour-surge/"
+      },
+      {
+        "hits": "3",
         "url": "/note/2020-02-10-there-is-no-swing-voter/"
-      },
-      {
-        "hits": "3",
-        "url": "/highlight/samin-nosrat-eating/"
-      },
-      {
-        "hits": "3",
-        "url": "/highlight/the-american-room/"
-      },
-      {
-        "hits": "3",
-        "url": "/books/read/"
       },
       {
         "hits": "3",
@@ -185,15 +177,7 @@
       },
       {
         "hits": "3",
-        "url": "/books/toread/"
-      },
-      {
-        "hits": "3",
-        "url": "/books/reading/"
-      },
-      {
-        "hits": "3",
-        "url": "/highlight/covid-flour-surge/"
+        "url": "/highlight/animal-crossing-interest-rates/"
       },
       {
         "hits": "3",
@@ -201,19 +185,31 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/negroni-season/"
+        "url": "/highlight/samin-nosrat-eating/"
       },
       {
-        "hits": "3",
-        "url": "/articles/saved/"
+        "hits": "2",
+        "url": "/tags/games/"
       },
       {
-        "hits": "3",
-        "url": "/journal/"
+        "hits": "2",
+        "url": "/articles/liked/"
       },
       {
-        "hits": "3",
-        "url": "/highlight/animal-crossing-interest-rates/"
+        "hits": "2",
+        "url": "/tags/indieweb/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/helms-deep-analysis/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/book/"
+      },
+      {
+        "hits": "2",
+        "url": "/analytics/day/"
       },
       {
         "hits": "2",
@@ -225,43 +221,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/games/"
+        "url": "/tags/letter/"
       },
       {
         "hits": "2",
-        "url": "/highlight/helms-deep-analysis/"
+        "url": "/highlight/the-american-room/"
       },
       {
         "hits": "2",
-        "url": "/analytics/day/"
-      },
-      {
-        "hits": "2",
-        "url": "/sitemap.xml"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/book/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/indieweb/"
-      },
-      {
-        "hits": "2",
-        "url": "/analytics/week/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-04-28t10-33-55/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-04-26-first-note/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-04-26-second-note/"
+        "url": "/books/toread/"
       },
       {
         "hits": "2",
@@ -269,7 +237,19 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-01-12-iran-nuclear-era/"
+        "url": "/note/2020-04-26-second-note/"
+      },
+      {
+        "hits": "2",
+        "url": "/books/reading/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-04-26-first-note/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-04-28t10-33-55/"
       },
       {
         "hits": "2",
@@ -277,19 +257,7 @@
       },
       {
         "hits": "2",
-        "url": "/films/towatch/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/"
-      },
-      {
-        "hits": "2",
         "url": "/note/2020-02-10-files-going-extinct/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/new-york-geology/"
       },
       {
         "hits": "2",
@@ -297,11 +265,47 @@
       },
       {
         "hits": "2",
-        "url": "/link/"
+        "url": "/books/read/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-01-12-iran-nuclear-era/"
       },
       {
         "hits": "2",
         "url": "/note/2020-02-10-james-joyce-estate/"
+      },
+      {
+        "hits": "2",
+        "url": "/films/watched/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/new-york-geology/"
+      },
+      {
+        "hits": "2",
+        "url": "/link/"
+      },
+      {
+        "hits": "2",
+        "url": "/analytics/week/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/negroni-season/"
+      },
+      {
+        "hits": "2",
+        "url": "/articles/saved/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/"
+      },
+      {
+        "hits": "2",
+        "url": "/sitemap.xml"
       }
     ],
     "topSiteMisses": [
@@ -524,18 +528,18 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2",
+        "hits": "3",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "500"
+        "hits": "486"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2299"
       }
     ]
   },
@@ -558,7 +562,7 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "222",
+        "hits": "221",
         "url": "/highlight/index.xml"
       },
       {
@@ -978,7 +982,7 @@
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "10",
+        "hits": "11",
         "url": "/"
       },
       {
@@ -988,12 +992,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "3996"
+        "hits": "3995"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16172"
+        "hits": "16173"
       }
     ]
   },
@@ -1404,39 +1408,39 @@
     ],
     "topApiHits": [
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2430",
+        "hits": "2431",
         "url": "/analytics"
       },
       {
-        "hits": "13",
+        "hits": "14",
         "url": "/"
       },
       {
@@ -1451,7 +1455,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "21695"
+        "hits": "21704"
       }
     ]
   },
@@ -1862,39 +1866,39 @@
     ],
     "topApiHits": [
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2750",
+        "hits": "2751",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2430",
+        "hits": "2431",
         "url": "/analytics"
       },
       {
-        "hits": "13",
+        "hits": "14",
         "url": "/"
       },
       {
@@ -1909,7 +1913,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "21695"
+        "hits": "21704"
       }
     ]
   }
