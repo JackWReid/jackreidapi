@@ -631,13 +631,32 @@ td {
 }
 
 .share-form__body {
-  font-family: var(--f-mono);
+  font-family: var(--f-base);
 }
 
 .share-form--note .share-form__body {
-  appearance: none;
   resize: none;
   font-size: 1.5rem;
+}
+
+.share-form #ghtoken {
+  width: auto;
+  padding: 0;
+  font-family: var(--f-mono);
+}
+
+.share-form__report {
+  white-space: break-spaces;
+  overflow: hidden;
+}
+.share-form__report--loading {
+  border-top: 5px solid orange;
+}
+.share-form__report--error {
+  border-top: 5px solid red;
+}
+.share-form__report--success {
+  border-top: 5px solid green;
 }
 
 /**
