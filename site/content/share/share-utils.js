@@ -30,7 +30,7 @@ const fileUrl = (contentType, slug) => {
     return apiPath(contentType) + dateString() + '-' + slug;
   }
 
-  throw new Error('Unrecognised content type, could not create file URL');
+  throw new Error(`Unrecognised content type (${contentType, slug}), could not create file URL`);
 };
 
 function getByteLength(normal_val) {
@@ -96,25 +96,25 @@ const tagList = tags =>
 const titleEscape = title => title.replace(/"/g, "'");
 
 function createFileBody({contentType, vals}) {
-  const titleString = contentType === note ? vals.body : vals.title;
+  const titleString = contentType === 'note' ? vals.body : vals.title;
 
   let fileString = `---
 title: "${titleString}"
 date: ${isoDateString()}\n`;
 
   if (contentType === 'link') {
-    fileString = fileString.append(`link: "${vals.link}"\n`);
+    fileString = fileString.concat(`link: "${vals.link}"\n`);
   }
 
   if (['highlight', 'post'].includes(contentType)) {
-    fileString = fileString.append(`slug: ${vals.slug}\n`);
-    fileString = fileString.append(`tags:\n${tagList(vals.tags)}\n`);
+    fileString = fileString.concat(`slug: ${vals.slug}\n`);
+    fileString = fileString.concat(`tags:\n${tagList(vals.tags)}\n`);
   }
 
-  fileString = fileString.append('---\n\n');
+  fileString = fileString.concat('---\n\n');
 
   if (['highlight', 'post', 'journal'].includes(contentType)) {
-    fileString = fileString.append(vals.body);
+    fileString = fileString.concat(vals.body);
   }
 
   return btoa(fileString);
@@ -132,6 +132,10 @@ function createGitHubPayload({contentType, fileBody}) {
 }
 
 function reportStack(message, status) {
+  if (status === 'error') {
+    console.error(message);
+  }
+
   const hookEl = document.querySelector('.share-form__report-wrapper');
   const reportEl = document.createElement('pre');
   reportEl.classList.add('share-form__report');
@@ -141,12 +145,11 @@ function reportStack(message, status) {
   hookEl.appendChild(reportEl);
 }
 
-async function onFormSubmit(event) {
+function onFormSubmit(event) {
   event.preventDefault();
-  const contentType = location.pathname.split('/');
+  const contentType = location.pathname.split('/')[2];
 
   const titleEl = formEl.querySelector('#title');
-  const bodyEl = formEl.querySelector('#body');
   const bodyEl = formEl.querySelector('#body');
   const linkEl = formEl.querySelector('#link');
   const slugEl = formEl.querySelector('#slug');
@@ -155,23 +158,20 @@ async function onFormSubmit(event) {
   const token = tokenEl.value;
 
   const vals = {
-    title: titleEl.value,
-    body: bodyEl.value,
-    link: linkEl.value,
-    slug: slugEl.value,
-    tags: tagsEl.value,
+    title: titleEl && titleEl.value,
+    body: bodyEl && bodyEl.value,
+    link: linkEl && linkEl.value,
+    slug: slugEl && slugEl.value,
+    tags: tagsEl && tagsEl.value,
   };
 
   const fileBody = createFileBody({contentType, vals});
   const bodyString = createGitHubPayload({contentType, fileBody});
 
-  try {
-    reportStack('LOADING', 'loading');
-    await publishToApi({contentType, bodyString, token});
-    reportStack(`SUCCESS\n${bodyString}`, 'success');
-  } catch (error) {
-    reportStack(error, 'error');
-  }
+  reportStack('LOADING', 'loading');
+  publishToApi({contentType, bodyString, token})
+    .then(() => reportStack(`SUCCESS\n${bodyString}`, 'success'))
+    .catch(error => reportStack(error, 'error'));
 }
 
 function prefillTokenField() {
