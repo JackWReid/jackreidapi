@@ -31,6 +31,10 @@
       },
       {
         "hits": "1",
+        "url": "/link/"
+      },
+      {
+        "hits": "1",
         "url": "/articles/saved/"
       },
       {
@@ -98,7 +102,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
@@ -128,28 +132,24 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "20"
+        "hits": "21"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "90"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "69",
+        "hits": "68",
         "url": "/note/index.xml"
       },
       {
-        "hits": "50",
+        "hits": "49",
         "url": "/index.xml"
-      },
-      {
-        "hits": "24",
-        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
@@ -158,6 +158,10 @@
       {
         "hits": "24",
         "url": "/post/index.xml"
+      },
+      {
+        "hits": "24",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "15",
@@ -181,7 +185,7 @@
       },
       {
         "hits": "2",
-        "url": "/rss/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "2",
@@ -189,11 +193,19 @@
       },
       {
         "hits": "2",
+        "url": "/rss/"
+      },
+      {
+        "hits": "2",
         "url": "/films/towatch/"
       },
       {
         "hits": "2",
-        "url": "/articles/saved/"
+        "url": "/post/2018-09-04-its-you-and-me/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/ptsd-during-covid/"
       },
       {
         "hits": "2",
@@ -205,19 +217,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/covid-19/"
+        "url": "/articles/liked/"
       },
       {
         "hits": "2",
-        "url": "/highlight/ptsd-during-covid/"
-      },
-      {
-        "hits": "2",
-        "url": "/open-graph.png"
-      },
-      {
-        "hits": "2",
-        "url": "/post/2018-09-04-its-you-and-me/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "2",
@@ -229,7 +233,11 @@
       },
       {
         "hits": "2",
-        "url": "/articles/liked/"
+        "url": "/open-graph.png"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-02-10-dawn-or-dusk-painting/"
       },
       {
         "hits": "1",
@@ -334,10 +342,6 @@
       {
         "hits": "1",
         "url": "/tags/link/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/litcrit/"
       }
     ],
     "topSiteMisses": [
@@ -545,35 +549,35 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -582,12 +586,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "315"
+        "hits": "314"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2305"
+        "hits": "2298"
       }
     ]
   },
@@ -759,7 +763,7 @@
       },
       {
         "hits": "9",
-        "url": "/tags/cities/"
+        "url": "/note/corona-speculative-fiction/"
       },
       {
         "hits": "9",
@@ -787,11 +791,11 @@
       },
       {
         "hits": "9",
-        "url": "/note/corona-speculative-fiction/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "9",
-        "url": "/post/how-this-site-works/"
+        "url": "/tags/cities/"
       }
     ],
     "topSiteMisses": [
@@ -999,23 +1003,15 @@
     "topApiHits": [
       {
         "hits": "2021",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2021",
         "url": "/analytics"
       },
       {
-        "hits": "2021",
+        "hits": "2020",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "2020",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2020",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "2020",
@@ -1024,6 +1020,14 @@
       {
         "hits": "2020",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2020",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2020",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2020",
@@ -1045,7 +1049,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16174"
+        "hits": "16172"
       }
     ]
   },
@@ -1229,15 +1233,15 @@
       },
       {
         "hits": "15",
+        "url": "/link/"
+      },
+      {
+        "hits": "15",
         "url": "/tags/covid-19/"
       },
       {
         "hits": "14",
         "url": "/journal/2020-05-11/"
-      },
-      {
-        "hits": "14",
-        "url": "/link/"
       },
       {
         "hits": "13",
@@ -1456,35 +1460,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2704",
+        "hits": "2705",
         "url": "/analytics"
       },
       {
@@ -1498,12 +1502,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "6109"
+        "hits": "6110"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "23888"
+        "hits": "23896"
       }
     ]
   },
@@ -1687,15 +1691,15 @@
       },
       {
         "hits": "15",
+        "url": "/link/"
+      },
+      {
+        "hits": "15",
         "url": "/tags/covid-19/"
       },
       {
         "hits": "14",
         "url": "/journal/2020-05-11/"
-      },
-      {
-        "hits": "14",
-        "url": "/link/"
       },
       {
         "hits": "13",
@@ -1914,35 +1918,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "3024",
+        "hits": "3025",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2704",
+        "hits": "2705",
         "url": "/analytics"
       },
       {
@@ -1956,12 +1960,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "6109"
+        "hits": "6110"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "23888"
+        "hits": "23896"
       }
     ]
   }
