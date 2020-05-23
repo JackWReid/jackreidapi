@@ -94,7 +94,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
@@ -129,7 +129,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "90"
       }
     ]
   },
@@ -145,11 +145,11 @@
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/post/index.xml"
       },
       {
         "hits": "24",
-        "url": "/post/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
@@ -173,7 +173,11 @@
       },
       {
         "hits": "3",
-        "url": "/articles/saved/"
+        "url": "/share/note/"
+      },
+      {
+        "hits": "3",
+        "url": "/share/share-utils.js"
       },
       {
         "hits": "3",
@@ -189,35 +193,11 @@
       },
       {
         "hits": "3",
-        "url": "/share/share-utils.js"
-      },
-      {
-        "hits": "3",
-        "url": "/share/note/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "2",
-        "url": "/work/"
-      },
-      {
-        "hits": "2",
-        "url": "/share/note/?ghtoken=6092ddd9ddf9c964d4443bc6e93b88bf81bf2df9"
-      },
-      {
-        "hits": "2",
-        "url": "/share/submit-highlight.js"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/aviation/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/human-scale-cities/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/design/"
+        "url": "/highlight/ptsd-during-covid/"
       },
       {
         "hits": "2",
@@ -225,15 +205,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/engineering/"
-      },
-      {
-        "hits": "2",
-        "url": "/open-graph.png"
-      },
-      {
-        "hits": "2",
         "url": "/post/2018-09-04-its-you-and-me/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/human-scale-cities/"
       },
       {
         "hits": "2",
@@ -241,7 +217,19 @@
       },
       {
         "hits": "2",
+        "url": "/tags/aviation/"
+      },
+      {
+        "hits": "2",
         "url": "/media/"
+      },
+      {
+        "hits": "2",
+        "url": "/share/submit-highlight.js"
+      },
+      {
+        "hits": "2",
+        "url": "/work/"
       },
       {
         "hits": "2",
@@ -249,7 +237,19 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/ptsd-during-covid/"
+        "url": "/share/note/?ghtoken=6092ddd9ddf9c964d4443bc6e93b88bf81bf2df9"
+      },
+      {
+        "hits": "2",
+        "url": "/open-graph.png"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/engineering/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-02-12-place-non-place/"
       },
       {
         "hits": "1",
@@ -329,7 +329,7 @@
       },
       {
         "hits": "1",
-        "url": "/tags/design/index.xml"
+        "url": "/tags/design/"
       },
       {
         "hits": "1",
@@ -338,7 +338,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "57",
+        "hits": "56",
         "url": "/robots.txt"
       },
       {
@@ -574,7 +574,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "340"
+        "hits": "338"
       }
     ],
     "totalApiHits": [
@@ -991,23 +991,23 @@
     "topApiHits": [
       {
         "hits": "2021",
-        "url": "/analytics"
-      },
-      {
-        "hits": "2021",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2021",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "2021",
+        "url": "/analytics"
+      },
+      {
+        "hits": "2020",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "2020",
-        "url": "/books/read?limit=5000"
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2020",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2020",
@@ -1015,11 +1015,11 @@
       },
       {
         "hits": "2020",
-        "url": "/books/toread?limit=5000"
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2020",
-        "url": "/films/watched?limit=5000"
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "9",
@@ -1037,7 +1037,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16175"
+        "hits": "16173"
       }
     ]
   },
@@ -1448,35 +1448,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2739",
+        "hits": "2740",
         "url": "/analytics"
       },
       {
@@ -1495,7 +1495,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "24168"
+        "hits": "24176"
       }
     ]
   },
@@ -1906,35 +1906,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "3059",
+        "hits": "3060",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2739",
+        "hits": "2740",
         "url": "/analytics"
       },
       {
@@ -1953,7 +1953,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "24168"
+        "hits": "24176"
       }
     ]
   }
