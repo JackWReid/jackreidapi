@@ -54,20 +54,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -80,6 +68,18 @@
       {
         "hits": "11",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -89,7 +89,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "93"
+        "hits": "89"
       }
     ]
   },
@@ -116,7 +116,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "16",
+        "hits": "15",
         "url": "/"
       },
       {
@@ -125,11 +125,11 @@
       },
       {
         "hits": "7",
-        "url": "/css/style.css"
+        "url": "/favicon.png"
       },
       {
         "hits": "7",
-        "url": "/favicon.png"
+        "url": "/css/style.css"
       },
       {
         "hits": "5",
@@ -157,7 +157,15 @@
       },
       {
         "hits": "2",
+        "url": "/note/"
+      },
+      {
+        "hits": "2",
         "url": "/tags/design/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "2",
@@ -165,15 +173,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/the-american-room/"
-      },
-      {
-        "hits": "2",
         "url": "/elsewhere/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/covid-19/"
       },
       {
         "hits": "2",
@@ -185,11 +185,15 @@
       },
       {
         "hits": "2",
-        "url": "/link/"
+        "url": "/articles/liked/"
       },
       {
         "hits": "2",
-        "url": "/articles/liked/"
+        "url": "/books/toread/"
+      },
+      {
+        "hits": "2",
+        "url": "/link/"
       },
       {
         "hits": "2",
@@ -201,23 +205,15 @@
       },
       {
         "hits": "2",
-        "url": "/books/toread/"
-      },
-      {
-        "hits": "2",
         "url": "/books/reading/"
       },
       {
         "hits": "2",
-        "url": "/note/"
+        "url": "/highlight/the-american-room/"
       },
       {
         "hits": "1",
         "url": "/note/2019-12-30-2010-lists/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2019-12-30-top-books-2019/"
       },
       {
         "hits": "1",
@@ -294,11 +290,15 @@
       {
         "hits": "1",
         "url": "/tags/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/academic/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "43",
+        "hits": "42",
         "url": "/robots.txt"
       },
       {
@@ -538,7 +538,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "344"
+        "hits": "342"
       }
     ],
     "totalApiHits": [
@@ -954,24 +954,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "2021",
+        "hits": "2020",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2021",
+        "hits": "2020",
         "url": "/analytics"
       },
       {
-        "hits": "2021",
+        "hits": "2020",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2020",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2020",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2020",
@@ -980,6 +972,14 @@
       {
         "hits": "2020",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2020",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2020",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2020",
@@ -1001,7 +1001,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16175"
+        "hits": "16172"
       }
     ]
   },
@@ -1412,35 +1412,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2505",
+        "hits": "2506",
         "url": "/analytics"
       },
       {
@@ -1459,7 +1459,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "22296"
+        "hits": "22304"
       }
     ]
   },
@@ -1870,35 +1870,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2825",
+        "hits": "2826",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2505",
+        "hits": "2506",
         "url": "/analytics"
       },
       {
@@ -1917,7 +1917,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "22296"
+        "hits": "22304"
       }
     ]
   }
