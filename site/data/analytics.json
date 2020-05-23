@@ -104,7 +104,7 @@
         "url": "/index.xml"
       },
       {
-        "hits": "25",
+        "hits": "24",
         "url": "/post/index.xml"
       },
       {
@@ -137,6 +137,10 @@
       },
       {
         "hits": "3",
+        "url": "/note/"
+      },
+      {
+        "hits": "3",
         "url": "/share/note/"
       },
       {
@@ -144,24 +148,12 @@
         "url": "/articles/liked/"
       },
       {
-        "hits": "3",
-        "url": "/note/"
-      },
-      {
         "hits": "2",
         "url": "/work/"
       },
       {
         "hits": "2",
-        "url": "/books/reading/"
-      },
-      {
-        "hits": "2",
         "url": "/books/toread/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/aviation/"
       },
       {
         "hits": "2",
@@ -170,10 +162,6 @@
       {
         "hits": "2",
         "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/design/"
       },
       {
         "hits": "2",
@@ -198,6 +186,18 @@
       {
         "hits": "2",
         "url": "/share/note/?ghtoken=6092ddd9ddf9c964d4443bc6e93b88bf81bf2df9"
+      },
+      {
+        "hits": "2",
+        "url": "/books/reading/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2019-07-31-jacob-rees-mogg/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2019-08-05-academie-francaise/"
       },
       {
         "hits": "1",
@@ -281,6 +281,10 @@
       },
       {
         "hits": "1",
+        "url": "/tags/aviation/"
+      },
+      {
+        "hits": "1",
         "url": "/tags/aviation/index.xml"
       },
       {
@@ -289,16 +293,12 @@
       },
       {
         "hits": "1",
-        "url": "/tags/design/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/engineering/"
+        "url": "/tags/design/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "46",
+        "hits": "44",
         "url": "/robots.txt"
       },
       {
@@ -315,10 +315,6 @@
       },
       {
         "hits": "2",
-        "url": "/share/favicon.ico"
-      },
-      {
-        "hits": "2",
         "url": "/note/animal-crossing-labour/"
       },
       {
@@ -332,6 +328,10 @@
       {
         "hits": "2",
         "url": "/photo/south-india/images/IMG_2292_hu0e1fde5b801c8e7d278695bc42f057dc_130126_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/share/favicon.ico"
       },
       {
         "hits": "1",
@@ -501,15 +501,23 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
+        "hits": "287",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
@@ -521,15 +529,7 @@
       },
       {
         "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "2",
@@ -538,12 +538,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "323"
+        "hits": "320"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2301"
+        "hits": "2299"
       }
     ]
   },
@@ -1412,35 +1412,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2596",
+        "hits": "2597",
         "url": "/analytics"
       },
       {
@@ -1459,7 +1459,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "23024"
+        "hits": "23032"
       }
     ]
   },
@@ -1870,35 +1870,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2916",
+        "hits": "2917",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2596",
+        "hits": "2597",
         "url": "/analytics"
       },
       {
@@ -1917,7 +1917,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "23024"
+        "hits": "23032"
       }
     ]
   }
