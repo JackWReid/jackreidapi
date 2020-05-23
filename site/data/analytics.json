@@ -47,7 +47,7 @@
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/pocket?limit=5000"
+        "url": "/analytics"
       },
       {
         "hits": "12",
@@ -55,22 +55,22 @@
       },
       {
         "hits": "12",
-        "url": "/analytics"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
@@ -85,7 +85,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "95"
+        "hits": "91"
       }
     ]
   },
@@ -105,11 +105,11 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "14",
@@ -141,11 +141,11 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/samin-nosrat-eating/"
+        "url": "/highlight/bring-back-blogs/"
       },
       {
         "hits": "3",
-        "url": "/highlight/bring-back-blogs/"
+        "url": "/highlight/samin-nosrat-eating/"
       },
       {
         "hits": "3",
@@ -157,7 +157,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/design/"
+        "url": "/books/reading/"
       },
       {
         "hits": "2",
@@ -165,19 +165,7 @@
       },
       {
         "hits": "2",
-        "url": "/post/how-this-site-works/"
-      },
-      {
-        "hits": "2",
-        "url": "/elsewhere/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/ronan-farrow-too-good/"
+        "url": "/highlight/the-american-room/"
       },
       {
         "hits": "2",
@@ -189,7 +177,15 @@
       },
       {
         "hits": "2",
-        "url": "/books/reading/"
+        "url": "/tags/design/"
+      },
+      {
+        "hits": "2",
+        "url": "/elsewhere/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "2",
@@ -197,11 +193,19 @@
       },
       {
         "hits": "2",
-        "url": "/books/read/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "2",
-        "url": "/highlight/the-american-room/"
+        "url": "/highlight/ronan-farrow-too-good/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2019-07-31-jacob-rees-mogg/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2019-08-05-academie-francaise/"
       },
       {
         "hits": "1",
@@ -286,15 +290,11 @@
       {
         "hits": "1",
         "url": "/tags/aviation/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/dance/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "43",
+        "hits": "42",
         "url": "/robots.txt"
       },
       {
@@ -504,12 +504,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -521,11 +517,15 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2",
@@ -534,19 +534,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "337"
+        "hits": "336"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2301"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "638",
+        "hits": "637",
         "url": "/note/index.xml"
       },
       {
@@ -962,23 +962,23 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2021",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2021",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2021",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2021",
+        "hits": "2020",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2021",
+        "hits": "2020",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2020",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2020",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2020",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -992,12 +992,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "3991"
+        "hits": "3990"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16180"
+        "hits": "16175"
       }
     ]
   },
@@ -1408,35 +1408,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2515",
+        "hits": "2516",
         "url": "/analytics"
       },
       {
@@ -1455,7 +1455,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "22376"
+        "hits": "22384"
       }
     ]
   },
@@ -1866,35 +1866,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2835",
+        "hits": "2836",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2515",
+        "hits": "2516",
         "url": "/analytics"
       },
       {
@@ -1913,7 +1913,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "22376"
+        "hits": "22384"
       }
     ]
   }
