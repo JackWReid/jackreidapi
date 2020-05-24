@@ -16,7 +16,7 @@ draft: false
   <label for="tags">Tags</label>
   <input id="tags" placeholder="comma, separated" required/>
   <label for="slug">Slug</label>
-  <input id="slug" pattern="/^[a-z0-9-]+$/" placeholder="hyphen-format-please" required/>
+  <input id="slug" placeholder="hyphen-format-please" required/>
   <label for="ghtoken">Token</label>
   <input id="ghtoken" required />
   <input type="submit" value="Post" />
@@ -25,4 +25,4 @@ draft: false
   <a href="javascript:(function(){var title=document.getElementsByTagName('title')[0].innerHTML;title=encodeURIComponent(title);var selection='';if(window.getSelection){selection=window.getSelection().toString()}else if(document.selection&&document.selection.type!='Control'){selection=document.selection.createRange().text}selection=encodeURIComponent(selection);var url='https://jackreid.xyz/share/highlight/?title='+title+'&body='+selection+'&url='+encodeURIComponent(document.location.href);var opts='resizable,scrollbars,status=0,toolbar=0,menubar=0,titlebar=0,width=680,height=700,location=0';window.open(url,'Sharer',opts)})();">Highlight —> xyz</a>
 </form>
 
-<script src="/share/submit-highlight.js"></script>
+<script src="/share/share-utils.js"></script>

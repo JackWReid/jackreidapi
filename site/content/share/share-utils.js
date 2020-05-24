@@ -13,6 +13,17 @@ const dateString = () => new Date().toISOString().slice(0, 10);
 
 const formEl = document.querySelector('.share-form');
 
+const findBtoaError = string => {
+  const charArr = string.split('');
+  charArr.forEach(c => {
+    try {
+      btoa(c); 
+    } catch (e) {
+      console.error(`Choked on base64 for '${c}'`);
+    }
+  });
+};
+
 const fileUrl = (contentType, slug) => {
   if (contentType === 'note') {
     return apiPath(contentType) + dateTimeString();
@@ -59,6 +70,7 @@ function getByteLength(normal_val) {
 
 const filterBadChars = string =>
   string
+    .replace(/’/g, '\'')
     .split('')
     .filter(c => getByteLength(c) === 1)
     .join('');
@@ -117,6 +129,7 @@ date: ${isoDateString()}\n`;
     fileString = fileString.concat(vals.body);
   }
 
+  findBtoaError(fileString);
   return btoa(fileString);
 }
 
@@ -193,9 +206,16 @@ function attachCharFilterHandlers() {
 }
 
 function prefillContentFields() {
-  const titleEl = formEl.querySelector('#title');
-  const linkEl = formEl.querySelector('#link');
-  const bodyEl = formEl.querySelector('#body');
+  const urlParams = new URLSearchParams(window.location.search);
+  const params = {
+    title: urlParams.get('title'),
+    url: urlParams.get('url'),
+    body: urlParams.get('body'),
+  };
+
+  const titleEl = formEl.querySelector('#title') || {};
+  const linkEl = formEl.querySelector('#link') || {};
+  const bodyEl = formEl.querySelector('#body') || {};
 
   if (params.title) {
     titleEl.value = decodeURIComponent(params.title);
@@ -215,4 +235,5 @@ function prefillContentFields() {
 }
 
 prefillTokenField();
+prefillContentFields();
 attachCharFilterHandlers();
