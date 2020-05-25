@@ -46,7 +46,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
@@ -81,7 +81,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "89"
       }
     ]
   },
@@ -615,11 +615,11 @@
       },
       {
         "hits": "16",
-        "url": "/media/"
+        "url": "/post/"
       },
       {
         "hits": "16",
-        "url": "/post/"
+        "url": "/media/"
       },
       {
         "hits": "15",
@@ -655,15 +655,11 @@
       },
       {
         "hits": "10",
-        "url": "/link/"
-      },
-      {
-        "hits": "10",
         "url": "/books/reading/"
       },
       {
-        "hits": "9",
-        "url": "/tags/book/"
+        "hits": "10",
+        "url": "/link/"
       },
       {
         "hits": "9",
@@ -704,6 +700,10 @@
       {
         "hits": "9",
         "url": "/post/how-this-site-works/"
+      },
+      {
+        "hits": "9",
+        "url": "/tags/book/"
       }
     ],
     "topSiteMisses": [
@@ -736,12 +736,12 @@
         "url": "/note/2020-04-27t104500.315z/"
       },
       {
-        "hits": "8",
-        "url": "/note/2010-lists/"
+        "hits": "7",
+        "url": "/post/getting-of-off-netlify"
       },
       {
         "hits": "7",
-        "url": "/post/getting-of-off-netlify"
+        "url": "/note/2010-lists/"
       },
       {
         "hits": "7",
@@ -749,19 +749,15 @@
       },
       {
         "hits": "6",
+        "url": "/photo/norfolk-shore/"
+      },
+      {
+        "hits": "6",
         "url": "/note/there-is-no-outside/"
       },
       {
         "hits": "6",
-        "url": "/note/aristophanes-wasps/"
-      },
-      {
-        "hits": "6",
         "url": "/note/dawn-or-dusk-painting/"
-      },
-      {
-        "hits": "6",
-        "url": "/photo/norfolk-shore/"
       },
       {
         "hits": "5",
@@ -773,11 +769,15 @@
       },
       {
         "hits": "5",
-        "url": "/wp-login.php"
+        "url": "/note/aristophanes-wasps/"
       },
       {
         "hits": "5",
         "url": "/note/driving-school/"
+      },
+      {
+        "hits": "5",
+        "url": "/wp-login.php"
       },
       {
         "hits": "5",
@@ -801,7 +801,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2915_huf22749fd9e5346e8aa15a223647ebe9e_143779_800x0_resize_q75_box.jpg"
+        "url": "/phpmyadmin/scripts/setup.php"
       },
       {
         "hits": "3",
@@ -809,35 +809,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2559_hu737147df5fde39d335039aa0fd05e9e4_157809_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "3",
-        "url": "/note/pearshaped-magazine-archive/"
-      },
-      {
-        "hits": "3",
-        "url": "/photo/south-india/images/IMG_2632_hudc2151d3367441da7d4037ec8f2bceb0_215430_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "3",
-        "url": "/note/willard-maps-of-time/"
-      },
-      {
-        "hits": "3",
-        "url": "/photo/south-india/images/IMG_2850_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_191455_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "3",
-        "url": "/note/bob-fosse/"
-      },
-      {
-        "hits": "3",
-        "url": "/note/paradise-lost-pullman/"
-      },
-      {
-        "hits": "3",
-        "url": "/photo/south-india/images/IMG_2505_hu1ddaec928864e2ac7f3bc7f0b4820fb9_372234_800x0_resize_q75_box.jpg"
+        "url": "/phpMyAdmin/scripts/setup.php"
       },
       {
         "hits": "3",
@@ -845,15 +817,43 @@
       },
       {
         "hits": "3",
-        "url": "/phpmyadmin/scripts/setup.php"
+        "url": "/note/pearshaped-magazine-archive/"
       },
       {
         "hits": "3",
-        "url": "/note/academie-francaise/"
+        "url": "/photo/south-india/images/IMG_2850_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_191455_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
+        "url": "/note/willard-maps-of-time/"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/south-india/images/IMG_2559_hu737147df5fde39d335039aa0fd05e9e4_157809_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
+        "url": "/note/avalanche-school/"
+      },
+      {
+        "hits": "3",
+        "url": "/note/paradise-lost-pullman/"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/south-india/images/IMG_2632_hudc2151d3367441da7d4037ec8f2bceb0_215430_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/south-india/images/IMG_2915_huf22749fd9e5346e8aa15a223647ebe9e_143779_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
         "url": "/photo/south-india/images/IMG_2292_hu0e1fde5b801c8e7d278695bc42f057dc_130126_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/south-india/images/IMG_2370_hu1ddaec928864e2ac7f3bc7f0b4820fb9_55412_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -877,7 +877,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2370_hu1ddaec928864e2ac7f3bc7f0b4820fb9_55412_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2381_hu0e1fde5b801c8e7d278695bc42f057dc_244498_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -897,15 +897,15 @@
       },
       {
         "hits": "3",
-        "url": "/note/avalanche-school/"
-      },
-      {
-        "hits": "3",
         "url": "/note/meyer-get-static/"
       },
       {
         "hits": "3",
         "url": "/horde/imp/test.php"
+      },
+      {
+        "hits": "3",
+        "url": "/note/contrecoup/"
       }
     ],
     "topApiHits": [
@@ -952,7 +952,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "3863"
+        "hits": "3850"
       }
     ],
     "totalApiHits": [
@@ -1368,35 +1368,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "3099",
+        "hits": "3100",
         "url": "/analytics"
       },
       {
@@ -1415,7 +1415,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "27049"
+        "hits": "27057"
       }
     ]
   },
@@ -1826,35 +1826,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "3419",
+        "hits": "3420",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "3099",
+        "hits": "3100",
         "url": "/analytics"
       },
       {
@@ -1873,7 +1873,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "27049"
+        "hits": "27057"
       }
     ]
   }
