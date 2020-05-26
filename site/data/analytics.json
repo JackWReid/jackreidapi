@@ -2,16 +2,20 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
+        "hits": "3",
         "url": "/note/index.xml"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/index.xml"
       },
       {
         "hits": "1",
         "url": "/note/2019-07-22-bob-fosse/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-01-02-04-coronavirus-central-lockdown/"
       },
       {
         "hits": "1",
@@ -32,9 +36,17 @@
       {
         "hits": "1",
         "url": "/tags/link/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/real-lord-of-the-flies/"
       }
     ],
     "topSiteMisses": [
+      {
+        "hits": "1",
+        "url": "/robots.txt"
+      },
       {
         "hits": "1",
         "url": "/wp-login.php"
@@ -43,11 +55,15 @@
     "topApiHits": [
       {
         "hits": "12",
+        "url": "/analytics"
+      },
+      {
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/analytics"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -70,34 +86,34 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "9"
+        "hits": "13"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "90"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "67",
+        "hits": "68",
         "url": "/note/index.xml"
       },
       {
-        "hits": "47",
+        "hits": "48",
         "url": "/index.xml"
+      },
+      {
+        "hits": "24",
+        "url": "/post/index.xml"
       },
       {
         "hits": "24",
@@ -106,10 +122,6 @@
       {
         "hits": "24",
         "url": "/highlight/index.xml"
-      },
-      {
-        "hits": "24",
-        "url": "/post/index.xml"
       },
       {
         "hits": "11",
@@ -121,11 +133,15 @@
       },
       {
         "hits": "3",
+        "url": "/highlight/no-more-buying-stuff/"
+      },
+      {
+        "hits": "3",
         "url": "/highlight/trump-covid-meltdown/"
       },
       {
         "hits": "3",
-        "url": "/favicon.png"
+        "url": "/css/style.css"
       },
       {
         "hits": "3",
@@ -133,55 +149,11 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/no-more-buying-stuff/"
-      },
-      {
-        "hits": "3",
-        "url": "/css/style.css"
+        "url": "/favicon.png"
       },
       {
         "hits": "2",
-        "url": "/tags/literature/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/la-haine-society/"
-      },
-      {
-        "hits": "2",
-        "url": "/open-graph.png"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/running/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2019-08-05-academie-francaise/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/2016-08-22-that-accessibility-thing/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-01-27iranian-shootdown-coverup/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/mother-board-earth/"
-      },
-      {
-        "hits": "2",
-        "url": "/rss/"
+        "url": "/note/2019-07-24-carlos-williams-love/"
       },
       {
         "hits": "2",
@@ -189,7 +161,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-02-10-joe-biden-stutter/"
+        "url": "/highlight/la-haine-society/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/mother-board-earth/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/"
       },
       {
         "hits": "2",
@@ -201,7 +181,7 @@
       },
       {
         "hits": "2",
-        "url": "/journal/"
+        "url": "/note/"
       },
       {
         "hits": "2",
@@ -209,92 +189,124 @@
       },
       {
         "hits": "2",
-        "url": "/note/2019-07-24-carlos-williams-love/"
+        "url": "/note/2019-08-05-academie-francaise/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-01-27iranian-shootdown-coverup/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-02-10-joe-biden-stutter/"
+      },
+      {
+        "hits": "2",
+        "url": "/open-graph.png"
+      },
+      {
+        "hits": "2",
+        "url": "/post/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/2016-08-22-that-accessibility-thing/"
+      },
+      {
+        "hits": "2",
+        "url": "/rss/"
       },
       {
         "hits": "2",
         "url": "/tags/link/"
       },
       {
-        "hits": "1",
-        "url": "/note/2020-04-02-du-coudray-book/"
+        "hits": "2",
+        "url": "/tags/literature/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/running/"
       },
       {
         "hits": "1",
-        "url": "/note/2020-04-07-murakami-women-interview/"
+        "url": "/journal/2020-05-03/"
       },
       {
         "hits": "1",
-        "url": "/note/2020-04-15-how-puzzles-made/"
+        "url": "/journal/2020-05-11/"
       },
       {
         "hits": "1",
-        "url": "/note/2020-04-26-second-note/"
+        "url": "/tags/language/"
       },
       {
         "hits": "1",
-        "url": "/note/2020-04-29t18-37-15/"
+        "url": "/tags/urbanism/"
       },
       {
         "hits": "1",
-        "url": "/note/2020-04-29t19-25-35/"
+        "url": "/link/"
       },
       {
         "hits": "1",
-        "url": "/note/2020-05-08t10-22-28/"
+        "url": "/tags/web/"
       },
       {
         "hits": "1",
-        "url": "/note/kanye-out-west/"
+        "url": "/tags/love/"
       },
       {
         "hits": "1",
-        "url": "/photo/"
+        "url": "/highlight/alison-roman-culture/"
       },
       {
         "hits": "1",
-        "url": "/post/2016-08-22-confessions-of-a-news-addict/"
+        "url": "/note/2019-07-31-jacob-rees-mogg/"
       },
       {
         "hits": "1",
-        "url": "/post/2017-03-31-candlesticks/"
+        "url": "/note/2019-07-31-madame-tussaud/"
       },
       {
         "hits": "1",
-        "url": "/post/2018-09-04-its-you-and-me/"
+        "url": "/tags/music/"
       },
       {
         "hits": "1",
-        "url": "/post/2019-10-27-the-professor/"
+        "url": "/note/2019-10-17-tech-sabbath/"
       },
       {
         "hits": "1",
-        "url": "/post/getting-of-of-netlify/"
+        "url": "/note/2019-12-31-pearshaped-magazine-archive/"
       },
       {
         "hits": "1",
-        "url": "/post/moses-long-island-klan/"
+        "url": "/note/2020-01-02-04-coronavirus-central-lockdown/"
       },
       {
         "hits": "1",
-        "url": "/share/highlight/?title=My%20Ten%20Games%20of%20the%20Decade%20%7C%20Dom%20Ford&body=Cities%3A%20Skylines%20is%20easily%20the%20pinnacle%20of%20the%20city-builder%2C%20citysim%20genre%2C%20having%20dethroned%20Sim%20City.%20It%20has%20its%20issues%2C%20for%20sure.%20The%20lack%20of%20mixed-use%20zoning%20and%20the%20overreliance%20on%20car-based%20travel%20are%20disappointing%20in%20particular.%20But%2C%20working%20around%20that%E2%80%94and%20with%20the%20help%20of%20a%20few%20(hundred)%20mods%E2%80%94Cities%20offers%20an%20unparalleled%20canvas%20for%20painting%20a%20city.%0A%0AMoments%20of%20intense%20concentration%2C%20placing%20things%20just%20right%2C%20are%20interspersed%20with%20blissful%20periods%20of%20sitting%20back%20and%20just%20watching%20the%20city%20work.%20Immensely%20satisfying%2C%20gratifyingly%20creative%20and%20endlessly%20mesmerising%2C%20Cities%20has%20spent%20half%20the%20decade%20as%20one%20of%20my%20most%20successful%20tools%20for%20relaxation.&url=https%3A%2F%2Fdomford.me%2Fpost%2Fgames-of-the-decade%2F"
+        "url": "/note/2020-01-21-senate-impeachment-hamilton/"
       },
       {
         "hits": "1",
-        "url": "/share/highlight/?title=My%20Ten%20Games%20of%20the%20Decade%20%7C%20Dom%20Ford&body=I%E2%80%99ll%20never%20forget%20the%20day%20I%20spent%20eight%20straight%20hours%20rebuilding%20from%20scratch%20my%20city%E2%80%99s%20railways.%20I%20wanted%20to%20make%20more%20efficient%20rail%20transport%20routes%20around%20the%20city%20as%20well%20as%20splitting%20passenger%20rail%20from%20freight%20rail%2C%20and%20intracity%20rail%20from%20intercity%20rail.%20It%20turned%20out%20to%20be%20a%20bigger%20task%20than%20I%20had%20anticipated%2C%20but%20I%20barely%20noticed%20the%20hours%20go%20by%20as%20I%20tuned%20each%20junction%20and%20corner%20to%20my%20liking.&url=https%3A%2F%2Fdomford.me%2Fpost%2Fgames-of-the-decade%2F"
+        "url": "/tags/politics/"
       },
       {
         "hits": "1",
-        "url": "/share/highlight/?title=My%20Ten%20Games%20of%20the%20Decade%20%7C%20Dom%20Ford&body=Moments%20of%20intense%20concentration%2C%20placing%20things%20just%20right%2C%20are%20interspersed%20with%20blissful%20periods%20of%20sitting%20back%20and%20just%20watching%20the%20city%20work.%20Immensely%20satisfying%2C%20gratifyingly%20creative%20and%20endlessly%20mesmerising%2C%20Cities%20has%20spent%20half%20the%20decade%20as%20one%20of%20my%20most%20successful%20tools%20for%20relaxation.&url=https%3A%2F%2Fdomford.me%2Fpost%2Fgames-of-the-decade%2F"
+        "url": "/note/2020-01-28-tools-i-wish-existed/"
       },
       {
         "hits": "1",
-        "url": "/share/share-utils.js"
+        "url": "/note/2020-02-02-roman-silphium/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-02-07-willard-maps-of-time/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "32",
+        "hits": "33",
         "url": "/robots.txt"
       },
       {
@@ -497,11 +509,15 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/analytics"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -524,33 +540,29 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "323"
+        "hits": "327"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2298"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "514",
+        "hits": "515",
         "url": "/note/index.xml"
       },
       {
-        "hits": "336",
+        "hits": "337",
         "url": "/index.xml"
       },
       {
@@ -671,15 +683,19 @@
       },
       {
         "hits": "9",
-        "url": "/highlight/snowden-gellman/"
-      },
-      {
-        "hits": "9",
         "url": "/books/reading/"
       },
       {
         "hits": "9",
+        "url": "/highlight/snowden-gellman/"
+      },
+      {
+        "hits": "9",
         "url": "/journal/2020-05-16/"
+      },
+      {
+        "hits": "9",
+        "url": "/tags/short-story/"
       },
       {
         "hits": "9",
@@ -702,10 +718,6 @@
         "url": "/highlight/trump-covid-meltdown/"
       },
       {
-        "hits": "9",
-        "url": "/tags/short-story/"
-      },
-      {
         "hits": "8",
         "url": "/highlight/ronan-farrow-too-good/"
       },
@@ -719,11 +731,11 @@
       },
       {
         "hits": "8",
-        "url": "/tags/literature/"
+        "url": "/highlight/new-york-geology/"
       },
       {
         "hits": "8",
-        "url": "/highlight/new-york-geology/"
+        "url": "/tags/literature/"
       },
       {
         "hits": "8",
@@ -743,12 +755,12 @@
       },
       {
         "hits": "7",
-        "url": "/highlight/robert-pattinson/"
+        "url": "/highlight/real-lord-of-the-flies/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "305",
+        "hits": "306",
         "url": "/robots.txt"
       },
       {
@@ -951,23 +963,15 @@
     "topApiHits": [
       {
         "hits": "2019",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2019",
         "url": "/analytics"
       },
       {
-        "hits": "2019",
+        "hits": "2018",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "2018",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2018",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "2018",
@@ -976,6 +980,14 @@
       {
         "hits": "2018",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2018",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2018",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2018",
@@ -992,23 +1004,23 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "3454"
+        "hits": "3457"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16156"
+        "hits": "16154"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1185",
+        "hits": "1186",
         "url": "/note/index.xml"
       },
       {
-        "hits": "626",
+        "hits": "627",
         "url": "/index.xml"
       },
       {
@@ -1049,11 +1061,11 @@
       },
       {
         "hits": "45",
-        "url": "/highlight/mother-board-earth/"
+        "url": "/highlight/bring-back-blogs/"
       },
       {
         "hits": "45",
-        "url": "/highlight/bring-back-blogs/"
+        "url": "/highlight/mother-board-earth/"
       },
       {
         "hits": "42",
@@ -1065,11 +1077,11 @@
       },
       {
         "hits": "40",
-        "url": "/highlight/chat-roulette-quar/"
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "40",
-        "url": "/highlight/snowden-gellman/"
+        "url": "/highlight/chat-roulette-quar/"
       },
       {
         "hits": "39",
@@ -1089,11 +1101,11 @@
       },
       {
         "hits": "35",
-        "url": "/highlight/trump-covid-meltdown/"
+        "url": "/highlight/london-bikes-covid/"
       },
       {
         "hits": "35",
-        "url": "/highlight/london-bikes-covid/"
+        "url": "/highlight/trump-covid-meltdown/"
       },
       {
         "hits": "35",
@@ -1109,11 +1121,11 @@
       },
       {
         "hits": "33",
-        "url": "/highlight/new-york-geology/"
+        "url": "/highlight/names-gender-code/"
       },
       {
         "hits": "33",
-        "url": "/highlight/names-gender-code/"
+        "url": "/highlight/new-york-geology/"
       },
       {
         "hits": "33",
@@ -1133,11 +1145,11 @@
       },
       {
         "hits": "31",
-        "url": "/post/getting-of-of-netlify/"
+        "url": "/media/"
       },
       {
         "hits": "31",
-        "url": "/media/"
+        "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "28",
@@ -1177,11 +1189,11 @@
       },
       {
         "hits": "23",
-        "url": "/post/how-this-site-works/"
+        "url": "/highlight/grimes-boat-tour/"
       },
       {
         "hits": "23",
-        "url": "/highlight/grimes-boat-tour/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "22",
@@ -1206,7 +1218,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "567",
+        "hits": "568",
         "url": "/robots.txt"
       },
       {
@@ -1408,35 +1420,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "3430",
+        "hits": "3431",
         "url": "/analytics"
       },
       {
@@ -1450,23 +1462,23 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "7328"
+        "hits": "7332"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "29698"
+        "hits": "29706"
       }
     ]
   },
   "year": {
     "topSiteHits": [
       {
-        "hits": "1185",
+        "hits": "1186",
         "url": "/note/index.xml"
       },
       {
-        "hits": "626",
+        "hits": "627",
         "url": "/index.xml"
       },
       {
@@ -1507,11 +1519,11 @@
       },
       {
         "hits": "45",
-        "url": "/highlight/mother-board-earth/"
+        "url": "/highlight/bring-back-blogs/"
       },
       {
         "hits": "45",
-        "url": "/highlight/bring-back-blogs/"
+        "url": "/highlight/mother-board-earth/"
       },
       {
         "hits": "42",
@@ -1523,11 +1535,11 @@
       },
       {
         "hits": "40",
-        "url": "/highlight/chat-roulette-quar/"
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "40",
-        "url": "/highlight/snowden-gellman/"
+        "url": "/highlight/chat-roulette-quar/"
       },
       {
         "hits": "39",
@@ -1547,11 +1559,11 @@
       },
       {
         "hits": "35",
-        "url": "/highlight/trump-covid-meltdown/"
+        "url": "/highlight/london-bikes-covid/"
       },
       {
         "hits": "35",
-        "url": "/highlight/london-bikes-covid/"
+        "url": "/highlight/trump-covid-meltdown/"
       },
       {
         "hits": "35",
@@ -1567,11 +1579,11 @@
       },
       {
         "hits": "33",
-        "url": "/highlight/new-york-geology/"
+        "url": "/highlight/names-gender-code/"
       },
       {
         "hits": "33",
-        "url": "/highlight/names-gender-code/"
+        "url": "/highlight/new-york-geology/"
       },
       {
         "hits": "33",
@@ -1591,11 +1603,11 @@
       },
       {
         "hits": "31",
-        "url": "/post/getting-of-of-netlify/"
+        "url": "/media/"
       },
       {
         "hits": "31",
-        "url": "/media/"
+        "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "28",
@@ -1635,11 +1647,11 @@
       },
       {
         "hits": "23",
-        "url": "/post/how-this-site-works/"
+        "url": "/highlight/grimes-boat-tour/"
       },
       {
         "hits": "23",
-        "url": "/highlight/grimes-boat-tour/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "22",
@@ -1664,7 +1676,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "567",
+        "hits": "568",
         "url": "/robots.txt"
       },
       {
@@ -1866,35 +1878,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "3750",
+        "hits": "3751",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "3430",
+        "hits": "3431",
         "url": "/analytics"
       },
       {
@@ -1908,12 +1920,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "7328"
+        "hits": "7332"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "29698"
+        "hits": "29706"
       }
     ]
   }
