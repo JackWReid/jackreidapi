@@ -1,5 +1,5 @@
 ---
-title: "My Ten Games of the Decade | Dom Ford"
+title: "My Ten Games of the Decade"
 date: 2020-05-25T10:00:39.855Z
 slug: ford-best-games
 tags:

@@ -26,19 +26,19 @@ const findBtoaError = string => {
 
 const fileUrl = (contentType, slug) => {
   if (contentType === 'note') {
-    return apiPath(contentType) + dateTimeString();
+    return apiPath(contentType) + dateTimeString() + '.md';
   }
 
   if (contentType === 'link') {
-    return apiPath(contentType) + dateTimeString();
+    return apiPath(contentType) + dateTimeString() + '.md';
   }
 
   if (contentType === 'highlight') {
-    return apiPath(contentType) + dateString() + '-' + slug;
+    return apiPath(contentType) + dateString() + '-' + slug + '.md';
   }
 
   if (contentType === 'post') {
-    return apiPath(contentType) + dateString() + '-' + slug;
+    return apiPath(contentType) + dateString() + '-' + slug + '.md';
   }
 
   throw new Error(`Unrecognised content type (${contentType, slug}), could not create file URL`);
@@ -182,7 +182,7 @@ function onFormSubmit(event) {
   const bodyString = createGitHubPayload({contentType, fileBody});
 
   reportStack('LOADING', 'loading');
-  publishToApi({contentType, bodyString, token})
+  publishToApi({contentType, bodyString, token, slug});
     .then(() => reportStack(`SUCCESS\n${bodyString}`, 'success'))
     .catch(error => reportStack(error, 'error'));
 }
