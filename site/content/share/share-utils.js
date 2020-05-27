@@ -182,7 +182,7 @@ function onFormSubmit(event) {
   const bodyString = createGitHubPayload({contentType, fileBody});
 
   reportStack('LOADING', 'loading');
-  publishToApi({contentType, bodyString, token, slug});
+  publishToApi({contentType, bodyString, token, slug})
     .then(() => reportStack(`SUCCESS\n${bodyString}`, 'success'))
     .catch(error => reportStack(error, 'error'));
 }
