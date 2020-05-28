@@ -34,14 +34,14 @@ const fileUrl = (contentType, slug) => {
   }
 
   if (contentType === 'highlight') {
-    return apiPath(contentType) + dateString() + '-' + slug + '.md';
+    return apiPath(contentType) + dateString() + '-' + slug.value + '.md';
   }
 
   if (contentType === 'post') {
-    return apiPath(contentType) + dateString() + '-' + slug + '.md';
+    return apiPath(contentType) + dateString() + '-' + slug.value + '.md';
   }
 
-  throw new Error(`Unrecognised content type (${contentType, slug}), could not create file URL`);
+  throw new Error(`Unrecognised content type (${contentType, slug.value}), could not create file URL`);
 };
 
 function getByteLength(normal_val) {
@@ -75,7 +75,7 @@ const filterBadChars = string =>
     .filter(c => getByteLength(c) === 1)
     .join('');
 
-async function publishToApi({contentType, bodyString, slug, token}) {
+async function publishToApi({contentType, bodyString, token}) {
   const requestUrl = fileUrl(contentType, slug);
 
   const options = {
@@ -182,7 +182,7 @@ function onFormSubmit(event) {
   const bodyString = createGitHubPayload({contentType, fileBody});
 
   reportStack('LOADING', 'loading');
-  publishToApi({contentType, bodyString, token, slug})
+  publishToApi({contentType, bodyString, token, slug: vals.slug})
     .then(() => reportStack(`SUCCESS\n${bodyString}`, 'success'))
     .catch(error => reportStack(error, 'error'));
 }
