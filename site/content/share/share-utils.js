@@ -75,7 +75,7 @@ const filterBadChars = string =>
     .filter(c => getByteLength(c) === 1)
     .join('');
 
-async function publishToApi({contentType, bodyString, token}) {
+async function publishToApi({contentType, bodyString, token, slug}) {
   const requestUrl = fileUrl(contentType, slug);
 
   const options = {
