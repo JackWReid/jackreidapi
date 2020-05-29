@@ -37,8 +37,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
@@ -46,23 +62,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -72,27 +72,31 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "94"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "48",
+        "hits": "47",
         "url": "/index.xml"
       },
       {
-        "hits": "47",
+        "hits": "45",
         "url": "/open-graph.png"
+      },
+      {
+        "hits": "25",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "25",
         "url": "/photo/index.xml"
       },
       {
-        "hits": "25",
-        "url": "/highlight/index.xml"
+        "hits": "24",
+        "url": "/note/index.xml"
       },
       {
         "hits": "24",
@@ -101,10 +105,6 @@
       {
         "hits": "24",
         "url": "/highlight/reading-in-the-dark/"
-      },
-      {
-        "hits": "24",
-        "url": "/note/index.xml"
       },
       {
         "hits": "23",
@@ -124,7 +124,7 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/larry-kramer-obit/"
+        "url": "/highlight/bridgers-rolling-stone/"
       },
       {
         "hits": "3",
@@ -132,15 +132,7 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/bridgers-rolling-stone/"
-      },
-      {
-        "hits": "2",
-        "url": "/elsewhere/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/accessibility/"
+        "url": "/highlight/larry-kramer-obit/"
       },
       {
         "hits": "2",
@@ -148,7 +140,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/mother-board-earth/"
+        "url": "/elsewhere/"
       },
       {
         "hits": "2",
@@ -156,11 +148,31 @@
       },
       {
         "hits": "2",
+        "url": "/note/2019-07-31-jacob-rees-mogg/"
+      },
+      {
+        "hits": "2",
         "url": "/highlight/la-haine-society/"
       },
       {
         "hits": "2",
-        "url": "/note/2019-07-31-jacob-rees-mogg/"
+        "url": "/highlight/mother-board-earth/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/technology/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/accessibility/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/new-york-geology/"
+      },
+      {
+        "hits": "2",
+        "url": "/rss/"
       },
       {
         "hits": "2",
@@ -169,26 +181,6 @@
       {
         "hits": "2",
         "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/academic/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/technology/"
-      },
-      {
-        "hits": "2",
-        "url": "/rss/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/new-york-geology/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/samin-nosrat-eating/"
       },
       {
         "hits": "1",
@@ -201,6 +193,10 @@
       {
         "hits": "1",
         "url": "/highlight/page/2/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/samin-nosrat-eating/"
       },
       {
         "hits": "1",
@@ -277,11 +273,15 @@
       {
         "hits": "1",
         "url": "/journal/2020-04-12/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "40",
+        "hits": "39",
         "url": "/robots.txt"
       },
       {
@@ -290,11 +290,11 @@
       },
       {
         "hits": "5",
-        "url": "/note/animal-crossing-labour/"
+        "url": "/sw.js"
       },
       {
-        "hits": "5",
-        "url": "/sw.js"
+        "hits": "4",
+        "url": "/note/animal-crossing-labour/"
       },
       {
         "hits": "2",
@@ -339,8 +339,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -360,17 +360,17 @@
       },
       {
         "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "373"
+        "hits": "369"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2298"
       }
     ]
   },
@@ -782,15 +782,23 @@
     "topApiHits": [
       {
         "hits": "2016",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/analytics"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -799,14 +807,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -828,7 +828,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16129"
       }
     ]
   },
@@ -1239,35 +1239,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "4391",
+        "hits": "4392",
         "url": "/analytics"
       },
       {
@@ -1286,7 +1286,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "37388"
+        "hits": "37396"
       }
     ]
   },
@@ -1697,35 +1697,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "4711",
+        "hits": "4712",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "4391",
+        "hits": "4392",
         "url": "/analytics"
       },
       {
@@ -1744,7 +1744,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "37388"
+        "hits": "37396"
       }
     ]
   }
