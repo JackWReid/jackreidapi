@@ -2,12 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
-        "url": "/index.xml"
+        "hits": "2",
+        "url": "/"
       },
       {
-        "hits": "1",
-        "url": "/books/reading/"
+        "hits": "2",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -16,6 +16,10 @@
       {
         "hits": "1",
         "url": "/highlight/new-york-geology/"
+      },
+      {
+        "hits": "1",
+        "url": "/post/index.xml"
       },
       {
         "hits": "1",
@@ -31,11 +35,7 @@
       },
       {
         "hits": "1",
-        "url": "/"
-      },
-      {
-        "hits": "1",
-        "url": "/post/index.xml"
+        "url": "/books/reading/"
       }
     ],
     "topSiteMisses": [
@@ -50,12 +50,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -75,7 +75,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -85,7 +85,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -96,7 +96,7 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "47",
+        "hits": "46",
         "url": "/index.xml"
       },
       {
@@ -104,7 +104,7 @@
         "url": "/highlight/american-girl-doll-history/"
       },
       {
-        "hits": "39",
+        "hits": "38",
         "url": "/note/index.xml"
       },
       {
@@ -125,15 +125,15 @@
       },
       {
         "hits": "25",
-        "url": "/photo/index.xml"
+        "url": "/"
       },
       {
         "hits": "25",
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "24",
-        "url": "/"
+        "hits": "25",
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
@@ -154,14 +154,6 @@
       {
         "hits": "4",
         "url": "/rss/"
-      },
-      {
-        "hits": "4",
-        "url": "/note/"
-      },
-      {
-        "hits": "3",
-        "url": "/books/reading/"
       },
       {
         "hits": "3",
@@ -185,6 +177,10 @@
       },
       {
         "hits": "3",
+        "url": "/note/"
+      },
+      {
+        "hits": "3",
         "url": "/tags/book/"
       },
       {
@@ -193,7 +189,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/link/"
+        "url": "/books/reading/"
       },
       {
         "hits": "2",
@@ -201,15 +197,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/funny/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "2",
-        "url": "/analytics/day/"
+        "url": "/tags/lgbtq/"
       },
       {
         "hits": "2",
@@ -217,7 +205,19 @@
       },
       {
         "hits": "2",
-        "url": "/tags/lgbtq/"
+        "url": "/tags/covid-19/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/funny/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/link/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/short-story/"
       },
       {
         "hits": "2",
@@ -281,20 +281,20 @@
       },
       {
         "hits": "2",
-        "url": "/tags/academic/"
+        "url": "/analytics/day/"
       },
       {
         "hits": "2",
         "url": "/highlight/la-haine-society/"
       },
       {
-        "hits": "2",
-        "url": "/tags/short-story/"
+        "hits": "1",
+        "url": "/highlight/new-york-geology/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "54",
+        "hits": "53",
         "url": "/robots.txt"
       },
       {
@@ -336,14 +336,6 @@
       {
         "hits": "1",
         "url": "/photo/ben-nevis/"
-      },
-      {
-        "hits": "1",
-        "url": "/photo/ben-nevis/images/IMG_0029_huad381fb499f2badc1d9f5391a18539b4_924484_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "1",
-        "url": "/photo/ben-nevis/images/IMG_0030_huad381fb499f2badc1d9f5391a18539b4_497197_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "1",
@@ -389,37 +381,37 @@
       },
       {
         "hits": "288",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
         "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "623"
+        "hits": "618"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2302"
+        "hits": "2299"
       }
     ]
   },
@@ -450,7 +442,7 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "112",
+        "hits": "113",
         "url": "/"
       },
       {
@@ -904,7 +896,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "426",
+        "hits": "427",
         "url": "/"
       },
       {
@@ -1288,35 +1280,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "4266",
+        "hits": "4267",
         "url": "/analytics"
       },
       {
@@ -1330,12 +1322,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "8773"
+        "hits": "8774"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "36388"
+        "hits": "36396"
       }
     ]
   },
@@ -1362,7 +1354,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "426",
+        "hits": "427",
         "url": "/"
       },
       {
@@ -1746,35 +1738,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "4586",
+        "hits": "4587",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "4266",
+        "hits": "4267",
         "url": "/analytics"
       },
       {
@@ -1788,12 +1780,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "8773"
+        "hits": "8774"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "36388"
+        "hits": "36396"
       }
     ]
   }
