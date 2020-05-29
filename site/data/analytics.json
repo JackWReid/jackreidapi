@@ -54,8 +54,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
@@ -63,23 +79,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -89,7 +89,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "94"
       }
     ]
   },
@@ -100,16 +100,8 @@
         "url": "/index.xml"
       },
       {
-        "hits": "42",
+        "hits": "41",
         "url": "/open-graph.png"
-      },
-      {
-        "hits": "24",
-        "url": "/post/index.xml"
-      },
-      {
-        "hits": "24",
-        "url": "/highlight/reading-in-the-dark/"
       },
       {
         "hits": "24",
@@ -117,11 +109,19 @@
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/post/index.xml"
       },
       {
         "hits": "24",
         "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "24",
+        "url": "/highlight/reading-in-the-dark/"
+      },
+      {
+        "hits": "24",
+        "url": "/note/index.xml"
       },
       {
         "hits": "23",
@@ -141,7 +141,7 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/american-girl-doll-history/"
+        "url": "/highlight/larry-kramer-obit/"
       },
       {
         "hits": "3",
@@ -149,7 +149,7 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/larry-kramer-obit/"
+        "url": "/highlight/american-girl-doll-history/"
       },
       {
         "hits": "2",
@@ -157,23 +157,19 @@
       },
       {
         "hits": "2",
-        "url": "/tags/accessibility/"
-      },
-      {
-        "hits": "2",
         "url": "/highlight/new-york-geology/"
       },
       {
         "hits": "2",
-        "url": "/tags/technology/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "2",
         "url": "/highlight/neofeudalism-larb/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/accessibility/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/technology/"
       },
       {
         "hits": "2",
@@ -197,19 +193,11 @@
       },
       {
         "hits": "1",
-        "url": "/note/2020-01-11-contrecoup/"
+        "url": "/note/2020-01-12-iran-nuclear-era/"
       },
       {
         "hits": "1",
-        "url": "/note/2020-01-07-driving-school/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/skye-covid-home/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/the-american-room/"
+        "url": "/note/2020-01-08-untranslatable-words/"
       },
       {
         "hits": "1",
@@ -217,7 +205,15 @@
       },
       {
         "hits": "1",
+        "url": "/highlight/the-american-room/"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/bring-back-blogs/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/"
       },
       {
         "hits": "1",
@@ -225,11 +221,11 @@
       },
       {
         "hits": "1",
-        "url": "/note/2019-12-30-top-books-2019/"
+        "url": "/note/2019-12-31-pearshaped-magazine-archive/"
       },
       {
         "hits": "1",
-        "url": "/note/2019-12-29-plath-vs-hughes/"
+        "url": "/note/2019-12-29-the-great-regression/"
       },
       {
         "hits": "1",
@@ -237,15 +233,11 @@
       },
       {
         "hits": "1",
-        "url": "/note/2019-07-31-madame-tussaud/"
+        "url": "/note/2019-08-05-academie-francaise/"
       },
       {
         "hits": "1",
         "url": "/note/2019-07-31-jacob-rees-mogg/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2019-07-24-carlos-williams-love/"
       },
       {
         "hits": "1",
@@ -257,19 +249,19 @@
       },
       {
         "hits": "1",
+        "url": "/note/2019-07-24-carlos-williams-love/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2019-07-31-madame-tussaud/"
+      },
+      {
+        "hits": "1",
         "url": "/media/"
       },
       {
         "hits": "1",
-        "url": "/note/2019-08-05-academie-francaise/"
-      },
-      {
-        "hits": "1",
-        "url": "/link/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2019-12-29-the-great-regression/"
+        "url": "/note/2019-12-29-plath-vs-hughes/"
       },
       {
         "hits": "1",
@@ -277,7 +269,15 @@
       },
       {
         "hits": "1",
-        "url": "/note/2019-12-31-pearshaped-magazine-archive/"
+        "url": "/note/2019-12-30-top-books-2019/"
+      },
+      {
+        "hits": "1",
+        "url": "/link/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-01-07-driving-school/"
       },
       {
         "hits": "1",
@@ -285,15 +285,15 @@
       },
       {
         "hits": "1",
-        "url": "/note/2020-01-08-untranslatable-words/"
-      },
-      {
-        "hits": "1",
-        "url": "/journal/2020-05-11/"
+        "url": "/note/2020-01-11-contrecoup/"
       },
       {
         "hits": "1",
         "url": "/highlight/alison-roman-culture/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/2020-05-11/"
       }
     ],
     "topSiteMisses": [
@@ -353,15 +353,19 @@
       },
       {
         "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "287",
@@ -370,20 +374,16 @@
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "359"
+        "hits": "355"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2299"
       }
     ]
   },
@@ -795,15 +795,23 @@
     "topApiHits": [
       {
         "hits": "2016",
-        "url": "/articles?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "2016",
         "url": "/analytics"
       },
       {
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "2015",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -812,14 +820,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -836,12 +836,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "3200"
+        "hits": "3199"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16128"
+        "hits": "16129"
       }
     ]
   },
@@ -1252,35 +1252,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "4407",
+        "hits": "4408",
         "url": "/analytics"
       },
       {
@@ -1299,7 +1299,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "37516"
+        "hits": "37524"
       }
     ]
   },
@@ -1710,35 +1710,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "4727",
+        "hits": "4728",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "4407",
+        "hits": "4408",
         "url": "/analytics"
       },
       {
@@ -1757,7 +1757,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "37516"
+        "hits": "37524"
       }
     ]
   }
