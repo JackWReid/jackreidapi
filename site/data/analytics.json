@@ -29,12 +29,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -54,7 +54,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -64,7 +64,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -108,11 +108,15 @@
       },
       {
         "hits": "3",
+        "url": "/post/"
+      },
+      {
+        "hits": "3",
         "url": "/rss/"
       },
       {
         "hits": "3",
-        "url": "/post/"
+        "url": "/journal/"
       },
       {
         "hits": "3",
@@ -123,8 +127,8 @@
         "url": "/journal/2020-04-12/"
       },
       {
-        "hits": "3",
-        "url": "/journal/"
+        "hits": "2",
+        "url": "/highlight/samin-nosrat-eating/"
       },
       {
         "hits": "2",
@@ -132,11 +136,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "2",
-        "url": "/elsewhere/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "2",
@@ -144,7 +144,11 @@
       },
       {
         "hits": "2",
-        "url": "/articles/saved/"
+        "url": "/tags/politics/"
+      },
+      {
+        "hits": "2",
+        "url": "/elsewhere/"
       },
       {
         "hits": "2",
@@ -152,11 +156,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/design/"
+        "url": "/note/page/2/"
       },
       {
         "hits": "2",
-        "url": "/note/page/2/"
+        "url": "/note/2020-05-19t13-15-23/"
       },
       {
         "hits": "2",
@@ -164,11 +168,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/photography/"
+        "url": "/tags/design/"
       },
       {
         "hits": "2",
-        "url": "/note/2020-05-14t230028.034z/"
+        "url": "/highlight/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-05-13t180824.451z/"
       },
       {
         "hits": "2",
@@ -176,7 +184,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-05-18t111925.301z/"
+        "url": "/note/2020-05-14t230028.034z/"
       },
       {
         "hits": "2",
@@ -188,23 +196,15 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/samin-nosrat-eating/"
-      },
-      {
-        "hits": "2",
         "url": "/journal/2020-05-03/"
       },
       {
         "hits": "2",
-        "url": "/note/2020-05-19t13-15-23/"
+        "url": "/note/2020-05-18t111925.301z/"
       },
       {
         "hits": "2",
         "url": "/journal/2020-04-18/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/politics/"
       },
       {
         "hits": "2",
@@ -216,11 +216,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-05-13t180824.451z/"
+        "url": "/highlight/ptsd-during-covid/"
       },
       {
         "hits": "2",
-        "url": "/highlight/ptsd-during-covid/"
+        "url": "/tags/photography/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/chat-roulette-quar/"
       },
       {
         "hits": "1",
@@ -228,7 +232,7 @@
       },
       {
         "hits": "1",
-        "url": "/?author=2"
+        "url": "/?author=20"
       },
       {
         "hits": "1",
@@ -236,11 +240,11 @@
       },
       {
         "hits": "1",
-        "url": "/?author=19"
+        "url": "/?author=2"
       },
       {
         "hits": "1",
-        "url": "/?author=12"
+        "url": "/?author=13"
       },
       {
         "hits": "1",
@@ -248,7 +252,11 @@
       },
       {
         "hits": "1",
-        "url": "/?author=18"
+        "url": "/?author=19"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/2020-03-28/"
       },
       {
         "hits": "1",
@@ -260,15 +268,7 @@
       },
       {
         "hits": "1",
-        "url": "/books/toread/"
-      },
-      {
-        "hits": "1",
-        "url": "/?author=17"
-      },
-      {
-        "hits": "1",
-        "url": "/?author=11"
+        "url": "/?author=18"
       }
     ],
     "topSiteMisses": [
@@ -277,7 +277,7 @@
         "url": "/robots.txt"
       },
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/note/2020-04-27t104500.315z/"
       },
       {
@@ -344,27 +344,11 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
         "hits": "287",
-        "url": "/books/read?limit=5000"
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
@@ -372,7 +356,23 @@
       },
       {
         "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "3",
@@ -381,12 +381,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "376"
+        "hits": "375"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2304"
+        "hits": "2300"
       }
     ]
   },
@@ -1255,35 +1255,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "4731",
+        "hits": "4732",
         "url": "/analytics"
       },
       {
@@ -1302,7 +1302,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "40111"
+        "hits": "40119"
       }
     ]
   },
@@ -1713,35 +1713,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "5051",
+        "hits": "5052",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "4731",
+        "hits": "4732",
         "url": "/analytics"
       },
       {
@@ -1760,7 +1760,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "40111"
+        "hits": "40119"
       }
     ]
   }
