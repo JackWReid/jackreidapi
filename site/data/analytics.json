@@ -50,12 +50,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -75,7 +75,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -85,7 +85,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -365,7 +365,15 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "288",
@@ -377,23 +385,15 @@
       },
       {
         "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "287",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2",
@@ -407,7 +407,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2302"
       }
     ]
   },
@@ -616,7 +616,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "359",
+        "hits": "358",
         "url": "/robots.txt"
       },
       {
@@ -629,7 +629,7 @@
       },
       {
         "hits": "10",
-        "url": "/note/2020-04-27t104500.315z/"
+        "url": "/note/moses-long-island-klan/"
       },
       {
         "hits": "10",
@@ -637,7 +637,7 @@
       },
       {
         "hits": "10",
-        "url": "/note/moses-long-island-klan/"
+        "url": "/note/2020-04-27t104500.315z/"
       },
       {
         "hits": "5",
@@ -665,7 +665,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2639_hu09d7ec24e360cb59a358c08f001aab08_193453_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2745_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_574689_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -677,11 +677,15 @@
       },
       {
         "hits": "3",
+        "url": "/photo/south-india/images/IMG_1891_hufdcdb9ce05456e41ca5036f054c92962_136300_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
         "url": "/photo/norfolk-shore/images/IMG_9998_huacd9e7f664faafd3b06dcbe4afe43fa1_1222314_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2361_hu1ddaec928864e2ac7f3bc7f0b4820fb9_141185_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2370_hu1ddaec928864e2ac7f3bc7f0b4820fb9_55412_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -689,15 +693,11 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2745_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_574689_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2850_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_191455_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
         "url": "/note/the-great-regression/"
-      },
-      {
-        "hits": "3",
-        "url": "/photo/the-trossachs/"
       },
       {
         "hits": "3",
@@ -709,19 +709,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2850_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_191455_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "3",
-        "url": "/photo/south-india/images/IMG_2370_hu1ddaec928864e2ac7f3bc7f0b4820fb9_55412_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "3",
-        "url": "/note/avalanche-school/"
-      },
-      {
-        "hits": "3",
-        "url": "/photo/south-india/images/IMG_2199_hu1ddaec928864e2ac7f3bc7f0b4820fb9_416726_800x0_resize_q75_box.jpg"
+        "url": "/photo/the-trossachs/"
       },
       {
         "hits": "3",
@@ -729,11 +717,23 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_1891_hufdcdb9ce05456e41ca5036f054c92962_136300_800x0_resize_q75_box.jpg"
+        "url": "/note/avalanche-school/"
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2559_hu737147df5fde39d335039aa0fd05e9e4_157809_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2361_hu1ddaec928864e2ac7f3bc7f0b4820fb9_141185_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/south-india/images/IMG_2403_huc90c50bc5ce0d14f79c0921f4b2a57b7_560949_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/south-india/images/IMG_1919_hu737147df5fde39d335039aa0fd05e9e4_122464_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/south-india/images/IMG_2639_hu09d7ec24e360cb59a358c08f001aab08_193453_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -745,11 +745,11 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_1919_hu737147df5fde39d335039aa0fd05e9e4_122464_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2403_huc90c50bc5ce0d14f79c0921f4b2a57b7_560949_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2559_hu737147df5fde39d335039aa0fd05e9e4_157809_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -757,7 +757,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2199_hu1ddaec928864e2ac7f3bc7f0b4820fb9_416726_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -801,10 +801,6 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_1849_hufdcdb9ce05456e41ca5036f054c92962_100482_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
         "url": "/note/low-tech-election-iowa/"
       },
       {
@@ -814,28 +810,24 @@
       {
         "hits": "2",
         "url": "/OLD/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/isle-of-skye/"
       }
     ],
     "topApiHits": [
       {
         "hits": "2016",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2016",
         "url": "/analytics"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "2015",
@@ -844,6 +836,14 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -865,7 +865,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16129"
+        "hits": "16127"
       }
     ]
   },
@@ -884,11 +884,11 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "552",
+        "hits": "553",
         "url": "/post/index.xml"
       },
       {
-        "hits": "512",
+        "hits": "513",
         "url": "/highlight/index.xml"
       },
       {
@@ -1276,35 +1276,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "4598",
+        "hits": "4599",
         "url": "/analytics"
       },
       {
@@ -1318,12 +1318,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9161"
+        "hits": "9163"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "39046"
+        "hits": "39054"
       }
     ]
   },
@@ -1342,11 +1342,11 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "552",
+        "hits": "553",
         "url": "/post/index.xml"
       },
       {
-        "hits": "512",
+        "hits": "513",
         "url": "/highlight/index.xml"
       },
       {
@@ -1734,35 +1734,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "4918",
+        "hits": "4919",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "4598",
+        "hits": "4599",
         "url": "/analytics"
       },
       {
@@ -1776,12 +1776,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9161"
+        "hits": "9163"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "39046"
+        "hits": "39054"
       }
     ]
   }
