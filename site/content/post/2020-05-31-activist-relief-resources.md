@@ -6,10 +6,10 @@ date: 2020-05-31T09:00:00
 draft: false
 ---
 
+I've been struggling to keep track of links to the relief funds established for [Black Lives Matter activists](https://www.nytimes.com/2020/05/30/us/minneapolis-floyd-protests.html) across the USA who've been arrested, injured, or killed by the police. I'm throwing them up here, with sources linked at the end, to keep track of them for myself and for others who are struggling to pull them out of Twitter. For now, I've donated to the Brooklyn Bail Fund.
+
 ## Update (2nd June 2020)
 There's now an even easier way to donate to a wider range of organisations fighting for this cause. Just make one larger donation on [this page](https://secure.actblue.com/donate/ab_mn) and it will be split automatically. [Click here](https://secure.actblue.com/donate/ab_mn).
-
-I've been struggling to keep track of links to the relief funds established for [Black Lives Matter activists](https://www.nytimes.com/2020/05/30/us/minneapolis-floyd-protests.html) across the USA who've been arrested, injured, or killed by the police. I'm throwing them up here, with sources linked at the end, to keep track of them for myself and for others who are struggling to pull them out of Twitter. For now, I've donated to the Brooklyn Bail Fund.
 
 ## Why are bail funds important now?
 [Cash bail](https://www.nytimes.com/2019/01/11/nyregion/how-does-bail-work-and-why-do-people-want-to-get-rid-of-it.html) is used by authorities to incarcerate the poor and disadvantaged en masse. The rich and priveleged can pay their way to freedom. Bail funds exist to correct the balance by collecting funds to buy the freedom of unconvicted, jailed people who can't afford their own bail.
