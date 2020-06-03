@@ -2,12 +2,16 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/index.xml"
       },
       {
         "hits": "2",
         "url": "/tags/book/"
+      },
+      {
+        "hits": "1",
+        "url": "/films/watched/"
       },
       {
         "hits": "1",
@@ -52,7 +56,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/robots.txt"
       }
     ],
@@ -67,27 +71,27 @@
       },
       {
         "hits": "12",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -97,14 +101,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "91"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "49",
+        "hits": "48",
         "url": "/index.xml"
       },
       {
@@ -165,15 +169,11 @@
       },
       {
         "hits": "2",
+        "url": "/note/2019-10-01-aristophanes-wasps/"
+      },
+      {
+        "hits": "2",
         "url": "/tags/dev/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/book/"
-      },
-      {
-        "hits": "2",
-        "url": "/films/towatch/"
       },
       {
         "hits": "2",
@@ -181,7 +181,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/2019-10-01-aristophanes-wasps/"
+        "url": "/films/towatch/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/book/"
+      },
+      {
+        "hits": "1",
+        "url": "/link/2020-05-27t08-00-00/"
       },
       {
         "hits": "1",
@@ -298,10 +306,6 @@
       {
         "hits": "1",
         "url": "/rss/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/book/index.xml"
       }
     ],
     "topSiteMisses": [
@@ -512,12 +516,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -537,7 +541,7 @@
       },
       {
         "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -547,7 +551,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2297"
       }
     ]
   },
@@ -630,7 +634,7 @@
         "url": "/highlight/bridgers-rolling-stone/"
       },
       {
-        "hits": "26",
+        "hits": "25",
         "url": "/post/"
       },
       {
@@ -647,11 +651,11 @@
       },
       {
         "hits": "12",
-        "url": "/journal/2020-04-12/"
+        "url": "/highlight/"
       },
       {
         "hits": "12",
-        "url": "/highlight/"
+        "url": "/journal/2020-04-12/"
       },
       {
         "hits": "11",
@@ -667,15 +671,15 @@
       },
       {
         "hits": "10",
-        "url": "/link/"
-      },
-      {
-        "hits": "10",
         "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "10",
         "url": "/journal/"
+      },
+      {
+        "hits": "10",
+        "url": "/link/"
       },
       {
         "hits": "9",
@@ -703,6 +707,10 @@
       },
       {
         "hits": "8",
+        "url": "/tags/news/"
+      },
+      {
+        "hits": "8",
         "url": "/post/how-this-site-works/"
       },
       {
@@ -712,10 +720,6 @@
       {
         "hits": "8",
         "url": "/elsewhere/"
-      },
-      {
-        "hits": "8",
-        "url": "/tags/news/"
       },
       {
         "hits": "7",
@@ -735,11 +739,11 @@
       },
       {
         "hits": "7",
-        "url": "/tags/litcrit/"
+        "url": "/tags/link/"
       },
       {
         "hits": "7",
-        "url": "/tags/link/"
+        "url": "/tags/litcrit/"
       },
       {
         "hits": "6",
@@ -959,11 +963,15 @@
     "topApiHits": [
       {
         "hits": "2016",
+        "url": "/analytics"
+      },
+      {
+        "hits": "2015",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
-        "url": "/analytics"
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -986,10 +994,6 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "6",
         "url": "/"
       }
@@ -1001,7 +1005,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16128"
+        "hits": "16127"
       }
     ]
   },
@@ -1065,11 +1069,11 @@
       },
       {
         "hits": "50",
-        "url": "/highlight/mother-board-earth/"
+        "url": "/highlight/bring-back-blogs/"
       },
       {
         "hits": "50",
-        "url": "/highlight/bring-back-blogs/"
+        "url": "/highlight/mother-board-earth/"
       },
       {
         "hits": "49",
@@ -1081,11 +1085,11 @@
       },
       {
         "hits": "46",
-        "url": "/highlight/snowden-gellman/"
+        "url": "/highlight/roxane-gay-cleaner/"
       },
       {
         "hits": "46",
-        "url": "/highlight/roxane-gay-cleaner/"
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "45",
@@ -1149,15 +1153,15 @@
       },
       {
         "hits": "38",
-        "url": "/highlight/ronan-farrow-too-good/"
-      },
-      {
-        "hits": "38",
         "url": "/highlight/"
       },
       {
         "hits": "38",
         "url": "/highlight/names-gender-code/"
+      },
+      {
+        "hits": "38",
+        "url": "/highlight/ronan-farrow-too-good/"
       },
       {
         "hits": "37",
@@ -1412,35 +1416,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "5898",
+        "hits": "5899",
         "url": "/analytics"
       },
       {
@@ -1454,12 +1458,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10804"
+        "hits": "10805"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "49450"
+        "hits": "49458"
       }
     ]
   },
@@ -1523,11 +1527,11 @@
       },
       {
         "hits": "50",
-        "url": "/highlight/mother-board-earth/"
+        "url": "/highlight/bring-back-blogs/"
       },
       {
         "hits": "50",
-        "url": "/highlight/bring-back-blogs/"
+        "url": "/highlight/mother-board-earth/"
       },
       {
         "hits": "49",
@@ -1539,11 +1543,11 @@
       },
       {
         "hits": "46",
-        "url": "/highlight/snowden-gellman/"
+        "url": "/highlight/roxane-gay-cleaner/"
       },
       {
         "hits": "46",
-        "url": "/highlight/roxane-gay-cleaner/"
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "45",
@@ -1607,15 +1611,15 @@
       },
       {
         "hits": "38",
-        "url": "/highlight/ronan-farrow-too-good/"
-      },
-      {
-        "hits": "38",
         "url": "/highlight/"
       },
       {
         "hits": "38",
         "url": "/highlight/names-gender-code/"
+      },
+      {
+        "hits": "38",
+        "url": "/highlight/ronan-farrow-too-good/"
       },
       {
         "hits": "37",
@@ -1870,35 +1874,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "6218",
+        "hits": "6219",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "5898",
+        "hits": "5899",
         "url": "/analytics"
       },
       {
@@ -1912,12 +1916,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10804"
+        "hits": "10805"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "49450"
+        "hits": "49458"
       }
     ]
   }
