@@ -3,15 +3,19 @@
     "topSiteHits": [
       {
         "hits": "2",
+        "url": "/open-graph.png"
+      },
+      {
+        "hits": "2",
         "url": "/index.xml"
       },
       {
         "hits": "1",
-        "url": "/books/toread/"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
+        "url": "/highlight/reading-in-the-dark/"
       },
       {
         "hits": "1",
@@ -23,7 +27,15 @@
       },
       {
         "hits": "1",
+        "url": "/books/toread/"
+      },
+      {
+        "hits": "1",
         "url": "/photo/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/american-police-departments/"
       }
     ],
     "topSiteMisses": [],
@@ -33,7 +45,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
@@ -63,12 +75,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "7"
+        "hits": "11"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "89"
       }
     ]
   },
@@ -84,14 +96,14 @@
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
-      },
-      {
-        "hits": "24",
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "20",
+        "hits": "24",
+        "url": "/note/index.xml"
+      },
+      {
+        "hits": "22",
         "url": "/open-graph.png"
       },
       {
@@ -116,15 +128,11 @@
       },
       {
         "hits": "3",
-        "url": "/note/place-non-place/"
-      },
-      {
-        "hits": "3",
         "url": "/post/2018-09-04-its-you-and-me/"
       },
       {
-        "hits": "2",
-        "url": "/highlight/helms-deep-analysis/"
+        "hits": "3",
+        "url": "/note/place-non-place/"
       },
       {
         "hits": "2",
@@ -132,19 +140,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/lbj-movies/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/negroni-season/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/mother-board-earth/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/covid-19/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "2",
@@ -152,27 +148,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/science/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/activist-relief-resources/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/news/"
-      },
-      {
-        "hits": "2",
-        "url": "/articles/liked/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/book/"
-      },
-      {
-        "hits": "2",
-        "url": "/books/toread/"
+        "url": "/books/reading/"
       },
       {
         "hits": "2",
@@ -184,11 +160,39 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/covid-19-virus-profile/"
+        "url": "/tags/book/"
       },
       {
         "hits": "2",
-        "url": "/films/watched/"
+        "url": "/articles/liked/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/news/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/science/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/covid-19/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/negroni-season/"
+      },
+      {
+        "hits": "2",
+        "url": "/books/toread/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/lbj-movies/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/covid-19-virus-profile/"
       },
       {
         "hits": "2",
@@ -196,7 +200,11 @@
       },
       {
         "hits": "2",
-        "url": "/media/"
+        "url": "/films/watched/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/helms-deep-analysis/"
       },
       {
         "hits": "2",
@@ -216,11 +224,15 @@
       },
       {
         "hits": "2",
+        "url": "/media/"
+      },
+      {
+        "hits": "2",
         "url": "/post/"
       },
       {
         "hits": "2",
-        "url": "/books/reading/"
+        "url": "/highlight/mother-board-earth/"
       },
       {
         "hits": "1",
@@ -248,10 +260,6 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/new-york-geology/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/names-gender-code/"
       },
       {
@@ -273,6 +281,10 @@
       {
         "hits": "1",
         "url": "/highlight/larry-kramer-obit/"
+      },
+      {
+        "hits": "1",
+        "url": "/?author=8"
       }
     ],
     "topSiteMisses": [],
@@ -282,20 +294,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -308,16 +308,28 @@
       {
         "hits": "287",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "322"
+        "hits": "326"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2301"
+        "hits": "2297"
       }
     ]
   },
@@ -352,7 +364,7 @@
         "url": "/css/style.css"
       },
       {
-        "hits": "84",
+        "hits": "86",
         "url": "/open-graph.png"
       },
       {
@@ -405,6 +417,10 @@
       },
       {
         "hits": "11",
+        "url": "/highlight/reading-in-the-dark/"
+      },
+      {
+        "hits": "11",
         "url": "/tags/politics/"
       },
       {
@@ -413,11 +429,11 @@
       },
       {
         "hits": "10",
-        "url": "/highlight/reading-in-the-dark/"
+        "url": "/media/"
       },
       {
         "hits": "10",
-        "url": "/media/"
+        "url": "/highlight/american-police-departments/"
       },
       {
         "hits": "10",
@@ -438,10 +454,6 @@
       {
         "hits": "9",
         "url": "/tags/cities/"
-      },
-      {
-        "hits": "9",
-        "url": "/highlight/american-police-departments/"
       },
       {
         "hits": "7",
@@ -766,7 +778,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2447"
+        "hits": "2451"
       }
     ],
     "totalApiHits": [
@@ -790,7 +802,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "656",
+        "hits": "658",
         "url": "/open-graph.png"
       },
       {
@@ -847,11 +859,11 @@
       },
       {
         "hits": "49",
-        "url": "/work/"
+        "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "49",
-        "url": "/highlight/tfl-streetspace/"
+        "url": "/work/"
       },
       {
         "hits": "48",
@@ -875,11 +887,11 @@
       },
       {
         "hits": "43",
-        "url": "/media/"
+        "url": "/highlight/american-girl-doll-history/"
       },
       {
         "hits": "43",
-        "url": "/highlight/american-girl-doll-history/"
+        "url": "/media/"
       },
       {
         "hits": "43",
@@ -951,6 +963,10 @@
       },
       {
         "hits": "35",
+        "url": "/highlight/reading-in-the-dark/"
+      },
+      {
+        "hits": "35",
         "url": "/highlight/alison-roman-culture/"
       },
       {
@@ -958,12 +974,12 @@
         "url": "/highlight/samin-nosrat-eating/"
       },
       {
-        "hits": "34",
-        "url": "/highlight/reading-in-the-dark/"
+        "hits": "33",
+        "url": "/highlight/no-more-buying-stuff/"
       },
       {
         "hits": "33",
-        "url": "/highlight/no-more-buying-stuff/"
+        "url": "/highlight/american-police-departments/"
       },
       {
         "hits": "33",
@@ -972,10 +988,6 @@
       {
         "hits": "33",
         "url": "/analytics/day/"
-      },
-      {
-        "hits": "33",
-        "url": "/highlight/ford-best-games/"
       }
     ],
     "topSiteMisses": [
@@ -1182,35 +1194,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "6375",
+        "hits": "6376",
         "url": "/analytics"
       },
       {
@@ -1224,12 +1236,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "11372"
+        "hits": "11376"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "53268"
+        "hits": "53276"
       }
     ]
   },
@@ -1248,7 +1260,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "656",
+        "hits": "658",
         "url": "/open-graph.png"
       },
       {
@@ -1305,11 +1317,11 @@
       },
       {
         "hits": "49",
-        "url": "/work/"
+        "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "49",
-        "url": "/highlight/tfl-streetspace/"
+        "url": "/work/"
       },
       {
         "hits": "48",
@@ -1333,11 +1345,11 @@
       },
       {
         "hits": "43",
-        "url": "/media/"
+        "url": "/highlight/american-girl-doll-history/"
       },
       {
         "hits": "43",
-        "url": "/highlight/american-girl-doll-history/"
+        "url": "/media/"
       },
       {
         "hits": "43",
@@ -1409,6 +1421,10 @@
       },
       {
         "hits": "35",
+        "url": "/highlight/reading-in-the-dark/"
+      },
+      {
+        "hits": "35",
         "url": "/highlight/alison-roman-culture/"
       },
       {
@@ -1416,12 +1432,12 @@
         "url": "/highlight/samin-nosrat-eating/"
       },
       {
-        "hits": "34",
-        "url": "/highlight/reading-in-the-dark/"
+        "hits": "33",
+        "url": "/highlight/no-more-buying-stuff/"
       },
       {
         "hits": "33",
-        "url": "/highlight/no-more-buying-stuff/"
+        "url": "/highlight/american-police-departments/"
       },
       {
         "hits": "33",
@@ -1430,10 +1446,6 @@
       {
         "hits": "33",
         "url": "/analytics/day/"
-      },
-      {
-        "hits": "33",
-        "url": "/highlight/ford-best-games/"
       }
     ],
     "topSiteMisses": [
@@ -1640,35 +1652,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "6695",
+        "hits": "6696",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "6375",
+        "hits": "6376",
         "url": "/analytics"
       },
       {
@@ -1682,12 +1694,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "11372"
+        "hits": "11376"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "53268"
+        "hits": "53276"
       }
     ]
   }
