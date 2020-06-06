@@ -53,12 +53,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -78,7 +78,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -88,19 +88,15 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "49",
+        "hits": "48",
         "url": "/index.xml"
-      },
-      {
-        "hits": "30",
-        "url": "/open-graph.png"
       },
       {
         "hits": "25",
@@ -115,6 +111,10 @@
         "url": "/highlight/index.xml"
       },
       {
+        "hits": "15",
+        "url": "/open-graph.png"
+      },
+      {
         "hits": "13",
         "url": "/"
       },
@@ -124,15 +124,11 @@
       },
       {
         "hits": "4",
-        "url": "/elsewhere/"
-      },
-      {
-        "hits": "4",
         "url": "/post/2018-09-04-its-you-and-me/"
       },
       {
-        "hits": "3",
-        "url": "/post/getting-of-of-netlify/"
+        "hits": "4",
+        "url": "/elsewhere/"
       },
       {
         "hits": "3",
@@ -140,123 +136,15 @@
       },
       {
         "hits": "3",
-        "url": "/note/corona-speculative-fiction/"
-      },
-      {
-        "hits": "3",
         "url": "/note/2019-07-31-madame-tussaud/"
-      },
-      {
-        "hits": "3",
-        "url": "/favicon.png"
       },
       {
         "hits": "3",
         "url": "/post/"
       },
       {
-        "hits": "2",
-        "url": "/books/toread/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/metoo/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/snowden/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/literature/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "2",
-        "url": "/rss/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/love/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/tulip-farm-covid/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/lbj-movies/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/london-bikes-covid/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/alison-roman-culture/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/2015-03-02-internet-rhizome/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/2016-05-05-fat-internet-historian/"
-      },
-      {
-        "hits": "2",
-        "url": "/work/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/google-hire-freeze/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/corona-dance-space/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/samin-nosrat-eating/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-01-12-iran-nuclear-era/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2019-07-24-uss-fitzgerald/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-01-27-duchy-of-cornwall/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/ptsd-during-covid/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/covid-19-virus-profile/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/ronan-farrow-too-good/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/cessna-badass-plane/"
-      },
-      {
-        "hits": "2",
-        "url": "/media/"
+        "hits": "3",
+        "url": "/favicon.png"
       },
       {
         "hits": "2",
@@ -264,7 +152,55 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/helms-deep-analysis/"
+        "url": "/tags/love/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2019-07-24-uss-fitzgerald/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/snowden/"
+      },
+      {
+        "hits": "2",
+        "url": "/media/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/2019-10-27-the-professor/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/literature/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/metoo/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/getting-of-of-netlify/"
+      },
+      {
+        "hits": "2",
+        "url": "/work/"
+      },
+      {
+        "hits": "2",
+        "url": "/books/toread/"
+      },
+      {
+        "hits": "2",
+        "url": "/rss/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/2015-03-02-internet-rhizome/"
       },
       {
         "hits": "2",
@@ -272,15 +208,35 @@
       },
       {
         "hits": "2",
-        "url": "/post/2019-10-27-the-professor/"
+        "url": "/highlight/ronan-farrow-too-good/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-01-12-iran-nuclear-era/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/corona-speculative-fiction/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/2016-05-05-fat-internet-historian/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-01-27-duchy-of-cornwall/"
       },
       {
         "hits": "1",
-        "url": "/highlight/new-york-geology/"
+        "url": "/highlight/reading-in-the-dark/"
       },
       {
         "hits": "1",
-        "url": "/highlight/negroni-season/"
+        "url": "/highlight/ptsd-during-covid/"
       },
       {
         "hits": "1",
@@ -288,11 +244,55 @@
       },
       {
         "hits": "1",
+        "url": "/highlight/page/2/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/oil-derricks-of-la/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/american-police-departments/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/no-more-buying-stuff/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/new-york-geology/"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/names-gender-code/"
       },
       {
         "hits": "1",
-        "url": "/highlight/mother-board-earth/"
+        "url": "/note/2019-08-05-academie-francaise/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/low-tech-election-iowa/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/alison-roman-culture/"
+      },
+      {
+        "hits": "1",
+        "url": "/analytics/hour/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2019-07-31-jacob-rees-mogg/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2019-08-05-eugenics-statistics/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/london-bikes-covid/"
       }
     ],
     "topSiteMisses": [],
@@ -336,7 +336,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "352"
+        "hits": "313"
       }
     ],
     "totalApiHits": [
@@ -753,15 +753,23 @@
     "topApiHits": [
       {
         "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2016",
         "url": "/analytics"
       },
       {
-        "hits": "2016",
-        "url": "/pocket?limit=5000"
+        "hits": "2015",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2015",
@@ -773,15 +781,7 @@
       },
       {
         "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/toread?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "9",
@@ -795,7 +795,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16132"
+        "hits": "16130"
       }
     ]
   },
@@ -1206,35 +1206,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "6627",
+        "hits": "6628",
         "url": "/analytics"
       },
       {
@@ -1253,7 +1253,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "55287"
+        "hits": "55295"
       }
     ]
   },
@@ -1664,35 +1664,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "6947",
+        "hits": "6948",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "6627",
+        "hits": "6628",
         "url": "/analytics"
       },
       {
@@ -1711,7 +1711,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "55287"
+        "hits": "55295"
       }
     ]
   }
