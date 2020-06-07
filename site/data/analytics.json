@@ -2,12 +2,16 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
+        "hits": "1",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
         "url": "/highlight/no-apocalypse/"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -27,10 +31,6 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
-      },
-      {
-        "hits": "1",
         "url": "/tags/engineering/"
       }
     ],
@@ -41,8 +41,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
@@ -50,33 +66,17 @@
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "9"
+        "hits": "8"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "94"
       }
     ]
   },
@@ -294,12 +294,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -311,11 +307,15 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "1",
@@ -329,7 +329,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2300"
       }
     ]
   },
@@ -538,7 +538,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "168",
+        "hits": "167",
         "url": "/robots.txt"
       },
       {
@@ -571,19 +571,19 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_2481_hu1ddaec928864e2ac7f3bc7f0b4820fb9_403338_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2453_hu1ddaec928864e2ac7f3bc7f0b4820fb9_137128_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2505_hu1ddaec928864e2ac7f3bc7f0b4820fb9_372234_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
         "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2481_hu1ddaec928864e2ac7f3bc7f0b4820fb9_403338_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2453_hu1ddaec928864e2ac7f3bc7f0b4820fb9_137128_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -595,19 +595,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_2505_hu1ddaec928864e2ac7f3bc7f0b4820fb9_372234_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_1997_hu737147df5fde39d335039aa0fd05e9e4_63216_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/norfolk-shore/images/norfolk-shore_hu47d2b59afb0338b498b7baf30c736f78_740104_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2538_hu1ddaec928864e2ac7f3bc7f0b4820fb9_255996_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -615,23 +603,35 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_1723_hu75886160133b06c1644ee6ee3cc8c02b_145287_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_1699_hu75886160133b06c1644ee6ee3cc8c02b_188186_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
-        "url": "/note/coronavirus-central-lockdown/"
+        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_1981_hufdcdb9ce05456e41ca5036f054c92962_442576_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
-        "url": "/note/reading-difficult-books/"
+        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_1944_hu737147df5fde39d335039aa0fd05e9e4_240287_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_1997_hu737147df5fde39d335039aa0fd05e9e4_63216_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
         "url": "/photo/south-india/images/IMG_2208_hu737147df5fde39d335039aa0fd05e9e4_163211_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/note/rise-of-the-blur/"
       },
       {
         "hits": "2",
@@ -643,7 +643,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/ben-nevis/images/IMG_0030_huad381fb499f2badc1d9f5391a18539b4_497197_800x0_resize_q75_box.jpg"
+        "url": "/photo/norfolk-shore/images/IMG_0154_huacd9e7f664faafd3b06dcbe4afe43fa1_912108_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -659,11 +659,11 @@
       },
       {
         "hits": "2",
-        "url": "/photo/norfolk-shore/images/IMG_0045_huacd9e7f664faafd3b06dcbe4afe43fa1_939044_800x0_resize_q75_box.jpg"
+        "url": "/note/carlos-williams-love/"
       },
       {
         "hits": "2",
-        "url": "/photo/norfolk-shore/images/IMG_0154_huacd9e7f664faafd3b06dcbe4afe43fa1_912108_800x0_resize_q75_box.jpg"
+        "url": "/photo/norfolk-shore/images/IMG_9978_huacd9e7f664faafd3b06dcbe4afe43fa1_1546654_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -675,15 +675,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/carlos-williams-love/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/ben-nevis/"
-      },
-      {
-        "hits": "2",
         "url": "/photo/isle-of-skye/images/IMG_0078_huad381fb499f2badc1d9f5391a18539b4_1174123_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/norfolk-shore/images/IMG_0045_huacd9e7f664faafd3b06dcbe4afe43fa1_939044_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/ben-nevis/images/IMG_0030_huad381fb499f2badc1d9f5391a18539b4_497197_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -703,7 +703,11 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_1699_hu75886160133b06c1644ee6ee3cc8c02b_188186_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_1723_hu75886160133b06c1644ee6ee3cc8c02b_145287_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/note/coronavirus-central-lockdown/"
       },
       {
         "hits": "2",
@@ -711,15 +715,11 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
         "url": "/note/precariously-balanced-rocks/"
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_1944_hu737147df5fde39d335039aa0fd05e9e4_240287_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_1981_hufdcdb9ce05456e41ca5036f054c92962_442576_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -727,29 +727,37 @@
       },
       {
         "hits": "2",
-        "url": "/photo/norfolk-shore/images/IMG_9978_huacd9e7f664faafd3b06dcbe4afe43fa1_1546654_800x0_resize_q75_box.jpg"
+        "url": "/note/reading-difficult-books/"
       },
       {
         "hits": "2",
-        "url": "/note/rise-of-the-blur/"
+        "url": "/photo/norfolk-shore/images/norfolk-shore_hu47d2b59afb0338b498b7baf30c736f78_740104_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
       }
     ],
     "topApiHits": [
       {
         "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2016",
         "url": "/analytics"
       },
       {
-        "hits": "2016",
-        "url": "/pocket?limit=5000"
+        "hits": "2015",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2015",
@@ -761,15 +769,7 @@
       },
       {
         "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/toread?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "9",
@@ -783,7 +783,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16132"
+        "hits": "16130"
       }
     ]
   },
@@ -1194,35 +1194,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7043",
+        "hits": "7044",
         "url": "/analytics"
       },
       {
@@ -1241,7 +1241,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "58616"
+        "hits": "58624"
       }
     ]
   },
@@ -1652,35 +1652,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "7363",
+        "hits": "7364",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7043",
+        "hits": "7044",
         "url": "/analytics"
       },
       {
@@ -1699,7 +1699,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "58616"
+        "hits": "58624"
       }
     ]
   }
