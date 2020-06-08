@@ -2,8 +2,8 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
+        "hits": "1",
+        "url": "/"
       },
       {
         "hits": "1",
@@ -12,6 +12,10 @@
       {
         "hits": "1",
         "url": "/highlight/minneapolis-disband-police/"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -31,10 +35,6 @@
       },
       {
         "hits": "1",
-        "url": "/"
-      },
-      {
-        "hits": "1",
         "url": "/tags/science/index.xml"
       }
     ],
@@ -45,8 +45,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
@@ -54,33 +70,17 @@
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "10"
+        "hits": "9"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "94"
       }
     ]
   },
@@ -294,7 +294,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
@@ -329,7 +329,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2298"
       }
     ]
   },
@@ -409,19 +409,15 @@
       },
       {
         "hits": "9",
-        "url": "/post/getting-of-of-netlify/"
-      },
-      {
-        "hits": "9",
         "url": "/tags/tech/"
       },
       {
         "hits": "9",
-        "url": "/elsewhere/"
+        "url": "/post/getting-of-of-netlify/"
       },
       {
-        "hits": "8",
-        "url": "/tags/politics/"
+        "hits": "9",
+        "url": "/elsewhere/"
       },
       {
         "hits": "8",
@@ -436,12 +432,16 @@
         "url": "/rss/"
       },
       {
-        "hits": "7",
-        "url": "/books/reading/"
+        "hits": "8",
+        "url": "/tags/politics/"
       },
       {
         "hits": "7",
-        "url": "/tags/poetry/"
+        "url": "/journal/2020-04-12/"
+      },
+      {
+        "hits": "7",
+        "url": "/books/reading/"
       },
       {
         "hits": "7",
@@ -453,15 +453,11 @@
       },
       {
         "hits": "7",
-        "url": "/journal/2020-04-12/"
-      },
-      {
-        "hits": "7",
-        "url": "/tags/accessibility/"
-      },
-      {
-        "hits": "7",
         "url": "/highlight/lbj-movies/"
+      },
+      {
+        "hits": "7",
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "7",
@@ -469,7 +465,11 @@
       },
       {
         "hits": "7",
-        "url": "/post/how-this-site-works/"
+        "url": "/tags/accessibility/"
+      },
+      {
+        "hits": "7",
+        "url": "/tags/poetry/"
       },
       {
         "hits": "6",
@@ -505,15 +505,15 @@
       },
       {
         "hits": "6",
+        "url": "/tags/love/"
+      },
+      {
+        "hits": "6",
         "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "6",
-        "url": "/tags/funny/"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/love/"
+        "url": "/tags/magazine/"
       },
       {
         "hits": "6",
@@ -521,15 +521,15 @@
       },
       {
         "hits": "6",
-        "url": "/highlight/ronan-farrow-too-good/"
-      },
-      {
-        "hits": "6",
         "url": "/tags/cities/"
       },
       {
         "hits": "6",
-        "url": "/tags/magazine/"
+        "url": "/highlight/ronan-farrow-too-good/"
+      },
+      {
+        "hits": "6",
+        "url": "/tags/funny/"
       },
       {
         "hits": "6",
@@ -741,35 +741,35 @@
     "topApiHits": [
       {
         "hits": "2016",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/analytics"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "9",
@@ -778,12 +778,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2128"
+        "hits": "2126"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16130"
+        "hits": "16137"
       }
     ]
   },
@@ -1194,35 +1194,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7249",
+        "hits": "7250",
         "url": "/analytics"
       },
       {
@@ -1241,7 +1241,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "60264"
+        "hits": "60272"
       }
     ]
   },
@@ -1652,35 +1652,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "7569",
+        "hits": "7570",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7249",
+        "hits": "7250",
         "url": "/analytics"
       },
       {
@@ -1699,7 +1699,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "60264"
+        "hits": "60272"
       }
     ]
   }
