@@ -58,12 +58,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -83,7 +83,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -93,7 +93,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -481,23 +481,15 @@
     "topApiHits": [
       {
         "hits": "287",
-        "url": "/analytics"
-      },
-      {
-        "hits": "286",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "286",
-        "url": "/books/reading?limit=5000"
+        "hits": "287",
+        "url": "/analytics"
       },
       {
-        "hits": "286",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "286",
-        "url": "/books/toread?limit=5000"
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "286",
@@ -509,7 +501,15 @@
       },
       {
         "hits": "286",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "286",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "286",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "6",
@@ -523,7 +523,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2295"
+        "hits": "2297"
       }
     ]
   },
@@ -599,15 +599,11 @@
       },
       {
         "hits": "8",
-        "url": "/post/getting-of-of-netlify/"
-      },
-      {
-        "hits": "8",
         "url": "/tags/poetry/"
       },
       {
         "hits": "8",
-        "url": "/tags/news/"
+        "url": "/rss/"
       },
       {
         "hits": "8",
@@ -615,11 +611,11 @@
       },
       {
         "hits": "8",
-        "url": "/rss/"
+        "url": "/tags/news/"
       },
       {
-        "hits": "7",
-        "url": "/tags/accessibility/"
+        "hits": "8",
+        "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "7",
@@ -635,11 +631,15 @@
       },
       {
         "hits": "7",
+        "url": "/tags/love/"
+      },
+      {
+        "hits": "7",
         "url": "/tags/science/"
       },
       {
         "hits": "7",
-        "url": "/tags/love/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "7",
@@ -651,7 +651,15 @@
       },
       {
         "hits": "6",
+        "url": "/tags/technology/"
+      },
+      {
+        "hits": "6",
         "url": "/highlight/covid-19-virus-profile/"
+      },
+      {
+        "hits": "6",
+        "url": "/tags/food/"
       },
       {
         "hits": "6",
@@ -663,11 +671,11 @@
       },
       {
         "hits": "6",
-        "url": "/highlight/spa-fatigue/"
+        "url": "/post/2018-09-04-its-you-and-me/"
       },
       {
         "hits": "6",
-        "url": "/tags/funny/"
+        "url": "/highlight/spa-fatigue/"
       },
       {
         "hits": "6",
@@ -679,15 +687,7 @@
       },
       {
         "hits": "6",
-        "url": "/post/2018-09-04-its-you-and-me/"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/food/"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/technology/"
+        "url": "/tags/funny/"
       },
       {
         "hits": "5",
@@ -699,11 +699,19 @@
       },
       {
         "hits": "5",
+        "url": "/tags/dance/"
+      },
+      {
+        "hits": "5",
         "url": "/highlight/roxane-gay-cleaner/"
       },
       {
         "hits": "5",
         "url": "/articles/liked/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/dev/"
       },
       {
         "hits": "5",
@@ -720,14 +728,6 @@
       {
         "hits": "5",
         "url": "/analytics/day/"
-      },
-      {
-        "hits": "5",
-        "url": "/highlight/samin-nosrat-eating/"
-      },
-      {
-        "hits": "5",
-        "url": "/post/how-this-site-works/"
       }
     ],
     "topSiteMisses": [
@@ -934,16 +934,28 @@
     ],
     "topApiHits": [
       {
-        "hits": "2014",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2014",
+        "hits": "2015",
         "url": "/analytics"
       },
       {
-        "hits": "2014",
+        "hits": "2015",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2014",
@@ -951,19 +963,7 @@
       },
       {
         "hits": "2014",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2014",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "2014",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2014",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "13",
@@ -972,12 +972,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2016"
+        "hits": "2014"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16125"
+        "hits": "16131"
       }
     ]
   },
@@ -1388,35 +1388,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7595",
+        "hits": "7596",
         "url": "/analytics"
       },
       {
@@ -1435,7 +1435,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "63039"
+        "hits": "63047"
       }
     ]
   },
@@ -1846,35 +1846,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "7915",
+        "hits": "7916",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7595",
+        "hits": "7596",
         "url": "/analytics"
       },
       {
@@ -1893,7 +1893,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "63039"
+        "hits": "63047"
       }
     ]
   }
