@@ -16,6 +16,10 @@
       {
         "hits": "1",
         "url": "/photo/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/engineering/index.xml"
       }
     ],
     "topSiteMisses": [
@@ -30,7 +34,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
@@ -60,12 +64,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "5"
+        "hits": "6"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "89"
       }
     ]
   },
@@ -77,15 +81,15 @@
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
-      },
-      {
-        "hits": "24",
         "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
         "url": "/note/index.xml"
+      },
+      {
+        "hits": "24",
+        "url": "/photo/index.xml"
       },
       {
         "hits": "7",
@@ -113,7 +117,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/justice/"
+        "url": "/rss/"
       },
       {
         "hits": "2",
@@ -121,11 +125,11 @@
       },
       {
         "hits": "2",
-        "url": "/rss/"
+        "url": "/media/"
       },
       {
         "hits": "2",
-        "url": "/media/"
+        "url": "/tags/justice/"
       },
       {
         "hits": "2",
@@ -133,15 +137,11 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/larry-kramer-obit/"
-      },
-      {
-        "hits": "2",
         "url": "/post/activist-relief-resources/"
       },
       {
-        "hits": "1",
-        "url": "/highlight/ptsd-during-covid/"
+        "hits": "2",
+        "url": "/highlight/larry-kramer-obit/"
       },
       {
         "hits": "1",
@@ -270,6 +270,10 @@
       {
         "hits": "1",
         "url": "/tags/education/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/engineering/"
       }
     ],
     "topSiteMisses": [
@@ -457,35 +461,35 @@
     "topApiHits": [
       {
         "hits": "287",
-        "url": "/articles?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
         "url": "/analytics"
       },
       {
-        "hits": "286",
+        "hits": "287",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "286",
+        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "286",
+        "hits": "287",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "286",
+        "hits": "287",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "286",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "286",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "6",
@@ -499,7 +503,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2296"
+        "hits": "2302"
       }
     ]
   },
@@ -563,11 +567,11 @@
       },
       {
         "hits": "12",
-        "url": "/media/"
+        "url": "/note/"
       },
       {
         "hits": "12",
-        "url": "/note/"
+        "url": "/media/"
       },
       {
         "hits": "10",
@@ -595,10 +599,6 @@
       },
       {
         "hits": "7",
-        "url": "/tags/tech/"
-      },
-      {
-        "hits": "7",
         "url": "/tags/accessibility/"
       },
       {
@@ -607,15 +607,19 @@
       },
       {
         "hits": "7",
+        "url": "/tags/history/"
+      },
+      {
+        "hits": "7",
+        "url": "/tags/tech/"
+      },
+      {
+        "hits": "7",
         "url": "/tags/science/"
       },
       {
         "hits": "7",
         "url": "/post/getting-of-of-netlify/"
-      },
-      {
-        "hits": "7",
-        "url": "/tags/history/"
       },
       {
         "hits": "7",
@@ -671,10 +675,6 @@
       },
       {
         "hits": "5",
-        "url": "/tags/dev/"
-      },
-      {
-        "hits": "5",
         "url": "/highlight/roxane-gay-cleaner/"
       },
       {
@@ -683,7 +683,7 @@
       },
       {
         "hits": "5",
-        "url": "/tags/dance/"
+        "url": "/tags/dev/"
       },
       {
         "hits": "5",
@@ -700,6 +700,10 @@
       {
         "hits": "5",
         "url": "/highlight/mother-board-earth/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/dance/"
       },
       {
         "hits": "5",
@@ -911,15 +915,7 @@
     "topApiHits": [
       {
         "hits": "2015",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2015",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "2015",
@@ -931,15 +927,23 @@
       },
       {
         "hits": "2014",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2014",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2014",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2014",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2014",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2014",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "13",
@@ -948,12 +952,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2001"
+        "hits": "1999"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16129"
+        "hits": "16127"
       }
     ]
   },
@@ -1364,35 +1368,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7603",
+        "hits": "7604",
         "url": "/analytics"
       },
       {
@@ -1406,12 +1410,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "12548"
+        "hits": "12549"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "63103"
+        "hits": "63111"
       }
     ]
   },
@@ -1822,35 +1826,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "7923",
+        "hits": "7924",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7603",
+        "hits": "7604",
         "url": "/analytics"
       },
       {
@@ -1864,12 +1868,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "12548"
+        "hits": "12549"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "63103"
+        "hits": "63111"
       }
     ]
   }
