@@ -39,15 +39,11 @@
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/analytics"
-      },
-      {
-        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/analytics"
       },
       {
         "hits": "11",
@@ -70,6 +66,10 @@
         "url": "/pocket?limit=5000"
       },
       {
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "1",
         "url": "/"
       }
@@ -81,7 +81,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "91"
       }
     ]
   },
@@ -129,11 +129,7 @@
       },
       {
         "hits": "3",
-        "url": "/books/reading/"
-      },
-      {
-        "hits": "3",
-        "url": "/highlight/minneapolis-disband-police/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "3",
@@ -141,7 +137,11 @@
       },
       {
         "hits": "3",
-        "url": "/articles/saved/"
+        "url": "/books/reading/"
+      },
+      {
+        "hits": "3",
+        "url": "/highlight/minneapolis-disband-police/"
       },
       {
         "hits": "2",
@@ -149,19 +149,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/justice/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/language/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/neofeudalism-larb/"
+        "url": "/articles/liked/"
       },
       {
         "hits": "2",
@@ -169,35 +157,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/mental-health/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/no-apocalypse/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/tfl-streetspace/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/news/"
-      },
-      {
-        "hits": "2",
-        "url": "/articles/liked/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/skye-covid-home/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/politics/"
+        "url": "/films/towatch/"
       },
       {
         "hits": "2",
@@ -205,11 +165,19 @@
       },
       {
         "hits": "2",
-        "url": "/post/"
+        "url": "/highlight/neofeudalism-larb/"
       },
       {
         "hits": "2",
-        "url": "/films/towatch/"
+        "url": "/highlight/no-apocalypse/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/skye-covid-home/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "2",
@@ -220,52 +188,40 @@
         "url": "/link/"
       },
       {
-        "hits": "1",
-        "url": "/tags/culture/"
+        "hits": "2",
+        "url": "/note/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/justice/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/language/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/mental-health/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/news/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/politics/"
       },
       {
         "hits": "1",
-        "url": "/tags/culture/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/economics/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/economics/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/films/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/food/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/history/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/history/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/internet/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/justice/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/literature/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/magazine/"
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "1",
@@ -273,7 +229,31 @@
       },
       {
         "hits": "1",
+        "url": "/highlight/tulip-farm-covid/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/helms-deep-analysis/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/ford-best-games/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/"
+      },
+      {
+        "hits": "1",
         "url": "/tags/mentalhealth/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/technology/"
+      },
+      {
+        "hits": "1",
+        "url": "/media/"
       },
       {
         "hits": "1",
@@ -281,16 +261,36 @@
       },
       {
         "hits": "1",
-        "url": "/tags/philosophy/index.xml"
+        "url": "/note/2020-02-03-google-maps-hacks/"
       },
       {
         "hits": "1",
-        "url": "/tags/poetry/index.xml"
+        "url": "/note/2020-02-24-the-runners-victoria/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-04-28t144526.936z/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/covid-urbanist-fantasies/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/kanye-out-west/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/chat-roulette-quar/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/philosophy/index.xml"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "35",
+        "hits": "34",
         "url": "/robots.txt"
       },
       {
@@ -402,7 +402,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "284"
+        "hits": "281"
       }
     ],
     "totalApiHits": [
@@ -414,7 +414,7 @@
   "week": {
     "topSiteHits": [
       {
-        "hits": "319",
+        "hits": "318",
         "url": "/index.xml"
       },
       {
@@ -856,7 +856,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2024"
+        "hits": "2023"
       }
     ],
     "totalApiHits": [
@@ -1272,35 +1272,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8000",
+        "hits": "8001",
         "url": "/analytics"
       },
       {
@@ -1319,7 +1319,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "66284"
+        "hits": "66292"
       }
     ]
   },
@@ -1730,35 +1730,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8320",
+        "hits": "8321",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8000",
+        "hits": "8001",
         "url": "/analytics"
       },
       {
@@ -1777,7 +1777,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "66284"
+        "hits": "66292"
       }
     ]
   }
