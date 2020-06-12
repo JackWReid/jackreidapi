@@ -2,12 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "4",
-        "url": "/open-graph.png"
-      },
-      {
         "hits": "3",
         "url": "/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
@@ -23,14 +23,18 @@
       },
       {
         "hits": "1",
-        "url": "/note/2020-03-22-corona-crisis-18-months/"
+        "url": "/tags/poetry/"
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
+        "url": "/note/2020-03-22-corona-crisis-18-months/"
       }
     ],
     "topSiteMisses": [
+      {
+        "hits": "2",
+        "url": "/robots.txt"
+      },
       {
         "hits": "1",
         "url": "/note/james-joyce-estate/"
@@ -42,14 +46,6 @@
       {
         "hits": "1",
         "url": "/photo/the-trossachs/images/IMG_0028_huad381fb499f2badc1d9f5391a18539b4_1547419_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "1",
-        "url": "/photo/transcontinental-flight/"
-      },
-      {
-        "hits": "1",
-        "url": "/robots.txt"
       }
     ],
     "topApiHits": [
@@ -58,12 +54,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -83,17 +79,17 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "12"
+        "hits": "9"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -113,11 +109,11 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "6",
@@ -125,11 +121,11 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/roxane-gay-cleaner/"
+        "url": "/note/"
       },
       {
         "hits": "2",
-        "url": "/note/"
+        "url": "/highlight/roxane-gay-cleaner/"
       },
       {
         "hits": "2",
@@ -221,6 +217,10 @@
       },
       {
         "hits": "1",
+        "url": "/tags/poetry/"
+      },
+      {
+        "hits": "1",
         "url": "/books/reading/"
       },
       {
@@ -254,7 +254,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "27",
+        "hits": "28",
         "url": "/robots.txt"
       },
       {
@@ -494,7 +494,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "212"
+        "hits": "213"
       }
     ],
     "totalApiHits": [
@@ -506,7 +506,7 @@
   "week": {
     "topSiteHits": [
       {
-        "hits": "318",
+        "hits": "317",
         "url": "/index.xml"
       },
       {
@@ -522,7 +522,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "116",
+        "hits": "101",
         "url": "/open-graph.png"
       },
       {
@@ -543,11 +543,11 @@
       },
       {
         "hits": "19",
-        "url": "/css/style.css"
+        "url": "/articles/saved/"
       },
       {
         "hits": "19",
-        "url": "/articles/saved/"
+        "url": "/css/style.css"
       },
       {
         "hits": "16",
@@ -559,11 +559,11 @@
       },
       {
         "hits": "12",
-        "url": "/note/"
+        "url": "/post/"
       },
       {
         "hits": "12",
-        "url": "/post/"
+        "url": "/note/"
       },
       {
         "hits": "12",
@@ -579,11 +579,11 @@
       },
       {
         "hits": "9",
-        "url": "/journal/"
+        "url": "/rss/"
       },
       {
         "hits": "9",
-        "url": "/rss/"
+        "url": "/journal/"
       },
       {
         "hits": "7",
@@ -595,23 +595,23 @@
       },
       {
         "hits": "6",
+        "url": "/post/2015-03-02-internet-rhizome/"
+      },
+      {
+        "hits": "6",
         "url": "/tags/news/"
       },
       {
         "hits": "6",
-        "url": "/tags/love/"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/music/"
-      },
-      {
-        "hits": "6",
-        "url": "/link/"
+        "url": "/tags/poetry/"
       },
       {
         "hits": "6",
         "url": "/highlight/neofeudalism-larb/"
+      },
+      {
+        "hits": "6",
+        "url": "/link/"
       },
       {
         "hits": "6",
@@ -623,11 +623,11 @@
       },
       {
         "hits": "6",
-        "url": "/post/2015-03-02-internet-rhizome/"
+        "url": "/tags/music/"
       },
       {
-        "hits": "5",
-        "url": "/tags/poetry/"
+        "hits": "6",
+        "url": "/tags/love/"
       },
       {
         "hits": "5",
@@ -635,15 +635,11 @@
       },
       {
         "hits": "5",
+        "url": "/highlight/roxane-gay-cleaner/"
+      },
+      {
+        "hits": "5",
         "url": "/tags/snowden/"
-      },
-      {
-        "hits": "5",
-        "url": "/highlight/chat-roulette-quar/"
-      },
-      {
-        "hits": "5",
-        "url": "/highlight/ronan-farrow-too-good/"
       },
       {
         "hits": "5",
@@ -655,7 +651,7 @@
       },
       {
         "hits": "5",
-        "url": "/tags/internet/"
+        "url": "/tags/justice/"
       },
       {
         "hits": "5",
@@ -667,23 +663,7 @@
       },
       {
         "hits": "5",
-        "url": "/highlight/ptsd-during-covid/"
-      },
-      {
-        "hits": "5",
         "url": "/highlight/low-tech-election-iowa/"
-      },
-      {
-        "hits": "5",
-        "url": "/highlight/tulip-farm-covid/"
-      },
-      {
-        "hits": "5",
-        "url": "/post/getting-of-of-netlify/"
-      },
-      {
-        "hits": "5",
-        "url": "/tags/justice/"
       },
       {
         "hits": "5",
@@ -691,11 +671,15 @@
       },
       {
         "hits": "5",
-        "url": "/highlight/roxane-gay-cleaner/"
+        "url": "/highlight/ronan-farrow-too-good/"
       },
       {
         "hits": "5",
         "url": "/highlight/human-scale-cities/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/internet/"
       },
       {
         "hits": "4",
@@ -703,12 +687,28 @@
       },
       {
         "hits": "4",
-        "url": "/highlight/robert-pattinson/"
+        "url": "/highlight/skye-covid-home/"
+      },
+      {
+        "hits": "4",
+        "url": "/highlight/covid-urbanist-fantasies/"
+      },
+      {
+        "hits": "4",
+        "url": "/films/towatch/"
+      },
+      {
+        "hits": "4",
+        "url": "/highlight/snowden-gellman/"
+      },
+      {
+        "hits": "4",
+        "url": "/highlight/off-road-land-trains/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "97",
+        "hits": "98",
         "url": "/robots.txt"
       },
       {
@@ -948,7 +948,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1873"
+        "hits": "1835"
       }
     ],
     "totalApiHits": [
@@ -1162,7 +1162,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1132",
+        "hits": "1133",
         "url": "/robots.txt"
       },
       {
@@ -1364,35 +1364,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8354",
+        "hits": "8355",
         "url": "/analytics"
       },
       {
@@ -1406,12 +1406,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "13166"
+        "hits": "13167"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69117"
+        "hits": "69125"
       }
     ]
   },
@@ -1620,7 +1620,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1132",
+        "hits": "1133",
         "url": "/robots.txt"
       },
       {
@@ -1822,35 +1822,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8674",
+        "hits": "8675",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8354",
+        "hits": "8355",
         "url": "/analytics"
       },
       {
@@ -1864,12 +1864,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "13166"
+        "hits": "13167"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69117"
+        "hits": "69125"
       }
     ]
   }
