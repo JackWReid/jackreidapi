@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/index.xml"
       },
       {
@@ -38,12 +38,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -63,17 +63,17 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8"
+        "hits": "7"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -465,7 +465,11 @@
       },
       {
         "hits": "288",
-        "url": "/books/reading?limit=5000"
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "288",
@@ -476,12 +480,8 @@
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/watched?limit=5000"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "3",
@@ -495,7 +495,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2307"
+        "hits": "2306"
       }
     ]
   },
@@ -522,7 +522,7 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "61",
+        "hits": "60",
         "url": "/"
       },
       {
@@ -944,7 +944,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1726"
+        "hits": "1724"
       }
     ],
     "totalApiHits": [
@@ -956,15 +956,15 @@
   "month": {
     "topSiteHits": [
       {
-        "hits": "1680",
+        "hits": "1679",
         "url": "/note/index.xml"
       },
       {
-        "hits": "1446",
+        "hits": "1445",
         "url": "/index.xml"
       },
       {
-        "hits": "831",
+        "hits": "832",
         "url": "/highlight/index.xml"
       },
       {
@@ -1048,7 +1048,7 @@
         "url": "/highlight/snowden-gellman/"
       },
       {
-        "hits": "50",
+        "hits": "49",
         "url": "/media/"
       },
       {
@@ -1158,7 +1158,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1142",
+        "hits": "1141",
         "url": "/robots.txt"
       },
       {
@@ -1219,7 +1219,11 @@
       },
       {
         "hits": "11",
-        "url": "/note/screen-protectors/"
+        "url": "/note/roman-silphium/"
+      },
+      {
+        "hits": "11",
+        "url": "/note/avalanche-school/"
       },
       {
         "hits": "11",
@@ -1235,23 +1239,19 @@
       },
       {
         "hits": "11",
-        "url": "/note/avalanche-school/"
+        "url": "/note/screen-protectors/"
       },
       {
         "hits": "11",
         "url": "/note/bob-fosse/"
       },
       {
-        "hits": "11",
-        "url": "/note/roman-silphium/"
+        "hits": "10",
+        "url": "/note/coronavirus-central-lockdown/"
       },
       {
         "hits": "10",
         "url": "/note/eugenics-statistics/"
-      },
-      {
-        "hits": "10",
-        "url": "/note/coronavirus-central-lockdown/"
       },
       {
         "hits": "10",
@@ -1303,10 +1303,6 @@
       },
       {
         "hits": "9",
-        "url": "/tags/medicine/"
-      },
-      {
-        "hits": "9",
         "url": "/note/contrecoup/"
       },
       {
@@ -1339,7 +1335,7 @@
       },
       {
         "hits": "9",
-        "url": "/tags/article/"
+        "url": "/tags/medicine/"
       },
       {
         "hits": "8",
@@ -1356,6 +1352,10 @@
       {
         "hits": "8",
         "url": "/note/files-going-extinct/"
+      },
+      {
+        "hits": "8",
+        "url": "/note/driving-school/"
       }
     ],
     "topApiHits": [
@@ -1364,12 +1364,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8936",
-        "url": "/pocket?limit=5000"
-      },
-      {
         "hits": "8935",
-        "url": "/books/read?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "8935",
@@ -1388,7 +1384,11 @@
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8653",
+        "hits": "8935",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8654",
         "url": "/analytics"
       },
       {
@@ -1402,7 +1402,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "12987"
+        "hits": "12985"
       }
     ],
     "totalApiHits": [
@@ -1422,7 +1422,7 @@
         "url": "/index.xml"
       },
       {
-        "hits": "851",
+        "hits": "852",
         "url": "/highlight/index.xml"
       },
       {
@@ -1818,35 +1818,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "8973",
+        "hits": "8974",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8973",
+        "hits": "8974",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "8973",
+        "hits": "8974",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8973",
+        "hits": "8974",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8973",
+        "hits": "8974",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8973",
+        "hits": "8974",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8973",
+        "hits": "8974",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8653",
+        "hits": "8654",
         "url": "/analytics"
       },
       {
@@ -1860,12 +1860,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "13380"
+        "hits": "13381"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71512"
+        "hits": "71520"
       }
     ]
   }
