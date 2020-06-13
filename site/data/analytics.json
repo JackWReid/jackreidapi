@@ -2,10 +2,6 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
-      },
-      {
         "hits": "1",
         "url": "/books/reading/"
       },
@@ -16,6 +12,10 @@
       {
         "hits": "1",
         "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -33,12 +33,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -58,17 +58,17 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "7"
+        "hits": "6"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -427,12 +427,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -444,11 +440,15 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2",
@@ -462,7 +462,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2301"
       }
     ]
   },
@@ -874,35 +874,35 @@
     "topApiHits": [
       {
         "hits": "2015",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2015",
         "url": "/analytics"
       },
       {
-        "hits": "2015",
+        "hits": "2014",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2014",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2014",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2014",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2014",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2014",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2014",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "17",
@@ -916,7 +916,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16137"
+        "hits": "16130"
       }
     ]
   },
@@ -931,7 +931,7 @@
         "url": "/index.xml"
       },
       {
-        "hits": "825",
+        "hits": "824",
         "url": "/highlight/index.xml"
       },
       {
@@ -951,11 +951,11 @@
         "url": "/"
       },
       {
-        "hits": "298",
+        "hits": "297",
         "url": "/css/style.css"
       },
       {
-        "hits": "231",
+        "hits": "230",
         "url": "/favicon.png"
       },
       {
@@ -1032,11 +1032,11 @@
       },
       {
         "hits": "47",
-        "url": "/highlight/american-girl-doll-history/"
+        "url": "/highlight/la-haine-society/"
       },
       {
         "hits": "47",
-        "url": "/highlight/la-haine-society/"
+        "url": "/highlight/american-girl-doll-history/"
       },
       {
         "hits": "46",
@@ -1091,7 +1091,7 @@
         "url": "/highlight/off-road-land-trains/"
       },
       {
-        "hits": "41",
+        "hits": "40",
         "url": "/books/reading/"
       },
       {
@@ -1327,35 +1327,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "8935",
+        "hits": "8936",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8935",
+        "hits": "8936",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "8935",
+        "hits": "8936",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8935",
+        "hits": "8936",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8935",
+        "hits": "8936",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8935",
+        "hits": "8936",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8935",
+        "hits": "8936",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8732",
+        "hits": "8733",
         "url": "/analytics"
       },
       {
@@ -1369,12 +1369,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "12905"
+        "hits": "12899"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71325"
+        "hits": "71333"
       }
     ]
   },
@@ -1785,35 +1785,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "9052",
+        "hits": "9053",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "9052",
+        "hits": "9053",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "9052",
+        "hits": "9053",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "9052",
+        "hits": "9053",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "9052",
+        "hits": "9053",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "9052",
+        "hits": "9053",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "9052",
+        "hits": "9053",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8732",
+        "hits": "8733",
         "url": "/analytics"
       },
       {
@@ -1832,7 +1832,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "72144"
+        "hits": "72152"
       }
     ]
   }
