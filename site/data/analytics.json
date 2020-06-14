@@ -86,12 +86,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -111,7 +111,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -121,7 +121,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -137,11 +137,11 @@
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "7",
@@ -153,11 +153,11 @@
       },
       {
         "hits": "4",
-        "url": "/books/reading/"
+        "url": "/css/style.css"
       },
       {
         "hits": "4",
-        "url": "/css/style.css"
+        "url": "/books/reading/"
       },
       {
         "hits": "3",
@@ -169,11 +169,7 @@
       },
       {
         "hits": "2",
-        "url": "/post/2016-08-22-that-accessibility-thing/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/getting-of-of-netlify/"
+        "url": "/books/read/"
       },
       {
         "hits": "2",
@@ -181,11 +177,11 @@
       },
       {
         "hits": "2",
-        "url": "/books/read/"
+        "url": "/post/getting-of-of-netlify/"
       },
       {
-        "hits": "1",
-        "url": "/journal/2020-04-05/"
+        "hits": "2",
+        "url": "/post/2016-08-22-that-accessibility-thing/"
       },
       {
         "hits": "1",
@@ -301,10 +297,6 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/new-york-geology/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/robert-pattinson/"
       },
       {
@@ -318,6 +310,10 @@
       {
         "hits": "1",
         "url": "/highlight/the-american-room/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/2020-04-05/"
       }
     ],
     "topSiteMisses": [
@@ -525,23 +521,15 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -553,7 +541,15 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "1",
@@ -562,12 +558,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "189"
+        "hits": "188"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2300"
       }
     ]
   },
@@ -979,15 +975,11 @@
     "topApiHits": [
       {
         "hits": "2015",
-        "url": "/analytics"
-      },
-      {
-        "hits": "2014",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2014",
-        "url": "/books/reading?limit=5000"
+        "hits": "2015",
+        "url": "/analytics"
       },
       {
         "hits": "2014",
@@ -1010,18 +1002,22 @@
         "url": "/pocket?limit=5000"
       },
       {
+        "hits": "2014",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "17",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "1633"
+        "hits": "1631"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16130"
+        "hits": "16131"
       }
     ]
   },
@@ -1052,7 +1048,7 @@
         "url": "/post/index.xml"
       },
       {
-        "hits": "469",
+        "hits": "468",
         "url": "/"
       },
       {
@@ -1230,7 +1226,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1131",
+        "hits": "1130",
         "url": "/robots.txt"
       },
       {
@@ -1432,16 +1428,24 @@
     ],
     "topApiHits": [
       {
-        "hits": "8932",
+        "hits": "8933",
         "url": "/analytics"
       },
       {
-        "hits": "8931",
+        "hits": "8932",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "8932",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "8931",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8931",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8931",
@@ -1450,14 +1454,6 @@
       {
         "hits": "8931",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8931",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8931",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8931",
@@ -1474,12 +1470,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "12540"
+        "hits": "12538"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71498"
+        "hits": "71501"
       }
     ]
   },
@@ -1890,35 +1886,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "9274",
+        "hits": "9275",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "9274",
+        "hits": "9275",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "9274",
+        "hits": "9275",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "9274",
+        "hits": "9275",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "9274",
+        "hits": "9275",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "9274",
+        "hits": "9275",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "9274",
+        "hits": "9275",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8954",
+        "hits": "8955",
         "url": "/analytics"
       },
       {
@@ -1937,7 +1933,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "73921"
+        "hits": "73929"
       }
     ]
   }
