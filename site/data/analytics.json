@@ -2,12 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
+        "hits": "1",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -67,45 +67,45 @@
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/analytics"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "6"
+        "hits": "5"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "95"
       }
     ]
   },
@@ -642,10 +642,6 @@
         "url": "/tags/poetry/"
       },
       {
-        "hits": "6",
-        "url": "/tags/music/"
-      },
-      {
         "hits": "5",
         "url": "/elsewhere/"
       },
@@ -676,6 +672,10 @@
       {
         "hits": "5",
         "url": "/highlight/roxane-gay-cleaner/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/music/"
       },
       {
         "hits": "5",
@@ -972,7 +972,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1682"
+        "hits": "1681"
       }
     ],
     "totalApiHits": [
@@ -1080,10 +1080,6 @@
         "url": "/highlight/chat-roulette-quar/"
       },
       {
-        "hits": "48",
-        "url": "/media/"
-      },
-      {
         "hits": "47",
         "url": "/highlight/american-girl-doll-history/"
       },
@@ -1094,6 +1090,10 @@
       {
         "hits": "47",
         "url": "/rss/"
+      },
+      {
+        "hits": "47",
+        "url": "/media/"
       },
       {
         "hits": "46",
@@ -1389,34 +1389,34 @@
     "topApiHits": [
       {
         "hits": "8935",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "8935",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "8935",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "8935",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8935",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "8935",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8935",
+        "hits": "8934",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8898",
+        "hits": "8934",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "8934",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "8934",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8934",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "8899",
         "url": "/analytics"
       },
       {
@@ -1430,12 +1430,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "12663"
+        "hits": "12662"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71492"
+        "hits": "71488"
       }
     ]
   },
@@ -1846,35 +1846,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "9218",
+        "hits": "9219",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "9218",
+        "hits": "9219",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "9218",
+        "hits": "9219",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "9218",
+        "hits": "9219",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "9218",
+        "hits": "9219",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "9218",
+        "hits": "9219",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "9218",
+        "hits": "9219",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8898",
+        "hits": "8899",
         "url": "/analytics"
       },
       {
@@ -1893,7 +1893,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "73473"
+        "hits": "73481"
       }
     ]
   }
