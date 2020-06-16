@@ -63,27 +63,27 @@
       },
       {
         "hits": "12",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -93,7 +93,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "96"
       }
     ]
   },
@@ -149,19 +149,7 @@
       },
       {
         "hits": "2",
-        "url": "/post/2017-03-31-candlesticks/"
-      },
-      {
-        "hits": "2",
-        "url": "/share/share-utils.js"
-      },
-      {
-        "hits": "2",
         "url": "/sitemap.xml"
-      },
-      {
-        "hits": "2",
-        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "2",
@@ -176,8 +164,16 @@
         "url": "/highlight/snowden-gellman/"
       },
       {
-        "hits": "1",
-        "url": "/link/2020-05-13t19-53-19/"
+        "hits": "2",
+        "url": "/post/activist-relief-resources/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/2017-03-31-candlesticks/"
+      },
+      {
+        "hits": "2",
+        "url": "/share/share-utils.js"
       },
       {
         "hits": "1",
@@ -298,6 +294,10 @@
       {
         "hits": "1",
         "url": "/tags/metoo/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/news/"
       }
     ],
     "topSiteMisses": [
@@ -408,42 +408,42 @@
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "265"
+        "hits": "264"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2304"
       }
     ]
   },
@@ -495,11 +495,11 @@
       },
       {
         "hits": "13",
-        "url": "/films/watched/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "13",
-        "url": "/articles/saved/"
+        "url": "/films/watched/"
       },
       {
         "hits": "11",
@@ -519,11 +519,11 @@
       },
       {
         "hits": "8",
-        "url": "/post/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "8",
-        "url": "/post/how-this-site-works/"
+        "url": "/post/"
       },
       {
         "hits": "7",
@@ -535,15 +535,19 @@
       },
       {
         "hits": "7",
-        "url": "/link/"
+        "url": "/media/"
       },
       {
         "hits": "7",
-        "url": "/media/"
+        "url": "/link/"
       },
       {
         "hits": "6",
         "url": "/post/getting-of-of-netlify/"
+      },
+      {
+        "hits": "6",
+        "url": "/rss/"
       },
       {
         "hits": "6",
@@ -558,12 +562,12 @@
         "url": "/highlight/minneapolis-disband-police/"
       },
       {
-        "hits": "6",
-        "url": "/rss/"
+        "hits": "5",
+        "url": "/tags/dance/"
       },
       {
         "hits": "5",
-        "url": "/tags/dance/"
+        "url": "/tags/language/"
       },
       {
         "hits": "5",
@@ -575,14 +579,6 @@
       },
       {
         "hits": "5",
-        "url": "/films/towatch/"
-      },
-      {
-        "hits": "5",
-        "url": "/tags/language/"
-      },
-      {
-        "hits": "5",
         "url": "/tags/politics/"
       },
       {
@@ -590,12 +586,16 @@
         "url": "/books/toread/"
       },
       {
-        "hits": "4",
-        "url": "/tags/book/"
+        "hits": "5",
+        "url": "/films/towatch/"
       },
       {
         "hits": "4",
         "url": "/tags/history/"
+      },
+      {
+        "hits": "4",
+        "url": "/tags/justice/"
       },
       {
         "hits": "4",
@@ -619,11 +619,7 @@
       },
       {
         "hits": "4",
-        "url": "/tags/accessibility/"
-      },
-      {
-        "hits": "4",
-        "url": "/tags/justice/"
+        "url": "/tags/book/"
       },
       {
         "hits": "4",
@@ -648,6 +644,10 @@
       {
         "hits": "4",
         "url": "/highlight/bring-back-blogs/"
+      },
+      {
+        "hits": "4",
+        "url": "/highlight/bridgers-rolling-stone/"
       }
     ],
     "topSiteMisses": [
@@ -892,7 +892,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1595"
+        "hits": "1594"
       }
     ],
     "totalApiHits": [
@@ -912,7 +912,7 @@
         "url": "/note/index.xml"
       },
       {
-        "hits": "800",
+        "hits": "799",
         "url": "/highlight/index.xml"
       },
       {
@@ -1309,27 +1309,19 @@
     "topApiHits": [
       {
         "hits": "8932",
+        "url": "/analytics"
+      },
+      {
+        "hits": "8932",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "8932",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "8932",
-        "url": "/analytics"
-      },
-      {
-        "hits": "8931",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "8931",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "8931",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8931",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8931",
@@ -1337,7 +1329,15 @@
       },
       {
         "hits": "8931",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "8931",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "8931",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "42",
@@ -1350,12 +1350,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "12079"
+        "hits": "12078"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71496"
+        "hits": "71498"
       }
     ]
   },
@@ -1766,35 +1766,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "9799",
+        "hits": "9800",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "9799",
+        "hits": "9800",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "9799",
+        "hits": "9800",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "9799",
+        "hits": "9800",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "9799",
+        "hits": "9800",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "9799",
+        "hits": "9800",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "9799",
+        "hits": "9800",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "9479",
+        "hits": "9480",
         "url": "/analytics"
       },
       {
@@ -1813,7 +1813,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "78122"
+        "hits": "78130"
       }
     ]
   }
