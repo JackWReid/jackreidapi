@@ -34,12 +34,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -59,7 +59,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -69,7 +69,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -89,11 +89,11 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "10",
@@ -101,11 +101,11 @@
       },
       {
         "hits": "7",
-        "url": "/favicon.png"
+        "url": "/"
       },
       {
         "hits": "7",
-        "url": "/"
+        "url": "/favicon.png"
       },
       {
         "hits": "7",
@@ -121,10 +121,6 @@
       },
       {
         "hits": "3",
-        "url": "/tags/news/"
-      },
-      {
-        "hits": "3",
         "url": "/highlight/minneapolis-disband-police/"
       },
       {
@@ -133,23 +129,7 @@
       },
       {
         "hits": "2",
-        "url": "/sitemap.xml"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-03-22-corona-crisis-18-months/"
-      },
-      {
-        "hits": "2",
-        "url": "/uses/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/activist-relief-resources/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/cities/"
+        "url": "/tags/news/"
       },
       {
         "hits": "2",
@@ -157,15 +137,31 @@
       },
       {
         "hits": "2",
+        "url": "/share/share-utils.js"
+      },
+      {
+        "hits": "2",
+        "url": "/sitemap.xml"
+      },
+      {
+        "hits": "2",
+        "url": "/uses/"
+      },
+      {
+        "hits": "2",
         "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "2",
-        "url": "/share/share-utils.js"
+        "url": "/post/activist-relief-resources/"
       },
       {
-        "hits": "1",
-        "url": "/note/"
+        "hits": "2",
+        "url": "/note/2020-03-22-corona-crisis-18-months/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/cities/"
       },
       {
         "hits": "1",
@@ -202,10 +198,6 @@
       {
         "hits": "1",
         "url": "/post/2016-08-22-confessions-of-a-news-addict/"
-      },
-      {
-        "hits": "1",
-        "url": "/post/2016-08-22-that-accessibility-thing/"
       },
       {
         "hits": "1",
@@ -274,11 +266,19 @@
       {
         "hits": "1",
         "url": "/tags/language/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/language/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/love/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "36",
+        "hits": "34",
         "url": "/robots.txt"
       },
       {
@@ -393,11 +393,15 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/analytics"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -420,22 +424,18 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "271"
+        "hits": "267"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2298"
       }
     ]
   },
@@ -847,35 +847,35 @@
     "topApiHits": [
       {
         "hits": "2015",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2015",
         "url": "/analytics"
       },
       {
-        "hits": "2015",
+        "hits": "2014",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2014",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2014",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2014",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2014",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2014",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2014",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "16",
@@ -889,7 +889,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16136"
+        "hits": "16129"
       }
     ]
   },
@@ -1758,35 +1758,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "9721",
+        "hits": "9722",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "9721",
+        "hits": "9722",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "9721",
+        "hits": "9722",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "9721",
+        "hits": "9722",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "9721",
+        "hits": "9722",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "9721",
+        "hits": "9722",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "9721",
+        "hits": "9722",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "9401",
+        "hits": "9402",
         "url": "/analytics"
       },
       {
@@ -1805,7 +1805,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "77498"
+        "hits": "77506"
       }
     ]
   }
