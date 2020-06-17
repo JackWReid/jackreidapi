@@ -2,20 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
+        "hits": "1",
+        "url": "/analytics/year/"
       },
       {
         "hits": "1",
         "url": "/books/read/"
-      },
-      {
-        "hits": "1",
-        "url": "/books/reading/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/"
       },
       {
         "hits": "1",
@@ -35,6 +27,10 @@
       },
       {
         "hits": "1",
+        "url": "/index.xml"
+      },
+      {
+        "hits": "1",
         "url": "/note/2020-02-10-there-is-no-swing-voter/"
       },
       {
@@ -51,21 +47,21 @@
       },
       {
         "hits": "1",
-        "url": "/analytics/year/"
-      },
-      {
-        "hits": "1",
         "url": "/photo/index.xml"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "2",
-        "url": "/robots.txt"
+        "hits": "1",
+        "url": "/note/aristophanes-wasps"
       },
       {
         "hits": "1",
         "url": "/photo/norfolk-shore"
+      },
+      {
+        "hits": "1",
+        "url": "/robots.txt"
       }
     ],
     "topApiHits": [
@@ -74,42 +70,42 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "15"
+        "hits": "12"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "89"
       }
     ]
   },
@@ -359,6 +355,10 @@
       },
       {
         "hits": "1",
+        "url": "/note/aristophanes-wasps"
+      },
+      {
+        "hits": "1",
         "url": "/note/avalanche-school/"
       },
       {
@@ -512,32 +512,16 @@
       {
         "hits": "1",
         "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "1",
-        "url": "/photo/south-india/images/IMG_2130_hu737147df5fde39d335039aa0fd05e9e4_193061_800x0_resize_q75_box.jpg"
       }
     ],
     "topApiHits": [
-      {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
       {
         "hits": "288",
         "url": "/analytics"
       },
       {
         "hits": "287",
-        "url": "/books/read?limit=5000"
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
@@ -545,11 +529,23 @@
       },
       {
         "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -563,7 +559,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2301"
+        "hits": "2298"
       }
     ]
   },
@@ -631,11 +627,11 @@
       },
       {
         "hits": "10",
-        "url": "/note/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "10",
-        "url": "/post/how-this-site-works/"
+        "url": "/note/"
       },
       {
         "hits": "10",
@@ -667,10 +663,6 @@
       },
       {
         "hits": "6",
-        "url": "/post/getting-of-of-netlify/"
-      },
-      {
-        "hits": "6",
         "url": "/highlight/snowden-gellman/"
       },
       {
@@ -690,8 +682,8 @@
         "url": "/tags/politics/"
       },
       {
-        "hits": "5",
-        "url": "/tags/dance/"
+        "hits": "6",
+        "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "5",
@@ -699,7 +691,15 @@
       },
       {
         "hits": "5",
-        "url": "/tags/technology/"
+        "url": "/tags/news/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/dance/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "5",
@@ -707,11 +707,7 @@
       },
       {
         "hits": "5",
-        "url": "/tags/news/"
-      },
-      {
-        "hits": "5",
-        "url": "/tags/accessibility/"
+        "url": "/tags/technology/"
       },
       {
         "hits": "4",
@@ -723,7 +719,7 @@
       },
       {
         "hits": "4",
-        "url": "/tags/language/"
+        "url": "/tags/magazine/"
       },
       {
         "hits": "4",
@@ -739,11 +735,7 @@
       },
       {
         "hits": "4",
-        "url": "/tags/book/"
-      },
-      {
-        "hits": "4",
-        "url": "/tags/magazine/"
+        "url": "/tags/language/"
       },
       {
         "hits": "4",
@@ -768,6 +760,10 @@
       {
         "hits": "4",
         "url": "/highlight/spa-fatigue/"
+      },
+      {
+        "hits": "4",
+        "url": "/highlight/tfl-streetspace/"
       }
     ],
     "topSiteMisses": [
@@ -789,6 +785,10 @@
       },
       {
         "hits": "4",
+        "url": "/note/uss-fitzgerald/"
+      },
+      {
+        "hits": "4",
         "url": "/photo/transcontinental-flight/"
       },
       {
@@ -796,16 +796,8 @@
         "url": "/photos/budapest"
       },
       {
-        "hits": "4",
-        "url": "/note/uss-fitzgerald/"
-      },
-      {
         "hits": "3",
-        "url": "/note/rise-of-the-blur/"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/article"
+        "url": "/note/dawn-or-dusk-painting/"
       },
       {
         "hits": "3",
@@ -813,11 +805,7 @@
       },
       {
         "hits": "3",
-        "url": "/note/dawn-or-dusk-painting/"
-      },
-      {
-        "hits": "3",
-        "url": "/note/madame-tussaud/"
+        "url": "/note/rise-of-the-blur/"
       },
       {
         "hits": "3",
@@ -825,11 +813,19 @@
       },
       {
         "hits": "3",
-        "url": "/note/coronavirus-central-lockdown/"
+        "url": "/tags/article"
       },
       {
         "hits": "3",
         "url": "/photo/loch-lomond/"
+      },
+      {
+        "hits": "3",
+        "url": "/note/coronavirus-central-lockdown/"
+      },
+      {
+        "hits": "3",
+        "url": "/note/madame-tussaud/"
       },
       {
         "hits": "2",
@@ -893,15 +889,15 @@
       },
       {
         "hits": "2",
+        "url": "/photo/ben-nevis/images/IMG_0040_huad381fb499f2badc1d9f5391a18539b4_501834_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/ben-nevis/images/IMG_0034_huad381fb499f2badc1d9f5391a18539b4_1198844_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
         "url": "/photo/ben-nevis/images/IMG_0042_huad381fb499f2badc1d9f5391a18539b4_1019648_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/apple-touch-icon-precomposed.png"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/ben-nevis/images/IMG_0043_huad381fb499f2badc1d9f5391a18539b4_1091249_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -909,19 +905,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/the-great-regression/"
-      },
-      {
-        "hits": "2",
         "url": "/note/tech-sabbath/"
       },
       {
         "hits": "2",
-        "url": "/note/the-markup-launch/"
-      },
-      {
-        "hits": "2",
-        "url": "/apple-touch-icon.png"
+        "url": "/note/the-great-regression/"
       },
       {
         "hits": "2",
@@ -929,7 +917,19 @@
       },
       {
         "hits": "2",
-        "url": "/note/academie-francaise/"
+        "url": "/apple-touch-icon.png"
+      },
+      {
+        "hits": "2",
+        "url": "/apple-touch-icon-precomposed.png"
+      },
+      {
+        "hits": "2",
+        "url": "/note/reading-difficult-books/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/the-markup-launch/"
       },
       {
         "hits": "2",
@@ -937,7 +937,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/ben-nevis/images/IMG_0040_huad381fb499f2badc1d9f5391a18539b4_501834_800x0_resize_q75_box.jpg"
+        "url": "/photo/ben-nevis/images/IMG_0043_huad381fb499f2badc1d9f5391a18539b4_1091249_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -965,25 +965,29 @@
       },
       {
         "hits": "2",
-        "url": "/note/joe-biden-stutter/"
-      },
-      {
-        "hits": "2",
-        "url": "/2019/wp-login.php"
+        "url": "/note/academie-francaise/"
       }
     ],
     "topApiHits": [
       {
         "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2016",
         "url": "/analytics"
       },
       {
-        "hits": "2016",
-        "url": "/pocket?limit=5000"
+        "hits": "2015",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2015",
@@ -995,15 +999,7 @@
       },
       {
         "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/toread?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -1012,12 +1008,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1598"
+        "hits": "1596"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16134"
+        "hits": "16132"
       }
     ]
   },
@@ -1428,12 +1424,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "8932",
-        "url": "/analytics"
+        "hits": "8931",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8931",
-        "url": "/books/read?limit=5000"
+        "url": "/analytics"
       },
       {
         "hits": "8930",
@@ -1475,7 +1471,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "71488"
+        "hits": "71487"
       }
     ]
   },
@@ -1886,35 +1882,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "10067",
+        "hits": "10068",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "10067",
+        "hits": "10068",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "10067",
+        "hits": "10068",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "10067",
+        "hits": "10068",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "10067",
+        "hits": "10068",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "10067",
+        "hits": "10068",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "10067",
+        "hits": "10068",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "9747",
+        "hits": "9748",
         "url": "/analytics"
       },
       {
@@ -1933,7 +1929,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "80267"
+        "hits": "80275"
       }
     ]
   }
