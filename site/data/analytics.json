@@ -3,11 +3,15 @@
     "topSiteHits": [
       {
         "hits": "2",
-        "url": "/media/"
+        "url": "/index.xml"
       },
       {
         "hits": "2",
-        "url": "/index.xml"
+        "url": "/media/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2019-07-24-carlos-williams-love/"
       },
       {
         "hits": "1",
@@ -19,19 +23,15 @@
       },
       {
         "hits": "1",
+        "url": "/elsewhere/"
+      },
+      {
+        "hits": "1",
         "url": "/tags/covid-19/"
       },
       {
         "hits": "1",
         "url": "/highlight/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/indieweb/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2019-07-24-carlos-williams-love/"
       }
     ],
     "topSiteMisses": [
@@ -49,10 +49,6 @@
       },
       {
         "hits": "1",
-        "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "1",
         "url": "/robots.txt"
       },
       {
@@ -66,31 +62,31 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/pocket?limit=5000"
       }
     ],
@@ -101,7 +97,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "89"
       }
     ]
   },
@@ -117,11 +113,11 @@
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "10",
@@ -137,11 +133,11 @@
       },
       {
         "hits": "4",
-        "url": "/books/read/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "4",
-        "url": "/articles/saved/"
+        "url": "/books/read/"
       },
       {
         "hits": "3",
@@ -157,7 +153,7 @@
       },
       {
         "hits": "3",
-        "url": "/link/"
+        "url": "/journal/"
       },
       {
         "hits": "3",
@@ -165,7 +161,11 @@
       },
       {
         "hits": "3",
-        "url": "/journal/"
+        "url": "/link/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "2",
@@ -173,19 +173,19 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "2",
-        "url": "/rss/"
-      },
-      {
-        "hits": "2",
-        "url": "/books/reading/"
+        "url": "/photo/"
       },
       {
         "hits": "2",
         "url": "/favicon.png"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/accessibility/"
+      },
+      {
+        "hits": "2",
+        "url": "/books/reading/"
       },
       {
         "hits": "2",
@@ -197,23 +197,15 @@
       },
       {
         "hits": "2",
-        "url": "/photo/"
+        "url": "/highlight/"
       },
       {
         "hits": "2",
-        "url": "/tags/covid-19/"
+        "url": "/rss/"
       },
       {
         "hits": "2",
-        "url": "/tags/accessibility/"
-      },
-      {
-        "hits": "1",
-        "url": "/journal/2020-05-11/"
-      },
-      {
-        "hits": "1",
-        "url": "/journal/2020-06-02/"
+        "url": "/elsewhere/"
       },
       {
         "hits": "1",
@@ -306,6 +298,10 @@
       {
         "hits": "1",
         "url": "/post/activist-relief-resources/"
+      },
+      {
+        "hits": "1",
+        "url": "/share/"
       }
     ],
     "topSiteMisses": [
@@ -550,7 +546,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "246"
+        "hits": "247"
       }
     ],
     "totalApiHits": [
@@ -619,11 +615,11 @@
       },
       {
         "hits": "10",
-        "url": "/media/"
+        "url": "/books/reading/"
       },
       {
         "hits": "10",
-        "url": "/books/reading/"
+        "url": "/media/"
       },
       {
         "hits": "9",
@@ -647,15 +643,19 @@
       },
       {
         "hits": "8",
-        "url": "/highlight/"
+        "url": "/rss/"
       },
       {
         "hits": "8",
-        "url": "/rss/"
+        "url": "/highlight/"
       },
       {
         "hits": "6",
         "url": "/films/towatch/"
+      },
+      {
+        "hits": "6",
+        "url": "/elsewhere/"
       },
       {
         "hits": "6",
@@ -667,19 +667,11 @@
       },
       {
         "hits": "6",
-        "url": "/tags/news/"
-      },
-      {
-        "hits": "6",
         "url": "/post/getting-of-of-netlify/"
       },
       {
-        "hits": "5",
-        "url": "/elsewhere/"
-      },
-      {
-        "hits": "5",
-        "url": "/highlight/bring-back-blogs/"
+        "hits": "6",
+        "url": "/tags/news/"
       },
       {
         "hits": "5",
@@ -691,10 +683,6 @@
       },
       {
         "hits": "5",
-        "url": "/tags/dance/"
-      },
-      {
-        "hits": "5",
         "url": "/tags/food/"
       },
       {
@@ -702,16 +690,24 @@
         "url": "/tags/technology/"
       },
       {
+        "hits": "5",
+        "url": "/highlight/bring-back-blogs/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/dance/"
+      },
+      {
         "hits": "4",
         "url": "/highlight/world-without-cops/"
       },
       {
         "hits": "4",
-        "url": "/uses/"
+        "url": "/highlight/spa-fatigue/"
       },
       {
         "hits": "4",
-        "url": "/highlight/spa-fatigue/"
+        "url": "/tags/short-story/"
       },
       {
         "hits": "4",
@@ -727,11 +723,11 @@
       },
       {
         "hits": "4",
-        "url": "/tags/short-story/"
+        "url": "/highlight/mother-board-earth/"
       },
       {
         "hits": "4",
-        "url": "/highlight/mother-board-earth/"
+        "url": "/tags/book/"
       },
       {
         "hits": "4",
@@ -739,15 +735,15 @@
       },
       {
         "hits": "4",
-        "url": "/tags/book/"
-      },
-      {
-        "hits": "3",
-        "url": "/photo/"
+        "url": "/uses/"
       },
       {
         "hits": "3",
         "url": "/highlight/covid-urbanist-fantasies/"
+      },
+      {
+        "hits": "3",
+        "url": "/post/2016-08-22-that-accessibility-thing/"
       },
       {
         "hits": "3",
@@ -759,7 +755,7 @@
       },
       {
         "hits": "3",
-        "url": "/articles/liked/"
+        "url": "/photo/"
       }
     ],
     "topSiteMisses": [
@@ -967,7 +963,7 @@
     "topApiHits": [
       {
         "hits": "2016",
-        "url": "/pocket?limit=5000"
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2016",
@@ -975,27 +971,27 @@
       },
       {
         "hits": "2016",
-        "url": "/articles?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2015",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "9",
@@ -1004,12 +1000,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1562"
+        "hits": "1561"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16136"
+        "hits": "16132"
       }
     ]
   },
@@ -1085,11 +1081,11 @@
       },
       {
         "hits": "55",
-        "url": "/highlight/roxane-gay-cleaner/"
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "55",
-        "url": "/highlight/snowden-gellman/"
+        "url": "/highlight/roxane-gay-cleaner/"
       },
       {
         "hits": "53",
@@ -1196,6 +1192,10 @@
         "url": "/highlight/bridgers-rolling-stone/"
       },
       {
+        "hits": "35",
+        "url": "/elsewhere/"
+      },
+      {
         "hits": "34",
         "url": "/highlight/no-apocalypse/"
       },
@@ -1206,10 +1206,6 @@
       {
         "hits": "34",
         "url": "/highlight/wfh-forever/"
-      },
-      {
-        "hits": "34",
-        "url": "/elsewhere/"
       },
       {
         "hits": "33",
@@ -1258,20 +1254,16 @@
         "url": "/note/dawn-or-dusk-painting/"
       },
       {
-        "hits": "12",
-        "url": "/note/aristophanes-wasps/"
-      },
-      {
         "hits": "11",
         "url": "/photo/ben-nevis/"
       },
       {
         "hits": "11",
-        "url": "/note/there-is-no-outside/"
+        "url": "/note/aristophanes-wasps/"
       },
       {
         "hits": "11",
-        "url": "/note/2010-lists/"
+        "url": "/note/there-is-no-outside/"
       },
       {
         "hits": "10",
@@ -1279,11 +1271,11 @@
       },
       {
         "hits": "10",
-        "url": "/note/joe-biden-stutter/"
+        "url": "/note/duchy-of-cornwall/"
       },
       {
         "hits": "10",
-        "url": "/note/duchy-of-cornwall/"
+        "url": "/note/joe-biden-stutter/"
       },
       {
         "hits": "10",
@@ -1291,15 +1283,19 @@
       },
       {
         "hits": "10",
-        "url": "/note/coronavirus-central-lockdown/"
-      },
-      {
-        "hits": "10",
         "url": "/photo/norfolk-shore/"
       },
       {
         "hits": "10",
+        "url": "/note/coronavirus-central-lockdown/"
+      },
+      {
+        "hits": "10",
         "url": "/photo/loch-lomond/"
+      },
+      {
+        "hits": "10",
+        "url": "/note/2010-lists/"
       },
       {
         "hits": "9",
@@ -1323,7 +1319,7 @@
       },
       {
         "hits": "8",
-        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "8",
@@ -1335,10 +1331,6 @@
       },
       {
         "hits": "8",
-        "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "8",
         "url": "/note/contrecoup/"
       },
       {
@@ -1347,19 +1339,15 @@
       },
       {
         "hits": "8",
-        "url": "/tags/medicine/"
-      },
-      {
-        "hits": "8",
-        "url": "/note/academie-francaise/"
-      },
-      {
-        "hits": "8",
         "url": "/note/rise-of-the-blur/"
       },
       {
         "hits": "8",
-        "url": "/photo/south-india/images/IMG_1852_hufdcdb9ce05456e41ca5036f054c92962_98358_800x0_resize_q75_box.jpg"
+        "url": "/tags/medicine/"
+      },
+      {
+        "hits": "8",
+        "url": "/photo/south-india/images/IMG_3003_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_221785_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "8",
@@ -1367,15 +1355,19 @@
       },
       {
         "hits": "8",
+        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "8",
         "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "8",
-        "url": "/photo/south-india/images/IMG_2505_hu1ddaec928864e2ac7f3bc7f0b4820fb9_372234_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_1852_hufdcdb9ce05456e41ca5036f054c92962_98358_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "8",
-        "url": "/photo/south-india/images/IMG_3003_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_221785_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2505_hu1ddaec928864e2ac7f3bc7f0b4820fb9_372234_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "7",
@@ -1391,7 +1383,7 @@
       },
       {
         "hits": "7",
-        "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2208_hu737147df5fde39d335039aa0fd05e9e4_163211_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "7",
@@ -1407,15 +1399,19 @@
       },
       {
         "hits": "7",
-        "url": "/photo/south-india/images/IMG_2208_hu737147df5fde39d335039aa0fd05e9e4_163211_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "7",
-        "url": "/note/bob-fosse/"
+        "url": "/photo/south-india/images/IMG_2251_hu1ddaec928864e2ac7f3bc7f0b4820fb9_285959_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "7",
         "url": "/note/reading-difficult-books/"
+      },
+      {
+        "hits": "7",
+        "url": "/note/academie-francaise/"
       }
     ],
     "topApiHits": [
@@ -1433,10 +1429,6 @@
       },
       {
         "hits": "8931",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "8931",
         "url": "/films/towatch?limit=5000"
       },
       {
@@ -1444,12 +1436,16 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8930",
-        "url": "/books/toread?limit=5000"
+        "hits": "8931",
+        "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8930",
-        "url": "/books/reading?limit=5000"
+        "hits": "8931",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8931",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "43",
@@ -1462,12 +1458,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "11369"
+        "hits": "11357"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71492"
+        "hits": "71494"
       }
     ]
   },
@@ -1559,11 +1555,11 @@
       },
       {
         "hits": "55",
-        "url": "/rss/"
+        "url": "/highlight/roxane-gay-cleaner/"
       },
       {
         "hits": "55",
-        "url": "/highlight/roxane-gay-cleaner/"
+        "url": "/rss/"
       },
       {
         "hits": "54",
@@ -1671,7 +1667,7 @@
       },
       {
         "hits": "39",
-        "url": "/books/read/"
+        "url": "/elsewhere/"
       }
     ],
     "topSiteMisses": [
@@ -1878,35 +1874,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "10330",
+        "hits": "10331",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "10330",
+        "hits": "10331",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "10330",
+        "hits": "10331",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "10330",
+        "hits": "10331",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "10330",
+        "hits": "10331",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "10330",
+        "hits": "10331",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "10330",
+        "hits": "10331",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "10010",
+        "hits": "10011",
         "url": "/analytics"
       },
       {
@@ -1920,12 +1916,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "14470"
+        "hits": "14471"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "82372"
+        "hits": "82380"
       }
     ]
   }
