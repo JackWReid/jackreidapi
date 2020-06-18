@@ -2,8 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/books/read/"
       },
       {
         "hits": "1",
@@ -24,20 +28,16 @@
     ],
     "topSiteMisses": [
       {
+        "hits": "2",
+        "url": "/robots.txt"
+      },
+      {
         "hits": "1",
         "url": "/note/academie-francaise"
       },
       {
         "hits": "1",
-        "url": "/note/duchy-of-cornwall/"
-      },
-      {
-        "hits": "1",
         "url": "/photo/ben-nevis/images/IMG_0029_huad381fb499f2badc1d9f5391a18539b4_924484_600x300_fit_q75_box.jpg"
-      },
-      {
-        "hits": "1",
-        "url": "/robots.txt"
       }
     ],
     "topApiHits": [
@@ -46,8 +46,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
@@ -56,22 +72,6 @@
       {
         "hits": "11",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -81,7 +81,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "92"
       }
     ]
   },
@@ -109,15 +109,15 @@
       },
       {
         "hits": "4",
+        "url": "/books/read/"
+      },
+      {
+        "hits": "4",
         "url": "/articles/saved/"
       },
       {
         "hits": "3",
         "url": "/films/towatch/"
-      },
-      {
-        "hits": "3",
-        "url": "/books/read/"
       },
       {
         "hits": "3",
@@ -290,7 +290,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "46",
+        "hits": "47",
         "url": "/robots.txt"
       },
       {
@@ -530,7 +530,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "240"
+        "hits": "241"
       }
     ],
     "totalApiHits": [
@@ -542,7 +542,7 @@
   "week": {
     "topSiteHits": [
       {
-        "hits": "331",
+        "hits": "330",
         "url": "/index.xml"
       },
       {
@@ -606,16 +606,16 @@
         "url": "/post/how-this-site-works/"
       },
       {
+        "hits": "10",
+        "url": "/books/read/"
+      },
+      {
         "hits": "9",
         "url": "/note/"
       },
       {
         "hits": "9",
         "url": "/films/watched/"
-      },
-      {
-        "hits": "9",
-        "url": "/books/read/"
       },
       {
         "hits": "8",
@@ -744,7 +744,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "243",
+        "hits": "244",
         "url": "/robots.txt"
       },
       {
@@ -947,11 +947,27 @@
     "topApiHits": [
       {
         "hits": "2016",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/analytics"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2015",
@@ -959,23 +975,7 @@
       },
       {
         "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "9",
@@ -989,7 +989,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16130"
+        "hits": "16135"
       }
     ]
   },
@@ -1077,11 +1077,11 @@
       },
       {
         "hits": "49",
-        "url": "/rss/"
+        "url": "/highlight/"
       },
       {
         "hits": "49",
-        "url": "/highlight/"
+        "url": "/rss/"
       },
       {
         "hits": "48",
@@ -1189,16 +1189,16 @@
       },
       {
         "hits": "34",
-        "url": "/highlight/wfh-forever/"
+        "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "34",
-        "url": "/post/getting-of-of-netlify/"
+        "url": "/highlight/wfh-forever/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "1143",
+        "hits": "1144",
         "url": "/robots.txt"
       },
       {
@@ -1401,11 +1401,11 @@
     "topApiHits": [
       {
         "hits": "8931",
-        "url": "/analytics"
+        "url": "/articles?limit=5000"
       },
       {
-        "hits": "8930",
-        "url": "/articles?limit=5000"
+        "hits": "8931",
+        "url": "/analytics"
       },
       {
         "hits": "8930",
@@ -1442,12 +1442,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "11565"
+        "hits": "11566"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71487"
+        "hits": "71488"
       }
     ]
   },
@@ -1507,11 +1507,11 @@
       },
       {
         "hits": "72",
-        "url": "/journal/"
+        "url": "/work/"
       },
       {
         "hits": "72",
-        "url": "/work/"
+        "url": "/journal/"
       },
       {
         "hits": "62",
@@ -1539,11 +1539,11 @@
       },
       {
         "hits": "55",
-        "url": "/highlight/roxane-gay-cleaner/"
+        "url": "/rss/"
       },
       {
         "hits": "55",
-        "url": "/rss/"
+        "url": "/highlight/roxane-gay-cleaner/"
       },
       {
         "hits": "54",
@@ -1650,13 +1650,13 @@
         "url": "/highlight/larry-kramer-obit/"
       },
       {
-        "hits": "38",
-        "url": "/highlight/minneapolis-disband-police/"
+        "hits": "39",
+        "url": "/books/read/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "1341",
+        "hits": "1342",
         "url": "/robots.txt"
       },
       {
@@ -1858,35 +1858,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "10306",
+        "hits": "10307",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "10306",
+        "hits": "10307",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "10306",
+        "hits": "10307",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "10306",
+        "hits": "10307",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "10306",
+        "hits": "10307",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "10306",
+        "hits": "10307",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "10306",
+        "hits": "10307",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "9986",
+        "hits": "9987",
         "url": "/analytics"
       },
       {
@@ -1900,12 +1900,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "14449"
+        "hits": "14450"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "82180"
+        "hits": "82188"
       }
     ]
   }
