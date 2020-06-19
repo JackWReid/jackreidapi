@@ -62,12 +62,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -87,7 +87,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -97,7 +97,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -315,11 +315,11 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -512,24 +512,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "287",
@@ -538,6 +522,22 @@
       {
         "hits": "287",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -547,14 +547,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2297"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "330",
+        "hits": "329",
         "url": "/index.xml"
       },
       {
@@ -959,11 +959,15 @@
     "topApiHits": [
       {
         "hits": "2016",
+        "url": "/analytics"
+      },
+      {
+        "hits": "2015",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
-        "url": "/analytics"
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -986,22 +990,18 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "8",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "1596"
+        "hits": "1595"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16130"
+        "hits": "16129"
       }
     ]
   },
@@ -1080,12 +1080,12 @@
         "url": "/highlight/roxane-gay-cleaner/"
       },
       {
-        "hits": "49",
-        "url": "/rss/"
+        "hits": "48",
+        "url": "/highlight/coronavirus-city-sound/"
       },
       {
         "hits": "48",
-        "url": "/highlight/coronavirus-city-sound/"
+        "url": "/rss/"
       },
       {
         "hits": "48",
@@ -1413,23 +1413,15 @@
     "topApiHits": [
       {
         "hits": "8930",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "8930",
         "url": "/analytics"
       },
       {
-        "hits": "8930",
+        "hits": "8929",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "8929",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "8929",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "8929",
@@ -1438,6 +1430,14 @@
       {
         "hits": "8929",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8929",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "8929",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8929",
@@ -1454,12 +1454,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10949"
+        "hits": "10948"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71478"
+        "hits": "71476"
       }
     ]
   },
@@ -1870,35 +1870,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "10598",
+        "hits": "10599",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "10598",
+        "hits": "10599",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "10598",
+        "hits": "10599",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "10598",
+        "hits": "10599",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "10598",
+        "hits": "10599",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "10598",
+        "hits": "10599",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "10598",
+        "hits": "10599",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "10278",
+        "hits": "10279",
         "url": "/analytics"
       },
       {
@@ -1917,7 +1917,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "84516"
+        "hits": "84524"
       }
     ]
   }
