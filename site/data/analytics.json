@@ -967,15 +967,19 @@
     "topApiHits": [
       {
         "hits": "2016",
-        "url": "/analytics"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
+        "hits": "2016",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/analytics"
       },
       {
         "hits": "2015",
@@ -983,19 +987,15 @@
       },
       {
         "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "7",
@@ -1009,7 +1009,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16128"
+        "hits": "16131"
       }
     ]
   },
@@ -1036,7 +1036,7 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "401",
+        "hits": "400",
         "url": "/"
       },
       {
@@ -1271,7 +1271,7 @@
       },
       {
         "hits": "9",
-        "url": "/photo/ben-nevis/"
+        "url": "/photo/south-india/images/IMG_2505_hu1ddaec928864e2ac7f3bc7f0b4820fb9_372234_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "9",
@@ -1279,23 +1279,7 @@
       },
       {
         "hits": "9",
-        "url": "/photo/norfolk-shore/"
-      },
-      {
-        "hits": "9",
-        "url": "/photo/south-india/images/IMG_2505_hu1ddaec928864e2ac7f3bc7f0b4820fb9_372234_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "9",
-        "url": "/note/2010-lists/"
-      },
-      {
-        "hits": "9",
-        "url": "/photo/south-india/images/IMG_3003_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_221785_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "9",
-        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
+        "url": "/photo/ben-nevis/"
       },
       {
         "hits": "9",
@@ -1303,35 +1287,23 @@
       },
       {
         "hits": "9",
+        "url": "/note/2010-lists/"
+      },
+      {
+        "hits": "9",
+        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "9",
         "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
       },
       {
-        "hits": "8",
-        "url": "/note/coronavirus-central-lockdown/"
+        "hits": "9",
+        "url": "/photo/norfolk-shore/"
       },
       {
-        "hits": "8",
-        "url": "/note/james-joyce-estate/"
-      },
-      {
-        "hits": "8",
-        "url": "/photo/south-india/images/IMG_1997_hu737147df5fde39d335039aa0fd05e9e4_63216_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "8",
-        "url": "/photo/south-india/images/IMG_2453_hu1ddaec928864e2ac7f3bc7f0b4820fb9_137128_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "8",
-        "url": "/photo/south-india/images/IMG_2481_hu1ddaec928864e2ac7f3bc7f0b4820fb9_403338_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "8",
-        "url": "/photo/south-india/images/IMG_2251_hu1ddaec928864e2ac7f3bc7f0b4820fb9_285959_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "8",
-        "url": "/note/madame-tussaud/"
+        "hits": "9",
+        "url": "/photo/south-india/images/IMG_3003_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_221785_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "8",
@@ -1339,15 +1311,27 @@
       },
       {
         "hits": "8",
-        "url": "/note/carlos-williams-love/"
+        "url": "/note/duchy-of-cornwall/"
       },
       {
         "hits": "8",
-        "url": "/photo/south-india/images/IMG_2208_hu737147df5fde39d335039aa0fd05e9e4_163211_800x0_resize_q75_box.jpg"
+        "url": "/note/james-joyce-estate/"
       },
       {
         "hits": "8",
-        "url": "/photo/south-india/images/IMG_1944_hu737147df5fde39d335039aa0fd05e9e4_240287_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2481_hu1ddaec928864e2ac7f3bc7f0b4820fb9_403338_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "8",
+        "url": "/photo/south-india/images/IMG_1997_hu737147df5fde39d335039aa0fd05e9e4_63216_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "8",
+        "url": "/note/madame-tussaud/"
+      },
+      {
+        "hits": "8",
+        "url": "/photo/south-india/images/IMG_2453_hu1ddaec928864e2ac7f3bc7f0b4820fb9_137128_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "8",
@@ -1355,23 +1339,15 @@
       },
       {
         "hits": "8",
+        "url": "/note/coronavirus-central-lockdown/"
+      },
+      {
+        "hits": "8",
         "url": "/photo/loch-lomond/"
       },
       {
         "hits": "8",
-        "url": "/photo/south-india/images/IMG_1981_hufdcdb9ce05456e41ca5036f054c92962_442576_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "8",
-        "url": "/note/rise-of-the-blur/"
-      },
-      {
-        "hits": "8",
-        "url": "/note/precariously-balanced-rocks/"
-      },
-      {
-        "hits": "8",
-        "url": "/photo/south-india/images/IMG_3009_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_326338_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2251_hu1ddaec928864e2ac7f3bc7f0b4820fb9_285959_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "8",
@@ -1379,31 +1355,35 @@
       },
       {
         "hits": "8",
+        "url": "/photo/south-india/images/IMG_2208_hu737147df5fde39d335039aa0fd05e9e4_163211_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "8",
         "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "8",
-        "url": "/note/duchy-of-cornwall/"
+        "url": "/note/rise-of-the-blur/"
       },
       {
-        "hits": "7",
-        "url": "/note/uss-fitzgerald/"
+        "hits": "8",
+        "url": "/photo/south-india/images/IMG_3009_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_326338_800x0_resize_q75_box.jpg"
       },
       {
-        "hits": "7",
-        "url": "/note/joe-biden-stutter/"
+        "hits": "8",
+        "url": "/note/precariously-balanced-rocks/"
       },
       {
-        "hits": "7",
-        "url": "/photo/south-india/images/IMG_2548_hu1ddaec928864e2ac7f3bc7f0b4820fb9_374159_800x0_resize_q75_box.jpg"
+        "hits": "8",
+        "url": "/photo/south-india/images/IMG_1981_hufdcdb9ce05456e41ca5036f054c92962_442576_800x0_resize_q75_box.jpg"
       },
       {
-        "hits": "7",
-        "url": "/note/eugenics-statistics/"
+        "hits": "8",
+        "url": "/note/carlos-williams-love/"
       },
       {
-        "hits": "7",
-        "url": "/note/google-maps-hacks/"
+        "hits": "8",
+        "url": "/photo/south-india/images/IMG_1944_hu737147df5fde39d335039aa0fd05e9e4_240287_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "7",
@@ -1411,44 +1391,64 @@
       },
       {
         "hits": "7",
+        "url": "/note/uss-fitzgerald/"
+      },
+      {
+        "hits": "7",
+        "url": "/photo/south-india/images/IMG_2548_hu1ddaec928864e2ac7f3bc7f0b4820fb9_374159_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "7",
+        "url": "/note/joe-biden-stutter/"
+      },
+      {
+        "hits": "7",
+        "url": "/note/google-maps-hacks/"
+      },
+      {
+        "hits": "7",
         "url": "/photo/south-india/images/IMG_2603_hu041a2f3f6cbbc1fd9d6ab0db6c716ed2_157548_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "7",
-        "url": "/photo/south-india/images/IMG_1919_hu737147df5fde39d335039aa0fd05e9e4_122464_800x0_resize_q75_box.jpg"
+        "url": "/note/eugenics-statistics/"
+      },
+      {
+        "hits": "7",
+        "url": "/note/the-great-regression/"
       }
     ],
     "topApiHits": [
       {
         "hits": "8930",
-        "url": "/analytics"
-      },
-      {
-        "hits": "8929",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8929",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8929",
+        "hits": "8930",
+        "url": "/analytics"
+      },
+      {
+        "hits": "8930",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8930",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8929",
+        "hits": "8930",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8929",
+        "hits": "8930",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8929",
+        "hits": "8930",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8929",
+        "hits": "8930",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -1462,12 +1462,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10891"
+        "hits": "10889"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71476"
+        "hits": "71483"
       }
     ]
   },
@@ -1878,35 +1878,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "10643",
+        "hits": "10644",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "10643",
+        "hits": "10644",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "10643",
+        "hits": "10644",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "10643",
+        "hits": "10644",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "10643",
+        "hits": "10644",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "10643",
+        "hits": "10644",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "10643",
+        "hits": "10644",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "10323",
+        "hits": "10324",
         "url": "/analytics"
       },
       {
@@ -1925,7 +1925,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "84876"
+        "hits": "84884"
       }
     ]
   }
