@@ -50,24 +50,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
@@ -76,6 +60,22 @@
       {
         "hits": "11",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -85,7 +85,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "92"
+        "hits": "89"
       }
     ]
   },
@@ -457,31 +457,31 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
+        "hits": "287",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "286",
@@ -499,14 +499,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2303"
+        "hits": "2298"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "243",
+        "hits": "242",
         "url": "/index.xml"
       },
       {
@@ -526,7 +526,7 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "163",
+        "hits": "162",
         "url": "/"
       },
       {
@@ -567,11 +567,11 @@
       },
       {
         "hits": "16",
-        "url": "/journal/"
+        "url": "/work/"
       },
       {
         "hits": "16",
-        "url": "/work/"
+        "url": "/journal/"
       },
       {
         "hits": "15",
@@ -631,19 +631,19 @@
       },
       {
         "hits": "7",
-        "url": "/tags/book/"
-      },
-      {
-        "hits": "7",
         "url": "/tags/history/"
       },
       {
         "hits": "7",
-        "url": "/uses/"
+        "url": "/highlight/larry-kramer-obit/"
       },
       {
         "hits": "7",
-        "url": "/highlight/larry-kramer-obit/"
+        "url": "/tags/book/"
+      },
+      {
+        "hits": "7",
+        "url": "/uses/"
       },
       {
         "hits": "6",
@@ -664,10 +664,6 @@
       {
         "hits": "6",
         "url": "/highlight/american-girl-doll-history/"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/short-story/"
       },
       {
         "hits": "6",
@@ -704,6 +700,10 @@
       {
         "hits": "5",
         "url": "/highlight/mother-board-earth/"
+      },
+      {
+        "hits": "5",
+        "url": "/highlight/la-haine-society/"
       }
     ],
     "topSiteMisses": [
@@ -910,16 +910,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "1102",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "1102",
+        "hits": "1101",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "1102",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "1101",
@@ -927,15 +919,23 @@
       },
       {
         "hits": "1101",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "1101",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "1101",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "1101",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "1101",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "1101",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "1099",
@@ -947,21 +947,21 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "2331"
+        "hits": "2328"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "8815"
+        "hits": "8812"
       }
     ]
   },
@@ -1834,35 +1834,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "11027",
+        "hits": "11028",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11027",
+        "hits": "11028",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11027",
+        "hits": "11028",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11027",
+        "hits": "11028",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11027",
+        "hits": "11028",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11027",
+        "hits": "11028",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11027",
+        "hits": "11028",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "10704",
+        "hits": "10705",
         "url": "/analytics"
       },
       {
@@ -1885,7 +1885,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "87949"
+        "hits": "87957"
       }
     ]
   }
