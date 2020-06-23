@@ -302,7 +302,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "38",
+        "hits": "37",
         "url": "/robots.txt"
       },
       {
@@ -448,8 +448,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
+        "hits": "288",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -458,18 +470,6 @@
       {
         "hits": "287",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -486,12 +486,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "367"
+        "hits": "366"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2295"
+        "hits": "2297"
       }
     ]
   },
@@ -902,12 +902,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "1101",
+        "hits": "1102",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "1102",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "1101",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "1101",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "1101",
@@ -922,14 +930,6 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1101",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "1101",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "1099",
         "url": "/analytics"
       },
@@ -939,11 +939,11 @@
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       }
     ],
     "totalSiteHits": [
@@ -953,7 +953,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "8811"
+        "hits": "8813"
       }
     ]
   },
@@ -1364,28 +1364,28 @@
     ],
     "topApiHits": [
       {
-        "hits": "8013",
+        "hits": "8012",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8013",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8013",
+        "hits": "8012",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "8013",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "8013",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "8012",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "8012",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "8012",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8012",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "8012",
@@ -1410,12 +1410,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10369"
+        "hits": "10368"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "64138"
+        "hits": "64133"
       }
     ]
   },
@@ -1826,35 +1826,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "10994",
+        "hits": "10995",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "10994",
+        "hits": "10995",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "10994",
+        "hits": "10995",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "10994",
+        "hits": "10995",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "10994",
+        "hits": "10995",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "10994",
+        "hits": "10995",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "10994",
+        "hits": "10995",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "10671",
+        "hits": "10672",
         "url": "/analytics"
       },
       {
@@ -1877,7 +1877,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "87684"
+        "hits": "87692"
       }
     ]
   }
