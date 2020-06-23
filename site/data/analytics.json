@@ -105,11 +105,11 @@
       },
       {
         "hits": "23",
-        "url": "/photo/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "23",
-        "url": "/note/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "7",
@@ -125,7 +125,7 @@
       },
       {
         "hits": "4",
-        "url": "/elsewhere/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "4",
@@ -133,11 +133,11 @@
       },
       {
         "hits": "4",
-        "url": "/articles/saved/"
+        "url": "/elsewhere/"
       },
       {
         "hits": "4",
-        "url": "/post/how-this-site-works/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "3",
@@ -149,23 +149,19 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/american-girl-doll-history/"
-      },
-      {
-        "hits": "2",
         "url": "/tags/link/"
       },
       {
         "hits": "2",
-        "url": "/journal/"
+        "url": "/tags/history/"
       },
       {
         "hits": "2",
-        "url": "/books/toread/"
+        "url": "/tags/food/"
       },
       {
         "hits": "2",
-        "url": "/analytics/day/"
+        "url": "/tags/feminism/"
       },
       {
         "hits": "2",
@@ -173,19 +169,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/covid-19/"
+        "url": "/link/"
       },
       {
         "hits": "2",
-        "url": "/note/little-women-gerwig-crit/"
+        "url": "/highlight/american-girl-doll-history/"
       },
       {
         "hits": "2",
-        "url": "/rss/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/book/"
+        "url": "/journal/"
       },
       {
         "hits": "2",
@@ -201,6 +193,14 @@
       },
       {
         "hits": "2",
+        "url": "/books/toread/"
+      },
+      {
+        "hits": "2",
+        "url": "/rss/"
+      },
+      {
+        "hits": "2",
         "url": "/tags/urbanism/"
       },
       {
@@ -209,19 +209,19 @@
       },
       {
         "hits": "2",
-        "url": "/tags/feminism/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "2",
-        "url": "/tags/food/"
+        "url": "/analytics/day/"
       },
       {
         "hits": "2",
-        "url": "/tags/history/"
+        "url": "/tags/book/"
       },
       {
-        "hits": "2",
-        "url": "/link/"
+        "hits": "1",
+        "url": "/note/2020-03-23-meyer-get-static/"
       },
       {
         "hits": "1",
@@ -257,6 +257,10 @@
       },
       {
         "hits": "1",
+        "url": "/note/little-women-gerwig-crit/"
+      },
+      {
+        "hits": "1",
         "url": "/open-graph.png"
       },
       {
@@ -286,15 +290,11 @@
       {
         "hits": "1",
         "url": "/tags/education/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/engineering/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "42",
+        "hits": "41",
         "url": "/robots.txt"
       },
       {
@@ -476,8 +476,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
+        "hits": "288",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -486,18 +498,6 @@
       {
         "hits": "287",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -514,12 +514,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "348"
+        "hits": "347"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2299"
       }
     ]
   },
@@ -1392,6 +1392,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "8013",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "8012",
         "url": "/pocket?limit=5000"
       },
@@ -1413,14 +1417,10 @@
       },
       {
         "hits": "8012",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8012",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8009",
+        "hits": "8010",
         "url": "/analytics"
       },
       {
@@ -1443,7 +1443,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "64133"
+        "hits": "64135"
       }
     ]
   },
@@ -1854,35 +1854,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "11060",
+        "hits": "11061",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11060",
+        "hits": "11061",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11060",
+        "hits": "11061",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11060",
+        "hits": "11061",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11060",
+        "hits": "11061",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11060",
+        "hits": "11061",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11060",
+        "hits": "11061",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "10737",
+        "hits": "10738",
         "url": "/analytics"
       },
       {
@@ -1905,7 +1905,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "88213"
+        "hits": "88221"
       }
     ]
   }
