@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/index.xml"
       },
       {
@@ -50,8 +50,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
@@ -59,33 +75,17 @@
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "10"
+        "hits": "9"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "94"
       }
     ]
   },
@@ -169,7 +169,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/indieweb/"
+        "url": "/note/2020-01-08-untranslatable-words/"
       },
       {
         "hits": "2",
@@ -189,7 +189,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-01-08-untranslatable-words/"
+        "url": "/tags/indieweb/"
       },
       {
         "hits": "2",
@@ -273,15 +273,15 @@
       },
       {
         "hits": "1",
+        "url": "/note/2020-01-21-senate-impeachment-hamilton/"
+      },
+      {
+        "hits": "1",
         "url": "/note/2020-01-13-flights/"
       },
       {
         "hits": "1",
         "url": "/note/2020-01-11-reading-difficult-books/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-01-11-contrecoup/"
       },
       {
         "hits": "1",
@@ -392,35 +392,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "229",
+        "hits": "230",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "229",
+        "hits": "230",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "229",
+        "hits": "230",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "229",
+        "hits": "230",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "229",
+        "hits": "230",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "229",
+        "hits": "230",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "229",
+        "hits": "230",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "226",
+        "hits": "227",
         "url": "/analytics"
       },
       {
@@ -438,12 +438,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "379"
+        "hits": "378"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "1832"
+        "hits": "1840"
       }
     ]
   },
@@ -855,11 +855,15 @@
     "topApiHits": [
       {
         "hits": "1102",
-        "url": "/articles?limit=5000"
+        "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1101",
+        "hits": "1102",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "1102",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "1101",
@@ -867,19 +871,15 @@
       },
       {
         "hits": "1101",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "1101",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "1101",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "1101",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "1101",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "1099",
@@ -905,18 +905,18 @@
     ],
     "totalApiHits": [
       {
-        "hits": "8812"
+        "hits": "8814"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1370",
+        "hits": "1369",
         "url": "/index.xml"
       },
       {
-        "hits": "987",
+        "hits": "986",
         "url": "/note/index.xml"
       },
       {
@@ -940,7 +940,7 @@
         "url": "/highlight/minneapolis-disband-police/"
       },
       {
-        "hits": "204",
+        "hits": "203",
         "url": "/post/index.xml"
       },
       {
@@ -1114,7 +1114,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1125",
+        "hits": "1124",
         "url": "/robots.txt"
       },
       {
@@ -1155,10 +1155,6 @@
       },
       {
         "hits": "8",
-        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "8",
         "url": "/photo/loch-lomond/"
       },
       {
@@ -1179,15 +1175,15 @@
       },
       {
         "hits": "8",
+        "url": "/note/carlos-williams-love/"
+      },
+      {
+        "hits": "8",
         "url": "/photo/south-india/images/IMG_3003_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_221785_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "8",
         "url": "/photo/south-india/images/IMG_2505_hu1ddaec928864e2ac7f3bc7f0b4820fb9_372234_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "8",
-        "url": "/note/carlos-williams-love/"
       },
       {
         "hits": "7",
@@ -1203,7 +1199,7 @@
       },
       {
         "hits": "7",
-        "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "7",
@@ -1215,7 +1211,15 @@
       },
       {
         "hits": "7",
+        "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "7",
         "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "7",
+        "url": "/note/google-maps-hacks/"
       },
       {
         "hits": "7",
@@ -1228,10 +1232,6 @@
       {
         "hits": "7",
         "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "7",
-        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "7",
@@ -1278,12 +1278,12 @@
         "url": "/photo/the-trossachs/"
       },
       {
-        "hits": "7",
-        "url": "/note/google-maps-hacks/"
+        "hits": "6",
+        "url": "/note/there-is-so-swing-voter/"
       },
       {
         "hits": "6",
-        "url": "/note/there-is-so-swing-voter/"
+        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "6",
@@ -1362,7 +1362,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10306"
+        "hits": "10303"
       }
     ],
     "totalApiHits": [
@@ -1382,7 +1382,7 @@
         "url": "/index.xml"
       },
       {
-        "hits": "1088",
+        "hits": "1089",
         "url": "/highlight/index.xml"
       },
       {
@@ -1778,35 +1778,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "10879",
+        "hits": "10880",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "10879",
+        "hits": "10880",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "10879",
+        "hits": "10880",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "10879",
+        "hits": "10880",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "10879",
+        "hits": "10880",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "10879",
+        "hits": "10880",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "10879",
+        "hits": "10880",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "10556",
+        "hits": "10557",
         "url": "/analytics"
       },
       {
@@ -1824,12 +1824,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "16224"
+        "hits": "16225"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "86764"
+        "hits": "86772"
       }
     ]
   }
