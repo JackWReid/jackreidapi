@@ -31,15 +31,11 @@
       },
       {
         "hits": "1",
-        "url": "/photo/index.xml"
-      },
-      {
-        "hits": "1",
         "url": "/books/reading/"
       },
       {
         "hits": "1",
-        "url": "/tags/"
+        "url": "/photo/index.xml"
       }
     ],
     "topSiteMisses": [
@@ -74,8 +70,20 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -88,28 +96,16 @@
       {
         "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "12"
+        "hits": "11"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "93"
       }
     ]
   },
@@ -516,24 +512,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -548,6 +536,14 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/analytics"
+      },
+      {
         "hits": "2",
         "url": "/"
       }
@@ -559,7 +555,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2300"
       }
     ]
   },
@@ -586,7 +582,7 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "166",
+        "hits": "165",
         "url": "/"
       },
       {
@@ -635,15 +631,15 @@
       },
       {
         "hits": "14",
+        "url": "/post/"
+      },
+      {
+        "hits": "14",
         "url": "/rss/"
       },
       {
         "hits": "14",
         "url": "/media/"
-      },
-      {
-        "hits": "14",
-        "url": "/post/"
       },
       {
         "hits": "12",
@@ -675,15 +671,11 @@
       },
       {
         "hits": "8",
-        "url": "/post/activist-relief-resources/"
-      },
-      {
-        "hits": "8",
         "url": "/tags/work/"
       },
       {
-        "hits": "7",
-        "url": "/tags/covid-19/"
+        "hits": "8",
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "7",
@@ -699,6 +691,10 @@
       },
       {
         "hits": "7",
+        "url": "/tags/book/"
+      },
+      {
+        "hits": "7",
         "url": "/books/read/"
       },
       {
@@ -707,11 +703,7 @@
       },
       {
         "hits": "7",
-        "url": "/uses/"
-      },
-      {
-        "hits": "7",
-        "url": "/tags/book/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "6",
@@ -719,11 +711,15 @@
       },
       {
         "hits": "6",
+        "url": "/tags/accessibility/"
+      },
+      {
+        "hits": "6",
         "url": "/highlight/american-girl-doll-history/"
       },
       {
         "hits": "6",
-        "url": "/tags/accessibility/"
+        "url": "/uses/"
       },
       {
         "hits": "5",
@@ -736,6 +732,10 @@
       {
         "hits": "5",
         "url": "/tags/nature/"
+      },
+      {
+        "hits": "5",
+        "url": "/photo/"
       },
       {
         "hits": "5",
@@ -760,15 +760,11 @@
       {
         "hits": "5",
         "url": "/highlight/la-haine-society/"
-      },
-      {
-        "hits": "5",
-        "url": "/highlight/helms-deep-analysis/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "306",
+        "hits": "305",
         "url": "/robots.txt"
       },
       {
@@ -970,6 +966,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "1102",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "1101",
         "url": "/pocket?limit=5000"
       },
@@ -991,10 +991,6 @@
       },
       {
         "hits": "1101",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "1101",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1007,21 +1003,21 @@
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "2331"
+        "hits": "2328"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "8811"
+        "hits": "8812"
       }
     ]
   },
@@ -1432,10 +1428,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "8013",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "8012",
         "url": "/pocket?limit=5000"
       },
@@ -1454,6 +1446,10 @@
       {
         "hits": "8012",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8012",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "8012",
@@ -1483,7 +1479,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "64135"
+        "hits": "64134"
       }
     ]
   },
@@ -1894,35 +1890,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "11080",
+        "hits": "11081",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11080",
+        "hits": "11081",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11080",
+        "hits": "11081",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11080",
+        "hits": "11081",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11080",
+        "hits": "11081",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11080",
+        "hits": "11081",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11080",
+        "hits": "11081",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "10757",
+        "hits": "10758",
         "url": "/analytics"
       },
       {
@@ -1945,7 +1941,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "88373"
+        "hits": "88381"
       }
     ]
   }
