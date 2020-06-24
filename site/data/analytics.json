@@ -30,27 +30,27 @@
       },
       {
         "hits": "12",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -60,7 +60,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "91"
       }
     ]
   },
@@ -318,10 +318,6 @@
       },
       {
         "hits": "1",
-        "url": "/note/madame-tussaud"
-      },
-      {
-        "hits": "1",
         "url": "/note/meyer-get-static"
       },
       {
@@ -467,12 +463,16 @@
       {
         "hits": "1",
         "url": "/wp-config.php.bak"
+      },
+      {
+        "hits": "1",
+        "url": "/wp-config.php.disabled"
       }
     ],
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "288",
@@ -480,27 +480,27 @@
       },
       {
         "hits": "288",
-        "url": "/articles?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2",
@@ -514,14 +514,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2306"
+        "hits": "2301"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "243",
+        "hits": "242",
         "url": "/index.xml"
       },
       {
@@ -736,19 +736,15 @@
       },
       {
         "hits": "6",
-        "url": "/favicon.ico"
+        "url": "/noexist"
       },
       {
         "hits": "6",
-        "url": "/noexist"
+        "url": "/favicon.ico"
       },
       {
         "hits": "4",
         "url": "/note/eugenics-statistics/"
-      },
-      {
-        "hits": "3",
-        "url": "/photo/the-trossachs/"
       },
       {
         "hits": "3",
@@ -764,6 +760,10 @@
       },
       {
         "hits": "3",
+        "url": "/photo/the-trossachs/"
+      },
+      {
+        "hits": "3",
         "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
       },
       {
@@ -772,7 +772,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/transcontinental-flight/images/yellowstone-1_huaf04f606a954ea2006cdbd15ffad8279_3002329_800x0_resize_q75_box.jpg"
+        "url": "/photo/transcontinental-flight/images/sierra-bw_hu78a72260a68182606cfb35a42baecc94_806124_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -780,15 +780,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_3006_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_360035_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2481_hu1ddaec928864e2ac7f3bc7f0b4820fb9_403338_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2505_hu1ddaec928864e2ac7f3bc7f0b4820fb9_372234_800x0_resize_q75_box.jpg"
+        "url": "/photo/transcontinental-flight/images/ice-2_hudc2dcf43d5423cb19a5de33f6dff2417_240537_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -796,27 +788,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_1981_hufdcdb9ce05456e41ca5036f054c92962_442576_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_1997_hu737147df5fde39d335039aa0fd05e9e4_63216_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-04-16-google-hire-freeze"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2548_hu1ddaec928864e2ac7f3bc7f0b4820fb9_374159_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2538_hu1ddaec928864e2ac7f3bc7f0b4820fb9_255996_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -824,7 +796,39 @@
       },
       {
         "hits": "2",
+        "url": "/tags/video"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2081_hu0e1fde5b801c8e7d278695bc42f057dc_136940_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2505_hu1ddaec928864e2ac7f3bc7f0b4820fb9_372234_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2548_hu1ddaec928864e2ac7f3bc7f0b4820fb9_374159_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
         "url": "/photo/south-india/images/IMG_3003_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_221785_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_3006_hu4aaa7c1a3e8323c6d4b8241fc16dfb02_360035_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -836,15 +840,11 @@
       },
       {
         "hits": "2",
-        "url": "/photo/transcontinental-flight/images/ice-2_hudc2dcf43d5423cb19a5de33f6dff2417_240537_800x0_resize_q75_box.jpg"
+        "url": "/photo/transcontinental-flight/images/yellowstone-1_huaf04f606a954ea2006cdbd15ffad8279_3002329_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
-        "url": "/photo/transcontinental-flight/images/sierra-bw_hu78a72260a68182606cfb35a42baecc94_806124_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2453_hu1ddaec928864e2ac7f3bc7f0b4820fb9_137128_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -896,6 +896,10 @@
       },
       {
         "hits": "2",
+        "url": "/photo/south-india/images/IMG_1981_hufdcdb9ce05456e41ca5036f054c92962_442576_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
         "url": "/note/corona-crisis-18-months"
       },
       {
@@ -904,19 +908,15 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_2081_hu0e1fde5b801c8e7d278695bc42f057dc_136940_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
         "url": "/note/academie-francaise"
       },
       {
         "hits": "2",
-        "url": "/note/carlos-williams-love"
+        "url": "/note/2020-04-16-google-hire-freeze"
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_2538_hu1ddaec928864e2ac7f3bc7f0b4820fb9_255996_800x0_resize_q75_box.jpg"
+        "url": "/note/carlos-williams-love"
       },
       {
         "hits": "2",
@@ -925,28 +925,28 @@
     ],
     "topApiHits": [
       {
-        "hits": "1102",
+        "hits": "1101",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1102",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "1102",
+        "hits": "1101",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "1102",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "1102",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "1101",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "1101",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "1101",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "1101",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "1101",
@@ -971,23 +971,23 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2305"
+        "hits": "2304"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "8817"
+        "hits": "8812"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1368",
+        "hits": "1367",
         "url": "/index.xml"
       },
       {
-        "hits": "914",
+        "hits": "913",
         "url": "/note/index.xml"
       },
       {
@@ -1387,6 +1387,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "8013",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "8012",
         "url": "/pocket?limit=5000"
       },
@@ -1405,10 +1409,6 @@
       {
         "hits": "8012",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8012",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "8012",
@@ -1433,12 +1433,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9848"
+        "hits": "9846"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "64135"
+        "hits": "64136"
       }
     ]
   },
@@ -1849,35 +1849,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "11357",
+        "hits": "11358",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11357",
+        "hits": "11358",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11357",
+        "hits": "11358",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11357",
+        "hits": "11358",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11357",
+        "hits": "11358",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11357",
+        "hits": "11358",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11357",
+        "hits": "11358",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "11034",
+        "hits": "11035",
         "url": "/analytics"
       },
       {
@@ -1900,7 +1900,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90591"
+        "hits": "90599"
       }
     ]
   }
