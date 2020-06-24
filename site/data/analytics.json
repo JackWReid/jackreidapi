@@ -2,12 +2,16 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
+        "hits": "1",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
         "url": "/highlight/roxane-gay-cleaner/"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -27,10 +31,6 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
-      },
-      {
-        "hits": "1",
         "url": "/tags/web/"
       }
     ],
@@ -46,8 +46,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
@@ -55,33 +71,17 @@
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "9"
+        "hits": "8"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "94"
       }
     ]
   },
@@ -109,7 +109,7 @@
       },
       {
         "hits": "6",
-        "url": "/elsewhere/"
+        "url": "/css/style.css"
       },
       {
         "hits": "6",
@@ -117,7 +117,7 @@
       },
       {
         "hits": "6",
-        "url": "/css/style.css"
+        "url": "/elsewhere/"
       },
       {
         "hits": "5",
@@ -133,27 +133,35 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/robert-pattinson/"
-      },
-      {
-        "hits": "3",
         "url": "/tags/accessibility/"
       },
       {
         "hits": "3",
-        "url": "/articles/saved/"
+        "url": "/highlight/robert-pattinson/"
       },
       {
         "hits": "3",
         "url": "/work/"
       },
       {
-        "hits": "2",
-        "url": "/analytics/day/"
+        "hits": "3",
+        "url": "/articles/saved/"
       },
       {
         "hits": "2",
-        "url": "/highlight/wfh-forever/"
+        "url": "/journal/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/how-this-site-works/"
+      },
+      {
+        "hits": "2",
+        "url": "/rss/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/helms-deep-analysis/"
       },
       {
         "hits": "2",
@@ -165,31 +173,7 @@
       },
       {
         "hits": "2",
-        "url": "/rss/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-05-24t18-56-54/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/how-this-site-works/"
-      },
-      {
-        "hits": "2",
-        "url": "/open-graph.png"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/helms-deep-analysis/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/web/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/work/"
+        "url": "/highlight/wfh-forever/"
       },
       {
         "hits": "2",
@@ -197,15 +181,23 @@
       },
       {
         "hits": "2",
-        "url": "/uses/"
+        "url": "/note/2020-05-24t18-56-54/"
       },
       {
         "hits": "2",
-        "url": "/journal/"
+        "url": "/open-graph.png"
       },
       {
-        "hits": "1",
-        "url": "/note/2020-01-11-reading-difficult-books/"
+        "hits": "2",
+        "url": "/analytics/day/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/web/"
+      },
+      {
+        "hits": "2",
+        "url": "/uses/"
       },
       {
         "hits": "1",
@@ -286,11 +278,19 @@
       {
         "hits": "1",
         "url": "/tags/design/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/funny/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/games/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "55",
+        "hits": "54",
         "url": "/robots.txt"
       },
       {
@@ -493,15 +493,11 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
         "hits": "287",
@@ -524,25 +520,29 @@
         "url": "/pocket?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "334"
+        "hits": "331"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2300"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "241",
+        "hits": "240",
         "url": "/index.xml"
       },
       {
@@ -610,7 +610,7 @@
         "url": "/work/"
       },
       {
-        "hits": "16",
+        "hits": "15",
         "url": "/media/"
       },
       {
@@ -765,7 +765,7 @@
       },
       {
         "hits": "4",
-        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
+        "url": "/note/eugenics-statistics/"
       },
       {
         "hits": "4",
@@ -780,12 +780,8 @@
         "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
       },
       {
-        "hits": "4",
-        "url": "/note/eugenics-statistics/"
-      },
-      {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2538_hu1ddaec928864e2ac7f3bc7f0b4820fb9_255996_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2453_hu1ddaec928864e2ac7f3bc7f0b4820fb9_137128_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -793,7 +789,11 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2453_hu1ddaec928864e2ac7f3bc7f0b4820fb9_137128_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2548_hu1ddaec928864e2ac7f3bc7f0b4820fb9_374159_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/south-india/images/IMG_2538_hu1ddaec928864e2ac7f3bc7f0b4820fb9_255996_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -801,7 +801,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2548_hu1ddaec928864e2ac7f3bc7f0b4820fb9_374159_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -946,31 +946,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "1102",
+        "hits": "1101",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1102",
+        "hits": "1101",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1102",
+        "hits": "1101",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1102",
+        "hits": "1101",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1102",
+        "hits": "1101",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1102",
+        "hits": "1101",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1102",
+        "hits": "1101",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -992,12 +992,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2321"
+        "hits": "2319"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "8819"
+        "hits": "8812"
       }
     ]
   },
@@ -1408,20 +1408,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "8013",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8013",
+        "hits": "8012",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "8012",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "8012",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8012",
@@ -1434,6 +1426,14 @@
       {
         "hits": "8012",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8012",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8012",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8010",
@@ -1459,7 +1459,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "64137"
+        "hits": "64135"
       }
     ]
   },
@@ -1870,35 +1870,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "11210",
+        "hits": "11211",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11210",
+        "hits": "11211",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11210",
+        "hits": "11211",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11210",
+        "hits": "11211",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11210",
+        "hits": "11211",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11210",
+        "hits": "11211",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11210",
+        "hits": "11211",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "10887",
+        "hits": "10888",
         "url": "/analytics"
       },
       {
@@ -1921,7 +1921,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89414"
+        "hits": "89422"
       }
     ]
   }
