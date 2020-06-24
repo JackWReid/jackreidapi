@@ -2,8 +2,8 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/photo/index.xml"
+        "hits": "1",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
@@ -27,7 +27,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "1",
@@ -43,11 +43,15 @@
     "topApiHits": [
       {
         "hits": "12",
+        "url": "/analytics"
+      },
+      {
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/analytics"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -70,22 +74,18 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "9"
+        "hits": "8"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "90"
       }
     ]
   },
@@ -96,7 +96,7 @@
         "url": "/"
       },
       {
-        "hits": "49",
+        "hits": "48",
         "url": "/index.xml"
       },
       {
@@ -105,11 +105,11 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "7",
@@ -121,27 +121,23 @@
       },
       {
         "hits": "5",
-        "url": "/elsewhere/"
-      },
-      {
-        "hits": "5",
         "url": "/work/"
       },
       {
-        "hits": "4",
-        "url": "/media/"
+        "hits": "5",
+        "url": "/elsewhere/"
       },
       {
         "hits": "4",
         "url": "/highlight/praise-walking-cofee/"
       },
       {
-        "hits": "3",
-        "url": "/highlight/runaway-media/"
+        "hits": "4",
+        "url": "/media/"
       },
       {
         "hits": "3",
-        "url": "/articles/saved/"
+        "url": "/journal/"
       },
       {
         "hits": "3",
@@ -149,43 +145,11 @@
       },
       {
         "hits": "3",
-        "url": "/journal/"
+        "url": "/articles/saved/"
       },
       {
-        "hits": "2",
-        "url": "/books/toread/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/"
-      },
-      {
-        "hits": "2",
-        "url": "/link/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/work/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "2",
-        "url": "/uses/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/mentalhealth/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/helms-deep-analysis/"
-      },
-      {
-        "hits": "2",
-        "url": "/rss/"
+        "hits": "3",
+        "url": "/highlight/runaway-media/"
       },
       {
         "hits": "2",
@@ -197,7 +161,35 @@
       },
       {
         "hits": "2",
+        "url": "/rss/"
+      },
+      {
+        "hits": "2",
+        "url": "/books/toread/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/covid-19/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/work/"
+      },
+      {
+        "hits": "2",
         "url": "/tags/book/"
+      },
+      {
+        "hits": "2",
+        "url": "/uses/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/helms-deep-analysis/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/link/"
       },
       {
         "hits": "2",
@@ -205,67 +197,19 @@
       },
       {
         "hits": "2",
-        "url": "/tags/link/"
+        "url": "/link/"
       },
       {
-        "hits": "1",
-        "url": "/highlight/skye-covid-home/"
+        "hits": "2",
+        "url": "/tags/mentalhealth/"
       },
       {
-        "hits": "1",
-        "url": "/highlight/bridgers-rolling-stone/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/reading-in-the-dark/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/american-police-departments/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/ptsd-during-covid/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/american-girl-doll-history/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/pandemic-cars/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-01-15-precariously-balanced-rocks/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/oil-derricks-of-la/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "1",
-        "url": "/books/reading/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/new-york-geology/"
+        "hits": "2",
+        "url": "/post/"
       },
       {
         "hits": "1",
         "url": "/note/2020-01-08-untranslatable-words/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2019-12-31-pearshaped-magazine-archive/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/mother-board-earth/"
       },
       {
         "hits": "1",
@@ -277,7 +221,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/2019-08-05-academie-francaise/"
+        "url": "/note/2020-01-15-precariously-balanced-rocks/"
       },
       {
         "hits": "1",
@@ -289,12 +233,68 @@
       },
       {
         "hits": "1",
-        "url": "/note/2019-07-31-jacob-rees-mogg/"
+        "url": "/note/2020-02-10-there-is-no-swing-voter/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-04-15-there-is-no-outside/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-04-28t10-33-55/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-05-14t230243.919z/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-05-19t12-56-21/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-05-19t13-15-23/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-05-23t08-29-41/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-05-24t18-56-54/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/little-women-gerwig-crit/"
+      },
+      {
+        "hits": "1",
+        "url": "/open-graph.png"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/academic/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/accessibility/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/aviation/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/culture/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "55",
+        "hits": "53",
         "url": "/robots.txt"
       },
       {
@@ -493,11 +493,15 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/analytics"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -520,22 +524,18 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "3",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "349"
+        "hits": "346"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2301"
+        "hits": "2300"
       }
     ]
   },
@@ -1408,10 +1408,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "8013",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "8012",
         "url": "/pocket?limit=5000"
       },
@@ -1433,10 +1429,14 @@
       },
       {
         "hits": "8012",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8012",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8010",
+        "hits": "8009",
         "url": "/analytics"
       },
       {
@@ -1459,7 +1459,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "64136"
+        "hits": "64134"
       }
     ]
   },
@@ -1870,35 +1870,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "11137",
+        "hits": "11138",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11137",
+        "hits": "11138",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11137",
+        "hits": "11138",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11137",
+        "hits": "11138",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11137",
+        "hits": "11138",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11137",
+        "hits": "11138",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11137",
+        "hits": "11138",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "10814",
+        "hits": "10815",
         "url": "/analytics"
       },
       {
@@ -1921,7 +1921,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "88830"
+        "hits": "88838"
       }
     ]
   }
