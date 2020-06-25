@@ -100,7 +100,7 @@
         "url": "/index.xml"
       },
       {
-        "hits": "26",
+        "hits": "25",
         "url": "/photo/index.xml"
       },
       {
@@ -121,10 +121,6 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "3",
         "url": "/open-graph.png"
       },
       {
@@ -133,7 +129,7 @@
       },
       {
         "hits": "3",
-        "url": "/media/"
+        "url": "/highlight/"
       },
       {
         "hits": "3",
@@ -141,11 +137,19 @@
       },
       {
         "hits": "2",
+        "url": "/articles/saved/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/"
+      },
+      {
+        "hits": "2",
         "url": "/highlight/robert-pattinson/"
       },
       {
         "hits": "2",
-        "url": "/highlight/runaway-media/"
+        "url": "/media/"
       },
       {
         "hits": "2",
@@ -157,11 +161,15 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/wfh-forever/"
+        "url": "/highlight/coronavirus-city-sound/"
       },
       {
         "hits": "2",
-        "url": "/articles/saved/"
+        "url": "/highlight/runaway-media/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/wfh-forever/"
       },
       {
         "hits": "2",
@@ -170,18 +178,6 @@
       {
         "hits": "2",
         "url": "/tags/accessibility/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/coronavirus-city-sound/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "1",
@@ -294,11 +290,15 @@
       {
         "hits": "1",
         "url": "/share/"
+      },
+      {
+        "hits": "1",
+        "url": "/share/highlight/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "53",
+        "hits": "51",
         "url": "/robots.txt"
       },
       {
@@ -538,7 +538,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "230"
+        "hits": "226"
       }
     ],
     "totalApiHits": [
@@ -595,11 +595,11 @@
       },
       {
         "hits": "31",
-        "url": "/favicon.png"
+        "url": "/css/style.css"
       },
       {
         "hits": "31",
-        "url": "/css/style.css"
+        "url": "/favicon.png"
       },
       {
         "hits": "30",
@@ -631,15 +631,19 @@
       },
       {
         "hits": "12",
-        "url": "/note/"
+        "url": "/highlight/"
       },
       {
         "hits": "12",
-        "url": "/highlight/"
+        "url": "/note/"
       },
       {
         "hits": "11",
         "url": "/rss/"
+      },
+      {
+        "hits": "9",
+        "url": "/tags/politics/"
       },
       {
         "hits": "9",
@@ -650,12 +654,12 @@
         "url": "/post/how-this-site-works/"
       },
       {
-        "hits": "9",
-        "url": "/tags/politics/"
+        "hits": "8",
+        "url": "/link/"
       },
       {
         "hits": "8",
-        "url": "/books/toread/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "8",
@@ -663,11 +667,7 @@
       },
       {
         "hits": "8",
-        "url": "/link/"
-      },
-      {
-        "hits": "8",
-        "url": "/post/activist-relief-resources/"
+        "url": "/books/toread/"
       },
       {
         "hits": "7",
@@ -703,19 +703,19 @@
       },
       {
         "hits": "6",
-        "url": "/tags/technology/"
-      },
-      {
-        "hits": "6",
         "url": "/post/getting-of-of-netlify/"
       },
       {
-        "hits": "5",
-        "url": "/photo/"
+        "hits": "6",
+        "url": "/tags/technology/"
       },
       {
         "hits": "5",
         "url": "/tags/nature/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/news/"
       },
       {
         "hits": "5",
@@ -735,10 +735,6 @@
       },
       {
         "hits": "5",
-        "url": "/tags/news/"
-      },
-      {
-        "hits": "5",
         "url": "/books/reading/"
       },
       {
@@ -748,6 +744,10 @@
       {
         "hits": "5",
         "url": "/highlight/american-girl-doll-history/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/cities/"
       }
     ],
     "topSiteMisses": [
@@ -958,12 +958,16 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1101",
+        "hits": "1102",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "1101",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "1101",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "1101",
@@ -976,10 +980,6 @@
       {
         "hits": "1101",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "1101",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "1099",
@@ -1000,12 +1000,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2306"
+        "hits": "2305"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "8813"
+        "hits": "8814"
       }
     ]
   },
@@ -1878,35 +1878,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "11385",
+        "hits": "11386",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11385",
+        "hits": "11386",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11385",
+        "hits": "11386",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11385",
+        "hits": "11386",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11385",
+        "hits": "11386",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11385",
+        "hits": "11386",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11385",
+        "hits": "11386",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "11062",
+        "hits": "11063",
         "url": "/analytics"
       },
       {
@@ -1929,7 +1929,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90815"
+        "hits": "90823"
       }
     ]
   }
