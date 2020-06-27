@@ -58,12 +58,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -83,7 +83,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -93,7 +93,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -105,23 +105,23 @@
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "24",
         "url": "/photo/index.xml"
       },
       {
-        "hits": "11",
-        "url": "/"
-      },
-      {
         "hits": "10",
         "url": "/open-graph.png"
+      },
+      {
+        "hits": "9",
+        "url": "/"
       },
       {
         "hits": "2",
@@ -129,23 +129,15 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/negroni-season/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/running/"
-      },
-      {
-        "hits": "2",
         "url": "/highlight/wfh-forever/"
       },
       {
         "hits": "2",
-        "url": "/work/"
+        "url": "/css/style.css"
       },
       {
         "hits": "2",
-        "url": "/css/style.css"
+        "url": "/work/"
       },
       {
         "hits": "2",
@@ -157,15 +149,23 @@
       },
       {
         "hits": "2",
+        "url": "/tags/music/"
+      },
+      {
+        "hits": "2",
         "url": "/media/"
       },
       {
         "hits": "2",
-        "url": "/tags/music/"
+        "url": "/tags/running/"
       },
       {
         "hits": "1",
         "url": "/highlight/london-bikes-covid/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/negroni-season/"
       },
       {
         "hits": "1",
@@ -249,6 +249,10 @@
       },
       {
         "hits": "1",
+        "url": "/note/2020-02-10-joe-biden-stutter/"
+      },
+      {
+        "hits": "1",
         "url": "/note/2020-03-22-corona-crisis-18-months/"
       },
       {
@@ -289,10 +293,6 @@
       },
       {
         "hits": "1",
-        "url": "/note/kanye-out-west/"
-      },
-      {
-        "hits": "1",
         "url": "/note/page/2/"
       },
       {
@@ -302,7 +302,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "38",
+        "hits": "36",
         "url": "/robots.txt"
       },
       {
@@ -434,7 +434,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "234"
+        "hits": "230"
       }
     ],
     "totalApiHits": [
@@ -850,35 +850,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "1490",
+        "hits": "1491",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1490",
+        "hits": "1491",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1490",
+        "hits": "1491",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1490",
+        "hits": "1491",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1490",
+        "hits": "1491",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1490",
+        "hits": "1491",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1490",
+        "hits": "1491",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1486",
+        "hits": "1487",
         "url": "/analytics"
       },
       {
@@ -901,7 +901,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "11924"
+        "hits": "11932"
       }
     ]
   },
@@ -1110,7 +1110,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1118",
+        "hits": "1117",
         "url": "/robots.txt"
       },
       {
@@ -1317,10 +1317,6 @@
       },
       {
         "hits": "8013",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8013",
         "url": "/books/read?limit=5000"
       },
       {
@@ -1336,7 +1332,11 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8012",
+        "hits": "8013",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8013",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1349,21 +1349,21 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "9413"
+        "hits": "9412"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "64139"
+        "hits": "64140"
       }
     ]
   },
@@ -1774,35 +1774,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "12140",
+        "hits": "12141",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12140",
+        "hits": "12141",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12140",
+        "hits": "12141",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12140",
+        "hits": "12141",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12140",
+        "hits": "12141",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12140",
+        "hits": "12141",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12140",
+        "hits": "12141",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "11816",
+        "hits": "11817",
         "url": "/analytics"
       },
       {
@@ -1825,7 +1825,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "96856"
+        "hits": "96864"
       }
     ]
   }
