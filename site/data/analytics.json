@@ -37,8 +37,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -58,7 +58,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -68,7 +68,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "90"
       }
     ]
   },
@@ -364,23 +364,15 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -392,7 +384,15 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2",
@@ -406,14 +406,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2301"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "297",
+        "hits": "296",
         "url": "/index.xml"
       },
       {
@@ -615,7 +615,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "314",
+        "hits": "313",
         "url": "/robots.txt"
       },
       {
@@ -644,51 +644,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_2208_hu737147df5fde39d335039aa0fd05e9e4_163211_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
         "url": "/photo/south-india/images/IMG_2130_hu737147df5fde39d335039aa0fd05e9e4_193061_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/note/driving-school"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/video/index.xml"
-      },
-      {
-        "hits": "2",
-        "url": "/note/rise-of-the-blur/"
-      },
-      {
-        "hits": "2",
-        "url": "/images/poppy.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/article"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/brockwell-sleeve"
-      },
-      {
-        "hits": "2",
-        "url": "/note/screen-protectors"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2370_hu1ddaec928864e2ac7f3bc7f0b4820fb9_55412_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2584_hudc2151d3367441da7d4037ec8f2bceb0_102968_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_1944_hu737147df5fde39d335039aa0fd05e9e4_240287_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -696,11 +652,47 @@
       },
       {
         "hits": "2",
+        "url": "/photo/south-india/images/IMG_2584_hudc2151d3367441da7d4037ec8f2bceb0_102968_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
         "url": "/tags/video"
       },
       {
         "hits": "2",
-        "url": "/photo/the-trossachs/"
+        "url": "/note/rise-of-the-blur/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/screen-protectors"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_1944_hu737147df5fde39d335039aa0fd05e9e4_240287_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/video/index.xml"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/brockwell-sleeve"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2370_hu1ddaec928864e2ac7f3bc7f0b4820fb9_55412_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/article"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2208_hu737147df5fde39d335039aa0fd05e9e4_163211_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/note/driving-school"
       },
       {
         "hits": "1",
@@ -720,6 +712,14 @@
       },
       {
         "hits": "1",
+        "url": "/note/2020-02-10-little-women-gerwig-crit"
+      },
+      {
+        "hits": "1",
+        "url": "/blog/"
+      },
+      {
+        "hits": "1",
         "url": "/note/2020-04-16-google-hire-freeze"
       },
       {
@@ -733,14 +733,6 @@
       {
         "hits": "1",
         "url": "/note/aristophanes-wasps"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-02-10-little-women-gerwig-crit"
-      },
-      {
-        "hits": "1",
-        "url": "/blog/"
       },
       {
         "hits": "1",
@@ -784,6 +776,14 @@
       },
       {
         "hits": "1",
+        "url": "/note/dawn-or-dusk-painting"
+      },
+      {
+        "hits": "1",
+        "url": "/note/coronavirus-central-lockdown/"
+      },
+      {
+        "hits": "1",
         "url": "/note/duchy-of-cornwall"
       },
       {
@@ -792,7 +792,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/dawn-or-dusk-painting"
+        "url": "/images/poppy.jpg"
       },
       {
         "hits": "1",
@@ -800,7 +800,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/coronavirus-central-lockdown/"
+        "url": "/bak/"
       },
       {
         "hits": "1",
@@ -812,40 +812,40 @@
       },
       {
         "hits": "1",
-        "url": "/bak/"
+        "url": "/2020/"
       }
     ],
     "topApiHits": [
       {
-        "hits": "1613",
+        "hits": "1614",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1613",
+        "hits": "1614",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1613",
+        "hits": "1614",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1613",
+        "hits": "1614",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1613",
+        "hits": "1614",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1613",
+        "hits": "1614",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1613",
+        "hits": "1614",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1609",
+        "hits": "1610",
         "url": "/analytics"
       },
       {
@@ -863,12 +863,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1947"
+        "hits": "1945"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "12909"
+        "hits": "12917"
       }
     ]
   },
@@ -1280,30 +1280,30 @@
     "topApiHits": [
       {
         "hits": "8013",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8012",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8012",
+        "hits": "8013",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8012",
+        "hits": "8013",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "8012",
+        "hits": "8013",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8012",
+        "hits": "8013",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8012",
+        "hits": "8013",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8013",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1316,11 +1316,11 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
@@ -1330,7 +1330,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "64135"
+        "hits": "64141"
       }
     ]
   },
@@ -1741,35 +1741,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "12263",
+        "hits": "12264",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12263",
+        "hits": "12264",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12263",
+        "hits": "12264",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12263",
+        "hits": "12264",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12263",
+        "hits": "12264",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12263",
+        "hits": "12264",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12263",
+        "hits": "12264",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "11939",
+        "hits": "11940",
         "url": "/analytics"
       },
       {
@@ -1792,7 +1792,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "97841"
+        "hits": "97849"
       }
     ]
   }
