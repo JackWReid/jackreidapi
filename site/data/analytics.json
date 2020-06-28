@@ -3,11 +3,11 @@
     "topSiteHits": [
       {
         "hits": "2",
-        "url": "/index.xml"
+        "url": "/"
       },
       {
-        "hits": "1",
-        "url": "/books/read/"
+        "hits": "2",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -24,6 +24,14 @@
       {
         "hits": "1",
         "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/skye-covid-home/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/environment/"
       },
       {
         "hits": "1",
@@ -51,11 +59,7 @@
       },
       {
         "hits": "1",
-        "url": "/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/environment/"
+        "url": "/books/read/"
       }
     ],
     "topSiteMisses": [
@@ -74,8 +78,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
@@ -84,39 +104,23 @@
       {
         "hits": "11",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "15"
+        "hits": "17"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "92"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "49",
+        "hits": "48",
         "url": "/index.xml"
       },
       {
@@ -132,7 +136,7 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "7",
+        "hits": "8",
         "url": "/"
       },
       {
@@ -149,71 +153,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/design/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/2015-03-02-internet-rhizome/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/web/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/off-road-land-trains/"
-      },
-      {
-        "hits": "2",
         "url": "/books/reading/"
       },
       {
         "hits": "2",
-        "url": "/books/read/"
-      },
-      {
-        "hits": "2",
-        "url": "/link/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/mouse-feeder-welfare/"
-      },
-      {
-        "hits": "2",
-        "url": "/journal/2020-03-28/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/getting-of-of-netlify/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/academic/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/technology/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/web/index.xml"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-05-19t13-15-23/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/love/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "2",
@@ -221,15 +165,75 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-02-03-google-maps-hacks/"
+        "url": "/highlight/off-road-land-trains/"
       },
       {
         "hits": "2",
-        "url": "/highlight/tfl-streetspace/"
+        "url": "/journal/2020-03-28/"
       },
       {
         "hits": "2",
         "url": "/highlight/real-lord-of-the-flies/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/mouse-feeder-welfare/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/covid-19/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/2020-05-03/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-05-19t13-15-23/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/2015-03-02-internet-rhizome/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/academic/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/love/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/web/index.xml"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/technology/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/design/"
+      },
+      {
+        "hits": "2",
+        "url": "/books/read/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/getting-of-of-netlify/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-02-03-google-maps-hacks/"
+      },
+      {
+        "hits": "2",
+        "url": "/link/"
       },
       {
         "hits": "2",
@@ -241,11 +245,11 @@
       },
       {
         "hits": "2",
-        "url": "/journal/2020-05-03/"
+        "url": "/tags/web/"
       },
       {
         "hits": "2",
-        "url": "/articles/saved/"
+        "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "1",
@@ -301,15 +305,15 @@
       },
       {
         "hits": "1",
+        "url": "/journal/2020-04-23/"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/mother-board-earth/"
       },
       {
         "hits": "1",
         "url": "/journal/2020-05-16/"
-      },
-      {
-        "hits": "1",
-        "url": "/journal/2020-04-23/"
       },
       {
         "hits": "1",
@@ -405,15 +409,11 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
         "hits": "287",
@@ -436,18 +436,22 @@
         "url": "/pocket?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "279"
+        "hits": "280"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2299"
       }
     ]
   },
@@ -470,7 +474,7 @@
         "url": "/note/index.xml"
       },
       {
-        "hits": "135",
+        "hits": "136",
         "url": "/"
       },
       {
@@ -507,11 +511,11 @@
       },
       {
         "hits": "11",
-        "url": "/media/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "11",
-        "url": "/articles/saved/"
+        "url": "/media/"
       },
       {
         "hits": "10",
@@ -539,15 +543,11 @@
       },
       {
         "hits": "7",
-        "url": "/tags/technology/"
-      },
-      {
-        "hits": "7",
         "url": "/highlight/mouse-feeder-welfare/"
       },
       {
         "hits": "7",
-        "url": "/highlight/minneapolis-disband-police/"
+        "url": "/tags/technology/"
       },
       {
         "hits": "7",
@@ -555,7 +555,7 @@
       },
       {
         "hits": "7",
-        "url": "/rss/"
+        "url": "/highlight/minneapolis-disband-police/"
       },
       {
         "hits": "7",
@@ -570,6 +570,10 @@
         "url": "/post/how-this-site-works/"
       },
       {
+        "hits": "7",
+        "url": "/rss/"
+      },
+      {
         "hits": "6",
         "url": "/uses/"
       },
@@ -579,7 +583,7 @@
       },
       {
         "hits": "6",
-        "url": "/tags/mentalhealth/"
+        "url": "/tags/news/"
       },
       {
         "hits": "6",
@@ -587,11 +591,7 @@
       },
       {
         "hits": "6",
-        "url": "/photo/"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/news/"
+        "url": "/tags/mentalhealth/"
       },
       {
         "hits": "6",
@@ -600,6 +600,14 @@
       {
         "hits": "6",
         "url": "/tags/justice/"
+      },
+      {
+        "hits": "6",
+        "url": "/photo/"
+      },
+      {
+        "hits": "5",
+        "url": "/books/reading/"
       },
       {
         "hits": "5",
@@ -612,10 +620,6 @@
       {
         "hits": "5",
         "url": "/post/getting-of-of-netlify/"
-      },
-      {
-        "hits": "5",
-        "url": "/tags/tech/"
       },
       {
         "hits": "5",
@@ -647,11 +651,11 @@
       },
       {
         "hits": "5",
-        "url": "/books/reading/"
+        "url": "/tags/tech/"
       },
       {
         "hits": "4",
-        "url": "/journal/2020-03-28/"
+        "url": "/highlight/coronavirus-city-sound/"
       }
     ],
     "topSiteMisses": [
@@ -858,35 +862,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "1781",
+        "hits": "1782",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "1781",
+        "hits": "1782",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "1781",
+        "hits": "1782",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "1781",
+        "hits": "1782",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "1781",
+        "hits": "1782",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "1781",
+        "hits": "1782",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "1781",
+        "hits": "1782",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "1777",
+        "hits": "1778",
         "url": "/analytics"
       },
       {
@@ -904,12 +908,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1921"
+        "hits": "1923"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "14253"
+        "hits": "14261"
       }
     ]
   },
@@ -932,7 +936,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "414",
+        "hits": "415",
         "url": "/"
       },
       {
@@ -1033,11 +1037,11 @@
       },
       {
         "hits": "32",
-        "url": "/tags/politics/"
+        "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "32",
-        "url": "/post/getting-of-of-netlify/"
+        "url": "/tags/politics/"
       },
       {
         "hits": "31",
@@ -1113,7 +1117,7 @@
       },
       {
         "hits": "20",
-        "url": "/tags/science/"
+        "url": "/journal/2020-04-12/"
       }
     ],
     "topSiteMisses": [
@@ -1320,20 +1324,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "8013",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8013",
+        "hits": "8012",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "8012",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "8012",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8012",
@@ -1348,6 +1344,14 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "8012",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8012",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "8009",
         "url": "/analytics"
       },
@@ -1357,21 +1361,21 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "9041"
+        "hits": "9043"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "64136"
+        "hits": "64134"
       }
     ]
   },
@@ -1398,7 +1402,7 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "835",
+        "hits": "836",
         "url": "/"
       },
       {
@@ -1574,8 +1578,8 @@
         "url": "/highlight/names-gender-code/"
       },
       {
-        "hits": "47",
-        "url": "/highlight/neofeudalism-larb/"
+        "hits": "48",
+        "url": "/highlight/skye-covid-home/"
       }
     ],
     "topSiteMisses": [
@@ -1782,35 +1786,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "12431",
+        "hits": "12432",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12431",
+        "hits": "12432",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12431",
+        "hits": "12432",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12431",
+        "hits": "12432",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12431",
+        "hits": "12432",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12431",
+        "hits": "12432",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12431",
+        "hits": "12432",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12107",
+        "hits": "12108",
         "url": "/analytics"
       },
       {
@@ -1828,12 +1832,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "17618"
+        "hits": "17620"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "99185"
+        "hits": "99193"
       }
     ]
   }
