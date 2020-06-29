@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/index.xml"
       },
       {
@@ -68,7 +68,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "8"
+        "hits": "7"
       }
     ],
     "totalApiHits": [
@@ -89,11 +89,11 @@
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "15",
@@ -113,11 +113,15 @@
       },
       {
         "hits": "2",
-        "url": "/link/"
+        "url": "/journal/2020-05-16/"
       },
       {
         "hits": "2",
         "url": "/tags/food/"
+      },
+      {
+        "hits": "2",
+        "url": "/link/"
       },
       {
         "hits": "2",
@@ -129,11 +133,11 @@
       },
       {
         "hits": "2",
-        "url": "/css/style.css"
+        "url": "/tags/news/"
       },
       {
         "hits": "2",
-        "url": "/tags/news/"
+        "url": "/css/style.css"
       },
       {
         "hits": "2",
@@ -141,19 +145,15 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/alison-roman-culture/"
-      },
-      {
-        "hits": "2",
         "url": "/tags/web/"
       },
       {
         "hits": "2",
-        "url": "/highlight/no-apocalypse/"
+        "url": "/highlight/alison-roman-culture/"
       },
       {
         "hits": "2",
-        "url": "/books/read/"
+        "url": "/highlight/no-apocalypse/"
       },
       {
         "hits": "2",
@@ -165,15 +165,19 @@
       },
       {
         "hits": "2",
+        "url": "/books/read/"
+      },
+      {
+        "hits": "2",
         "url": "/tags/accessibility/"
       },
       {
         "hits": "2",
-        "url": "/journal/2020-04-23/"
+        "url": "/tags/book/"
       },
       {
         "hits": "2",
-        "url": "/tags/book/"
+        "url": "/journal/2020-04-23/"
       },
       {
         "hits": "2",
@@ -182,10 +186,6 @@
       {
         "hits": "2",
         "url": "/journal/2020-05-03/"
-      },
-      {
-        "hits": "2",
-        "url": "/journal/2020-05-16/"
       },
       {
         "hits": "1",
@@ -221,7 +221,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/2019-10-01-aristophanes-wasps/"
+        "url": "/note/2019-12-31-pearshaped-magazine-archive/"
       },
       {
         "hits": "1",
@@ -265,10 +265,6 @@
       },
       {
         "hits": "1",
-        "url": "/note/2020-05-14t230028.034z/"
-      },
-      {
-        "hits": "1",
         "url": "/note/2020-05-19t13-15-23/"
       },
       {
@@ -278,6 +274,10 @@
       {
         "hits": "1",
         "url": "/note/corona-dance-space/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/little-women-gerwig-crit/"
       }
     ],
     "topSiteMisses": [
@@ -394,7 +394,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "261"
+        "hits": "260"
       }
     ],
     "totalApiHits": [
@@ -406,7 +406,7 @@
   "week": {
     "topSiteHits": [
       {
-        "hits": "336",
+        "hits": "335",
         "url": "/index.xml"
       },
       {
@@ -499,10 +499,6 @@
       },
       {
         "hits": "7",
-        "url": "/tags/technology/"
-      },
-      {
-        "hits": "7",
         "url": "/tags/work/"
       },
       {
@@ -524,6 +520,10 @@
       {
         "hits": "6",
         "url": "/highlight/reading-in-the-dark/"
+      },
+      {
+        "hits": "6",
+        "url": "/tags/technology/"
       },
       {
         "hits": "6",
@@ -810,35 +810,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "2004",
+        "hits": "2005",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2004",
+        "hits": "2005",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2004",
+        "hits": "2005",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "2004",
+        "hits": "2005",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2004",
+        "hits": "2005",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2004",
+        "hits": "2005",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2004",
+        "hits": "2005",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2000",
+        "hits": "2001",
         "url": "/analytics"
       },
       {
@@ -856,12 +856,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1905"
+        "hits": "1903"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16037"
+        "hits": "16045"
       }
     ]
   },
@@ -1272,12 +1272,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "8012",
+        "hits": "8013",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8013",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "8012",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8012",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8012",
@@ -1292,14 +1300,6 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8012",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8012",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "8009",
         "url": "/analytics"
       },
@@ -1309,11 +1309,11 @@
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       }
     ],
     "totalSiteHits": [
@@ -1323,7 +1323,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "64134"
+        "hits": "64136"
       }
     ]
   },
@@ -1734,35 +1734,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "12654",
+        "hits": "12655",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12654",
+        "hits": "12655",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12654",
+        "hits": "12655",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12654",
+        "hits": "12655",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12654",
+        "hits": "12655",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12654",
+        "hits": "12655",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12654",
+        "hits": "12655",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12330",
+        "hits": "12331",
         "url": "/analytics"
       },
       {
@@ -1785,7 +1785,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "100969"
+        "hits": "100977"
       }
     ]
   }
