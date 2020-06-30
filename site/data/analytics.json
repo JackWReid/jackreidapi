@@ -59,27 +59,27 @@
       },
       {
         "hits": "12",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "12",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/read?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -89,7 +89,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "92"
+        "hits": "96"
       }
     ]
   },
@@ -364,12 +364,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -389,7 +389,7 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -399,7 +399,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2299"
       }
     ]
   },
@@ -450,10 +450,6 @@
         "url": "/elsewhere/"
       },
       {
-        "hits": "11",
-        "url": "/highlight/praise-walking-cofee/"
-      },
-      {
         "hits": "10",
         "url": "/post/how-this-site-works/"
       },
@@ -468,6 +464,10 @@
       {
         "hits": "10",
         "url": "/tags/accessibility/"
+      },
+      {
+        "hits": "10",
+        "url": "/highlight/praise-walking-cofee/"
       },
       {
         "hits": "9",
@@ -810,20 +810,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
-        "url": "/analytics"
-      },
-      {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
+        "hits": "2016",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2015",
@@ -831,15 +831,15 @@
       },
       {
         "hits": "2015",
+        "url": "/analytics"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "6",
@@ -848,12 +848,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1763"
+        "hits": "1762"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16126"
+        "hits": "16130"
       }
     ]
   },
@@ -1310,7 +1310,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "8871"
+        "hits": "8870"
       }
     ],
     "totalApiHits": [
@@ -1726,35 +1726,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "12954",
+        "hits": "12955",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12954",
+        "hits": "12955",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12954",
+        "hits": "12955",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12954",
+        "hits": "12955",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12954",
+        "hits": "12955",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12954",
+        "hits": "12955",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12954",
+        "hits": "12955",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12630",
+        "hits": "12631",
         "url": "/analytics"
       },
       {
@@ -1777,7 +1777,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "103369"
+        "hits": "103377"
       }
     ]
   }
