@@ -59,27 +59,27 @@
       },
       {
         "hits": "12",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -89,7 +89,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "96"
       }
     ]
   },
@@ -361,23 +361,15 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -389,7 +381,15 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2",
@@ -403,7 +403,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2301"
       }
     ]
   },
@@ -430,11 +430,11 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "52",
+        "hits": "51",
         "url": "/"
       },
       {
-        "hits": "20",
+        "hits": "19",
         "url": "/css/style.css"
       },
       {
@@ -442,7 +442,7 @@
         "url": "/articles/saved/"
       },
       {
-        "hits": "14",
+        "hits": "13",
         "url": "/favicon.png"
       },
       {
@@ -814,24 +814,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
-        "url": "/analytics"
-      },
-      {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -846,18 +838,26 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/analytics"
+      },
+      {
         "hits": "8",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "1693"
+        "hits": "1690"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16128"
+        "hits": "16130"
       }
     ]
   },
@@ -880,11 +880,11 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "405",
+        "hits": "402",
         "url": "/"
       },
       {
-        "hits": "345",
+        "hits": "338",
         "url": "/open-graph.png"
       },
       {
@@ -892,7 +892,7 @@
         "url": "/highlight/minneapolis-disband-police/"
       },
       {
-        "hits": "171",
+        "hits": "169",
         "url": "/css/style.css"
       },
       {
@@ -922,10 +922,6 @@
       {
         "hits": "64",
         "url": "/post/"
-      },
-      {
-        "hits": "62",
-        "url": "/highlight/roxane-gay-cleaner/"
       },
       {
         "hits": "58",
@@ -989,6 +985,10 @@
       },
       {
         "hits": "29",
+        "url": "/highlight/roxane-gay-cleaner/"
+      },
+      {
+        "hits": "29",
         "url": "/tags/accessibility/"
       },
       {
@@ -1000,7 +1000,7 @@
         "url": "/films/watched/"
       },
       {
-        "hits": "27",
+        "hits": "26",
         "url": "/post/index.xml"
       },
       {
@@ -1008,7 +1008,7 @@
         "url": "/books/toread/"
       },
       {
-        "hits": "25",
+        "hits": "24",
         "url": "/highlight/reading-in-the-dark/"
       },
       {
@@ -1066,7 +1066,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1128",
+        "hits": "1119",
         "url": "/robots.txt"
       },
       {
@@ -1268,12 +1268,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "8012",
+        "hits": "8013",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8013",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "8012",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8012",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8012",
@@ -1288,14 +1296,6 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8012",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8012",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "8009",
         "url": "/analytics"
       },
@@ -1305,21 +1305,21 @@
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8830"
+        "hits": "8782"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "64133"
+        "hits": "64135"
       }
     ]
   },
@@ -1334,7 +1334,7 @@
         "url": "/note/index.xml"
       },
       {
-        "hits": "1263",
+        "hits": "1264",
         "url": "/highlight/index.xml"
       },
       {
@@ -1730,35 +1730,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "12979",
+        "hits": "12980",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12979",
+        "hits": "12980",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12979",
+        "hits": "12980",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12979",
+        "hits": "12980",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12979",
+        "hits": "12980",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12979",
+        "hits": "12980",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12979",
+        "hits": "12980",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12655",
+        "hits": "12656",
         "url": "/analytics"
       },
       {
@@ -1776,12 +1776,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "18085"
+        "hits": "18086"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "103571"
+        "hits": "103579"
       }
     ]
   }
