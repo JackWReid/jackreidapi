@@ -23,5 +23,3 @@ layout: media
 - The Street (2019)
 - Watchmen (TV) (2018)
 - Uncut Gems (2019)
-
-{{< filmtable key="watched" >}}

@@ -51,6 +51,4 @@
   {{ if or (eq .Section "note") (eq .Section "post") }}
     <meta name="twitter:description" content="{{ .Content | truncate 100 }}">
   {{ end }}
-
-  <!--<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>-->
 </head>
