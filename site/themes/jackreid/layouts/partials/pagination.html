@@ -7,11 +7,11 @@
       <a href="{{ .URL }}">Back</a>
     {{ end }}
   {{ else }}
-      <p>Back</p>
+      <span>Back</span>
   {{ end }}
   </div>
 
-  <p class="page-count">{{ $pag.PageNumber }} of {{ $pag.TotalPages }}</p>
+  <span class="page-count">{{ $pag.PageNumber }} of {{ $pag.TotalPages }}</span>
   
   <div class="next-wrapper">
   {{ if $pag.Next }}
@@ -19,7 +19,7 @@
       <a href="{{ .URL }}">Next</a>
     {{ end }}
   {{ else }}
-      <p>Next</p>
+      <span>Next</span>
   {{ end }}
   </div>
 </nav>

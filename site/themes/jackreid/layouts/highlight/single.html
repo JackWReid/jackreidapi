@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="highlight-main">
+  <div class="highlight-main__content">
+    {{ .Content }}
+  </div>
+  <time class="highlight-main__date"
+        datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
+    {{ .Date.Format "2 Jan 2006" }}
+  </time>
+</main>
+{{ end }}
+
+{{ define "aside" }}
+<aside class="post-aside">
+  aside
+</aside>
+{{ end }}

@@ -1,0 +1,23 @@
+{{ define "main" }} 
+<h1 class="highlight-list-title">{{ .Title }}</h1>
+{{ $paginator := .Paginate .Pages }}
+{{ range  $paginator.Pages }}
+<article class="highlight-list-item">
+  <h3>
+    {{ .Title }}
+    (<time class="highlight-list-item__date"
+          datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
+      <a href="{{ .Permalink }}">{{ .Date.Format "2/1/06" }}</a>
+    </time>)
+  </h3>
+  <div class="highlight-list-item__content">
+  {{ .Content }}
+  </div>
+</article>
+{{ end }}
+{{ end }}
+
+{{ define "aside" }}
+{{ .Content }}
+{{- partial "pagination.html" . -}}
+{{ end }}
