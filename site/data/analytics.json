@@ -101,14 +101,6 @@
       },
       {
         "hits": "6",
-        "url": "/favicon.png"
-      },
-      {
-        "hits": "6",
-        "url": "/"
-      },
-      {
-        "hits": "6",
         "url": "/css/style.css"
       },
       {
@@ -116,20 +108,28 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "5",
-        "url": "/articles/saved/"
+        "hits": "6",
+        "url": "/favicon.png"
+      },
+      {
+        "hits": "6",
+        "url": "/"
       },
       {
         "hits": "5",
         "url": "/post/how-this-site-works/"
       },
       {
-        "hits": "4",
-        "url": "/link/"
+        "hits": "5",
+        "url": "/articles/saved/"
       },
       {
         "hits": "4",
         "url": "/post/activist-relief-resources/"
+      },
+      {
+        "hits": "4",
+        "url": "/link/"
       },
       {
         "hits": "3",
@@ -137,11 +137,11 @@
       },
       {
         "hits": "3",
-        "url": "/tags/covid-19/"
+        "url": "/note/"
       },
       {
         "hits": "3",
-        "url": "/note/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "3",
@@ -149,7 +149,7 @@
       },
       {
         "hits": "2",
-        "url": "/analytics/day/"
+        "url": "/highlight/praise-walking-cofee/"
       },
       {
         "hits": "2",
@@ -157,31 +157,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/lgbtq/"
-      },
-      {
-        "hits": "2",
         "url": "/tags/mentalhealth/"
       },
       {
         "hits": "2",
-        "url": "/highlight/"
+        "url": "/tags/lgbtq/"
       },
       {
         "hits": "2",
         "url": "/tags/nature/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2019-07-24-carlos-williams-love/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/praise-walking-cofee/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/corona-dance-space/"
       },
       {
         "hits": "2",
@@ -193,11 +177,31 @@
       },
       {
         "hits": "2",
-        "url": "/media/"
+        "url": "/highlight/"
       },
       {
         "hits": "2",
         "url": "/highlight/covid-19-virus-profile/"
+      },
+      {
+        "hits": "2",
+        "url": "/analytics/day/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/corona-dance-space/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2019-07-24-carlos-williams-love/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-04-28t144526.936z/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-04-28t144946.242z/"
       },
       {
         "hits": "1",
@@ -278,10 +282,6 @@
       {
         "hits": "1",
         "url": "/tags/design/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/education/"
       }
     ],
     "topSiteMisses": [
@@ -361,11 +361,15 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/analytics"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -388,29 +392,25 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "264"
+        "hits": "263"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2299"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "335",
+        "hits": "334",
         "url": "/index.xml"
       },
       {
@@ -418,7 +418,7 @@
         "url": "/note/index.xml"
       },
       {
-        "hits": "171",
+        "hits": "172",
         "url": "/photo/index.xml"
       },
       {
@@ -814,16 +814,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
-        "url": "/pocket?limit=5000"
+        "hits": "2016",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
         "url": "/analytics"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -846,6 +842,10 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "2015",
+        "url": "/pocket?limit=5000"
+      },
+      {
         "hits": "7",
         "url": "/"
       }
@@ -857,7 +857,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16128"
       }
     ]
   },
@@ -1268,20 +1268,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "7725",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "7724",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "7724",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7724",
@@ -1296,6 +1288,14 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "7724",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7724",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "7721",
         "url": "/analytics"
       },
@@ -1305,11 +1305,11 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
@@ -1319,7 +1319,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "61831"
+        "hits": "61829"
       }
     ]
   },
@@ -1330,7 +1330,7 @@
         "url": "/index.xml"
       },
       {
-        "hits": "2155",
+        "hits": "2156",
         "url": "/note/index.xml"
       },
       {
@@ -1338,7 +1338,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "1202",
+        "hits": "1203",
         "url": "/photo/index.xml"
       },
       {
@@ -1730,35 +1730,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "13114",
+        "hits": "13115",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "13114",
+        "hits": "13115",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "13114",
+        "hits": "13115",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "13114",
+        "hits": "13115",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "13114",
+        "hits": "13115",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "13114",
+        "hits": "13115",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "13114",
+        "hits": "13115",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12790",
+        "hits": "12791",
         "url": "/analytics"
       },
       {
@@ -1776,12 +1776,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "18213"
+        "hits": "18215"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "104651"
+        "hits": "104659"
       }
     ]
   }
