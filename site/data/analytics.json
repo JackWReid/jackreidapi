@@ -30,15 +30,23 @@
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
         "url": "/analytics"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "11",
@@ -50,15 +58,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -72,7 +72,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "92"
+        "hits": "90"
       }
     ]
   },
@@ -403,16 +403,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -421,6 +413,14 @@
       {
         "hits": "287",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -442,7 +442,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2299"
       }
     ]
   },
@@ -672,11 +672,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/driving-school"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_1764_hued57b496f9244b50559b766bcf471bad_123778_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -684,7 +680,7 @@
       },
       {
         "hits": "2",
-        "url": "/writing/siri-make-me-a-sandwich"
+        "url": "/note/driving-school"
       },
       {
         "hits": "2",
@@ -692,39 +688,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/pearshaped-magazine-archive"
-      },
-      {
-        "hits": "2",
-        "url": "/note/avalanche-school/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2361_hu1ddaec928864e2ac7f3bc7f0b4820fb9_141185_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/brockwell-sleeve/images/brockwell-sleeve_hu7447d159f91cab43ff5263d33a44ba06_183113_600x300_fit_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_1764_hued57b496f9244b50559b766bcf471bad_123778_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/note/there-is-no-outside/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/files-going-extinct"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2451_hu1ddaec928864e2ac7f3bc7f0b4820fb9_149010_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/brockwell-sleeve"
+        "url": "/note/rise-of-the-blur/"
       },
       {
         "hits": "2",
@@ -732,7 +696,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/rise-of-the-blur/"
+        "url": "/note/avalanche-school/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/there-is-no-outside/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2451_hu1ddaec928864e2ac7f3bc7f0b4820fb9_149010_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -740,15 +712,35 @@
       },
       {
         "hits": "2",
+        "url": "/photo/brockwell-sleeve/images/brockwell-sleeve_hu7447d159f91cab43ff5263d33a44ba06_183113_600x300_fit_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/note/files-going-extinct"
+      },
+      {
+        "hits": "2",
         "url": "/note/how-puzzles-made/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/note/pearshaped-magazine-archive"
+      },
+      {
+        "hits": "2",
+        "url": "/writing/siri-make-me-a-sandwich"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2361_hu1ddaec928864e2ac7f3bc7f0b4820fb9_141185_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "1",
         "url": "/dev/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/carlos-williams-love/"
       },
       {
         "hits": "1",
@@ -760,19 +752,23 @@
       },
       {
         "hits": "1",
-        "url": "/note/dawn-or-dusk-painting"
-      },
-      {
-        "hits": "1",
         "url": "/note/bob-fosse"
       },
       {
         "hits": "1",
-        "url": "/note/duchy-of-cornwall"
+        "url": "/note/carlos-williams-love/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/dawn-or-dusk-painting"
       },
       {
         "hits": "1",
         "url": "/cms/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/duchy-of-cornwall"
       },
       {
         "hits": "1",
@@ -828,11 +824,15 @@
       },
       {
         "hits": "1",
+        "url": "/bk/"
+      },
+      {
+        "hits": "1",
         "url": "/note/roman-silphium/"
       },
       {
         "hits": "1",
-        "url": "/bk/"
+        "url": "/2020/"
       },
       {
         "hits": "1",
@@ -848,7 +848,7 @@
       },
       {
         "hits": "1",
-        "url": "/2020/"
+        "url": "/images/poppy.jpg"
       }
     ],
     "topApiHits": [
@@ -903,7 +903,7 @@
   "month": {
     "topSiteHits": [
       {
-        "hits": "1323",
+        "hits": "1322",
         "url": "/index.xml"
       },
       {
@@ -1307,10 +1307,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "7725",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "7724",
         "url": "/pocket?limit=5000"
       },
@@ -1332,6 +1328,10 @@
       },
       {
         "hits": "7724",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7724",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1344,21 +1344,21 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8320"
+        "hits": "8319"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61831"
+        "hits": "61830"
       }
     ]
   },
@@ -1769,35 +1769,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "13356",
+        "hits": "13357",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "13356",
+        "hits": "13357",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "13356",
+        "hits": "13357",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "13356",
+        "hits": "13357",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "13356",
+        "hits": "13357",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "13356",
+        "hits": "13357",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "13356",
+        "hits": "13357",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "13030",
+        "hits": "13031",
         "url": "/analytics"
       },
       {
@@ -1820,7 +1820,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "106588"
+        "hits": "106596"
       }
     ]
   }
