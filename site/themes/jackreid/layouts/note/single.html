@@ -1,17 +1,14 @@
 {{ define "main" }}
-<main class="highlight-main">
-  <h1 class="highlight-main__title">{{ .Title }}</h1>
-  <div class="highlight-main__infoline">
+<main class="note-main">
+  <div class="note-main__content">{{ .Title }}</div>
+  <div class="note-main__infoline">
     <p class="post-section-marker">
       <a href="/{{ .Section }}">{{ .Section | title }}</a>
     </p>
-    <time class="highlight-main__date"
+    <time class="note-main__date"
           datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
       {{ .Date.Format "2 Jan 2006" }}
     </time>
-  </div>
-  <div class="highlight-main__content">
-    {{ .Content }}
   </div>
 </main>
 {{ end }}
