@@ -78,12 +78,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -103,7 +103,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -113,7 +113,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -149,10 +149,6 @@
       },
       {
         "hits": "4",
-        "url": "/open-graph.png"
-      },
-      {
-        "hits": "4",
         "url": "/post/activist-relief-resources/"
       },
       {
@@ -161,6 +157,14 @@
       },
       {
         "hits": "4",
+        "url": "/open-graph.png"
+      },
+      {
+        "hits": "3",
+        "url": "/rss/"
+      },
+      {
+        "hits": "3",
         "url": "/highlight/apartments-from-malls/"
       },
       {
@@ -182,10 +186,6 @@
       {
         "hits": "3",
         "url": "/journal/2020-07-01/"
-      },
-      {
-        "hits": "3",
-        "url": "/rss/"
       },
       {
         "hits": "2",
@@ -238,10 +238,6 @@
       {
         "hits": "2",
         "url": "/tags/running/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/world-without-cops/"
       },
       {
         "hits": "1",
@@ -318,11 +314,15 @@
       {
         "hits": "1",
         "url": "/note/2020-05-13t084605.059z/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-05-31t11-00-00/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "45",
+        "hits": "44",
         "url": "/robots.txt"
       },
       {
@@ -453,15 +453,11 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
         "hits": "287",
@@ -484,25 +480,29 @@
         "url": "/pocket?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "279"
+        "hits": "277"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2300"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "337",
+        "hits": "336",
         "url": "/index.xml"
       },
       {
@@ -551,11 +551,11 @@
       },
       {
         "hits": "12",
-        "url": "/media/"
+        "url": "/note/"
       },
       {
         "hits": "12",
-        "url": "/note/"
+        "url": "/media/"
       },
       {
         "hits": "12",
@@ -563,7 +563,7 @@
       },
       {
         "hits": "11",
-        "url": "/articles/liked/"
+        "url": "/rss/"
       },
       {
         "hits": "11",
@@ -571,19 +571,19 @@
       },
       {
         "hits": "11",
-        "url": "/rss/"
-      },
-      {
-        "hits": "11",
         "url": "/link/"
       },
       {
-        "hits": "10",
-        "url": "/post/"
+        "hits": "11",
+        "url": "/articles/liked/"
       },
       {
         "hits": "10",
         "url": "/post/how-this-site-works/"
+      },
+      {
+        "hits": "10",
+        "url": "/post/"
       },
       {
         "hits": "8",
@@ -627,10 +627,6 @@
       },
       {
         "hits": "6",
-        "url": "/tags/language/"
-      },
-      {
-        "hits": "6",
         "url": "/highlight/reading-in-the-dark/"
       },
       {
@@ -638,16 +634,16 @@
         "url": "/tags/covid-19/"
       },
       {
+        "hits": "6",
+        "url": "/tags/language/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/work/"
+      },
+      {
         "hits": "5",
         "url": "/tags/snowden/"
-      },
-      {
-        "hits": "5",
-        "url": "/tags/news/"
-      },
-      {
-        "hits": "5",
-        "url": "/tags/technology/"
       },
       {
         "hits": "5",
@@ -659,7 +655,11 @@
       },
       {
         "hits": "5",
-        "url": "/tags/work/"
+        "url": "/tags/news/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/technology/"
       },
       {
         "hits": "5",
@@ -679,11 +679,11 @@
       },
       {
         "hits": "5",
-        "url": "/highlight/roxane-gay-cleaner/"
+        "url": "/photo/"
       },
       {
         "hits": "5",
-        "url": "/photo/"
+        "url": "/highlight/roxane-gay-cleaner/"
       },
       {
         "hits": "5",
@@ -691,15 +691,15 @@
       },
       {
         "hits": "5",
-        "url": "/note/google-hire-freeze/"
-      },
-      {
-        "hits": "5",
         "url": "/tags/justice/"
       },
       {
+        "hits": "5",
+        "url": "/note/google-hire-freeze/"
+      },
+      {
         "hits": "4",
-        "url": "/tags/academic/"
+        "url": "/share/share-utils.js"
       }
     ],
     "topSiteMisses": [
@@ -944,7 +944,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1831"
+        "hits": "1829"
       }
     ],
     "totalApiHits": [
@@ -1089,11 +1089,11 @@
       },
       {
         "hits": "25",
-        "url": "/uses/"
+        "url": "/tags/politics/"
       },
       {
         "hits": "25",
-        "url": "/tags/politics/"
+        "url": "/uses/"
       },
       {
         "hits": "25",
@@ -1141,11 +1141,11 @@
       },
       {
         "hits": "18",
-        "url": "/tags/covid-19/"
+        "url": "/tags/tech/"
       },
       {
         "hits": "18",
-        "url": "/tags/tech/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "18",
@@ -1158,7 +1158,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1065",
+        "hits": "1064",
         "url": "/robots.txt"
       },
       {
@@ -1406,7 +1406,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "8266"
+        "hits": "8265"
       }
     ],
     "totalApiHits": [
@@ -1822,35 +1822,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "13517",
+        "hits": "13518",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "13517",
+        "hits": "13518",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "13517",
+        "hits": "13518",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "13517",
+        "hits": "13518",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "13517",
+        "hits": "13518",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "13517",
+        "hits": "13518",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "13517",
+        "hits": "13518",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "13191",
+        "hits": "13192",
         "url": "/analytics"
       },
       {
@@ -1873,7 +1873,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "107876"
+        "hits": "107884"
       }
     ]
   }
