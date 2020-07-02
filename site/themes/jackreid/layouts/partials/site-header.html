@@ -1,24 +1,41 @@
 <nav class="site-header-nav">
   <a class="site-header__home-link" href="/">Jack Reid</a>
   <ul class="site-header__list">
-    <li><a href="/post">Posts</a></li>
-    <li><a href="/note">Notes</a></li>
-    <li><a href="/media">Media Diet</a>
+    <li><a href="{{ "post" | absURL }}">Posts</a></li>
+    <li><a href="{{ "note" | absURL }}">Notes</a></li>
+    <li><a href="{{ "media" | absURL }}">Media Diet</a>
       <ul>
-        <li><a href="/highlight">Highlights</a></li>
-        <li><a href="/books/read">Books</a></li>
-        <li><a href="/films/watched">Films</a></li>
-        <li><a href="/articles/liked">Articles</a></li>
-        <li><a href="/link">Links</a></li>
+        <li><a href="{{ "highlight" | absURL }}">Highlights</a></li>
+        <li>Books
+          <ul>
+            <li><a href="{{ "books/read" | absURL }}">Read</a>
+            <li><a href="{{ "books/reading" | absURL }}">Reading</a>
+            <li><a href="{{ "books/toread" | absURL }}">To Read</a>
+          </ul>
+        </li>
+        <li>Films
+          <ul>
+            <li><a href="{{ "films/watched" | absURL }}">Watched</a>
+            <li><a href="{{ "films/towatch" | absURL }}">To Watch</a>
+          </ul>
+        </li>
+        <li>Articles
+          <ul>
+            <li><a href="{{ "articles/saved" | absURL }}">Saved</a>
+            <li><a href="{{ "articles/liked" | absURL }}">Liked</a>
+          </ul>
+        </li>
+        <li><a href="{{ "link" | absURL }}">Links</a></li>
       </ul>
     </li>
     <li>About
       <ul>
-        <li><a href="/journal">Journal</a></li>
-        <li><a href="/work">Work</a></li>
-        <li><a href="/uses">Uses</a></li>
+        <li><a href="{{ "journal" | absURL }}">Journal</a></li>
+        <li><a href="{{ "work" | absURL }}">Work</a></li>
+        <li><a href="{{ "uses" | absURL }}">Uses</a></li>
+        <li><a href="{{ "analytics/month" | absURL }}">Analytics</a></li>
       </ul>
     </li>
-    <li><a href="/rss">RSS</a></li>
+    <li><a href="{{ "rss" | absURL }}">RSS</a></li>
   </ul>
 </nav>

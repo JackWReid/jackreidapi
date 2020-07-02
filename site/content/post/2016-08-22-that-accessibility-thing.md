@@ -9,8 +9,6 @@ tags:
   - accessibility
 ---
 
-![Elderly man in profile](/images/poppy.jpg)
-
 Last year, surgeons removed my grandad’s left leg below the knee. He has had the daily symptoms of diabetes for as long as I can remember. A visit to my grandparents’ house as a child meant being fascinated and unnerved in equal measure by insulin needles on the kitchen table, insulin needles piercing his belly.
 
 My grandad is an engineer. He was a car mechanic when he was younger, he worked in a steel mill, he was a maintenance guy at hospitals. His garage is really just a workshop, with a half dozen of those huge tool cabinets, full of every size and configuration of spanner and wrench. When I was young, most of my visits there involved assembling something and playing with it. He was a hobbyist photographer: he turned his shed into a darkroom and developed pictures of street lamps in the snow.

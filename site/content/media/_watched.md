@@ -6,8 +6,6 @@ url: "/films/watched"
 layout: media
 ---
 
-### Films I've Watched
-
 #### Recent Favourites
 ##### June 2020
 - Malcolm X (1992)

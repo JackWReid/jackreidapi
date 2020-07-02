@@ -1,0 +1,17 @@
+{{ define "main" }} 
+<h1 class="note-list-title">{{ .Title }}</h1>
+{{ .Content }}
+{{ $paginator := .Paginate .Pages }}
+{{ range  $paginator.Pages }}
+<article class="note-list-item">
+  <div class="note-list__content">{{ .Title }}</div>
+  <time class="note-list__date"
+        datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
+    <a href="{{ .Permalink }}">
+      {{ .Date.Format "2 Jan 2006" }}
+    </a>
+  </time>
+</article>
+{{ end }}
+{{- partial "pagination.html" . -}}
+{{ end }}

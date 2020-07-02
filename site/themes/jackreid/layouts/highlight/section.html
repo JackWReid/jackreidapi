@@ -1,5 +1,6 @@
 {{ define "main" }} 
 <h1 class="highlight-list-title">{{ .Title }}</h1>
+{{ .Content }}
 {{ $paginator := .Paginate .Pages }}
 {{ range  $paginator.Pages }}
 <article class="highlight-list-item">
@@ -15,9 +16,5 @@
   </div>
 </article>
 {{ end }}
-{{ end }}
-
-{{ define "aside" }}
-{{ .Content }}
 {{- partial "pagination.html" . -}}
 {{ end }}

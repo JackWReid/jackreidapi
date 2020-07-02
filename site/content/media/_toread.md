@@ -6,5 +6,4 @@ url: "/books/toread"
 layout: media
 ---
 
-### Books I Want To Read
 {{< booktable key="toread" >}}
