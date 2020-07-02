@@ -3,6 +3,22 @@
     "topSiteHits": [
       {
         "hits": "1",
+        "url": "/"
+      },
+      {
+        "hits": "1",
+        "url": "/articles/liked/"
+      },
+      {
+        "hits": "1",
+        "url": "/css/style.css"
+      },
+      {
+        "hits": "1",
+        "url": "/favicon.png"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/index.xml"
       },
       {
@@ -23,6 +39,10 @@
       },
       {
         "hits": "1",
+        "url": "/media/"
+      },
+      {
+        "hits": "1",
         "url": "/note/index.xml"
       },
       {
@@ -36,6 +56,10 @@
       {
         "hits": "1",
         "url": "/tags/language/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/scotland/"
       }
     ],
     "topSiteMisses": [
@@ -80,7 +104,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9"
+        "hits": "15"
       }
     ],
     "totalApiHits": [
@@ -112,16 +136,16 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "14",
+        "hits": "15",
         "url": "/"
       },
       {
-        "hits": "13",
-        "url": "/favicon.png"
+        "hits": "14",
+        "url": "/css/style.css"
       },
       {
-        "hits": "13",
-        "url": "/css/style.css"
+        "hits": "14",
+        "url": "/favicon.png"
       },
       {
         "hits": "11",
@@ -136,16 +160,16 @@
         "url": "/rss/"
       },
       {
-        "hits": "4",
+        "hits": "5",
         "url": "/articles/liked/"
       },
       {
         "hits": "4",
-        "url": "/highlight/"
+        "url": "/media/"
       },
       {
-        "hits": "3",
-        "url": "/media/"
+        "hits": "4",
+        "url": "/highlight/"
       },
       {
         "hits": "3",
@@ -400,16 +424,24 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -424,26 +456,18 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/analytics"
-      },
-      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "338"
+        "hits": "344"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2298"
       }
     ]
   },
@@ -470,11 +494,11 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "57",
+        "hits": "58",
         "url": "/"
       },
       {
-        "hits": "31",
+        "hits": "32",
         "url": "/css/style.css"
       },
       {
@@ -482,7 +506,7 @@
         "url": "/highlight/apartments-from-malls/"
       },
       {
-        "hits": "27",
+        "hits": "28",
         "url": "/favicon.png"
       },
       {
@@ -499,15 +523,11 @@
       },
       {
         "hits": "12",
-        "url": "/journal/"
-      },
-      {
-        "hits": "12",
         "url": "/note/"
       },
       {
-        "hits": "11",
-        "url": "/rss/"
+        "hits": "12",
+        "url": "/journal/"
       },
       {
         "hits": "11",
@@ -515,15 +535,19 @@
       },
       {
         "hits": "11",
+        "url": "/articles/liked/"
+      },
+      {
+        "hits": "11",
+        "url": "/rss/"
+      },
+      {
+        "hits": "11",
         "url": "/link/"
       },
       {
-        "hits": "10",
+        "hits": "11",
         "url": "/media/"
-      },
-      {
-        "hits": "10",
-        "url": "/articles/liked/"
       },
       {
         "hits": "10",
@@ -551,11 +575,11 @@
       },
       {
         "hits": "6",
-        "url": "/highlight/reading-in-the-dark/"
+        "url": "/elsewhere/"
       },
       {
         "hits": "6",
-        "url": "/elsewhere/"
+        "url": "/highlight/reading-in-the-dark/"
       },
       {
         "hits": "6",
@@ -587,7 +611,7 @@
       },
       {
         "hits": "5",
-        "url": "/tags/technology/"
+        "url": "/tags/news/"
       },
       {
         "hits": "5",
@@ -595,7 +619,7 @@
       },
       {
         "hits": "5",
-        "url": "/tags/news/"
+        "url": "/tags/snowden/"
       },
       {
         "hits": "5",
@@ -603,7 +627,7 @@
       },
       {
         "hits": "5",
-        "url": "/tags/snowden/"
+        "url": "/tags/technology/"
       },
       {
         "hits": "5",
@@ -854,10 +878,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -868,6 +888,10 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -892,12 +916,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1828"
+        "hits": "1833"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16126"
       }
     ]
   },
@@ -920,7 +944,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "379",
+        "hits": "380",
         "url": "/"
       },
       {
@@ -932,11 +956,11 @@
         "url": "/highlight/minneapolis-disband-police/"
       },
       {
-        "hits": "142",
+        "hits": "143",
         "url": "/css/style.css"
       },
       {
-        "hits": "129",
+        "hits": "130",
         "url": "/favicon.png"
       },
       {
@@ -968,12 +992,12 @@
         "url": "/post/"
       },
       {
-        "hits": "47",
-        "url": "/note/"
+        "hits": "48",
+        "url": "/media/"
       },
       {
         "hits": "47",
-        "url": "/media/"
+        "url": "/note/"
       },
       {
         "hits": "46",
@@ -1044,7 +1068,7 @@
         "url": "/uses/"
       },
       {
-        "hits": "24",
+        "hits": "25",
         "url": "/articles/liked/"
       },
       {
@@ -1308,20 +1332,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "7725",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "7724",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "7724",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7724",
@@ -1336,6 +1352,14 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "7724",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7724",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "7719",
         "url": "/analytics"
       },
@@ -1345,21 +1369,21 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8275"
+        "hits": "8281"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61830"
+        "hits": "61828"
       }
     ]
   },
@@ -1386,7 +1410,7 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "865",
+        "hits": "866",
         "url": "/"
       },
       {
@@ -1394,11 +1418,11 @@
         "url": "/post/index.xml"
       },
       {
-        "hits": "405",
+        "hits": "406",
         "url": "/css/style.css"
       },
       {
-        "hits": "330",
+        "hits": "331",
         "url": "/favicon.png"
       },
       {
@@ -1434,7 +1458,7 @@
         "url": "/highlight/wfh-forever/"
       },
       {
-        "hits": "86",
+        "hits": "87",
         "url": "/media/"
       },
       {
@@ -1770,35 +1794,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "13479",
+        "hits": "13480",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "13479",
+        "hits": "13480",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "13479",
+        "hits": "13480",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "13479",
+        "hits": "13480",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "13479",
+        "hits": "13480",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "13479",
+        "hits": "13480",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "13479",
+        "hits": "13480",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "13153",
+        "hits": "13154",
         "url": "/analytics"
       },
       {
@@ -1816,12 +1840,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "18624"
+        "hits": "18630"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "107572"
+        "hits": "107580"
       }
     ]
   }
