@@ -46,12 +46,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -71,7 +71,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -81,7 +81,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -97,14 +97,14 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
-      },
-      {
-        "hits": "24",
         "url": "/photo/index.xml"
       },
       {
-        "hits": "8",
+        "hits": "24",
+        "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "7",
         "url": "/"
       },
       {
@@ -113,27 +113,11 @@
       },
       {
         "hits": "4",
-        "url": "/post/"
-      },
-      {
-        "hits": "4",
         "url": "/post/activist-relief-resources/"
       },
       {
-        "hits": "3",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "3",
-        "url": "/css/style.css"
-      },
-      {
-        "hits": "3",
-        "url": "/favicon.png"
-      },
-      {
-        "hits": "3",
-        "url": "/open-graph.png"
+        "hits": "4",
+        "url": "/post/"
       },
       {
         "hits": "3",
@@ -141,11 +125,55 @@
       },
       {
         "hits": "3",
+        "url": "/favicon.png"
+      },
+      {
+        "hits": "3",
         "url": "/work/"
+      },
+      {
+        "hits": "3",
+        "url": "/highlight/"
+      },
+      {
+        "hits": "3",
+        "url": "/open-graph.png"
+      },
+      {
+        "hits": "3",
+        "url": "/css/style.css"
       },
       {
         "hits": "2",
         "url": "/tags/aviation/"
+      },
+      {
+        "hits": "2",
+        "url": "/articles/liked/"
+      },
+      {
+        "hits": "2",
+        "url": "/articles/saved/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/neofeudalism-larb/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/"
+      },
+      {
+        "hits": "2",
+        "url": "/link/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "2",
@@ -161,39 +189,11 @@
       },
       {
         "hits": "2",
-        "url": "/articles/saved/"
-      },
-      {
-        "hits": "2",
         "url": "/tags/running/"
       },
       {
         "hits": "2",
-        "url": "/journal/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/neofeudalism-larb/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/getting-of-of-netlify/"
-      },
-      {
-        "hits": "2",
-        "url": "/link/"
-      },
-      {
-        "hits": "2",
-        "url": "/articles/liked/"
-      },
-      {
-        "hits": "2",
         "url": "/uses/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/"
       },
       {
         "hits": "1",
@@ -205,7 +205,27 @@
       },
       {
         "hits": "1",
+        "url": "/highlight/human-scale-cities/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/nature/"
+      },
+      {
+        "hits": "1",
         "url": "/journal/2020-07-01/"
+      },
+      {
+        "hits": "1",
+        "url": "/404.html"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/grimes-boat-tour/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/science/"
       },
       {
         "hits": "1",
@@ -266,26 +286,6 @@
       {
         "hits": "1",
         "url": "/note/2020-05-31t10-00-00/"
-      },
-      {
-        "hits": "1",
-        "url": "/analytics/year/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/kanye-out-west/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/page/2/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/page/3/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/page/4/"
       }
     ],
     "topSiteMisses": [
@@ -381,11 +381,15 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/analytics"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -408,22 +412,18 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "250"
+        "hits": "248"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2298"
       }
     ]
   },
@@ -834,20 +834,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
+        "hits": "2015",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/books/read?limit=5000"
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -855,11 +855,11 @@
       },
       {
         "hits": "2015",
-        "url": "/books/toread?limit=5000"
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/films/watched?limit=5000"
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2013",
@@ -877,7 +877,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16129"
+        "hits": "16126"
       }
     ]
   },
@@ -1288,31 +1288,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1339,7 +1339,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "61834"
+        "hits": "61827"
       }
     ]
   },
@@ -1354,7 +1354,7 @@
         "url": "/note/index.xml"
       },
       {
-        "hits": "1312",
+        "hits": "1313",
         "url": "/highlight/index.xml"
       },
       {
@@ -1750,35 +1750,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "13567",
+        "hits": "13568",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "13567",
+        "hits": "13568",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "13567",
+        "hits": "13568",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "13567",
+        "hits": "13568",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "13567",
+        "hits": "13568",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "13567",
+        "hits": "13568",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "13567",
+        "hits": "13568",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "13241",
+        "hits": "13242",
         "url": "/analytics"
       },
       {
@@ -1796,12 +1796,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "18697"
+        "hits": "18698"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "108276"
+        "hits": "108284"
       }
     ]
   }
