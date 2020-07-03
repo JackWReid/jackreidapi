@@ -38,24 +38,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
@@ -63,7 +47,23 @@
       },
       {
         "hits": "11",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "11",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -73,23 +73,23 @@
     ],
     "totalApiHits": [
       {
-        "hits": "94"
+        "hits": "89"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "48",
+        "hits": "47",
         "url": "/index.xml"
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
@@ -100,7 +100,7 @@
         "url": "/"
       },
       {
-        "hits": "7",
+        "hits": "6",
         "url": "/open-graph.png"
       },
       {
@@ -129,7 +129,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/apartments-from-malls/"
+        "url": "/highlight/praise-walking-cofee/"
       },
       {
         "hits": "2",
@@ -137,7 +137,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/minneapolis-disband-police/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "2",
@@ -149,7 +149,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/praise-walking-cofee/"
+        "url": "/highlight/apartments-from-malls/"
       },
       {
         "hits": "2",
@@ -157,11 +157,7 @@
       },
       {
         "hits": "2",
-        "url": "/post/activist-relief-resources/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/snowden-gellman/"
+        "url": "/highlight/minneapolis-disband-police/"
       },
       {
         "hits": "1",
@@ -277,12 +273,16 @@
       },
       {
         "hits": "1",
-        "url": "/note/google-hire-freeze/"
+        "url": "/note/page/2/"
+      },
+      {
+        "hits": "1",
+        "url": "/post/2016-05-05-fat-internet-historian/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "36",
+        "hits": "35",
         "url": "/robots.txt"
       },
       {
@@ -332,31 +332,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -370,12 +370,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "244"
+        "hits": "240"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2303"
+        "hits": "2296"
       }
     ]
   },
@@ -597,51 +597,11 @@
       },
       {
         "hits": "3",
-        "url": "/xmlrpc.php"
-      },
-      {
-        "hits": "3",
         "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
       },
       {
-        "hits": "2",
-        "url": "/note/pearshaped-magazine-archive"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/note/finland-media-literate/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/note/driving-school"
-      },
-      {
-        "hits": "2",
-        "url": "/images/poppy.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/note/how-puzzles-made/"
-      },
-      {
-        "hits": "2",
-        "url": "/writing/accessibility/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_1944_hu737147df5fde39d335039aa0fd05e9e4_240287_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photos"
+        "hits": "3",
+        "url": "/xmlrpc.php"
       },
       {
         "hits": "2",
@@ -649,7 +609,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_2223_hu737147df5fde39d335039aa0fd05e9e4_391888_800x0_resize_q75_box.jpg"
+        "url": "/note/how-puzzles-made/"
       },
       {
         "hits": "2",
@@ -657,7 +617,27 @@
       },
       {
         "hits": "2",
-        "url": "/writing/siri-make-me-a-sandwich"
+        "url": "/images/poppy.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/note/driving-school"
+      },
+      {
+        "hits": "2",
+        "url": "/note/pearshaped-magazine-archive"
+      },
+      {
+        "hits": "2",
+        "url": "/note/finland-media-literate/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_1944_hu737147df5fde39d335039aa0fd05e9e4_240287_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/writing/accessibility/"
       },
       {
         "hits": "2",
@@ -665,7 +645,35 @@
       },
       {
         "hits": "2",
+        "url": "/photos"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
         "url": "/work/images/depop.svg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2223_hu737147df5fde39d335039aa0fd05e9e4_391888_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/writing/siri-make-me-a-sandwich"
+      },
+      {
+        "hits": "1",
+        "url": "/note/aristophanes-wasps/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/iranian-shootdown-coverup/"
       },
       {
         "hits": "1",
@@ -677,15 +685,7 @@
       },
       {
         "hits": "1",
-        "url": "/editor/"
-      },
-      {
-        "hits": "1",
         "url": "/note/files-going-extinct/"
-      },
-      {
-        "hits": "1",
-        "url": "/noexist"
       },
       {
         "hits": "1",
@@ -693,23 +693,19 @@
       },
       {
         "hits": "1",
-        "url": "/note/iranian-shootdown-coverup/"
-      },
-      {
-        "hits": "1",
         "url": "/note/iran-nuclear-era"
       },
       {
         "hits": "1",
-        "url": "/note/eugenics-statistics/"
+        "url": "/noexist"
       },
       {
         "hits": "1",
-        "url": "/manager/"
+        "url": "/note/plath-vs-hughes/"
       },
       {
         "hits": "1",
-        "url": "/blog/wp-admin/"
+        "url": "/editor/"
       },
       {
         "hits": "1",
@@ -717,15 +713,19 @@
       },
       {
         "hits": "1",
+        "url": "/note/eugenics-statistics/"
+      },
+      {
+        "hits": "1",
         "url": "/note/du-coudray-book"
       },
       {
         "hits": "1",
-        "url": "/note/duchy-of-cornwall"
+        "url": "/manager/"
       },
       {
         "hits": "1",
-        "url": "/login.php"
+        "url": "/note/duchy-of-cornwall"
       },
       {
         "hits": "1",
@@ -737,15 +737,11 @@
       },
       {
         "hits": "1",
-        "url": "/note/the-great-regression/"
+        "url": "/login.php"
       },
       {
         "hits": "1",
-        "url": "/note/dawn-or-dusk-painting"
-      },
-      {
-        "hits": "1",
-        "url": "/bitrix/admin/"
+        "url": "/blog/wp-admin/"
       },
       {
         "hits": "1",
@@ -781,37 +777,41 @@
       },
       {
         "hits": "1",
-        "url": "/note/the-great-regression"
+        "url": "/photo/isle-of-skye"
+      },
+      {
+        "hits": "1",
+        "url": "/note/the-great-regression/"
       }
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/books/toread?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2012",
@@ -829,7 +829,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16125"
+        "hits": "16131"
       }
     ]
   },
@@ -940,7 +940,7 @@
         "url": "/highlight/apartments-from-malls/"
       },
       {
-        "hits": "32",
+        "hits": "31",
         "url": "/post/how-this-site-works/"
       },
       {
@@ -1241,30 +1241,30 @@
     "topApiHits": [
       {
         "hits": "7725",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7724",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7725",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1277,21 +1277,21 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8217"
+        "hits": "8216"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61827"
+        "hits": "61833"
       }
     ]
   },
@@ -1702,35 +1702,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "13948",
+        "hits": "13949",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "13948",
+        "hits": "13949",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "13948",
+        "hits": "13949",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "13948",
+        "hits": "13949",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "13948",
+        "hits": "13949",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "13948",
+        "hits": "13949",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "13948",
+        "hits": "13949",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "13620",
+        "hits": "13621",
         "url": "/analytics"
       },
       {
@@ -1753,7 +1753,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "111323"
+        "hits": "111331"
       }
     ]
   }
