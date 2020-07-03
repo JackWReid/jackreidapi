@@ -1,0 +1,29 @@
+{{ $scratch := newScratch }}
+
+{{ $data := "nil" }}
+
+{{ $key := .Get "key" }}
+{{ $scratch.Set "limit" (.Get "limit" | default 10000) }}
+
+{{ if eq $key "saved" }}
+  {{ $data = first ($scratch.Get "limit") $.Site.Data.pocket }}
+{{ else if eq $key "liked" }}
+  {{ $data = first ($scratch.Get "limit") $.Site.Data.articles }}
+{{ end }}
+
+<table class="media-table media-table--articles">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $data }}
+    <tr>
+      <td class="media-table__title"><a href="{{ .link }}">{{ .title }}</a></td>
+      <td class="media-table__date">{{ dateFormat "2 Jan '06" .date_updated }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>

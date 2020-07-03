@@ -1,0 +1,29 @@
+{{ $scratch := newScratch }}
+
+{{ $data := "nil" }}
+
+{{ $key := .Get "key" }}
+{{ $scratch.Set "limit" (.Get "limit" | default 10000) }}
+
+{{ if eq $key "watched" }}
+  {{ $data = first ($scratch.Get "limit") $.Site.Data.films.watched }}
+{{ else if eq $key "towatch" }}
+  {{ $data = first ($scratch.Get "limit") $.Site.Data.films.towatch }}
+{{ end }}
+
+<table class="media-table media-table--film">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $data }}
+    <tr>
+      <td class="media-table__title">{{ .name }}</td>
+      <td class="media-table__date">{{ dateFormat "2006" .date_updated }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>

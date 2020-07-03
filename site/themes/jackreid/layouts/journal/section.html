@@ -1,9 +1,10 @@
 {{ define "main" }} 
-<h1 class="post-list-title">{{ .Title }}</h1>
+<h1 class="journal-section-title">{{ .Title }}</h1>
+{{ .Content }}
 {{ $paginator := .Paginate .Pages }}
 {{ range  $paginator.Pages }}
-<article class="post-list-item">
-  <h3>
+<article class="journal-section-item">
+  <h3 class="journal-section-item__title">
     <time datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
       <a href="{{ .Permalink }}">{{ .Date.Format "2 Jan 2006" }}</a>
     </time>
@@ -11,9 +12,5 @@
   {{ .Summary }}
 </article>
 {{ end }}
-{{ end }}
-
-{{ define "aside" }}
-{{ .Content }}
 {{- partial "pagination.html" . -}}
 {{ end }}

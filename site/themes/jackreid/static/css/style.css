@@ -42,6 +42,24 @@ img {
   max-width: 100%;
 }
 
+table {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+table + h1 {
+  margin-top: 0;
+}
+
+th {
+  text-align: left;
+  text-decoration: underline;
+}
+
+td {
+  padding: .3rem 0;
+}
+
 .two-col-wrapper {
   display: flex;
   height: 100%;
@@ -245,6 +263,7 @@ img {
 .note-list-title {
   margin: 0 0 1rem 0;
 }
+
 .note-list-item {
   margin-bottom: 4rem;
 }
@@ -263,11 +282,23 @@ img {
 }
 
 /**
+ * JOURNAL SECTION
+ */
+.journal-section-title {
+  margin-top: 0;
+}
+
+.journal-section-item {
+  margin-bottom: 2rem;
+}
+
+.journal-section-item__title {
+  margin: 1rem 0 .5rem 0;
+}
+
+/**
  * MEDIA TABLE
  */
-.media-table {
- }
-
 .media-table th {
   text-align: left;
   text-decoration: underline;
@@ -283,4 +314,8 @@ img {
 
 .media-table--book .media-table__title {
   width: 30em;
+}
+
+.media-table--articles .media-table__date {
+  width: 7em;
 }
