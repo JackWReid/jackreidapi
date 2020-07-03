@@ -50,8 +50,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -71,7 +71,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -81,7 +81,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "90"
       }
     ]
   },
@@ -483,10 +483,6 @@
       },
       {
         "hits": "7",
-        "url": "/tags/magazine/"
-      },
-      {
-        "hits": "7",
         "url": "/tags/news/"
       },
       {
@@ -499,6 +495,10 @@
       },
       {
         "hits": "7",
+        "url": "/tags/magazine/"
+      },
+      {
+        "hits": "7",
         "url": "/tags/accessibility/"
       },
       {
@@ -507,7 +507,11 @@
       },
       {
         "hits": "6",
-        "url": "/tags/technology/"
+        "url": "/tags/music/"
+      },
+      {
+        "hits": "6",
+        "url": "/uses/"
       },
       {
         "hits": "6",
@@ -515,7 +519,7 @@
       },
       {
         "hits": "6",
-        "url": "/tags/music/"
+        "url": "/tags/technology/"
       },
       {
         "hits": "6",
@@ -535,15 +539,15 @@
       },
       {
         "hits": "6",
-        "url": "/uses/"
-      },
-      {
-        "hits": "6",
         "url": "/tags/cities/"
       },
       {
         "hits": "5",
         "url": "/post/getting-of-of-netlify/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/web/"
       },
       {
         "hits": "5",
@@ -555,19 +559,7 @@
       },
       {
         "hits": "5",
-        "url": "/tags/web/"
-      },
-      {
-        "hits": "5",
         "url": "/highlight/american-police-departments/"
-      },
-      {
-        "hits": "5",
-        "url": "/books/read/"
-      },
-      {
-        "hits": "5",
-        "url": "/note/corona-dance-space/"
       },
       {
         "hits": "5",
@@ -576,6 +568,14 @@
       {
         "hits": "5",
         "url": "/tags/language/"
+      },
+      {
+        "hits": "5",
+        "url": "/note/corona-dance-space/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/link/"
       },
       {
         "hits": "5",
@@ -794,31 +794,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -832,12 +832,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1849"
+        "hits": "1848"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16132"
+        "hits": "16125"
       }
     ]
   },
@@ -1021,10 +1021,6 @@
       },
       {
         "hits": "19",
-        "url": "/tags/tech/"
-      },
-      {
-        "hits": "19",
         "url": "/photo/"
       },
       {
@@ -1042,6 +1038,10 @@
       {
         "hits": "19",
         "url": "/tags/web/"
+      },
+      {
+        "hits": "18",
+        "url": "/tags/covid-19/"
       }
     ],
     "topSiteMisses": [
@@ -1248,28 +1248,28 @@
     ],
     "topApiHits": [
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7725",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "7724",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "7724",
@@ -1285,21 +1285,21 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8216"
+        "hits": "8215"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61832"
+        "hits": "61826"
       }
     ]
   },
@@ -1710,35 +1710,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "13955",
+        "hits": "13956",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "13955",
+        "hits": "13956",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "13955",
+        "hits": "13956",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "13955",
+        "hits": "13956",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "13955",
+        "hits": "13956",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "13955",
+        "hits": "13956",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "13955",
+        "hits": "13956",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "13627",
+        "hits": "13628",
         "url": "/analytics"
       },
       {
@@ -1761,7 +1761,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "111379"
+        "hits": "111387"
       }
     ]
   }
