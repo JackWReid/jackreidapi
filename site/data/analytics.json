@@ -2,7 +2,11 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
+        "hits": "1",
+        "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "1",
         "url": "/index.xml"
       },
       {
@@ -11,7 +15,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
+        "url": "/journal/2020-05-16/"
       },
       {
         "hits": "1",
@@ -24,10 +28,6 @@
       {
         "hits": "1",
         "url": "/photo/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/journal/2020-05-16/"
       }
     ],
     "topSiteMisses": [
@@ -42,8 +42,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
@@ -52,32 +68,16 @@
       {
         "hits": "11",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8"
+        "hits": "7"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "92"
       }
     ]
   },
@@ -909,11 +909,11 @@
       },
       {
         "hits": "47",
-        "url": "/highlight/"
+        "url": "/note/"
       },
       {
         "hits": "47",
-        "url": "/note/"
+        "url": "/highlight/"
       },
       {
         "hits": "46",
@@ -949,11 +949,11 @@
       },
       {
         "hits": "28",
-        "url": "/tags/news/"
+        "url": "/tags/politics/"
       },
       {
         "hits": "28",
-        "url": "/tags/politics/"
+        "url": "/tags/news/"
       },
       {
         "hits": "28",
@@ -1021,15 +1021,15 @@
       },
       {
         "hits": "19",
+        "url": "/photo/"
+      },
+      {
+        "hits": "19",
         "url": "/tags/love/"
       },
       {
         "hits": "19",
         "url": "/highlight/bridgers-rolling-stone/"
-      },
-      {
-        "hits": "19",
-        "url": "/photo/"
       },
       {
         "hits": "19",
@@ -1042,7 +1042,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1072",
+        "hits": "1071",
         "url": "/robots.txt"
       },
       {
@@ -1290,7 +1290,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "8217"
+        "hits": "8216"
       }
     ],
     "totalApiHits": [
@@ -1310,7 +1310,7 @@
         "url": "/note/index.xml"
       },
       {
-        "hits": "1344",
+        "hits": "1345",
         "url": "/highlight/index.xml"
       },
       {
@@ -1706,35 +1706,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "13951",
+        "hits": "13952",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "13951",
+        "hits": "13952",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "13951",
+        "hits": "13952",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "13951",
+        "hits": "13952",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "13951",
+        "hits": "13952",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "13951",
+        "hits": "13952",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "13951",
+        "hits": "13952",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "13623",
+        "hits": "13624",
         "url": "/analytics"
       },
       {
@@ -1752,12 +1752,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "19029"
+        "hits": "19030"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "111347"
+        "hits": "111355"
       }
     ]
   }
