@@ -2,10 +2,6 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "4",
-        "url": "/"
-      },
-      {
         "hits": "2",
         "url": "/index.xml"
       },
@@ -15,11 +11,11 @@
       },
       {
         "hits": "1",
-        "url": "/films/towatch/"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
+        "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "1",
@@ -28,20 +24,12 @@
       {
         "hits": "1",
         "url": "/photo/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/css/style.css"
       }
     ],
     "topSiteMisses": [
       {
         "hits": "2",
         "url": "/robots.txt"
-      },
-      {
-        "hits": "1",
-        "url": "/asset-manifest.json"
       },
       {
         "hits": "1",
@@ -84,7 +72,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "12"
+        "hits": "7"
       }
     ],
     "totalApiHits": [
@@ -105,11 +93,11 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "12",
@@ -121,11 +109,11 @@
       },
       {
         "hits": "3",
-        "url": "/post/"
+        "url": "/journal/"
       },
       {
         "hits": "3",
-        "url": "/journal/"
+        "url": "/post/"
       },
       {
         "hits": "3",
@@ -141,7 +129,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/bridgers-rolling-stone/"
+        "url": "/post/2016-05-05-fat-internet-historian/"
       },
       {
         "hits": "2",
@@ -157,7 +145,7 @@
       },
       {
         "hits": "2",
-        "url": "/post/2016-05-05-fat-internet-historian/"
+        "url": "/highlight/bridgers-rolling-stone/"
       },
       {
         "hits": "2",
@@ -166,6 +154,10 @@
       {
         "hits": "1",
         "url": "/highlight/snowden-gellman/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "1",
@@ -290,15 +282,11 @@
       {
         "hits": "1",
         "url": "/tags/media/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/mental-health/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "33",
+        "hits": "34",
         "url": "/robots.txt"
       },
       {
@@ -381,14 +369,6 @@
       },
       {
         "hits": "288",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
@@ -396,16 +376,24 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/analytics"
+        "hits": "288",
+        "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "url": "/analytics"
       },
       {
         "hits": "1",
@@ -414,12 +402,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "221"
+        "hits": "222"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2302"
+        "hits": "2304"
       }
     ]
   },
@@ -467,11 +455,11 @@
       },
       {
         "hits": "16",
-        "url": "/post/activist-relief-resources/"
+        "url": "/work/"
       },
       {
         "hits": "16",
-        "url": "/work/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "14",
@@ -539,15 +527,15 @@
       },
       {
         "hits": "6",
-        "url": "/tags/nature/"
-      },
-      {
-        "hits": "6",
         "url": "/tags/music/"
       },
       {
         "hits": "6",
         "url": "/tags/mentalhealth/"
+      },
+      {
+        "hits": "6",
+        "url": "/tags/nature/"
       },
       {
         "hits": "6",
@@ -583,19 +571,23 @@
       },
       {
         "hits": "5",
+        "url": "/tags/link/"
+      },
+      {
+        "hits": "5",
         "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "5",
-        "url": "/tags/technology/"
-      },
-      {
-        "hits": "5",
-        "url": "/tags/food/"
+        "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "5",
         "url": "/analytics/day/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/food/"
       },
       {
         "hits": "5",
@@ -608,10 +600,6 @@
       {
         "hits": "5",
         "url": "/tags/dev/"
-      },
-      {
-        "hits": "5",
-        "url": "/tags/language/"
       },
       {
         "hits": "5",
@@ -628,7 +616,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "340",
+        "hits": "341",
         "url": "/robots.txt"
       },
       {
@@ -830,10 +818,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -844,6 +828,10 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -868,12 +856,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1866"
+        "hits": "1867"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16126"
       }
     ]
   },
@@ -1082,7 +1070,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1066",
+        "hits": "1067",
         "url": "/robots.txt"
       },
       {
@@ -1284,20 +1272,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "7725",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "7724",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "7724",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7724",
@@ -1312,6 +1292,14 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "7724",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7724",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "7717",
         "url": "/analytics"
       },
@@ -1321,21 +1309,21 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8145"
+        "hits": "8146"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61828"
+        "hits": "61826"
       }
     ]
   },
@@ -1458,16 +1446,16 @@
         "url": "/post/how-this-site-works/"
       },
       {
+        "hits": "62",
+        "url": "/highlight/tfl-streetspace/"
+      },
+      {
         "hits": "61",
         "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "61",
         "url": "/elsewhere/"
-      },
-      {
-        "hits": "61",
-        "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "60",
@@ -1544,7 +1532,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "2101",
+        "hits": "2102",
         "url": "/robots.txt"
       },
       {
@@ -1746,35 +1734,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "14088",
+        "hits": "14089",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "14088",
+        "hits": "14089",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "14088",
+        "hits": "14089",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "14088",
+        "hits": "14089",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "14088",
+        "hits": "14089",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "14088",
+        "hits": "14089",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "14088",
+        "hits": "14089",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "13760",
+        "hits": "13761",
         "url": "/analytics"
       },
       {
@@ -1792,12 +1780,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "19141"
+        "hits": "19142"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "112444"
+        "hits": "112452"
       }
     ]
   }
