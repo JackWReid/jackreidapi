@@ -55,35 +55,35 @@
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/analytics"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -93,7 +93,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "95"
       }
     ]
   },
@@ -376,24 +376,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -408,6 +400,14 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/analytics"
+      },
+      {
         "hits": "1",
         "url": "/"
       }
@@ -419,7 +419,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2299"
       }
     ]
   },
@@ -649,11 +649,11 @@
       },
       {
         "hits": "2",
-        "url": "/images/poppy.jpg"
+        "url": "/note/there-is-no-outside/"
       },
       {
         "hits": "2",
-        "url": "/note/there-is-no-outside/"
+        "url": "/images/poppy.jpg"
       },
       {
         "hits": "2",
@@ -673,7 +673,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/tech-sabbath/"
+        "url": "/photos/edinburgh"
       },
       {
         "hits": "2",
@@ -685,7 +685,7 @@
       },
       {
         "hits": "2",
-        "url": "/photos/edinburgh"
+        "url": "/note/tech-sabbath/"
       },
       {
         "hits": "2",
@@ -721,7 +721,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/pearshaped-magazine-archive"
+        "url": "/note/plath-vs-hughes/"
       },
       {
         "hits": "1",
@@ -729,15 +729,11 @@
       },
       {
         "hits": "1",
+        "url": "/note/pearshaped-magazine-archive"
+      },
+      {
+        "hits": "1",
         "url": "/note/madame-tussaud/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/iran-nuclear-era"
-      },
-      {
-        "hits": "1",
-        "url": "/note/plath-vs-hughes/"
       },
       {
         "hits": "1",
@@ -749,15 +745,19 @@
       },
       {
         "hits": "1",
+        "url": "/note/screen-protectors/"
+      },
+      {
+        "hits": "1",
         "url": "/note/2010-lists/"
       },
       {
         "hits": "1",
-        "url": "/note/iranian-shootdown-coverup/"
+        "url": "/note/iran-nuclear-era"
       },
       {
         "hits": "1",
-        "url": "/photo/loch-lomond"
+        "url": "/note/iranian-shootdown-coverup/"
       },
       {
         "hits": "1",
@@ -773,31 +773,7 @@
       },
       {
         "hits": "1",
-        "url": "/photo/isle-of-skye"
-      },
-      {
-        "hits": "1",
-        "url": "/note/files-going-extinct/"
-      },
-      {
-        "hits": "1",
-        "url": "/manager/"
-      },
-      {
-        "hits": "1",
-        "url": "/photo/ben-nevis/images/IMG_0029_huad381fb499f2badc1d9f5391a18539b4_924484_600x300_fit_q75_box.jpg"
-      },
-      {
-        "hits": "1",
-        "url": "/photo/ben-nevis/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/files-going-extinct"
-      },
-      {
-        "hits": "1",
-        "url": "/photo/brockwell-sleeve/images/brockwell-sleeve_hu7447d159f91cab43ff5263d33a44ba06_183113_600x300_fit_q75_box.jpg"
+        "url": "/photo/isle-of-skye/"
       },
       {
         "hits": "1",
@@ -805,23 +781,47 @@
       },
       {
         "hits": "1",
+        "url": "/manager/"
+      },
+      {
+        "hits": "1",
+        "url": "/photo/brockwell-sleeve/images/brockwell-sleeve_hu7447d159f91cab43ff5263d33a44ba06_183113_600x300_fit_q75_box.jpg"
+      },
+      {
+        "hits": "1",
+        "url": "/photo/ben-nevis/images/IMG_0029_huad381fb499f2badc1d9f5391a18539b4_924484_600x300_fit_q75_box.jpg"
+      },
+      {
+        "hits": "1",
+        "url": "/note/files-going-extinct/"
+      },
+      {
+        "hits": "1",
+        "url": "/photo/ben-nevis/"
+      },
+      {
+        "hits": "1",
+        "url": "/photo/isle-of-skye"
+      },
+      {
+        "hits": "1",
         "url": "/OLD/wp-admin/"
       },
       {
         "hits": "1",
-        "url": "/photo/isle-of-skye/"
+        "url": "/photo/loch-lomond"
       },
       {
         "hits": "1",
-        "url": "/old/wp-admin/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/eugenics-statistics/"
+        "url": "/note/files-going-extinct"
       },
       {
         "hits": "1",
         "url": "/photos/budapest"
+      },
+      {
+        "hits": "1",
+        "url": "/photos/chicago"
       },
       {
         "hits": "1",
@@ -880,7 +880,7 @@
   "month": {
     "topSiteHits": [
       {
-        "hits": "1321",
+        "hits": "1320",
         "url": "/index.xml"
       },
       {
@@ -1284,31 +1284,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1330,12 +1330,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "8171"
+        "hits": "8170"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61826"
+        "hits": "61833"
       }
     ]
   },
@@ -1746,35 +1746,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "14042",
+        "hits": "14043",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "14042",
+        "hits": "14043",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "14042",
+        "hits": "14043",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "14042",
+        "hits": "14043",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "14042",
+        "hits": "14043",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "14042",
+        "hits": "14043",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "14042",
+        "hits": "14043",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "13714",
+        "hits": "13715",
         "url": "/analytics"
       },
       {
@@ -1797,7 +1797,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "112076"
+        "hits": "112084"
       }
     ]
   }
