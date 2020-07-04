@@ -50,12 +50,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -75,7 +75,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -85,7 +85,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -373,23 +373,15 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -401,7 +393,15 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2",
@@ -415,7 +415,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2301"
       }
     ]
   },
@@ -467,11 +467,11 @@
       },
       {
         "hits": "15",
-        "url": "/journal/"
+        "url": "/work/"
       },
       {
         "hits": "15",
-        "url": "/work/"
+        "url": "/journal/"
       },
       {
         "hits": "14",
@@ -495,11 +495,11 @@
       },
       {
         "hits": "9",
-        "url": "/elsewhere/"
+        "url": "/note/"
       },
       {
         "hits": "9",
-        "url": "/note/"
+        "url": "/elsewhere/"
       },
       {
         "hits": "9",
@@ -528,10 +528,6 @@
       {
         "hits": "7",
         "url": "/uses/"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/magazine/"
       },
       {
         "hits": "6",
@@ -576,6 +572,10 @@
       {
         "hits": "5",
         "url": "/highlight/reading-in-the-dark/"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/magazine/"
       },
       {
         "hits": "5",
@@ -624,7 +624,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "352",
+        "hits": "351",
         "url": "/robots.txt"
       },
       {
@@ -827,31 +827,31 @@
     "topApiHits": [
       {
         "hits": "2016",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "2016",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2015",
         "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2012",
@@ -864,12 +864,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1877"
+        "hits": "1876"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16131"
       }
     ]
   },
@@ -1280,31 +1280,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1326,12 +1326,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "8105"
+        "hits": "8104"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61833"
+        "hits": "61826"
       }
     ]
   },
@@ -1742,35 +1742,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "14236",
+        "hits": "14237",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "14236",
+        "hits": "14237",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "14236",
+        "hits": "14237",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "14236",
+        "hits": "14237",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "14236",
+        "hits": "14237",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "14236",
+        "hits": "14237",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "14236",
+        "hits": "14237",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "13908",
+        "hits": "13909",
         "url": "/analytics"
       },
       {
@@ -1793,7 +1793,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "113629"
+        "hits": "113637"
       }
     ]
   }
