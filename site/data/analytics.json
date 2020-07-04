@@ -86,12 +86,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -111,7 +111,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -121,7 +121,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -409,23 +409,7 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -437,7 +421,23 @@
       },
       {
         "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -451,7 +451,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2301"
+        "hits": "2298"
       }
     ]
   },
@@ -507,11 +507,11 @@
       },
       {
         "hits": "14",
-        "url": "/post/"
+        "url": "/journal/"
       },
       {
         "hits": "14",
-        "url": "/journal/"
+        "url": "/post/"
       },
       {
         "hits": "11",
@@ -547,15 +547,15 @@
       },
       {
         "hits": "8",
+        "url": "/tags/accessibility/"
+      },
+      {
+        "hits": "8",
         "url": "/highlight/praise-walking-cofee/"
       },
       {
         "hits": "8",
         "url": "/highlight/larry-kramer-obit/"
-      },
-      {
-        "hits": "8",
-        "url": "/tags/accessibility/"
       },
       {
         "hits": "7",
@@ -567,11 +567,11 @@
       },
       {
         "hits": "7",
-        "url": "/tags/news/"
+        "url": "/uses/"
       },
       {
         "hits": "7",
-        "url": "/uses/"
+        "url": "/tags/news/"
       },
       {
         "hits": "6",
@@ -583,15 +583,19 @@
       },
       {
         "hits": "6",
-        "url": "/tags/mentalhealth/"
-      },
-      {
-        "hits": "6",
         "url": "/tags/food/"
       },
       {
         "hits": "6",
+        "url": "/tags/mentalhealth/"
+      },
+      {
+        "hits": "6",
         "url": "/highlight/mouse-feeder-welfare/"
+      },
+      {
+        "hits": "6",
+        "url": "/note/google-hire-freeze/"
       },
       {
         "hits": "6",
@@ -603,11 +607,7 @@
       },
       {
         "hits": "6",
-        "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "6",
-        "url": "/note/google-hire-freeze/"
+        "url": "/tags/nature/"
       },
       {
         "hits": "6",
@@ -615,11 +615,11 @@
       },
       {
         "hits": "6",
-        "url": "/tags/music/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "6",
-        "url": "/tags/nature/"
+        "url": "/tags/music/"
       },
       {
         "hits": "5",
@@ -631,6 +631,10 @@
       },
       {
         "hits": "5",
+        "url": "/tags/dev/"
+      },
+      {
+        "hits": "5",
         "url": "/tags/language/"
       },
       {
@@ -639,7 +643,7 @@
       },
       {
         "hits": "5",
-        "url": "/highlight/tfl-streetspace/"
+        "url": "/note/corona-dance-space/"
       },
       {
         "hits": "5",
@@ -647,20 +651,16 @@
       },
       {
         "hits": "5",
+        "url": "/highlight/tfl-streetspace/"
+      },
+      {
+        "hits": "5",
         "url": "/note/2020-05-31t10-00-00/"
-      },
-      {
-        "hits": "5",
-        "url": "/note/corona-dance-space/"
-      },
-      {
-        "hits": "5",
-        "url": "/highlight/ronan-farrow-too-good/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "350",
+        "hits": "349",
         "url": "/robots.txt"
       },
       {
@@ -863,14 +863,6 @@
     "topApiHits": [
       {
         "hits": "2016",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2016",
         "url": "/films/watched?limit=5000"
       },
       {
@@ -879,14 +871,22 @@
       },
       {
         "hits": "2016",
-        "url": "/books/reading?limit=5000"
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "2016",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -900,12 +900,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1885"
+        "hits": "1884"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16133"
+        "hits": "16130"
       }
     ]
   },
@@ -1317,30 +1317,30 @@
     "topApiHits": [
       {
         "hits": "7725",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7724",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7725",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1353,11 +1353,11 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
@@ -1367,7 +1367,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "61827"
+        "hits": "61833"
       }
     ]
   },
@@ -1778,35 +1778,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "14102",
+        "hits": "14103",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "14102",
+        "hits": "14103",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "14102",
+        "hits": "14103",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "14102",
+        "hits": "14103",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "14102",
+        "hits": "14103",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "14102",
+        "hits": "14103",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "14102",
+        "hits": "14103",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "13774",
+        "hits": "13775",
         "url": "/analytics"
       },
       {
@@ -1829,7 +1829,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "112556"
+        "hits": "112564"
       }
     ]
   }
