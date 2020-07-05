@@ -2,12 +2,16 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
+        "hits": "1",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
         "url": "/highlight/ronan-farrow-too-good/"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -24,10 +28,6 @@
       {
         "hits": "1",
         "url": "/tags/design/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
@@ -76,7 +76,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9"
+        "hits": "8"
       }
     ],
     "totalApiHits": [
@@ -860,7 +860,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1877"
+        "hits": "1876"
       }
     ],
     "totalApiHits": [
@@ -949,11 +949,11 @@
       },
       {
         "hits": "45",
-        "url": "/note/"
+        "url": "/highlight/"
       },
       {
         "hits": "45",
-        "url": "/highlight/"
+        "url": "/note/"
       },
       {
         "hits": "40",
@@ -997,6 +997,10 @@
       },
       {
         "hits": "25",
+        "url": "/tags/news/"
+      },
+      {
+        "hits": "25",
         "url": "/books/reading/"
       },
       {
@@ -1004,16 +1008,12 @@
         "url": "/articles/liked/"
       },
       {
-        "hits": "25",
-        "url": "/tags/news/"
+        "hits": "24",
+        "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "24",
         "url": "/books/read/"
-      },
-      {
-        "hits": "24",
-        "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "22",
@@ -1276,20 +1276,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "7725",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "7725",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7725",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "7724",
@@ -1297,11 +1285,23 @@
       },
       {
         "hits": "7724",
-        "url": "/books/reading?limit=5000"
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "7724",
-        "url": "/books/toread?limit=5000"
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "7724",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "7724",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7724",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7717",
@@ -1313,21 +1313,21 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8105"
+        "hits": "8103"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61831"
+        "hits": "61827"
       }
     ]
   },
@@ -1738,35 +1738,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "14271",
+        "hits": "14272",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "14271",
+        "hits": "14272",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "14271",
+        "hits": "14272",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "14271",
+        "hits": "14272",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "14271",
+        "hits": "14272",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "14271",
+        "hits": "14272",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "14271",
+        "hits": "14272",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "13943",
+        "hits": "13944",
         "url": "/analytics"
       },
       {
@@ -1789,7 +1789,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "113910"
+        "hits": "113918"
       }
     ]
   }
