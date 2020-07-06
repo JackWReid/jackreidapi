@@ -46,24 +46,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
@@ -71,7 +55,23 @@
       },
       {
         "hits": "11",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "11",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -81,7 +81,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "94"
+        "hits": "89"
       }
     ]
   },
@@ -125,19 +125,23 @@
       },
       {
         "hits": "2",
+        "url": "/highlight/apartments-from-malls/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/roxane-gay-cleaner/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/2020-05-02/"
+      },
+      {
+        "hits": "2",
         "url": "/journal/2020-07-06/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/design/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/snowden/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/dev/"
       },
       {
         "hits": "2",
@@ -145,11 +149,15 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/apartments-from-malls/"
+        "url": "/rss/"
       },
       {
         "hits": "2",
-        "url": "/journal/"
+        "url": "/tags/design/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/dev/"
       },
       {
         "hits": "2",
@@ -161,19 +169,31 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/roxane-gay-cleaner/"
-      },
-      {
-        "hits": "2",
-        "url": "/rss/"
-      },
-      {
-        "hits": "2",
-        "url": "/journal/2020-05-02/"
-      },
-      {
-        "hits": "2",
         "url": "/tags/politics/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/snowden/"
+      },
+      {
+        "hits": "1",
+        "url": "/uses/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/runaway-media/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/samin-nosrat-eating/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/the-american-room/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/trump-covid-meltdown/"
       },
       {
         "hits": "1",
@@ -185,6 +205,14 @@
       },
       {
         "hits": "1",
+        "url": "/analytics/year/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/mental-health/"
+      },
+      {
+        "hits": "1",
         "url": "/journal/2020-03-30/"
       },
       {
@@ -193,11 +221,19 @@
       },
       {
         "hits": "1",
+        "url": "/tags/mentalhealth/"
+      },
+      {
+        "hits": "1",
         "url": "/journal/2020-06-02/"
       },
       {
         "hits": "1",
         "url": "/journal/2020-06-25/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/news/"
       },
       {
         "hits": "1",
@@ -250,47 +286,11 @@
       {
         "hits": "1",
         "url": "/note/2020-04-15-how-puzzles-made/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-04-28t144946.242z/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-04-30t133619.679z/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-05-01t11-12-57/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-05-10t18-51-21/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-05-13t132423.795z/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-05-13t180824.451z/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-05-23t08-30-06/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-05-31t11-00-00/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/corona-dance-space/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "39",
+        "hits": "38",
         "url": "/robots.txt"
       },
       {
@@ -502,7 +502,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "253"
+        "hits": "252"
       }
     ],
     "totalApiHits": [
@@ -922,16 +922,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -940,6 +932,14 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -961,7 +961,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16128"
+        "hits": "16127"
       }
     ]
   },
@@ -1024,7 +1024,7 @@
         "url": "/work/"
       },
       {
-        "hits": "56",
+        "hits": "55",
         "url": "/post/activist-relief-resources/"
       },
       {
@@ -1418,7 +1418,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "8030"
+        "hits": "8029"
       }
     ],
     "totalApiHits": [
@@ -1834,35 +1834,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "14789",
+        "hits": "14790",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "14789",
+        "hits": "14790",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "14789",
+        "hits": "14790",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "14789",
+        "hits": "14790",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "14789",
+        "hits": "14790",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "14789",
+        "hits": "14790",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "14789",
+        "hits": "14790",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "14461",
+        "hits": "14462",
         "url": "/analytics"
       },
       {
@@ -1885,7 +1885,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "118054"
+        "hits": "118062"
       }
     ]
   }
