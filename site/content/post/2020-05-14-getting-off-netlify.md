@@ -1,7 +1,7 @@
 ---
 title: Getting off of Netlify
 subtitle: Self-hosting the website, logs, and analytics
-slug: getting-of-of-netlify
+slug: getting-off-of-netlify
 date: 2020-05-14T13:00:00.000Z
 draft: false
 tags:

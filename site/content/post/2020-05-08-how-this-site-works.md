@@ -8,7 +8,7 @@ tags:
   - dev
 ---
 
-*Note:* There's a follow up to this because I've since made more changes to the infrastructure of the site. [Read more](/post/getting-of-off-netlify).
+*Note:* There's a follow up to this because I've since made more changes to the infrastructure of the site. [Read more](/post/getting-off-of-netlify).
 
 I’ve been slowly moving over to self-hosting more services and trying to balance that with personal convenience. This post is a quick summary of the current setup I have running to do the following:
 
