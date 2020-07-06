@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/index.xml"
       },
       {
@@ -46,7 +46,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
@@ -76,19 +76,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9"
+        "hits": "8"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "89"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "49",
+        "hits": "48",
         "url": "/index.xml"
       },
       {
@@ -97,11 +97,11 @@
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "14",
@@ -113,11 +113,11 @@
       },
       {
         "hits": "4",
-        "url": "/favicon.png"
+        "url": "/css/style.css"
       },
       {
         "hits": "4",
-        "url": "/css/style.css"
+        "url": "/favicon.png"
       },
       {
         "hits": "3",
@@ -129,7 +129,15 @@
       },
       {
         "hits": "2",
-        "url": "/journal/"
+        "url": "/tags/justice/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/2020-07-06/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/runaway-media/"
       },
       {
         "hits": "2",
@@ -137,19 +145,27 @@
       },
       {
         "hits": "2",
+        "url": "/link/2020-05-13t19-53-19/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/dev/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/design/"
+      },
+      {
+        "hits": "2",
         "url": "/journal/2020-05-02/"
       },
       {
         "hits": "2",
-        "url": "/post/activist-relief-resources/"
+        "url": "/highlight/apartments-from-malls/"
       },
       {
         "hits": "2",
         "url": "/tags/snowden/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/justice/"
       },
       {
         "hits": "2",
@@ -161,31 +177,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/design/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/dev/"
-      },
-      {
-        "hits": "2",
-        "url": "/journal/2020-07-06/"
-      },
-      {
-        "hits": "2",
-        "url": "/link/2020-05-13t19-53-19/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/runaway-media/"
-      },
-      {
-        "hits": "2",
         "url": "/highlight/wfh-forever/"
       },
       {
         "hits": "2",
-        "url": "/highlight/apartments-from-malls/"
+        "url": "/journal/"
+      },
+      {
+        "hits": "1",
+        "url": "/link/2020-05-14t19-25-17/"
       },
       {
         "hits": "1",
@@ -273,6 +273,10 @@
       },
       {
         "hits": "1",
+        "url": "/post/activist-relief-resources/"
+      },
+      {
+        "hits": "1",
         "url": "/share/link/"
       },
       {
@@ -282,10 +286,6 @@
       {
         "hits": "1",
         "url": "/tags/education/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/feminism/"
       }
     ],
     "topSiteMisses": [
@@ -498,7 +498,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "250"
+        "hits": "248"
       }
     ],
     "totalApiHits": [
@@ -914,20 +914,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
+        "hits": "2015",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/books/read?limit=5000"
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -935,11 +935,11 @@
       },
       {
         "hits": "2015",
-        "url": "/books/toread?limit=5000"
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/films/watched?limit=5000"
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2012",
@@ -952,19 +952,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "1876"
+        "hits": "1875"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16129"
+        "hits": "16126"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1321",
+        "hits": "1320",
         "url": "/index.xml"
       },
       {
@@ -984,7 +984,7 @@
         "url": "/"
       },
       {
-        "hits": "298",
+        "hits": "295",
         "url": "/open-graph.png"
       },
       {
@@ -1368,20 +1368,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "7725",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7725",
+        "hits": "7724",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "7724",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "7724",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7724",
@@ -1396,6 +1388,14 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "7724",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7724",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "7717",
         "url": "/analytics"
       },
@@ -1405,21 +1405,21 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8034"
+        "hits": "8030"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61826"
+        "hits": "61824"
       }
     ]
   },
@@ -1830,35 +1830,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "14819",
+        "hits": "14820",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "14819",
+        "hits": "14820",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "14819",
+        "hits": "14820",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "14819",
+        "hits": "14820",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "14819",
+        "hits": "14820",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "14819",
+        "hits": "14820",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "14819",
+        "hits": "14820",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "14491",
+        "hits": "14492",
         "url": "/analytics"
       },
       {
@@ -1881,7 +1881,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "118294"
+        "hits": "118302"
       }
     ]
   }
