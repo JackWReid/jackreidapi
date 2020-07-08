@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "4",
+        "hits": "3",
         "url": "/highlight/thandie-newton-profile/"
       },
       {
@@ -58,18 +58,6 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
-      },
-      {
         "hits": "11",
         "url": "/books/reading?limit=5000"
       },
@@ -80,16 +68,28 @@
       {
         "hits": "11",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "14"
+        "hits": "13"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "93"
+        "hits": "90"
       }
     ]
   },
@@ -481,15 +481,23 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
+        "hits": "287",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
@@ -501,15 +509,7 @@
       },
       {
         "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -523,14 +523,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2298"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "333",
+        "hits": "332",
         "url": "/index.xml"
       },
       {
@@ -934,6 +934,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -944,10 +948,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -972,12 +972,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2330"
+        "hits": "2329"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16126"
+        "hits": "16127"
       }
     ]
   },
@@ -1145,10 +1145,6 @@
       },
       {
         "hits": "22",
-        "url": "/books/toread/"
-      },
-      {
-        "hits": "22",
         "url": "/tags/work/"
       },
       {
@@ -1162,6 +1158,10 @@
       {
         "hits": "22",
         "url": "/post/getting-of-of-netlify/"
+      },
+      {
+        "hits": "21",
+        "url": "/books/toread/"
       },
       {
         "hits": "21",
@@ -1388,12 +1388,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "7724",
+        "hits": "7725",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7725",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "7724",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "7724",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7724",
@@ -1408,14 +1416,6 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7724",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7724",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "7717",
         "url": "/analytics"
       },
@@ -1425,21 +1425,21 @@
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8526"
+        "hits": "8524"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61824"
+        "hits": "61826"
       }
     ]
   },
@@ -1850,35 +1850,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "15321",
+        "hits": "15322",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "15321",
+        "hits": "15322",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "15321",
+        "hits": "15322",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "15321",
+        "hits": "15322",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "15321",
+        "hits": "15322",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "15321",
+        "hits": "15322",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "15321",
+        "hits": "15322",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "14993",
+        "hits": "14994",
         "url": "/analytics"
       },
       {
@@ -1901,7 +1901,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "122312"
+        "hits": "122320"
       }
     ]
   }
