@@ -191,7 +191,19 @@ figcaption {
     display: none;
   }
 }
- 
+
+.home-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-nav__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 /**
  * PAGINATION
  */

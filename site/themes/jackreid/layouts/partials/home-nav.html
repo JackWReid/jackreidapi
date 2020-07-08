@@ -1,7 +1,5 @@
 <nav class="home-nav">
   <ul class="home-nav__list">
-    <li><a href="{{ "post" | absURL }}">Posts</a></li>
-    <li><a href="{{ "note" | absURL }}">Notes</a></li>
     <li><a href="{{ "media" | absURL }}">Media Diet</a>
       <ul>
         <li><a href="{{ "highlight" | absURL }}">Highlights</a></li>
@@ -27,14 +25,16 @@
         <li><a href="{{ "link" | absURL }}">Links</a></li>
       </ul>
     </li>
-    <li>About
+    <li>
       <ul>
+        <li><a href="{{ "post" | absURL }}">Posts</a></li>
+        <li><a href="{{ "note" | absURL }}">Notes</a></li>
         <li><a href="{{ "journal" | absURL }}">Journal</a></li>
         <li><a href="{{ "work" | absURL }}">Work</a></li>
         <li><a href="{{ "uses" | absURL }}">Uses</a></li>
         <li><a href="{{ "analytics/month" | absURL }}">Analytics</a></li>
+        <li><a href="{{ "rss" | absURL }}">RSS</a></li>
       </ul>
     </li>
-    <li><a href="{{ "rss" | absURL }}">RSS</a></li>
   </ul>
 </nav>
