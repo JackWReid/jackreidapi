@@ -1,40 +1,27 @@
 <nav class="home-nav">
   <ul class="home-nav__list">
-    <li><a href="{{ "media" | absURL }}">Media Diet</a>
-      <ul>
-        <li><a href="{{ "highlight" | absURL }}">Highlights</a></li>
-        <li>Books
-          <ul>
-            <li><a href="{{ "books/read" | absURL }}">Read</a>
-            <li><a href="{{ "books/reading" | absURL }}">Reading</a>
-            <li><a href="{{ "books/toread" | absURL }}">To Read</a>
-          </ul>
-        </li>
-        <li>Films
-          <ul>
-            <li><a href="{{ "films/watched" | absURL }}">Watched</a>
-            <li><a href="{{ "films/towatch" | absURL }}">To Watch</a>
-          </ul>
-        </li>
-        <li>Articles
-          <ul>
-            <li><a href="{{ "articles/saved" | absURL }}">Saved</a>
-            <li><a href="{{ "articles/liked" | absURL }}">Liked</a>
-          </ul>
-        </li>
-        <li><a href="{{ "link" | absURL }}">Links</a></li>
-      </ul>
-    </li>
-    <li>
-      <ul>
-        <li><a href="{{ "post" | absURL }}">Posts</a></li>
-        <li><a href="{{ "note" | absURL }}">Notes</a></li>
-        <li><a href="{{ "journal" | absURL }}">Journal</a></li>
-        <li><a href="{{ "work" | absURL }}">Work</a></li>
-        <li><a href="{{ "uses" | absURL }}">Uses</a></li>
-        <li><a href="{{ "analytics/month" | absURL }}">Analytics</a></li>
-        <li><a href="{{ "rss" | absURL }}">RSS</a></li>
-      </ul>
-    </li>
+    <div class="home-nav__list-column">
+      <li><a href="{{ "media" | absURL }}">Media Diet</a>
+      <li><a href="{{ "highlight" | absURL }}">Highlights</a></li>
+      <li><a href="{{ "books/read" | absURL }}">Read</a></li>
+      <li><a href="{{ "books/reading" | absURL }}">Reading</a></li>
+      <li><a href="{{ "books/toread" | absURL }}">To Read</a></li>
+      <li><a href="{{ "films/watched" | absURL }}">Watched</a></li>
+      <li><a href="{{ "films/towatch" | absURL }}">To Watch</a></li>
+      <li><a href="{{ "articles/saved" | absURL }}">Saved Articles</a></li>
+      <li><a href="{{ "articles/liked" | absURL }}">Liked Articles</a></li>
+    </div>
+    <div class="home-nav__list-column">
+      <div class="home-nav__group">
+      <li><a href="{{ "post" | absURL }}">Posts</a></li>
+      <li><a href="{{ "note" | absURL }}">Notes</a></li>
+      <li><a href="{{ "journal" | absURL }}">Journal</a></li>
+      </div>
+      <li><a href="{{ "work" | absURL }}">Work</a></li>
+      <li><a href="{{ "uses" | absURL }}">Uses</a></li>
+      <li><a href="{{ "link" | absURL }}">Links</a></li>
+      <li><a href="{{ "analytics/month" | absURL }}">Analytics</a></li>
+      <li><a href="{{ "rss" | absURL }}">RSS</a></li>
+    </div>
   </ul>
 </nav>
