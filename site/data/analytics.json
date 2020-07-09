@@ -54,12 +54,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -79,7 +79,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -89,7 +89,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -372,31 +372,31 @@
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/pocket?limit=5000"
       }
     ],
@@ -407,7 +407,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2304"
       }
     ]
   },
@@ -555,7 +555,7 @@
       },
       {
         "hits": "8",
-        "url": "/tags/work/"
+        "url": "/work/"
       },
       {
         "hits": "8",
@@ -567,7 +567,7 @@
       },
       {
         "hits": "8",
-        "url": "/work/"
+        "url": "/tags/work/"
       },
       {
         "hits": "7",
@@ -587,15 +587,11 @@
       },
       {
         "hits": "7",
-        "url": "/post/how-this-site-works/"
+        "url": "/tags/media/"
       },
       {
         "hits": "7",
         "url": "/post/moses-long-island-klan/"
-      },
-      {
-        "hits": "7",
-        "url": "/tags/media/"
       },
       {
         "hits": "6",
@@ -612,11 +608,15 @@
       {
         "hits": "6",
         "url": "/articles/liked/"
+      },
+      {
+        "hits": "6",
+        "url": "/post/how-this-site-works/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "379",
+        "hits": "378",
         "url": "/robots.txt"
       },
       {
@@ -818,6 +818,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -828,10 +832,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -856,12 +856,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2335"
+        "hits": "2334"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16125"
+        "hits": "16126"
       }
     ]
   },
@@ -1734,35 +1734,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "15471",
+        "hits": "15472",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "15471",
+        "hits": "15472",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "15471",
+        "hits": "15472",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "15471",
+        "hits": "15472",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "15471",
+        "hits": "15472",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "15471",
+        "hits": "15472",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "15471",
+        "hits": "15472",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "15143",
+        "hits": "15144",
         "url": "/analytics"
       },
       {
@@ -1785,7 +1785,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "123512"
+        "hits": "123520"
       }
     ]
   }
