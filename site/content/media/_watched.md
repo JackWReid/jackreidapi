@@ -8,6 +8,7 @@ layout: media
 
 ## Recent Favourites
 ### June 2020
+- Hamilton (2020)
 - Malcolm X (1992)
 - The Black Power Mixtape 1967-1975 (2011)
 - Training Day (2001)
