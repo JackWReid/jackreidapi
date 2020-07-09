@@ -1,0 +1,23 @@
+{{ define "main" }}
+<h1 class="taxonomy-section-title">#{{ .Title }}</h1>
+{{ .Content }}
+{{ $paginator := .Paginate .Pages }}
+{{ range  $paginator.Pages }}
+<article class="taxonomy-section-item">
+  <h3 class="taxonomy-section-item__title">
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h3>
+  <div class="taxonomy-section-item__infoline">
+    <p class="post-section-marker">
+      <a href="/{{ .Section }}">{{ .Section | title }}</a>
+    </p>
+    <time class="taxonomy-section-item__date"
+          datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
+      {{ .Date.Format "2 Jan 2006" }}
+    </time>
+  </div>
+  {{ .Summary }}
+</article>
+{{ end }}
+{{- partial "pagination.html" . -}}
+{{ end }}
