@@ -58,31 +58,31 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/pocket?limit=5000"
       }
     ],
@@ -93,15 +93,19 @@
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "89"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "48",
+        "hits": "47",
         "url": "/index.xml"
+      },
+      {
+        "hits": "24",
+        "url": "/note/index.xml"
       },
       {
         "hits": "24",
@@ -112,11 +116,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "24",
-        "url": "/note/index.xml"
-      },
-      {
-        "hits": "13",
+        "hits": "12",
         "url": "/"
       },
       {
@@ -137,11 +137,11 @@
       },
       {
         "hits": "4",
-        "url": "/journal/"
+        "url": "/books/toread/"
       },
       {
         "hits": "4",
-        "url": "/books/toread/"
+        "url": "/journal/"
       },
       {
         "hits": "4",
@@ -205,11 +205,11 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/apartments-from-malls/"
+        "url": "/journal/2020-03-19/"
       },
       {
         "hits": "1",
-        "url": "/highlight/world-without-cops/"
+        "url": "/highlight/apartments-from-malls/"
       },
       {
         "hits": "1",
@@ -217,7 +217,11 @@
       },
       {
         "hits": "1",
-        "url": "/journal/2020-03-19/"
+        "url": "/journal/2020-03-28/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/world-without-cops/"
       },
       {
         "hits": "1",
@@ -229,15 +233,11 @@
       },
       {
         "hits": "1",
+        "url": "/note/2020-01-08-untranslatable-words/"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/off-road-land-trains/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2019-10-17-tech-sabbath/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/no-apocalypse/"
       },
       {
         "hits": "1",
@@ -249,15 +249,19 @@
       },
       {
         "hits": "1",
+        "url": "/highlight/no-apocalypse/"
+      },
+      {
+        "hits": "1",
+        "url": "/link/2020-05-27t08-00-00/"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/neofeudalism-larb/"
       },
       {
         "hits": "1",
         "url": "/link/2020-05-11t10-00-20/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/names-gender-code/"
       },
       {
         "hits": "1",
@@ -269,15 +273,7 @@
       },
       {
         "hits": "1",
-        "url": "/journal/2020-06-25/"
-      },
-      {
-        "hits": "1",
-        "url": "/link/2020-05-27t08-00-00/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/low-tech-election-iowa/"
+        "url": "/highlight/names-gender-code/"
       },
       {
         "hits": "1",
@@ -285,11 +281,11 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/larry-kramer-obit/"
+        "url": "/note/2019-10-17-tech-sabbath/"
       },
       {
         "hits": "1",
-        "url": "/note/2020-01-08-untranslatable-words/"
+        "url": "/highlight/low-tech-election-iowa/"
       },
       {
         "hits": "1",
@@ -297,12 +293,16 @@
       },
       {
         "hits": "1",
-        "url": "/journal/2020-05-25/"
+        "url": "/note/2020-01-13-flights/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/2020-06-25/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "41",
+        "hits": "40",
         "url": "/robots.txt"
       },
       {
@@ -341,15 +341,11 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
         "hits": "287",
@@ -372,18 +368,22 @@
         "url": "/pocket?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "296"
+        "hits": "293"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2300"
       }
     ]
   },
@@ -482,14 +482,6 @@
         "url": "/rss/"
       },
       {
-        "hits": "11",
-        "url": "/tags/justice/"
-      },
-      {
-        "hits": "10",
-        "url": "/tags/cities/"
-      },
-      {
         "hits": "10",
         "url": "/link/"
       },
@@ -498,20 +490,20 @@
         "url": "/books/reading/"
       },
       {
+        "hits": "10",
+        "url": "/tags/cities/"
+      },
+      {
+        "hits": "10",
+        "url": "/tags/justice/"
+      },
+      {
         "hits": "9",
         "url": "/tags/book/"
       },
       {
         "hits": "9",
         "url": "/work/"
-      },
-      {
-        "hits": "9",
-        "url": "/tags/news/"
-      },
-      {
-        "hits": "9",
-        "url": "/tags/link/"
       },
       {
         "hits": "9",
@@ -526,16 +518,16 @@
         "url": "/elsewhere/"
       },
       {
-        "hits": "8",
-        "url": "/note/google-hire-freeze/"
+        "hits": "9",
+        "url": "/tags/link/"
+      },
+      {
+        "hits": "9",
+        "url": "/tags/news/"
       },
       {
         "hits": "8",
         "url": "/tags/dev/"
-      },
-      {
-        "hits": "8",
-        "url": "/tags/accessibility/"
       },
       {
         "hits": "8",
@@ -547,6 +539,10 @@
       },
       {
         "hits": "8",
+        "url": "/tags/work/"
+      },
+      {
+        "hits": "8",
         "url": "/analytics/day/"
       },
       {
@@ -555,11 +551,11 @@
       },
       {
         "hits": "8",
-        "url": "/tags/work/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "7",
-        "url": "/books/toread/"
+        "url": "/note/google-hire-freeze/"
       },
       {
         "hits": "7",
@@ -567,15 +563,19 @@
       },
       {
         "hits": "7",
+        "url": "/books/toread/"
+      },
+      {
+        "hits": "7",
         "url": "/highlight/mouse-feeder-welfare/"
       },
       {
         "hits": "7",
-        "url": "/articles/liked/"
+        "url": "/tags/media/"
       },
       {
         "hits": "7",
-        "url": "/tags/media/"
+        "url": "/articles/liked/"
       },
       {
         "hits": "6",
@@ -592,7 +592,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "382",
+        "hits": "381",
         "url": "/robots.txt"
       },
       {
@@ -832,7 +832,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2397"
+        "hits": "2394"
       }
     ],
     "totalApiHits": [
@@ -1248,6 +1248,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "7726",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "7725",
         "url": "/pocket?limit=5000"
       },
@@ -1269,10 +1273,6 @@
       },
       {
         "hits": "7725",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7725",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1285,11 +1285,11 @@
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       }
     ],
     "totalSiteHits": [
@@ -1299,7 +1299,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "61828"
+        "hits": "61829"
       }
     ]
   },
@@ -1710,35 +1710,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "15627",
+        "hits": "15628",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "15627",
+        "hits": "15628",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "15627",
+        "hits": "15628",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "15627",
+        "hits": "15628",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "15627",
+        "hits": "15628",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "15627",
+        "hits": "15628",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "15627",
+        "hits": "15628",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "15299",
+        "hits": "15300",
         "url": "/analytics"
       },
       {
@@ -1761,7 +1761,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "124762"
+        "hits": "124770"
       }
     ]
   }
