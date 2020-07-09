@@ -2,12 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "1",
-        "url": "/highlight/index.xml"
+        "hits": "2",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
-        "url": "/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
@@ -34,12 +34,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -59,24 +59,24 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "5"
+        "hits": "6"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "47",
+        "hits": "48",
         "url": "/index.xml"
       },
       {
@@ -498,7 +498,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "386"
+        "hits": "387"
       }
     ],
     "totalApiHits": [
@@ -510,7 +510,7 @@
   "week": {
     "topSiteHits": [
       {
-        "hits": "331",
+        "hits": "332",
         "url": "/index.xml"
       },
       {
@@ -595,15 +595,15 @@
       },
       {
         "hits": "10",
+        "url": "/link/"
+      },
+      {
+        "hits": "10",
         "url": "/rss/"
       },
       {
         "hits": "10",
         "url": "/media/"
-      },
-      {
-        "hits": "10",
-        "url": "/link/"
       },
       {
         "hits": "10",
@@ -643,7 +643,7 @@
       },
       {
         "hits": "8",
-        "url": "/work/"
+        "url": "/tags/news/"
       },
       {
         "hits": "8",
@@ -651,11 +651,11 @@
       },
       {
         "hits": "8",
-        "url": "/analytics/day/"
+        "url": "/tags/work/"
       },
       {
         "hits": "8",
-        "url": "/tags/news/"
+        "url": "/analytics/day/"
       },
       {
         "hits": "8",
@@ -663,11 +663,11 @@
       },
       {
         "hits": "8",
-        "url": "/tags/work/"
+        "url": "/work/"
       },
       {
         "hits": "7",
-        "url": "/tags/music/"
+        "url": "/tags/media/"
       },
       {
         "hits": "7",
@@ -675,7 +675,7 @@
       },
       {
         "hits": "7",
-        "url": "/tags/media/"
+        "url": "/tags/music/"
       },
       {
         "hits": "7",
@@ -703,11 +703,11 @@
       },
       {
         "hits": "6",
-        "url": "/tags/funny/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "6",
-        "url": "/tags/covid-19/"
+        "url": "/articles/liked/"
       }
     ],
     "topSiteMisses": [
@@ -914,6 +914,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -924,10 +928,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -957,14 +957,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16125"
+        "hits": "16126"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1337",
+        "hits": "1338",
         "url": "/index.xml"
       },
       {
@@ -1368,28 +1368,28 @@
     ],
     "topApiHits": [
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7725",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7724",
+        "hits": "7725",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "7724",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "7724",
@@ -1405,28 +1405,28 @@
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8531"
+        "hits": "8532"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61823"
+        "hits": "61829"
       }
     ]
   },
   "year": {
     "topSiteHits": [
       {
-        "hits": "2605",
+        "hits": "2606",
         "url": "/index.xml"
       },
       {
@@ -1830,35 +1830,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "15452",
+        "hits": "15453",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "15452",
+        "hits": "15453",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "15452",
+        "hits": "15453",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "15452",
+        "hits": "15453",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "15452",
+        "hits": "15453",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "15452",
+        "hits": "15453",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "15452",
+        "hits": "15453",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "15124",
+        "hits": "15125",
         "url": "/analytics"
       },
       {
@@ -1876,12 +1876,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "20925"
+        "hits": "20926"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "123360"
+        "hits": "123368"
       }
     ]
   }
