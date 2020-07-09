@@ -24,4 +24,4 @@ layout: media
 - Watchmen (TV) (2018)
 - Uncut Gems (2019)
 
-{{< filmtable key="towatch" >}}
+{{< filmtable key="watched" >}}
