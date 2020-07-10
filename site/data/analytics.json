@@ -2,12 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
+        "hits": "1",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -68,7 +68,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "7"
+        "hits": "6"
       }
     ],
     "totalApiHits": [
@@ -104,10 +104,6 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "6",
-        "url": "/css/style.css"
-      },
-      {
         "hits": "5",
         "url": "/favicon.png"
       },
@@ -116,12 +112,16 @@
         "url": "/media/"
       },
       {
-        "hits": "4",
-        "url": "/books/read/"
+        "hits": "5",
+        "url": "/css/style.css"
       },
       {
         "hits": "4",
         "url": "/books/reading/"
+      },
+      {
+        "hits": "4",
+        "url": "/books/read/"
       },
       {
         "hits": "3",
@@ -133,23 +133,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/2019-08-05-academie-francaise/"
-      },
-      {
-        "hits": "2",
         "url": "/articles/saved/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/thandie-newton-profile/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/book/"
-      },
-      {
-        "hits": "2",
-        "url": "/articles/liked/"
       },
       {
         "hits": "2",
@@ -157,11 +141,19 @@
       },
       {
         "hits": "2",
-        "url": "/tags/mental-health/"
+        "url": "/articles/liked/"
       },
       {
         "hits": "2",
-        "url": "/tags/accessibility/"
+        "url": "/tags/book/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/covid-19/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2019-08-05-academie-francaise/"
       },
       {
         "hits": "2",
@@ -169,11 +161,15 @@
       },
       {
         "hits": "2",
-        "url": "/post/getting-off-of-netlify/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "2",
-        "url": "/tags/covid-19/"
+        "url": "/uses/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/getting-off-of-netlify/"
       },
       {
         "hits": "2",
@@ -185,7 +181,11 @@
       },
       {
         "hits": "2",
-        "url": "/uses/"
+        "url": "/highlight/thandie-newton-profile/"
+      },
+      {
+        "hits": "2",
+        "url": "/work/"
       },
       {
         "hits": "2",
@@ -228,10 +228,6 @@
         "url": "/post/"
       },
       {
-        "hits": "2",
-        "url": "/work/"
-      },
-      {
         "hits": "1",
         "url": "/highlight/wfh-forever/"
       },
@@ -269,6 +265,10 @@
       },
       {
         "hits": "1",
+        "url": "/note/2020-02-07-willard-maps-of-time/"
+      },
+      {
+        "hits": "1",
         "url": "/note/2020-02-10-james-joyce-estate/"
       },
       {
@@ -277,7 +277,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/2020-02-07-willard-maps-of-time/"
+        "url": "/note/2020-01-15-precariously-balanced-rocks/"
       }
     ],
     "topSiteMisses": [
@@ -352,8 +352,24 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "287",
@@ -361,27 +377,11 @@
       },
       {
         "hits": "287",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/films/watched?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "1",
@@ -390,12 +390,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "287"
+        "hits": "285"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2302"
       }
     ]
   },
@@ -1722,35 +1722,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "15925",
+        "hits": "15926",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "15925",
+        "hits": "15926",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "15925",
+        "hits": "15926",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "15925",
+        "hits": "15926",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "15925",
+        "hits": "15926",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "15925",
+        "hits": "15926",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "15925",
+        "hits": "15926",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "15596",
+        "hits": "15597",
         "url": "/analytics"
       },
       {
@@ -1773,7 +1773,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "127146"
+        "hits": "127154"
       }
     ]
   }
