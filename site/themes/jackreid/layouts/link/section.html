@@ -1,0 +1,18 @@
+{{ define "main" }}
+<h1 class="default-section-title">{{ .Title }}</h1>
+{{ .Content }}
+{{ $paginator := .Paginate .Pages }}
+{{ range  $paginator.Pages }}
+<article class="default-section-item">
+  <h3 class="default-section-item__title">
+    <a href="{{ .Params.Link }}">{{ .Title }}</a>
+  </h3>
+  <time class="default-section-item__date"
+        datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
+    {{ .Date.Format "2 Jan 2006" }}
+  </time>
+  {{ .Summary }}
+</article>
+{{ end }}
+{{- partial "pagination.html" . -}}
+{{ end }}
