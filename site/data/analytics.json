@@ -2,8 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
@@ -27,21 +31,25 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
+        "url": "/tags/letter/"
       },
       {
         "hits": "1",
-        "url": "/tags/letter/"
+        "url": "/articles/saved/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/nature/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "1",
-        "url": "/photo/south-india/"
+        "hits": "2",
+        "url": "/robots.txt"
       },
       {
         "hits": "1",
-        "url": "/robots.txt"
+        "url": "/photo/south-india/"
       }
     ],
     "topApiHits": [
@@ -80,7 +88,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10"
+        "hits": "11"
       }
     ],
     "totalApiHits": [
@@ -101,11 +109,11 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "12",
@@ -129,6 +137,14 @@
       },
       {
         "hits": "4",
+        "url": "/media/"
+      },
+      {
+        "hits": "4",
+        "url": "/articles/saved/"
+      },
+      {
+        "hits": "4",
         "url": "/rss/"
       },
       {
@@ -136,24 +152,12 @@
         "url": "/note/"
       },
       {
-        "hits": "4",
-        "url": "/media/"
-      },
-      {
-        "hits": "3",
-        "url": "/books/reading/"
-      },
-      {
         "hits": "3",
         "url": "/films/watched/"
       },
       {
         "hits": "3",
-        "url": "/tags/news/"
-      },
-      {
-        "hits": "3",
-        "url": "/work/"
+        "url": "/books/reading/"
       },
       {
         "hits": "3",
@@ -165,7 +169,11 @@
       },
       {
         "hits": "3",
-        "url": "/articles/saved/"
+        "url": "/work/"
+      },
+      {
+        "hits": "3",
+        "url": "/tags/mentalhealth/"
       },
       {
         "hits": "3",
@@ -173,15 +181,11 @@
       },
       {
         "hits": "3",
-        "url": "/books/toread/"
+        "url": "/tags/news/"
       },
       {
         "hits": "3",
-        "url": "/tags/mentalhealth/"
-      },
-      {
-        "hits": "2",
-        "url": "/link/"
+        "url": "/books/toread/"
       },
       {
         "hits": "2",
@@ -189,15 +193,7 @@
       },
       {
         "hits": "2",
-        "url": "/uses/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/politics/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/nyc/"
+        "url": "/link/"
       },
       {
         "hits": "2",
@@ -205,15 +201,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/economics/"
+        "url": "/tags/politics/"
       },
       {
         "hits": "2",
-        "url": "/tags/covid-19/"
+        "url": "/uses/"
       },
       {
         "hits": "2",
-        "url": "/tags/food/"
+        "url": "/tags/nyc/"
       },
       {
         "hits": "2",
@@ -221,7 +217,19 @@
       },
       {
         "hits": "2",
-        "url": "/post/activist-relief-resources/"
+        "url": "/tags/food/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/covid-19/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/economics/"
+      },
+      {
+        "hits": "2",
+        "url": "/articles/liked/"
       },
       {
         "hits": "2",
@@ -229,7 +237,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/little-women-gerwig-crit/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "2",
@@ -253,11 +261,7 @@
       },
       {
         "hits": "2",
-        "url": "/articles/liked/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/how-this-site-works/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "1",
@@ -290,6 +294,10 @@
       {
         "hits": "1",
         "url": "/link/2020-05-27t08-00-00/"
+      },
+      {
+        "hits": "1",
+        "url": "/link/2020-05-11t10-00-20/"
       }
     ],
     "topSiteMisses": [
@@ -300,10 +308,6 @@
       {
         "hits": "13",
         "url": "/sw.js"
-      },
-      {
-        "hits": "1",
-        "url": "/photos/los-angeles"
       },
       {
         "hits": "1",
@@ -339,7 +343,7 @@
       },
       {
         "hits": "1",
-        "url": "/.env"
+        "url": "/note/jacob-rees-mogg/"
       },
       {
         "hits": "1",
@@ -347,17 +351,21 @@
       },
       {
         "hits": "1",
-        "url": "/note/jacob-rees-mogg/"
+        "url": "/photos/los-angeles"
       }
     ],
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/analytics"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -380,22 +388,18 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "332"
+        "hits": "333"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2299"
       }
     ]
   },
@@ -462,7 +466,7 @@
         "url": "/highlight/michael-the-destroyer/"
       },
       {
-        "hits": "22",
+        "hits": "23",
         "url": "/articles/saved/"
       },
       {
@@ -806,36 +810,36 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
-        "url": "/analytics"
+        "hits": "2016",
+        "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/films/watched?limit=5000"
+        "url": "/analytics"
       },
       {
         "hits": "7",
@@ -844,12 +848,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2394"
+        "hits": "2395"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16134"
       }
     ]
   },
@@ -912,7 +916,7 @@
         "url": "/highlight/apartments-from-malls/"
       },
       {
-        "hits": "72",
+        "hits": "73",
         "url": "/articles/saved/"
       },
       {
@@ -1058,7 +1062,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1374",
+        "hits": "1375",
         "url": "/robots.txt"
       },
       {
@@ -1260,31 +1264,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1306,12 +1310,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "8641"
+        "hits": "8643"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61827"
+        "hits": "61834"
       }
     ]
   },
@@ -1362,7 +1366,7 @@
         "url": "/post/activist-relief-resources/"
       },
       {
-        "hits": "146",
+        "hits": "147",
         "url": "/articles/saved/"
       },
       {
@@ -1520,7 +1524,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "2440",
+        "hits": "2441",
         "url": "/robots.txt"
       },
       {
@@ -1722,35 +1726,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "15771",
+        "hits": "15772",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "15771",
+        "hits": "15772",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "15771",
+        "hits": "15772",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "15771",
+        "hits": "15772",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "15771",
+        "hits": "15772",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "15771",
+        "hits": "15772",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "15771",
+        "hits": "15772",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "15443",
+        "hits": "15444",
         "url": "/analytics"
       },
       {
@@ -1768,12 +1772,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "21285"
+        "hits": "21287"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "125914"
+        "hits": "125922"
       }
     ]
   }
