@@ -2,10 +2,6 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
-      },
-      {
         "hits": "1",
         "url": "/"
       },
@@ -16,6 +12,10 @@
       {
         "hits": "1",
         "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -38,37 +38,37 @@
       },
       {
         "hits": "12",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "7"
+        "hits": "6"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "91"
       }
     ]
   },
@@ -347,8 +347,24 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "287",
@@ -356,27 +372,11 @@
       },
       {
         "hits": "287",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/films/watched?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "1",
@@ -390,7 +390,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2302"
       }
     ]
   },
@@ -612,11 +612,11 @@
       },
       {
         "hits": "4",
-        "url": "/wp-login.php"
+        "url": "/note/how-puzzles-made/"
       },
       {
         "hits": "4",
-        "url": "/note/how-puzzles-made/"
+        "url": "/wp-login.php"
       },
       {
         "hits": "3",
@@ -624,7 +624,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -636,43 +636,19 @@
       },
       {
         "hits": "3",
-        "url": "/note/there-is-no-outside/"
-      },
-      {
-        "hits": "3",
-        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "3",
         "url": "/photo/south-india/images/IMG_2442_hu0e1fde5b801c8e7d278695bc42f057dc_113260_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
+        "url": "/note/there-is-no-outside/"
       },
       {
         "hits": "2",
         "url": "/humans.txt"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/loch-lomond/"
-      },
-      {
-        "hits": "2",
-        "url": "/wordpress/wp-admin/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/screen-protectors/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2370_hu1ddaec928864e2ac7f3bc7f0b4820fb9_55412_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/asset-manifest.json"
       },
       {
         "hits": "2",
@@ -684,11 +660,27 @@
       },
       {
         "hits": "2",
-        "url": "/photo/ben-nevis/images/IMG_0029_huad381fb499f2badc1d9f5391a18539b4_924484_600x300_fit_q75_box.jpg"
+        "url": "/note/screen-protectors/"
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
+        "url": "/wordpress/wp-admin/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/asset-manifest.json"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2370_hu1ddaec928864e2ac7f3bc7f0b4820fb9_55412_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -696,7 +688,11 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
+        "url": "/photo/loch-lomond/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/ben-nevis/images/IMG_0029_huad381fb499f2badc1d9f5391a18539b4_924484_600x300_fit_q75_box.jpg"
       },
       {
         "hits": "1",
@@ -712,11 +708,11 @@
       },
       {
         "hits": "1",
-        "url": "/images/poppy.jpg"
+        "url": "/2020/"
       },
       {
         "hits": "1",
-        "url": "/2020/"
+        "url": "/images/poppy.jpg"
       },
       {
         "hits": "1",
@@ -768,11 +764,15 @@
       },
       {
         "hits": "1",
+        "url": "/demo/wp-includes/wlwmanifest.xml"
+      },
+      {
+        "hits": "1",
         "url": "/note/madame-tussaud/"
       },
       {
         "hits": "1",
-        "url": "/demo/wp-includes/wlwmanifest.xml"
+        "url": "/note/iranian-shootdown-coverup/"
       },
       {
         "hits": "1",
@@ -780,7 +780,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/iranian-shootdown-coverup/"
+        "url": "/demo/"
       },
       {
         "hits": "1",
@@ -796,21 +796,17 @@
       },
       {
         "hits": "1",
-        "url": "/demo/"
+        "url": "/backup/"
       }
     ],
     "topApiHits": [
       {
-        "hits": "2015",
-        "url": "/pocket?limit=5000"
+        "hits": "2016",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
         "url": "/analytics"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -833,6 +829,10 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "2015",
+        "url": "/pocket?limit=5000"
+      },
+      {
         "hits": "8",
         "url": "/"
       }
@@ -844,7 +844,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16128"
+        "hits": "16129"
       }
     ]
   },
@@ -1717,35 +1717,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "15918",
+        "hits": "15919",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "15918",
+        "hits": "15919",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "15918",
+        "hits": "15919",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "15918",
+        "hits": "15919",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "15918",
+        "hits": "15919",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "15918",
+        "hits": "15919",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "15918",
+        "hits": "15919",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "15589",
+        "hits": "15590",
         "url": "/analytics"
       },
       {
@@ -1768,7 +1768,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "127090"
+        "hits": "127098"
       }
     ]
   }
