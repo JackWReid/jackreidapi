@@ -3,15 +3,19 @@
     "topSiteHits": [
       {
         "hits": "2",
-        "url": "/index.xml"
-      },
-      {
-        "hits": "2",
         "url": "/books/read/"
       },
       {
         "hits": "1",
+        "url": "/highlight/helms-deep-analysis/"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -84,10 +88,6 @@
       {
         "hits": "1",
         "url": "/work/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/helms-deep-analysis/"
       }
     ],
     "topSiteMisses": [
@@ -136,7 +136,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "24"
+        "hits": "23"
       }
     ],
     "totalApiHits": [
@@ -350,7 +350,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "44",
+        "hits": "43",
         "url": "/robots.txt"
       },
       {
@@ -397,11 +397,15 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/analytics"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -424,22 +428,18 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "323"
+        "hits": "322"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2299"
       }
     ]
   },
@@ -1305,27 +1305,27 @@
     "topApiHits": [
       {
         "hits": "7726",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7725",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7726",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "7726",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "7726",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "7725",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "7725",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "7725",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "7725",
@@ -1341,11 +1341,11 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
@@ -1355,7 +1355,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "61828"
+        "hits": "61832"
       }
     ]
   },
@@ -1766,35 +1766,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "15705",
+        "hits": "15706",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "15705",
+        "hits": "15706",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "15705",
+        "hits": "15706",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "15705",
+        "hits": "15706",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "15705",
+        "hits": "15706",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "15705",
+        "hits": "15706",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "15705",
+        "hits": "15706",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "15377",
+        "hits": "15378",
         "url": "/analytics"
       },
       {
@@ -1817,7 +1817,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "125386"
+        "hits": "125394"
       }
     ]
   }
