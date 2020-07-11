@@ -54,31 +54,31 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/pocket?limit=5000"
       }
     ],
@@ -89,7 +89,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "89"
       }
     ]
   },
@@ -101,15 +101,15 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
-      },
-      {
-        "hits": "24",
         "url": "/note/index.xml"
       },
       {
         "hits": "24",
         "url": "/photo/index.xml"
+      },
+      {
+        "hits": "24",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "14",
@@ -125,19 +125,15 @@
       },
       {
         "hits": "4",
-        "url": "/post/2019-10-27-the-professor/"
-      },
-      {
-        "hits": "4",
         "url": "/highlight/la-haine-society/"
       },
       {
         "hits": "4",
-        "url": "/articles/liked/"
+        "url": "/analytics/month/"
       },
       {
         "hits": "4",
-        "url": "/analytics/month/"
+        "url": "/articles/liked/"
       },
       {
         "hits": "4",
@@ -158,6 +154,10 @@
       {
         "hits": "3",
         "url": "/films/towatch/"
+      },
+      {
+        "hits": "3",
+        "url": "/journal/"
       },
       {
         "hits": "3",
@@ -189,7 +189,7 @@
       },
       {
         "hits": "3",
-        "url": "/journal/"
+        "url": "/post/2019-10-27-the-professor/"
       },
       {
         "hits": "3",
@@ -377,35 +377,35 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
         "url": "/analytics"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -414,12 +414,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "503"
+        "hits": "501"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2304"
+        "hits": "2298"
       }
     ]
   },
@@ -830,28 +830,28 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/books/read?limit=5000"
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -873,7 +873,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16128"
+        "hits": "16125"
       }
     ]
   },
@@ -1285,6 +1285,10 @@
     "topApiHits": [
       {
         "hits": "7726",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "7726",
         "url": "/pocket?limit=5000"
       },
       {
@@ -1292,24 +1296,20 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7726",
+        "hits": "7725",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "7726",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "7726",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "7726",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "7725",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "7725",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "7725",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "7716",
@@ -1335,7 +1335,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "61829"
+        "hits": "61826"
       }
     ]
   },
@@ -1746,35 +1746,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "16266",
+        "hits": "16267",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "16266",
+        "hits": "16267",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "16266",
+        "hits": "16267",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "16266",
+        "hits": "16267",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "16266",
+        "hits": "16267",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "16266",
+        "hits": "16267",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "16266",
+        "hits": "16267",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "15936",
+        "hits": "15937",
         "url": "/analytics"
       },
       {
@@ -1797,7 +1797,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "129874"
+        "hits": "129882"
       }
     ]
   }
