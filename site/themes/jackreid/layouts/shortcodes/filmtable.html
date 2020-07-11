@@ -15,14 +15,22 @@
   <thead>
     <tr>
       <th>Title</th>
+      {{ if eq $key "watched" }}
       <th>Date</th>
+      {{ else }}
+      <th>Year</th>
+      {{ end }}
     </tr>
   </thead>
   <tbody>
     {{ range $data }}
     <tr>
       <td class="media-table__title">{{ .name }}</td>
-      <td class="media-table__date">{{ dateFormat "2006" .date_updated }}</td>
+      {{ if eq $key "watched" }}
+      <td class="media-table__date">{{ dateFormat "2 Jan '06" .date_updated }}</td>
+      {{ else }}
+      <td class="media-table__date">{{ .year }}</td>
+      {{ end }}
     </tr>
     {{ end }}
   </tbody>
