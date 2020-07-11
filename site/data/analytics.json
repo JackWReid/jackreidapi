@@ -50,12 +50,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -75,7 +75,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -85,7 +85,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -97,15 +97,15 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
-      },
-      {
-        "hits": "24",
         "url": "/note/index.xml"
       },
       {
         "hits": "24",
         "url": "/photo/index.xml"
+      },
+      {
+        "hits": "24",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "16",
@@ -129,11 +129,11 @@
       },
       {
         "hits": "5",
-        "url": "/post/getting-off-of-netlify/"
+        "url": "/analytics/month/"
       },
       {
         "hits": "5",
-        "url": "/analytics/month/"
+        "url": "/post/getting-off-of-netlify/"
       },
       {
         "hits": "5",
@@ -149,6 +149,14 @@
       },
       {
         "hits": "4",
+        "url": "/journal/"
+      },
+      {
+        "hits": "4",
+        "url": "/note/"
+      },
+      {
+        "hits": "4",
         "url": "/favicon.png"
       },
       {
@@ -160,14 +168,6 @@
         "url": "/books/toread/"
       },
       {
-        "hits": "4",
-        "url": "/journal/"
-      },
-      {
-        "hits": "4",
-        "url": "/note/"
-      },
-      {
         "hits": "3",
         "url": "/highlight/"
       },
@@ -177,15 +177,7 @@
       },
       {
         "hits": "3",
-        "url": "/work/"
-      },
-      {
-        "hits": "3",
         "url": "/post/activist-relief-resources/"
-      },
-      {
-        "hits": "3",
-        "url": "/note/top-books-2019/"
       },
       {
         "hits": "3",
@@ -196,12 +188,12 @@
         "url": "/books/reading/"
       },
       {
-        "hits": "2",
-        "url": "/note/2020-01-15-paradise-lost-pullman/"
+        "hits": "3",
+        "url": "/note/top-books-2019/"
       },
       {
-        "hits": "2",
-        "url": "/highlight/covid-urbanist-fantasies/"
+        "hits": "3",
+        "url": "/work/"
       },
       {
         "hits": "2",
@@ -209,7 +201,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-01-07-driving-school/"
+        "url": "/highlight/covid-urbanist-fantasies/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-01-28-tools-i-wish-existed/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-01-15-paradise-lost-pullman/"
       },
       {
         "hits": "2",
@@ -221,7 +221,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/2019-07-24-carlos-williams-love/"
+        "url": "/note/2019-07-24-uss-fitzgerald/"
       },
       {
         "hits": "2",
@@ -229,27 +229,27 @@
       },
       {
         "hits": "2",
-        "url": "/note/2019-07-24-uss-fitzgerald/"
-      },
-      {
-        "hits": "2",
         "url": "/note/2019-07-31-madame-tussaud/"
       },
       {
         "hits": "2",
-        "url": "/note/2020-01-28-tools-i-wish-existed/"
+        "url": "/note/2020-01-07-driving-school/"
       },
       {
         "hits": "2",
-        "url": "/highlight/cessna-badass-plane/"
-      },
-      {
-        "hits": "2",
-        "url": "/journal/2020-05-11/"
+        "url": "/note/2020-02-03-google-maps-hacks/"
       },
       {
         "hits": "2",
         "url": "/journal/page/3/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/2020-07-06/"
+      },
+      {
+        "hits": "2",
+        "url": "/link/page/2/"
       },
       {
         "hits": "2",
@@ -261,6 +261,22 @@
       },
       {
         "hits": "2",
+        "url": "/journal/2020-03-30/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/2020-05-11/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/cessna-badass-plane/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/minneapolis-disband-police/"
+      },
+      {
+        "hits": "2",
         "url": "/journal/2020-03-28/"
       },
       {
@@ -269,27 +285,11 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/minneapolis-disband-police/"
+        "url": "/highlight/wfh-forever/"
       },
       {
         "hits": "2",
-        "url": "/journal/2020-07-06/"
-      },
-      {
-        "hits": "2",
-        "url": "/journal/2020-03-21/"
-      },
-      {
-        "hits": "2",
-        "url": "/journal/2020-03-30/"
-      },
-      {
-        "hits": "2",
-        "url": "/link/page/2/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/samin-nosrat-eating/"
+        "url": "/highlight/american-police-departments/"
       }
     ],
     "topSiteMisses": [
@@ -410,7 +410,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "507"
+        "hits": "506"
       }
     ],
     "totalApiHits": [
@@ -641,7 +641,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2442_hu0e1fde5b801c8e7d278695bc42f057dc_113260_800x0_resize_q75_box.jpg"
+        "url": "/note/how-puzzles-made/"
       },
       {
         "hits": "3",
@@ -649,23 +649,11 @@
       },
       {
         "hits": "3",
-        "url": "/work/images/depop.svg"
+        "url": "/photo/south-india/images/IMG_2442_hu0e1fde5b801c8e7d278695bc42f057dc_113260_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
         "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "3",
-        "url": "/note/how-puzzles-made/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_1852_hufdcdb9ce05456e41ca5036f054c92962_98358_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -673,27 +661,11 @@
       },
       {
         "hits": "2",
-        "url": "/ads.txt"
-      },
-      {
-        "hits": "2",
-        "url": "/note/animal-crossing-labour/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/the-trossachs/images/IMG_0017_huad381fb499f2badc1d9f5391a18539b4_1510751_600x300_fit_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
         "url": "/photo/south-india/images/IMG_2074_hu1ddaec928864e2ac7f3bc7f0b4820fb9_96950_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_2370_hu1ddaec928864e2ac7f3bc7f0b4820fb9_55412_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -705,11 +677,23 @@
       },
       {
         "hits": "2",
-        "url": "/photo/ben-nevis/images/IMG_0029_huad381fb499f2badc1d9f5391a18539b4_924484_600x300_fit_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_1852_hufdcdb9ce05456e41ca5036f054c92962_98358_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
+        "url": "/photo/the-trossachs/images/IMG_0017_huad381fb499f2badc1d9f5391a18539b4_1510751_600x300_fit_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/note/animal-crossing-labour/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2370_hu1ddaec928864e2ac7f3bc7f0b4820fb9_55412_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -717,7 +701,23 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
+        "url": "/work/images/depop.svg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/ads.txt"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/ben-nevis/images/IMG_0029_huad381fb499f2badc1d9f5391a18539b4_924484_600x300_fit_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "1",
@@ -726,10 +726,6 @@
       {
         "hits": "1",
         "url": "/en/wp-includes/wlwmanifest.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/.env"
       },
       {
         "hits": "1",
@@ -745,11 +741,11 @@
       },
       {
         "hits": "1",
-        "url": "/dev/wp-includes/wlwmanifest.xml"
+        "url": "/.env"
       },
       {
         "hits": "1",
-        "url": "/dev/wp-admin/"
+        "url": "/dev/wp-includes/wlwmanifest.xml"
       },
       {
         "hits": "1",
@@ -781,10 +777,6 @@
       },
       {
         "hits": "1",
-        "url": "/note/iranian-shootdown-coverup/"
-      },
-      {
-        "hits": "1",
         "url": "/cms/wp-includes/wlwmanifest.xml"
       },
       {
@@ -793,7 +785,11 @@
       },
       {
         "hits": "1",
-        "url": "/note/aristophanes-wasps/"
+        "url": "/note/iranian-shootdown-coverup/"
+      },
+      {
+        "hits": "1",
+        "url": "/cms/"
       },
       {
         "hits": "1",
@@ -821,36 +817,40 @@
       },
       {
         "hits": "1",
-        "url": "/cms/"
+        "url": "/old/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/aristophanes-wasps/"
       }
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -869,7 +869,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16134"
       }
     ]
   },
@@ -1742,35 +1742,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "16156",
+        "hits": "16157",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "16156",
+        "hits": "16157",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "16156",
+        "hits": "16157",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "16156",
+        "hits": "16157",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "16156",
+        "hits": "16157",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "16156",
+        "hits": "16157",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "16156",
+        "hits": "16157",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "15826",
+        "hits": "15827",
         "url": "/analytics"
       },
       {
@@ -1793,7 +1793,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "128994"
+        "hits": "129002"
       }
     ]
   }
