@@ -2,12 +2,16 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
+        "hits": "1",
+        "url": "/"
       },
       {
         "hits": "1",
         "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -27,11 +31,7 @@
       },
       {
         "hits": "1",
-        "url": "/tags/tech/"
-      },
-      {
-        "hits": "1",
-        "url": "/"
+        "url": "/tags/cities/"
       },
       {
         "hits": "1",
@@ -40,7 +40,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "2",
+        "hits": "3",
         "url": "/robots.txt"
       }
     ],
@@ -80,7 +80,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10"
+        "hits": "9"
       }
     ],
     "totalApiHits": [
@@ -108,7 +108,7 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "10",
+        "hits": "9",
         "url": "/"
       },
       {
@@ -117,7 +117,7 @@
       },
       {
         "hits": "3",
-        "url": "/css/style.css"
+        "url": "/analytics/month/"
       },
       {
         "hits": "3",
@@ -125,43 +125,19 @@
       },
       {
         "hits": "3",
-        "url": "/tags/mentalhealth/"
+        "url": "/highlight/la-haine-society/"
       },
       {
         "hits": "3",
-        "url": "/analytics/month/"
+        "url": "/tags/mentalhealth/"
       },
       {
         "hits": "3",
         "url": "/work/"
       },
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/films/watched/"
-      },
-      {
-        "hits": "3",
-        "url": "/highlight/la-haine-society/"
-      },
-      {
-        "hits": "2",
-        "url": "/books/read/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/no-more-buying-stuff/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/no-apocalypse/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/mother-board-earth/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/snowden/"
       },
       {
         "hits": "2",
@@ -169,15 +145,11 @@
       },
       {
         "hits": "2",
-        "url": "/journal/"
+        "url": "/books/read/"
       },
       {
         "hits": "2",
-        "url": "/articles/saved/"
-      },
-      {
-        "hits": "2",
-        "url": "/journal/2020-04-26/"
+        "url": "/highlight/mother-board-earth/"
       },
       {
         "hits": "2",
@@ -185,11 +157,31 @@
       },
       {
         "hits": "2",
-        "url": "/tags/work/"
+        "url": "/css/style.css"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/snowden/"
       },
       {
         "hits": "2",
         "url": "/journal/2020-03-30/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/cities/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/2020-04-26/"
+      },
+      {
+        "hits": "2",
+        "url": "/articles/saved/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/work/"
       },
       {
         "hits": "2",
@@ -202,6 +194,14 @@
       {
         "hits": "2",
         "url": "/post/getting-of-of-netlify/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/no-apocalypse/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/no-more-buying-stuff/"
       },
       {
         "hits": "2",
@@ -230,6 +230,10 @@
       {
         "hits": "2",
         "url": "/post/music-is-changing/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/"
       },
       {
         "hits": "1",
@@ -277,24 +281,20 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/helms-deep-analysis/"
-      },
-      {
-        "hits": "1",
         "url": "/journal/page/2/"
       },
       {
         "hits": "1",
-        "url": "/journal/2020-04-18/"
+        "url": "/highlight/helms-deep-analysis/"
       },
       {
         "hits": "1",
-        "url": "/journal/2020-04-12/"
+        "url": "/journal/2020-04-18/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "42",
+        "hits": "43",
         "url": "/robots.txt"
       },
       {
@@ -384,16 +384,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -401,7 +397,7 @@
       },
       {
         "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "url": "/analytics"
       },
       {
         "hits": "287",
@@ -413,17 +409,21 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "281"
+        "hits": "279"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2296"
+        "hits": "2298"
       }
     ]
   },
@@ -439,11 +439,11 @@
       },
       {
         "hits": "169",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "169",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "168",
@@ -466,12 +466,12 @@
         "url": "/highlight/praise-walking-cofee/"
       },
       {
-        "hits": "39",
-        "url": "/highlight/apartments-from-malls/"
+        "hits": "38",
+        "url": "/highlight/runaway-media/"
       },
       {
         "hits": "38",
-        "url": "/highlight/runaway-media/"
+        "url": "/highlight/apartments-from-malls/"
       },
       {
         "hits": "36",
@@ -559,6 +559,10 @@
       },
       {
         "hits": "10",
+        "url": "/tags/cities/"
+      },
+      {
+        "hits": "10",
         "url": "/analytics/day/"
       },
       {
@@ -572,10 +576,6 @@
       {
         "hits": "9",
         "url": "/analytics/month/"
-      },
-      {
-        "hits": "9",
-        "url": "/tags/cities/"
       },
       {
         "hits": "9",
@@ -834,20 +834,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -856,6 +844,18 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -877,7 +877,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16125"
       }
     ]
   },
@@ -908,7 +908,7 @@
         "url": "/highlight/minneapolis-disband-police/"
       },
       {
-        "hits": "298",
+        "hits": "297",
         "url": "/open-graph.png"
       },
       {
@@ -1056,7 +1056,7 @@
         "url": "/tags/covid-19/"
       },
       {
-        "hits": "23",
+        "hits": "24",
         "url": "/tags/cities/"
       },
       {
@@ -1548,7 +1548,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "2524",
+        "hits": "2525",
         "url": "/robots.txt"
       },
       {
@@ -1750,35 +1750,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "16362",
+        "hits": "16363",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "16362",
+        "hits": "16363",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "16362",
+        "hits": "16363",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "16362",
+        "hits": "16363",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "16362",
+        "hits": "16363",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "16362",
+        "hits": "16363",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "16362",
+        "hits": "16363",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "16032",
+        "hits": "16033",
         "url": "/analytics"
       },
       {
@@ -1796,12 +1796,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "22077"
+        "hits": "22078"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "130642"
+        "hits": "130650"
       }
     ]
   }
