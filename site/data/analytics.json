@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
+        "hits": "3",
         "url": "/index.xml"
       },
       {
@@ -58,12 +58,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -83,17 +83,17 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "11"
+        "hits": "12"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -112,7 +112,7 @@
         "url": "/note/index.xml"
       },
       {
-        "hits": "24",
+        "hits": "23",
         "url": "/photo/index.xml"
       },
       {
@@ -129,6 +129,14 @@
       },
       {
         "hits": "3",
+        "url": "/tags/mentalhealth/"
+      },
+      {
+        "hits": "3",
+        "url": "/post/activist-relief-resources/"
+      },
+      {
+        "hits": "3",
         "url": "/note/2020-01-02-04-coronavirus-central-lockdown/"
       },
       {
@@ -136,12 +144,12 @@
         "url": "/post/2019-10-27-the-professor/"
       },
       {
-        "hits": "3",
-        "url": "/tags/mentalhealth/"
+        "hits": "2",
+        "url": "/tags/tech/"
       },
       {
-        "hits": "3",
-        "url": "/post/activist-relief-resources/"
+        "hits": "2",
+        "url": "/highlight/mouse-feeder-welfare/"
       },
       {
         "hits": "2",
@@ -153,15 +161,23 @@
       },
       {
         "hits": "2",
-        "url": "/tags/tech/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/cessna-badass-plane/"
+        "url": "/note/2020-05-10t18-51-21/"
       },
       {
         "hits": "2",
         "url": "/highlight/no-apocalypse/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/oil-derricks-of-la/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/chat-roulette-quar/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/cessna-badass-plane/"
       },
       {
         "hits": "2",
@@ -173,27 +189,11 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/mouse-feeder-welfare/"
-      },
-      {
-        "hits": "2",
         "url": "/journal/2020-04-26/"
       },
       {
         "hits": "2",
-        "url": "/highlight/chat-roulette-quar/"
-      },
-      {
-        "hits": "2",
         "url": "/note/2020-04-18-corona-nyc-hospitals/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/oil-derricks-of-la/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-05-10t18-51-21/"
       },
       {
         "hits": "1",
@@ -210,10 +210,6 @@
       {
         "hits": "1",
         "url": "/journal/2020-04-18/"
-      },
-      {
-        "hits": "1",
-        "url": "/journal/2020-04-23/"
       },
       {
         "hits": "1",
@@ -298,6 +294,10 @@
       {
         "hits": "1",
         "url": "/post/2016-08-22-confessions-of-a-news-addict/"
+      },
+      {
+        "hits": "1",
+        "url": "/post/index.xml"
       }
     ],
     "topSiteMisses": [
@@ -396,7 +396,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
@@ -426,19 +426,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "248"
+        "hits": "246"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2297"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "332",
+        "hits": "333",
         "url": "/index.xml"
       },
       {
@@ -880,7 +880,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2696"
+        "hits": "2697"
       }
     ],
     "totalApiHits": [
@@ -900,7 +900,7 @@
         "url": "/note/index.xml"
       },
       {
-        "hits": "724",
+        "hits": "723",
         "url": "/photo/index.xml"
       },
       {
@@ -1296,20 +1296,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "7726",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7726",
+        "hits": "7725",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "7725",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "7725",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7725",
@@ -1324,6 +1316,14 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "7725",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7725",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "7716",
         "url": "/analytics"
       },
@@ -1333,28 +1333,28 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8945"
+        "hits": "8944"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61823"
+        "hits": "61821"
       }
     ]
   },
   "year": {
     "topSiteHits": [
       {
-        "hits": "2775",
+        "hits": "2776",
         "url": "/index.xml"
       },
       {
@@ -1758,35 +1758,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "16485",
+        "hits": "16486",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "16485",
+        "hits": "16486",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "16485",
+        "hits": "16486",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "16485",
+        "hits": "16486",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "16485",
+        "hits": "16486",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "16485",
+        "hits": "16486",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "16485",
+        "hits": "16486",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "16155",
+        "hits": "16156",
         "url": "/analytics"
       },
       {
@@ -1804,12 +1804,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "22183"
+        "hits": "22184"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "131626"
+        "hits": "131634"
       }
     ]
   }
