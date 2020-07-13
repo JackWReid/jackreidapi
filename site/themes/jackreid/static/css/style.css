@@ -1,6 +1,7 @@
 :root {
   --c-bg: #faeee7;
-  --c-body: #000;
+  --c-body: #313030;
+  --c-heading: #000;
   --f-base: -apple-system, blinkmacsystemfont, 'segoe ui', roboto, oxygen-sans,
     ubuntu, cantarell, 'helvetica neue', sans-serif;
   --f-mono: Inconsolata, monospace;
@@ -14,6 +15,7 @@
   :root {
     --c-bg: #232946;
     --c-body: #FFF;
+    --c-heading: #FFF;
   }
 }
 
@@ -83,6 +85,10 @@ figure {
 
 figcaption {
   font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--c-heading);
 }
 
 .two-col-wrapper {
