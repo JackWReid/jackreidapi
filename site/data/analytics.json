@@ -170,12 +170,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -195,7 +195,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -205,7 +205,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -232,20 +232,12 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "9",
+        "hits": "8",
         "url": "/"
       },
       {
         "hits": "4",
         "url": "/post/activist-relief-resources/"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/history/"
-      },
-      {
-        "hits": "3",
-        "url": "/articles/liked/"
       },
       {
         "hits": "3",
@@ -257,6 +249,14 @@
       },
       {
         "hits": "3",
+        "url": "/highlight/cessna-badass-plane/"
+      },
+      {
+        "hits": "3",
+        "url": "/tags/history/"
+      },
+      {
+        "hits": "3",
         "url": "/films/watched/"
       },
       {
@@ -265,7 +265,7 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/cessna-badass-plane/"
+        "url": "/articles/liked/"
       },
       {
         "hits": "3",
@@ -277,11 +277,7 @@
       },
       {
         "hits": "2",
-        "url": "/articles/saved/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/american-police-departments/"
+        "url": "/highlight/human-scale-cities/"
       },
       {
         "hits": "2",
@@ -289,7 +285,15 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/human-scale-cities/"
+        "url": "/tags/tech/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/larry-kramer-obit/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/ford-best-games/"
       },
       {
         "hits": "2",
@@ -301,19 +305,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/tech/"
+        "url": "/highlight/american-police-departments/"
       },
       {
         "hits": "2",
-        "url": "/work/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "2",
         "url": "/tags/language/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/larry-kramer-obit/"
       },
       {
         "hits": "2",
@@ -368,10 +368,6 @@
         "url": "/tags/running/"
       },
       {
-        "hits": "2",
-        "url": "/highlight/ford-best-games/"
-      },
-      {
         "hits": "1",
         "url": "/highlight/negroni-season/"
       },
@@ -410,11 +406,15 @@
       {
         "hits": "1",
         "url": "/highlight/bridgers-rolling-stone/"
+      },
+      {
+        "hits": "1",
+        "url": "/analytics/day/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "48",
+        "hits": "47",
         "url": "/robots.txt"
       },
       {
@@ -477,15 +477,11 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
         "hits": "287",
@@ -508,18 +504,22 @@
         "url": "/pocket?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "337"
+        "hits": "334"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2300"
       }
     ]
   },
@@ -579,15 +579,15 @@
       },
       {
         "hits": "27",
-        "url": "/articles/saved/"
-      },
-      {
-        "hits": "27",
         "url": "/highlight/michael-the-destroyer/"
       },
       {
         "hits": "27",
         "url": "/highlight/thandie-newton-profile/"
+      },
+      {
+        "hits": "27",
+        "url": "/articles/saved/"
       },
       {
         "hits": "19",
@@ -599,11 +599,11 @@
       },
       {
         "hits": "16",
-        "url": "/films/watched/"
+        "url": "/note/"
       },
       {
         "hits": "16",
-        "url": "/note/"
+        "url": "/films/watched/"
       },
       {
         "hits": "15",
@@ -639,11 +639,11 @@
       },
       {
         "hits": "12",
-        "url": "/work/"
+        "url": "/highlight/"
       },
       {
         "hits": "12",
-        "url": "/highlight/"
+        "url": "/work/"
       },
       {
         "hits": "11",
@@ -671,6 +671,10 @@
       },
       {
         "hits": "8",
+        "url": "/tags/mentalhealth/"
+      },
+      {
+        "hits": "8",
         "url": "/tags/news/"
       },
       {
@@ -694,10 +698,6 @@
         "url": "/post/getting-of-of-netlify/"
       },
       {
-        "hits": "8",
-        "url": "/tags/mentalhealth/"
-      },
-      {
         "hits": "7",
         "url": "/tags/nyc/"
       },
@@ -719,11 +719,11 @@
       },
       {
         "hits": "7",
-        "url": "/tags/justice/"
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "7",
-        "url": "/highlight/snowden-gellman/"
+        "url": "/tags/justice/"
       }
     ],
     "topSiteMisses": [
@@ -930,28 +930,28 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -968,12 +968,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2770"
+        "hits": "2769"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16131"
       }
     ]
   },
@@ -1846,35 +1846,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "16649",
+        "hits": "16650",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "16649",
+        "hits": "16650",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "16649",
+        "hits": "16650",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "16649",
+        "hits": "16650",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "16649",
+        "hits": "16650",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "16649",
+        "hits": "16650",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "16649",
+        "hits": "16650",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "16319",
+        "hits": "16320",
         "url": "/analytics"
       },
       {
@@ -1897,7 +1897,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "132940"
+        "hits": "132948"
       }
     ]
   }
