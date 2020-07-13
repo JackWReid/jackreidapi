@@ -2,8 +2,28 @@
   "hour": {
     "topSiteHits": [
       {
+        "hits": "2",
+        "url": "/index.xml"
+      },
+      {
         "hits": "1",
-        "url": "/"
+        "url": "/articles/liked/"
+      },
+      {
+        "hits": "1",
+        "url": "/articles/saved/"
+      },
+      {
+        "hits": "1",
+        "url": "/books/toread/"
+      },
+      {
+        "hits": "1",
+        "url": "/films/towatch/"
+      },
+      {
+        "hits": "1",
+        "url": "/films/watched/"
       },
       {
         "hits": "1",
@@ -11,15 +31,23 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/lbj-movies/"
+        "url": "/highlight/page/2/"
       },
       {
         "hits": "1",
-        "url": "/index.xml"
+        "url": "/journal/2020-04-23/"
       },
       {
         "hits": "1",
-        "url": "/note/2019-07-22-bob-fosse/"
+        "url": "/journal/page/3/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-05-13t084605.059z/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-05-23t08-29-41/"
       },
       {
         "hits": "1",
@@ -47,11 +75,19 @@
       },
       {
         "hits": "1",
+        "url": "/tags/dev/"
+      },
+      {
+        "hits": "1",
         "url": "/tags/justice/"
       },
       {
         "hits": "1",
         "url": "/tags/magazine/"
+      },
+      {
+        "hits": "1",
+        "url": "/"
       },
       {
         "hits": "1",
@@ -74,12 +110,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -99,24 +135,24 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "14"
+        "hits": "24"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "47",
+        "hits": "48",
         "url": "/index.xml"
       },
       {
@@ -125,19 +161,19 @@
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
-      },
-      {
-        "hits": "24",
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "8",
-        "url": "/open-graph.png"
+        "hits": "24",
+        "url": "/photo/index.xml"
       },
       {
         "hits": "8",
         "url": "/"
+      },
+      {
+        "hits": "8",
+        "url": "/open-graph.png"
       },
       {
         "hits": "4",
@@ -145,39 +181,23 @@
       },
       {
         "hits": "3",
+        "url": "/films/watched/"
+      },
+      {
+        "hits": "3",
+        "url": "/articles/liked/"
+      },
+      {
+        "hits": "3",
         "url": "/tags/tech/"
       },
       {
         "hits": "2",
-        "url": "/films/watched/"
+        "url": "/note/2020-05-13t084605.059z/"
       },
       {
         "hits": "2",
-        "url": "/highlight/cessna-badass-plane/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2019-07-22-bob-fosse/"
-      },
-      {
-        "hits": "2",
-        "url": "/articles/liked/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/neofeudalism-larb/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/accessibility/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/google-hire-freeze/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "2",
@@ -185,19 +205,7 @@
       },
       {
         "hits": "2",
-        "url": "/rss/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/running/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/off-road-land-trains/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/2019-10-27-the-professor/"
+        "url": "/note/2019-07-22-bob-fosse/"
       },
       {
         "hits": "2",
@@ -205,31 +213,51 @@
       },
       {
         "hits": "2",
-        "url": "/post/activist-relief-resources/"
+        "url": "/tags/running/"
       },
       {
-        "hits": "1",
-        "url": "/highlight/low-tech-election-iowa/"
+        "hits": "2",
+        "url": "/rss/"
       },
       {
-        "hits": "1",
-        "url": "/highlight/trump-covid-meltdown/"
+        "hits": "2",
+        "url": "/post/2019-10-27-the-professor/"
       },
       {
-        "hits": "1",
-        "url": "/highlight/lbj-movies/"
+        "hits": "2",
+        "url": "/tags/accessibility/"
+      },
+      {
+        "hits": "2",
+        "url": "/articles/saved/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/off-road-land-trains/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/cessna-badass-plane/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/google-hire-freeze/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/dev/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/neofeudalism-larb/"
       },
       {
         "hits": "1",
         "url": "/highlight/the-american-room/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/wfh-forever/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/world-without-cops/"
       },
       {
         "hits": "1",
@@ -241,7 +269,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/robert-pattinson/"
+        "url": "/highlight/trump-covid-meltdown/"
       },
       {
         "hits": "1",
@@ -249,11 +277,11 @@
       },
       {
         "hits": "1",
-        "url": "/articles/saved/"
+        "url": "/books/toread/"
       },
       {
         "hits": "1",
-        "url": "/analytics/day/"
+        "url": "/highlight/robert-pattinson/"
       },
       {
         "hits": "1",
@@ -261,15 +289,27 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/pandemic-cars/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/finland-media-literate/"
       },
       {
         "hits": "1",
+        "url": "/highlight/pandemic-cars/"
+      },
+      {
+        "hits": "1",
         "url": "/note/2020-01-11-contrecoup/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/page/2/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/coronavirus-city-sound/"
+      },
+      {
+        "hits": "1",
+        "url": "/analytics/day/"
       },
       {
         "hits": "1",
@@ -285,6 +325,22 @@
       },
       {
         "hits": "1",
+        "url": "/media/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/page/3/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/2020-07-12/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/2020-05-03/"
+      },
+      {
+        "hits": "1",
         "url": "/note/2020-01-27iranian-shootdown-coverup/"
       },
       {
@@ -293,27 +349,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/2020-04-18-corona-nyc-hospitals/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-04-26-second-note/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-04-27t21-23-08/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-04-29t18-37-15/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-04-29t19-25-35/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/coronavirus-city-sound/"
+        "url": "/highlight/negroni-season/"
       }
     ],
     "topSiteMisses": [
@@ -385,35 +421,35 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "2",
@@ -422,19 +458,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "252"
+        "hits": "264"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2306"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "330",
+        "hits": "331",
         "url": "/index.xml"
       },
       {
@@ -443,15 +479,15 @@
       },
       {
         "hits": "169",
-        "url": "/note/index.xml"
-      },
-      {
-        "hits": "169",
         "url": "/photo/index.xml"
       },
       {
         "hits": "169",
         "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "169",
+        "url": "/note/index.xml"
       },
       {
         "hits": "105",
@@ -486,16 +522,16 @@
         "url": "/favicon.png"
       },
       {
+        "hits": "28",
+        "url": "/articles/saved/"
+      },
+      {
         "hits": "27",
         "url": "/highlight/michael-the-destroyer/"
       },
       {
         "hits": "27",
         "url": "/highlight/thandie-newton-profile/"
-      },
-      {
-        "hits": "27",
-        "url": "/articles/saved/"
       },
       {
         "hits": "18",
@@ -510,7 +546,7 @@
         "url": "/note/"
       },
       {
-        "hits": "15",
+        "hits": "16",
         "url": "/films/watched/"
       },
       {
@@ -527,6 +563,10 @@
       },
       {
         "hits": "13",
+        "url": "/books/toread/"
+      },
+      {
+        "hits": "13",
         "url": "/books/read/"
       },
       {
@@ -534,12 +574,8 @@
         "url": "/media/"
       },
       {
-        "hits": "12",
-        "url": "/uses/"
-      },
-      {
-        "hits": "12",
-        "url": "/books/toread/"
+        "hits": "13",
+        "url": "/articles/liked/"
       },
       {
         "hits": "12",
@@ -547,11 +583,11 @@
       },
       {
         "hits": "12",
-        "url": "/highlight/"
+        "url": "/uses/"
       },
       {
         "hits": "12",
-        "url": "/articles/liked/"
+        "url": "/highlight/"
       },
       {
         "hits": "11",
@@ -603,6 +639,10 @@
       },
       {
         "hits": "8",
+        "url": "/films/towatch/"
+      },
+      {
+        "hits": "8",
         "url": "/tags/mentalhealth/"
       },
       {
@@ -611,7 +651,15 @@
       },
       {
         "hits": "7",
+        "url": "/post/2019-10-27-the-professor/"
+      },
+      {
+        "hits": "7",
         "url": "/tags/nyc/"
+      },
+      {
+        "hits": "7",
+        "url": "/tags/dev/"
       },
       {
         "hits": "7",
@@ -620,18 +668,6 @@
       {
         "hits": "7",
         "url": "/highlight/world-without-cops/"
-      },
-      {
-        "hits": "7",
-        "url": "/films/towatch/"
-      },
-      {
-        "hits": "7",
-        "url": "/post/2019-10-27-the-professor/"
-      },
-      {
-        "hits": "6",
-        "url": "/elsewhere/"
       }
     ],
     "topSiteMisses": [
@@ -838,31 +874,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -876,19 +912,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2690"
+        "hits": "2702"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16134"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1335",
+        "hits": "1336",
         "url": "/index.xml"
       },
       {
@@ -896,12 +932,12 @@
         "url": "/note/index.xml"
       },
       {
-        "hits": "724",
-        "url": "/photo/index.xml"
+        "hits": "723",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "723",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "395",
@@ -932,7 +968,7 @@
         "url": "/highlight/praise-walking-cofee/"
       },
       {
-        "hits": "76",
+        "hits": "77",
         "url": "/articles/saved/"
       },
       {
@@ -996,7 +1032,7 @@
         "url": "/elsewhere/"
       },
       {
-        "hits": "34",
+        "hits": "35",
         "url": "/articles/liked/"
       },
       {
@@ -1016,16 +1052,16 @@
         "url": "/uses/"
       },
       {
-        "hits": "31",
-        "url": "/tags/accessibility/"
-      },
-      {
-        "hits": "31",
+        "hits": "32",
         "url": "/films/watched/"
       },
       {
-        "hits": "30",
+        "hits": "31",
         "url": "/books/toread/"
+      },
+      {
+        "hits": "31",
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "27",
@@ -1077,15 +1113,15 @@
       },
       {
         "hits": "21",
-        "url": "/tags/mentalhealth/"
-      },
-      {
-        "hits": "21",
         "url": "/tags/web/"
       },
       {
         "hits": "21",
         "url": "/tags/food/"
+      },
+      {
+        "hits": "21",
+        "url": "/note/google-hire-freeze/"
       }
     ],
     "topSiteMisses": [
@@ -1292,6 +1328,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "7726",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "7725",
         "url": "/pocket?limit=5000"
       },
@@ -1313,10 +1353,6 @@
       },
       {
         "hits": "7725",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7725",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1329,28 +1365,28 @@
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8969"
+        "hits": "8980"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61822"
+        "hits": "61823"
       }
     ]
   },
   "year": {
     "topSiteHits": [
       {
-        "hits": "2796",
+        "hits": "2797",
         "url": "/index.xml"
       },
       {
@@ -1394,7 +1430,7 @@
         "url": "/post/activist-relief-resources/"
       },
       {
-        "hits": "153",
+        "hits": "154",
         "url": "/articles/saved/"
       },
       {
@@ -1403,11 +1439,11 @@
       },
       {
         "hits": "135",
-        "url": "/note/"
+        "url": "/highlight/wfh-forever/"
       },
       {
         "hits": "135",
-        "url": "/highlight/wfh-forever/"
+        "url": "/note/"
       },
       {
         "hits": "123",
@@ -1502,7 +1538,7 @@
         "url": "/highlight/tfl-streetspace/"
       },
       {
-        "hits": "63",
+        "hits": "64",
         "url": "/films/watched/"
       },
       {
@@ -1519,6 +1555,10 @@
       },
       {
         "hits": "61",
+        "url": "/articles/liked/"
+      },
+      {
+        "hits": "61",
         "url": "/highlight/american-girl-doll-history/"
       },
       {
@@ -1528,10 +1568,6 @@
       {
         "hits": "60",
         "url": "/highlight/off-road-land-trains/"
-      },
-      {
-        "hits": "60",
-        "url": "/articles/liked/"
       },
       {
         "hits": "60",
@@ -1754,35 +1790,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "16617",
+        "hits": "16618",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "16617",
+        "hits": "16618",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "16617",
+        "hits": "16618",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "16617",
+        "hits": "16618",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "16617",
+        "hits": "16618",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "16617",
+        "hits": "16618",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "16617",
+        "hits": "16618",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "16287",
+        "hits": "16288",
         "url": "/analytics"
       },
       {
@@ -1800,12 +1836,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "22301"
+        "hits": "22313"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "132684"
+        "hits": "132692"
       }
     ]
   }
