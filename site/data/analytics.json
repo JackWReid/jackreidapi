@@ -23,6 +23,10 @@
       },
       {
         "hits": "1",
+        "url": "/note/2020-05-19t13-15-23/"
+      },
+      {
+        "hits": "1",
         "url": "/note/2020-05-23t08-29-41/"
       },
       {
@@ -44,7 +48,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "2",
+        "hits": "1",
         "url": "/robots.txt"
       }
     ],
@@ -54,12 +58,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -79,17 +83,17 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "11"
+        "hits": "12"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -109,11 +113,11 @@
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "8",
@@ -125,11 +129,7 @@
       },
       {
         "hits": "3",
-        "url": "/articles/liked/"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/history/"
+        "url": "/films/watched/"
       },
       {
         "hits": "3",
@@ -137,15 +137,15 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/new-york-geology/"
-      },
-      {
-        "hits": "3",
         "url": "/tags/music/"
       },
       {
         "hits": "3",
-        "url": "/films/watched/"
+        "url": "/highlight/new-york-geology/"
+      },
+      {
+        "hits": "3",
+        "url": "/tags/history/"
       },
       {
         "hits": "3",
@@ -154,6 +154,10 @@
       {
         "hits": "3",
         "url": "/note/2020-01-02-04-coronavirus-central-lockdown/"
+      },
+      {
+        "hits": "3",
+        "url": "/articles/liked/"
       },
       {
         "hits": "2",
@@ -165,7 +169,7 @@
       },
       {
         "hits": "2",
-        "url": "/post/index.xml"
+        "url": "/highlight/larry-kramer-obit/"
       },
       {
         "hits": "2",
@@ -173,19 +177,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/american-police-departments/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/running/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/larry-kramer-obit/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/accessibility/"
+        "url": "/tags/language/"
       },
       {
         "hits": "2",
@@ -193,59 +185,23 @@
       },
       {
         "hits": "2",
+        "url": "/highlight/american-police-departments/"
+      },
+      {
+        "hits": "2",
         "url": "/rss/"
       },
       {
         "hits": "2",
-        "url": "/tags/dev/"
+        "url": "/tags/running/"
       },
       {
         "hits": "2",
-        "url": "/post/2019-10-27-the-professor/"
+        "url": "/post/index.xml"
       },
       {
         "hits": "2",
-        "url": "/highlight/ronan-farrow-too-good/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/neofeudalism-larb/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/human-scale-cities/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/reading-in-the-dark/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/covid-flour-surge/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/google-hire-freeze/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/coronavirus-city-sound/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-05-23t08-29-41/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2019-07-22-bob-fosse/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-05-28t09-04-31/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/ford-best-games/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "2",
@@ -253,7 +209,59 @@
       },
       {
         "hits": "2",
-        "url": "/tags/language/"
+        "url": "/highlight/human-scale-cities/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/neofeudalism-larb/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/2019-10-27-the-professor/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/dev/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/google-hire-freeze/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/covid-flour-surge/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-05-28t09-04-31/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/coronavirus-city-sound/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-05-19t13-15-23/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/reading-in-the-dark/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/ford-best-games/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2019-07-22-bob-fosse/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/ronan-farrow-too-good/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-05-23t08-29-41/"
       },
       {
         "hits": "1",
@@ -290,10 +298,6 @@
       {
         "hits": "1",
         "url": "/highlight/world-without-cops/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/lbj-movies/"
       }
     ],
     "topSiteMisses": [
@@ -368,8 +372,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
@@ -381,15 +389,11 @@
       },
       {
         "hits": "287",
-        "url": "/books/read?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2",
@@ -398,12 +402,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "337"
+        "hits": "338"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2301"
+        "hits": "2300"
       }
     ]
   },
@@ -814,20 +818,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -836,6 +828,18 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -852,12 +856,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2774"
+        "hits": "2775"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16129"
+        "hits": "16127"
       }
     ]
   },
@@ -1314,7 +1318,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9066"
+        "hits": "9067"
       }
     ],
     "totalApiHits": [
@@ -1730,35 +1734,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "16659",
+        "hits": "16660",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "16659",
+        "hits": "16660",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "16659",
+        "hits": "16660",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "16659",
+        "hits": "16660",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "16659",
+        "hits": "16660",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "16659",
+        "hits": "16660",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "16659",
+        "hits": "16660",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "16329",
+        "hits": "16330",
         "url": "/analytics"
       },
       {
@@ -1776,12 +1780,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "22422"
+        "hits": "22423"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "133020"
+        "hits": "133028"
       }
     ]
   }
