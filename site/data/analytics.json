@@ -2,8 +2,8 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "1",
-        "url": "/"
+        "hits": "2",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -27,7 +27,7 @@
       },
       {
         "hits": "1",
-        "url": "/index.xml"
+        "url": "/journal/"
       },
       {
         "hits": "1",
@@ -43,19 +43,14 @@
       },
       {
         "hits": "1",
-        "url": "/photo/index.xml"
+        "url": "/"
       },
       {
         "hits": "1",
-        "url": "/tags/history/index.xml"
+        "url": "/photo/index.xml"
       }
     ],
-    "topSiteMisses": [
-      {
-        "hits": "1",
-        "url": "/robots.txt"
-      }
-    ],
+    "topSiteMisses": [],
     "topApiHits": [
       {
         "hits": "12",
@@ -92,7 +87,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "12"
+        "hits": "13"
       }
     ],
     "totalApiHits": [
@@ -104,7 +99,7 @@
   "day": {
     "topSiteHits": [
       {
-        "hits": "48",
+        "hits": "49",
         "url": "/index.xml"
       },
       {
@@ -113,11 +108,11 @@
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "13",
@@ -141,19 +136,11 @@
       },
       {
         "hits": "3",
+        "url": "/tags/dev/"
+      },
+      {
+        "hits": "3",
         "url": "/css/style.css"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/scotland/"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/short-story/"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/technology/"
       },
       {
         "hits": "3",
@@ -161,15 +148,23 @@
       },
       {
         "hits": "3",
-        "url": "/tags/dev/"
+        "url": "/tags/scotland/"
       },
       {
         "hits": "3",
         "url": "/post/"
       },
       {
+        "hits": "3",
+        "url": "/tags/short-story/"
+      },
+      {
         "hits": "2",
         "url": "/journal/2020-05-16/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/"
       },
       {
         "hits": "2",
@@ -178,6 +173,10 @@
       {
         "hits": "2",
         "url": "/note/2020-01-21-senate-impeachment-hamilton/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/technology/"
       },
       {
         "hits": "2",
@@ -242,10 +241,6 @@
       {
         "hits": "1",
         "url": "/journal/2020-03-30/"
-      },
-      {
-        "hits": "1",
-        "url": "/journal/"
       },
       {
         "hits": "1",
@@ -361,7 +356,11 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "288",
@@ -369,23 +368,19 @@
       },
       {
         "hits": "288",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
         "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/watched?limit=5000"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "286",
@@ -394,19 +389,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "287"
+        "hits": "288"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2302"
+        "hits": "2300"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "331",
+        "hits": "332",
         "url": "/index.xml"
       },
       {
@@ -454,12 +449,12 @@
         "url": "/post/activist-relief-resources/"
       },
       {
-        "hits": "17",
-        "url": "/films/watched/"
+        "hits": "18",
+        "url": "/journal/"
       },
       {
         "hits": "17",
-        "url": "/journal/"
+        "url": "/films/watched/"
       },
       {
         "hits": "15",
@@ -811,14 +806,6 @@
     "topApiHits": [
       {
         "hits": "2016",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2016",
         "url": "/films/watched?limit=5000"
       },
       {
@@ -827,14 +814,22 @@
       },
       {
         "hits": "2016",
-        "url": "/books/reading?limit=5000"
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "2016",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -848,19 +843,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2452"
+        "hits": "2454"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16131"
+        "hits": "16128"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1335",
+        "hits": "1336",
         "url": "/index.xml"
       },
       {
@@ -920,7 +915,7 @@
         "url": "/highlight/world-without-cops/"
       },
       {
-        "hits": "63",
+        "hits": "64",
         "url": "/journal/"
       },
       {
@@ -1310,7 +1305,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9235"
+        "hits": "9237"
       }
     ],
     "totalApiHits": [
@@ -1322,7 +1317,7 @@
   "year": {
     "topSiteHits": [
       {
-        "hits": "2879",
+        "hits": "2880",
         "url": "/index.xml"
       },
       {
@@ -1382,7 +1377,7 @@
         "url": "/note/"
       },
       {
-        "hits": "125",
+        "hits": "126",
         "url": "/journal/"
       },
       {
@@ -1726,35 +1721,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "17121",
+        "hits": "17122",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "17121",
+        "hits": "17122",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "17121",
+        "hits": "17122",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "17121",
+        "hits": "17122",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "17121",
+        "hits": "17122",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "17121",
+        "hits": "17122",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "17121",
+        "hits": "17122",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "16789",
+        "hits": "16790",
         "url": "/analytics"
       },
       {
@@ -1772,12 +1767,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "22923"
+        "hits": "22925"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "136714"
+        "hits": "136722"
       }
     ]
   }
