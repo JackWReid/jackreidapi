@@ -50,16 +50,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "11",
-        "url": "/analytics"
-      },
-      {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -67,7 +63,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/toread?limit=5000"
+        "url": "/analytics"
       },
       {
         "hits": "11",
@@ -79,7 +75,11 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -89,14 +89,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "88"
+        "hits": "90"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "48",
+        "hits": "47",
         "url": "/index.xml"
       },
       {
@@ -398,7 +398,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "321"
+        "hits": "320"
       }
     ],
     "totalApiHits": [
@@ -880,7 +880,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "404",
+        "hits": "403",
         "url": "/"
       },
       {
@@ -1066,7 +1066,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1439",
+        "hits": "1438",
         "url": "/robots.txt"
       },
       {
@@ -1095,15 +1095,11 @@
       },
       {
         "hits": "7",
+        "url": "/note/there-is-no-outside/"
+      },
+      {
+        "hits": "7",
         "url": "/photo/south-india/images/IMG_2370_hu1ddaec928864e2ac7f3bc7f0b4820fb9_55412_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "7",
-        "url": "/photo/south-india/images/IMG_1919_hu737147df5fde39d335039aa0fd05e9e4_122464_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "7",
-        "url": "/note/eugenics-statistics/"
       },
       {
         "hits": "7",
@@ -1111,7 +1107,7 @@
       },
       {
         "hits": "7",
-        "url": "/images/poppy.jpg"
+        "url": "/note/eugenics-statistics/"
       },
       {
         "hits": "7",
@@ -1119,19 +1115,11 @@
       },
       {
         "hits": "7",
-        "url": "/note/there-is-no-outside/"
+        "url": "/images/poppy.jpg"
       },
       {
-        "hits": "6",
-        "url": "/humans.txt"
-      },
-      {
-        "hits": "6",
-        "url": "/ads.txt"
-      },
-      {
-        "hits": "6",
-        "url": "/note/madame-tussaud/"
+        "hits": "7",
+        "url": "/photo/south-india/images/IMG_1919_hu737147df5fde39d335039aa0fd05e9e4_122464_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "6",
@@ -1143,7 +1131,7 @@
       },
       {
         "hits": "6",
-        "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
+        "url": "/note/madame-tussaud/"
       },
       {
         "hits": "6",
@@ -1163,6 +1151,14 @@
       },
       {
         "hits": "6",
+        "url": "/photo/south-india/images/IMG_2103_hu737147df5fde39d335039aa0fd05e9e4_349470_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "6",
+        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "6",
         "url": "/note/how-puzzles-made/"
       },
       {
@@ -1170,16 +1166,12 @@
         "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
       },
       {
-        "hits": "6",
-        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "5",
-        "url": "/photos/budapest"
-      },
-      {
         "hits": "5",
         "url": "/photo/south-india/images/IMG_2442_hu0e1fde5b801c8e7d278695bc42f057dc_113260_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "5",
+        "url": "/ads.txt"
       },
       {
         "hits": "5",
@@ -1188,6 +1180,10 @@
       {
         "hits": "5",
         "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "5",
+        "url": "/photos/budapest"
       },
       {
         "hits": "5",
@@ -1200,6 +1196,10 @@
       {
         "hits": "5",
         "url": "/photo/south-india/images/IMG_2130_hu737147df5fde39d335039aa0fd05e9e4_193061_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "5",
+        "url": "/humans.txt"
       },
       {
         "hits": "5",
@@ -1314,7 +1314,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9235"
+        "hits": "9234"
       }
     ],
     "totalApiHits": [
@@ -1730,35 +1730,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "16997",
+        "hits": "16998",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "16997",
+        "hits": "16998",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "16997",
+        "hits": "16998",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "16997",
+        "hits": "16998",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "16997",
+        "hits": "16998",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "16997",
+        "hits": "16998",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "16997",
+        "hits": "16998",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "16666",
+        "hits": "16667",
         "url": "/analytics"
       },
       {
@@ -1781,7 +1781,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "135723"
+        "hits": "135731"
       }
     ]
   }
