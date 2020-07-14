@@ -2,16 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/articles/liked/"
-      },
-      {
         "hits": "1",
         "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -28,7 +24,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "2",
+        "hits": "1",
         "url": "/robots.txt"
       }
     ],
@@ -68,7 +64,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "7"
+        "hits": "5"
       }
     ],
     "totalApiHits": [
@@ -439,11 +435,11 @@
       },
       {
         "hits": "15",
-        "url": "/post/"
+        "url": "/note/"
       },
       {
         "hits": "15",
-        "url": "/note/"
+        "url": "/post/"
       },
       {
         "hits": "14",
@@ -451,11 +447,11 @@
       },
       {
         "hits": "14",
-        "url": "/books/reading/"
+        "url": "/articles/liked/"
       },
       {
         "hits": "14",
-        "url": "/articles/liked/"
+        "url": "/books/reading/"
       },
       {
         "hits": "12",
@@ -475,11 +471,11 @@
       },
       {
         "hits": "11",
-        "url": "/highlight/"
+        "url": "/link/"
       },
       {
         "hits": "11",
-        "url": "/link/"
+        "url": "/highlight/"
       },
       {
         "hits": "10",
@@ -499,6 +495,10 @@
       },
       {
         "hits": "8",
+        "url": "/tags/dev/"
+      },
+      {
+        "hits": "8",
         "url": "/analytics/month/"
       },
       {
@@ -506,16 +506,12 @@
         "url": "/post/getting-off-of-netlify/"
       },
       {
-        "hits": "8",
-        "url": "/tags/dev/"
+        "hits": "7",
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "7",
         "url": "/post/music-is-changing/"
-      },
-      {
-        "hits": "7",
-        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "7",
@@ -531,11 +527,11 @@
       },
       {
         "hits": "7",
-        "url": "/tags/tech/"
+        "url": "/tags/news/"
       },
       {
         "hits": "7",
-        "url": "/tags/news/"
+        "url": "/tags/tech/"
       },
       {
         "hits": "6",
@@ -543,11 +539,11 @@
       },
       {
         "hits": "6",
-        "url": "/highlight/cessna-badass-plane/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "6",
-        "url": "/post/getting-of-of-netlify/"
+        "url": "/highlight/cessna-badass-plane/"
       },
       {
         "hits": "6",
@@ -563,24 +559,24 @@
       },
       {
         "hits": "6",
-        "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "6",
-        "url": "/post/2016-08-22-confessions-of-a-news-addict/"
-      },
-      {
-        "hits": "6",
         "url": "/post/2019-10-27-the-professor/"
       },
       {
         "hits": "6",
         "url": "/highlight/wfh-forever/"
+      },
+      {
+        "hits": "6",
+        "url": "/highlight/off-road-land-trains/"
+      },
+      {
+        "hits": "6",
+        "url": "/post/2016-08-22-confessions-of-a-news-addict/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "346",
+        "hits": "345",
         "url": "/robots.txt"
       },
       {
@@ -782,31 +778,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -820,12 +816,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2448"
+        "hits": "2446"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16131"
+        "hits": "16124"
       }
     ]
   },
@@ -1240,12 +1236,16 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "7725",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "7725",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7725",
@@ -1258,10 +1258,6 @@
       {
         "hits": "7725",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "7725",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7714",
@@ -1287,7 +1283,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "61819"
+        "hits": "61820"
       }
     ]
   },
@@ -1698,35 +1694,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "17133",
+        "hits": "17134",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "17133",
+        "hits": "17134",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "17133",
+        "hits": "17134",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "17133",
+        "hits": "17134",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "17133",
+        "hits": "17134",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "17133",
+        "hits": "17134",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "17133",
+        "hits": "17134",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "16801",
+        "hits": "16802",
         "url": "/analytics"
       },
       {
@@ -1749,7 +1745,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "136810"
+        "hits": "136818"
       }
     ]
   }
