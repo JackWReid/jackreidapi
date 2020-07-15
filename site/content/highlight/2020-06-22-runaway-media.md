@@ -18,3 +18,5 @@ tags:
 > I asked Ms. Jamieson if what she was feeling was rooted in a desire for justice, or for better journalism, or just free-floating, Australian-inflected rage.
 >
 > “All of those things,” she said.
+
+&mdash; [Newsrooms Are in Revolt. The Bosses Are in Their Country Houses.](https://www.nytimes.com/2020/06/14/business/media/media-executives-hamptons.html), Ben Smith in _The New York Times_
