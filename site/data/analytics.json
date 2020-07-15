@@ -54,8 +54,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
@@ -64,22 +80,6 @@
       {
         "hits": "11",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -89,7 +89,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "92"
       }
     ]
   },
@@ -386,7 +386,7 @@
   "week": {
     "topSiteHits": [
       {
-        "hits": "331",
+        "hits": "330",
         "url": "/index.xml"
       },
       {
@@ -828,7 +828,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2444"
+        "hits": "2443"
       }
     ],
     "totalApiHits": [
@@ -969,10 +969,6 @@
       },
       {
         "hits": "30",
-        "url": "/books/toread/"
-      },
-      {
-        "hits": "30",
         "url": "/books/reading/"
       },
       {
@@ -980,12 +976,12 @@
         "url": "/films/watched/"
       },
       {
-        "hits": "27",
-        "url": "/tags/covid-19/"
+        "hits": "29",
+        "url": "/books/toread/"
       },
       {
         "hits": "27",
-        "url": "/tags/news/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "27",
@@ -994,6 +990,10 @@
       {
         "hits": "27",
         "url": "/highlight/thandie-newton-profile/"
+      },
+      {
+        "hits": "26",
+        "url": "/tags/news/"
       },
       {
         "hits": "26",
@@ -1008,12 +1008,12 @@
         "url": "/tags/work/"
       },
       {
-        "hits": "25",
-        "url": "/tags/technology/"
+        "hits": "24",
+        "url": "/tags/cities/"
       },
       {
         "hits": "24",
-        "url": "/tags/cities/"
+        "url": "/tags/technology/"
       },
       {
         "hits": "24",
@@ -1042,7 +1042,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1450",
+        "hits": "1448",
         "url": "/robots.txt"
       },
       {
@@ -1290,7 +1290,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9250"
+        "hits": "9246"
       }
     ],
     "totalApiHits": [
@@ -1706,35 +1706,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "17159",
+        "hits": "17160",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "17159",
+        "hits": "17160",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "17159",
+        "hits": "17160",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "17159",
+        "hits": "17160",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "17159",
+        "hits": "17160",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "17159",
+        "hits": "17160",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "17159",
+        "hits": "17160",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "16827",
+        "hits": "16828",
         "url": "/analytics"
       },
       {
@@ -1757,7 +1757,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "137018"
+        "hits": "137026"
       }
     ]
   }
