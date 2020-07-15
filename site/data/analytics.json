@@ -2,8 +2,8 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "1",
-        "url": "/films/towatch/"
+        "hits": "2",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -19,7 +19,7 @@
       },
       {
         "hits": "1",
-        "url": "/index.xml"
+        "url": "/highlight/neofeudalism-larb/"
       },
       {
         "hits": "1",
@@ -43,12 +43,16 @@
       },
       {
         "hits": "1",
+        "url": "/films/towatch/"
+      },
+      {
+        "hits": "1",
         "url": "/tags/work/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "2",
+        "hits": "3",
         "url": "/robots.txt"
       },
       {
@@ -67,49 +71,45 @@
       },
       {
         "hits": "12",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "11"
+        "hits": "13"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "91"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "47",
+        "hits": "48",
         "url": "/index.xml"
-      },
-      {
-        "hits": "24",
-        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
@@ -118,6 +118,10 @@
       {
         "hits": "24",
         "url": "/photo/index.xml"
+      },
+      {
+        "hits": "24",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "13",
@@ -157,7 +161,7 @@
       },
       {
         "hits": "3",
-        "url": "/note/kanye-out-west/"
+        "url": "/css/style.css"
       },
       {
         "hits": "3",
@@ -173,7 +177,7 @@
       },
       {
         "hits": "3",
-        "url": "/css/style.css"
+        "url": "/note/kanye-out-west/"
       },
       {
         "hits": "3",
@@ -265,6 +269,10 @@
       },
       {
         "hits": "1",
+        "url": "/note/2020-01-08-untranslatable-words/"
+      },
+      {
+        "hits": "1",
         "url": "/tags/media/"
       },
       {
@@ -298,15 +306,11 @@
       {
         "hits": "1",
         "url": "/note/2020-04-28t07-46-28/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-04-28t10-32-55/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "47",
+        "hits": "48",
         "url": "/robots.txt"
       },
       {
@@ -349,31 +353,31 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "288",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "286",
@@ -382,19 +386,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "290"
+        "hits": "292"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2302"
+        "hits": "2297"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "331",
+        "hits": "332",
         "url": "/index.xml"
       },
       {
@@ -447,11 +451,11 @@
       },
       {
         "hits": "17",
-        "url": "/journal/"
+        "url": "/post/"
       },
       {
         "hits": "17",
-        "url": "/post/"
+        "url": "/journal/"
       },
       {
         "hits": "16",
@@ -467,15 +471,11 @@
       },
       {
         "hits": "14",
-        "url": "/media/"
+        "url": "/rss/"
       },
       {
         "hits": "14",
         "url": "/books/toread/"
-      },
-      {
-        "hits": "14",
-        "url": "/rss/"
       },
       {
         "hits": "14",
@@ -484,6 +484,10 @@
       {
         "hits": "14",
         "url": "/articles/liked/"
+      },
+      {
+        "hits": "14",
+        "url": "/media/"
       },
       {
         "hits": "12",
@@ -519,11 +523,15 @@
       },
       {
         "hits": "8",
-        "url": "/analytics/month/"
+        "url": "/post/getting-off-of-netlify/"
       },
       {
         "hits": "8",
-        "url": "/post/getting-off-of-netlify/"
+        "url": "/analytics/month/"
+      },
+      {
+        "hits": "7",
+        "url": "/journal/2020-04-18/"
       },
       {
         "hits": "7",
@@ -532,10 +540,6 @@
       {
         "hits": "7",
         "url": "/analytics/day/"
-      },
-      {
-        "hits": "7",
-        "url": "/journal/2020-04-18/"
       },
       {
         "hits": "7",
@@ -551,11 +555,11 @@
       },
       {
         "hits": "6",
-        "url": "/tags/covid-19/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "6",
-        "url": "/tags/accessibility/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "6",
@@ -567,15 +571,15 @@
       },
       {
         "hits": "6",
+        "url": "/highlight/neofeudalism-larb/"
+      },
+      {
+        "hits": "6",
         "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "6",
         "url": "/post/how-this-site-works/"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/food/"
       },
       {
         "hits": "6",
@@ -604,7 +608,7 @@
         "url": "/sw.js"
       },
       {
-        "hits": "14",
+        "hits": "13",
         "url": "/favicon.ico"
       },
       {
@@ -830,7 +834,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "7",
+        "hits": "6",
         "url": "/"
       }
     ],
@@ -841,14 +845,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16124"
+        "hits": "16123"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1336",
+        "hits": "1337",
         "url": "/index.xml"
       },
       {
@@ -1045,12 +1049,12 @@
       },
       {
         "hits": "22",
-        "url": "/highlight/larry-kramer-obit/"
+        "url": "/highlight/neofeudalism-larb/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "1451",
+        "hits": "1452",
         "url": "/robots.txt"
       },
       {
@@ -1298,7 +1302,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9274"
+        "hits": "9276"
       }
     ],
     "totalApiHits": [
@@ -1310,7 +1314,7 @@
   "year": {
     "topSiteHits": [
       {
-        "hits": "2889",
+        "hits": "2890",
         "url": "/index.xml"
       },
       {
@@ -1419,7 +1423,7 @@
       },
       {
         "hits": "75",
-        "url": "/post/how-this-site-works/"
+        "url": "/post/getting-of-of-netlify/"
       },
       {
         "hits": "75",
@@ -1427,7 +1431,7 @@
       },
       {
         "hits": "75",
-        "url": "/post/getting-of-of-netlify/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "72",
@@ -1495,6 +1499,10 @@
       },
       {
         "hits": "61",
+        "url": "/highlight/neofeudalism-larb/"
+      },
+      {
+        "hits": "61",
         "url": "/highlight/chat-roulette-quar/"
       },
       {
@@ -1504,15 +1512,11 @@
       {
         "hits": "61",
         "url": "/highlight/cessna-badass-plane/"
-      },
-      {
-        "hits": "60",
-        "url": "/analytics/day/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "2667",
+        "hits": "2668",
         "url": "/robots.txt"
       },
       {
@@ -1714,35 +1718,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "17181",
+        "hits": "17182",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "17181",
+        "hits": "17182",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "17181",
+        "hits": "17182",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "17181",
+        "hits": "17182",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "17181",
+        "hits": "17182",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "17181",
+        "hits": "17182",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "17181",
+        "hits": "17182",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "16849",
+        "hits": "16850",
         "url": "/analytics"
       },
       {
@@ -1760,12 +1764,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "22998"
+        "hits": "23000"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "137194"
+        "hits": "137202"
       }
     ]
   }
