@@ -169,6 +169,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 800px) {
+  .site-header__home-link {
+    color: var(--c-bg2);
+  }
   .site-header-nav {
     margin: .5rem 0;
   }
