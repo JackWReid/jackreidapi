@@ -11,6 +11,10 @@
       },
       {
         "hits": "1",
+        "url": "/articles/liked/"
+      },
+      {
+        "hits": "1",
         "url": "/books/toread/"
       },
       {
@@ -63,7 +67,7 @@
       },
       {
         "hits": "1",
-        "url": "/articles/liked/"
+        "url": "/analytics/month/"
       }
     ],
     "topSiteMisses": [
@@ -78,12 +82,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -103,17 +107,17 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "21"
+        "hits": "22"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -133,10 +137,6 @@
       },
       {
         "hits": "25",
-        "url": "/photo/index.xml"
-      },
-      {
-        "hits": "25",
         "url": "/note/index.xml"
       },
       {
@@ -144,12 +144,12 @@
         "url": "/highlight/pinterest-race-pay/"
       },
       {
-        "hits": "24",
-        "url": "/highlight/murakami-translationese/"
+        "hits": "25",
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
-        "url": "/highlight/my-body-is-a-confederate-monument/"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
@@ -157,11 +157,15 @@
       },
       {
         "hits": "24",
+        "url": "/highlight/my-body-is-a-confederate-monument/"
+      },
+      {
+        "hits": "24",
         "url": "/highlight/london-floor-plan/"
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/highlight/murakami-translationese/"
       },
       {
         "hits": "24",
@@ -176,7 +180,7 @@
         "url": "/highlight/igbo-orthography/"
       },
       {
-        "hits": "18",
+        "hits": "17",
         "url": "/"
       },
       {
@@ -189,7 +193,7 @@
       },
       {
         "hits": "7",
-        "url": "/favicon.png"
+        "url": "/highlight/"
       },
       {
         "hits": "7",
@@ -197,23 +201,15 @@
       },
       {
         "hits": "7",
-        "url": "/highlight/"
+        "url": "/favicon.png"
       },
       {
         "hits": "6",
         "url": "/rss/"
       },
       {
-        "hits": "5",
-        "url": "/media/"
-      },
-      {
         "hits": "4",
         "url": "/books/reading/"
-      },
-      {
-        "hits": "4",
-        "url": "/post/"
       },
       {
         "hits": "4",
@@ -233,11 +229,7 @@
       },
       {
         "hits": "3",
-        "url": "/journal/"
-      },
-      {
-        "hits": "3",
-        "url": "/post/getting-off-of-netlify/"
+        "url": "/media/"
       },
       {
         "hits": "3",
@@ -245,15 +237,11 @@
       },
       {
         "hits": "3",
-        "url": "/note/"
-      },
-      {
-        "hits": "3",
         "url": "/elsewhere/"
       },
       {
-        "hits": "2",
-        "url": "/post/2016-08-22-tinkering/"
+        "hits": "3",
+        "url": "/post/getting-off-of-netlify/"
       },
       {
         "hits": "2",
@@ -261,7 +249,15 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/helms-deep-analysis/"
+        "url": "/post/2016-08-22-tinkering/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/2018-09-04-its-you-and-me/"
+      },
+      {
+        "hits": "2",
+        "url": "/analytics/month/"
       },
       {
         "hits": "2",
@@ -273,39 +269,7 @@
       },
       {
         "hits": "2",
-        "url": "/post/2018-09-04-its-you-and-me/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-02-10-there-is-no-swing-voter/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/covid-19-virus-profile/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-02-10-files-going-extinct/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-03-22-corona-crisis-18-months/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2019-08-05-academie-francaise/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2019-12-31-pearshaped-magazine-archive/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-02-10-james-joyce-estate/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-01-15-precariously-balanced-rocks/"
+        "url": "/post/"
       },
       {
         "hits": "2",
@@ -313,16 +277,56 @@
       },
       {
         "hits": "2",
-        "url": "/link/"
+        "url": "/note/2020-02-10-there-is-no-swing-voter/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/google-hire-freeze/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-01-15-precariously-balanced-rocks/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-02-10-files-going-extinct/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-02-10-james-joyce-estate/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/covid-19-virus-profile/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-03-22-corona-crisis-18-months/"
       },
       {
         "hits": "2",
         "url": "/highlight/negroni-season/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2019-08-05-academie-francaise/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/helms-deep-analysis/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/thandie-newton-profile/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "73",
+        "hits": "72",
         "url": "/robots.txt"
       },
       {
@@ -406,7 +410,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "683"
+        "hits": "675"
       }
     ],
     "totalApiHits": [
@@ -427,11 +431,11 @@
       },
       {
         "hits": "169",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "169",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "156",
@@ -479,11 +483,11 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/murakami-translationese/"
+        "url": "/highlight/my-body-is-a-confederate-monument/"
       },
       {
         "hits": "24",
-        "url": "/highlight/my-body-is-a-confederate-monument/"
+        "url": "/highlight/murakami-translationese/"
       },
       {
         "hits": "22",
@@ -555,6 +559,10 @@
       },
       {
         "hits": "9",
+        "url": "/analytics/month/"
+      },
+      {
+        "hits": "9",
         "url": "/link/"
       },
       {
@@ -564,10 +572,6 @@
       {
         "hits": "9",
         "url": "/post/how-this-site-works/"
-      },
-      {
-        "hits": "8",
-        "url": "/analytics/month/"
       },
       {
         "hits": "8",
@@ -822,6 +826,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -832,10 +840,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -860,12 +864,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2733"
+        "hits": "2734"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16125"
+        "hits": "16126"
       }
     ]
   },
@@ -929,11 +933,11 @@
       },
       {
         "hits": "66",
-        "url": "/highlight/world-without-cops/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "66",
-        "url": "/post/activist-relief-resources/"
+        "url": "/highlight/world-without-cops/"
       },
       {
         "hits": "63",
@@ -1322,7 +1326,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9665"
+        "hits": "9666"
       }
     ],
     "totalApiHits": [
@@ -1475,15 +1479,15 @@
       },
       {
         "hits": "69",
-        "url": "/highlight/roxane-gay-cleaner/"
-      },
-      {
-        "hits": "69",
         "url": "/books/read/"
       },
       {
         "hits": "69",
         "url": "/tags/politics/"
+      },
+      {
+        "hits": "69",
+        "url": "/highlight/roxane-gay-cleaner/"
       },
       {
         "hits": "68",
@@ -1738,35 +1742,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "17453",
+        "hits": "17454",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "17453",
+        "hits": "17454",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "17453",
+        "hits": "17454",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "17453",
+        "hits": "17454",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "17453",
+        "hits": "17454",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "17453",
+        "hits": "17454",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "17453",
+        "hits": "17454",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "17121",
+        "hits": "17122",
         "url": "/analytics"
       },
       {
@@ -1784,12 +1788,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "23650"
+        "hits": "23651"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "139372"
+        "hits": "139380"
       }
     ]
   }
