@@ -2,8 +2,8 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
+        "hits": "1",
+        "url": "/"
       },
       {
         "hits": "1",
@@ -16,6 +16,10 @@
       {
         "hits": "1",
         "url": "/highlight/new-york-geology/"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -43,10 +47,6 @@
       },
       {
         "hits": "1",
-        "url": "/"
-      },
-      {
-        "hits": "1",
         "url": "/share/note/"
       }
     ],
@@ -70,8 +70,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -91,17 +91,17 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "13"
+        "hits": "12"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "91"
       }
     ]
   },
@@ -361,35 +361,35 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "2",
@@ -403,7 +403,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2306"
       }
     ]
   },
@@ -430,7 +430,7 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "95",
+        "hits": "94",
         "url": "/"
       },
       {
@@ -463,10 +463,6 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/british-slave-businesses/"
-      },
-      {
-        "hits": "24",
         "url": "/highlight/uk-corona-domestic-abuse/"
       },
       {
@@ -476,6 +472,10 @@
       {
         "hits": "24",
         "url": "/highlight/murakami-translationese/"
+      },
+      {
+        "hits": "24",
+        "url": "/highlight/british-slave-businesses/"
       },
       {
         "hits": "22",
@@ -495,11 +495,11 @@
       },
       {
         "hits": "17",
-        "url": "/post/"
+        "url": "/books/reading/"
       },
       {
         "hits": "17",
-        "url": "/books/reading/"
+        "url": "/post/"
       },
       {
         "hits": "17",
@@ -511,11 +511,11 @@
       },
       {
         "hits": "16",
-        "url": "/books/toread/"
+        "url": "/books/read/"
       },
       {
         "hits": "16",
-        "url": "/books/read/"
+        "url": "/books/toread/"
       },
       {
         "hits": "15",
@@ -591,15 +591,15 @@
       },
       {
         "hits": "7",
+        "url": "/highlight/new-york-geology/"
+      },
+      {
+        "hits": "7",
         "url": "/tags/accessibility/"
       },
       {
         "hits": "7",
         "url": "/journal/2020-04-18/"
-      },
-      {
-        "hits": "7",
-        "url": "/highlight/new-york-geology/"
       },
       {
         "hits": "7",
@@ -612,7 +612,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "359",
+        "hits": "357",
         "url": "/robots.txt"
       },
       {
@@ -814,8 +814,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -824,18 +836,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -852,12 +852,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2772"
+        "hits": "2768"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16125"
+        "hits": "16127"
       }
     ]
   },
@@ -1268,12 +1268,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "7725",
+        "hits": "7726",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7726",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "7725",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "7725",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7725",
@@ -1288,14 +1296,6 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7725",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7725",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "7714",
         "url": "/analytics"
       },
@@ -1305,11 +1305,11 @@
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       }
     ],
     "totalSiteHits": [
@@ -1319,7 +1319,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "61819"
+        "hits": "61821"
       }
     ]
   },
@@ -1730,35 +1730,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "17536",
+        "hits": "17537",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "17536",
+        "hits": "17537",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "17536",
+        "hits": "17537",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "17536",
+        "hits": "17537",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "17536",
+        "hits": "17537",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "17536",
+        "hits": "17537",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "17536",
+        "hits": "17537",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "17204",
+        "hits": "17205",
         "url": "/analytics"
       },
       {
@@ -1781,7 +1781,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "140036"
+        "hits": "140044"
       }
     ]
   }
