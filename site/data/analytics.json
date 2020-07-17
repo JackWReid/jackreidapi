@@ -31,10 +31,6 @@
       },
       {
         "hits": "1",
-        "url": "/note/index.xml"
-      },
-      {
-        "hits": "1",
         "url": "/photo/index.xml"
       },
       {
@@ -48,7 +44,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/robots.txt"
       },
       {
@@ -67,7 +63,19 @@
       },
       {
         "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -76,28 +84,16 @@
       {
         "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "11"
+        "hits": "10"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "93"
       }
     ]
   },
@@ -314,16 +310,12 @@
         "url": "/photo/loch-lomond/"
       },
       {
-        "hits": "2",
-        "url": "/favicon.ico"
-      },
-      {
         "hits": "1",
         "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "1",
-        "url": "/photo/south-india/images/IMG_1997_hu737147df5fde39d335039aa0fd05e9e4_63216_800x0_resize_q75_box.jpg"
+        "url": "/favicon.ico"
       },
       {
         "hits": "1",
@@ -339,41 +331,45 @@
       },
       {
         "hits": "1",
+        "url": "/photo/south-india/images/IMG_1997_hu737147df5fde39d335039aa0fd05e9e4_63216_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "1",
         "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_600x300_fit_q75_box.jpg"
       }
     ],
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "2",
@@ -387,7 +383,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2306"
       }
     ]
   },
@@ -596,7 +592,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "368",
+        "hits": "367",
         "url": "/robots.txt"
       },
       {
@@ -798,32 +794,32 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/books/toread?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2013",
@@ -836,12 +832,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2761"
+        "hits": "2760"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16126"
+        "hits": "16132"
       }
     ]
   },
@@ -1256,12 +1252,16 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "7725",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "7725",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7725",
@@ -1274,10 +1274,6 @@
       {
         "hits": "7725",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "7725",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7714",
@@ -1303,7 +1299,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "61821"
+        "hits": "61822"
       }
     ]
   },
@@ -1714,35 +1710,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "17984",
+        "hits": "17985",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "17984",
+        "hits": "17985",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "17984",
+        "hits": "17985",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "17984",
+        "hits": "17985",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "17984",
+        "hits": "17985",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "17984",
+        "hits": "17985",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "17984",
+        "hits": "17985",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "17652",
+        "hits": "17653",
         "url": "/analytics"
       },
       {
@@ -1765,7 +1761,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "143623"
+        "hits": "143631"
       }
     ]
   }
