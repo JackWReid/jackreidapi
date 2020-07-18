@@ -7,24 +7,32 @@
       },
       {
         "hits": "1",
-        "url": "/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
-        "url": "/note/index.xml"
+        "url": "/"
       },
       {
         "hits": "1",
         "url": "/photo/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/rss/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/environment/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/index.xml"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "1",
+        "hits": "3",
         "url": "/robots.txt"
       }
     ],
@@ -34,42 +42,42 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "6"
+        "hits": "8"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "89"
       }
     ]
   },
@@ -101,11 +109,7 @@
       },
       {
         "hits": "3",
-        "url": "/tags/politics/"
-      },
-      {
-        "hits": "3",
-        "url": "/journal/"
+        "url": "/rss/"
       },
       {
         "hits": "3",
@@ -113,19 +117,15 @@
       },
       {
         "hits": "3",
+        "url": "/journal/"
+      },
+      {
+        "hits": "3",
+        "url": "/tags/politics/"
+      },
+      {
+        "hits": "3",
         "url": "/css/style.css"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/london-bikes-covid/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/magazine/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "2",
@@ -133,59 +133,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/philosophy/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/cities/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/tech/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/dance/"
-      },
-      {
-        "hits": "2",
-        "url": "/rss/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/literature/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/nyc/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/names-gender-code/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/technology/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/animal-crossing-interest-rates/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/mental-health/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/real-lord-of-the-flies/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/2015-03-02-internet-rhizome/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-04-07-murakami-women-interview/"
+        "url": "/highlight/london-bikes-covid/"
       },
       {
         "hits": "2",
@@ -193,15 +141,67 @@
       },
       {
         "hits": "2",
-        "url": "/media/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/corona-speculative-fiction/"
+        "url": "/highlight/names-gender-code/"
       },
       {
         "hits": "2",
         "url": "/highlight/praise-walking-cofee/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/philosophy/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/dance/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/nyc/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/technology/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/literature/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/tech/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/cities/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/magazine/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/real-lord-of-the-flies/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/mental-health/"
+      },
+      {
+        "hits": "2",
+        "url": "/media/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/2015-03-02-internet-rhizome/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/animal-crossing-interest-rates/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-04-07-murakami-women-interview/"
       },
       {
         "hits": "2",
@@ -212,8 +212,28 @@
         "url": "/note/2020-02-07-willard-maps-of-time/"
       },
       {
+        "hits": "2",
+        "url": "/note/corona-speculative-fiction/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/activist-relief-resources/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/the-american-room/"
+      },
+      {
         "hits": "1",
         "url": "/highlight/tfl-streetspace/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/ford-best-games/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/skye-covid-home/"
       },
       {
         "hits": "1",
@@ -221,7 +241,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/skye-covid-home/"
+        "url": "/highlight/2020-07-15-falling-fertility-bbc/"
       },
       {
         "hits": "1",
@@ -233,7 +253,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/2020-07-15-falling-fertility-bbc/"
+        "url": "/link/2020-05-14t19-25-17/"
       },
       {
         "hits": "1",
@@ -245,7 +265,7 @@
       },
       {
         "hits": "1",
-        "url": "/link/page/2/"
+        "url": "/films/towatch/"
       },
       {
         "hits": "1",
@@ -253,19 +273,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/pinterest-race-pay/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/cessna-badass-plane/"
-      },
-      {
-        "hits": "1",
-        "url": "/films/towatch/"
-      },
-      {
-        "hits": "1",
-        "url": "/link/2020-05-14t19-25-17/"
+        "url": "/link/page/2/"
       },
       {
         "hits": "1",
@@ -273,12 +281,12 @@
       },
       {
         "hits": "1",
-        "url": "/link/"
+        "url": "/highlight/pinterest-race-pay/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "50",
+        "hits": "51",
         "url": "/robots.txt"
       },
       {
@@ -348,42 +356,42 @@
         "url": "/analytics"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "298"
+        "hits": "299"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2304"
+        "hits": "2297"
       }
     ]
   },
@@ -462,7 +470,7 @@
         "url": "/highlight/2020-07-15-falling-fertility-bbc/"
       },
       {
-        "hits": "19",
+        "hits": "20",
         "url": "/rss/"
       },
       {
@@ -592,7 +600,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "373",
+        "hits": "375",
         "url": "/robots.txt"
       },
       {
@@ -613,7 +621,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_1891_hufdcdb9ce05456e41ca5036f054c92962_136300_800x0_resize_q75_box.jpg"
+        "url": "/photo/the-trossachs/images/IMG_0017_huad381fb499f2badc1d9f5391a18539b4_1510751_600x300_fit_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -621,19 +629,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/the-trossachs/images/IMG_0017_huad381fb499f2badc1d9f5391a18539b4_1510751_600x300_fit_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_1997_hu737147df5fde39d335039aa0fd05e9e4_63216_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/ben-nevis/images/IMG_0029_huad381fb499f2badc1d9f5391a18539b4_924484_600x300_fit_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_1891_hufdcdb9ce05456e41ca5036f054c92962_136300_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -641,11 +637,23 @@
       },
       {
         "hits": "2",
+        "url": "/photo/south-india/images/IMG_2442_hu0e1fde5b801c8e7d278695bc42f057dc_113260_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
         "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
+        "url": "/photo/loch-lomond/"
+      },
+      {
+        "hits": "2",
         "url": "/photo/south-india/images/IMG_1802_hu74b9c62dde200713bb1748bb01fde650_204502_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -657,7 +665,11 @@
       },
       {
         "hits": "2",
-        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
+        "url": "/post/getting-of-off-netlify"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -665,19 +677,19 @@
       },
       {
         "hits": "2",
-        "url": "/photo/loch-lomond/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/getting-of-off-netlify"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2442_hu0e1fde5b801c8e7d278695bc42f057dc_113260_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
         "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_600x300_fit_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_1997_hu737147df5fde39d335039aa0fd05e9e4_63216_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "1",
+        "url": "/photo/south-india/images/IMG_1798_hu1ddaec928864e2ac7f3bc7f0b4820fb9_208198_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "1",
+        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "1",
@@ -786,39 +798,35 @@
       {
         "hits": "1",
         "url": "/.env"
-      },
-      {
-        "hits": "1",
-        "url": "/humans.txt"
       }
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -832,12 +840,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2548"
+        "hits": "2549"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16133"
+        "hits": "16126"
       }
     ]
   },
@@ -916,12 +924,12 @@
         "url": "/post/"
       },
       {
-        "hits": "53",
-        "url": "/note/"
+        "hits": "54",
+        "url": "/rss/"
       },
       {
         "hits": "53",
-        "url": "/rss/"
+        "url": "/note/"
       },
       {
         "hits": "53",
@@ -1046,7 +1054,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1500",
+        "hits": "1502",
         "url": "/robots.txt"
       },
       {
@@ -1294,7 +1302,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9886"
+        "hits": "9888"
       }
     ],
     "totalApiHits": [
@@ -1382,7 +1390,7 @@
         "url": "/highlight/"
       },
       {
-        "hits": "110",
+        "hits": "111",
         "url": "/rss/"
       },
       {
@@ -1508,7 +1516,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "2877",
+        "hits": "2879",
         "url": "/robots.txt"
       },
       {
@@ -1710,35 +1718,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "18239",
+        "hits": "18240",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "18239",
+        "hits": "18240",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "18239",
+        "hits": "18240",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "18239",
+        "hits": "18240",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "18239",
+        "hits": "18240",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "18239",
+        "hits": "18240",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "18239",
+        "hits": "18240",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "17907",
+        "hits": "17908",
         "url": "/analytics"
       },
       {
@@ -1756,12 +1764,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "24512"
+        "hits": "24514"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "145663"
+        "hits": "145671"
       }
     ]
   }
