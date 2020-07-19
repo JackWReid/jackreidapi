@@ -2,10 +2,6 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
-      },
-      {
         "hits": "1",
         "url": "/highlight/index.xml"
       },
@@ -15,14 +11,27 @@
       },
       {
         "hits": "1",
+        "url": "/index.xml"
+      },
+      {
+        "hits": "1",
         "url": "/note/index.xml"
       },
       {
         "hits": "1",
         "url": "/photo/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/accessibility/"
       }
     ],
-    "topSiteMisses": [],
+    "topSiteMisses": [
+      {
+        "hits": "1",
+        "url": "/robots.txt"
+      }
+    ],
     "topApiHits": [
       {
         "hits": "12",
@@ -273,7 +282,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "52",
+        "hits": "53",
         "url": "/robots.txt"
       },
       {
@@ -323,7 +332,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
@@ -358,14 +367,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2298"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "330",
+        "hits": "329",
         "url": "/index.xml"
       },
       {
@@ -485,16 +494,16 @@
         "url": "/media/"
       },
       {
+        "hits": "11",
+        "url": "/tags/accessibility/"
+      },
+      {
         "hits": "10",
         "url": "/tags/history/"
       },
       {
         "hits": "10",
         "url": "/link/"
-      },
-      {
-        "hits": "10",
-        "url": "/tags/accessibility/"
       },
       {
         "hits": "9",
@@ -567,7 +576,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "380",
+        "hits": "381",
         "url": "/robots.txt"
       },
       {
@@ -769,31 +778,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -812,14 +821,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16133"
+        "hits": "16126"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1335",
+        "hits": "1334",
         "url": "/index.xml"
       },
       {
@@ -944,7 +953,7 @@
       },
       {
         "hits": "34",
-        "url": "/uses/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "34",
@@ -952,7 +961,7 @@
       },
       {
         "hits": "33",
-        "url": "/tags/accessibility/"
+        "url": "/uses/"
       },
       {
         "hits": "32",
@@ -1223,20 +1232,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "7726",
+        "hits": "7725",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "7726",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "7726",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "7726",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "7725",
@@ -1244,11 +1241,23 @@
       },
       {
         "hits": "7725",
-        "url": "/books/reading?limit=5000"
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "7725",
-        "url": "/books/toread?limit=5000"
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "7725",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "7725",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7725",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7714",
@@ -1260,21 +1269,21 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "9928"
+        "hits": "9927"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61824"
+        "hits": "61820"
       }
     ]
   },
@@ -1446,6 +1455,10 @@
       },
       {
         "hits": "66",
+        "url": "/tags/accessibility/"
+      },
+      {
+        "hits": "66",
         "url": "/highlight/american-girl-doll-history/"
       },
       {
@@ -1455,10 +1468,6 @@
       {
         "hits": "65",
         "url": "/highlight/ronan-farrow-too-good/"
-      },
-      {
-        "hits": "65",
-        "url": "/tags/accessibility/"
       },
       {
         "hits": "64",
@@ -1483,7 +1492,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "2901",
+        "hits": "2902",
         "url": "/robots.txt"
       },
       {
@@ -1685,35 +1694,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "18362",
+        "hits": "18363",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "18362",
+        "hits": "18363",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "18362",
+        "hits": "18363",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "18362",
+        "hits": "18363",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "18362",
+        "hits": "18363",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "18362",
+        "hits": "18363",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "18362",
+        "hits": "18363",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "18030",
+        "hits": "18031",
         "url": "/analytics"
       },
       {
@@ -1731,12 +1740,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "24640"
+        "hits": "24641"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "146647"
+        "hits": "146655"
       }
     ]
   }
