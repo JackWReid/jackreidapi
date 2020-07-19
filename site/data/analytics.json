@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/index.xml"
       },
       {
@@ -23,7 +23,7 @@
       },
       {
         "hits": "1",
-        "url": "/tags/indieweb/"
+        "url": "/rss/"
       },
       {
         "hits": "1",
@@ -84,7 +84,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10"
+        "hits": "9"
       }
     ],
     "totalApiHits": [
@@ -129,7 +129,7 @@
       },
       {
         "hits": "3",
-        "url": "/journal/"
+        "url": "/css/style.css"
       },
       {
         "hits": "3",
@@ -137,7 +137,11 @@
       },
       {
         "hits": "3",
-        "url": "/css/style.css"
+        "url": "/journal/"
+      },
+      {
+        "hits": "3",
+        "url": "/rss/"
       },
       {
         "hits": "3",
@@ -153,6 +157,10 @@
       },
       {
         "hits": "2",
+        "url": "/tags/mental-health/"
+      },
+      {
+        "hits": "2",
         "url": "/tags/history/"
       },
       {
@@ -161,7 +169,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/food/"
+        "url": "/tags/philosophy/"
       },
       {
         "hits": "2",
@@ -169,19 +177,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/indieweb/"
-      },
-      {
-        "hits": "2",
-        "url": "/rss/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/philosophy/"
+        "url": "/tags/food/"
       },
       {
         "hits": "2",
         "url": "/tags/short-story/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/indieweb/"
       },
       {
         "hits": "2",
@@ -190,10 +194,6 @@
       {
         "hits": "2",
         "url": "/note/little-women-gerwig-crit/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/mental-health/"
       },
       {
         "hits": "2",
@@ -311,10 +311,6 @@
       },
       {
         "hits": "1",
-        "url": "/photo/south-india/images/IMG_2074_hu1ddaec928864e2ac7f3bc7f0b4820fb9_96950_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "1",
         "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
       },
       {
@@ -349,45 +345,45 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/watched?limit=5000"
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "294"
+        "hits": "295"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2303"
       }
     ]
   },
@@ -466,7 +462,7 @@
         "url": "/highlight/2020-07-15-falling-fertility-bbc/"
       },
       {
-        "hits": "20",
+        "hits": "21",
         "url": "/rss/"
       },
       {
@@ -596,7 +592,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "384",
+        "hits": "383",
         "url": "/robots.txt"
       },
       {
@@ -836,7 +832,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2579"
+        "hits": "2580"
       }
     ],
     "totalApiHits": [
@@ -921,11 +917,11 @@
       },
       {
         "hits": "54",
-        "url": "/work/"
+        "url": "/rss/"
       },
       {
-        "hits": "53",
-        "url": "/rss/"
+        "hits": "54",
+        "url": "/work/"
       },
       {
         "hits": "52",
@@ -1252,16 +1248,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "7726",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "7726",
+        "hits": "7725",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "7726",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "7725",
@@ -1269,15 +1257,23 @@
       },
       {
         "hits": "7725",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "7725",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "7725",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "7725",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "7725",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "7725",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "7714",
@@ -1289,21 +1285,21 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading"
+        "url": "/health"
       },
       {
         "hits": "1",
-        "url": "/health"
+        "url": "/books/reading"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "9931"
+        "hits": "9932"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61823"
+        "hits": "61820"
       }
     ]
   },
@@ -1386,7 +1382,7 @@
         "url": "/media/"
       },
       {
-        "hits": "111",
+        "hits": "112",
         "url": "/rss/"
       },
       {
@@ -1714,35 +1710,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "18349",
+        "hits": "18350",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "18349",
+        "hits": "18350",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "18349",
+        "hits": "18350",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "18349",
+        "hits": "18350",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "18349",
+        "hits": "18350",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "18349",
+        "hits": "18350",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "18349",
+        "hits": "18350",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "18017",
+        "hits": "18018",
         "url": "/analytics"
       },
       {
@@ -1760,12 +1756,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "24632"
+        "hits": "24633"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "146543"
+        "hits": "146551"
       }
     ]
   }
