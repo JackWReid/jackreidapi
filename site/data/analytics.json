@@ -62,8 +62,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
@@ -72,22 +88,6 @@
       {
         "hits": "11",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -97,7 +97,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "92"
       }
     ]
   },
@@ -133,11 +133,19 @@
       },
       {
         "hits": "3",
-        "url": "/journal/"
+        "url": "/css/style.css"
       },
       {
         "hits": "3",
         "url": "/tags/feminism/"
+      },
+      {
+        "hits": "3",
+        "url": "/tags/politics/"
+      },
+      {
+        "hits": "3",
+        "url": "/journal/"
       },
       {
         "hits": "3",
@@ -148,52 +156,16 @@
         "url": "/note/2020-04-18-corona-nyc-hospitals/"
       },
       {
-        "hits": "3",
-        "url": "/tags/politics/"
-      },
-      {
-        "hits": "3",
-        "url": "/css/style.css"
-      },
-      {
         "hits": "2",
         "url": "/highlight/real-lord-of-the-flies/"
       },
       {
         "hits": "2",
-        "url": "/highlight/bridgers-rolling-stone/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/history/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/mental-health/"
-      },
-      {
-        "hits": "2",
-        "url": "/films/watched/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/snowden-gellman/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/short-story/"
+        "url": "/highlight/world-without-cops/"
       },
       {
         "hits": "2",
         "url": "/tags/philosophy/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/work/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/food/"
       },
       {
         "hits": "2",
@@ -205,11 +177,27 @@
       },
       {
         "hits": "2",
-        "url": "/note/little-women-gerwig-crit/"
+        "url": "/tags/history/"
       },
       {
         "hits": "2",
-        "url": "/highlight/world-without-cops/"
+        "url": "/tags/food/"
+      },
+      {
+        "hits": "2",
+        "url": "/films/watched/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/work/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/mental-health/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/short-story/"
       },
       {
         "hits": "2",
@@ -217,7 +205,19 @@
       },
       {
         "hits": "2",
+        "url": "/note/little-women-gerwig-crit/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/how-this-site-works/"
+      },
+      {
+        "hits": "2",
         "url": "/note/2020-04-15-there-is-no-outside/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/bridgers-rolling-stone/"
       },
       {
         "hits": "2",
@@ -226,10 +226,6 @@
       {
         "hits": "2",
         "url": "/note/2020-02-07-willard-maps-of-time/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "1",
@@ -293,6 +289,10 @@
       },
       {
         "hits": "1",
+        "url": "/journal/page/2/"
+      },
+      {
+        "hits": "1",
         "url": "/link/2020-05-27t08-00-00/"
       },
       {
@@ -301,7 +301,7 @@
       },
       {
         "hits": "1",
-        "url": "/journal/page/2/"
+        "url": "/journal/2020-06-25/"
       }
     ],
     "topSiteMisses": [
@@ -352,42 +352,42 @@
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "290"
+        "hits": "288"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2304"
       }
     ]
   },
@@ -953,11 +953,11 @@
       },
       {
         "hits": "37",
-        "url": "/tags/politics/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "37",
-        "url": "/post/how-this-site-works/"
+        "url": "/tags/politics/"
       },
       {
         "hits": "36",
@@ -1013,6 +1013,10 @@
       },
       {
         "hits": "26",
+        "url": "/tags/mentalhealth/"
+      },
+      {
+        "hits": "26",
         "url": "/analytics/day/"
       },
       {
@@ -1022,10 +1026,6 @@
       {
         "hits": "26",
         "url": "/highlight/pinterest-race-pay/"
-      },
-      {
-        "hits": "26",
-        "url": "/tags/mentalhealth/"
       },
       {
         "hits": "25",
@@ -1050,7 +1050,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1499",
+        "hits": "1498",
         "url": "/robots.txt"
       },
       {
@@ -1252,31 +1252,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7725",
+        "hits": "7726",
         "url": "/books/reading?limit=5000"
       },
       {
@@ -1298,12 +1298,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9929"
+        "hits": "9925"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "61820"
+        "hits": "61827"
       }
     ]
   },
@@ -1714,35 +1714,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "18375",
+        "hits": "18376",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "18375",
+        "hits": "18376",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "18375",
+        "hits": "18376",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "18375",
+        "hits": "18376",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "18375",
+        "hits": "18376",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "18375",
+        "hits": "18376",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "18375",
+        "hits": "18376",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "18043",
+        "hits": "18044",
         "url": "/analytics"
       },
       {
@@ -1765,7 +1765,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "146751"
+        "hits": "146759"
       }
     ]
   }
