@@ -36,6 +36,10 @@
       {
         "hits": "1",
         "url": "/photo/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/philosophy/"
       }
     ],
     "topSiteMisses": [
@@ -55,6 +59,10 @@
       },
       {
         "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
         "url": "/films/watched?limit=5000"
       },
       {
@@ -62,16 +70,12 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "11",
@@ -80,12 +84,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9"
+        "hits": "10"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "94"
+        "hits": "93"
       }
     ]
   },
@@ -412,22 +416,6 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
-      },
-      {
         "hits": "287",
         "url": "/books/reading?limit=5000"
       },
@@ -437,17 +425,33 @@
       },
       {
         "hits": "287",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
         "url": "/analytics"
+      },
+      {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "273"
+        "hits": "274"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2297"
       }
     ]
   },
@@ -499,11 +503,11 @@
       },
       {
         "hits": "25",
-        "url": "/highlight/british-slave-businesses/"
+        "url": "/highlight/london-floor-plan/"
       },
       {
         "hits": "25",
-        "url": "/highlight/london-floor-plan/"
+        "url": "/highlight/british-slave-businesses/"
       },
       {
         "hits": "24",
@@ -595,10 +599,6 @@
       },
       {
         "hits": "9",
-        "url": "/tags/tech/"
-      },
-      {
-        "hits": "9",
         "url": "/tags/history/"
       },
       {
@@ -624,6 +624,10 @@
       {
         "hits": "8",
         "url": "/tags/science/"
+      },
+      {
+        "hits": "8",
+        "url": "/tags/tech/"
       },
       {
         "hits": "7",
@@ -858,10 +862,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -872,6 +872,10 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -901,7 +905,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16125"
+        "hits": "16124"
       }
     ]
   },
@@ -1312,35 +1316,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "7884",
+        "hits": "7885",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "7884",
+        "hits": "7885",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "7884",
+        "hits": "7885",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "7884",
+        "hits": "7885",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "7884",
+        "hits": "7885",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "7884",
+        "hits": "7885",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "7884",
+        "hits": "7885",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "7871",
+        "hits": "7872",
         "url": "/analytics"
       },
       {
@@ -1358,12 +1362,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9927"
+        "hits": "9928"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "63090"
+        "hits": "63098"
       }
     ]
   },
@@ -1774,35 +1778,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "18534",
+        "hits": "18535",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "18534",
+        "hits": "18535",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "18534",
+        "hits": "18535",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "18534",
+        "hits": "18535",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "18534",
+        "hits": "18535",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "18534",
+        "hits": "18535",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "18534",
+        "hits": "18535",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "18201",
+        "hits": "18202",
         "url": "/analytics"
       },
       {
@@ -1820,12 +1824,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "24790"
+        "hits": "24791"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "148022"
+        "hits": "148030"
       }
     ]
   }
