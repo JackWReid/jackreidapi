@@ -55,15 +55,7 @@
       },
       {
         "hits": "12",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "12",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "12",
@@ -72,6 +64,14 @@
       {
         "hits": "12",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "1",
@@ -85,7 +85,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "97"
+        "hits": "95"
       }
     ]
   },
@@ -356,20 +356,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "287",
@@ -377,15 +377,15 @@
       },
       {
         "hits": "287",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "1",
@@ -399,7 +399,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2301"
       }
     ]
   },
@@ -896,7 +896,7 @@
         "url": "/favicon.png"
       },
       {
-        "hits": "99",
+        "hits": "98",
         "url": "/articles/saved/"
       },
       {
@@ -1037,15 +1037,15 @@
       },
       {
         "hits": "26",
-        "url": "/tags/mentalhealth/"
-      },
-      {
-        "hits": "26",
         "url": "/highlight/london-floor-plan/"
       },
       {
         "hits": "26",
-        "url": "/tags/justice/"
+        "url": "/tags/dev/"
+      },
+      {
+        "hits": "26",
+        "url": "/tags/mentalhealth/"
       },
       {
         "hits": "26",
@@ -1053,7 +1053,7 @@
       },
       {
         "hits": "26",
-        "url": "/tags/dev/"
+        "url": "/tags/justice/"
       },
       {
         "hits": "25",
@@ -1062,7 +1062,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1522",
+        "hits": "1520",
         "url": "/robots.txt"
       },
       {
@@ -1083,6 +1083,10 @@
       },
       {
         "hits": "7",
+        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "7",
         "url": "/photo/the-trossachs/images/IMG_0017_huad381fb499f2badc1d9f5391a18539b4_1510751_600x300_fit_q75_box.jpg"
       },
       {
@@ -1090,12 +1094,12 @@
         "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
       },
       {
-        "hits": "7",
-        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
+        "hits": "6",
+        "url": "/images/poppy.jpg"
       },
       {
         "hits": "6",
-        "url": "/images/poppy.jpg"
+        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "6",
@@ -1103,7 +1107,7 @@
       },
       {
         "hits": "6",
-        "url": "/note/there-is-no-outside/"
+        "url": "/note/how-puzzles-made/"
       },
       {
         "hits": "6",
@@ -1111,15 +1115,11 @@
       },
       {
         "hits": "6",
-        "url": "/note/how-puzzles-made/"
+        "url": "/note/there-is-no-outside/"
       },
       {
         "hits": "6",
         "url": "/photo/south-india/images/IMG_2442_hu0e1fde5b801c8e7d278695bc42f057dc_113260_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "6",
-        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "5",
@@ -1139,10 +1139,6 @@
       },
       {
         "hits": "5",
-        "url": "/ads.txt"
-      },
-      {
-        "hits": "5",
         "url": "/.env"
       },
       {
@@ -1151,7 +1147,7 @@
       },
       {
         "hits": "5",
-        "url": "/note/eugenics-statistics/"
+        "url": "/ads.txt"
       },
       {
         "hits": "5",
@@ -1159,11 +1155,15 @@
       },
       {
         "hits": "5",
-        "url": "/photo/south-india/images/IMG_1768_hued57b496f9244b50559b766bcf471bad_76288_800x0_resize_q75_box.jpg"
+        "url": "/photo/transcontinental-flight/images/green-fields_huad4a034ef261bbb310816e4935f67606_614625_600x0_resize_q75_box.jpg"
       },
       {
         "hits": "5",
-        "url": "/photo/transcontinental-flight/images/green-fields_huad4a034ef261bbb310816e4935f67606_614625_600x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "5",
+        "url": "/photo/south-india/images/IMG_1768_hued57b496f9244b50559b766bcf471bad_76288_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "5",
@@ -1179,7 +1179,7 @@
       },
       {
         "hits": "5",
-        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
+        "url": "/note/eugenics-statistics/"
       },
       {
         "hits": "4",
@@ -1187,11 +1187,11 @@
       },
       {
         "hits": "4",
-        "url": "/note/iranian-shootdown-coverup/"
+        "url": "/photo/south-india/images/IMG_2130_hu737147df5fde39d335039aa0fd05e9e4_193061_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "4",
-        "url": "/photo/south-india/images/IMG_2130_hu737147df5fde39d335039aa0fd05e9e4_193061_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "4",
@@ -1223,11 +1223,11 @@
       },
       {
         "hits": "4",
-        "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
+        "url": "/1111/feed/"
       },
       {
         "hits": "4",
-        "url": "/1111/feed/"
+        "url": "/note/iranian-shootdown-coverup/"
       },
       {
         "hits": "4",
@@ -1235,7 +1235,7 @@
       },
       {
         "hits": "3",
-        "url": "/note/tech-sabbath/"
+        "url": "/note/there-is-so-swing-voter/"
       },
       {
         "hits": "3",
@@ -1243,7 +1243,7 @@
       },
       {
         "hits": "3",
-        "url": "/note/there-is-so-swing-voter/"
+        "url": "/note/tech-sabbath/"
       },
       {
         "hits": "3",
@@ -1264,35 +1264,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "8196",
+        "hits": "8197",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8196",
+        "hits": "8197",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8196",
+        "hits": "8197",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "8196",
+        "hits": "8197",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8196",
+        "hits": "8197",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8196",
+        "hits": "8197",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8196",
+        "hits": "8197",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8182",
+        "hits": "8183",
         "url": "/analytics"
       },
       {
@@ -1310,12 +1310,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9692"
+        "hits": "9688"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "65586"
+        "hits": "65594"
       }
     ]
   },
@@ -1726,35 +1726,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "18846",
+        "hits": "18847",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "18846",
+        "hits": "18847",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "18846",
+        "hits": "18847",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "18846",
+        "hits": "18847",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "18846",
+        "hits": "18847",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "18846",
+        "hits": "18847",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "18846",
+        "hits": "18847",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "18512",
+        "hits": "18513",
         "url": "/analytics"
       },
       {
@@ -1777,7 +1777,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "150518"
+        "hits": "150526"
       }
     ]
   }
