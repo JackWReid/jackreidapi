@@ -46,28 +46,28 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
         "hits": "11",
         "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "11",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -77,7 +77,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "94"
+        "hits": "90"
       }
     ]
   },
@@ -392,16 +392,24 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -416,14 +424,6 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/analytics"
-      },
-      {
         "hits": "1",
         "url": "/"
       }
@@ -435,7 +435,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2297"
       }
     ]
   },
@@ -487,15 +487,11 @@
       },
       {
         "hits": "27",
-        "url": "/highlight/igbo-orthography/"
-      },
-      {
-        "hits": "27",
         "url": "/highlight/uk-corona-domestic-abuse/"
       },
       {
-        "hits": "26",
-        "url": "/highlight/london-floor-plan/"
+        "hits": "27",
+        "url": "/highlight/igbo-orthography/"
       },
       {
         "hits": "26",
@@ -504,6 +500,10 @@
       {
         "hits": "26",
         "url": "/highlight/british-slave-businesses/"
+      },
+      {
+        "hits": "26",
+        "url": "/highlight/london-floor-plan/"
       },
       {
         "hits": "24",
@@ -555,11 +555,11 @@
       },
       {
         "hits": "11",
-        "url": "/post/how-this-site-works/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "11",
-        "url": "/tags/accessibility/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "10",
@@ -583,15 +583,11 @@
       },
       {
         "hits": "8",
-        "url": "/tags/tech/"
-      },
-      {
-        "hits": "8",
         "url": "/tags/scotland/"
       },
       {
         "hits": "8",
-        "url": "/tags/poetry/"
+        "url": "/tags/tech/"
       },
       {
         "hits": "8",
@@ -599,7 +595,11 @@
       },
       {
         "hits": "8",
-        "url": "/tags/history/"
+        "url": "/tags/poetry/"
+      },
+      {
+        "hits": "8",
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "8",
@@ -607,7 +607,7 @@
       },
       {
         "hits": "8",
-        "url": "/tags/covid-19/"
+        "url": "/tags/history/"
       },
       {
         "hits": "7",
@@ -616,10 +616,6 @@
       {
         "hits": "7",
         "url": "/tags/dev/"
-      },
-      {
-        "hits": "7",
-        "url": "/tags/mentalhealth/"
       },
       {
         "hits": "7",
@@ -632,6 +628,10 @@
       {
         "hits": "7",
         "url": "/tags/internet/"
+      },
+      {
+        "hits": "7",
+        "url": "/tags/link/"
       },
       {
         "hits": "7",
@@ -884,7 +884,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2518"
+        "hits": "2517"
       }
     ],
     "totalApiHits": [
@@ -1300,35 +1300,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "8228",
+        "hits": "8229",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8228",
+        "hits": "8229",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8228",
+        "hits": "8229",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "8228",
+        "hits": "8229",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8228",
+        "hits": "8229",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8228",
+        "hits": "8229",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8228",
+        "hits": "8229",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8214",
+        "hits": "8215",
         "url": "/analytics"
       },
       {
@@ -1346,12 +1346,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9708"
+        "hits": "9707"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "65842"
+        "hits": "65850"
       }
     ]
   },
@@ -1762,35 +1762,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "18878",
+        "hits": "18879",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "18878",
+        "hits": "18879",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "18878",
+        "hits": "18879",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "18878",
+        "hits": "18879",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "18878",
+        "hits": "18879",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "18878",
+        "hits": "18879",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "18878",
+        "hits": "18879",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "18544",
+        "hits": "18545",
         "url": "/analytics"
       },
       {
@@ -1813,7 +1813,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "150774"
+        "hits": "150782"
       }
     ]
   }
