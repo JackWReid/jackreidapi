@@ -101,7 +101,7 @@
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
@@ -109,7 +109,7 @@
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "8",
@@ -141,7 +141,15 @@
       },
       {
         "hits": "3",
+        "url": "/analytics/day/"
+      },
+      {
+        "hits": "3",
         "url": "/link/"
+      },
+      {
+        "hits": "3",
+        "url": "/tags/cities/"
       },
       {
         "hits": "3",
@@ -152,16 +160,8 @@
         "url": "/journal/"
       },
       {
-        "hits": "3",
-        "url": "/analytics/day/"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/cities/"
-      },
-      {
         "hits": "2",
-        "url": "/work/"
+        "url": "/highlight/minneapolis-disband-police/"
       },
       {
         "hits": "2",
@@ -169,19 +169,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/tech/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/nature/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/igbo-orthography/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/media/"
+        "url": "/work/"
       },
       {
         "hits": "2",
@@ -193,6 +181,18 @@
       },
       {
         "hits": "2",
+        "url": "/tags/nature/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/politics/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/media/"
+      },
+      {
+        "hits": "2",
         "url": "/highlight/larry-kramer-obit/"
       },
       {
@@ -201,19 +201,19 @@
       },
       {
         "hits": "2",
+        "url": "/highlight/snowden-gellman/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/tech/"
+      },
+      {
+        "hits": "2",
         "url": "/tags/accessibility/"
       },
       {
         "hits": "2",
-        "url": "/tags/politics/"
-      },
-      {
-        "hits": "2",
         "url": "/rss/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/minneapolis-disband-police/"
       },
       {
         "hits": "2",
@@ -276,10 +276,6 @@
         "url": "/tags/link/"
       },
       {
-        "hits": "2",
-        "url": "/highlight/snowden-gellman/"
-      },
-      {
         "hits": "1",
         "url": "/highlight/michael-the-destroyer/"
       },
@@ -294,11 +290,15 @@
       {
         "hits": "1",
         "url": "/highlight/london-bikes-covid/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/animal-crossing-interest-rates/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "62",
+        "hits": "61",
         "url": "/robots.txt"
       },
       {
@@ -394,7 +394,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "316"
+        "hits": "315"
       }
     ],
     "totalApiHits": [
@@ -406,7 +406,7 @@
   "week": {
     "topSiteHits": [
       {
-        "hits": "321",
+        "hits": "320",
         "url": "/index.xml"
       },
       {
@@ -814,16 +814,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -832,6 +824,14 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -848,12 +848,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2536"
+        "hits": "2535"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16126"
       }
     ]
   },
@@ -1264,35 +1264,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "8534",
+        "hits": "8535",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8534",
+        "hits": "8535",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8534",
+        "hits": "8535",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "8534",
+        "hits": "8535",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8534",
+        "hits": "8535",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8534",
+        "hits": "8535",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8534",
+        "hits": "8535",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8519",
+        "hits": "8520",
         "url": "/analytics"
       },
       {
@@ -1310,12 +1310,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9714"
+        "hits": "9713"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "68290"
+        "hits": "68298"
       }
     ]
   },
@@ -1726,35 +1726,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "19184",
+        "hits": "19185",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "19184",
+        "hits": "19185",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "19184",
+        "hits": "19185",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "19184",
+        "hits": "19185",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "19184",
+        "hits": "19185",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "19184",
+        "hits": "19185",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "19184",
+        "hits": "19185",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "18849",
+        "hits": "18850",
         "url": "/analytics"
       },
       {
@@ -1777,7 +1777,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "153222"
+        "hits": "153230"
       }
     ]
   }
