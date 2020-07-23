@@ -46,8 +46,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -67,7 +67,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -77,7 +77,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "91"
       }
     ]
   },
@@ -109,11 +109,7 @@
       },
       {
         "hits": "3",
-        "url": "/work/"
-      },
-      {
-        "hits": "3",
-        "url": "/highlight/covid-urbanist-fantasies/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "3",
@@ -121,11 +117,15 @@
       },
       {
         "hits": "3",
+        "url": "/work/"
+      },
+      {
+        "hits": "3",
         "url": "/tags/accessibility/"
       },
       {
         "hits": "3",
-        "url": "/articles/saved/"
+        "url": "/highlight/covid-urbanist-fantasies/"
       },
       {
         "hits": "3",
@@ -133,23 +133,15 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/london-floor-plan/"
-      },
-      {
-        "hits": "2",
-        "url": "/books/read/"
-      },
-      {
-        "hits": "2",
         "url": "/highlight/demonise-spotify/"
       },
       {
         "hits": "2",
-        "url": "/tags/poetry/"
+        "url": "/highlight/igbo-orthography/"
       },
       {
         "hits": "2",
-        "url": "/tags/food/"
+        "url": "/admin/"
       },
       {
         "hits": "2",
@@ -158,6 +150,14 @@
       {
         "hits": "2",
         "url": "/highlight/uk-corona-domestic-abuse/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/thandie-newton-profile/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/literature/"
       },
       {
         "hits": "2",
@@ -173,11 +173,11 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/thandie-newton-profile/"
+        "url": "/highlight/pinterest-race-pay/"
       },
       {
         "hits": "2",
-        "url": "/admin/"
+        "url": "/tags/food/"
       },
       {
         "hits": "2",
@@ -185,15 +185,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/literature/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/igbo-orthography/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/pinterest-race-pay/"
+        "url": "/tags/poetry/"
       },
       {
         "hits": "2",
@@ -201,19 +193,19 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/michael-the-destroyer/"
-      },
-      {
-        "hits": "2",
         "url": "/rss/"
       },
       {
         "hits": "2",
-        "url": "/media/"
+        "url": "/highlight/london-floor-plan/"
       },
       {
         "hits": "2",
-        "url": "/link/"
+        "url": "/highlight/michael-the-destroyer/"
+      },
+      {
+        "hits": "2",
+        "url": "/media/"
       },
       {
         "hits": "2",
@@ -233,11 +225,19 @@
       },
       {
         "hits": "2",
+        "url": "/link/"
+      },
+      {
+        "hits": "2",
         "url": "/highlight/my-body-is-a-confederate-monument/"
       },
       {
         "hits": "2",
         "url": "/journal/2020-04-18/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/murakami-translationese/"
       },
       {
         "hits": "2",
@@ -249,7 +249,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/murakami-translationese/"
+        "url": "/journal/2020-07-06/"
       },
       {
         "hits": "2",
@@ -258,10 +258,6 @@
       {
         "hits": "2",
         "url": "/elsewhere/"
-      },
-      {
-        "hits": "2",
-        "url": "/journal/2020-07-06/"
       },
       {
         "hits": "2",
@@ -282,6 +278,10 @@
       {
         "hits": "1",
         "url": "/highlight/human-scale-cities/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/helms-deep-analysis/"
       }
     ],
     "topSiteMisses": [
@@ -449,15 +449,7 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "288",
@@ -469,15 +461,23 @@
       },
       {
         "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2",
@@ -486,12 +486,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "314"
+        "hits": "312"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2302"
+        "hits": "2300"
       }
     ]
   },
@@ -902,6 +902,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -912,10 +916,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -945,7 +945,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16125"
+        "hits": "16126"
       }
     ]
   },
@@ -1357,30 +1357,30 @@
     "topApiHits": [
       {
         "hits": "8640",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "8640",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "8640",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8640",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8639",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -1394,12 +1394,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9655"
+        "hits": "9654"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69141"
+        "hits": "69135"
       }
     ]
   },
@@ -1810,35 +1810,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "19484",
+        "hits": "19485",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "19484",
+        "hits": "19485",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "19484",
+        "hits": "19485",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "19484",
+        "hits": "19485",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "19484",
+        "hits": "19485",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "19484",
+        "hits": "19485",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "19484",
+        "hits": "19485",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "19149",
+        "hits": "19150",
         "url": "/analytics"
       },
       {
@@ -1861,7 +1861,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "155624"
+        "hits": "155632"
       }
     ]
   }
