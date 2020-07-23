@@ -10,7 +10,11 @@
         "url": "/favicon.png"
       },
       {
-        "hits": "2",
+        "hits": "1",
+        "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "1",
         "url": "/index.xml"
       },
       {
@@ -48,10 +52,6 @@
       {
         "hits": "1",
         "url": "/analytics/week/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/index.xml"
       }
     ],
     "topSiteMisses": [
@@ -108,7 +108,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "17"
+        "hits": "16"
       }
     ],
     "totalApiHits": [
@@ -322,7 +322,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "49",
+        "hits": "48",
         "url": "/robots.txt"
       },
       {
@@ -508,16 +508,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
+        "hits": "288",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
         "url": "/analytics"
-      },
-      {
-        "hits": "287",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
@@ -540,18 +536,22 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
+      },
+      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "349"
+        "hits": "348"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2299"
       }
     ]
   },
@@ -567,11 +567,11 @@
       },
       {
         "hits": "169",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "169",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "73",
@@ -630,12 +630,12 @@
         "url": "/highlight/"
       },
       {
-        "hits": "13",
-        "url": "/post/activist-relief-resources/"
+        "hits": "12",
+        "url": "/highlight/igbo-orthography/"
       },
       {
         "hits": "12",
-        "url": "/highlight/igbo-orthography/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "12",
@@ -1000,7 +1000,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2186"
+        "hits": "2185"
       }
     ],
     "totalApiHits": [
@@ -1012,7 +1012,7 @@
   "month": {
     "topSiteHits": [
       {
-        "hits": "1408",
+        "hits": "1407",
         "url": "/index.xml"
       },
       {
@@ -1028,12 +1028,12 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "400",
-        "url": "/"
-      },
-      {
         "hits": "362",
         "url": "/open-graph.png"
+      },
+      {
+        "hits": "331",
+        "url": "/"
       },
       {
         "hits": "197",
@@ -1416,8 +1416,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "8639",
+        "hits": "8640",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8640",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8639",
@@ -1426,18 +1438,6 @@
       {
         "hits": "8639",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8639",
@@ -1454,12 +1454,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9673"
+        "hits": "9601"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69133"
+        "hits": "69135"
       }
     ]
   },
@@ -1870,35 +1870,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "19580",
+        "hits": "19581",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "19580",
+        "hits": "19581",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "19580",
+        "hits": "19581",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "19580",
+        "hits": "19581",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "19580",
+        "hits": "19581",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "19580",
+        "hits": "19581",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "19580",
+        "hits": "19581",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "19244",
+        "hits": "19245",
         "url": "/analytics"
       },
       {
@@ -1921,7 +1921,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "156392"
+        "hits": "156400"
       }
     ]
   }
