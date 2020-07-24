@@ -7,7 +7,7 @@
       },
       {
         "hits": "1",
-        "url": "/films/watched/"
+        "url": "/books/reading/"
       },
       {
         "hits": "1",
@@ -39,7 +39,7 @@
       },
       {
         "hits": "1",
-        "url": "/books/reading/"
+        "url": "/articles/liked/"
       },
       {
         "hits": "1",
@@ -63,7 +63,7 @@
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/pocket?limit=5000"
+        "url": "/analytics"
       },
       {
         "hits": "12",
@@ -71,7 +71,7 @@
       },
       {
         "hits": "12",
-        "url": "/analytics"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "12",
@@ -90,8 +90,8 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -101,7 +101,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "95"
+        "hits": "96"
       }
     ]
   },
@@ -137,6 +137,10 @@
       },
       {
         "hits": "3",
+        "url": "/work/"
+      },
+      {
+        "hits": "3",
         "url": "/tags/music/"
       },
       {
@@ -145,11 +149,7 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/robert-pattinson/"
-      },
-      {
-        "hits": "3",
-        "url": "/work/"
+        "url": "/open-graph.png"
       },
       {
         "hits": "3",
@@ -157,27 +157,7 @@
       },
       {
         "hits": "3",
-        "url": "/open-graph.png"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/language/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/covid-flour-surge/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/the-american-room/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/human-scale-cities/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/tech/"
+        "url": "/highlight/robert-pattinson/"
       },
       {
         "hits": "2",
@@ -185,11 +165,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/urbanism/"
+        "url": "/films/watched/"
       },
       {
         "hits": "2",
-        "url": "/tags/running/"
+        "url": "/highlight/covid-flour-surge/"
       },
       {
         "hits": "2",
@@ -197,23 +177,19 @@
       },
       {
         "hits": "2",
-        "url": "/analytics/week/"
+        "url": "/highlight/human-scale-cities/"
       },
       {
         "hits": "2",
-        "url": "/films/towatch/"
+        "url": "/highlight/the-american-room/"
       },
       {
         "hits": "2",
-        "url": "/tags/magazine/"
+        "url": "/tags/tech/"
       },
       {
         "hits": "2",
-        "url": "/films/watched/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/how-this-site-works/"
+        "url": "/tags/urbanism/"
       },
       {
         "hits": "2",
@@ -221,11 +197,27 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/uk-corona-domestic-abuse/"
+        "url": "/tags/running/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/language/"
+      },
+      {
+        "hits": "2",
+        "url": "/films/towatch/"
       },
       {
         "hits": "2",
         "url": "/tags/justice/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/magazine/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/tulip-farm-covid/"
       },
       {
         "hits": "2",
@@ -241,11 +233,15 @@
       },
       {
         "hits": "2",
+        "url": "/journal/2020-07-01/"
+      },
+      {
+        "hits": "2",
         "url": "/link/"
       },
       {
         "hits": "2",
-        "url": "/journal/2020-07-01/"
+        "url": "/highlight/uk-corona-domestic-abuse/"
       },
       {
         "hits": "2",
@@ -253,19 +249,15 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/tulip-farm-covid/"
+        "url": "/post/how-this-site-works/"
       },
       {
-        "hits": "1",
-        "url": "/highlight/michael-the-destroyer/"
+        "hits": "2",
+        "url": "/analytics/week/"
       },
       {
         "hits": "1",
         "url": "/highlight/low-tech-election-iowa/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/american-police-departments/"
       },
       {
         "hits": "1",
@@ -277,11 +269,15 @@
       },
       {
         "hits": "1",
+        "url": "/highlight/larry-kramer-obit/"
+      },
+      {
+        "hits": "1",
         "url": "/analytics/year/"
       },
       {
         "hits": "1",
-        "url": "/highlight/larry-kramer-obit/"
+        "url": "/highlight/igbo-orthography/"
       },
       {
         "hits": "1",
@@ -289,7 +285,11 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/igbo-orthography/"
+        "url": "/highlight/ford-best-games/"
+      },
+      {
+        "hits": "1",
+        "url": "/favicon.png"
       },
       {
         "hits": "1",
@@ -301,11 +301,11 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/ford-best-games/"
+        "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "1",
-        "url": "/highlight/tfl-streetspace/"
+        "url": "/highlight/finland-media-literate/"
       }
     ],
     "topSiteMisses": [
@@ -485,35 +485,35 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "3",
@@ -522,12 +522,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "293"
+        "hits": "294"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2307"
       }
     ]
   },
@@ -639,6 +639,10 @@
       },
       {
         "hits": "9",
+        "url": "/articles/liked/"
+      },
+      {
+        "hits": "9",
         "url": "/post/activist-relief-resources/"
       },
       {
@@ -664,10 +668,6 @@
       {
         "hits": "8",
         "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "8",
-        "url": "/articles/liked/"
       },
       {
         "hits": "8",
@@ -938,6 +938,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -948,10 +952,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -976,12 +976,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2157"
+        "hits": "2158"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16126"
+        "hits": "16127"
       }
     ]
   },
@@ -1080,7 +1080,7 @@
         "url": "/link/"
       },
       {
-        "hits": "45",
+        "hits": "46",
         "url": "/articles/liked/"
       },
       {
@@ -1215,10 +1215,6 @@
       },
       {
         "hits": "7",
-        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "7",
         "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
       },
       {
@@ -1226,8 +1222,32 @@
         "url": "/photo/the-trossachs/images/IMG_0017_huad381fb499f2badc1d9f5391a18539b4_1510751_600x300_fit_q75_box.jpg"
       },
       {
+        "hits": "7",
+        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "6",
+        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
+      },
+      {
         "hits": "6",
         "url": "/photo/south-india/images/IMG_2223_hu737147df5fde39d335039aa0fd05e9e4_391888_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "6",
+        "url": "/photo/south-india/images/IMG_2442_hu0e1fde5b801c8e7d278695bc42f057dc_113260_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "6",
+        "url": "/humans.txt"
+      },
+      {
+        "hits": "6",
+        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "6",
+        "url": "/note/how-puzzles-made/"
       },
       {
         "hits": "6",
@@ -1236,26 +1256,6 @@
       {
         "hits": "6",
         "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "6",
-        "url": "/humans.txt"
-      },
-      {
-        "hits": "6",
-        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "6",
-        "url": "/photo/south-india/images/IMG_2442_hu0e1fde5b801c8e7d278695bc42f057dc_113260_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "6",
-        "url": "/note/how-puzzles-made/"
-      },
-      {
-        "hits": "6",
-        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "5",
@@ -1279,6 +1279,10 @@
       },
       {
         "hits": "5",
+        "url": "/photo/transcontinental-flight/images/green-fields_huad4a034ef261bbb310816e4935f67606_614625_600x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "5",
         "url": "/photo/south-india/images/IMG_1768_hued57b496f9244b50559b766bcf471bad_76288_800x0_resize_q75_box.jpg"
       },
       {
@@ -1291,23 +1295,15 @@
       },
       {
         "hits": "5",
-        "url": "/photo/transcontinental-flight/images/green-fields_huad4a034ef261bbb310816e4935f67606_614625_600x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "5",
         "url": "/photo/south-india/images/IMG_2369_hu1ddaec928864e2ac7f3bc7f0b4820fb9_698185_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "5",
-        "url": "/note/iranian-shootdown-coverup/"
+        "url": "/ads.txt"
       },
       {
         "hits": "5",
         "url": "/note/there-is-no-outside/"
-      },
-      {
-        "hits": "5",
-        "url": "/ads.txt"
       },
       {
         "hits": "4",
@@ -1367,6 +1363,10 @@
       },
       {
         "hits": "4",
+        "url": "/note/iranian-shootdown-coverup/"
+      },
+      {
+        "hits": "4",
         "url": "/photo/south-india/images/IMG_2130_hu737147df5fde39d335039aa0fd05e9e4_193061_800x0_resize_q75_box.jpg"
       },
       {
@@ -1392,32 +1392,32 @@
     ],
     "topApiHits": [
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "8640",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8639",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/books/read?limit=5000"
       },
       {
         "hits": "8639",
-        "url": "/books/toread?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8627",
@@ -1430,12 +1430,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9678"
+        "hits": "9679"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69134"
+        "hits": "69140"
       }
     ]
   },
@@ -1574,7 +1574,7 @@
         "url": "/post/getting-of-of-netlify/"
       },
       {
-        "hits": "78",
+        "hits": "79",
         "url": "/articles/liked/"
       },
       {
@@ -1846,35 +1846,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "20001",
+        "hits": "20002",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20001",
+        "hits": "20002",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20001",
+        "hits": "20002",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20001",
+        "hits": "20002",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20001",
+        "hits": "20002",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20001",
+        "hits": "20002",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20001",
+        "hits": "20002",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "19665",
+        "hits": "19666",
         "url": "/analytics"
       },
       {
@@ -1892,12 +1892,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "26402"
+        "hits": "26403"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "159764"
+        "hits": "159772"
       }
     ]
   }
