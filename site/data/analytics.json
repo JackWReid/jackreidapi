@@ -2,8 +2,8 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
+        "hits": "1",
+        "url": "/films/towatch/"
       },
       {
         "hits": "1",
@@ -15,7 +15,15 @@
       },
       {
         "hits": "1",
+        "url": "/index.xml"
+      },
+      {
+        "hits": "1",
         "url": "/journal/2020-07-01/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2019-07-22-bob-fosse/"
       },
       {
         "hits": "1",
@@ -35,25 +43,25 @@
       },
       {
         "hits": "1",
-        "url": "/films/towatch/"
-      },
-      {
-        "hits": "1",
         "url": "/post/how-this-site-works/"
       }
     ],
     "topSiteMisses": [
+      {
+        "hits": "2",
+        "url": "/robots.txt"
+      },
       {
         "hits": "1",
         "url": "/favicon.ico"
       },
       {
         "hits": "1",
-        "url": "/photo/brockwell-sleeve/images/brockwell-sleeve_hu7447d159f91cab43ff5263d33a44ba06_183113_600x0_resize_q75_box.jpg"
+        "url": "/note/iran-nuclear-era"
       },
       {
         "hits": "1",
-        "url": "/robots.txt"
+        "url": "/photo/brockwell-sleeve/images/brockwell-sleeve_hu7447d159f91cab43ff5263d33a44ba06_183113_600x0_resize_q75_box.jpg"
       }
     ],
     "topApiHits": [
@@ -62,8 +70,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
@@ -71,23 +95,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -97,14 +105,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "94"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "44",
+        "hits": "43",
         "url": "/index.xml"
       },
       {
@@ -133,6 +141,10 @@
       },
       {
         "hits": "3",
+        "url": "/highlight/uk-corona-domestic-abuse/"
+      },
+      {
+        "hits": "3",
         "url": "/note/"
       },
       {
@@ -144,88 +156,8 @@
         "url": "/media/"
       },
       {
-        "hits": "3",
-        "url": "/highlight/uk-corona-domestic-abuse/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/low-tech-election-iowa/"
-      },
-      {
         "hits": "2",
         "url": "/articles/liked/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/robert-pattinson/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/scotland/"
-      },
-      {
-        "hits": "2",
-        "url": "/films/watched/"
-      },
-      {
-        "hits": "2",
-        "url": "/uses/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/human-scale-cities/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/thandie-newton-profile/"
-      },
-      {
-        "hits": "2",
-        "url": "/analytics/week/"
-      },
-      {
-        "hits": "2",
-        "url": "/analytics/year/"
-      },
-      {
-        "hits": "2",
-        "url": "/journal/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/urbanism/"
-      },
-      {
-        "hits": "2",
-        "url": "/journal/2020-06-02/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/how-this-site-works/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/michael-the-destroyer/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/neofeudalism-larb/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/reading-in-the-dark/"
-      },
-      {
-        "hits": "2",
-        "url": "/link/2020-05-28t08-40-27/"
       },
       {
         "hits": "2",
@@ -233,7 +165,87 @@
       },
       {
         "hits": "2",
+        "url": "/highlight/robert-pattinson/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/thandie-newton-profile/"
+      },
+      {
+        "hits": "2",
+        "url": "/films/watched/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/urbanism/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/"
+      },
+      {
+        "hits": "2",
+        "url": "/uses/"
+      },
+      {
+        "hits": "2",
         "url": "/tags/running/"
+      },
+      {
+        "hits": "2",
+        "url": "/analytics/year/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/human-scale-cities/"
+      },
+      {
+        "hits": "2",
+        "url": "/analytics/week/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/scotland/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/reading-in-the-dark/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/low-tech-election-iowa/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/michael-the-destroyer/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/how-this-site-works/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2019-07-22-bob-fosse/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/neofeudalism-larb/"
+      },
+      {
+        "hits": "2",
+        "url": "/link/2020-05-28t08-40-27/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/2020-06-02/"
       },
       {
         "hits": "1",
@@ -298,15 +310,11 @@
       {
         "hits": "1",
         "url": "/highlight/samin-nosrat-eating/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/roxane-gay-cleaner/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "44",
+        "hits": "45",
         "url": "/robots.txt"
       },
       {
@@ -315,11 +323,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/flights"
+        "url": "/favicon.ico"
       },
       {
         "hits": "2",
-        "url": "/favicon.ico"
+        "url": "/note/flights"
       },
       {
         "hits": "2",
@@ -384,6 +392,10 @@
       {
         "hits": "1",
         "url": "/note/iranian-shootdown-coverup"
+      },
+      {
+        "hits": "1",
+        "url": "/note/iran-nuclear-era"
       },
       {
         "hits": "1",
@@ -493,35 +505,35 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "2",
@@ -535,7 +547,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2306"
       }
     ]
   },
@@ -744,7 +756,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "359",
+        "hits": "360",
         "url": "/robots.txt"
       },
       {
@@ -789,11 +801,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/madame-tussaud/"
+        "url": "/wp-admin/"
       },
       {
         "hits": "2",
-        "url": "/note/2020-02-10-little-women-gerwig-crit"
+        "url": "/note/low-tech-election-iowa"
       },
       {
         "hits": "2",
@@ -801,15 +813,15 @@
       },
       {
         "hits": "2",
+        "url": "/note/madame-tussaud/"
+      },
+      {
+        "hits": "2",
         "url": "/note/plath-vs-hughes"
       },
       {
         "hits": "2",
-        "url": "/wp-login.php"
-      },
-      {
-        "hits": "2",
-        "url": "/wp-admin/network/wp-1ogin_bak.php"
+        "url": "/wp-admin/user/wp-1ogin_bak.php"
       },
       {
         "hits": "2",
@@ -821,7 +833,7 @@
       },
       {
         "hits": "2",
-        "url": "/wp-admin/user/wp-1ogin_bak.php"
+        "url": "/wp-admin/wp-1ogin_bak.php"
       },
       {
         "hits": "2",
@@ -829,7 +841,7 @@
       },
       {
         "hits": "2",
-        "url": "/wp-admin/"
+        "url": "/wp-admin/network/wp-1ogin_bak.php"
       },
       {
         "hits": "2",
@@ -861,7 +873,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/low-tech-election-iowa"
+        "url": "/note/2020-02-10-little-women-gerwig-crit"
       },
       {
         "hits": "2",
@@ -897,7 +909,7 @@
       },
       {
         "hits": "2",
-        "url": "/wp-admin/wp-1ogin_bak.php"
+        "url": "/wp-login.php"
       },
       {
         "hits": "1",
@@ -937,33 +949,25 @@
       },
       {
         "hits": "1",
-        "url": "/note/precariously-balanced-rocks"
+        "url": "/apple-touch-icon-120x120.png"
       },
       {
         "hits": "1",
-        "url": "/apple-touch-icon-120x120.png"
+        "url": "/note/madame-tussaud"
       }
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2015",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -971,7 +975,15 @@
       },
       {
         "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2012",
@@ -984,19 +996,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2151"
+        "hits": "2152"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16124"
+        "hits": "16127"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1405",
+        "hits": "1404",
         "url": "/index.xml"
       },
       {
@@ -1198,7 +1210,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1551",
+        "hits": "1552",
         "url": "/robots.txt"
       },
       {
@@ -1400,31 +1412,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -1432,7 +1444,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "33",
+        "hits": "32",
         "url": "/"
       }
     ],
@@ -1443,7 +1455,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "69133"
+        "hits": "69139"
       }
     ]
   },
@@ -1652,7 +1664,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "3175",
+        "hits": "3176",
         "url": "/robots.txt"
       },
       {
@@ -1854,35 +1866,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "19878",
+        "hits": "19879",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "19878",
+        "hits": "19879",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "19878",
+        "hits": "19879",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "19878",
+        "hits": "19879",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "19878",
+        "hits": "19879",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "19878",
+        "hits": "19879",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "19878",
+        "hits": "19879",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "19542",
+        "hits": "19543",
         "url": "/analytics"
       },
       {
@@ -1900,12 +1912,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "26265"
+        "hits": "26266"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "158778"
+        "hits": "158786"
       }
     ]
   }
