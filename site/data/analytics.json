@@ -2,12 +2,8 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
-      },
-      {
         "hits": "1",
-        "url": "/analytics/week/"
+        "url": "/"
       },
       {
         "hits": "1",
@@ -27,6 +23,10 @@
       },
       {
         "hits": "1",
+        "url": "/index.xml"
+      },
+      {
+        "hits": "1",
         "url": "/note/index.xml"
       },
       {
@@ -35,26 +35,31 @@
       },
       {
         "hits": "1",
-        "url": "/"
+        "url": "/tags/media/"
+      }
+    ],
+    "topSiteMisses": [
+      {
+        "hits": "1",
+        "url": "/note/aristophanes-wasps"
       },
       {
         "hits": "1",
-        "url": "/tags/urbanism/"
+        "url": "/robots.txt"
       }
     ],
-    "topSiteMisses": [],
     "topApiHits": [
       {
         "hits": "12",
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -74,17 +79,17 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "11"
+        "hits": "9"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -293,12 +298,8 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "40",
+        "hits": "41",
         "url": "/robots.txt"
-      },
-      {
-        "hits": "3",
-        "url": "/apple-touch-icon.png"
       },
       {
         "hits": "3",
@@ -307,6 +308,10 @@
       {
         "hits": "3",
         "url": "/apple-touch-icon-precomposed.png"
+      },
+      {
+        "hits": "3",
+        "url": "/apple-touch-icon.png"
       },
       {
         "hits": "2",
@@ -331,6 +336,10 @@
       {
         "hits": "1",
         "url": "/note/academie-francaise"
+      },
+      {
+        "hits": "1",
+        "url": "/note/aristophanes-wasps"
       },
       {
         "hits": "1",
@@ -459,24 +468,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -491,18 +492,26 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/analytics"
+      },
+      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "312"
+        "hits": "313"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2300"
       }
     ]
   },
@@ -719,8 +728,12 @@
         "url": "/photo/loch-lomond/"
       },
       {
-        "hits": "4",
-        "url": "/favicon.ico"
+        "hits": "3",
+        "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
+        "url": "/work/images/depop.svg"
       },
       {
         "hits": "3",
@@ -732,11 +745,11 @@
       },
       {
         "hits": "3",
-        "url": "/work/images/depop.svg"
+        "url": "/photo/south-india/images/IMG_2223_hu737147df5fde39d335039aa0fd05e9e4_391888_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2223_hu737147df5fde39d335039aa0fd05e9e4_391888_800x0_resize_q75_box.jpg"
+        "url": "/favicon.ico"
       },
       {
         "hits": "3",
@@ -747,20 +760,8 @@
         "url": "/.env"
       },
       {
-        "hits": "3",
-        "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
-      },
-      {
         "hits": "2",
-        "url": "/photo/ben-nevis/"
-      },
-      {
-        "hits": "2",
-        "url": "/wp-admin/network/wp-1ogin_bak.php"
-      },
-      {
-        "hits": "2",
-        "url": "/humans.txt"
+        "url": "/photo/south-india/images/IMG_2369_hu1ddaec928864e2ac7f3bc7f0b4820fb9_698185_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -768,11 +769,27 @@
       },
       {
         "hits": "2",
-        "url": "/note/the-great-regression"
+        "url": "/humans.txt"
       },
       {
         "hits": "2",
-        "url": "/wp-admin/user/wp-1ogin_bak.php"
+        "url": "/wp-admin/network/wp-1ogin_bak.php"
+      },
+      {
+        "hits": "2",
+        "url": "/note/plath-vs-hughes"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/ben-nevis/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/aristophanes-wasps"
+      },
+      {
+        "hits": "2",
+        "url": "/note/madame-tussaud/"
       },
       {
         "hits": "2",
@@ -784,15 +801,7 @@
       },
       {
         "hits": "2",
-        "url": "/wp-login.php"
-      },
-      {
-        "hits": "2",
-        "url": "/note/madame-tussaud/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/plath-vs-hughes"
+        "url": "/wp-admin/user/wp-1ogin_bak.php"
       },
       {
         "hits": "2",
@@ -816,14 +825,6 @@
       },
       {
         "hits": "2",
-        "url": "/images/uploads/24530.jpeg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2369_hu1ddaec928864e2ac7f3bc7f0b4820fb9_698185_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
         "url": "/photo/ben-nevis"
       },
       {
@@ -833,6 +834,18 @@
       {
         "hits": "2",
         "url": "/post/getting-of-off-netlify"
+      },
+      {
+        "hits": "2",
+        "url": "/wp-login.php"
+      },
+      {
+        "hits": "2",
+        "url": "/images/uploads/24530.jpeg"
+      },
+      {
+        "hits": "2",
+        "url": "/note/the-great-regression"
       },
       {
         "hits": "1",
@@ -872,11 +885,11 @@
       },
       {
         "hits": "1",
-        "url": "/note/sailors-on-wikipedia"
+        "url": "/note/senate-impeachment-hamilton/"
       },
       {
         "hits": "1",
-        "url": "/note/aristophanes-wasps"
+        "url": "/note/sailors-on-wikipedia"
       },
       {
         "hits": "1",
@@ -900,10 +913,6 @@
       },
       {
         "hits": "1",
-        "url": "/note/senate-impeachment-hamilton/"
-      },
-      {
-        "hits": "1",
         "url": "/note/reading-difficult-books"
       },
       {
@@ -914,6 +923,14 @@
     "topApiHits": [
       {
         "hits": "2016",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/films/watched?limit=5000"
       },
       {
@@ -922,22 +939,14 @@
       },
       {
         "hits": "2016",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -951,12 +960,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2145"
+        "hits": "2146"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16129"
+        "hits": "16132"
       }
     ]
   },
@@ -1165,7 +1174,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1550",
+        "hits": "1551",
         "url": "/robots.txt"
       },
       {
@@ -1190,31 +1199,15 @@
       },
       {
         "hits": "7",
+        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "7",
         "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "7",
         "url": "/photo/the-trossachs/images/IMG_0017_huad381fb499f2badc1d9f5391a18539b4_1510751_600x300_fit_q75_box.jpg"
-      },
-      {
-        "hits": "7",
-        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "6",
-        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "6",
-        "url": "/humans.txt"
-      },
-      {
-        "hits": "6",
-        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "6",
-        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "6",
@@ -1226,6 +1219,22 @@
       },
       {
         "hits": "6",
+        "url": "/humans.txt"
+      },
+      {
+        "hits": "6",
+        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "6",
+        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "6",
+        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "6",
         "url": "/note/how-puzzles-made/"
       },
       {
@@ -1234,23 +1243,7 @@
       },
       {
         "hits": "5",
-        "url": "/photo/south-india/images/IMG_2369_hu1ddaec928864e2ac7f3bc7f0b4820fb9_698185_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "5",
         "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "5",
-        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "5",
-        "url": "/ads.txt"
-      },
-      {
-        "hits": "5",
-        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_600x300_fit_q75_box.jpg"
       },
       {
         "hits": "5",
@@ -1258,11 +1251,23 @@
       },
       {
         "hits": "5",
-        "url": "/photo/south-india/images/IMG_1891_hufdcdb9ce05456e41ca5036f054c92962_136300_800x0_resize_q75_box.jpg"
+        "url": "/.env"
       },
       {
         "hits": "5",
         "url": "/.well-known/assetlinks.json"
+      },
+      {
+        "hits": "5",
+        "url": "/photo/south-india/images/IMG_1827_hu74b9c62dde200713bb1748bb01fde650_244432_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "5",
+        "url": "/wordpress/wp-admin/"
+      },
+      {
+        "hits": "5",
+        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_600x300_fit_q75_box.jpg"
       },
       {
         "hits": "5",
@@ -1278,11 +1283,15 @@
       },
       {
         "hits": "5",
-        "url": "/wordpress/wp-admin/"
+        "url": "/photo/south-india/images/IMG_1891_hufdcdb9ce05456e41ca5036f054c92962_136300_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "5",
-        "url": "/.env"
+        "url": "/photo/south-india/images/IMG_2369_hu1ddaec928864e2ac7f3bc7f0b4820fb9_698185_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "5",
+        "url": "/ads.txt"
       },
       {
         "hits": "4",
@@ -1298,11 +1307,11 @@
       },
       {
         "hits": "4",
-        "url": "/photo/south-india/images/IMG_2074_hu1ddaec928864e2ac7f3bc7f0b4820fb9_96950_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "4",
-        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2074_hu1ddaec928864e2ac7f3bc7f0b4820fb9_96950_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "4",
@@ -1310,19 +1319,23 @@
       },
       {
         "hits": "4",
-        "url": "/images/poppy.jpg"
-      },
-      {
-        "hits": "4",
         "url": "/photo/south-india/images/IMG_1944_hu737147df5fde39d335039aa0fd05e9e4_240287_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "4",
-        "url": "/photo/south-india/images/IMG_1802_hu74b9c62dde200713bb1748bb01fde650_204502_800x0_resize_q75_box.jpg"
+        "url": "/images/poppy.jpg"
+      },
+      {
+        "hits": "4",
+        "url": "/photo/south-india/images/IMG_1919_hu737147df5fde39d335039aa0fd05e9e4_122464_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "4",
         "url": "/.git/HEAD"
+      },
+      {
+        "hits": "4",
+        "url": "/photo/south-india/images/IMG_1802_hu74b9c62dde200713bb1748bb01fde650_204502_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "4",
@@ -1338,10 +1351,6 @@
       },
       {
         "hits": "4",
-        "url": "/photo/south-india/images/IMG_1919_hu737147df5fde39d335039aa0fd05e9e4_122464_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "4",
         "url": "/note/screen-protectors/"
       },
       {
@@ -1354,7 +1363,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2081_hu0e1fde5b801c8e7d278695bc42f057dc_136940_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_1997_hu737147df5fde39d335039aa0fd05e9e4_63216_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "3",
@@ -1405,7 +1414,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9619"
+        "hits": "9620"
       }
     ],
     "totalApiHits": [
@@ -1619,7 +1628,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "3155",
+        "hits": "3156",
         "url": "/robots.txt"
       },
       {
@@ -1656,23 +1665,15 @@
       },
       {
         "hits": "20",
-        "url": "/photo/ben-nevis/"
+        "url": "/note/moses-long-island-klan/"
       },
       {
         "hits": "20",
-        "url": "/note/moses-long-island-klan/"
+        "url": "/photo/ben-nevis/"
       },
       {
         "hits": "19",
         "url": "/jackreid.xyz/css/style.css"
-      },
-      {
-        "hits": "18",
-        "url": "/note/there-is-no-outside/"
-      },
-      {
-        "hits": "18",
-        "url": "/note/eugenics-statistics/"
       },
       {
         "hits": "18",
@@ -1681,6 +1682,14 @@
       {
         "hits": "18",
         "url": "/note/dawn-or-dusk-painting/"
+      },
+      {
+        "hits": "18",
+        "url": "/note/there-is-no-outside/"
+      },
+      {
+        "hits": "18",
+        "url": "/note/eugenics-statistics/"
       },
       {
         "hits": "17",
@@ -1692,7 +1701,7 @@
       },
       {
         "hits": "16",
-        "url": "/note/screen-protectors/"
+        "url": "/note/madame-tussaud/"
       },
       {
         "hits": "16",
@@ -1700,15 +1709,15 @@
       },
       {
         "hits": "16",
-        "url": "/note/2010-lists/"
+        "url": "/note/screen-protectors/"
       },
       {
         "hits": "16",
-        "url": "/note/madame-tussaud/"
+        "url": "/note/2010-lists/"
       },
       {
         "hits": "15",
-        "url": "/note/james-joyce-estate/"
+        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "15",
@@ -1716,11 +1725,11 @@
       },
       {
         "hits": "15",
-        "url": "/note/bob-fosse/"
+        "url": "/note/james-joyce-estate/"
       },
       {
         "hits": "15",
-        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
+        "url": "/note/bob-fosse/"
       },
       {
         "hits": "14",
@@ -1744,11 +1753,11 @@
       },
       {
         "hits": "14",
-        "url": "/note/coronavirus-central-lockdown/"
+        "url": "/note/uss-fitzgerald/"
       },
       {
         "hits": "14",
-        "url": "/note/uss-fitzgerald/"
+        "url": "/note/coronavirus-central-lockdown/"
       },
       {
         "hits": "14",
@@ -1760,15 +1769,7 @@
       },
       {
         "hits": "13",
-        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "13",
         "url": "/note/tools-i-wish-existed/"
-      },
-      {
-        "hits": "13",
-        "url": "/photo/south-india/"
       },
       {
         "hits": "13",
@@ -1776,7 +1777,7 @@
       },
       {
         "hits": "13",
-        "url": "/note/willard-maps-of-time/"
+        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "13",
@@ -1785,6 +1786,14 @@
       {
         "hits": "13",
         "url": "/note/rise-of-the-blur/"
+      },
+      {
+        "hits": "13",
+        "url": "/note/willard-maps-of-time/"
+      },
+      {
+        "hits": "13",
+        "url": "/photo/south-india/"
       },
       {
         "hits": "12",
@@ -1812,44 +1821,44 @@
       },
       {
         "hits": "12",
-        "url": "/note/senate-impeachment-hamilton/"
+        "url": "/photo/south-india/images/IMG_2369_hu1ddaec928864e2ac7f3bc7f0b4820fb9_698185_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "12",
-        "url": "/photo/south-india/images/IMG_1919_hu737147df5fde39d335039aa0fd05e9e4_122464_800x0_resize_q75_box.jpg"
+        "url": "/note/senate-impeachment-hamilton/"
       }
     ],
     "topApiHits": [
       {
-        "hits": "19760",
+        "hits": "19761",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "19760",
+        "hits": "19761",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "19760",
+        "hits": "19761",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "19760",
+        "hits": "19761",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "19760",
+        "hits": "19761",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "19760",
+        "hits": "19761",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "19760",
+        "hits": "19761",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "19424",
+        "hits": "19425",
         "url": "/analytics"
       },
       {
@@ -1867,12 +1876,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "26150"
+        "hits": "26151"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "157833"
+        "hits": "157841"
       }
     ]
   }
