@@ -2,8 +2,8 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
+        "hits": "1",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
@@ -15,7 +15,11 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
+        "url": "/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/2020-03-21/"
       },
       {
         "hits": "1",
@@ -32,6 +36,10 @@
     ],
     "topSiteMisses": [
       {
+        "hits": "2",
+        "url": "/robots.txt"
+      },
+      {
         "hits": "1",
         "url": "/note/iranian-shootdown-coverup/"
       },
@@ -46,10 +54,6 @@
       {
         "hits": "1",
         "url": "/photo/the-trossachs/images/IMG_0017_huad381fb499f2badc1d9f5391a18539b4_1510751_600x300_fit_q75_box.jpg"
-      },
-      {
-        "hits": "1",
-        "url": "/robots.txt"
       }
     ],
     "topApiHits": [
@@ -100,16 +104,16 @@
   "day": {
     "topSiteHits": [
       {
-        "hits": "42",
+        "hits": "41",
         "url": "/index.xml"
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "23",
@@ -125,6 +129,10 @@
       },
       {
         "hits": "4",
+        "url": "/rss/"
+      },
+      {
+        "hits": "4",
         "url": "/books/reading/"
       },
       {
@@ -132,16 +140,12 @@
         "url": "/journal/"
       },
       {
-        "hits": "4",
-        "url": "/rss/"
-      },
-      {
         "hits": "3",
         "url": "/highlight/praise-walking-cofee/"
       },
       {
         "hits": "3",
-        "url": "/highlight/robert-pattinson/"
+        "url": "/open-graph.png"
       },
       {
         "hits": "3",
@@ -149,15 +153,15 @@
       },
       {
         "hits": "3",
-        "url": "/link/"
+        "url": "/highlight/robert-pattinson/"
       },
       {
         "hits": "3",
-        "url": "/open-graph.png"
+        "url": "/link/"
       },
       {
         "hits": "2",
-        "url": "/articles/saved/"
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "2",
@@ -165,11 +169,11 @@
       },
       {
         "hits": "2",
-        "url": "/media/"
+        "url": "/films/watched/"
       },
       {
         "hits": "2",
-        "url": "/tags/short-story/"
+        "url": "/tags/music/"
       },
       {
         "hits": "2",
@@ -177,15 +181,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/link/"
-      },
-      {
-        "hits": "2",
-        "url": "/films/watched/"
-      },
-      {
-        "hits": "2",
-        "url": "/analytics/month/"
+        "url": "/tags/short-story/"
       },
       {
         "hits": "2",
@@ -193,11 +189,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/magazine/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "2",
-        "url": "/highlight/snowden-gellman/"
+        "url": "/tags/link/"
       },
       {
         "hits": "2",
@@ -209,7 +205,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/music/"
+        "url": "/media/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/magazine/"
       },
       {
         "hits": "1",
@@ -253,10 +253,6 @@
       },
       {
         "hits": "1",
-        "url": "/link/2020-04-26t13-30-00/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/names-gender-code/"
       },
       {
@@ -269,15 +265,7 @@
       },
       {
         "hits": "1",
-        "url": "/journal/2020-07-12/"
-      },
-      {
-        "hits": "1",
-        "url": "/journal/2020-07-01/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/london-bikes-covid/"
+        "url": "/articles/liked/"
       },
       {
         "hits": "1",
@@ -285,11 +273,11 @@
       },
       {
         "hits": "1",
-        "url": "/journal/2020-06-22/"
+        "url": "/highlight/london-bikes-covid/"
       },
       {
         "hits": "1",
-        "url": "/highlight/larry-kramer-obit/"
+        "url": "/journal/2020-06-22/"
       },
       {
         "hits": "1",
@@ -297,12 +285,28 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/ford-best-games/"
+        "url": "/journal/2020-07-01/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/2020-07-12/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/larry-kramer-obit/"
+      },
+      {
+        "hits": "1",
+        "url": "/link/2020-04-26t13-30-00/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/2020-03-21/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "51",
+        "hits": "52",
         "url": "/robots.txt"
       },
       {
@@ -497,35 +501,35 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "4",
@@ -534,12 +538,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "277"
+        "hits": "276"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2308"
+        "hits": "2301"
       }
     ]
   },
@@ -748,7 +752,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "362",
+        "hits": "363",
         "url": "/robots.txt"
       },
       {
@@ -950,31 +954,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -988,12 +992,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2110"
+        "hits": "2109"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16135"
+        "hits": "16128"
       }
     ]
   },
@@ -1084,7 +1088,7 @@
         "url": "/highlight/runaway-media/"
       },
       {
-        "hits": "53",
+        "hits": "52",
         "url": "/highlight/"
       },
       {
@@ -1202,7 +1206,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1546",
+        "hits": "1547",
         "url": "/robots.txt"
       },
       {
@@ -1404,31 +1408,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -1447,7 +1451,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "69143"
+        "hits": "69136"
       }
     ]
   },
@@ -1656,7 +1660,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "3230",
+        "hits": "3231",
         "url": "/robots.txt"
       },
       {
@@ -1858,35 +1862,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "20198",
+        "hits": "20199",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20198",
+        "hits": "20199",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20198",
+        "hits": "20199",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20198",
+        "hits": "20199",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20198",
+        "hits": "20199",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20198",
+        "hits": "20199",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20198",
+        "hits": "20199",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "19862",
+        "hits": "19863",
         "url": "/analytics"
       },
       {
@@ -1904,12 +1908,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "26574"
+        "hits": "26575"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "161342"
+        "hits": "161350"
       }
     ]
   }
