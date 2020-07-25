@@ -30,20 +30,31 @@
         "url": "/note/index.xml"
       }
     ],
-    "topSiteMisses": [
-      {
-        "hits": "1",
-        "url": "/wp/wp-admin/"
-      }
-    ],
+    "topSiteMisses": [],
     "topApiHits": [
       {
         "hits": "12",
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
@@ -52,22 +63,6 @@
       {
         "hits": "11",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -77,7 +72,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "92"
       }
     ]
   },
@@ -109,19 +104,15 @@
       },
       {
         "hits": "4",
-        "url": "/books/reading/"
-      },
-      {
-        "hits": "4",
         "url": "/work/"
       },
       {
-        "hits": "3",
-        "url": "/tags/tech/"
+        "hits": "4",
+        "url": "/books/reading/"
       },
       {
         "hits": "3",
-        "url": "/media/"
+        "url": "/open-graph.png"
       },
       {
         "hits": "3",
@@ -129,7 +120,7 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/robert-pattinson/"
+        "url": "/tags/tech/"
       },
       {
         "hits": "3",
@@ -141,15 +132,15 @@
       },
       {
         "hits": "3",
-        "url": "/open-graph.png"
+        "url": "/highlight/robert-pattinson/"
       },
       {
         "hits": "3",
         "url": "/highlight/"
       },
       {
-        "hits": "2",
-        "url": "/highlight/uk-corona-domestic-abuse/"
+        "hits": "3",
+        "url": "/media/"
       },
       {
         "hits": "2",
@@ -157,31 +148,7 @@
       },
       {
         "hits": "2",
-        "url": "/journal/2020-07-01/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/magazine/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/economics/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/music/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/link/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/short-story/"
-      },
-      {
-        "hits": "2",
-        "url": "/films/towatch/"
+        "url": "/highlight/uk-corona-domestic-abuse/"
       },
       {
         "hits": "2",
@@ -193,7 +160,31 @@
       },
       {
         "hits": "2",
+        "url": "/tags/music/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/short-story/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/2020-07-01/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/magazine/"
+      },
+      {
+        "hits": "2",
+        "url": "/films/towatch/"
+      },
+      {
+        "hits": "2",
         "url": "/tags/lgbtq/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/link/"
       },
       {
         "hits": "2",
@@ -201,11 +192,11 @@
       },
       {
         "hits": "2",
-        "url": "/post/how-this-site-works/"
+        "url": "/rss/"
       },
       {
         "hits": "2",
-        "url": "/rss/"
+        "url": "/tags/design/"
       },
       {
         "hits": "2",
@@ -217,7 +208,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/design/"
+        "url": "/tags/economics/"
       },
       {
         "hits": "1",
@@ -257,10 +248,6 @@
       },
       {
         "hits": "1",
-        "url": "/link/2020-04-26t13-30-00/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/negroni-season/"
       },
       {
@@ -277,11 +264,19 @@
       },
       {
         "hits": "1",
-        "url": "/note/2019-07-22-bob-fosse/"
+        "url": "/link/2020-04-26t13-30-00/"
       },
       {
         "hits": "1",
         "url": "/journal/2020-07-12/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2019-07-22-bob-fosse/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/names-gender-code/"
       }
     ],
     "topSiteMisses": [
@@ -489,15 +484,11 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
         "hits": "287",
@@ -520,18 +511,22 @@
         "url": "/pocket?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "268"
+        "hits": "267"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2300"
       }
     ]
   },
@@ -992,7 +987,7 @@
   "month": {
     "topSiteHits": [
       {
-        "hits": "1400",
+        "hits": "1399",
         "url": "/index.xml"
       },
       {
@@ -1396,31 +1391,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -1434,12 +1429,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9686"
+        "hits": "9685"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69141"
+        "hits": "69134"
       }
     ]
   },
@@ -1850,35 +1845,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "20121",
+        "hits": "20122",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20121",
+        "hits": "20122",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20121",
+        "hits": "20122",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20121",
+        "hits": "20122",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20121",
+        "hits": "20122",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20121",
+        "hits": "20122",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20121",
+        "hits": "20122",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "19785",
+        "hits": "19786",
         "url": "/analytics"
       },
       {
@@ -1901,7 +1896,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "160724"
+        "hits": "160732"
       }
     ]
   }
