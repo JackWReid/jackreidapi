@@ -2,16 +2,20 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
-      },
-      {
         "hits": "1",
         "url": "/films/watched/"
       },
       {
         "hits": "1",
         "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/"
       },
       {
         "hits": "1",
@@ -26,19 +30,24 @@
         "url": "/rss/"
       }
     ],
-    "topSiteMisses": [],
+    "topSiteMisses": [
+      {
+        "hits": "1",
+        "url": "/robots.txt"
+      }
+    ],
     "topApiHits": [
       {
         "hits": "12",
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -58,7 +67,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -68,14 +77,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "41",
+        "hits": "40",
         "url": "/index.xml"
       },
       {
@@ -96,6 +105,10 @@
       },
       {
         "hits": "4",
+        "url": "/books/reading/"
+      },
+      {
+        "hits": "4",
         "url": "/articles/saved/"
       },
       {
@@ -104,7 +117,7 @@
       },
       {
         "hits": "4",
-        "url": "/books/reading/"
+        "url": "/journal/"
       },
       {
         "hits": "3",
@@ -113,10 +126,6 @@
       {
         "hits": "3",
         "url": "/link/"
-      },
-      {
-        "hits": "3",
-        "url": "/journal/"
       },
       {
         "hits": "3",
@@ -277,7 +286,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "49",
+        "hits": "48",
         "url": "/robots.txt"
       },
       {
@@ -480,23 +489,15 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -508,7 +509,15 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2",
@@ -517,12 +526,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "267"
+        "hits": "266"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2301"
       }
     ]
   },
@@ -561,11 +570,11 @@
         "url": "/work/"
       },
       {
-        "hits": "23",
+        "hits": "22",
         "url": "/media/"
       },
       {
-        "hits": "19",
+        "hits": "20",
         "url": "/journal/"
       },
       {
@@ -731,7 +740,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "362",
+        "hits": "363",
         "url": "/robots.txt"
       },
       {
@@ -1011,7 +1020,7 @@
         "url": "/highlight/minneapolis-disband-police/"
       },
       {
-        "hits": "114",
+        "hits": "113",
         "url": "/css/style.css"
       },
       {
@@ -1028,11 +1037,11 @@
       },
       {
         "hits": "69",
-        "url": "/post/activist-relief-resources/"
+        "url": "/journal/"
       },
       {
-        "hits": "68",
-        "url": "/journal/"
+        "hits": "69",
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "65",
@@ -1185,7 +1194,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1550",
+        "hits": "1549",
         "url": "/robots.txt"
       },
       {
@@ -1387,31 +1396,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -1425,12 +1434,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9685"
+        "hits": "9684"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69134"
+        "hits": "69141"
       }
     ]
   },
@@ -1493,7 +1502,7 @@
         "url": "/post/"
       },
       {
-        "hits": "154",
+        "hits": "155",
         "url": "/journal/"
       },
       {
@@ -1639,7 +1648,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "3217",
+        "hits": "3218",
         "url": "/robots.txt"
       },
       {
@@ -1841,35 +1850,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "20125",
+        "hits": "20126",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20125",
+        "hits": "20126",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20125",
+        "hits": "20126",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20125",
+        "hits": "20126",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20125",
+        "hits": "20126",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20125",
+        "hits": "20126",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20125",
+        "hits": "20126",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "19789",
+        "hits": "19790",
         "url": "/analytics"
       },
       {
@@ -1887,12 +1896,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "26499"
+        "hits": "26500"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "160756"
+        "hits": "160764"
       }
     ]
   }
