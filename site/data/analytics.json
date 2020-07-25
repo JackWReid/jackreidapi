@@ -2,8 +2,8 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "1",
-        "url": "/articles/saved/"
+        "hits": "2",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -12,10 +12,6 @@
       {
         "hits": "1",
         "url": "/highlight/robert-pattinson/"
-      },
-      {
-        "hits": "1",
-        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -32,16 +28,20 @@
       {
         "hits": "1",
         "url": "/tags/mental-health/"
+      },
+      {
+        "hits": "1",
+        "url": "/articles/saved/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/technology/"
       }
     ],
     "topSiteMisses": [
       {
         "hits": "2",
         "url": "/robots.txt"
-      },
-      {
-        "hits": "1",
-        "url": "/note/duchy-of-cornwall/"
       },
       {
         "hits": "1",
@@ -58,20 +58,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -84,23 +72,35 @@
       {
         "hits": "11",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "8"
+        "hits": "10"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "93"
+        "hits": "89"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "41",
+        "hits": "42",
         "url": "/index.xml"
       },
       {
@@ -505,11 +505,15 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/analytics"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -532,29 +536,25 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "275"
+        "hits": "277"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2299"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "307",
+        "hits": "308",
         "url": "/index.xml"
       },
       {
@@ -611,7 +611,7 @@
       },
       {
         "hits": "12",
-        "url": "/link/"
+        "url": "/post/"
       },
       {
         "hits": "12",
@@ -619,7 +619,7 @@
       },
       {
         "hits": "12",
-        "url": "/post/"
+        "url": "/link/"
       },
       {
         "hits": "11",
@@ -631,11 +631,7 @@
       },
       {
         "hits": "11",
-        "url": "/highlight/uk-corona-domestic-abuse/"
-      },
-      {
-        "hits": "11",
-        "url": "/favicon.png"
+        "url": "/css/style.css"
       },
       {
         "hits": "11",
@@ -643,7 +639,11 @@
       },
       {
         "hits": "11",
-        "url": "/css/style.css"
+        "url": "/favicon.png"
+      },
+      {
+        "hits": "11",
+        "url": "/highlight/uk-corona-domestic-abuse/"
       },
       {
         "hits": "10",
@@ -651,11 +651,11 @@
       },
       {
         "hits": "10",
-        "url": "/tags/accessibility/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "10",
-        "url": "/post/activist-relief-resources/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "9",
@@ -679,6 +679,10 @@
       },
       {
         "hits": "8",
+        "url": "/tags/covid-19/"
+      },
+      {
+        "hits": "8",
         "url": "/tags/work/"
       },
       {
@@ -687,15 +691,11 @@
       },
       {
         "hits": "8",
-        "url": "/highlight/demonise-spotify/"
-      },
-      {
-        "hits": "8",
-        "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "8",
         "url": "/highlight/robert-pattinson/"
+      },
+      {
+        "hits": "8",
+        "url": "/highlight/demonise-spotify/"
       },
       {
         "hits": "8",
@@ -715,15 +715,11 @@
       },
       {
         "hits": "7",
-        "url": "/highlight/runaway-media/"
+        "url": "/tags/tech/"
       },
       {
         "hits": "7",
         "url": "/tags/feminism/"
-      },
-      {
-        "hits": "7",
-        "url": "/tags/tech/"
       },
       {
         "hits": "7",
@@ -735,15 +731,19 @@
       },
       {
         "hits": "7",
-        "url": "/tags/nyc/"
-      },
-      {
-        "hits": "7",
         "url": "/tags/philosophy/"
       },
       {
         "hits": "7",
         "url": "/tags/metoo/"
+      },
+      {
+        "hits": "7",
+        "url": "/highlight/runaway-media/"
+      },
+      {
+        "hits": "7",
+        "url": "/tags/nyc/"
       },
       {
         "hits": "6",
@@ -958,32 +958,32 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "2012",
@@ -1001,14 +1001,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16132"
+        "hits": "16126"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1399",
+        "hits": "1400",
         "url": "/index.xml"
       },
       {
@@ -1412,32 +1412,32 @@
     ],
     "topApiHits": [
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8640",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8640",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8639",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "8627",
@@ -1450,19 +1450,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9682"
+        "hits": "9684"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69140"
+        "hits": "69134"
       }
     ]
   },
   "year": {
     "topSiteHits": [
       {
-        "hits": "3342",
+        "hits": "3343",
         "url": "/index.xml"
       },
       {
@@ -1866,35 +1866,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "20091",
+        "hits": "20092",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20091",
+        "hits": "20092",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20091",
+        "hits": "20092",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20091",
+        "hits": "20092",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20091",
+        "hits": "20092",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20091",
+        "hits": "20092",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20091",
+        "hits": "20092",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "19755",
+        "hits": "19756",
         "url": "/analytics"
       },
       {
@@ -1912,12 +1912,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "26473"
+        "hits": "26475"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "160484"
+        "hits": "160492"
       }
     ]
   }
