@@ -15,15 +15,15 @@
       },
       {
         "hits": "1",
-        "url": "/photo/"
-      },
-      {
-        "hits": "1",
         "url": "/photo/index.xml"
       },
       {
         "hits": "1",
         "url": "/share/highlight/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/economics/"
       },
       {
         "hits": "1",
@@ -58,27 +58,27 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/pocket?limit=5000"
       }
     ],
@@ -89,7 +89,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "96"
       }
     ]
   },
@@ -432,8 +432,24 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "287",
@@ -441,27 +457,11 @@
       },
       {
         "hits": "287",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/films/watched?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "1",
@@ -470,12 +470,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "300"
+        "hits": "301"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2302"
       }
     ]
   },
@@ -503,11 +503,11 @@
       },
       {
         "hits": "31",
-        "url": "/articles/saved/"
+        "url": "/open-graph.png"
       },
       {
         "hits": "31",
-        "url": "/open-graph.png"
+        "url": "/articles/saved/"
       },
       {
         "hits": "29",
@@ -563,11 +563,11 @@
       },
       {
         "hits": "12",
-        "url": "/post/activist-relief-resources/"
+        "url": "/films/watched/"
       },
       {
         "hits": "12",
-        "url": "/films/watched/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "12",
@@ -603,6 +603,10 @@
       },
       {
         "hits": "8",
+        "url": "/tags/economics/"
+      },
+      {
+        "hits": "8",
         "url": "/tags/music/"
       },
       {
@@ -624,10 +628,6 @@
       {
         "hits": "8",
         "url": "/highlight/michael-the-destroyer/"
-      },
-      {
-        "hits": "7",
-        "url": "/tags/economics/"
       },
       {
         "hits": "7",
@@ -1138,7 +1138,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1547",
+        "hits": "1546",
         "url": "/robots.txt"
       },
       {
@@ -1340,8 +1340,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "8639",
+        "hits": "8640",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8640",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8639",
@@ -1350,18 +1362,6 @@
       {
         "hits": "8639",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8639",
@@ -1383,7 +1383,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "69136"
+        "hits": "69138"
       }
     ]
   },
@@ -1794,35 +1794,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "20521",
+        "hits": "20522",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20521",
+        "hits": "20522",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20521",
+        "hits": "20522",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20521",
+        "hits": "20522",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20521",
+        "hits": "20522",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20521",
+        "hits": "20522",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20521",
+        "hits": "20522",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "20184",
+        "hits": "20185",
         "url": "/analytics"
       },
       {
@@ -1840,12 +1840,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "26917"
+        "hits": "26918"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "163926"
+        "hits": "163934"
       }
     ]
   }
