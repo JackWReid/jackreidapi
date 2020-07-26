@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
+        "hits": "1",
         "url": "/"
       },
       {
@@ -48,7 +48,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "3",
+        "hits": "1",
         "url": "/robots.txt"
       }
     ],
@@ -58,8 +58,20 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -72,35 +84,23 @@
       {
         "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "12"
+        "hits": "11"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "93"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "41",
+        "hits": "40",
         "url": "/index.xml"
       },
       {
@@ -153,7 +153,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/ford-best-games/"
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "2",
@@ -161,15 +161,11 @@
       },
       {
         "hits": "2",
-        "url": "/books/reading/"
+        "url": "/highlight/ford-best-games/"
       },
       {
         "hits": "2",
-        "url": "/highlight/uk-corona-domestic-abuse/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/link/"
+        "url": "/highlight/new-york-geology/"
       },
       {
         "hits": "2",
@@ -177,7 +173,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/race/"
+        "url": "/tags/link/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/uk-corona-domestic-abuse/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/nature/"
       },
       {
         "hits": "2",
@@ -185,19 +189,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/technology/"
+        "url": "/tags/race/"
       },
       {
         "hits": "2",
         "url": "/tags/dev/"
-      },
-      {
-        "hits": "2",
-        "url": "/films/watched/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/new-york-geology/"
       },
       {
         "hits": "2",
@@ -209,15 +205,23 @@
       },
       {
         "hits": "2",
+        "url": "/tags/technology/"
+      },
+      {
+        "hits": "2",
         "url": "/highlight/off-road-land-trains/"
       },
       {
         "hits": "2",
-        "url": "/post/moses-long-island-klan/"
+        "url": "/books/reading/"
       },
       {
         "hits": "2",
-        "url": "/highlight/snowden-gellman/"
+        "url": "/films/watched/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/moses-long-island-klan/"
       },
       {
         "hits": "2",
@@ -285,10 +289,6 @@
       },
       {
         "hits": "1",
-        "url": "/journal/2020-04-05/"
-      },
-      {
-        "hits": "1",
         "url": "/journal/2020-04-26/"
       },
       {
@@ -297,7 +297,7 @@
       },
       {
         "hits": "1",
-        "url": "/journal/2020-03-21/"
+        "url": "/journal/2020-04-05/"
       }
     ],
     "topSiteMisses": [
@@ -461,10 +461,6 @@
       },
       {
         "hits": "288",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
@@ -472,12 +468,16 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2",
@@ -491,7 +491,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2304"
+        "hits": "2305"
       }
     ]
   },
@@ -551,7 +551,7 @@
       },
       {
         "hits": "13",
-        "url": "/link/"
+        "url": "/uses/"
       },
       {
         "hits": "13",
@@ -563,7 +563,7 @@
       },
       {
         "hits": "13",
-        "url": "/uses/"
+        "url": "/link/"
       },
       {
         "hits": "13",
@@ -579,15 +579,11 @@
       },
       {
         "hits": "12",
-        "url": "/post/"
-      },
-      {
-        "hits": "12",
         "url": "/post/activist-relief-resources/"
       },
       {
-        "hits": "11",
-        "url": "/post/how-this-site-works/"
+        "hits": "12",
+        "url": "/post/"
       },
       {
         "hits": "11",
@@ -618,16 +614,20 @@
         "url": "/tags/covid-19/"
       },
       {
+        "hits": "9",
+        "url": "/post/how-this-site-works/"
+      },
+      {
         "hits": "8",
         "url": "/highlight/igbo-orthography/"
       },
       {
         "hits": "8",
-        "url": "/tags/work/"
+        "url": "/highlight/demonise-spotify/"
       },
       {
         "hits": "8",
-        "url": "/highlight/demonise-spotify/"
+        "url": "/tags/work/"
       },
       {
         "hits": "8",
@@ -659,7 +659,7 @@
       },
       {
         "hits": "7",
-        "url": "/tags/nyc/"
+        "url": "/tags/nature/"
       },
       {
         "hits": "7",
@@ -668,6 +668,10 @@
       {
         "hits": "7",
         "url": "/articles/liked/"
+      },
+      {
+        "hits": "7",
+        "url": "/tags/nyc/"
       },
       {
         "hits": "7",
@@ -692,15 +696,11 @@
       {
         "hits": "6",
         "url": "/highlight/mouse-feeder-welfare/"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/games/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "363",
+        "hits": "362",
         "url": "/robots.txt"
       },
       {
@@ -903,7 +903,15 @@
     "topApiHits": [
       {
         "hits": "2016",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "2016",
@@ -916,14 +924,6 @@
       {
         "hits": "2015",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2015",
@@ -940,12 +940,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2132"
+        "hits": "2129"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16130"
+        "hits": "16132"
       }
     ]
   },
@@ -1394,7 +1394,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9745"
+        "hits": "9746"
       }
     ],
     "totalApiHits": [
@@ -1810,35 +1810,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "20333",
+        "hits": "20334",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20333",
+        "hits": "20334",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20333",
+        "hits": "20334",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20333",
+        "hits": "20334",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20333",
+        "hits": "20334",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20333",
+        "hits": "20334",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20333",
+        "hits": "20334",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "19997",
+        "hits": "19998",
         "url": "/analytics"
       },
       {
@@ -1856,12 +1856,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "26728"
+        "hits": "26729"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "162422"
+        "hits": "162430"
       }
     ]
   }
