@@ -66,31 +66,31 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/pocket?limit=5000"
       }
     ],
@@ -101,7 +101,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "89"
       }
     ]
   },
@@ -461,7 +461,7 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "288",
@@ -469,19 +469,19 @@
       },
       {
         "hits": "288",
-        "url": "/articles?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -503,7 +503,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2303"
+        "hits": "2300"
       }
     ]
   },
@@ -737,15 +737,19 @@
       },
       {
         "hits": "3",
+        "url": "/.env"
+      },
+      {
+        "hits": "3",
         "url": "/note/duchy-of-cornwall"
       },
       {
         "hits": "3",
-        "url": "/note/sailors-on-wikipedia"
+        "url": "/note/2020-04-16-google-hire-freeze"
       },
       {
         "hits": "3",
-        "url": "/.env"
+        "url": "/note/sailors-on-wikipedia"
       },
       {
         "hits": "3",
@@ -761,10 +765,6 @@
       },
       {
         "hits": "3",
-        "url": "/note/2020-04-16-google-hire-freeze"
-      },
-      {
-        "hits": "3",
         "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
       },
       {
@@ -777,23 +777,11 @@
       },
       {
         "hits": "2",
+        "url": "/note/aristophanes-wasps"
+      },
+      {
+        "hits": "2",
         "url": "/photo/south-india/images/IMG_2223_hu737147df5fde39d335039aa0fd05e9e4_391888_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_1891_hufdcdb9ce05456e41ca5036f054c92962_136300_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-02-10-little-women-gerwig-crit"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/brockwell-sleeve/images/brockwell-sleeve_hu7447d159f91cab43ff5263d33a44ba06_183113_600x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -801,7 +789,19 @@
       },
       {
         "hits": "2",
-        "url": "/note/willard-maps-of-time"
+        "url": "/note/2020-02-24-kanye-out-west"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-02-10-little-women-gerwig-crit"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_1891_hufdcdb9ce05456e41ca5036f054c92962_136300_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/south-india/images/IMG_2111_hu737147df5fde39d335039aa0fd05e9e4_237411_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -809,11 +809,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/tools-i-wish-existed/"
+        "url": "/tags/bestof"
       },
       {
         "hits": "2",
-        "url": "/note/2020-02-24-kanye-out-west"
+        "url": "/note/willard-maps-of-time"
+      },
+      {
+        "hits": "2",
+        "url": "/note/tools-i-wish-existed/"
       },
       {
         "hits": "2",
@@ -822,10 +826,6 @@
       {
         "hits": "2",
         "url": "/note/rise-of-the-blur"
-      },
-      {
-        "hits": "2",
-        "url": "/note/aristophanes-wasps"
       },
       {
         "hits": "2",
@@ -1373,6 +1373,10 @@
       },
       {
         "hits": "8640",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "8640",
         "url": "/films/towatch?limit=5000"
       },
       {
@@ -1385,15 +1389,11 @@
       },
       {
         "hits": "8640",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8640",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8640",
-        "url": "/books/toread?limit=5000"
+        "hits": "8639",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8627",
@@ -1411,7 +1411,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "69143"
+        "hits": "69142"
       }
     ]
   },
@@ -1822,35 +1822,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "20427",
+        "hits": "20428",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20427",
+        "hits": "20428",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20427",
+        "hits": "20428",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20427",
+        "hits": "20428",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20427",
+        "hits": "20428",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20427",
+        "hits": "20428",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20427",
+        "hits": "20428",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "20091",
+        "hits": "20092",
         "url": "/analytics"
       },
       {
@@ -1873,7 +1873,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "163174"
+        "hits": "163182"
       }
     ]
   }
