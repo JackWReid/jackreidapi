@@ -103,7 +103,7 @@
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/analytics"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "12",
@@ -111,7 +111,7 @@
       },
       {
         "hits": "12",
-        "url": "/books/reading?limit=5000"
+        "url": "/analytics"
       },
       {
         "hits": "12",
@@ -130,8 +130,8 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -141,7 +141,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "95"
       }
     ]
   },
@@ -509,35 +509,35 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -551,7 +551,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2305"
+        "hits": "2298"
       }
     ]
   },
@@ -962,20 +962,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -984,6 +972,18 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -1005,7 +1005,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16133"
+        "hits": "16131"
       }
     ]
   },
@@ -1196,10 +1196,6 @@
         "url": "/tags/dev/"
       },
       {
-        "hits": "28",
-        "url": "/analytics/day/"
-      },
-      {
         "hits": "27",
         "url": "/highlight/robert-pattinson/"
       },
@@ -1210,11 +1206,15 @@
       {
         "hits": "27",
         "url": "/tags/mentalhealth/"
+      },
+      {
+        "hits": "27",
+        "url": "/highlight/2020-07-15-falling-fertility-bbc/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "1570",
+        "hits": "1569",
         "url": "/robots.txt"
       },
       {
@@ -1247,7 +1247,7 @@
       },
       {
         "hits": "7",
-        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2223_hu737147df5fde39d335039aa0fd05e9e4_391888_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "7",
@@ -1255,15 +1255,11 @@
       },
       {
         "hits": "7",
-        "url": "/photo/south-india/images/IMG_2223_hu737147df5fde39d335039aa0fd05e9e4_391888_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "6",
         "url": "/humans.txt"
-      },
-      {
-        "hits": "6",
-        "url": "/note/how-puzzles-made/"
       },
       {
         "hits": "6",
@@ -1288,6 +1284,10 @@
       {
         "hits": "5",
         "url": "/photo/ben-nevis/images/IMG_0029_huad381fb499f2badc1d9f5391a18539b4_924484_600x300_fit_q75_box.jpg"
+      },
+      {
+        "hits": "5",
+        "url": "/note/how-puzzles-made/"
       },
       {
         "hits": "5",
@@ -1416,10 +1416,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "8640",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "8639",
         "url": "/pocket?limit=5000"
       },
@@ -1430,6 +1426,10 @@
       {
         "hits": "8639",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "8639",
@@ -1454,12 +1454,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9891"
+        "hits": "9890"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69136"
+        "hits": "69135"
       }
     ]
   },
@@ -1870,35 +1870,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "20801",
+        "hits": "20802",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20801",
+        "hits": "20802",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20801",
+        "hits": "20802",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20801",
+        "hits": "20802",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20801",
+        "hits": "20802",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20801",
+        "hits": "20802",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20801",
+        "hits": "20802",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "20464",
+        "hits": "20465",
         "url": "/analytics"
       },
       {
@@ -1921,7 +1921,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "166167"
+        "hits": "166175"
       }
     ]
   }
