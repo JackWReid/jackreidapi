@@ -1,7 +1,7 @@
 ---
-title: "2020 07 15 Falling Fertility Bbc"
+title: "Falling Fertility Rates"
 date: 2020-07-15T14:32:17+01:00
-slug: 2020-07-15-falling-fertility-bbc
+slug: falling-fertility-bbc
 tags:
   - tag
 ---
