@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
+        "hits": "3",
         "url": "/index.xml"
       },
       {
@@ -62,7 +62,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
@@ -92,20 +92,24 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "13"
+        "hits": "14"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "90"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "43",
+        "hits": "44",
         "url": "/index.xml"
+      },
+      {
+        "hits": "24",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
@@ -118,10 +122,6 @@
       {
         "hits": "24",
         "url": "/photo/index.xml"
-      },
-      {
-        "hits": "24",
-        "url": "/highlight/index.xml"
       },
       {
         "hits": "22",
@@ -145,10 +145,6 @@
       },
       {
         "hits": "4",
-        "url": "/post/music-is-changing/"
-      },
-      {
-        "hits": "4",
         "url": "/work/"
       },
       {
@@ -166,6 +162,10 @@
       {
         "hits": "3",
         "url": "/tags/language/"
+      },
+      {
+        "hits": "3",
+        "url": "/post/music-is-changing/"
       },
       {
         "hits": "3",
@@ -405,35 +405,35 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "4",
@@ -442,28 +442,28 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "356"
+        "hits": "355"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2301"
+        "hits": "2308"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "299",
+        "hits": "300",
         "url": "/index.xml"
       },
       {
         "hits": "168",
-        "url": "/note/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "168",
-        "url": "/highlight/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "167",
@@ -474,7 +474,7 @@
         "url": "/"
       },
       {
-        "hits": "35",
+        "hits": "33",
         "url": "/open-graph.png"
       },
       {
@@ -511,10 +511,6 @@
       },
       {
         "hits": "13",
-        "url": "/rss/"
-      },
-      {
-        "hits": "13",
         "url": "/highlight/reading-in-the-dark/"
       },
       {
@@ -522,12 +518,20 @@
         "url": "/css/style.css"
       },
       {
-        "hits": "12",
-        "url": "/books/reading/"
+        "hits": "13",
+        "url": "/rss/"
       },
       {
         "hits": "12",
         "url": "/note/"
+      },
+      {
+        "hits": "12",
+        "url": "/post/"
+      },
+      {
+        "hits": "12",
+        "url": "/books/reading/"
       },
       {
         "hits": "12",
@@ -542,14 +546,6 @@
         "url": "/highlight/uk-corona-domestic-abuse/"
       },
       {
-        "hits": "12",
-        "url": "/post/"
-      },
-      {
-        "hits": "11",
-        "url": "/link/"
-      },
-      {
         "hits": "11",
         "url": "/highlight/praise-walking-cofee/"
       },
@@ -559,19 +555,19 @@
       },
       {
         "hits": "10",
-        "url": "/highlight/"
+        "url": "/link/"
       },
       {
-        "hits": "9",
-        "url": "/tags/music/"
+        "hits": "10",
+        "url": "/highlight/"
       },
       {
         "hits": "9",
         "url": "/tags/accessibility/"
       },
       {
-        "hits": "8",
-        "url": "/highlight/runaway-media/"
+        "hits": "9",
+        "url": "/tags/music/"
       },
       {
         "hits": "8",
@@ -579,7 +575,7 @@
       },
       {
         "hits": "8",
-        "url": "/post/music-is-changing/"
+        "url": "/highlight/runaway-media/"
       },
       {
         "hits": "8",
@@ -591,11 +587,15 @@
       },
       {
         "hits": "8",
+        "url": "/tags/link/"
+      },
+      {
+        "hits": "8",
         "url": "/photo/"
       },
       {
         "hits": "8",
-        "url": "/tags/link/"
+        "url": "/post/music-is-changing/"
       },
       {
         "hits": "7",
@@ -603,11 +603,15 @@
       },
       {
         "hits": "7",
+        "url": "/tags/lgbtq/"
+      },
+      {
+        "hits": "7",
         "url": "/books/read/"
       },
       {
         "hits": "7",
-        "url": "/tags/lgbtq/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "7",
@@ -619,19 +623,11 @@
       },
       {
         "hits": "7",
-        "url": "/highlight/off-road-land-trains/"
-      },
-      {
-        "hits": "7",
         "url": "/highlight/demonise-spotify/"
       },
       {
         "hits": "7",
-        "url": "/tags/covid-19/"
-      },
-      {
-        "hits": "6",
-        "url": "/link/2020-06-02t09-00-00/"
+        "url": "/highlight/off-road-land-trains/"
       },
       {
         "hits": "6",
@@ -639,15 +635,19 @@
       },
       {
         "hits": "6",
+        "url": "/highlight/tfl-streetspace/"
+      },
+      {
+        "hits": "6",
         "url": "/highlight/apartments-from-malls/"
       },
       {
         "hits": "6",
-        "url": "/tags/economics/"
+        "url": "/link/2020-06-02t09-00-00/"
       },
       {
         "hits": "6",
-        "url": "/highlight/tfl-streetspace/"
+        "url": "/highlight/thandie-newton-profile/"
       },
       {
         "hits": "6",
@@ -656,7 +656,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "371",
+        "hits": "366",
         "url": "/robots.txt"
       },
       {
@@ -896,7 +896,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2159"
+        "hits": "2154"
       }
     ],
     "totalApiHits": [
@@ -908,7 +908,7 @@
   "month": {
     "topSiteHits": [
       {
-        "hits": "1384",
+        "hits": "1385",
         "url": "/index.xml"
       },
       {
@@ -984,7 +984,7 @@
         "url": "/post/"
       },
       {
-        "hits": "58",
+        "hits": "57",
         "url": "/highlight/runaway-media/"
       },
       {
@@ -1312,8 +1312,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "8639",
+        "hits": "8640",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8640",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8639",
@@ -1322,18 +1334,6 @@
       {
         "hits": "8639",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8639",
@@ -1350,19 +1350,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9935"
+        "hits": "9934"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69139"
+        "hits": "69141"
       }
     ]
   },
   "year": {
     "topSiteHits": [
       {
-        "hits": "3475",
+        "hits": "3476",
         "url": "/index.xml"
       },
       {
@@ -1766,35 +1766,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "20975",
+        "hits": "20976",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20975",
+        "hits": "20976",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20975",
+        "hits": "20976",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20975",
+        "hits": "20976",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20975",
+        "hits": "20976",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20975",
+        "hits": "20976",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20975",
+        "hits": "20976",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "20638",
+        "hits": "20639",
         "url": "/analytics"
       },
       {
@@ -1812,12 +1812,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "27435"
+        "hits": "27436"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "167563"
+        "hits": "167571"
       }
     ]
   }
