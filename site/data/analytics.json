@@ -2,16 +2,16 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/index.xml"
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
+        "url": "/highlight/london-floor-plan/"
       },
       {
         "hits": "1",
-        "url": "/highlight/london-floor-plan/"
+        "url": "/highlight/reading-in-the-dark/"
       },
       {
         "hits": "1",
@@ -43,7 +43,7 @@
       },
       {
         "hits": "1",
-        "url": "/articles/saved/"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
@@ -52,7 +52,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "4",
+        "hits": "3",
         "url": "/robots.txt"
       },
       {
@@ -100,7 +100,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "14"
+        "hits": "13"
       }
     ],
     "totalApiHits": [
@@ -112,8 +112,12 @@
   "day": {
     "topSiteHits": [
       {
-        "hits": "45",
+        "hits": "44",
         "url": "/index.xml"
+      },
+      {
+        "hits": "24",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
@@ -122,10 +126,6 @@
       {
         "hits": "24",
         "url": "/photo/index.xml"
-      },
-      {
-        "hits": "24",
-        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
@@ -141,11 +141,11 @@
       },
       {
         "hits": "7",
-        "url": "/favicon.png"
+        "url": "/css/style.css"
       },
       {
         "hits": "7",
-        "url": "/css/style.css"
+        "url": "/favicon.png"
       },
       {
         "hits": "6",
@@ -157,23 +157,15 @@
       },
       {
         "hits": "4",
-        "url": "/books/read/"
-      },
-      {
-        "hits": "4",
         "url": "/work/"
       },
       {
-        "hits": "3",
-        "url": "/highlight/"
+        "hits": "4",
+        "url": "/books/read/"
       },
       {
         "hits": "3",
-        "url": "/tags/snowden/"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/music/"
+        "url": "/tags/scotland/"
       },
       {
         "hits": "3",
@@ -181,7 +173,15 @@
       },
       {
         "hits": "3",
-        "url": "/post/"
+        "url": "/tags/justice/"
+      },
+      {
+        "hits": "3",
+        "url": "/highlight/"
+      },
+      {
+        "hits": "3",
+        "url": "/tags/music/"
       },
       {
         "hits": "3",
@@ -189,39 +189,11 @@
       },
       {
         "hits": "3",
-        "url": "/tags/justice/"
+        "url": "/post/"
       },
       {
         "hits": "3",
-        "url": "/tags/scotland/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/larry-kramer-obit/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/activist-relief-resources/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/uk-corona-domestic-abuse/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/trump-covid-meltdown/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/technology/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/wfh-forever/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/running/"
+        "url": "/tags/snowden/"
       },
       {
         "hits": "2",
@@ -229,7 +201,39 @@
       },
       {
         "hits": "2",
+        "url": "/highlight/larry-kramer-obit/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/reading-in-the-dark/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/uk-corona-domestic-abuse/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/activist-relief-resources/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/technology/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/trump-covid-meltdown/"
+      },
+      {
+        "hits": "2",
         "url": "/books/toread/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/running/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/wfh-forever/"
       },
       {
         "hits": "2",
@@ -306,15 +310,11 @@
       {
         "hits": "1",
         "url": "/highlight/tfl-streetspace/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/finland-media-literate/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "68",
+        "hits": "67",
         "url": "/robots.txt"
       },
       {
@@ -425,11 +425,27 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "287",
@@ -437,23 +453,7 @@
       },
       {
         "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "4",
@@ -462,19 +462,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "363"
+        "hits": "362"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2301"
+        "hits": "2306"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "301",
+        "hits": "300",
         "url": "/index.xml"
       },
       {
@@ -535,6 +535,10 @@
       },
       {
         "hits": "13",
+        "url": "/highlight/reading-in-the-dark/"
+      },
+      {
+        "hits": "13",
         "url": "/highlight/"
       },
       {
@@ -552,10 +556,6 @@
       {
         "hits": "12",
         "url": "/uses/"
-      },
-      {
-        "hits": "12",
-        "url": "/highlight/reading-in-the-dark/"
       },
       {
         "hits": "12",
@@ -879,30 +879,30 @@
     "topApiHits": [
       {
         "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -921,7 +921,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16134"
+        "hits": "16140"
       }
     ]
   },
@@ -1017,11 +1017,11 @@
       },
       {
         "hits": "47",
-        "url": "/books/reading/"
+        "url": "/link/"
       },
       {
-        "hits": "47",
-        "url": "/link/"
+        "hits": "46",
+        "url": "/books/reading/"
       },
       {
         "hits": "46",
@@ -1109,15 +1109,15 @@
       },
       {
         "hits": "29",
+        "url": "/highlight/reading-in-the-dark/"
+      },
+      {
+        "hits": "29",
         "url": "/highlight/murakami-translationese/"
       },
       {
         "hits": "28",
         "url": "/tags/dev/"
-      },
-      {
-        "hits": "28",
-        "url": "/highlight/reading-in-the-dark/"
       },
       {
         "hits": "28",
@@ -1130,7 +1130,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1581",
+        "hits": "1579",
         "url": "/robots.txt"
       },
       {
@@ -1370,7 +1370,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9941"
+        "hits": "9940"
       }
     ],
     "totalApiHits": [
@@ -1539,11 +1539,11 @@
       },
       {
         "hits": "76",
-        "url": "/highlight/roxane-gay-cleaner/"
+        "url": "/highlight/reading-in-the-dark/"
       },
       {
-        "hits": "75",
-        "url": "/highlight/reading-in-the-dark/"
+        "hits": "76",
+        "url": "/highlight/roxane-gay-cleaner/"
       },
       {
         "hits": "75",
@@ -1786,35 +1786,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "20916",
+        "hits": "20917",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20916",
+        "hits": "20917",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20916",
+        "hits": "20917",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20916",
+        "hits": "20917",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20916",
+        "hits": "20917",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20916",
+        "hits": "20917",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20916",
+        "hits": "20917",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "20579",
+        "hits": "20580",
         "url": "/analytics"
       },
       {
@@ -1832,12 +1832,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "27387"
+        "hits": "27388"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "167090"
+        "hits": "167098"
       }
     ]
   }
