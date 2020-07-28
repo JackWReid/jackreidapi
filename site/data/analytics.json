@@ -36,19 +36,23 @@
       {
         "hits": "1",
         "url": "/photo/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/politics/"
       }
     ],
     "topSiteMisses": [
       {
         "hits": "2",
         "url": "/robots.txt"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/medicine"
       }
     ],
     "topApiHits": [
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
       {
         "hits": "12",
         "url": "/analytics"
@@ -58,38 +62,38 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
+        "hits": "1",
+        "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "9"
+        "hits": "10"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "97"
       }
     ]
   },
@@ -397,23 +401,15 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -425,21 +421,29 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
       },
       {
-        "hits": "3",
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "4",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "365"
+        "hits": "366"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2303"
       }
     ]
   },
@@ -462,7 +466,7 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "82",
+        "hits": "81",
         "url": "/"
       },
       {
@@ -648,7 +652,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "374",
+        "hits": "373",
         "url": "/robots.txt"
       },
       {
@@ -673,19 +677,7 @@
       },
       {
         "hits": "3",
-        "url": "/photo/brockwell-sleeve"
-      },
-      {
-        "hits": "3",
-        "url": "/note/tech-sabbath"
-      },
-      {
-        "hits": "3",
-        "url": "/note/willard-maps-of-time"
-      },
-      {
-        "hits": "3",
-        "url": "/note/flights"
+        "url": "/note/corona-crisis-18-months"
       },
       {
         "hits": "3",
@@ -693,43 +685,7 @@
       },
       {
         "hits": "3",
-        "url": "/tags/article"
-      },
-      {
-        "hits": "3",
-        "url": "/apple-touch-icon-precomposed.png"
-      },
-      {
-        "hits": "3",
-        "url": "/note/aristophanes-wasps"
-      },
-      {
-        "hits": "3",
-        "url": "/note/sailors-on-wikipedia"
-      },
-      {
-        "hits": "3",
-        "url": "/note/duchy-of-cornwall"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/corona"
-      },
-      {
-        "hits": "3",
-        "url": "/note/low-tech-election-iowa"
-      },
-      {
-        "hits": "3",
-        "url": "/note/2020-02-24-kanye-out-west"
-      },
-      {
-        "hits": "3",
-        "url": "/apple-touch-icon.png"
-      },
-      {
-        "hits": "3",
-        "url": "/note/reading-difficult-books"
+        "url": "/note/the-great-regression"
       },
       {
         "hits": "3",
@@ -737,15 +693,7 @@
       },
       {
         "hits": "3",
-        "url": "/note/corona-crisis-18-months"
-      },
-      {
-        "hits": "3",
-        "url": "/note/iranian-shootdown-coverup"
-      },
-      {
-        "hits": "3",
-        "url": "/note/the-great-regression"
+        "url": "/note/tech-sabbath"
       },
       {
         "hits": "3",
@@ -753,19 +701,39 @@
       },
       {
         "hits": "3",
-        "url": "/note/avalanche-school"
-      },
-      {
-        "hits": "3",
         "url": "/note/tools-i-wish-existed/"
       },
       {
         "hits": "3",
-        "url": "/photo/ben-nevis/"
+        "url": "/note/willard-maps-of-time"
       },
       {
         "hits": "3",
-        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
+        "url": "/note/sailors-on-wikipedia"
+      },
+      {
+        "hits": "3",
+        "url": "/apple-touch-icon.png"
+      },
+      {
+        "hits": "3",
+        "url": "/note/low-tech-election-iowa"
+      },
+      {
+        "hits": "3",
+        "url": "/note/low-tech-election-iowa/"
+      },
+      {
+        "hits": "3",
+        "url": "/note/2020-02-24-kanye-out-west"
+      },
+      {
+        "hits": "3",
+        "url": "/note/flights"
+      },
+      {
+        "hits": "3",
+        "url": "/note/reading-difficult-books"
       },
       {
         "hits": "3",
@@ -773,15 +741,47 @@
       },
       {
         "hits": "3",
-        "url": "/note/low-tech-election-iowa/"
+        "url": "/tags/article"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "3",
+        "url": "/note/iranian-shootdown-coverup"
+      },
+      {
+        "hits": "3",
+        "url": "/tags/corona"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/brockwell-sleeve"
+      },
+      {
+        "hits": "3",
+        "url": "/note/aristophanes-wasps"
+      },
+      {
+        "hits": "3",
+        "url": "/apple-touch-icon-precomposed.png"
+      },
+      {
+        "hits": "3",
+        "url": "/note/avalanche-school"
+      },
+      {
+        "hits": "3",
+        "url": "/note/duchy-of-cornwall"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/ben-nevis/"
       },
       {
         "hits": "2",
         "url": "/note/untranslatable-words"
-      },
-      {
-        "hits": "2",
-        "url": "/note/there-is-so-swing-voter/"
       },
       {
         "hits": "2",
@@ -793,11 +793,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-02-12-place-non-place"
+        "url": "/note/there-is-so-swing-voter"
       },
       {
         "hits": "2",
-        "url": "/note/there-is-so-swing-voter"
+        "url": "/note/there-is-so-swing-voter/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/willard-maps-of-time/"
       },
       {
         "hits": "2",
@@ -809,11 +813,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/precariously-balanced-rocks"
-      },
-      {
-        "hits": "2",
-        "url": "/note/duchy-of-cornwall/"
+        "url": "/note/2020-02-10-little-women-gerwig-crit"
       },
       {
         "hits": "2",
@@ -821,11 +821,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/driving-school"
+        "url": "/note/duchy-of-cornwall/"
       },
       {
         "hits": "2",
-        "url": "/note/2020-02-10-little-women-gerwig-crit"
+        "url": "/note/precariously-balanced-rocks"
       },
       {
         "hits": "2",
@@ -833,11 +833,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/make-writing-easier/"
+        "url": "/note/2020-02-12-place-non-place"
       },
       {
         "hits": "2",
         "url": "/note/screen-protectors"
+      },
+      {
+        "hits": "2",
+        "url": "/note/driving-school"
       },
       {
         "hits": "2",
@@ -850,6 +854,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -860,10 +868,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -882,7 +886,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "15",
+        "hits": "16",
         "url": "/"
       }
     ],
@@ -893,7 +897,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16133"
+        "hits": "16135"
       }
     ]
   },
@@ -965,11 +969,11 @@
       },
       {
         "hits": "62",
-        "url": "/rss/"
+        "url": "/highlight/wfh-forever/"
       },
       {
         "hits": "62",
-        "url": "/highlight/wfh-forever/"
+        "url": "/rss/"
       },
       {
         "hits": "60",
@@ -1036,8 +1040,8 @@
         "url": "/post/how-this-site-works/"
       },
       {
-        "hits": "33",
-        "url": "/highlight/my-body-is-a-confederate-monument/"
+        "hits": "34",
+        "url": "/tags/politics/"
       },
       {
         "hits": "33",
@@ -1045,11 +1049,11 @@
       },
       {
         "hits": "33",
-        "url": "/highlight/igbo-orthography/"
+        "url": "/highlight/my-body-is-a-confederate-monument/"
       },
       {
         "hits": "33",
-        "url": "/tags/politics/"
+        "url": "/highlight/igbo-orthography/"
       },
       {
         "hits": "33",
@@ -1304,24 +1308,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8639",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8639",
+        "hits": "8640",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8639",
@@ -1329,14 +1325,22 @@
       },
       {
         "hits": "8639",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "8639",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "8627",
         "url": "/analytics"
       },
       {
-        "hits": "38",
+        "hits": "39",
         "url": "/"
       }
     ],
@@ -1347,7 +1351,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "69138"
+        "hits": "69142"
       }
     ]
   },
@@ -1478,7 +1482,7 @@
         "url": "/highlight/apartments-from-malls/"
       },
       {
-        "hits": "83",
+        "hits": "84",
         "url": "/tags/politics/"
       },
       {
@@ -1758,39 +1762,39 @@
     ],
     "topApiHits": [
       {
-        "hits": "20943",
+        "hits": "20944",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20943",
+        "hits": "20944",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20943",
+        "hits": "20944",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20943",
+        "hits": "20944",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20943",
+        "hits": "20944",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20943",
+        "hits": "20944",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20943",
+        "hits": "20944",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "20606",
+        "hits": "20607",
         "url": "/analytics"
       },
       {
-        "hits": "93",
+        "hits": "94",
         "url": "/"
       },
       {
@@ -1804,12 +1808,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "27408"
+        "hits": "27409"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "167306"
+        "hits": "167315"
       }
     ]
   }
