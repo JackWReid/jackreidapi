@@ -2,8 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
+        "hits": "3",
         "url": "/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/books/read/"
       },
       {
         "hits": "1",
@@ -24,10 +28,6 @@
       {
         "hits": "1",
         "url": "/journal/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2019-12-30-2010-lists/"
       },
       {
         "hits": "1",
@@ -63,7 +63,7 @@
       },
       {
         "hits": "1",
-        "url": "/books/read/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "1",
@@ -72,7 +72,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "4",
+        "hits": "5",
         "url": "/robots.txt"
       }
     ],
@@ -87,7 +87,19 @@
       },
       {
         "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -96,35 +108,23 @@
       {
         "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "18"
+        "hits": "19"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "93"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "44",
+        "hits": "45",
         "url": "/index.xml"
       },
       {
@@ -153,15 +153,15 @@
       },
       {
         "hits": "7",
-        "url": "/css/style.css"
+        "url": "/articles/saved/"
       },
       {
         "hits": "7",
         "url": "/favicon.png"
       },
       {
-        "hits": "6",
-        "url": "/articles/saved/"
+        "hits": "7",
+        "url": "/css/style.css"
       },
       {
         "hits": "6",
@@ -169,31 +169,11 @@
       },
       {
         "hits": "4",
-        "url": "/work/"
-      },
-      {
-        "hits": "4",
         "url": "/books/read/"
       },
       {
-        "hits": "3",
-        "url": "/post/"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/language/"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/scotland/"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/justice/"
-      },
-      {
-        "hits": "3",
-        "url": "/films/watched/"
+        "hits": "4",
+        "url": "/work/"
       },
       {
         "hits": "3",
@@ -201,19 +181,43 @@
       },
       {
         "hits": "3",
+        "url": "/post/activist-relief-resources/"
+      },
+      {
+        "hits": "3",
         "url": "/tags/music/"
       },
       {
         "hits": "3",
-        "url": "/post/activist-relief-resources/"
+        "url": "/tags/language/"
       },
       {
-        "hits": "2",
-        "url": "/books/toread/"
+        "hits": "3",
+        "url": "/post/"
+      },
+      {
+        "hits": "3",
+        "url": "/films/watched/"
+      },
+      {
+        "hits": "3",
+        "url": "/tags/justice/"
+      },
+      {
+        "hits": "3",
+        "url": "/tags/scotland/"
       },
       {
         "hits": "2",
         "url": "/highlight/larry-kramer-obit/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/uk-corona-domestic-abuse/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/snowden/"
       },
       {
         "hits": "2",
@@ -225,15 +229,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/snowden/"
-      },
-      {
-        "hits": "2",
         "url": "/highlight/wfh-forever/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/films/"
       },
       {
         "hits": "2",
@@ -241,11 +237,15 @@
       },
       {
         "hits": "2",
+        "url": "/books/toread/"
+      },
+      {
+        "hits": "2",
         "url": "/highlight/robert-pattinson/"
       },
       {
         "hits": "2",
-        "url": "/highlight/uk-corona-domestic-abuse/"
+        "url": "/post/music-is-changing/"
       },
       {
         "hits": "2",
@@ -253,7 +253,7 @@
       },
       {
         "hits": "2",
-        "url": "/post/music-is-changing/"
+        "url": "/tags/feminism/"
       },
       {
         "hits": "2",
@@ -265,7 +265,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/feminism/"
+        "url": "/tags/films/"
       },
       {
         "hits": "1",
@@ -293,10 +293,6 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/tulip-farm-covid/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/grimes-boat-tour/"
       },
       {
@@ -309,7 +305,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/the-american-room/"
+        "url": "/highlight/tulip-farm-covid/"
       },
       {
         "hits": "1",
@@ -317,16 +313,20 @@
       },
       {
         "hits": "1",
+        "url": "/highlight/the-american-room/"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "1",
-        "url": "/highlight/skye-covid-home/"
+        "url": "/highlight/finland-media-literate/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "65",
+        "hits": "66",
         "url": "/robots.txt"
       },
       {
@@ -437,27 +437,7 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "288",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "288",
@@ -468,25 +448,45 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "288",
+        "url": "/analytics"
+      },
+      {
+        "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
+      },
+      {
         "hits": "4",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "361"
+        "hits": "362"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2308"
+        "hits": "2305"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "299",
+        "hits": "300",
         "url": "/index.xml"
       },
       {
@@ -506,12 +506,12 @@
         "url": "/"
       },
       {
-        "hits": "34",
-        "url": "/open-graph.png"
+        "hits": "35",
+        "url": "/articles/saved/"
       },
       {
         "hits": "34",
-        "url": "/articles/saved/"
+        "url": "/open-graph.png"
       },
       {
         "hits": "31",
@@ -547,10 +547,6 @@
       },
       {
         "hits": "13",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "13",
         "url": "/highlight/uk-corona-domestic-abuse/"
       },
       {
@@ -558,8 +554,8 @@
         "url": "/css/style.css"
       },
       {
-        "hits": "12",
-        "url": "/uses/"
+        "hits": "13",
+        "url": "/highlight/"
       },
       {
         "hits": "12",
@@ -571,11 +567,15 @@
       },
       {
         "hits": "12",
-        "url": "/post/activist-relief-resources/"
+        "url": "/uses/"
       },
       {
         "hits": "12",
         "url": "/post/"
+      },
+      {
+        "hits": "12",
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "12",
@@ -639,7 +639,7 @@
       },
       {
         "hits": "7",
-        "url": "/tags/scotland/"
+        "url": "/tags/technology/"
       },
       {
         "hits": "7",
@@ -648,10 +648,6 @@
       {
         "hits": "7",
         "url": "/tags/race/"
-      },
-      {
-        "hits": "7",
-        "url": "/tags/technology/"
       },
       {
         "hits": "7",
@@ -684,11 +680,15 @@
       {
         "hits": "6",
         "url": "/link/2020-06-02t09-00-00/"
+      },
+      {
+        "hits": "6",
+        "url": "/highlight/apartments-from-malls/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "373",
+        "hits": "374",
         "url": "/robots.txt"
       },
       {
@@ -890,31 +890,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -928,19 +928,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2172"
+        "hits": "2173"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16133"
+        "hits": "16140"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1385",
+        "hits": "1386",
         "url": "/index.xml"
       },
       {
@@ -968,7 +968,7 @@
         "url": "/highlight/minneapolis-disband-police/"
       },
       {
-        "hits": "119",
+        "hits": "120",
         "url": "/articles/saved/"
       },
       {
@@ -1142,7 +1142,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1579",
+        "hits": "1580",
         "url": "/robots.txt"
       },
       {
@@ -1344,8 +1344,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "8639",
+        "hits": "8640",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8640",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8639",
@@ -1354,18 +1366,6 @@
       {
         "hits": "8639",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8639",
@@ -1382,19 +1382,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9935"
+        "hits": "9937"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69138"
+        "hits": "69140"
       }
     ]
   },
   "year": {
     "topSiteHits": [
       {
-        "hits": "3464",
+        "hits": "3465",
         "url": "/index.xml"
       },
       {
@@ -1434,7 +1434,7 @@
         "url": "/favicon.png"
       },
       {
-        "hits": "226",
+        "hits": "227",
         "url": "/articles/saved/"
       },
       {
@@ -1596,7 +1596,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "3370",
+        "hits": "3371",
         "url": "/robots.txt"
       },
       {
@@ -1798,35 +1798,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "20904",
+        "hits": "20905",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "20904",
+        "hits": "20905",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "20904",
+        "hits": "20905",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "20904",
+        "hits": "20905",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "20904",
+        "hits": "20905",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "20904",
+        "hits": "20905",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "20904",
+        "hits": "20905",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "20567",
+        "hits": "20568",
         "url": "/analytics"
       },
       {
@@ -1844,12 +1844,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "27373"
+        "hits": "27375"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "166994"
+        "hits": "167002"
       }
     ]
   }
