@@ -51,7 +51,7 @@
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/pocket?limit=5000"
+        "url": "/analytics"
       },
       {
         "hits": "12",
@@ -59,22 +59,22 @@
       },
       {
         "hits": "12",
-        "url": "/analytics"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
@@ -89,7 +89,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "95"
+        "hits": "91"
       }
     ]
   },
@@ -257,15 +257,15 @@
       },
       {
         "hits": "1",
+        "url": "/note/2019-12-29-plath-vs-hughes/"
+      },
+      {
+        "hits": "1",
         "url": "/note/"
       },
       {
         "hits": "1",
         "url": "/link/2020-05-28t08-40-27/"
-      },
-      {
-        "hits": "1",
-        "url": "/link/2020-04-27t21-24-24/"
       },
       {
         "hits": "1",
@@ -277,7 +277,7 @@
       },
       {
         "hits": "1",
-        "url": "/journal/2020-07-01/"
+        "url": "/link/2020-04-27t21-24-24/"
       },
       {
         "hits": "1",
@@ -410,7 +410,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "281"
+        "hits": "280"
       }
     ],
     "totalApiHits": [
@@ -499,15 +499,15 @@
       },
       {
         "hits": "12",
-        "url": "/highlight/reading-in-the-dark/"
-      },
-      {
-        "hits": "12",
         "url": "/uses/"
       },
       {
         "hits": "12",
         "url": "/note/"
+      },
+      {
+        "hits": "12",
+        "url": "/highlight/reading-in-the-dark/"
       },
       {
         "hits": "11",
@@ -523,11 +523,11 @@
       },
       {
         "hits": "9",
-        "url": "/tags/short-story/"
+        "url": "/highlight/praise-walking-cofee/"
       },
       {
         "hits": "9",
-        "url": "/highlight/praise-walking-cofee/"
+        "url": "/tags/short-story/"
       },
       {
         "hits": "9",
@@ -551,23 +551,19 @@
       },
       {
         "hits": "8",
-        "url": "/tags/music/"
-      },
-      {
-        "hits": "8",
         "url": "/tags/link/"
-      },
-      {
-        "hits": "8",
-        "url": "/tags/accessibility/"
       },
       {
         "hits": "8",
         "url": "/tags/literature/"
       },
       {
-        "hits": "7",
-        "url": "/photo/"
+        "hits": "8",
+        "url": "/tags/music/"
+      },
+      {
+        "hits": "8",
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "7",
@@ -575,15 +571,11 @@
       },
       {
         "hits": "7",
-        "url": "/tags/urbanism/"
+        "url": "/photo/"
       },
       {
         "hits": "7",
         "url": "/tags/lgbtq/"
-      },
-      {
-        "hits": "7",
-        "url": "/tags/nyc/"
       },
       {
         "hits": "7",
@@ -595,6 +587,14 @@
       },
       {
         "hits": "7",
+        "url": "/tags/nyc/"
+      },
+      {
+        "hits": "7",
+        "url": "/tags/technology/"
+      },
+      {
+        "hits": "7",
         "url": "/highlight/demonise-spotify/"
       },
       {
@@ -603,7 +603,11 @@
       },
       {
         "hits": "7",
-        "url": "/tags/technology/"
+        "url": "/tags/urbanism/"
+      },
+      {
+        "hits": "6",
+        "url": "/highlight/world-without-cops/"
       },
       {
         "hits": "6",
@@ -615,16 +619,12 @@
       },
       {
         "hits": "6",
-        "url": "/highlight/world-without-cops/"
-      },
-      {
-        "hits": "6",
-        "url": "/highlight/thandie-newton-profile/"
+        "url": "/books/read/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "356",
+        "hits": "355",
         "url": "/robots.txt"
       },
       {
@@ -864,7 +864,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2140"
+        "hits": "2138"
       }
     ],
     "totalApiHits": [
@@ -1280,10 +1280,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "8640",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "8639",
         "url": "/pocket?limit=5000"
       },
@@ -1294,6 +1290,10 @@
       {
         "hits": "8639",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "8639",
@@ -1323,7 +1323,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "69141"
+        "hits": "69140"
       }
     ]
   },
@@ -1734,35 +1734,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "21228",
+        "hits": "21229",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "21228",
+        "hits": "21229",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "21228",
+        "hits": "21229",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "21228",
+        "hits": "21229",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "21228",
+        "hits": "21229",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "21228",
+        "hits": "21229",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "21228",
+        "hits": "21229",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "20890",
+        "hits": "20891",
         "url": "/analytics"
       },
       {
@@ -1785,7 +1785,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "169588"
+        "hits": "169596"
       }
     ]
   }
