@@ -372,16 +372,24 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -396,14 +404,6 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/analytics"
-      },
-      {
         "hits": "2",
         "url": "/"
       }
@@ -415,7 +415,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2298"
       }
     ]
   },
@@ -929,11 +929,11 @@
       },
       {
         "hits": "68",
-        "url": "/media/"
+        "url": "/journal/"
       },
       {
         "hits": "68",
-        "url": "/journal/"
+        "url": "/media/"
       },
       {
         "hits": "67",
@@ -1005,11 +1005,11 @@
       },
       {
         "hits": "37",
-        "url": "/tags/accessibility/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "37",
-        "url": "/post/how-this-site-works/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "34",
@@ -1017,11 +1017,11 @@
       },
       {
         "hits": "34",
-        "url": "/highlight/my-body-is-a-confederate-monument/"
+        "url": "/tags/politics/"
       },
       {
         "hits": "34",
-        "url": "/tags/politics/"
+        "url": "/highlight/my-body-is-a-confederate-monument/"
       },
       {
         "hits": "34",
@@ -1053,7 +1053,7 @@
       },
       {
         "hits": "29",
-        "url": "/tags/link/"
+        "url": "/tags/covid-19/"
       },
       {
         "hits": "29",
@@ -1061,19 +1061,19 @@
       },
       {
         "hits": "29",
-        "url": "/highlight/robert-pattinson/"
+        "url": "/tags/link/"
       },
       {
         "hits": "29",
-        "url": "/tags/covid-19/"
+        "url": "/highlight/robert-pattinson/"
+      },
+      {
+        "hits": "28",
+        "url": "/tags/dev/"
       },
       {
         "hits": "28",
         "url": "/highlight/2020-07-15-falling-fertility-bbc/"
-      },
-      {
-        "hits": "28",
-        "url": "/highlight/reading-in-the-dark/"
       }
     ],
     "topSiteMisses": [
@@ -1280,6 +1280,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "8640",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "8639",
         "url": "/pocket?limit=5000"
       },
@@ -1290,10 +1294,6 @@
       {
         "hits": "8639",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "8639",
@@ -1318,12 +1318,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9939"
+        "hits": "9938"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69140"
+        "hits": "69141"
       }
     ]
   },
@@ -1734,35 +1734,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "21263",
+        "hits": "21264",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "21263",
+        "hits": "21264",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "21263",
+        "hits": "21264",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "21263",
+        "hits": "21264",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "21263",
+        "hits": "21264",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "21263",
+        "hits": "21264",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "21263",
+        "hits": "21264",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "20925",
+        "hits": "20926",
         "url": "/analytics"
       },
       {
@@ -1785,7 +1785,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "169868"
+        "hits": "169876"
       }
     ]
   }
