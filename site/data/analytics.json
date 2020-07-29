@@ -46,8 +46,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
@@ -56,22 +72,6 @@
       {
         "hits": "11",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -81,7 +81,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "92"
       }
     ]
   },
@@ -645,11 +645,11 @@
       },
       {
         "hits": "15",
-        "url": "/favicon.ico"
+        "url": "/sw.js"
       },
       {
         "hits": "15",
-        "url": "/sw.js"
+        "url": "/favicon.ico"
       },
       {
         "hits": "7",
@@ -657,35 +657,11 @@
       },
       {
         "hits": "6",
-        "url": "/noexist"
-      },
-      {
-        "hits": "6",
         "url": "/wp-login.php"
       },
       {
-        "hits": "3",
-        "url": "/note/the-great-regression"
-      },
-      {
-        "hits": "3",
-        "url": "/apple-touch-icon-precomposed.png"
-      },
-      {
-        "hits": "3",
-        "url": "/note/tech-sabbath"
-      },
-      {
-        "hits": "3",
-        "url": "/note/2020-02-10-little-women-gerwig-crit"
-      },
-      {
-        "hits": "3",
-        "url": "/apple-touch-icon.png"
-      },
-      {
-        "hits": "3",
-        "url": "/note/2020-04-16-google-hire-freeze"
+        "hits": "6",
+        "url": "/noexist"
       },
       {
         "hits": "3",
@@ -693,27 +669,11 @@
       },
       {
         "hits": "3",
-        "url": "/note/corona-crisis-18-months"
+        "url": "/note/tech-sabbath"
       },
       {
         "hits": "3",
-        "url": "/note/sailors-on-wikipedia"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/article"
-      },
-      {
-        "hits": "3",
-        "url": "/photo/loch-lomond/"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/corona"
-      },
-      {
-        "hits": "3",
-        "url": "/note/low-tech-election-iowa/"
+        "url": "/note/low-tech-election-iowa"
       },
       {
         "hits": "3",
@@ -721,31 +681,11 @@
       },
       {
         "hits": "3",
-        "url": "/note/plath-vs-hughes"
+        "url": "/apple-touch-icon-precomposed.png"
       },
       {
         "hits": "3",
-        "url": "/note/2020-02-24-kanye-out-west"
-      },
-      {
-        "hits": "3",
-        "url": "/note/tools-i-wish-existed/"
-      },
-      {
-        "hits": "3",
-        "url": "/note/reading-difficult-books"
-      },
-      {
-        "hits": "3",
-        "url": "/note/willard-maps-of-time"
-      },
-      {
-        "hits": "3",
-        "url": "/note/roman-silphium"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/medicine"
+        "url": "/tags/article"
       },
       {
         "hits": "3",
@@ -753,11 +693,55 @@
       },
       {
         "hits": "3",
+        "url": "/note/the-great-regression"
+      },
+      {
+        "hits": "3",
+        "url": "/note/2020-02-24-kanye-out-west"
+      },
+      {
+        "hits": "3",
         "url": "/note/duchy-of-cornwall"
       },
       {
         "hits": "3",
-        "url": "/photo/brockwell-sleeve"
+        "url": "/tags/corona"
+      },
+      {
+        "hits": "3",
+        "url": "/note/corona-crisis-18-months"
+      },
+      {
+        "hits": "3",
+        "url": "/apple-touch-icon.png"
+      },
+      {
+        "hits": "3",
+        "url": "/note/sailors-on-wikipedia"
+      },
+      {
+        "hits": "3",
+        "url": "/note/plath-vs-hughes"
+      },
+      {
+        "hits": "3",
+        "url": "/note/2020-02-10-little-women-gerwig-crit"
+      },
+      {
+        "hits": "3",
+        "url": "/tags/medicine"
+      },
+      {
+        "hits": "3",
+        "url": "/note/tools-i-wish-existed/"
+      },
+      {
+        "hits": "3",
+        "url": "/note/2020-04-16-google-hire-freeze"
+      },
+      {
+        "hits": "3",
+        "url": "/note/roman-silphium"
       },
       {
         "hits": "3",
@@ -765,7 +749,19 @@
       },
       {
         "hits": "3",
-        "url": "/note/low-tech-election-iowa"
+        "url": "/note/reading-difficult-books"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/loch-lomond/"
+      },
+      {
+        "hits": "3",
+        "url": "/photo/brockwell-sleeve"
+      },
+      {
+        "hits": "3",
+        "url": "/note/low-tech-election-iowa/"
       },
       {
         "hits": "2",
@@ -821,11 +817,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/paradise-lost-pullman/"
+        "url": "/note/madame-tussaud"
       },
       {
         "hits": "2",
-        "url": "/note/madame-tussaud"
+        "url": "/note/paradise-lost-pullman/"
       },
       {
         "hits": "2",
@@ -838,6 +834,10 @@
       {
         "hits": "2",
         "url": "/note/precariously-balanced-rocks/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/dawn-or-dusk-painting"
       }
     ],
     "topApiHits": [
@@ -1750,35 +1750,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "21376",
+        "hits": "21377",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "21376",
+        "hits": "21377",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "21376",
+        "hits": "21377",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "21376",
+        "hits": "21377",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "21376",
+        "hits": "21377",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "21376",
+        "hits": "21377",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "21376",
+        "hits": "21377",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "21038",
+        "hits": "21039",
         "url": "/analytics"
       },
       {
@@ -1801,7 +1801,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "170772"
+        "hits": "170780"
       }
     ]
   }
