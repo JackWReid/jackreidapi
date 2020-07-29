@@ -67,7 +67,11 @@
       },
       {
         "hits": "12",
-        "url": "/books/reading?limit=5000"
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "12",
@@ -75,19 +79,15 @@
       },
       {
         "hits": "12",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/films/watched?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -97,7 +97,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "94"
       }
     ]
   },
@@ -113,11 +113,11 @@
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "9",
@@ -129,11 +129,11 @@
       },
       {
         "hits": "7",
-        "url": "/highlight/"
+        "url": "/open-graph.png"
       },
       {
         "hits": "7",
-        "url": "/open-graph.png"
+        "url": "/highlight/"
       },
       {
         "hits": "5",
@@ -141,11 +141,15 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/runaway-media/"
+        "url": "/tags/short-story/"
       },
       {
         "hits": "3",
-        "url": "/tags/short-story/"
+        "url": "/highlight/runaway-media/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/minneapolis-disband-police/"
       },
       {
         "hits": "2",
@@ -157,19 +161,23 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/bridgers-rolling-stone/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/metoo/"
-      },
-      {
-        "hits": "2",
         "url": "/journal/"
       },
       {
         "hits": "2",
-        "url": "/highlight/helms-deep-analysis/"
+        "url": "/tags/race/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/link/"
+      },
+      {
+        "hits": "2",
+        "url": "/films/watched/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/metoo/"
       },
       {
         "hits": "2",
@@ -185,7 +193,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/race/"
+        "url": "/tags/web/"
       },
       {
         "hits": "2",
@@ -193,19 +201,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/history/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/link/"
-      },
-      {
-        "hits": "2",
-        "url": "/films/watched/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/economics/"
+        "url": "/tags/food/"
       },
       {
         "hits": "2",
@@ -213,15 +209,15 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/minneapolis-disband-police/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/food/"
+        "url": "/tags/games/"
       },
       {
         "hits": "2",
         "url": "/elsewhere/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/bridgers-rolling-stone/"
       },
       {
         "hits": "2",
@@ -233,11 +229,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/games/"
+        "url": "/tags/history/"
       },
       {
         "hits": "2",
-        "url": "/tags/web/"
+        "url": "/highlight/helms-deep-analysis/"
       },
       {
         "hits": "1",
@@ -293,15 +289,19 @@
       },
       {
         "hits": "1",
-        "url": "/link/2020-06-02t09-00-00/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/falling-fertility-bbc/"
       },
       {
         "hits": "1",
+        "url": "/link/2020-06-02t09-00-00/"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/wutys-bullet/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/world-without-cops/"
       }
     ],
     "topSiteMisses": [
@@ -400,36 +400,36 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
         "url": "/analytics"
+      },
+      {
+        "hits": "287",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "1",
@@ -438,12 +438,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "280"
+        "hits": "279"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2304"
+        "hits": "2297"
       }
     ]
   },
@@ -507,23 +507,19 @@
       },
       {
         "hits": "15",
-        "url": "/films/watched/"
-      },
-      {
-        "hits": "15",
         "url": "/highlight/"
       },
       {
-        "hits": "14",
-        "url": "/highlight/uk-corona-domestic-abuse/"
+        "hits": "15",
+        "url": "/films/watched/"
       },
       {
         "hits": "14",
         "url": "/post/"
       },
       {
-        "hits": "12",
-        "url": "/books/reading/"
+        "hits": "14",
+        "url": "/highlight/uk-corona-domestic-abuse/"
       },
       {
         "hits": "12",
@@ -531,11 +527,15 @@
       },
       {
         "hits": "12",
-        "url": "/highlight/reading-in-the-dark/"
+        "url": "/books/reading/"
       },
       {
         "hits": "12",
         "url": "/rss/"
+      },
+      {
+        "hits": "12",
+        "url": "/highlight/reading-in-the-dark/"
       },
       {
         "hits": "11",
@@ -559,11 +559,7 @@
       },
       {
         "hits": "8",
-        "url": "/tags/short-story/"
-      },
-      {
-        "hits": "8",
-        "url": "/tags/literature/"
+        "url": "/tags/music/"
       },
       {
         "hits": "8",
@@ -571,7 +567,7 @@
       },
       {
         "hits": "8",
-        "url": "/tags/music/"
+        "url": "/tags/literature/"
       },
       {
         "hits": "8",
@@ -580,6 +576,10 @@
       {
         "hits": "8",
         "url": "/highlight/praise-walking-cofee/"
+      },
+      {
+        "hits": "8",
+        "url": "/tags/short-story/"
       },
       {
         "hits": "8",
@@ -599,11 +599,7 @@
       },
       {
         "hits": "7",
-        "url": "/tags/mental-health/"
-      },
-      {
-        "hits": "7",
-        "url": "/post/music-is-changing/"
+        "url": "/tags/lgbtq/"
       },
       {
         "hits": "7",
@@ -611,11 +607,19 @@
       },
       {
         "hits": "7",
+        "url": "/tags/mental-health/"
+      },
+      {
+        "hits": "7",
+        "url": "/tags/race/"
+      },
+      {
+        "hits": "7",
         "url": "/highlight/demonise-spotify/"
       },
       {
         "hits": "7",
-        "url": "/tags/lgbtq/"
+        "url": "/post/music-is-changing/"
       },
       {
         "hits": "7",
@@ -630,10 +634,6 @@
         "url": "/tags/link/"
       },
       {
-        "hits": "7",
-        "url": "/tags/race/"
-      },
-      {
         "hits": "6",
         "url": "/books/toread/"
       },
@@ -643,16 +643,16 @@
       },
       {
         "hits": "6",
-        "url": "/tags/games/"
+        "url": "/highlight/world-without-cops/"
       },
       {
         "hits": "6",
-        "url": "/highlight/world-without-cops/"
+        "url": "/highlight/thandie-newton-profile/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "356",
+        "hits": "355",
         "url": "/robots.txt"
       },
       {
@@ -892,7 +892,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2131"
+        "hits": "2130"
       }
     ],
     "totalApiHits": [
@@ -904,7 +904,7 @@
   "month": {
     "topSiteHits": [
       {
-        "hits": "1380",
+        "hits": "1379",
         "url": "/index.xml"
       },
       {
@@ -1309,30 +1309,30 @@
     "topApiHits": [
       {
         "hits": "8640",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "8640",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "8640",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8640",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8639",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -1346,12 +1346,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "9943"
+        "hits": "9942"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69147"
+        "hits": "69141"
       }
     ]
   },
@@ -1762,35 +1762,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "21296",
+        "hits": "21297",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "21296",
+        "hits": "21297",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "21296",
+        "hits": "21297",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "21296",
+        "hits": "21297",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "21296",
+        "hits": "21297",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "21296",
+        "hits": "21297",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "21296",
+        "hits": "21297",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "20958",
+        "hits": "20959",
         "url": "/analytics"
       },
       {
@@ -1813,7 +1813,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "170132"
+        "hits": "170140"
       }
     ]
   }
