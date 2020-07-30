@@ -94,31 +94,31 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/pocket?limit=5000"
       }
     ],
@@ -129,7 +129,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "89"
       }
     ]
   },
@@ -145,11 +145,11 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "21",
@@ -165,7 +165,15 @@
       },
       {
         "hits": "3",
-        "url": "/post/"
+        "url": "/books/toread/"
+      },
+      {
+        "hits": "3",
+        "url": "/highlight/minneapolis-disband-police/"
+      },
+      {
+        "hits": "3",
+        "url": "/post/2018-09-04-its-you-and-me/"
       },
       {
         "hits": "3",
@@ -177,15 +185,7 @@
       },
       {
         "hits": "3",
-        "url": "/books/toread/"
-      },
-      {
-        "hits": "3",
-        "url": "/highlight/minneapolis-disband-police/"
-      },
-      {
-        "hits": "3",
-        "url": "/post/2018-09-04-its-you-and-me/"
+        "url": "/post/"
       },
       {
         "hits": "3",
@@ -205,6 +205,14 @@
       },
       {
         "hits": "2",
+        "url": "/highlight/thandie-newton-profile/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/"
+      },
+      {
+        "hits": "2",
         "url": "/articles/liked/"
       },
       {
@@ -213,19 +221,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/thandie-newton-profile/"
-      },
-      {
-        "hits": "2",
         "url": "/tags/lgbtq/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/accessibility/"
       },
       {
         "hits": "2",
@@ -245,11 +241,11 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/reading-in-the-dark/"
+        "url": "/highlight/cessna-badass-plane/"
       },
       {
         "hits": "2",
-        "url": "/highlight/cessna-badass-plane/"
+        "url": "/highlight/reading-in-the-dark/"
       },
       {
         "hits": "2",
@@ -258,6 +254,10 @@
       {
         "hits": "2",
         "url": "/link/2020-06-02t09-00-00/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/new-york-geology/"
       },
       {
         "hits": "1",
@@ -273,10 +273,6 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/mother-board-earth/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/american-police-departments/"
       },
       {
@@ -285,11 +281,11 @@
       },
       {
         "hits": "1",
-        "url": "/link/2020-04-26t13-30-00/"
+        "url": "/link/2020-05-08t10-30-30/"
       },
       {
         "hits": "1",
-        "url": "/journal/2020-05-16/"
+        "url": "/link/"
       },
       {
         "hits": "1",
@@ -317,19 +313,23 @@
       },
       {
         "hits": "1",
-        "url": "/journal/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/igbo-orthography/"
       },
       {
         "hits": "1",
-        "url": "/link/"
+        "url": "/journal/2020-05-16/"
       },
       {
         "hits": "1",
         "url": "/films/watched/"
+      },
+      {
+        "hits": "1",
+        "url": "/link/2020-04-26t13-30-00/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/"
       },
       {
         "hits": "1",
@@ -338,7 +338,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "56",
+        "hits": "55",
         "url": "/robots.txt"
       },
       {
@@ -409,15 +409,11 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
         "hits": "287",
@@ -440,18 +436,22 @@
         "url": "/pocket?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "293"
+        "hits": "291"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2299"
       }
     ]
   },
@@ -866,8 +866,16 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -876,14 +884,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -905,7 +905,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16135"
+        "hits": "16136"
       }
     ]
   },
@@ -1122,7 +1122,7 @@
         "url": "/sw.js"
       },
       {
-        "hits": "48",
+        "hits": "46",
         "url": "/favicon.ico"
       },
       {
@@ -1770,35 +1770,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "21488",
+        "hits": "21489",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "21488",
+        "hits": "21489",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "21488",
+        "hits": "21489",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "21488",
+        "hits": "21489",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "21488",
+        "hits": "21489",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "21488",
+        "hits": "21489",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "21488",
+        "hits": "21489",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "21150",
+        "hits": "21151",
         "url": "/analytics"
       },
       {
@@ -1821,7 +1821,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "171669"
+        "hits": "171677"
       }
     ]
   }
