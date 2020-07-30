@@ -2,7 +2,11 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
+        "hits": "1",
+        "url": "/"
+      },
+      {
+        "hits": "1",
         "url": "/articles/saved/"
       },
       {
@@ -83,16 +87,12 @@
       },
       {
         "hits": "1",
-        "url": "/"
-      },
-      {
-        "hits": "1",
         "url": "/tags/snowden/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "4",
+        "hits": "3",
         "url": "/robots.txt"
       },
       {
@@ -172,7 +172,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "23"
+        "hits": "22"
       }
     ],
     "totalApiHits": [
@@ -465,23 +465,15 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -493,7 +485,15 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "1",
@@ -507,7 +507,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2300"
       }
     ]
   },
@@ -721,11 +721,15 @@
       },
       {
         "hits": "15",
-        "url": "/favicon.ico"
+        "url": "/sw.js"
       },
       {
         "hits": "15",
-        "url": "/sw.js"
+        "url": "/favicon.ico"
+      },
+      {
+        "hits": "6",
+        "url": "/wp-login.php"
       },
       {
         "hits": "6",
@@ -736,16 +740,8 @@
         "url": "/.well-known/assetlinks.json"
       },
       {
-        "hits": "6",
-        "url": "/wp-login.php"
-      },
-      {
         "hits": "3",
-        "url": "/note/2020-04-16-google-hire-freeze"
-      },
-      {
-        "hits": "3",
-        "url": "/note/reading-difficult-books"
+        "url": "/note/plath-vs-hughes"
       },
       {
         "hits": "3",
@@ -753,7 +749,15 @@
       },
       {
         "hits": "3",
+        "url": "/note/reading-difficult-books"
+      },
+      {
+        "hits": "3",
         "url": "/note/flights"
+      },
+      {
+        "hits": "3",
+        "url": "/note/2020-04-16-google-hire-freeze"
       },
       {
         "hits": "3",
@@ -761,15 +765,11 @@
       },
       {
         "hits": "3",
-        "url": "/note/iranian-shootdown-coverup"
-      },
-      {
-        "hits": "3",
         "url": "/tags/medicine"
       },
       {
         "hits": "3",
-        "url": "/note/plath-vs-hughes"
+        "url": "/note/iranian-shootdown-coverup"
       },
       {
         "hits": "3",
@@ -793,7 +793,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/senate-impeachment-hamilton/"
+        "url": "/note/tech-sabbath"
       },
       {
         "hits": "2",
@@ -841,19 +841,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/precariously-balanced-rocks/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/du-coudray-book"
-      },
-      {
-        "hits": "2",
-        "url": "/note/make-writing-easier/"
-      },
-      {
-        "hits": "2",
         "url": "/note/precariously-balanced-rocks"
+      },
+      {
+        "hits": "2",
+        "url": "/note/duchy-of-cornwall"
+      },
+      {
+        "hits": "2",
+        "url": "/note/precariously-balanced-rocks/"
       },
       {
         "hits": "2",
@@ -869,23 +865,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/duchy-of-cornwall"
-      },
-      {
-        "hits": "2",
-        "url": "/note/duchy-of-cornwall/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/low-tech-election-iowa"
-      },
-      {
-        "hits": "2",
-        "url": "/note/jacob-rees-mogg"
-      },
-      {
-        "hits": "2",
-        "url": "/note/iran-nuclear-era"
+        "url": "/note/low-tech-election-iowa/"
       },
       {
         "hits": "2",
@@ -893,7 +873,23 @@
       },
       {
         "hits": "2",
-        "url": "/note/low-tech-election-iowa/"
+        "url": "/note/duchy-of-cornwall/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/jacob-rees-mogg"
+      },
+      {
+        "hits": "2",
+        "url": "/note/du-coudray-book"
+      },
+      {
+        "hits": "2",
+        "url": "/note/low-tech-election-iowa"
+      },
+      {
+        "hits": "2",
+        "url": "/note/madame-tussaud"
       },
       {
         "hits": "2",
@@ -905,15 +901,19 @@
       },
       {
         "hits": "2",
+        "url": "/note/iranian-shootdown-coverup/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/senate-impeachment-hamilton/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/il-formaggio-virmi"
+      },
+      {
+        "hits": "2",
         "url": "/note/2010-lists"
-      },
-      {
-        "hits": "2",
-        "url": "/note/tech-sabbath"
-      },
-      {
-        "hits": "2",
-        "url": "/note/carlos-williams-love"
       }
     ],
     "topApiHits": [
@@ -996,7 +996,7 @@
         "url": "/highlight/minneapolis-disband-police/"
       },
       {
-        "hits": "131",
+        "hits": "130",
         "url": "/articles/saved/"
       },
       {
@@ -1170,7 +1170,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1582",
+        "hits": "1581",
         "url": "/robots.txt"
       },
       {
@@ -1410,7 +1410,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10007"
+        "hits": "10006"
       }
     ],
     "totalApiHits": [
@@ -1826,35 +1826,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "21616",
+        "hits": "21617",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "21616",
+        "hits": "21617",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "21616",
+        "hits": "21617",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "21616",
+        "hits": "21617",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "21616",
+        "hits": "21617",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "21616",
+        "hits": "21617",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "21616",
+        "hits": "21617",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "21278",
+        "hits": "21279",
         "url": "/analytics"
       },
       {
@@ -1877,7 +1877,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "172693"
+        "hits": "172701"
       }
     ]
   }
