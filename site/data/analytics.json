@@ -146,12 +146,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -171,7 +171,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -181,7 +181,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
@@ -213,7 +213,7 @@
       },
       {
         "hits": "5",
-        "url": "/?author=7"
+        "url": "/?author=6"
       },
       {
         "hits": "5",
@@ -225,7 +225,15 @@
       },
       {
         "hits": "5",
+        "url": "/?author=3"
+      },
+      {
+        "hits": "5",
         "url": "/?author=2"
+      },
+      {
+        "hits": "5",
+        "url": "/?author=7"
       },
       {
         "hits": "5",
@@ -233,7 +241,7 @@
       },
       {
         "hits": "5",
-        "url": "/?author=6"
+        "url": "/?author=5"
       },
       {
         "hits": "5",
@@ -241,15 +249,7 @@
       },
       {
         "hits": "5",
-        "url": "/?author=5"
-      },
-      {
-        "hits": "5",
         "url": "/?author=10"
-      },
-      {
-        "hits": "5",
-        "url": "/?author=3"
       },
       {
         "hits": "4",
@@ -265,11 +265,11 @@
       },
       {
         "hits": "3",
-        "url": "/films/watched/"
+        "url": "/highlight/"
       },
       {
         "hits": "3",
-        "url": "/highlight/"
+        "url": "/films/watched/"
       },
       {
         "hits": "2",
@@ -281,19 +281,11 @@
       },
       {
         "hits": "2",
+        "url": "/highlight/wfh-forever/"
+      },
+      {
+        "hits": "2",
         "url": "/highlight/chat-roulette-quar/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/scotland/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/politics/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/running/"
       },
       {
         "hits": "2",
@@ -301,7 +293,11 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/wfh-forever/"
+        "url": "/tags/running/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/scotland/"
       },
       {
         "hits": "2",
@@ -309,27 +305,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/games/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/education/"
-      },
-      {
-        "hits": "2",
         "url": "/tags/justice/"
       },
       {
         "hits": "2",
-        "url": "/highlight/oil-derricks-of-la/"
-      },
-      {
-        "hits": "2",
-        "url": "/post/activist-relief-resources/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/aviation/"
+        "url": "/tags/films/"
       },
       {
         "hits": "2",
@@ -337,15 +317,23 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/neofeudalism-larb/"
-      },
-      {
-        "hits": "2",
-        "url": "/open-graph.png"
+        "url": "/tags/aviation/"
       },
       {
         "hits": "2",
         "url": "/films/towatch/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/education/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/mentalhealth/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/neofeudalism-larb/"
       },
       {
         "hits": "2",
@@ -357,23 +345,31 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/michael-the-destroyer/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/place-non-place/"
-      },
-      {
-        "hits": "2",
         "url": "/post/"
       },
       {
         "hits": "2",
-        "url": "/tags/films/"
+        "url": "/highlight/michael-the-destroyer/"
       },
       {
         "hits": "2",
-        "url": "/tags/mentalhealth/"
+        "url": "/highlight/oil-derricks-of-la/"
+      },
+      {
+        "hits": "2",
+        "url": "/open-graph.png"
+      },
+      {
+        "hits": "2",
+        "url": "/post/activist-relief-resources/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/politics/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/games/"
       },
       {
         "hits": "1",
@@ -386,11 +382,15 @@
       {
         "hits": "1",
         "url": "/highlight/finland-media-literate/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/coronavirus-city-sound/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "64",
+        "hits": "63",
         "url": "/robots.txt"
       },
       {
@@ -461,11 +461,15 @@
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/analytics"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -488,22 +492,18 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "339"
+        "hits": "338"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2298"
       }
     ]
   },
@@ -1085,11 +1085,11 @@
       },
       {
         "hits": "40",
-        "url": "/elsewhere/"
+        "url": "/uses/"
       },
       {
-        "hits": "40",
-        "url": "/uses/"
+        "hits": "39",
+        "url": "/elsewhere/"
       },
       {
         "hits": "37",
@@ -1166,7 +1166,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1577",
+        "hits": "1576",
         "url": "/robots.txt"
       },
       {
@@ -1368,20 +1368,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "8640",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8639",
@@ -1390,6 +1378,18 @@
       {
         "hits": "8639",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8639",
@@ -1406,12 +1406,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10047"
+        "hits": "10046"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "69141"
+        "hits": "69139"
       }
     ]
   },
@@ -1822,35 +1822,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "21732",
+        "hits": "21733",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "21732",
+        "hits": "21733",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "21732",
+        "hits": "21733",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "21732",
+        "hits": "21733",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "21732",
+        "hits": "21733",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "21732",
+        "hits": "21733",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "21732",
+        "hits": "21733",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "21394",
+        "hits": "21395",
         "url": "/analytics"
       },
       {
@@ -1873,7 +1873,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "173621"
+        "hits": "173629"
       }
     ]
   }
