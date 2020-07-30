@@ -126,24 +126,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
@@ -152,6 +136,22 @@
       {
         "hits": "11",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -161,7 +161,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "92"
+        "hits": "89"
       }
     ]
   },
@@ -445,7 +445,7 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "288",
@@ -453,27 +453,27 @@
       },
       {
         "hits": "288",
-        "url": "/articles?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "1",
@@ -482,12 +482,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "314"
+        "hits": "313"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2305"
+        "hits": "2300"
       }
     ]
   },
@@ -510,7 +510,7 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "75",
+        "hits": "74",
         "url": "/"
       },
       {
@@ -526,7 +526,7 @@
         "url": "/highlight/wutys-bullet/"
       },
       {
-        "hits": "23",
+        "hits": "22",
         "url": "/work/"
       },
       {
@@ -535,11 +535,11 @@
       },
       {
         "hits": "18",
-        "url": "/favicon.png"
+        "url": "/highlight/"
       },
       {
-        "hits": "18",
-        "url": "/highlight/"
+        "hits": "17",
+        "url": "/favicon.png"
       },
       {
         "hits": "17",
@@ -562,16 +562,16 @@
         "url": "/post/"
       },
       {
-        "hits": "12",
-        "url": "/journal/"
+        "hits": "11",
+        "url": "/books/reading/"
       },
       {
         "hits": "11",
         "url": "/post/activist-relief-resources/"
       },
       {
-        "hits": "11",
-        "url": "/books/reading/"
+        "hits": "10",
+        "url": "/journal/"
       },
       {
         "hits": "10",
@@ -773,7 +773,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/uss-fitzgerald"
+        "url": "/note/untranslatable-words"
       },
       {
         "hits": "2",
@@ -781,27 +781,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/tools-i-wish-existed/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/the-great-regression"
-      },
-      {
-        "hits": "2",
-        "url": "/note/senate-impeachment-hamilton/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/there-is-so-swing-voter"
-      },
-      {
-        "hits": "2",
         "url": "/note/there-is-so-swing-voter/"
       },
       {
         "hits": "2",
-        "url": "/note/the-markup-launch"
+        "url": "/note/2010-lists"
       },
       {
         "hits": "2",
@@ -813,11 +797,27 @@
       },
       {
         "hits": "2",
-        "url": "/note/1918-flu-letter"
+        "url": "/note/there-is-so-swing-voter"
       },
       {
         "hits": "2",
-        "url": "/note/untranslatable-words"
+        "url": "/note/the-markup-launch"
+      },
+      {
+        "hits": "2",
+        "url": "/note/carlos-williams-love"
+      },
+      {
+        "hits": "2",
+        "url": "/note/uss-fitzgerald"
+      },
+      {
+        "hits": "2",
+        "url": "/note/corona-crisis-18-months"
+      },
+      {
+        "hits": "2",
+        "url": "/note/tools-i-wish-existed/"
       },
       {
         "hits": "2",
@@ -825,11 +825,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/files-going-extinct/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/reading-difficult-books"
+        "url": "/note/senate-impeachment-hamilton"
       },
       {
         "hits": "2",
@@ -837,35 +833,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/precariously-balanced-rocks"
+        "url": "/note/senate-impeachment-hamilton/"
       },
       {
         "hits": "2",
-        "url": "/note/duchy-of-cornwall"
-      },
-      {
-        "hits": "2",
-        "url": "/note/driving-school"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-02-10-little-women-gerwig-crit"
-      },
-      {
-        "hits": "2",
-        "url": "/note/precariously-balanced-rocks/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/duchy-of-cornwall/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/du-coudray-book"
-      },
-      {
-        "hits": "2",
-        "url": "/note/screen-protectors"
+        "url": "/note/reading-difficult-books"
       },
       {
         "hits": "2",
@@ -873,19 +845,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/low-tech-election-iowa/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-02-24-kanye-out-west"
-      },
-      {
-        "hits": "2",
-        "url": "/note/flights"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-04-16-google-hire-freeze"
+        "url": "/note/precariously-balanced-rocks/"
       },
       {
         "hits": "2",
@@ -893,7 +853,47 @@
       },
       {
         "hits": "2",
-        "url": "/note/low-tech-election-iowa"
+        "url": "/note/du-coudray-book"
+      },
+      {
+        "hits": "2",
+        "url": "/note/files-going-extinct/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-04-16-google-hire-freeze"
+      },
+      {
+        "hits": "2",
+        "url": "/note/flights"
+      },
+      {
+        "hits": "2",
+        "url": "/note/1918-flu-letter"
+      },
+      {
+        "hits": "2",
+        "url": "/note/screen-protectors"
+      },
+      {
+        "hits": "2",
+        "url": "/note/il-formaggio-virmi"
+      },
+      {
+        "hits": "2",
+        "url": "/note/iranian-shootdown-coverup"
+      },
+      {
+        "hits": "2",
+        "url": "/note/iranian-shootdown-coverup/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/iran-nuclear-era"
+      },
+      {
+        "hits": "2",
+        "url": "/note/duchy-of-cornwall/"
       }
     ],
     "topApiHits": [
@@ -936,7 +936,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2110"
+        "hits": "2103"
       }
     ],
     "totalApiHits": [
@@ -1352,20 +1352,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "8640",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8640",
+        "hits": "8639",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "8639",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8639",
@@ -1374,6 +1362,18 @@
       {
         "hits": "8639",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8639",
@@ -1395,7 +1395,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "69141"
+        "hits": "69139"
       }
     ]
   },
@@ -1806,35 +1806,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "21663",
+        "hits": "21664",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "21663",
+        "hits": "21664",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "21663",
+        "hits": "21664",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "21663",
+        "hits": "21664",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "21663",
+        "hits": "21664",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "21663",
+        "hits": "21664",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "21663",
+        "hits": "21664",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "21325",
+        "hits": "21326",
         "url": "/analytics"
       },
       {
@@ -1857,7 +1857,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "173069"
+        "hits": "173077"
       }
     ]
   }
