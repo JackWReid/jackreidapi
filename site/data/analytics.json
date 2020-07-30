@@ -2,10 +2,6 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "2",
-        "url": "/index.xml"
-      },
-      {
         "hits": "1",
         "url": "/highlight/index.xml"
       },
@@ -16,6 +12,10 @@
       {
         "hits": "1",
         "url": "/highlight/snowden-gellman/"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -39,10 +39,6 @@
       },
       {
         "hits": "1",
-        "url": "/articles/liked/"
-      },
-      {
-        "hits": "1",
         "url": "/tags/nyc/"
       }
     ],
@@ -50,6 +46,10 @@
       {
         "hits": "3",
         "url": "/robots.txt"
+      },
+      {
+        "hits": "1",
+        "url": "/note/james-joyce-estate"
       }
     ],
     "topApiHits": [
@@ -62,8 +62,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -83,24 +83,24 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "12"
+        "hits": "10"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "90"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "39",
+        "hits": "38",
         "url": "/index.xml"
       },
       {
@@ -121,11 +121,11 @@
       },
       {
         "hits": "7",
-        "url": "/"
+        "url": "/articles/saved/"
       },
       {
-        "hits": "7",
-        "url": "/articles/saved/"
+        "hits": "6",
+        "url": "/"
       },
       {
         "hits": "4",
@@ -302,7 +302,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "61",
+        "hits": "60",
         "url": "/robots.txt"
       },
       {
@@ -311,15 +311,15 @@
       },
       {
         "hits": "1",
-        "url": "/note/2020-02-10-little-women-gerwig-crit"
-      },
-      {
-        "hits": "1",
         "url": "/note/2020-04-27t104500.315z/"
       },
       {
         "hits": "1",
         "url": "/note/files-going-extinct"
+      },
+      {
+        "hits": "1",
+        "url": "/note/james-joyce-estate"
       },
       {
         "hits": "1",
@@ -347,49 +347,45 @@
       },
       {
         "hits": "1",
-        "url": "/ads.txt"
-      },
-      {
-        "hits": "1",
         "url": "/wp-admin/"
       },
       {
         "hits": "1",
-        "url": "/humans.txt"
+        "url": "/note/2020-02-10-little-women-gerwig-crit"
       }
     ],
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -398,12 +394,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "300"
+        "hits": "298"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2305"
+        "hits": "2298"
       }
     ]
   },
@@ -814,8 +810,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -824,18 +832,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -857,7 +853,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16134"
+        "hits": "16136"
       }
     ]
   },
@@ -1268,10 +1264,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "8640",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "8639",
         "url": "/pocket?limit=5000"
       },
@@ -1282,6 +1274,10 @@
       {
         "hits": "8639",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8639",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "8639",
@@ -1311,7 +1307,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "69142"
+        "hits": "69141"
       }
     ]
   },
@@ -1722,35 +1718,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "21564",
+        "hits": "21565",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "21564",
+        "hits": "21565",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "21564",
+        "hits": "21565",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "21564",
+        "hits": "21565",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "21564",
+        "hits": "21565",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "21564",
+        "hits": "21565",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "21564",
+        "hits": "21565",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "21226",
+        "hits": "21227",
         "url": "/analytics"
       },
       {
@@ -1773,7 +1769,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "172277"
+        "hits": "172285"
       }
     ]
   }
