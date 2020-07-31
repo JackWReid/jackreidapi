@@ -2,12 +2,16 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "4",
+        "hits": "3",
         "url": "/index.xml"
       },
       {
         "hits": "1",
         "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/praise-walking-cofee/"
       },
       {
         "hits": "1",
@@ -51,15 +55,11 @@
       },
       {
         "hits": "1",
-        "url": "/tags/tech/"
-      },
-      {
-        "hits": "1",
         "url": "/articles/saved/"
       },
       {
         "hits": "1",
-        "url": "/uses/"
+        "url": "/tags/tech/"
       }
     ],
     "topSiteMisses": [
@@ -86,20 +86,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -112,16 +100,28 @@
       {
         "hits": "11",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "18"
+        "hits": "17"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "93"
+        "hits": "89"
       }
     ]
   },
@@ -153,6 +153,10 @@
       },
       {
         "hits": "6",
+        "url": "/?author=8"
+      },
+      {
+        "hits": "6",
         "url": "/?author=2"
       },
       {
@@ -169,10 +173,6 @@
       },
       {
         "hits": "6",
-        "url": "/?author=5"
-      },
-      {
-        "hits": "6",
         "url": "/?author=3"
       },
       {
@@ -181,15 +181,15 @@
       },
       {
         "hits": "6",
-        "url": "/?author=4"
-      },
-      {
-        "hits": "6",
-        "url": "/?author=8"
-      },
-      {
-        "hits": "6",
         "url": "/?author=9"
+      },
+      {
+        "hits": "6",
+        "url": "/?author=5"
+      },
+      {
+        "hits": "6",
+        "url": "/?author=4"
       },
       {
         "hits": "5",
@@ -209,31 +209,7 @@
       },
       {
         "hits": "2",
-        "url": "/films/watched/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "2",
         "url": "/highlight/wfh-forever/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/science/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/urbanism/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/music/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/off-road-land-trains/"
       },
       {
         "hits": "2",
@@ -241,11 +217,35 @@
       },
       {
         "hits": "2",
+        "url": "/tags/urbanism/"
+      },
+      {
+        "hits": "2",
         "url": "/tags/running/"
       },
       {
         "hits": "2",
-        "url": "/post/how-this-site-works/"
+        "url": "/tags/science/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/off-road-land-trains/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/engineering/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/music/"
+      },
+      {
+        "hits": "2",
+        "url": "/films/watched/"
       },
       {
         "hits": "2",
@@ -253,7 +253,7 @@
       },
       {
         "hits": "2",
-        "url": "/open-graph.png"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "2",
@@ -261,7 +261,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/engineering/"
+        "url": "/open-graph.png"
       },
       {
         "hits": "1",
@@ -285,7 +285,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/uk-corona-domestic-abuse/"
+        "url": "/highlight/tulip-farm-covid/"
       },
       {
         "hits": "1",
@@ -301,15 +301,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/tulip-farm-covid/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/trump-covid-meltdown/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/apartments-from-malls/"
       },
       {
         "hits": "1",
@@ -317,15 +309,23 @@
       },
       {
         "hits": "1",
+        "url": "/highlight/apartments-from-malls/"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "1",
-        "url": "/highlight/animal-crossing-interest-rates/"
+        "url": "/highlight/uk-corona-domestic-abuse/"
       },
       {
         "hits": "1",
         "url": "/highlight/ronan-farrow-too-good/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/animal-crossing-interest-rates/"
       }
     ],
     "topSiteMisses": [
@@ -591,11 +591,11 @@
       },
       {
         "hits": "17",
-        "url": "/media/"
+        "url": "/favicon.png"
       },
       {
         "hits": "17",
-        "url": "/favicon.png"
+        "url": "/media/"
       },
       {
         "hits": "17",
@@ -663,11 +663,11 @@
       },
       {
         "hits": "8",
-        "url": "/tags/short-story/"
+        "url": "/highlight/runaway-media/"
       },
       {
         "hits": "8",
-        "url": "/highlight/runaway-media/"
+        "url": "/tags/short-story/"
       },
       {
         "hits": "8",
@@ -691,6 +691,10 @@
       },
       {
         "hits": "7",
+        "url": "/tags/technology/"
+      },
+      {
+        "hits": "7",
         "url": "/films/towatch/"
       },
       {
@@ -699,7 +703,7 @@
       },
       {
         "hits": "7",
-        "url": "/tags/technology/"
+        "url": "/highlight/praise-walking-cofee/"
       },
       {
         "hits": "7",
@@ -744,10 +748,6 @@
       {
         "hits": "6",
         "url": "/?author=4"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/accessibility/"
       }
     ],
     "topSiteMisses": [
@@ -757,15 +757,11 @@
       },
       {
         "hits": "15",
-        "url": "/favicon.ico"
-      },
-      {
-        "hits": "15",
         "url": "/sw.js"
       },
       {
-        "hits": "6",
-        "url": "/wp-json/wp/v2/users/3"
+        "hits": "15",
+        "url": "/favicon.ico"
       },
       {
         "hits": "6",
@@ -773,7 +769,11 @@
       },
       {
         "hits": "6",
-        "url": "/wp-json/wp/v2/users/1"
+        "url": "/wp-json/wp/v2/users/2"
+      },
+      {
+        "hits": "6",
+        "url": "/wp-json/wp/v2/users/3"
       },
       {
         "hits": "6",
@@ -781,11 +781,11 @@
       },
       {
         "hits": "6",
-        "url": "/wp-json/wp/v2/users/8"
+        "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "6",
-        "url": "/wp-json/wp/v2/users/6"
+        "url": "/wp-json/wp/v2/users/8"
       },
       {
         "hits": "6",
@@ -793,15 +793,11 @@
       },
       {
         "hits": "6",
-        "url": "/wp-json/wp/v2/users/2"
-      },
-      {
-        "hits": "6",
         "url": "/wp-json/wp/v2/users/4"
       },
       {
-        "hits": "5",
-        "url": "/wp-json/wp/v2/users/9"
+        "hits": "6",
+        "url": "/wp-json/wp/v2/users/1"
       },
       {
         "hits": "5",
@@ -816,16 +812,20 @@
         "url": "/.well-known/assetlinks.json"
       },
       {
+        "hits": "5",
+        "url": "/wp-json/wp/v2/users/9"
+      },
+      {
         "hits": "3",
         "url": "/tags/medicine"
       },
       {
         "hits": "3",
-        "url": "/note/iranian-shootdown-coverup/"
+        "url": "/note/roman-silphium"
       },
       {
         "hits": "3",
-        "url": "/note/roman-silphium"
+        "url": "/note/iranian-shootdown-coverup/"
       },
       {
         "hits": "3",
@@ -841,15 +841,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/bestof"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/article"
-      },
-      {
-        "hits": "2",
         "url": "/tags/corona"
+      },
+      {
+        "hits": "2",
+        "url": "/note/carlos-williams-love"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/bestof"
       },
       {
         "hits": "2",
@@ -857,7 +857,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/carlos-williams-love"
+        "url": "/photo/brockwell-sleeve/images/brockwell-sleeve_hu7447d159f91cab43ff5263d33a44ba06_183113_600x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -873,19 +873,19 @@
       },
       {
         "hits": "2",
-        "url": "/photo/loch-lomond/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/avalanche-school"
-      },
-      {
-        "hits": "2",
         "url": "/note/iran-nuclear-era"
       },
       {
         "hits": "2",
-        "url": "/photo/brockwell-sleeve/images/brockwell-sleeve_hu7447d159f91cab43ff5263d33a44ba06_183113_600x0_resize_q75_box.jpg"
+        "url": "/photo/loch-lomond/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/article"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/medicine/"
       },
       {
         "hits": "2",
@@ -992,7 +992,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2152"
+        "hits": "2153"
       }
     ],
     "totalApiHits": [
@@ -1065,15 +1065,15 @@
       },
       {
         "hits": "65",
+        "url": "/highlight/praise-walking-cofee/"
+      },
+      {
+        "hits": "65",
         "url": "/post/"
       },
       {
         "hits": "64",
         "url": "/highlight/wfh-forever/"
-      },
-      {
-        "hits": "64",
-        "url": "/highlight/praise-walking-cofee/"
       },
       {
         "hits": "63",
@@ -1446,7 +1446,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10358"
+        "hits": "10359"
       }
     ],
     "totalApiHits": [
@@ -1538,7 +1538,7 @@
         "url": "/rss/"
       },
       {
-        "hits": "108",
+        "hits": "109",
         "url": "/highlight/praise-walking-cofee/"
       },
       {
@@ -1862,35 +1862,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "21861",
+        "hits": "21862",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "21861",
+        "hits": "21862",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "21861",
+        "hits": "21862",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "21861",
+        "hits": "21862",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "21861",
+        "hits": "21862",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "21861",
+        "hits": "21862",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "21861",
+        "hits": "21862",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "21522",
+        "hits": "21523",
         "url": "/analytics"
       },
       {
@@ -1908,12 +1908,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "28391"
+        "hits": "28392"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "174652"
+        "hits": "174660"
       }
     ]
   }
