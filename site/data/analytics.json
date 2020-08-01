@@ -62,31 +62,31 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/pocket?limit=5000"
       }
     ],
@@ -97,7 +97,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "89"
       }
     ]
   },
@@ -153,11 +153,15 @@
       },
       {
         "hits": "3",
-        "url": "/?author=2"
+        "url": "/?author=5"
       },
       {
         "hits": "3",
         "url": "/?author=10"
+      },
+      {
+        "hits": "3",
+        "url": "/?author=2"
       },
       {
         "hits": "3",
@@ -180,10 +184,6 @@
         "url": "/?author=4"
       },
       {
-        "hits": "3",
-        "url": "/?author=5"
-      },
-      {
         "hits": "2",
         "url": "/books/reading/"
       },
@@ -193,7 +193,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/real-lord-of-the-flies/"
+        "url": "/highlight/"
       },
       {
         "hits": "2",
@@ -201,7 +201,7 @@
       },
       {
         "hits": "2",
-        "url": "/journal/"
+        "url": "/tags/link/"
       },
       {
         "hits": "2",
@@ -209,7 +209,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/food/"
+        "url": "/journal/"
       },
       {
         "hits": "2",
@@ -221,11 +221,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/link/"
+        "url": "/tags/food/"
       },
       {
         "hits": "2",
-        "url": "/highlight/"
+        "url": "/highlight/real-lord-of-the-flies/"
       },
       {
         "hits": "2",
@@ -233,7 +233,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/no-more-buying-stuff/"
+        "url": "/link/"
       },
       {
         "hits": "2",
@@ -241,7 +241,7 @@
       },
       {
         "hits": "2",
-        "url": "/link/"
+        "url": "/highlight/no-more-buying-stuff/"
       },
       {
         "hits": "2",
@@ -253,15 +253,15 @@
       },
       {
         "hits": "1",
+        "url": "/highlight/new-york-geology/"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/names-gender-code/"
       },
       {
         "hits": "1",
         "url": "/highlight/low-tech-election-iowa/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/london-bikes-covid/"
       },
       {
         "hits": "1",
@@ -273,15 +273,15 @@
       },
       {
         "hits": "1",
+        "url": "/journal/2020-06-25/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/2020-05-11/"
+      },
+      {
+        "hits": "1",
         "url": "/journal/2020-04-26/"
-      },
-      {
-        "hits": "1",
-        "url": "/journal/2020-04-23/"
-      },
-      {
-        "hits": "1",
-        "url": "/journal/2020-04-05/"
       },
       {
         "hits": "1",
@@ -293,11 +293,11 @@
       },
       {
         "hits": "1",
-        "url": "/journal/2020-03-28/"
+        "url": "/journal/2020-04-23/"
       },
       {
         "hits": "1",
-        "url": "/journal/2020-03-21/"
+        "url": "/journal/2020-04-05/"
       },
       {
         "hits": "1",
@@ -306,7 +306,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "71",
+        "hits": "70",
         "url": "/robots.txt"
       },
       {
@@ -490,7 +490,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "347"
+        "hits": "345"
       }
     ],
     "totalApiHits": [
@@ -906,8 +906,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -916,18 +928,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -949,7 +949,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16129"
+        "hits": "16131"
       }
     ]
   },
@@ -1398,7 +1398,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10404"
+        "hits": "10403"
       }
     ],
     "totalApiHits": [
@@ -1814,35 +1814,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22115",
+        "hits": "22116",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22115",
+        "hits": "22116",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22115",
+        "hits": "22116",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22115",
+        "hits": "22116",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22115",
+        "hits": "22116",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22115",
+        "hits": "22116",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22115",
+        "hits": "22116",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "21775",
+        "hits": "21776",
         "url": "/analytics"
       },
       {
@@ -1865,7 +1865,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "176684"
+        "hits": "176692"
       }
     ]
   }
