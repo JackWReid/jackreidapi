@@ -88,7 +88,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "5",
+        "hits": "4",
         "url": "/robots.txt"
       },
       {
@@ -138,8 +138,20 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -152,18 +164,6 @@
       {
         "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -173,14 +173,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "93"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "78",
+        "hits": "79",
         "url": "/index.xml"
       },
       {
@@ -528,24 +528,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -560,25 +552,33 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/analytics"
+      },
+      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "349"
+        "hits": "350"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2299"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "348",
+        "hits": "349",
         "url": "/index.xml"
       },
       {
@@ -986,8 +986,16 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -996,14 +1004,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -1020,19 +1020,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2188"
+        "hits": "2189"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16130"
+        "hits": "16131"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1462",
+        "hits": "1463",
         "url": "/index.xml"
       },
       {
@@ -1097,11 +1097,11 @@
       },
       {
         "hits": "64",
-        "url": "/highlight/wfh-forever/"
+        "url": "/post/"
       },
       {
         "hits": "64",
-        "url": "/post/"
+        "url": "/highlight/wfh-forever/"
       },
       {
         "hits": "62",
@@ -1259,11 +1259,19 @@
       },
       {
         "hits": "9",
-        "url": "/wp-json/wp/v2/users/8"
+        "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "9",
-        "url": "/wp-json/wp/v2/users/6"
+        "url": "/wp-json/wp/v2/users/2"
+      },
+      {
+        "hits": "9",
+        "url": "/wp-json/wp/v2/users/4"
+      },
+      {
+        "hits": "9",
+        "url": "/wp-json/wp/v2/users/8"
       },
       {
         "hits": "9",
@@ -1271,7 +1279,7 @@
       },
       {
         "hits": "9",
-        "url": "/wp-json/wp/v2/users/2"
+        "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "9",
@@ -1282,20 +1290,12 @@
         "url": "/wp-json/wp/v2/users/3"
       },
       {
-        "hits": "9",
-        "url": "/wp-json/wp/v2/users/4"
-      },
-      {
-        "hits": "9",
-        "url": "/wp-json/wp/v2/users/7"
-      },
-      {
-        "hits": "8",
-        "url": "/photo/the-trossachs/images/IMG_0017_huad381fb499f2badc1d9f5391a18539b4_1510751_600x300_fit_q75_box.jpg"
-      },
-      {
         "hits": "8",
         "url": "/wp-json/wp/v2/users/9"
+      },
+      {
+        "hits": "8",
+        "url": "/work/images/depop.svg"
       },
       {
         "hits": "8",
@@ -1303,7 +1303,7 @@
       },
       {
         "hits": "8",
-        "url": "/work/images/depop.svg"
+        "url": "/photo/the-trossachs/images/IMG_0017_huad381fb499f2badc1d9f5391a18539b4_1510751_600x300_fit_q75_box.jpg"
       },
       {
         "hits": "7",
@@ -1311,11 +1311,7 @@
       },
       {
         "hits": "6",
-        "url": "/photo/south-india/images/IMG_2369_hu1ddaec928864e2ac7f3bc7f0b4820fb9_698185_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "6",
-        "url": "/humans.txt"
+        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "6",
@@ -1323,7 +1319,7 @@
       },
       {
         "hits": "6",
-        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
+        "url": "/humans.txt"
       },
       {
         "hits": "6",
@@ -1331,27 +1327,27 @@
       },
       {
         "hits": "6",
+        "url": "/photo/south-india/images/IMG_2281_hu054ba70e9274e915a2a121765f94e762_174119_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "6",
+        "url": "/photo/south-india/images/IMG_2369_hu1ddaec928864e2ac7f3bc7f0b4820fb9_698185_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "6",
         "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "6",
-        "url": "/wp-admin/"
-      },
-      {
-        "hits": "6",
-        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "6",
         "url": "/photo/south-india/images/IMG_2442_hu0e1fde5b801c8e7d278695bc42f057dc_113260_800x0_resize_q75_box.jpg"
       },
       {
-        "hits": "5",
-        "url": "/photo/transcontinental-flight/images/green-fields_huad4a034ef261bbb310816e4935f67606_614625_600x0_resize_q75_box.jpg"
+        "hits": "6",
+        "url": "/wp-admin/"
       },
       {
         "hits": "5",
-        "url": "/images/uploads/24530.jpeg"
+        "url": "/wordpress/wp-admin/"
       },
       {
         "hits": "5",
@@ -1359,11 +1355,7 @@
       },
       {
         "hits": "5",
-        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "5",
-        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
+        "url": "/photo/transcontinental-flight/images/green-fields_huad4a034ef261bbb310816e4935f67606_614625_600x0_resize_q75_box.jpg"
       },
       {
         "hits": "5",
@@ -1371,11 +1363,19 @@
       },
       {
         "hits": "5",
-        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
+        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "5",
-        "url": "/wordpress/wp-admin/"
+        "url": "/photo/south-india/images/IMG_2173_hu1ea52dce1518c5efbd7b1ad60ff3f321_194488_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "5",
+        "url": "/images/uploads/24530.jpeg"
+      },
+      {
+        "hits": "5",
+        "url": "/photo/south-india/images/IMG_1694_hued57b496f9244b50559b766bcf471bad_224785_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "5",
@@ -1395,15 +1395,15 @@
       },
       {
         "hits": "4",
+        "url": "/tags/corona"
+      },
+      {
+        "hits": "4",
         "url": "/note/there-is-no-outside/"
       },
       {
         "hits": "4",
         "url": "/apple-touch-icon-precomposed.png"
-      },
-      {
-        "hits": "4",
-        "url": "/tags/corona"
       },
       {
         "hits": "4",
@@ -1415,11 +1415,11 @@
       },
       {
         "hits": "4",
-        "url": "/note/screen-protectors/"
+        "url": "/post/getting-of-off-netlify"
       },
       {
         "hits": "4",
-        "url": "/post/getting-of-off-netlify"
+        "url": "/note/screen-protectors/"
       },
       {
         "hits": "4",
@@ -1474,7 +1474,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10395"
+        "hits": "10394"
       }
     ],
     "totalApiHits": [
@@ -1486,7 +1486,7 @@
   "year": {
     "topSiteHits": [
       {
-        "hits": "3686",
+        "hits": "3687",
         "url": "/index.xml"
       },
       {
@@ -1890,35 +1890,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22071",
+        "hits": "22072",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22071",
+        "hits": "22072",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22071",
+        "hits": "22072",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22071",
+        "hits": "22072",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22071",
+        "hits": "22072",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22071",
+        "hits": "22072",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22071",
+        "hits": "22072",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "21731",
+        "hits": "21732",
         "url": "/analytics"
       },
       {
@@ -1936,12 +1936,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "28632"
+        "hits": "28633"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "176332"
+        "hits": "176340"
       }
     ]
   }
