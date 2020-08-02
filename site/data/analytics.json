@@ -79,35 +79,35 @@
     "topApiHits": [
       {
         "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "12",
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -121,7 +121,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "97"
       }
     ]
   },
@@ -587,11 +587,11 @@
       },
       {
         "hits": "53",
-        "url": "/articles/saved/"
+        "url": "/open-graph.png"
       },
       {
         "hits": "53",
-        "url": "/open-graph.png"
+        "url": "/articles/saved/"
       },
       {
         "hits": "26",
@@ -611,15 +611,11 @@
       },
       {
         "hits": "16",
+        "url": "/css/style.css"
+      },
+      {
+        "hits": "16",
         "url": "/?author=8"
-      },
-      {
-        "hits": "16",
-        "url": "/?author=9"
-      },
-      {
-        "hits": "16",
-        "url": "/?author=7"
       },
       {
         "hits": "16",
@@ -627,15 +623,11 @@
       },
       {
         "hits": "16",
+        "url": "/?author=9"
+      },
+      {
+        "hits": "16",
         "url": "/?author=1"
-      },
-      {
-        "hits": "16",
-        "url": "/?author=10"
-      },
-      {
-        "hits": "16",
-        "url": "/?author=6"
       },
       {
         "hits": "16",
@@ -643,11 +635,19 @@
       },
       {
         "hits": "16",
-        "url": "/?author=4"
+        "url": "/?author=10"
       },
       {
         "hits": "16",
-        "url": "/css/style.css"
+        "url": "/?author=7"
+      },
+      {
+        "hits": "16",
+        "url": "/?author=6"
+      },
+      {
+        "hits": "16",
+        "url": "/?author=4"
       },
       {
         "hits": "15",
@@ -723,7 +723,7 @@
       },
       {
         "hits": "7",
-        "url": "/tags/news/"
+        "url": "/tags/games/"
       },
       {
         "hits": "7",
@@ -751,11 +751,7 @@
       },
       {
         "hits": "7",
-        "url": "/tags/lgbtq/"
-      },
-      {
-        "hits": "7",
-        "url": "/tags/history/"
+        "url": "/tags/link/"
       },
       {
         "hits": "7",
@@ -763,7 +759,11 @@
       },
       {
         "hits": "7",
-        "url": "/tags/games/"
+        "url": "/tags/history/"
+      },
+      {
+        "hits": "7",
+        "url": "/tags/lgbtq/"
       }
     ],
     "topSiteMisses": [
@@ -781,7 +781,7 @@
       },
       {
         "hits": "16",
-        "url": "/wp-json/wp/v2/users/5"
+        "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "16",
@@ -789,11 +789,7 @@
       },
       {
         "hits": "16",
-        "url": "/wp-json/wp/v2/users/4"
-      },
-      {
-        "hits": "16",
-        "url": "/wp-json/wp/v2/users/2"
+        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "16",
@@ -801,11 +797,15 @@
       },
       {
         "hits": "16",
+        "url": "/wp-json/wp/v2/users/4"
+      },
+      {
+        "hits": "16",
         "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "16",
-        "url": "/wp-json/wp/v2/users/6"
+        "url": "/wp-json/wp/v2/users/2"
       },
       {
         "hits": "15",
@@ -845,11 +845,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/corona-crisis-18-months"
+        "url": "/note/2019-12-18-finland-media-literacy"
       },
       {
         "hits": "2",
-        "url": "/note/2019-12-18-finland-media-literacy"
+        "url": "/note/corona-crisis-18-months"
       },
       {
         "hits": "2",
@@ -885,10 +885,6 @@
       },
       {
         "hits": "2",
-        "url": "/note/coronavirus-central-lockdown"
-      },
-      {
-        "hits": "2",
         "url": "/note/the-markup-launch"
       },
       {
@@ -913,6 +909,10 @@
       },
       {
         "hits": "2",
+        "url": "/note/james-joyce-estate/"
+      },
+      {
+        "hits": "2",
         "url": "/note/tech-sabbath"
       },
       {
@@ -921,7 +921,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/james-joyce-estate/"
+        "url": "/note/low-tech-election-iowa/"
       },
       {
         "hits": "2",
@@ -937,11 +937,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/low-tech-election-iowa/"
+        "url": "/note/roman-silphium"
       },
       {
         "hits": "2",
-        "url": "/note/roman-silphium"
+        "url": "/note/there-is-so-swing-voter/"
       },
       {
         "hits": "2",
@@ -952,8 +952,8 @@
         "url": "/tags/medicine"
       },
       {
-        "hits": "2",
-        "url": "/note/there-is-so-swing-voter/"
+        "hits": "1",
+        "url": "/note/coronavirus-central-lockdown"
       },
       {
         "hits": "1",
@@ -970,10 +970,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -984,6 +980,10 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -1008,12 +1008,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2314"
+        "hits": "2313"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16129"
+        "hits": "16128"
       }
     ]
   },
@@ -1424,10 +1424,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "8928",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "8927",
         "url": "/pocket?limit=5000"
       },
@@ -1438,6 +1434,10 @@
       {
         "hits": "8927",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "8927",
@@ -1467,7 +1467,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "71443"
+        "hits": "71442"
       }
     ]
   },
@@ -1878,35 +1878,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22520",
+        "hits": "22521",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22520",
+        "hits": "22521",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22520",
+        "hits": "22521",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22520",
+        "hits": "22521",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22520",
+        "hits": "22521",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22520",
+        "hits": "22521",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22520",
+        "hits": "22521",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22178",
+        "hits": "22179",
         "url": "/analytics"
       },
       {
@@ -1929,7 +1929,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "179925"
+        "hits": "179933"
       }
     ]
   }
