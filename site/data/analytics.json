@@ -139,27 +139,27 @@
       },
       {
         "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
-        "url": "/films/watched?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/books/toread?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -169,14 +169,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "94"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "82",
+        "hits": "83",
         "url": "/index.xml"
       },
       {
@@ -378,7 +378,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "45",
+        "hits": "44",
         "url": "/robots.txt"
       },
       {
@@ -598,7 +598,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "363"
+        "hits": "362"
       }
     ],
     "totalApiHits": [
@@ -610,7 +610,7 @@
   "week": {
     "topSiteHits": [
       {
-        "hits": "397",
+        "hits": "398",
         "url": "/index.xml"
       },
       {
@@ -901,7 +901,7 @@
       },
       {
         "hits": "2",
-        "url": "/images/uploads/24530.jpeg"
+        "url": "/photo/isle-of-skye/images/IMG_0047_huad381fb499f2badc1d9f5391a18539b4_977888_600x300_fit_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -909,15 +909,15 @@
       },
       {
         "hits": "2",
+        "url": "/note/willard-maps-of-time/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/tools-i-wish-existed/"
+      },
+      {
+        "hits": "2",
         "url": "/photo/brockwell-sleeve"
-      },
-      {
-        "hits": "2",
-        "url": "/note/willard-maps-of-time"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/isle-of-skye/images/IMG_0047_huad381fb499f2badc1d9f5391a18539b4_977888_600x300_fit_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -957,11 +957,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/senate-impeachment-hamilton"
+        "url": "/note/du-coudray-book"
       },
       {
         "hits": "2",
-        "url": "/note/du-coudray-book"
+        "url": "/note/senate-impeachment-hamilton"
       },
       {
         "hits": "2",
@@ -969,15 +969,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/tools-i-wish-existed/"
-      },
-      {
-        "hits": "2",
         "url": "/note/files-going-extinct/"
       },
       {
         "hits": "2",
-        "url": "/note/willard-maps-of-time/"
+        "url": "/note/willard-maps-of-time"
       },
       {
         "hits": "2",
@@ -986,6 +982,10 @@
       {
         "hits": "2",
         "url": "/note/google-maps-hacks"
+      },
+      {
+        "hits": "2",
+        "url": "/images/uploads/24530.jpeg"
       },
       {
         "hits": "2",
@@ -1014,8 +1014,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -1024,18 +1036,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -1052,19 +1052,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2271"
+        "hits": "2272"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16128"
+        "hits": "16130"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1502",
+        "hits": "1503",
         "url": "/index.xml"
       },
       {
@@ -1468,20 +1468,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "8928",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8928",
+        "hits": "8927",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8927",
@@ -1490,6 +1478,18 @@
       {
         "hits": "8927",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8927",
@@ -1511,14 +1511,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "71444"
+        "hits": "71442"
       }
     ]
   },
   "year": {
     "topSiteHits": [
       {
-        "hits": "3784",
+        "hits": "3785",
         "url": "/index.xml"
       },
       {
@@ -1922,35 +1922,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22409",
+        "hits": "22410",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22409",
+        "hits": "22410",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22409",
+        "hits": "22410",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22409",
+        "hits": "22410",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22409",
+        "hits": "22410",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22409",
+        "hits": "22410",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22409",
+        "hits": "22410",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22068",
+        "hits": "22069",
         "url": "/analytics"
       },
       {
@@ -1968,12 +1968,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "29056"
+        "hits": "29057"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "179037"
+        "hits": "179045"
       }
     ]
   }
