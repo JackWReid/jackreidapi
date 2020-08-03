@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/index.xml"
       },
       {
@@ -31,10 +31,6 @@
       },
       {
         "hits": "1",
-        "url": "/photo/index.xml"
-      },
-      {
-        "hits": "1",
         "url": "/books/reading/"
       },
       {
@@ -46,6 +42,10 @@
       {
         "hits": "3",
         "url": "/robots.txt"
+      },
+      {
+        "hits": "1",
+        "url": "/photo/south-india"
       }
     ],
     "topApiHits": [
@@ -59,19 +59,15 @@
       },
       {
         "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
@@ -80,6 +76,10 @@
       {
         "hits": "11",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/read?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -89,14 +89,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "92"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "83",
+        "hits": "84",
         "url": "/index.xml"
       },
       {
@@ -371,6 +371,10 @@
       },
       {
         "hits": "1",
+        "url": "/photo/south-india"
+      },
+      {
+        "hits": "1",
         "url": "/photo/transcontinental-flight"
       },
       {
@@ -470,7 +474,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "366"
+        "hits": "367"
       }
     ],
     "totalApiHits": [
@@ -482,7 +486,7 @@
   "week": {
     "topSiteHits": [
       {
-        "hits": "463",
+        "hits": "464",
         "url": "/index.xml"
       },
       {
@@ -689,7 +693,7 @@
       },
       {
         "hits": "22",
-        "url": "/wp-json/wp/v2/users/7"
+        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "22",
@@ -697,7 +701,15 @@
       },
       {
         "hits": "22",
+        "url": "/wp-json/wp/v2/users/7"
+      },
+      {
+        "hits": "22",
         "url": "/wp-json/wp/v2/users/4"
+      },
+      {
+        "hits": "22",
+        "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "22",
@@ -705,15 +717,7 @@
       },
       {
         "hits": "22",
-        "url": "/wp-json/wp/v2/users/5"
-      },
-      {
-        "hits": "22",
         "url": "/wp-json/wp/v2/users/2"
-      },
-      {
-        "hits": "22",
-        "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "22",
@@ -733,11 +737,11 @@
       },
       {
         "hits": "6",
-        "url": "/noexist"
+        "url": "/sw.js"
       },
       {
         "hits": "6",
-        "url": "/sw.js"
+        "url": "/noexist"
       },
       {
         "hits": "5",
@@ -757,11 +761,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/2010-lists"
+        "url": "/note/corona-crisis-18-months"
       },
       {
         "hits": "2",
-        "url": "/photo/norfolk-shore"
+        "url": "/note/2010-lists"
       },
       {
         "hits": "2",
@@ -769,7 +773,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/isle-of-skye/images/IMG_0047_huad381fb499f2badc1d9f5391a18539b4_977888_600x300_fit_q75_box.jpg"
+        "url": "/photo/norfolk-shore"
       },
       {
         "hits": "2",
@@ -793,19 +797,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/corona-crisis-18-months"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/transcontinental-flight"
-      },
-      {
-        "hits": "2",
-        "url": "/note/there-is-so-swing-voter"
+        "url": "/photo/south-india"
       },
       {
         "hits": "2",
         "url": "/note/willard-maps-of-time"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/transcontinental-flight"
       },
       {
         "hits": "2",
@@ -826,6 +826,14 @@
       {
         "hits": "2",
         "url": "/note/the-great-regression"
+      },
+      {
+        "hits": "2",
+        "url": "/note/there-is-so-swing-voter"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/isle-of-skye/images/IMG_0047_huad381fb499f2badc1d9f5391a18539b4_977888_600x300_fit_q75_box.jpg"
       },
       {
         "hits": "1",
@@ -873,44 +881,40 @@
       },
       {
         "hits": "1",
-        "url": "/backup/wp-admin/"
-      },
-      {
-        "hits": "1",
         "url": "/note/james-joyce-estate"
       },
       {
         "hits": "1",
-        "url": "/apple-touch-icon-120x120-precomposed.png"
+        "url": "/backup/wp-admin/"
       }
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -929,7 +933,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16133"
+        "hits": "16126"
       }
     ]
   },
@@ -952,7 +956,7 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "379",
+        "hits": "378",
         "url": "/"
       },
       {
@@ -1378,7 +1382,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10647"
+        "hits": "10646"
       }
     ],
     "totalApiHits": [
@@ -1390,7 +1394,7 @@
   "year": {
     "topSiteHits": [
       {
-        "hits": "3923",
+        "hits": "3924",
         "url": "/index.xml"
       },
       {
@@ -1794,35 +1798,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22893",
+        "hits": "22894",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22893",
+        "hits": "22894",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22893",
+        "hits": "22894",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22893",
+        "hits": "22894",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22893",
+        "hits": "22894",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22893",
+        "hits": "22894",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22893",
+        "hits": "22894",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22551",
+        "hits": "22552",
         "url": "/analytics"
       },
       {
@@ -1840,12 +1844,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "29687"
+        "hits": "29688"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "182911"
+        "hits": "182919"
       }
     ]
   }
