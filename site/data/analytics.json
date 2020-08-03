@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "4",
+        "hits": "3",
         "url": "/index.xml"
       },
       {
@@ -84,7 +84,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "13"
+        "hits": "12"
       }
     ],
     "totalApiHits": [
@@ -452,12 +452,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
-        "url": "/articles?limit=5000"
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
         "url": "/analytics"
+      },
+      {
+        "hits": "287",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
@@ -480,10 +484,6 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
-      },
-      {
         "hits": "1",
         "url": "/"
       }
@@ -495,7 +495,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2297"
       }
     ]
   },
@@ -709,27 +709,7 @@
       },
       {
         "hits": "18",
-        "url": "/wp-json/wp/v2/users/3"
-      },
-      {
-        "hits": "18",
-        "url": "/wp-json/wp/v2/users/6"
-      },
-      {
-        "hits": "18",
         "url": "/wp-json/wp/v2/users/8"
-      },
-      {
-        "hits": "18",
-        "url": "/wp-json/wp/v2/users/1"
-      },
-      {
-        "hits": "18",
-        "url": "/wp-json/wp/v2/users/2"
-      },
-      {
-        "hits": "18",
-        "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "18",
@@ -737,7 +717,27 @@
       },
       {
         "hits": "18",
+        "url": "/wp-json/wp/v2/users/6"
+      },
+      {
+        "hits": "18",
+        "url": "/wp-json/wp/v2/users/3"
+      },
+      {
+        "hits": "18",
+        "url": "/wp-json/wp/v2/users/2"
+      },
+      {
+        "hits": "18",
+        "url": "/wp-json/wp/v2/users/1"
+      },
+      {
+        "hits": "18",
         "url": "/wp-json/wp/v2/users/5"
+      },
+      {
+        "hits": "18",
+        "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "17",
@@ -757,11 +757,11 @@
       },
       {
         "hits": "5",
-        "url": "/wp-login.php"
+        "url": "/noexist"
       },
       {
         "hits": "5",
-        "url": "/noexist"
+        "url": "/wp-login.php"
       },
       {
         "hits": "4",
@@ -793,6 +793,10 @@
       },
       {
         "hits": "2",
+        "url": "/tags/medicine"
+      },
+      {
+        "hits": "2",
         "url": "/note/2020-04-27t104500.315z/"
       },
       {
@@ -805,7 +809,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/medicine"
+        "url": "/tags/medicine/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/finland-media-literate"
       },
       {
         "hits": "2",
@@ -813,11 +821,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/the-trossachs"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/medicine/"
+        "url": "/photo/brockwell-sleeve"
       },
       {
         "hits": "2",
@@ -825,11 +829,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/tech-sabbath"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/brockwell-sleeve"
+        "url": "/photo/isle-of-skye/images/IMG_0047_huad381fb499f2badc1d9f5391a18539b4_977888_600x300_fit_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -841,6 +841,22 @@
       },
       {
         "hits": "2",
+        "url": "/note/screen-protectors"
+      },
+      {
+        "hits": "2",
+        "url": "/note/tech-sabbath"
+      },
+      {
+        "hits": "2",
+        "url": "/note/there-is-so-swing-voter"
+      },
+      {
+        "hits": "2",
+        "url": "/note/low-tech-election-iowa/"
+      },
+      {
+        "hits": "2",
         "url": "/note/roman-silphium"
       },
       {
@@ -849,27 +865,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/low-tech-election-iowa/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/there-is-so-swing-voter"
-      },
-      {
-        "hits": "2",
-        "url": "/note/reading-difficult-books"
-      },
-      {
-        "hits": "2",
-        "url": "/note/finland-media-literate"
-      },
-      {
-        "hits": "2",
-        "url": "/note/screen-protectors"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/isle-of-skye/images/IMG_0047_huad381fb499f2badc1d9f5391a18539b4_977888_600x300_fit_q75_box.jpg"
+        "url": "/photo/the-trossachs"
       },
       {
         "hits": "1",
@@ -902,6 +898,10 @@
       {
         "hits": "1",
         "url": "/note/avalanche-school/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/james-joyce-estate"
       }
     ],
     "topApiHits": [
@@ -1814,35 +1814,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22662",
+        "hits": "22663",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22662",
+        "hits": "22663",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22662",
+        "hits": "22663",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22662",
+        "hits": "22663",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22662",
+        "hits": "22663",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22662",
+        "hits": "22663",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22662",
+        "hits": "22663",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22320",
+        "hits": "22321",
         "url": "/analytics"
       },
       {
@@ -1865,7 +1865,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "181061"
+        "hits": "181069"
       }
     ]
   }
