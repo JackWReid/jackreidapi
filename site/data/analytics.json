@@ -130,7 +130,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
@@ -165,15 +165,19 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "89"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "84",
+        "hits": "83",
         "url": "/index.xml"
+      },
+      {
+        "hits": "24",
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
@@ -182,10 +186,6 @@
       {
         "hits": "24",
         "url": "/photo/index.xml"
-      },
-      {
-        "hits": "24",
-        "url": "/highlight/index.xml"
       },
       {
         "hits": "13",
@@ -197,15 +197,7 @@
       },
       {
         "hits": "5",
-        "url": "/?author=3"
-      },
-      {
-        "hits": "5",
-        "url": "/?author=1"
-      },
-      {
-        "hits": "5",
-        "url": "/?author=6"
+        "url": "/?author=9"
       },
       {
         "hits": "5",
@@ -213,15 +205,11 @@
       },
       {
         "hits": "5",
+        "url": "/?author=1"
+      },
+      {
+        "hits": "5",
         "url": "/?author=7"
-      },
-      {
-        "hits": "5",
-        "url": "/?author=5"
-      },
-      {
-        "hits": "5",
-        "url": "/?author=2"
       },
       {
         "hits": "5",
@@ -229,27 +217,27 @@
       },
       {
         "hits": "5",
-        "url": "/?author=9"
+        "url": "/?author=2"
+      },
+      {
+        "hits": "5",
+        "url": "/?author=3"
+      },
+      {
+        "hits": "5",
+        "url": "/?author=5"
       },
       {
         "hits": "5",
         "url": "/?author=10"
       },
       {
+        "hits": "5",
+        "url": "/?author=6"
+      },
+      {
         "hits": "4",
         "url": "/favicon.png"
-      },
-      {
-        "hits": "3",
-        "url": "/post/activist-relief-resources/"
-      },
-      {
-        "hits": "3",
-        "url": "/open-graph.png"
-      },
-      {
-        "hits": "3",
-        "url": "/highlight/robert-pattinson/"
       },
       {
         "hits": "3",
@@ -261,27 +249,19 @@
       },
       {
         "hits": "3",
+        "url": "/highlight/robert-pattinson/"
+      },
+      {
+        "hits": "3",
         "url": "/tags/magazine/"
       },
       {
-        "hits": "2",
-        "url": "/tags/economics/"
+        "hits": "3",
+        "url": "/post/activist-relief-resources/"
       },
       {
-        "hits": "2",
-        "url": "/books/reading/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/running/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/music/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/language/"
+        "hits": "3",
+        "url": "/open-graph.png"
       },
       {
         "hits": "2",
@@ -289,11 +269,27 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/bridgers-rolling-stone/"
+        "url": "/books/reading/"
       },
       {
         "hits": "2",
-        "url": "/css/style.css"
+        "url": "/tags/music/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/running/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/economics/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/language/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/bridgers-rolling-stone/"
       },
       {
         "hits": "2",
@@ -305,11 +301,19 @@
       },
       {
         "hits": "2",
+        "url": "/css/style.css"
+      },
+      {
+        "hits": "2",
         "url": "/highlight/larry-kramer-obit/"
       },
       {
         "hits": "2",
         "url": "/note/2019-07-22-bob-fosse/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/igbo-orthography/"
       },
       {
         "hits": "1",
@@ -333,7 +337,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/cessna-badass-plane/"
+        "url": "/highlight/tulip-farm-covid/"
       },
       {
         "hits": "1",
@@ -345,15 +349,15 @@
       },
       {
         "hits": "1",
+        "url": "/highlight/cessna-badass-plane/"
+      },
+      {
+        "hits": "1",
+        "url": "/admin/"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/tfl-streetspace/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/animal-crossing-interest-rates/"
-      },
-      {
-        "hits": "1",
-        "url": "/about/"
       },
       {
         "hits": "1",
@@ -361,15 +365,11 @@
       },
       {
         "hits": "1",
+        "url": "/highlight/animal-crossing-interest-rates/"
+      },
+      {
+        "hits": "1",
         "url": "/highlight/reading-in-the-dark/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/praise-walking-cofee/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/american-police-departments/"
       }
     ],
     "topSiteMisses": [
@@ -554,7 +554,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "372"
+        "hits": "369"
       }
     ],
     "totalApiHits": [
@@ -1878,35 +1878,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22854",
+        "hits": "22855",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22854",
+        "hits": "22855",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22854",
+        "hits": "22855",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22854",
+        "hits": "22855",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22854",
+        "hits": "22855",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22854",
+        "hits": "22855",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22854",
+        "hits": "22855",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22512",
+        "hits": "22513",
         "url": "/analytics"
       },
       {
@@ -1929,7 +1929,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "182598"
+        "hits": "182606"
       }
     ]
   }
