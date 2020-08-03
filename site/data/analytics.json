@@ -2,16 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "4",
+        "hits": "3",
         "url": "/index.xml"
       },
       {
         "hits": "1",
         "url": "/highlight/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2019-12-29-plath-vs-hughes/"
       },
       {
         "hits": "1",
@@ -38,20 +34,31 @@
         "url": "/post/2019-10-27-the-professor/"
       }
     ],
-    "topSiteMisses": [
-      {
-        "hits": "1",
-        "url": "/robots.txt"
-      }
-    ],
+    "topSiteMisses": [],
     "topApiHits": [
       {
         "hits": "12",
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
@@ -59,33 +66,17 @@
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "12"
+        "hits": "10"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "94"
       }
     ]
   },
@@ -523,27 +514,11 @@
       },
       {
         "hits": "21",
-        "url": "/?author=1"
-      },
-      {
-        "hits": "21",
-        "url": "/?author=9"
-      },
-      {
-        "hits": "21",
         "url": "/?author=3"
       },
       {
         "hits": "21",
-        "url": "/?author=7"
-      },
-      {
-        "hits": "21",
-        "url": "/?author=5"
-      },
-      {
-        "hits": "21",
-        "url": "/?author=4"
+        "url": "/?author=9"
       },
       {
         "hits": "21",
@@ -552,6 +527,22 @@
       {
         "hits": "21",
         "url": "/?author=10"
+      },
+      {
+        "hits": "21",
+        "url": "/?author=4"
+      },
+      {
+        "hits": "21",
+        "url": "/?author=1"
+      },
+      {
+        "hits": "21",
+        "url": "/?author=7"
+      },
+      {
+        "hits": "21",
+        "url": "/?author=5"
       },
       {
         "hits": "16",
@@ -575,11 +566,11 @@
       },
       {
         "hits": "12",
-        "url": "/work/"
+        "url": "/books/reading/"
       },
       {
         "hits": "12",
-        "url": "/books/reading/"
+        "url": "/work/"
       },
       {
         "hits": "12",
@@ -595,10 +586,6 @@
       },
       {
         "hits": "9",
-        "url": "/tags/nyc/"
-      },
-      {
-        "hits": "9",
         "url": "/articles/liked/"
       },
       {
@@ -607,11 +594,11 @@
       },
       {
         "hits": "8",
-        "url": "/post/how-this-site-works/"
+        "url": "/media/"
       },
       {
         "hits": "8",
-        "url": "/tags/magazine/"
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "8",
@@ -619,7 +606,11 @@
       },
       {
         "hits": "8",
-        "url": "/media/"
+        "url": "/tags/magazine/"
+      },
+      {
+        "hits": "8",
+        "url": "/tags/nyc/"
       },
       {
         "hits": "7",
@@ -647,11 +638,11 @@
       },
       {
         "hits": "7",
-        "url": "/uses/"
+        "url": "/rss/"
       },
       {
         "hits": "7",
-        "url": "/rss/"
+        "url": "/uses/"
       },
       {
         "hits": "7",
@@ -660,10 +651,6 @@
       {
         "hits": "7",
         "url": "/link/"
-      },
-      {
-        "hits": "7",
-        "url": "/photo/"
       },
       {
         "hits": "7",
@@ -684,6 +671,10 @@
       {
         "hits": "6",
         "url": "/highlight/praise-walking-cofee/"
+      },
+      {
+        "hits": "6",
+        "url": "/tags/cities/"
       }
     ],
     "topSiteMisses": [
@@ -890,8 +881,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -900,18 +903,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -928,12 +919,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2353"
+        "hits": "2350"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16128"
+        "hits": "16130"
       }
     ]
   },
@@ -1382,7 +1373,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10616"
+        "hits": "10615"
       }
     ],
     "totalApiHits": [
@@ -1798,35 +1789,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22842",
+        "hits": "22843",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22842",
+        "hits": "22843",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22842",
+        "hits": "22843",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22842",
+        "hits": "22843",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22842",
+        "hits": "22843",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22842",
+        "hits": "22843",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22842",
+        "hits": "22843",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22500",
+        "hits": "22501",
         "url": "/analytics"
       },
       {
@@ -1849,7 +1840,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "182502"
+        "hits": "182510"
       }
     ]
   }
