@@ -2,16 +2,16 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "4",
+        "hits": "3",
         "url": "/index.xml"
       },
       {
-        "hits": "2",
-        "url": "/favicon.png"
+        "hits": "1",
+        "url": "/articles/saved/"
       },
       {
         "hits": "1",
-        "url": "/css/style.css"
+        "url": "/favicon.png"
       },
       {
         "hits": "1",
@@ -20,14 +20,6 @@
       {
         "hits": "1",
         "url": "/highlight/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/london-bikes-covid/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/robert-pattinson/"
       },
       {
         "hits": "1",
@@ -52,21 +44,9 @@
       {
         "hits": "1",
         "url": "/tags/music/"
-      },
-      {
-        "hits": "1",
-        "url": "/articles/saved/"
       }
     ],
     "topSiteMisses": [
-      {
-        "hits": "3",
-        "url": "/robots.txt"
-      },
-      {
-        "hits": "1",
-        "url": "/noexist"
-      },
       {
         "hits": "1",
         "url": "/note/aristophanes-wasps"
@@ -74,6 +54,10 @@
       {
         "hits": "1",
         "url": "/note/iran-nuclear-era"
+      },
+      {
+        "hits": "1",
+        "url": "/robots.txt"
       }
     ],
     "topApiHits": [
@@ -112,7 +96,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "18"
+        "hits": "13"
       }
     ],
     "totalApiHits": [
@@ -124,20 +108,20 @@
   "day": {
     "topSiteHits": [
       {
-        "hits": "85",
+        "hits": "84",
         "url": "/index.xml"
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "23",
-        "url": "/photo/index.xml"
+        "hits": "24",
+        "url": "/note/index.xml"
       },
       {
         "hits": "14",
@@ -395,11 +379,11 @@
       },
       {
         "hits": "1",
-        "url": "/note/uss-fitzgerald"
+        "url": "/.env"
       },
       {
         "hits": "1",
-        "url": "/.env"
+        "url": "/photo/isle-of-skye"
       },
       {
         "hits": "1",
@@ -415,10 +399,6 @@
       },
       {
         "hits": "1",
-        "url": "/tags/creative-writing"
-      },
-      {
-        "hits": "1",
         "url": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php"
       },
       {
@@ -427,7 +407,7 @@
       },
       {
         "hits": "1",
-        "url": "/photo/isle-of-skye"
+        "url": "/note/uss-fitzgerald"
       },
       {
         "hits": "1",
@@ -527,11 +507,11 @@
       },
       {
         "hits": "169",
-        "url": "/note/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "169",
-        "url": "/highlight/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "167",
@@ -559,11 +539,7 @@
       },
       {
         "hits": "19",
-        "url": "/?author=10"
-      },
-      {
-        "hits": "19",
-        "url": "/?author=8"
+        "url": "/?author=3"
       },
       {
         "hits": "19",
@@ -571,11 +547,11 @@
       },
       {
         "hits": "19",
-        "url": "/?author=1"
+        "url": "/?author=10"
       },
       {
         "hits": "19",
-        "url": "/?author=3"
+        "url": "/?author=1"
       },
       {
         "hits": "19",
@@ -598,6 +574,10 @@
         "url": "/?author=5"
       },
       {
+        "hits": "19",
+        "url": "/?author=8"
+      },
+      {
         "hits": "17",
         "url": "/css/style.css"
       },
@@ -607,11 +587,11 @@
       },
       {
         "hits": "14",
-        "url": "/post/"
+        "url": "/books/reading/"
       },
       {
         "hits": "14",
-        "url": "/books/reading/"
+        "url": "/post/"
       },
       {
         "hits": "13",
@@ -643,7 +623,15 @@
       },
       {
         "hits": "8",
+        "url": "/highlight/robert-pattinson/"
+      },
+      {
+        "hits": "8",
         "url": "/journal/"
+      },
+      {
+        "hits": "8",
+        "url": "/rss/"
       },
       {
         "hits": "8",
@@ -652,14 +640,6 @@
       {
         "hits": "8",
         "url": "/post/how-this-site-works/"
-      },
-      {
-        "hits": "8",
-        "url": "/highlight/robert-pattinson/"
-      },
-      {
-        "hits": "8",
-        "url": "/rss/"
       },
       {
         "hits": "7",
@@ -926,8 +906,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -936,18 +928,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -964,12 +944,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2377"
+        "hits": "2376"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16128"
+        "hits": "16130"
       }
     ]
   },
@@ -1380,6 +1360,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "8928",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "8927",
         "url": "/pocket?limit=5000"
       },
@@ -1390,10 +1374,6 @@
       {
         "hits": "8927",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "8927",
@@ -1418,12 +1398,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10569"
+        "hits": "10568"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71443"
+        "hits": "71444"
       }
     ]
   },
@@ -1434,7 +1414,7 @@
         "url": "/index.xml"
       },
       {
-        "hits": "2967",
+        "hits": "2968",
         "url": "/note/index.xml"
       },
       {
@@ -1442,7 +1422,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "2007",
+        "hits": "2008",
         "url": "/photo/index.xml"
       },
       {
@@ -1834,35 +1814,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22774",
+        "hits": "22775",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22774",
+        "hits": "22775",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22774",
+        "hits": "22775",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22774",
+        "hits": "22775",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22774",
+        "hits": "22775",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22774",
+        "hits": "22775",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22774",
+        "hits": "22775",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22432",
+        "hits": "22433",
         "url": "/analytics"
       },
       {
@@ -1880,12 +1860,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "29518"
+        "hits": "29520"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "181958"
+        "hits": "181966"
       }
     ]
   }
