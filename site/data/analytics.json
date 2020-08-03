@@ -35,10 +35,6 @@
       },
       {
         "hits": "1",
-        "url": "/photo/"
-      },
-      {
-        "hits": "1",
         "url": "/photo/index.xml"
       },
       {
@@ -120,7 +116,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "17"
+        "hits": "16"
       }
     ],
     "totalApiHits": [
@@ -141,11 +137,11 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "13",
@@ -157,15 +153,11 @@
       },
       {
         "hits": "5",
+        "url": "/?author=10"
+      },
+      {
+        "hits": "5",
         "url": "/?author=6"
-      },
-      {
-        "hits": "5",
-        "url": "/?author=1"
-      },
-      {
-        "hits": "5",
-        "url": "/?author=2"
       },
       {
         "hits": "5",
@@ -177,7 +169,7 @@
       },
       {
         "hits": "5",
-        "url": "/?author=5"
+        "url": "/?author=4"
       },
       {
         "hits": "5",
@@ -185,7 +177,11 @@
       },
       {
         "hits": "5",
-        "url": "/?author=4"
+        "url": "/?author=2"
+      },
+      {
+        "hits": "5",
+        "url": "/?author=1"
       },
       {
         "hits": "5",
@@ -193,7 +189,7 @@
       },
       {
         "hits": "5",
-        "url": "/?author=10"
+        "url": "/?author=5"
       },
       {
         "hits": "4",
@@ -201,11 +197,11 @@
       },
       {
         "hits": "3",
-        "url": "/films/watched/"
+        "url": "/highlight/apartments-from-malls/"
       },
       {
         "hits": "3",
-        "url": "/highlight/apartments-from-malls/"
+        "url": "/films/watched/"
       },
       {
         "hits": "2",
@@ -213,19 +209,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/scotland/"
-      },
-      {
-        "hits": "2",
-        "url": "/elsewhere/"
-      },
-      {
-        "hits": "2",
         "url": "/tags/mentalhealth/"
       },
       {
         "hits": "2",
-        "url": "/tags/snowden/"
+        "url": "/uses/"
       },
       {
         "hits": "2",
@@ -233,7 +221,7 @@
       },
       {
         "hits": "2",
-        "url": "/uses/"
+        "url": "/tags/scotland/"
       },
       {
         "hits": "2",
@@ -321,20 +309,28 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/robert-pattinson/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/no-more-buying-stuff/"
       },
       {
         "hits": "1",
         "url": "/highlight/no-apocalypse/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/robert-pattinson/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/new-york-geology/"
+      },
+      {
+        "hits": "1",
+        "url": "/elsewhere/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "56",
+        "hits": "55",
         "url": "/robots.txt"
       },
       {
@@ -379,10 +375,6 @@
       },
       {
         "hits": "1",
-        "url": "/note/low-tech-election-iowa"
-      },
-      {
-        "hits": "1",
         "url": "/note/precariously-balanced-rocks"
       },
       {
@@ -415,7 +407,7 @@
       },
       {
         "hits": "1",
-        "url": "/.env"
+        "url": "/old/wp-admin/"
       },
       {
         "hits": "1",
@@ -451,11 +443,11 @@
       },
       {
         "hits": "1",
-        "url": "/wp-login.php"
+        "url": "/.env"
       },
       {
         "hits": "1",
-        "url": "/old/wp-admin/"
+        "url": "/wp-login.php"
       },
       {
         "hits": "1",
@@ -468,10 +460,6 @@
       {
         "hits": "1",
         "url": "/note/2010-lists"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2019-12-18-finland-media-literacy"
       },
       {
         "hits": "1",
@@ -496,40 +484,44 @@
       {
         "hits": "1",
         "url": "/note/iranian-shootdown-coverup"
+      },
+      {
+        "hits": "1",
+        "url": "/note/low-tech-election-iowa"
       }
     ],
     "topApiHits": [
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
         "url": "/analytics"
+      },
+      {
+        "hits": "287",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2",
@@ -538,12 +530,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "370"
+        "hits": "368"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2305"
+        "hits": "2298"
       }
     ]
   },
@@ -954,31 +946,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -997,7 +989,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16135"
+        "hits": "16128"
       }
     ]
   },
@@ -1862,35 +1854,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22719",
+        "hits": "22720",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22719",
+        "hits": "22720",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22719",
+        "hits": "22720",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22719",
+        "hits": "22720",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22719",
+        "hits": "22720",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22719",
+        "hits": "22720",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22719",
+        "hits": "22720",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22377",
+        "hits": "22378",
         "url": "/analytics"
       },
       {
@@ -1913,7 +1905,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "181518"
+        "hits": "181526"
       }
     ]
   }
