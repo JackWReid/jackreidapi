@@ -45,12 +45,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -70,7 +70,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -80,7 +80,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -432,23 +432,15 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -460,7 +452,15 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "3",
@@ -474,7 +474,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2302"
       }
     ]
   },
@@ -1063,7 +1063,7 @@
         "url": "/elsewhere/"
       },
       {
-        "hits": "40",
+        "hits": "39",
         "url": "/tags/accessibility/"
       },
       {
@@ -1137,7 +1137,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1670",
+        "hits": "1669",
         "url": "/robots.txt"
       },
       {
@@ -1150,11 +1150,7 @@
       },
       {
         "hits": "22",
-        "url": "/wp-json/wp/v2/users/2"
-      },
-      {
-        "hits": "22",
-        "url": "/wp-json/wp/v2/users/3"
+        "url": "/wp-json/wp/v2/users/1"
       },
       {
         "hits": "22",
@@ -1162,15 +1158,7 @@
       },
       {
         "hits": "22",
-        "url": "/wp-json/wp/v2/users/1"
-      },
-      {
-        "hits": "22",
-        "url": "/wp-json/wp/v2/users/8"
-      },
-      {
-        "hits": "22",
-        "url": "/wp-json/wp/v2/users/5"
+        "url": "/wp-json/wp/v2/users/3"
       },
       {
         "hits": "22",
@@ -1178,7 +1166,23 @@
       },
       {
         "hits": "22",
+        "url": "/wp-json/wp/v2/users/8"
+      },
+      {
+        "hits": "22",
         "url": "/wp-json/wp/v2/users/6"
+      },
+      {
+        "hits": "22",
+        "url": "/wp-json/wp/v2/users/2"
+      },
+      {
+        "hits": "22",
+        "url": "/wp-json/wp/v2/users/5"
+      },
+      {
+        "hits": "21",
+        "url": "/wp-json/wp/v2/users/10"
       },
       {
         "hits": "21",
@@ -1187,10 +1191,6 @@
       {
         "hits": "21",
         "url": "/wp-json/wp/v2/users/9"
-      },
-      {
-        "hits": "21",
-        "url": "/wp-json/wp/v2/users/10"
       },
       {
         "hits": "11",
@@ -1258,11 +1258,11 @@
       },
       {
         "hits": "5",
-        "url": "/wp-admin/"
+        "url": "/photo/ben-nevis/images/IMG_0029_huad381fb499f2badc1d9f5391a18539b4_924484_600x300_fit_q75_box.jpg"
       },
       {
         "hits": "5",
-        "url": "/note/willard-maps-of-time"
+        "url": "/wp-admin/"
       },
       {
         "hits": "5",
@@ -1270,7 +1270,7 @@
       },
       {
         "hits": "5",
-        "url": "/photo/ben-nevis/images/IMG_0029_huad381fb499f2badc1d9f5391a18539b4_924484_600x300_fit_q75_box.jpg"
+        "url": "/note/willard-maps-of-time"
       },
       {
         "hits": "5",
@@ -1314,7 +1314,7 @@
       },
       {
         "hits": "4",
-        "url": "/note/low-tech-election-iowa"
+        "url": "/note/low-tech-election-iowa/"
       },
       {
         "hits": "4",
@@ -1326,7 +1326,7 @@
       },
       {
         "hits": "4",
-        "url": "/note/low-tech-election-iowa/"
+        "url": "/note/low-tech-election-iowa"
       },
       {
         "hits": "4",
@@ -1377,7 +1377,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10690"
+        "hits": "10688"
       }
     ],
     "totalApiHits": [
@@ -1793,35 +1793,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22984",
+        "hits": "22985",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22984",
+        "hits": "22985",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22984",
+        "hits": "22985",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22984",
+        "hits": "22985",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22984",
+        "hits": "22985",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22984",
+        "hits": "22985",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22984",
+        "hits": "22985",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22642",
+        "hits": "22643",
         "url": "/analytics"
       },
       {
@@ -1844,7 +1844,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "183640"
+        "hits": "183648"
       }
     ]
   }
