@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "5",
+        "hits": "3",
         "url": "/index.xml"
       },
       {
@@ -55,11 +55,15 @@
     "topApiHits": [
       {
         "hits": "12",
+        "url": "/analytics"
+      },
+      {
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/analytics"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -82,29 +86,25 @@
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "15"
+        "hits": "13"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "90"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "82",
+        "hits": "81",
         "url": "/index.xml"
       },
       {
@@ -145,11 +145,11 @@
       },
       {
         "hits": "4",
-        "url": "/open-graph.png"
+        "url": "/?author=8"
       },
       {
         "hits": "4",
-        "url": "/?author=8"
+        "url": "/?author=3"
       },
       {
         "hits": "4",
@@ -161,14 +161,6 @@
       },
       {
         "hits": "4",
-        "url": "/?author=3"
-      },
-      {
-        "hits": "4",
-        "url": "/tags/economics/"
-      },
-      {
-        "hits": "4",
         "url": "/?author=2"
       },
       {
@@ -176,8 +168,16 @@
         "url": "/?author=4"
       },
       {
+        "hits": "4",
+        "url": "/tags/economics/"
+      },
+      {
+        "hits": "4",
+        "url": "/open-graph.png"
+      },
+      {
         "hits": "3",
-        "url": "/tags/magazine/"
+        "url": "/highlight/the-american-room/"
       },
       {
         "hits": "3",
@@ -197,7 +197,7 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/the-american-room/"
+        "url": "/tags/magazine/"
       },
       {
         "hits": "3",
@@ -229,7 +229,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/samin-nosrat-eating/"
+        "url": "/photo/"
       },
       {
         "hits": "2",
@@ -241,11 +241,11 @@
       },
       {
         "hits": "2",
-        "url": "/films/towatch/"
+        "url": "/highlight/robert-pattinson/"
       },
       {
         "hits": "2",
-        "url": "/photo/"
+        "url": "/films/towatch/"
       },
       {
         "hits": "2",
@@ -277,7 +277,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/robert-pattinson/"
+        "url": "/highlight/samin-nosrat-eating/"
       },
       {
         "hits": "2",
@@ -437,15 +437,23 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
+        "hits": "287",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
@@ -457,15 +465,7 @@
       },
       {
         "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "3",
@@ -474,12 +474,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "380"
+        "hits": "378"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2302"
+        "hits": "2300"
       }
     ]
   },
@@ -890,31 +890,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -933,7 +933,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16134"
+        "hits": "16127"
       }
     ]
   },
@@ -1798,35 +1798,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22934",
+        "hits": "22935",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22934",
+        "hits": "22935",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22934",
+        "hits": "22935",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22934",
+        "hits": "22935",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22934",
+        "hits": "22935",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22934",
+        "hits": "22935",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22934",
+        "hits": "22935",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22592",
+        "hits": "22593",
         "url": "/analytics"
       },
       {
@@ -1849,7 +1849,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "183240"
+        "hits": "183248"
       }
     ]
   }
