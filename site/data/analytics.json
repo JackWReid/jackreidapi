@@ -2,12 +2,24 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/index.xml"
       },
       {
         "hits": "2",
         "url": "/open-graph.png"
+      },
+      {
+        "hits": "1",
+        "url": "/elsewhere/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "1",
@@ -35,14 +47,19 @@
       },
       {
         "hits": "1",
-        "url": "/tags/media/"
+        "url": "/tags/feminism/"
       },
       {
         "hits": "1",
-        "url": "/highlight/index.xml"
+        "url": "/css/style.css"
       }
     ],
-    "topSiteMisses": [],
+    "topSiteMisses": [
+      {
+        "hits": "1",
+        "url": "/robots.txt"
+      }
+    ],
     "topApiHits": [
       {
         "hits": "12",
@@ -53,8 +70,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -74,24 +91,24 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "13"
+        "hits": "17"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "91"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "81",
+        "hits": "82",
         "url": "/index.xml"
       },
       {
@@ -120,19 +137,7 @@
       },
       {
         "hits": "4",
-        "url": "/?author=2"
-      },
-      {
-        "hits": "4",
-        "url": "/?author=8"
-      },
-      {
-        "hits": "4",
         "url": "/?author=9"
-      },
-      {
-        "hits": "4",
-        "url": "/?author=7"
       },
       {
         "hits": "4",
@@ -140,7 +145,19 @@
       },
       {
         "hits": "4",
-        "url": "/?author=4"
+        "url": "/?author=2"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=7"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=3"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=5"
       },
       {
         "hits": "4",
@@ -148,7 +165,11 @@
       },
       {
         "hits": "4",
-        "url": "/?author=3"
+        "url": "/?author=8"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=4"
       },
       {
         "hits": "4",
@@ -159,12 +180,8 @@
         "url": "/tags/economics/"
       },
       {
-        "hits": "4",
-        "url": "/?author=5"
-      },
-      {
         "hits": "3",
-        "url": "/tags/nyc/"
+        "url": "/tags/magazine/"
       },
       {
         "hits": "3",
@@ -172,15 +189,7 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/the-american-room/"
-      },
-      {
-        "hits": "3",
-        "url": "/tags/magazine/"
-      },
-      {
-        "hits": "3",
-        "url": "/post/activist-relief-resources/"
+        "url": "/tags/nyc/"
       },
       {
         "hits": "3",
@@ -192,19 +201,23 @@
       },
       {
         "hits": "3",
+        "url": "/elsewhere/"
+      },
+      {
+        "hits": "3",
+        "url": "/highlight/the-american-room/"
+      },
+      {
+        "hits": "3",
         "url": "/highlight/london-bikes-covid/"
       },
       {
-        "hits": "2",
-        "url": "/tags/metoo/"
+        "hits": "3",
+        "url": "/post/activist-relief-resources/"
       },
       {
-        "hits": "2",
-        "url": "/tags/tech/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/cessna-badass-plane/"
+        "hits": "3",
+        "url": "/css/style.css"
       },
       {
         "hits": "2",
@@ -212,19 +225,35 @@
       },
       {
         "hits": "2",
+        "url": "/tags/metoo/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/cessna-badass-plane/"
+      },
+      {
+        "hits": "2",
         "url": "/highlight/bridgers-rolling-stone/"
       },
       {
         "hits": "2",
-        "url": "/highlight/"
+        "url": "/post/music-is-changing/"
       },
       {
         "hits": "2",
-        "url": "/films/towatch/"
+        "url": "/tags/feminism/"
       },
       {
         "hits": "2",
-        "url": "/post/2016-05-05-fat-internet-historian/"
+        "url": "/photo/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/snowden-gellman/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/samin-nosrat-eating/"
       },
       {
         "hits": "2",
@@ -233,6 +262,10 @@
       {
         "hits": "2",
         "url": "/books/reading/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/2016-05-05-fat-internet-historian/"
       },
       {
         "hits": "2",
@@ -248,15 +281,15 @@
       },
       {
         "hits": "2",
-        "url": "/elsewhere/"
-      },
-      {
-        "hits": "2",
         "url": "/note/2019-07-22-bob-fosse/"
       },
       {
         "hits": "2",
-        "url": "/css/style.css"
+        "url": "/highlight/"
+      },
+      {
+        "hits": "2",
+        "url": "/films/towatch/"
       },
       {
         "hits": "2",
@@ -264,15 +297,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/samin-nosrat-eating/"
-      },
-      {
-        "hits": "2",
         "url": "/journal/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/"
       },
       {
         "hits": "2",
@@ -280,20 +305,12 @@
       },
       {
         "hits": "2",
-        "url": "/post/music-is-changing/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/ford-best-games/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/coronavirus-city-sound/"
+        "url": "/tags/tech/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "56",
+        "hits": "57",
         "url": "/robots.txt"
       },
       {
@@ -424,23 +441,15 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/analytics"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
@@ -452,7 +461,15 @@
       },
       {
         "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "3",
@@ -461,19 +478,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "378"
+        "hits": "383"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2300"
+        "hits": "2302"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "470",
+        "hits": "471",
         "url": "/index.xml"
       },
       {
@@ -565,7 +582,7 @@
         "url": "/post/activist-relief-resources/"
       },
       {
-        "hits": "10",
+        "hits": "11",
         "url": "/css/style.css"
       },
       {
@@ -654,15 +671,15 @@
       },
       {
         "hits": "6",
+        "url": "/highlight/snowden-gellman/"
+      },
+      {
+        "hits": "6",
+        "url": "/tags/feminism/"
+      },
+      {
+        "hits": "6",
         "url": "/tags/history/"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/magazine/"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/mental-health/"
       },
       {
         "hits": "6",
@@ -675,7 +692,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "386",
+        "hits": "387",
         "url": "/robots.txt"
       },
       {
@@ -915,7 +932,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2358"
+        "hits": "2362"
       }
     ],
     "totalApiHits": [
@@ -927,7 +944,7 @@
   "month": {
     "topSiteHits": [
       {
-        "hits": "1568",
+        "hits": "1569",
         "url": "/index.xml"
       },
       {
@@ -959,7 +976,7 @@
         "url": "/articles/saved/"
       },
       {
-        "hits": "100",
+        "hits": "101",
         "url": "/css/style.css"
       },
       {
@@ -1051,7 +1068,7 @@
         "url": "/uses/"
       },
       {
-        "hits": "40",
+        "hits": "41",
         "url": "/elsewhere/"
       },
       {
@@ -1129,7 +1146,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1673",
+        "hits": "1674",
         "url": "/robots.txt"
       },
       {
@@ -1369,7 +1386,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10684"
+        "hits": "10689"
       }
     ],
     "totalApiHits": [
@@ -1381,7 +1398,7 @@
   "year": {
     "topSiteHits": [
       {
-        "hits": "3938",
+        "hits": "3939",
         "url": "/index.xml"
       },
       {
@@ -1409,7 +1426,7 @@
         "url": "/post/index.xml"
       },
       {
-        "hits": "510",
+        "hits": "511",
         "url": "/css/style.css"
       },
       {
@@ -1481,7 +1498,7 @@
         "url": "/highlight/mouse-feeder-welfare/"
       },
       {
-        "hits": "100",
+        "hits": "101",
         "url": "/elsewhere/"
       },
       {
@@ -1513,7 +1530,7 @@
         "url": "/tags/politics/"
       },
       {
-        "hits": "87",
+        "hits": "88",
         "url": "/highlight/snowden-gellman/"
       },
       {
@@ -1583,7 +1600,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "3760",
+        "hits": "3761",
         "url": "/robots.txt"
       },
       {
@@ -1785,35 +1802,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22944",
+        "hits": "22945",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22944",
+        "hits": "22945",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22944",
+        "hits": "22945",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22944",
+        "hits": "22945",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22944",
+        "hits": "22945",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22944",
+        "hits": "22945",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22944",
+        "hits": "22945",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22602",
+        "hits": "22603",
         "url": "/analytics"
       },
       {
@@ -1831,12 +1848,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "29755"
+        "hits": "29760"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "183320"
+        "hits": "183328"
       }
     ]
   }
