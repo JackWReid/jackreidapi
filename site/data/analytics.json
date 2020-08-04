@@ -50,12 +50,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -75,7 +75,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -85,7 +85,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -319,10 +319,6 @@
       },
       {
         "hits": "3",
-        "url": "/wp-json/wp/v2/users/5"
-      },
-      {
-        "hits": "3",
         "url": "/wp-json/wp/v2/users/6"
       },
       {
@@ -336,6 +332,10 @@
       {
         "hits": "3",
         "url": "/wp-json/wp/v2/users/9"
+      },
+      {
+        "hits": "3",
+        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "2",
@@ -376,10 +376,6 @@
       {
         "hits": "1",
         "url": "/photo/transcontinental-flight"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/article"
       },
       {
         "hits": "1",
@@ -894,10 +890,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -908,6 +900,10 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -937,14 +933,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16126"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1571",
+        "hits": "1570",
         "url": "/index.xml"
       },
       {
@@ -1008,12 +1004,12 @@
         "url": "/highlight/wfh-forever/"
       },
       {
-        "hits": "61",
-        "url": "/post/"
+        "hits": "60",
+        "url": "/highlight/"
       },
       {
         "hits": "60",
-        "url": "/highlight/"
+        "url": "/post/"
       },
       {
         "hits": "60",
@@ -1348,6 +1344,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "8928",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "8927",
         "url": "/pocket?limit=5000"
       },
@@ -1358,10 +1358,6 @@
       {
         "hits": "8927",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "8927",
@@ -1386,12 +1382,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10690"
+        "hits": "10688"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71445"
+        "hits": "71446"
       }
     ]
   },
@@ -1802,35 +1798,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "22973",
+        "hits": "22974",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "22973",
+        "hits": "22974",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "22973",
+        "hits": "22974",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "22973",
+        "hits": "22974",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "22973",
+        "hits": "22974",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "22973",
+        "hits": "22974",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "22973",
+        "hits": "22974",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22631",
+        "hits": "22632",
         "url": "/analytics"
       },
       {
@@ -1853,7 +1849,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "183552"
+        "hits": "183560"
       }
     ]
   }
