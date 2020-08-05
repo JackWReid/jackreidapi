@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/index.xml"
       },
       {
@@ -58,12 +58,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -83,24 +83,24 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "13"
+        "hits": "14"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "81",
+        "hits": "82",
         "url": "/index.xml"
       },
       {
@@ -454,7 +454,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "443"
+        "hits": "444"
       }
     ],
     "totalApiHits": [
@@ -466,7 +466,7 @@
   "week": {
     "topSiteHits": [
       {
-        "hits": "503",
+        "hits": "504",
         "url": "/index.xml"
       },
       {
@@ -482,7 +482,7 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "83",
+        "hits": "82",
         "url": "/"
       },
       {
@@ -507,10 +507,6 @@
       },
       {
         "hits": "26",
-        "url": "/?author=1"
-      },
-      {
-        "hits": "26",
         "url": "/?author=9"
       },
       {
@@ -519,11 +515,11 @@
       },
       {
         "hits": "26",
-        "url": "/?author=2"
+        "url": "/?author=5"
       },
       {
         "hits": "26",
-        "url": "/?author=5"
+        "url": "/?author=2"
       },
       {
         "hits": "26",
@@ -531,11 +527,15 @@
       },
       {
         "hits": "26",
+        "url": "/?author=7"
+      },
+      {
+        "hits": "26",
         "url": "/?author=6"
       },
       {
         "hits": "26",
-        "url": "/?author=7"
+        "url": "/?author=1"
       },
       {
         "hits": "17",
@@ -583,10 +583,6 @@
       },
       {
         "hits": "9",
-        "url": "/articles/liked/"
-      },
-      {
-        "hits": "9",
         "url": "/tags/nyc/"
       },
       {
@@ -600,6 +596,10 @@
       {
         "hits": "8",
         "url": "/tags/accessibility/"
+      },
+      {
+        "hits": "8",
+        "url": "/articles/liked/"
       },
       {
         "hits": "8",
@@ -647,11 +647,11 @@
       },
       {
         "hits": "6",
-        "url": "/tags/justice/"
+        "url": "/tags/magazine/"
       },
       {
         "hits": "6",
-        "url": "/tags/magazine/"
+        "url": "/tags/justice/"
       },
       {
         "hits": "6",
@@ -668,7 +668,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "416",
+        "hits": "414",
         "url": "/robots.txt"
       },
       {
@@ -677,15 +677,7 @@
       },
       {
         "hits": "26",
-        "url": "/wp-json/wp/v2/users/5"
-      },
-      {
-        "hits": "26",
-        "url": "/wp-json/wp/v2/users/8"
-      },
-      {
-        "hits": "26",
-        "url": "/wp-json/wp/v2/users/6"
+        "url": "/wp-json/wp/v2/users/1"
       },
       {
         "hits": "26",
@@ -693,7 +685,7 @@
       },
       {
         "hits": "26",
-        "url": "/wp-json/wp/v2/users/3"
+        "url": "/wp-json/wp/v2/users/8"
       },
       {
         "hits": "26",
@@ -701,15 +693,23 @@
       },
       {
         "hits": "26",
-        "url": "/wp-json/wp/v2/users/1"
+        "url": "/wp-json/wp/v2/users/3"
       },
       {
-        "hits": "25",
-        "url": "/wp-json/wp/v2/users/10"
+        "hits": "26",
+        "url": "/wp-json/wp/v2/users/5"
+      },
+      {
+        "hits": "26",
+        "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "25",
         "url": "/wp-json/wp/v2/users/9"
+      },
+      {
+        "hits": "25",
+        "url": "/wp-json/wp/v2/users/10"
       },
       {
         "hits": "6",
@@ -725,7 +725,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/eugenics-statistics"
+        "url": "/note/corona-crisis-18-months"
       },
       {
         "hits": "2",
@@ -733,7 +733,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/2020-02-10-little-women-gerwig-crit"
+        "url": "/note/eugenics-statistics"
       },
       {
         "hits": "2",
@@ -741,11 +741,7 @@
       },
       {
         "hits": "2",
-        "url": "/images/uploads/24530.jpeg"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/isle-of-skye/"
+        "url": "/note/title"
       },
       {
         "hits": "2",
@@ -753,23 +749,11 @@
       },
       {
         "hits": "2",
-        "url": "/work/images/buzzfeed.svg"
-      },
-      {
-        "hits": "2",
-        "url": "/sw.js"
-      },
-      {
-        "hits": "2",
         "url": "/.well-known/assetlinks.json"
       },
       {
         "hits": "2",
-        "url": "/photo/norfolk-shore"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/isle-of-skye/images/IMG_0047_huad381fb499f2badc1d9f5391a18539b4_977888_600x300_fit_q75_box.jpg"
+        "url": "/work/images/buzzfeed.svg"
       },
       {
         "hits": "2",
@@ -777,11 +761,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/title"
+        "url": "/photo/isle-of-skye/images/IMG_0047_huad381fb499f2badc1d9f5391a18539b4_977888_600x300_fit_q75_box.jpg"
       },
       {
         "hits": "2",
-        "url": "/note/corona-crisis-18-months"
+        "url": "/photo/norfolk-shore"
+      },
+      {
+        "hits": "2",
+        "url": "/note/willard-maps-of-time"
       },
       {
         "hits": "2",
@@ -789,7 +777,19 @@
       },
       {
         "hits": "2",
-        "url": "/ads.txt"
+        "url": "/note/the-great-regression"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/isle-of-skye/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2020-02-10-little-women-gerwig-crit"
+      },
+      {
+        "hits": "2",
+        "url": "/sw.js"
       },
       {
         "hits": "2",
@@ -797,15 +797,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/the-great-regression"
-      },
-      {
-        "hits": "2",
         "url": "/note/there-is-so-swing-voter"
-      },
-      {
-        "hits": "2",
-        "url": "/note/willard-maps-of-time"
       },
       {
         "hits": "1",
@@ -841,11 +833,11 @@
       },
       {
         "hits": "1",
-        "url": "/note/iranian-shootdown-coverup/"
+        "url": "/note/academie-francaise"
       },
       {
         "hits": "1",
-        "url": "/note/academie-francaise"
+        "url": "/images/uploads/24530.jpeg"
       },
       {
         "hits": "1",
@@ -857,6 +849,14 @@
       },
       {
         "hits": "1",
+        "url": "/note/iranian-shootdown-coverup"
+      },
+      {
+        "hits": "1",
+        "url": "/note/iranian-shootdown-coverup/"
+      },
+      {
+        "hits": "1",
         "url": "/note/iran-nuclear-era"
       },
       {
@@ -865,7 +865,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/iranian-shootdown-coverup"
+        "url": "/note/il-formaggio-virmi"
       }
     ],
     "topApiHits": [
@@ -902,25 +902,25 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "2524"
+        "hits": "2521"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16129"
+        "hits": "16128"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1599",
+        "hits": "1600",
         "url": "/index.xml"
       },
       {
@@ -1324,10 +1324,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "8928",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "8927",
         "url": "/pocket?limit=5000"
       },
@@ -1338,6 +1334,10 @@
       {
         "hits": "8927",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "8927",
@@ -1362,19 +1362,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10854"
+        "hits": "10855"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71447"
+        "hits": "71446"
       }
     ]
   },
   "year": {
     "topSiteHits": [
       {
-        "hits": "4012",
+        "hits": "4013",
         "url": "/index.xml"
       },
       {
@@ -1778,35 +1778,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "23209",
+        "hits": "23210",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "23209",
+        "hits": "23210",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "23209",
+        "hits": "23210",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "23209",
+        "hits": "23210",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "23209",
+        "hits": "23210",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "23209",
+        "hits": "23210",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "23209",
+        "hits": "23210",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22867",
+        "hits": "22868",
         "url": "/analytics"
       },
       {
@@ -1824,12 +1824,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "30173"
+        "hits": "30174"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "185443"
+        "hits": "185451"
       }
     ]
   }
