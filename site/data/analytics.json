@@ -54,7 +54,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
@@ -89,7 +89,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "89"
       }
     ]
   },
@@ -137,7 +137,7 @@
       },
       {
         "hits": "4",
-        "url": "/tags/philosophy/"
+        "url": "/?author=10"
       },
       {
         "hits": "4",
@@ -153,27 +153,7 @@
       },
       {
         "hits": "4",
-        "url": "/?author=1"
-      },
-      {
-        "hits": "4",
         "url": "/?author=3"
-      },
-      {
-        "hits": "4",
-        "url": "/?author=4"
-      },
-      {
-        "hits": "4",
-        "url": "/note/2019-07-31-jacob-rees-mogg/"
-      },
-      {
-        "hits": "4",
-        "url": "/?author=5"
-      },
-      {
-        "hits": "4",
-        "url": "/css/style.css"
       },
       {
         "hits": "4",
@@ -185,7 +165,19 @@
       },
       {
         "hits": "4",
-        "url": "/books/reading/"
+        "url": "/css/style.css"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=4"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=5"
+      },
+      {
+        "hits": "4",
+        "url": "/tags/philosophy/"
       },
       {
         "hits": "4",
@@ -193,7 +185,11 @@
       },
       {
         "hits": "4",
-        "url": "/?author=10"
+        "url": "/?author=1"
+      },
+      {
+        "hits": "4",
+        "url": "/note/2019-07-31-jacob-rees-mogg/"
       },
       {
         "hits": "3",
@@ -208,6 +204,10 @@
         "url": "/journal/"
       },
       {
+        "hits": "3",
+        "url": "/books/reading/"
+      },
+      {
         "hits": "2",
         "url": "/tags/technology/"
       },
@@ -217,11 +217,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/link/"
+        "url": "/tags/mental-health/"
       },
       {
         "hits": "2",
-        "url": "/tags/mental-health/"
+        "url": "/tags/nature/"
       },
       {
         "hits": "2",
@@ -233,19 +233,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/food/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/nature/"
-      },
-      {
-        "hits": "2",
-        "url": "/rss/"
-      },
-      {
-        "hits": "2",
-        "url": "/elsewhere/"
+        "url": "/tags/link/"
       },
       {
         "hits": "2",
@@ -253,7 +241,7 @@
       },
       {
         "hits": "2",
-        "url": "/post/2016-05-05-fat-internet-historian/"
+        "url": "/post/getting-off-of-netlify/"
       },
       {
         "hits": "2",
@@ -261,23 +249,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/2019-08-05-academie-francaise/"
-      },
-      {
-        "hits": "2",
-        "url": "/media/"
-      },
-      {
-        "hits": "2",
         "url": "/highlight/ptsd-during-covid/"
       },
       {
         "hits": "2",
-        "url": "/note/2019-07-24-uss-fitzgerald/"
+        "url": "/post/2016-05-05-fat-internet-historian/"
       },
       {
         "hits": "2",
-        "url": "/post/getting-off-of-netlify/"
+        "url": "/note/2019-08-05-academie-francaise/"
       },
       {
         "hits": "2",
@@ -285,11 +265,31 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/spa-fatigue/"
+        "url": "/note/2019-07-24-uss-fitzgerald/"
+      },
+      {
+        "hits": "2",
+        "url": "/elsewhere/"
       },
       {
         "hits": "2",
         "url": "/note/2020-01-27-rise-of-the-blur/"
+      },
+      {
+        "hits": "2",
+        "url": "/rss/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/spa-fatigue/"
+      },
+      {
+        "hits": "2",
+        "url": "/media/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/food/"
       },
       {
         "hits": "1",
@@ -298,7 +298,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "75",
+        "hits": "74",
         "url": "/robots.txt"
       },
       {
@@ -430,7 +430,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "456"
+        "hits": "454"
       }
     ],
     "totalApiHits": [
@@ -850,8 +850,16 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -860,14 +868,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -889,7 +889,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16129"
+        "hits": "16130"
       }
     ]
   },
@@ -1098,7 +1098,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1678",
+        "hits": "1677",
         "url": "/robots.txt"
       },
       {
@@ -1338,7 +1338,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10878"
+        "hits": "10877"
       }
     ],
     "totalApiHits": [
@@ -1754,35 +1754,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "23300",
+        "hits": "23301",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "23300",
+        "hits": "23301",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "23300",
+        "hits": "23301",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "23300",
+        "hits": "23301",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "23300",
+        "hits": "23301",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "23300",
+        "hits": "23301",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "23300",
+        "hits": "23301",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "22958",
+        "hits": "22959",
         "url": "/analytics"
       },
       {
@@ -1805,7 +1805,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "186171"
+        "hits": "186179"
       }
     ]
   }
