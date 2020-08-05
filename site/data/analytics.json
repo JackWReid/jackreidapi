@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/index.xml"
       },
       {
@@ -54,8 +54,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
@@ -64,32 +80,16 @@
       {
         "hits": "11",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "13"
+        "hits": "14"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "92"
       }
     ]
   },
@@ -117,11 +117,11 @@
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "24",
@@ -169,11 +169,11 @@
       },
       {
         "hits": "3",
-        "url": "/post/getting-off-of-netlify/"
+        "url": "/highlight/low-tech-election-iowa/"
       },
       {
         "hits": "3",
-        "url": "/highlight/low-tech-election-iowa/"
+        "url": "/post/getting-off-of-netlify/"
       },
       {
         "hits": "3",
@@ -185,7 +185,7 @@
       },
       {
         "hits": "2",
-        "url": "/share/highlight/?title=Black%20Book%20Clubs%2C%20From%20Oprah%20to%20Noname%20-%20The%20New%20York%20Times&body=The%20Black%20book%20club%20has%2C%20over%20time%2C%20served%20as%20a%20space%20of%20critical%20study%2C%20leisure%20and%20fellowship.%20In%20the%2019th%20century%2C%20free%20Black%20Americans%20in%20the%20North%20saw%20literary%20societies%20and%20the%20organized%20literary%20activities%20that%20they%20sponsored%20%E2%80%9Cas%20one%20way%20to%20arrest%20the%20attention%20of%20the%20public%2C%20assert%20their%20racial%20and%20American%20identities%2C%20and%20give%20voice%20to%20their%20belief%20in%20the%20promises%20of%20democracy%2C%E2%80%9D%20Elizabeth%20McHenry%20wrote%20in%20%E2%80%9CForgotten%20Readers%3A%20Recovering%20the%20Lost%20History%20of%20African%20American%20Literary%20Societies.%E2%80%9D&url=https%3A%2F%2Fwww.nytimes.com%2F2020%2F07%2F29%2Fstyle%2Fself-care%2Fblack-book-clubs.html%3Fsmid%3Dtw-nytimes%26smtyp%3Dcur"
+        "url": "/?author=9"
       },
       {
         "hits": "2",
@@ -193,7 +193,7 @@
       },
       {
         "hits": "2",
-        "url": "/share/"
+        "url": "/share/highlight/"
       },
       {
         "hits": "2",
@@ -201,7 +201,7 @@
       },
       {
         "hits": "2",
-        "url": "/?author=6"
+        "url": "/rss/"
       },
       {
         "hits": "2",
@@ -209,11 +209,11 @@
       },
       {
         "hits": "2",
-        "url": "/?author=9"
+        "url": "/?author=6"
       },
       {
         "hits": "2",
-        "url": "/share/highlight/"
+        "url": "/share/highlight/?title=Black%20Book%20Clubs%2C%20From%20Oprah%20to%20Noname%20-%20The%20New%20York%20Times&body=The%20Black%20book%20club%20has%2C%20over%20time%2C%20served%20as%20a%20space%20of%20critical%20study%2C%20leisure%20and%20fellowship.%20In%20the%2019th%20century%2C%20free%20Black%20Americans%20in%20the%20North%20saw%20literary%20societies%20and%20the%20organized%20literary%20activities%20that%20they%20sponsored%20%E2%80%9Cas%20one%20way%20to%20arrest%20the%20attention%20of%20the%20public%2C%20assert%20their%20racial%20and%20American%20identities%2C%20and%20give%20voice%20to%20their%20belief%20in%20the%20promises%20of%20democracy%2C%E2%80%9D%20Elizabeth%20McHenry%20wrote%20in%20%E2%80%9CForgotten%20Readers%3A%20Recovering%20the%20Lost%20History%20of%20African%20American%20Literary%20Societies.%E2%80%9D&url=https%3A%2F%2Fwww.nytimes.com%2F2020%2F07%2F29%2Fstyle%2Fself-care%2Fblack-book-clubs.html%3Fsmid%3Dtw-nytimes%26smtyp%3Dcur"
       },
       {
         "hits": "2",
@@ -225,7 +225,11 @@
       },
       {
         "hits": "2",
-        "url": "/rss/"
+        "url": "/share/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/mental-health/"
       },
       {
         "hits": "2",
@@ -233,7 +237,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/2019-07-31-madame-tussaud/"
+        "url": "/?author=4"
       },
       {
         "hits": "2",
@@ -241,7 +245,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/2019-07-24-uss-fitzgerald/"
+        "url": "/note/2019-07-31-jacob-rees-mogg/"
       },
       {
         "hits": "2",
@@ -249,15 +253,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/"
+        "url": "/note/2019-07-24-uss-fitzgerald/"
       },
       {
         "hits": "2",
-        "url": "/note/2019-07-31-jacob-rees-mogg/"
-      },
-      {
-        "hits": "2",
-        "url": "/?author=3"
+        "url": "/note/2019-07-31-madame-tussaud/"
       },
       {
         "hits": "2",
@@ -265,11 +265,11 @@
       },
       {
         "hits": "2",
-        "url": "/journal/2020-04-05/"
+        "url": "/?author=3"
       },
       {
         "hits": "2",
-        "url": "/?author=4"
+        "url": "/journal/2020-04-05/"
       },
       {
         "hits": "2",
@@ -293,7 +293,7 @@
       },
       {
         "hits": "2",
-        "url": "/media/"
+        "url": "/note/"
       }
     ],
     "topSiteMisses": [
@@ -409,11 +409,7 @@
       },
       {
         "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/watched?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "288",
@@ -424,8 +420,12 @@
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2",
@@ -434,12 +434,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "583"
+        "hits": "582"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2305"
+        "hits": "2306"
       }
     ]
   },
@@ -900,7 +900,7 @@
   "month": {
     "topSiteHits": [
       {
-        "hits": "1618",
+        "hits": "1619",
         "url": "/index.xml"
       },
       {
@@ -1304,6 +1304,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "8928",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "8927",
         "url": "/pocket?limit=5000"
       },
@@ -1314,10 +1318,6 @@
       {
         "hits": "8927",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "8927",
@@ -1342,19 +1342,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "11037"
+        "hits": "11038"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71446"
+        "hits": "71447"
       }
     ]
   },
   "year": {
     "topSiteHits": [
       {
-        "hits": "4055",
+        "hits": "4056",
         "url": "/index.xml"
       },
       {
@@ -1362,7 +1362,7 @@
         "url": "/note/index.xml"
       },
       {
-        "hits": "2131",
+        "hits": "2132",
         "url": "/highlight/index.xml"
       },
       {
@@ -1758,35 +1758,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "23359",
+        "hits": "23360",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "23359",
+        "hits": "23360",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "23359",
+        "hits": "23360",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "23359",
+        "hits": "23360",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "23359",
+        "hits": "23360",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "23359",
+        "hits": "23360",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "23359",
+        "hits": "23360",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "23017",
+        "hits": "23018",
         "url": "/analytics"
       },
       {
@@ -1804,12 +1804,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "30490"
+        "hits": "30492"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "186643"
+        "hits": "186651"
       }
     ]
   }
