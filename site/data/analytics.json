@@ -66,8 +66,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -87,7 +87,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -97,14 +97,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "91"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "71",
+        "hits": "70",
         "url": "/index.xml"
       },
       {
@@ -396,12 +396,28 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
-        "url": "/analytics"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
@@ -409,33 +425,17 @@
       },
       {
         "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/analytics"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "507"
+        "hits": "505"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2296"
+        "hits": "2302"
       }
     ]
   },
@@ -559,7 +559,7 @@
       },
       {
         "hits": "10",
-        "url": "/tags/justice/"
+        "url": "/rss/"
       },
       {
         "hits": "10",
@@ -571,7 +571,7 @@
       },
       {
         "hits": "10",
-        "url": "/rss/"
+        "url": "/tags/justice/"
       },
       {
         "hits": "9",
@@ -599,11 +599,11 @@
       },
       {
         "hits": "8",
-        "url": "/note/"
+        "url": "/uses/"
       },
       {
         "hits": "8",
-        "url": "/uses/"
+        "url": "/note/"
       },
       {
         "hits": "7",
@@ -635,11 +635,11 @@
       },
       {
         "hits": "7",
-        "url": "/highlight/mother-board-earth/"
+        "url": "/tags/dev/"
       },
       {
         "hits": "7",
-        "url": "/tags/dev/"
+        "url": "/highlight/mother-board-earth/"
       }
     ],
     "topSiteMisses": [
@@ -649,7 +649,7 @@
       },
       {
         "hits": "27",
-        "url": "/wp-json/wp/v2/users/4"
+        "url": "/wp-json/wp/v2/users/1"
       },
       {
         "hits": "27",
@@ -669,7 +669,7 @@
       },
       {
         "hits": "27",
-        "url": "/wp-json/wp/v2/users/1"
+        "url": "/wp-json/wp/v2/users/2"
       },
       {
         "hits": "27",
@@ -677,7 +677,7 @@
       },
       {
         "hits": "27",
-        "url": "/wp-json/wp/v2/users/2"
+        "url": "/wp-json/wp/v2/users/4"
       },
       {
         "hits": "26",
@@ -688,16 +688,16 @@
         "url": "/wp-json/wp/v2/users/10"
       },
       {
-        "hits": "6",
-        "url": "/favicon.ico"
-      },
-      {
         "hits": "5",
         "url": "/.env"
       },
       {
         "hits": "5",
         "url": "/wp-login.php"
+      },
+      {
+        "hits": "5",
+        "url": "/favicon.ico"
       },
       {
         "hits": "3",
@@ -846,8 +846,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -856,18 +868,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -884,12 +884,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2734"
+        "hits": "2733"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16129"
       }
     ]
   },
@@ -1338,7 +1338,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "11078"
+        "hits": "11077"
       }
     ],
     "totalApiHits": [
@@ -1754,35 +1754,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "23475",
+        "hits": "23476",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "23475",
+        "hits": "23476",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "23475",
+        "hits": "23476",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "23475",
+        "hits": "23476",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "23475",
+        "hits": "23476",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "23475",
+        "hits": "23476",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "23475",
+        "hits": "23476",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "23132",
+        "hits": "23133",
         "url": "/analytics"
       },
       {
@@ -1805,7 +1805,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "187570"
+        "hits": "187578"
       }
     ]
   }
