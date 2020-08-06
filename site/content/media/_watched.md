@@ -7,9 +7,15 @@ layout: media
 ---
 
 ## Recent Favourites
+### August 2020
+- Inherent Vice (2009)
+- Porco Rosso (1992)
+
 ### July 2020
 - I May Destroy You (TV) (2020)
 - Hamilton (2020)
+- Blue Ruin (2013)
+- Master and Commander: The Far Side of the World (2003)
 
 ### June 2020
 - Malcolm X (1992)
