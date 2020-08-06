@@ -3,23 +3,15 @@
     "topSiteHits": [
       {
         "hits": "2",
-        "url": "/"
-      },
-      {
-        "hits": "2",
         "url": "/index.xml"
       },
       {
-        "hits": "1",
-        "url": "/highlight/index.xml"
+        "hits": "2",
+        "url": "/"
       },
       {
         "hits": "1",
         "url": "/highlight/michael-the-destroyer/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/language/"
       },
       {
         "hits": "1",
@@ -35,7 +27,15 @@
       },
       {
         "hits": "1",
-        "url": "/about/"
+        "url": "/tags/language/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/scotland/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/index.xml"
       }
     ],
     "topSiteMisses": [
@@ -58,28 +58,28 @@
         "url": "/articles?limit=5000"
       },
       {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
         "hits": "11",
         "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -89,14 +89,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "94"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "55",
+        "hits": "56",
         "url": "/index.xml"
       },
       {
@@ -392,31 +392,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/watched?limit=5000"
       },
       {
@@ -426,19 +426,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "395"
+        "hits": "397"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2295"
+        "hits": "2302"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "535",
+        "hits": "536",
         "url": "/index.xml"
       },
       {
@@ -640,7 +640,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "407",
+        "hits": "406",
         "url": "/robots.txt"
       },
       {
@@ -880,7 +880,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2789"
+        "hits": "2790"
       }
     ],
     "totalApiHits": [
@@ -892,7 +892,7 @@
   "month": {
     "topSiteHits": [
       {
-        "hits": "1620",
+        "hits": "1621",
         "url": "/index.xml"
       },
       {
@@ -1107,26 +1107,6 @@
       },
       {
         "hits": "28",
-        "url": "/wp-json/wp/v2/users/3"
-      },
-      {
-        "hits": "28",
-        "url": "/wp-json/wp/v2/users/8"
-      },
-      {
-        "hits": "28",
-        "url": "/wp-json/wp/v2/users/6"
-      },
-      {
-        "hits": "28",
-        "url": "/wp-json/wp/v2/users/2"
-      },
-      {
-        "hits": "28",
-        "url": "/wp-json/wp/v2/users/7"
-      },
-      {
-        "hits": "28",
         "url": "/wp-json/wp/v2/users/4"
       },
       {
@@ -1135,15 +1115,35 @@
       },
       {
         "hits": "28",
+        "url": "/wp-json/wp/v2/users/2"
+      },
+      {
+        "hits": "28",
+        "url": "/wp-json/wp/v2/users/6"
+      },
+      {
+        "hits": "28",
+        "url": "/wp-json/wp/v2/users/8"
+      },
+      {
+        "hits": "28",
+        "url": "/wp-json/wp/v2/users/3"
+      },
+      {
+        "hits": "28",
         "url": "/wp-json/wp/v2/users/1"
       },
       {
-        "hits": "27",
-        "url": "/wp-json/wp/v2/users/9"
+        "hits": "28",
+        "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "27",
         "url": "/wp-json/wp/v2/users/10"
+      },
+      {
+        "hits": "27",
+        "url": "/wp-json/wp/v2/users/9"
       },
       {
         "hits": "22",
@@ -1171,10 +1171,6 @@
       },
       {
         "hits": "6",
-        "url": "/wp-admin/"
-      },
-      {
-        "hits": "6",
         "url": "/note/the-great-regression"
       },
       {
@@ -1182,8 +1178,8 @@
         "url": "/photo/the-trossachs/images/IMG_0017_huad381fb499f2badc1d9f5391a18539b4_1510751_600x300_fit_q75_box.jpg"
       },
       {
-        "hits": "5",
-        "url": "/photo/south-india/images/IMG_1891_hufdcdb9ce05456e41ca5036f054c92962_136300_800x0_resize_q75_box.jpg"
+        "hits": "6",
+        "url": "/wp-admin/"
       },
       {
         "hits": "5",
@@ -1191,7 +1187,7 @@
       },
       {
         "hits": "5",
-        "url": "/note/plath-vs-hughes"
+        "url": "/photo/south-india/images/IMG_1891_hufdcdb9ce05456e41ca5036f054c92962_136300_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "5",
@@ -1199,7 +1195,15 @@
       },
       {
         "hits": "5",
+        "url": "/note/plath-vs-hughes"
+      },
+      {
+        "hits": "5",
         "url": "/ads.txt"
+      },
+      {
+        "hits": "5",
+        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "5",
@@ -1227,6 +1231,10 @@
       },
       {
         "hits": "5",
+        "url": "/wordpress/wp-admin/"
+      },
+      {
+        "hits": "5",
         "url": "/note/sailors-on-wikipedia"
       },
       {
@@ -1235,11 +1243,7 @@
       },
       {
         "hits": "5",
-        "url": "/tags/corona"
-      },
-      {
-        "hits": "5",
-        "url": "/wordpress/wp-admin/"
+        "url": "/work/images/depop.svg"
       },
       {
         "hits": "5",
@@ -1251,19 +1255,7 @@
       },
       {
         "hits": "5",
-        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "5",
-        "url": "/work/images/depop.svg"
-      },
-      {
-        "hits": "4",
-        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "4",
-        "url": "/.git/HEAD"
+        "url": "/tags/corona"
       },
       {
         "hits": "4",
@@ -1271,7 +1263,11 @@
       },
       {
         "hits": "4",
-        "url": "/photo/south-india/images/IMG_1981_hufdcdb9ce05456e41ca5036f054c92962_442576_800x0_resize_q75_box.jpg"
+        "url": "/.git/HEAD"
+      },
+      {
+        "hits": "4",
+        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "4",
@@ -1292,6 +1288,10 @@
       {
         "hits": "4",
         "url": "/photo/norfolk-shore"
+      },
+      {
+        "hits": "4",
+        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
       }
     ],
     "topApiHits": [
@@ -1334,7 +1334,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "11156"
+        "hits": "11158"
       }
     ],
     "totalApiHits": [
@@ -1346,7 +1346,7 @@
   "year": {
     "topSiteHits": [
       {
-        "hits": "4100",
+        "hits": "4101",
         "url": "/index.xml"
       },
       {
@@ -1750,35 +1750,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "23613",
+        "hits": "23614",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "23613",
+        "hits": "23614",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "23613",
+        "hits": "23614",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "23613",
+        "hits": "23614",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "23613",
+        "hits": "23614",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "23613",
+        "hits": "23614",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "23613",
+        "hits": "23614",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "23269",
+        "hits": "23270",
         "url": "/analytics"
       },
       {
@@ -1796,12 +1796,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "30846"
+        "hits": "30848"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "188673"
+        "hits": "188681"
       }
     ]
   }
