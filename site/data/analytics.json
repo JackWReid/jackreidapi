@@ -83,6 +83,10 @@
       },
       {
         "hits": "1",
+        "url": "/tags/dev/"
+      },
+      {
+        "hits": "1",
         "url": "/tags/media/"
       },
       {
@@ -96,7 +100,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/robots.txt"
       },
       {
@@ -143,7 +147,7 @@
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/analytics"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "12",
@@ -151,7 +155,7 @@
       },
       {
         "hits": "12",
-        "url": "/books/reading?limit=5000"
+        "url": "/analytics"
       },
       {
         "hits": "12",
@@ -170,25 +174,25 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "24"
+        "hits": "25"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "96"
+        "hits": "95"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "54",
+        "hits": "53",
         "url": "/"
       },
       {
@@ -403,14 +407,6 @@
       },
       {
         "hits": "1",
-        "url": "/noexist"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-02-12-place-non-place"
-      },
-      {
-        "hits": "1",
         "url": "/note/2020-02-24-kanye-out-west"
       },
       {
@@ -523,7 +519,7 @@
       },
       {
         "hits": "1",
-        "url": "/ads.txt"
+        "url": "/atom.xml"
       },
       {
         "hits": "1",
@@ -531,41 +527,41 @@
       },
       {
         "hits": "1",
-        "url": "/atom.xml"
+        "url": "/noexist"
       },
       {
         "hits": "1",
-        "url": "/humans.txt"
+        "url": "/note/2020-02-12-place-non-place"
       }
     ],
     "topApiHits": [
+      {
+        "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
       {
         "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "286",
@@ -579,7 +575,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2302"
       }
     ]
   },
@@ -635,7 +631,7 @@
       },
       {
         "hits": "23",
-        "url": "/?author=4"
+        "url": "/?author=10"
       },
       {
         "hits": "23",
@@ -643,7 +639,7 @@
       },
       {
         "hits": "23",
-        "url": "/?author=10"
+        "url": "/?author=6"
       },
       {
         "hits": "23",
@@ -663,11 +659,11 @@
       },
       {
         "hits": "23",
-        "url": "/?author=6"
+        "url": "/?author=5"
       },
       {
         "hits": "23",
-        "url": "/?author=5"
+        "url": "/?author=4"
       },
       {
         "hits": "22",
@@ -771,7 +767,7 @@
       },
       {
         "hits": "7",
-        "url": "/tags/metoo/"
+        "url": "/tags/language/"
       },
       {
         "hits": "7",
@@ -779,16 +775,16 @@
       },
       {
         "hits": "7",
-        "url": "/share/share-utils.js"
+        "url": "/tags/metoo/"
       },
       {
         "hits": "7",
-        "url": "/highlight/mother-board-earth/"
+        "url": "/share/share-utils.js"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "412",
+        "hits": "413",
         "url": "/robots.txt"
       },
       {
@@ -801,11 +797,7 @@
       },
       {
         "hits": "23",
-        "url": "/wp-json/wp/v2/users/4"
-      },
-      {
-        "hits": "23",
-        "url": "/wp-json/wp/v2/users/10"
+        "url": "/wp-json/wp/v2/users/2"
       },
       {
         "hits": "23",
@@ -813,15 +805,15 @@
       },
       {
         "hits": "23",
-        "url": "/wp-json/wp/v2/users/2"
-      },
-      {
-        "hits": "23",
-        "url": "/wp-json/wp/v2/users/1"
+        "url": "/wp-json/wp/v2/users/4"
       },
       {
         "hits": "23",
         "url": "/wp-json/wp/v2/users/3"
+      },
+      {
+        "hits": "23",
+        "url": "/wp-json/wp/v2/users/1"
       },
       {
         "hits": "23",
@@ -830,6 +822,10 @@
       {
         "hits": "23",
         "url": "/wp-json/wp/v2/users/9"
+      },
+      {
+        "hits": "23",
+        "url": "/wp-json/wp/v2/users/10"
       },
       {
         "hits": "6",
@@ -849,11 +845,11 @@
       },
       {
         "hits": "3",
-        "url": "/noexist"
+        "url": "/tags/corona"
       },
       {
         "hits": "3",
-        "url": "/tags/corona"
+        "url": "/noexist"
       },
       {
         "hits": "3",
@@ -897,23 +893,23 @@
       },
       {
         "hits": "2",
-        "url": "/note/flights"
+        "url": "/note/google-maps-hacks/"
       },
       {
         "hits": "2",
-        "url": "/photo/norfolk-shore"
+        "url": "/photo/isle-of-skye/images/IMG_0047_huad381fb499f2badc1d9f5391a18539b4_977888_600x300_fit_q75_box.jpg"
+      },
+      {
+        "hits": "2",
+        "url": "/note/willard-maps-of-time"
+      },
+      {
+        "hits": "2",
+        "url": "/note/files-going-extinct/"
       },
       {
         "hits": "2",
         "url": "/note/willard-maps-of-time/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/the-runners-victoria"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/isle-of-skye/"
       },
       {
         "hits": "2",
@@ -933,11 +929,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/files-going-extinct/"
+        "url": "/note/the-runners-victoria"
       },
       {
         "hits": "2",
-        "url": "/note/willard-maps-of-time"
+        "url": "/note/flights"
       },
       {
         "hits": "2",
@@ -945,15 +941,19 @@
       },
       {
         "hits": "2",
-        "url": "/photo/isle-of-skye/images/IMG_0047_huad381fb499f2badc1d9f5391a18539b4_977888_600x300_fit_q75_box.jpg"
-      },
-      {
-        "hits": "2",
-        "url": "/note/google-maps-hacks/"
+        "url": "/photo/isle-of-skye/"
       },
       {
         "hits": "2",
         "url": "/note/2020-04-16-google-hire-freeze"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/norfolk-shore"
+      },
+      {
+        "hits": "1",
+        "url": "/note/dawn-or-dusk-painting/"
       },
       {
         "hits": "1",
@@ -961,11 +961,11 @@
       },
       {
         "hits": "1",
-        "url": "/note/coronavirus-central-lockdown/"
+        "url": "/note/2019-12-18-finland-media-literacy"
       },
       {
         "hits": "1",
-        "url": "/note/2019-12-18-finland-media-literacy"
+        "url": "/note/coronavirus-central-lockdown/"
       },
       {
         "hits": "1",
@@ -981,18 +981,10 @@
       },
       {
         "hits": "1",
-        "url": "/note/avalanche-school/"
-      },
-      {
-        "hits": "1",
         "url": "/note/1918-flu-letter"
       }
     ],
     "topApiHits": [
-      {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
       {
         "hits": "2015",
         "url": "/pocket?limit=5000"
@@ -1004,6 +996,10 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -1028,12 +1024,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2838"
+        "hits": "2839"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16125"
+        "hits": "16124"
       }
     ]
   },
@@ -1242,7 +1238,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1685",
+        "hits": "1686",
         "url": "/robots.txt"
       },
       {
@@ -1444,31 +1440,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "8927",
+        "hits": "8928",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8927",
+        "hits": "8928",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8927",
+        "hits": "8928",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8927",
+        "hits": "8928",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8927",
+        "hits": "8928",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8927",
+        "hits": "8928",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8927",
+        "hits": "8928",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -1482,12 +1478,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "11285"
+        "hits": "11286"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71441"
+        "hits": "71448"
       }
     ]
   },
@@ -1696,7 +1692,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "3969",
+        "hits": "3970",
         "url": "/robots.txt"
       },
       {
@@ -1898,35 +1894,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "23903",
+        "hits": "23904",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "23903",
+        "hits": "23904",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "23903",
+        "hits": "23904",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "23903",
+        "hits": "23904",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "23903",
+        "hits": "23904",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "23903",
+        "hits": "23904",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "23903",
+        "hits": "23904",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "23557",
+        "hits": "23558",
         "url": "/analytics"
       },
       {
@@ -1944,12 +1940,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "31255"
+        "hits": "31256"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "190991"
+        "hits": "190999"
       }
     ]
   }
