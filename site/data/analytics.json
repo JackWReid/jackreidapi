@@ -38,7 +38,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
@@ -73,7 +73,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "89"
       }
     ]
   },
@@ -464,24 +464,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "287",
@@ -489,11 +473,27 @@
       },
       {
         "hits": "287",
-        "url": "/books/toread?limit=5000"
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2",
@@ -502,12 +502,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "296"
+        "hits": "295"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2303"
+        "hits": "2298"
       }
     ]
   },
@@ -567,15 +567,15 @@
       },
       {
         "hits": "22",
-        "url": "/?author=4"
-      },
-      {
-        "hits": "22",
-        "url": "/?author=10"
+        "url": "/?author=7"
       },
       {
         "hits": "22",
         "url": "/highlight/bread-farmers/"
+      },
+      {
+        "hits": "22",
+        "url": "/?author=4"
       },
       {
         "hits": "22",
@@ -591,7 +591,7 @@
       },
       {
         "hits": "22",
-        "url": "/?author=7"
+        "url": "/?author=10"
       },
       {
         "hits": "22",
@@ -679,15 +679,11 @@
       },
       {
         "hits": "8",
-        "url": "/tags/nyc/"
+        "url": "/note/2019-07-31-jacob-rees-mogg/"
       },
       {
         "hits": "8",
         "url": "/books/toread/"
-      },
-      {
-        "hits": "8",
-        "url": "/note/2019-07-31-jacob-rees-mogg/"
       },
       {
         "hits": "8",
@@ -696,6 +692,10 @@
       {
         "hits": "8",
         "url": "/articles/liked/"
+      },
+      {
+        "hits": "7",
+        "url": "/tags/nyc/"
       },
       {
         "hits": "7",
@@ -711,12 +711,12 @@
       },
       {
         "hits": "7",
-        "url": "/highlight/robert-pattinson/"
+        "url": "/share/share-utils.js"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "402",
+        "hits": "401",
         "url": "/robots.txt"
       },
       {
@@ -956,7 +956,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2823"
+        "hits": "2821"
       }
     ],
     "totalApiHits": [
@@ -1053,19 +1053,19 @@
       },
       {
         "hits": "49",
-        "url": "/uses/"
-      },
-      {
-        "hits": "49",
         "url": "/highlight/uk-corona-domestic-abuse/"
       },
       {
-        "hits": "47",
-        "url": "/highlight/michael-the-destroyer/"
+        "hits": "49",
+        "url": "/uses/"
       },
       {
         "hits": "47",
         "url": "/articles/liked/"
+      },
+      {
+        "hits": "47",
+        "url": "/highlight/michael-the-destroyer/"
       },
       {
         "hits": "47",
@@ -1077,11 +1077,11 @@
       },
       {
         "hits": "41",
-        "url": "/highlight/my-body-is-a-confederate-monument/"
+        "url": "/highlight/pinterest-race-pay/"
       },
       {
         "hits": "41",
-        "url": "/highlight/pinterest-race-pay/"
+        "url": "/highlight/my-body-is-a-confederate-monument/"
       },
       {
         "hits": "40",
@@ -1105,11 +1105,11 @@
       },
       {
         "hits": "37",
-        "url": "/highlight/british-slave-businesses/"
+        "url": "/highlight/london-floor-plan/"
       },
       {
         "hits": "37",
-        "url": "/highlight/london-floor-plan/"
+        "url": "/highlight/british-slave-businesses/"
       },
       {
         "hits": "35",
@@ -1145,15 +1145,15 @@
       },
       {
         "hits": "30",
-        "url": "/highlight/remote-sucks/"
-      },
-      {
-        "hits": "30",
         "url": "/?author=10"
       },
       {
         "hits": "30",
         "url": "/?author=1"
+      },
+      {
+        "hits": "30",
+        "url": "/highlight/remote-sucks/"
       },
       {
         "hits": "30",
@@ -1170,7 +1170,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1681",
+        "hits": "1680",
         "url": "/robots.txt"
       },
       {
@@ -1372,8 +1372,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "8927",
+        "hits": "8928",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8928",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8927",
@@ -1382,18 +1394,6 @@
       {
         "hits": "8927",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8927",
@@ -1410,12 +1410,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10919"
+        "hits": "10917"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71443"
+        "hits": "71445"
       }
     ]
   },
@@ -1826,35 +1826,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "24044",
+        "hits": "24045",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "24044",
+        "hits": "24045",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "24044",
+        "hits": "24045",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "24044",
+        "hits": "24045",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "24044",
+        "hits": "24045",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "24044",
+        "hits": "24045",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "24044",
+        "hits": "24045",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "23698",
+        "hits": "23699",
         "url": "/analytics"
       },
       {
@@ -1877,7 +1877,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "192121"
+        "hits": "192129"
       }
     ]
   }
