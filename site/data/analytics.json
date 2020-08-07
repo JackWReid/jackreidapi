@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "4",
+        "hits": "2",
         "url": "/articles/saved/"
       },
       {
@@ -40,7 +40,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "5",
+        "hits": "4",
         "url": "/robots.txt"
       },
       {
@@ -58,12 +58,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -83,17 +83,17 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "13"
+        "hits": "11"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -862,16 +862,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -880,6 +872,14 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -901,14 +901,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16127"
+        "hits": "16126"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1622",
+        "hits": "1621",
         "url": "/index.xml"
       },
       {
@@ -1110,7 +1110,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1687",
+        "hits": "1686",
         "url": "/robots.txt"
       },
       {
@@ -1313,7 +1313,15 @@
     "topApiHits": [
       {
         "hits": "8928",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8928",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8928",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "8928",
@@ -1326,14 +1334,6 @@
       {
         "hits": "8927",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "8927",
@@ -1350,12 +1350,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "11298"
+        "hits": "11297"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71445"
+        "hits": "71447"
       }
     ]
   },
@@ -1766,35 +1766,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "23847",
+        "hits": "23848",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "23847",
+        "hits": "23848",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "23847",
+        "hits": "23848",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "23847",
+        "hits": "23848",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "23847",
+        "hits": "23848",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "23847",
+        "hits": "23848",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "23847",
+        "hits": "23848",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "23502",
+        "hits": "23503",
         "url": "/analytics"
       },
       {
@@ -1817,7 +1817,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "190544"
+        "hits": "190552"
       }
     ]
   }
