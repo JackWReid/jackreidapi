@@ -3,11 +3,11 @@
     "topSiteHits": [
       {
         "hits": "2",
-        "url": "/films/watched/"
+        "url": "/index.xml"
       },
       {
-        "hits": "1",
-        "url": "/highlight/covid-urbanist-fantasies/"
+        "hits": "2",
+        "url": "/films/watched/"
       },
       {
         "hits": "1",
@@ -16,14 +16,6 @@
       {
         "hits": "1",
         "url": "/highlight/london-floor-plan/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/pandemic-cars/"
-      },
-      {
-        "hits": "1",
-        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -39,7 +31,15 @@
       },
       {
         "hits": "1",
+        "url": "/post/how-this-site-works/"
+      },
+      {
+        "hits": "1",
         "url": "/tags/food/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/covid-urbanist-fantasies/"
       }
     ],
     "topSiteMisses": [
@@ -66,8 +66,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
       },
       {
         "hits": "11",
@@ -75,40 +91,24 @@
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "11"
+        "hits": "12"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "94"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "49",
+        "hits": "50",
         "url": "/index.xml"
       },
       {
@@ -145,67 +145,7 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/pinterest-race-pay/"
-      },
-      {
-        "hits": "2",
-        "url": "/?author=6"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/technology/"
-      },
-      {
-        "hits": "2",
-        "url": "/?author=5"
-      },
-      {
-        "hits": "2",
-        "url": "/?author=2"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/link/"
-      },
-      {
-        "hits": "2",
-        "url": "/favicon.png"
-      },
-      {
-        "hits": "2",
-        "url": "/uses/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/race/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/justice/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/short-story/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/tech/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/web/"
-      },
-      {
-        "hits": "2",
-        "url": "/?author=10"
-      },
-      {
-        "hits": "2",
-        "url": "/rss/"
-      },
-      {
-        "hits": "2",
-        "url": "/?author=8"
+        "url": "/?author=9"
       },
       {
         "hits": "2",
@@ -213,7 +153,63 @@
       },
       {
         "hits": "2",
-        "url": "/?author=9"
+        "url": "/?author=7"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/justice/"
+      },
+      {
+        "hits": "2",
+        "url": "/?author=5"
+      },
+      {
+        "hits": "2",
+        "url": "/?author=6"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/pinterest-race-pay/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/web/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/link/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/indieweb/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/race/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/short-story/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/technology/"
+      },
+      {
+        "hits": "2",
+        "url": "/uses/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/how-this-site-works/"
+      },
+      {
+        "hits": "2",
+        "url": "/?author=8"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/tech/"
       },
       {
         "hits": "2",
@@ -221,11 +217,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/food/"
+        "url": "/rss/"
       },
       {
         "hits": "2",
         "url": "/?author=3"
+      },
+      {
+        "hits": "2",
+        "url": "/?author=2"
       },
       {
         "hits": "2",
@@ -241,15 +241,19 @@
       },
       {
         "hits": "2",
-        "url": "/tags/indieweb/"
+        "url": "/tags/food/"
       },
       {
         "hits": "2",
-        "url": "/?author=7"
+        "url": "/?author=10"
       },
       {
         "hits": "2",
         "url": "/post/2016-08-22-that-accessibility-thing/"
+      },
+      {
+        "hits": "2",
+        "url": "/favicon.png"
       },
       {
         "hits": "1",
@@ -302,10 +306,6 @@
       {
         "hits": "1",
         "url": "/highlight/alison-roman-culture/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/runaway-media/"
       }
     ],
     "topSiteMisses": [
@@ -472,12 +472,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
-        "url": "/articles?limit=5000"
+        "hits": "287",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
         "url": "/analytics"
+      },
+      {
+        "hits": "287",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
@@ -500,29 +504,25 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
-      },
-      {
         "hits": "2",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "307"
+        "hits": "309"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2298"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "500",
+        "hits": "501",
         "url": "/index.xml"
       },
       {
@@ -964,7 +964,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2825"
+        "hits": "2827"
       }
     ],
     "totalApiHits": [
@@ -976,7 +976,7 @@
   "month": {
     "topSiteHits": [
       {
-        "hits": "1623",
+        "hits": "1624",
         "url": "/index.xml"
       },
       {
@@ -1128,7 +1128,7 @@
         "url": "/highlight/praise-walking-cofee/"
       },
       {
-        "hits": "33",
+        "hits": "34",
         "url": "/post/how-this-site-works/"
       },
       {
@@ -1418,7 +1418,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10928"
+        "hits": "10930"
       }
     ],
     "totalApiHits": [
@@ -1430,7 +1430,7 @@
   "year": {
     "topSiteHits": [
       {
-        "hits": "4169",
+        "hits": "4170",
         "url": "/index.xml"
       },
       {
@@ -1438,7 +1438,7 @@
         "url": "/note/index.xml"
       },
       {
-        "hits": "2187",
+        "hits": "2188",
         "url": "/highlight/index.xml"
       },
       {
@@ -1538,7 +1538,7 @@
         "url": "/highlight/mouse-feeder-welfare/"
       },
       {
-        "hits": "101",
+        "hits": "102",
         "url": "/post/how-this-site-works/"
       },
       {
@@ -1834,35 +1834,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "24019",
+        "hits": "24020",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "24019",
+        "hits": "24020",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "24019",
+        "hits": "24020",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "24019",
+        "hits": "24020",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "24019",
+        "hits": "24020",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "24019",
+        "hits": "24020",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "24019",
+        "hits": "24020",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "23673",
+        "hits": "23674",
         "url": "/analytics"
       },
       {
@@ -1880,12 +1880,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "31381"
+        "hits": "31384"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "191921"
+        "hits": "191929"
       }
     ]
   }
