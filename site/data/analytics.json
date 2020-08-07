@@ -2,8 +2,8 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "1",
-        "url": "/"
+        "hits": "2",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -55,10 +55,6 @@
       },
       {
         "hits": "1",
-        "url": "/index.xml"
-      },
-      {
-        "hits": "1",
         "url": "/journal/"
       },
       {
@@ -88,6 +84,10 @@
       {
         "hits": "1",
         "url": "/tags/media/"
+      },
+      {
+        "hits": "1",
+        "url": "/"
       },
       {
         "hits": "1",
@@ -176,7 +176,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "23"
+        "hits": "24"
       }
     ],
     "totalApiHits": [
@@ -233,7 +233,7 @@
       },
       {
         "hits": "4",
-        "url": "/rss/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "4",
@@ -241,15 +241,19 @@
       },
       {
         "hits": "4",
+        "url": "/rss/"
+      },
+      {
+        "hits": "4",
         "url": "/post/"
       },
       {
         "hits": "4",
-        "url": "/books/reading/"
+        "url": "/books/toread/"
       },
       {
         "hits": "4",
-        "url": "/books/toread/"
+        "url": "/books/reading/"
       },
       {
         "hits": "4",
@@ -269,15 +273,11 @@
       },
       {
         "hits": "3",
-        "url": "/analytics/day/"
-      },
-      {
-        "hits": "3",
         "url": "/note/"
       },
       {
         "hits": "3",
-        "url": "/post/activist-relief-resources/"
+        "url": "/analytics/day/"
       },
       {
         "hits": "3",
@@ -635,11 +635,15 @@
       },
       {
         "hits": "23",
-        "url": "/?author=10"
+        "url": "/?author=4"
       },
       {
         "hits": "23",
         "url": "/?author=3"
+      },
+      {
+        "hits": "23",
+        "url": "/?author=10"
       },
       {
         "hits": "23",
@@ -666,10 +670,6 @@
         "url": "/?author=5"
       },
       {
-        "hits": "23",
-        "url": "/?author=4"
-      },
-      {
         "hits": "22",
         "url": "/highlight/bread-farmers/"
       },
@@ -682,16 +682,16 @@
         "url": "/books/reading/"
       },
       {
+        "hits": "17",
+        "url": "/post/activist-relief-resources/"
+      },
+      {
         "hits": "16",
         "url": "/css/style.css"
       },
       {
         "hits": "16",
         "url": "/work/"
-      },
-      {
-        "hits": "16",
-        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "14",
@@ -990,6 +990,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -1000,10 +1004,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -1028,19 +1028,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2838"
+        "hits": "2839"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16124"
+        "hits": "16125"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1622",
+        "hits": "1623",
         "url": "/index.xml"
       },
       {
@@ -1081,11 +1081,11 @@
       },
       {
         "hits": "75",
-        "url": "/work/"
+        "url": "/post/activist-relief-resources/"
       },
       {
-        "hits": "74",
-        "url": "/post/activist-relief-resources/"
+        "hits": "75",
+        "url": "/work/"
       },
       {
         "hits": "71",
@@ -1482,7 +1482,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "11284"
+        "hits": "11286"
       }
     ],
     "totalApiHits": [
@@ -1494,7 +1494,7 @@
   "year": {
     "topSiteHits": [
       {
-        "hits": "4149",
+        "hits": "4150",
         "url": "/index.xml"
       },
       {
@@ -1538,7 +1538,7 @@
         "url": "/articles/saved/"
       },
       {
-        "hits": "246",
+        "hits": "247",
         "url": "/post/activist-relief-resources/"
       },
       {
@@ -1898,35 +1898,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "23901",
+        "hits": "23902",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "23901",
+        "hits": "23902",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "23901",
+        "hits": "23902",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "23901",
+        "hits": "23902",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "23901",
+        "hits": "23902",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "23901",
+        "hits": "23902",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "23901",
+        "hits": "23902",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "23555",
+        "hits": "23556",
         "url": "/analytics"
       },
       {
@@ -1944,12 +1944,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "31251"
+        "hits": "31253"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "190975"
+        "hits": "190983"
       }
     ]
   }
