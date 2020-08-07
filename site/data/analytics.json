@@ -55,15 +55,11 @@
       },
       {
         "hits": "1",
-        "url": "/photo/index.xml"
-      },
-      {
-        "hits": "1",
         "url": "/"
       },
       {
         "hits": "1",
-        "url": "/tags/environment/"
+        "url": "/photo/index.xml"
       }
     ],
     "topSiteMisses": [
@@ -144,7 +140,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "17"
+        "hits": "16"
       }
     ],
     "totalApiHits": [
@@ -165,11 +161,11 @@
       },
       {
         "hits": "24",
-        "url": "/photo/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/photo/index.xml"
       },
       {
         "hits": "15",
@@ -178,14 +174,6 @@
       {
         "hits": "7",
         "url": "/"
-      },
-      {
-        "hits": "3",
-        "url": "/analytics/day/"
-      },
-      {
-        "hits": "3",
-        "url": "/link/"
       },
       {
         "hits": "3",
@@ -200,6 +188,18 @@
         "url": "/journal/"
       },
       {
+        "hits": "3",
+        "url": "/analytics/day/"
+      },
+      {
+        "hits": "3",
+        "url": "/link/"
+      },
+      {
+        "hits": "2",
+        "url": "/?author=10"
+      },
+      {
         "hits": "2",
         "url": "/?author=9"
       },
@@ -209,43 +209,7 @@
       },
       {
         "hits": "2",
-        "url": "/?author=2"
-      },
-      {
-        "hits": "2",
-        "url": "/?author=8"
-      },
-      {
-        "hits": "2",
-        "url": "/?author=7"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/snowden-gellman/"
-      },
-      {
-        "hits": "2",
         "url": "/favicon.png"
-      },
-      {
-        "hits": "2",
-        "url": "/?author=6"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/technology/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/race/"
-      },
-      {
-        "hits": "2",
-        "url": "/work/"
-      },
-      {
-        "hits": "2",
-        "url": "/?author=5"
       },
       {
         "hits": "2",
@@ -253,7 +217,19 @@
       },
       {
         "hits": "2",
-        "url": "/tags/indieweb/"
+        "url": "/?author=7"
+      },
+      {
+        "hits": "2",
+        "url": "/note/sweat-key-cut/"
+      },
+      {
+        "hits": "2",
+        "url": "/?author=6"
+      },
+      {
+        "hits": "2",
+        "url": "/work/"
       },
       {
         "hits": "2",
@@ -261,11 +237,23 @@
       },
       {
         "hits": "2",
+        "url": "/?author=5"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/technology/"
+      },
+      {
+        "hits": "2",
         "url": "/elsewhere/"
       },
       {
         "hits": "2",
-        "url": "/?author=10"
+        "url": "/?author=8"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/race/"
       },
       {
         "hits": "2",
@@ -273,7 +261,11 @@
       },
       {
         "hits": "2",
-        "url": "/post/how-this-site-works/"
+        "url": "/rss/"
+      },
+      {
+        "hits": "2",
+        "url": "/?author=2"
       },
       {
         "hits": "2",
@@ -293,11 +285,11 @@
       },
       {
         "hits": "2",
-        "url": "/rss/"
+        "url": "/tags/indieweb/"
       },
       {
         "hits": "2",
-        "url": "/note/sweat-key-cut/"
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "1",
@@ -354,6 +346,10 @@
       {
         "hits": "1",
         "url": "/highlight/real-lord-of-the-flies/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/reading-in-the-dark/"
       }
     ],
     "topSiteMisses": [
@@ -363,7 +359,7 @@
       },
       {
         "hits": "2",
-        "url": "/favicon.ico"
+        "url": "/note/murakami-women-interview"
       },
       {
         "hits": "2",
@@ -403,11 +399,15 @@
       },
       {
         "hits": "2",
-        "url": "/note/murakami-women-interview"
+        "url": "/wp-json/wp/v2/users/9"
       },
       {
-        "hits": "2",
-        "url": "/wp-json/wp/v2/users/9"
+        "hits": "1",
+        "url": "/note/precariously-balanced-rocks/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/senate-impeachment-hamilton"
       },
       {
         "hits": "1",
@@ -444,6 +444,10 @@
       {
         "hits": "1",
         "url": "/note/the-runners-victoria"
+      },
+      {
+        "hits": "1",
+        "url": "/favicon.ico"
       },
       {
         "hits": "1",
@@ -484,28 +488,28 @@
       {
         "hits": "1",
         "url": "/note/low-tech-election-iowa/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/precariously-balanced-rocks/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/senate-impeachment-hamilton"
       }
     ],
     "topApiHits": [
       {
-        "hits": "288",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
+        "hits": "287",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "287",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
@@ -516,26 +520,18 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
         "hits": "286",
         "url": "/analytics"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "300"
+        "hits": "299"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2295"
       }
     ]
   },
@@ -946,10 +942,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "2015",
         "url": "/pocket?limit=5000"
       },
@@ -960,6 +952,10 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
@@ -989,7 +985,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16125"
+        "hits": "16124"
       }
     ]
   },
@@ -1198,7 +1194,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1683",
+        "hits": "1682",
         "url": "/robots.txt"
       },
       {
@@ -1438,7 +1434,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10916"
+        "hits": "10915"
       }
     ],
     "totalApiHits": [
@@ -1854,35 +1850,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "23931",
+        "hits": "23932",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "23931",
+        "hits": "23932",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "23931",
+        "hits": "23932",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "23931",
+        "hits": "23932",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "23931",
+        "hits": "23932",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "23931",
+        "hits": "23932",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "23931",
+        "hits": "23932",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "23585",
+        "hits": "23586",
         "url": "/analytics"
       },
       {
@@ -1905,7 +1901,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "191215"
+        "hits": "191223"
       }
     ]
   }
