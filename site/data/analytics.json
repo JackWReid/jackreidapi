@@ -3,11 +3,11 @@
     "topSiteHits": [
       {
         "hits": "2",
-        "url": "/index.xml"
+        "url": "/"
       },
       {
-        "hits": "2",
-        "url": "/"
+        "hits": "1",
+        "url": "/articles/saved/"
       },
       {
         "hits": "1",
@@ -16,6 +16,10 @@
       {
         "hits": "1",
         "url": "/highlight/roxane-gay-cleaner/"
+      },
+      {
+        "hits": "1",
+        "url": "/index.xml"
       },
       {
         "hits": "1",
@@ -40,10 +44,6 @@
       {
         "hits": "1",
         "url": "/share/"
-      },
-      {
-        "hits": "1",
-        "url": "/articles/saved/"
       }
     ],
     "topSiteMisses": [
@@ -112,7 +112,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "13"
+        "hits": "12"
       }
     ],
     "totalApiHits": [
@@ -533,7 +533,15 @@
       },
       {
         "hits": "288",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "288",
@@ -542,14 +550,6 @@
       {
         "hits": "288",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "9",
@@ -563,7 +563,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2311"
+        "hits": "2313"
       }
     ]
   },
@@ -974,28 +974,28 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "2015",
-        "url": "/books/read?limit=5000"
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "2015",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -1017,14 +1017,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16137"
+        "hits": "16133"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1626",
+        "hits": "1625",
         "url": "/index.xml"
       },
       {
@@ -1466,7 +1466,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10871"
+        "hits": "10870"
       }
     ],
     "totalApiHits": [
@@ -1882,35 +1882,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "24174",
+        "hits": "24175",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "24174",
+        "hits": "24175",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "24174",
+        "hits": "24175",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "24174",
+        "hits": "24175",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "24174",
+        "hits": "24175",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "24174",
+        "hits": "24175",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "24174",
+        "hits": "24175",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "23828",
+        "hits": "23829",
         "url": "/analytics"
       },
       {
@@ -1933,7 +1933,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "193168"
+        "hits": "193176"
       }
     ]
   }
