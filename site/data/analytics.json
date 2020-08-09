@@ -46,16 +46,12 @@
     ],
     "topApiHits": [
       {
-        "hits": "11",
-        "url": "/analytics"
-      },
-      {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -63,7 +59,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/toread?limit=5000"
+        "url": "/analytics"
       },
       {
         "hits": "11",
@@ -75,7 +71,11 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -85,14 +85,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "88"
+        "hits": "90"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "73",
+        "hits": "72",
         "url": "/index.xml"
       },
       {
@@ -112,7 +112,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "14",
+        "hits": "13",
         "url": "/"
       },
       {
@@ -392,19 +392,11 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/films/watched?limit=5000"
       },
       {
@@ -416,25 +408,33 @@
         "url": "/analytics"
       },
       {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
+      },
+      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "380"
+        "hits": "378"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2301"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "454",
+        "hits": "452",
         "url": "/index.xml"
       },
       {
@@ -636,20 +636,8 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "394",
+        "hits": "393",
         "url": "/robots.txt"
-      },
-      {
-        "hits": "12",
-        "url": "/wp-json/wp/v2/users/7"
-      },
-      {
-        "hits": "12",
-        "url": "/wp-json/wp/v2/users/2"
-      },
-      {
-        "hits": "12",
-        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "12",
@@ -658,6 +646,18 @@
       {
         "hits": "12",
         "url": "/wp-json/wp/v2/users/1"
+      },
+      {
+        "hits": "12",
+        "url": "/wp-json/wp/v2/users/6"
+      },
+      {
+        "hits": "12",
+        "url": "/wp-json/wp/v2/users/8"
+      },
+      {
+        "hits": "12",
+        "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "12",
@@ -673,11 +673,11 @@
       },
       {
         "hits": "12",
-        "url": "/wp-json/wp/v2/users/6"
+        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "12",
-        "url": "/wp-json/wp/v2/users/8"
+        "url": "/wp-json/wp/v2/users/2"
       },
       {
         "hits": "10",
@@ -709,6 +709,10 @@
       },
       {
         "hits": "2",
+        "url": "/note/finland-media-literate"
+      },
+      {
+        "hits": "2",
         "url": "/note/iranian-shootdown-coverup"
       },
       {
@@ -717,7 +721,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/finland-media-literate"
+        "url": "/tags/article/"
       },
       {
         "hits": "2",
@@ -725,7 +729,7 @@
       },
       {
         "hits": "2",
-        "url": "/sw.js"
+        "url": "/photo/transcontinental-flight"
       },
       {
         "hits": "2",
@@ -733,7 +737,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/article"
+        "url": "/sw.js"
       },
       {
         "hits": "2",
@@ -741,7 +745,15 @@
       },
       {
         "hits": "2",
+        "url": "/note/joe-biden-stutter"
+      },
+      {
+        "hits": "2",
         "url": "/1111/feed/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/medicine"
       },
       {
         "hits": "2",
@@ -753,18 +765,6 @@
       },
       {
         "hits": "2",
-        "url": "/tags/medicine"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/article/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/joe-biden-stutter"
-      },
-      {
-        "hits": "2",
         "url": "/note/madame-tussaud"
       },
       {
@@ -773,15 +773,19 @@
       },
       {
         "hits": "2",
-        "url": "/photo/norfolk-shore"
-      },
-      {
-        "hits": "2",
         "url": "/note/eugenics-statistics"
       },
       {
         "hits": "2",
-        "url": "/photo/transcontinental-flight"
+        "url": "/photo/norfolk-shore"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/article"
+      },
+      {
+        "hits": "1",
+        "url": "/note/dawn-or-dusk-painting/"
       },
       {
         "hits": "1",
@@ -789,11 +793,11 @@
       },
       {
         "hits": "1",
-        "url": "/note/coronavirus-central-lockdown/"
+        "url": "/note/2019-12-18-finland-media-literacy"
       },
       {
         "hits": "1",
-        "url": "/note/2019-12-18-finland-media-literacy"
+        "url": "/note/coronavirus-central-lockdown/"
       },
       {
         "hits": "1",
@@ -801,11 +805,11 @@
       },
       {
         "hits": "1",
-        "url": "/note/corona-crisis-18-months"
+        "url": "/atom.xml"
       },
       {
         "hits": "1",
-        "url": "/atom.xml"
+        "url": "/note/corona-crisis-18-months"
       },
       {
         "hits": "1",
@@ -813,7 +817,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/carlos-williams-love"
+        "url": "/note/james-joyce-estate/"
       },
       {
         "hits": "1",
@@ -825,11 +829,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/jacob-rees-mogg"
-      },
-      {
-        "hits": "1",
-        "url": "/note/avalanche-school/"
+        "url": "/note/carlos-williams-love"
       },
       {
         "hits": "1",
@@ -842,16 +842,8 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -860,6 +852,14 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -876,12 +876,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2720"
+        "hits": "2718"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16134"
+        "hits": "16133"
       }
     ]
   },
@@ -1049,7 +1049,7 @@
       },
       {
         "hits": "31",
-        "url": "/highlight/remote-sucks/"
+        "url": "/highlight/lies-are-free/"
       },
       {
         "hits": "31",
@@ -1057,7 +1057,7 @@
       },
       {
         "hits": "31",
-        "url": "/highlight/lies-are-free/"
+        "url": "/highlight/remote-sucks/"
       },
       {
         "hits": "30",
@@ -1090,7 +1090,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1662",
+        "hits": "1661",
         "url": "/robots.txt"
       },
       {
@@ -1292,24 +1292,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "8927",
+        "hits": "8928",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8927",
+        "hits": "8928",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8927",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8927",
+        "hits": "8928",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8927",
@@ -1317,7 +1309,15 @@
       },
       {
         "hits": "8927",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "8927",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "8908",
@@ -1330,12 +1330,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10838"
+        "hits": "10837"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71447"
+        "hits": "71450"
       }
     ]
   },
@@ -1746,35 +1746,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "24623",
+        "hits": "24624",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "24623",
+        "hits": "24624",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "24623",
+        "hits": "24624",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "24623",
+        "hits": "24624",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "24623",
+        "hits": "24624",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "24623",
+        "hits": "24624",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "24623",
+        "hits": "24624",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "24275",
+        "hits": "24276",
         "url": "/analytics"
       },
       {
@@ -1797,7 +1797,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "196760"
+        "hits": "196768"
       }
     ]
   }
