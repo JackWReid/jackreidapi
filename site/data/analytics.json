@@ -15,10 +15,6 @@
       },
       {
         "hits": "1",
-        "url": "/note/2019-07-22-bob-fosse/"
-      },
-      {
-        "hits": "1",
         "url": "/note/2020-01-02-04-coronavirus-central-lockdown/"
       },
       {
@@ -44,7 +40,11 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "2",
+        "hits": "1",
+        "url": "/note/bob-fosse"
+      },
+      {
+        "hits": "1",
         "url": "/robots.txt"
       }
     ],
@@ -54,20 +54,8 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -80,23 +68,35 @@
       {
         "hits": "11",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "12"
+        "hits": "11"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "93"
+        "hits": "89"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "73",
+        "hits": "72",
         "url": "/index.xml"
       },
       {
@@ -307,7 +307,7 @@
       },
       {
         "hits": "1",
-        "url": "/noexist"
+        "url": "/note/bob-fosse"
       },
       {
         "hits": "1",
@@ -426,7 +426,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "382"
+        "hits": "381"
       }
     ],
     "totalApiHits": [
@@ -438,7 +438,7 @@
   "week": {
     "topSiteHits": [
       {
-        "hits": "455",
+        "hits": "454",
         "url": "/index.xml"
       },
       {
@@ -645,31 +645,7 @@
       },
       {
         "hits": "12",
-        "url": "/wp-json/wp/v2/users/10"
-      },
-      {
-        "hits": "12",
         "url": "/wp-json/wp/v2/users/7"
-      },
-      {
-        "hits": "12",
-        "url": "/wp-json/wp/v2/users/9"
-      },
-      {
-        "hits": "12",
-        "url": "/wp-json/wp/v2/users/8"
-      },
-      {
-        "hits": "12",
-        "url": "/wp-json/wp/v2/users/1"
-      },
-      {
-        "hits": "12",
-        "url": "/wp-json/wp/v2/users/3"
-      },
-      {
-        "hits": "12",
-        "url": "/wp-json/wp/v2/users/4"
       },
       {
         "hits": "12",
@@ -681,7 +657,31 @@
       },
       {
         "hits": "12",
+        "url": "/wp-json/wp/v2/users/10"
+      },
+      {
+        "hits": "12",
+        "url": "/wp-json/wp/v2/users/1"
+      },
+      {
+        "hits": "12",
+        "url": "/wp-json/wp/v2/users/9"
+      },
+      {
+        "hits": "12",
+        "url": "/wp-json/wp/v2/users/4"
+      },
+      {
+        "hits": "12",
+        "url": "/wp-json/wp/v2/users/3"
+      },
+      {
+        "hits": "12",
         "url": "/wp-json/wp/v2/users/6"
+      },
+      {
+        "hits": "12",
+        "url": "/wp-json/wp/v2/users/8"
       },
       {
         "hits": "10",
@@ -697,7 +697,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/medicine"
+        "url": "/.well-known/assetlinks.json"
       },
       {
         "hits": "2",
@@ -705,15 +705,11 @@
       },
       {
         "hits": "2",
-        "url": "/.well-known/assetlinks.json"
-      },
-      {
-        "hits": "2",
         "url": "/note/1918-flu-letter"
       },
       {
         "hits": "2",
-        "url": "/photo/transcontinental-flight"
+        "url": "/note/bob-fosse"
       },
       {
         "hits": "2",
@@ -761,6 +757,10 @@
       },
       {
         "hits": "2",
+        "url": "/tags/medicine"
+      },
+      {
+        "hits": "2",
         "url": "/tags/article/"
       },
       {
@@ -782,6 +782,10 @@
       {
         "hits": "2",
         "url": "/note/eugenics-statistics"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/transcontinental-flight"
       },
       {
         "hits": "1",
@@ -817,7 +821,7 @@
       },
       {
         "hits": "1",
-        "url": "/note/bob-fosse"
+        "url": "/note/james-joyce-estate"
       },
       {
         "hits": "1",
@@ -833,17 +837,25 @@
       },
       {
         "hits": "1",
-        "url": "/note/james-joyce-estate"
-      },
-      {
-        "hits": "1",
         "url": "/apple-touch-icon-precomposed.png"
       }
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2015",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2015",
@@ -852,18 +864,6 @@
       {
         "hits": "2015",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2015",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2015",
@@ -880,12 +880,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2723"
+        "hits": "2722"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16133"
+        "hits": "16135"
       }
     ]
   },
@@ -1111,7 +1111,7 @@
       },
       {
         "hits": "30",
-        "url": "/wp-json/wp/v2/users/6"
+        "url": "/wp-json/wp/v2/users/3"
       },
       {
         "hits": "30",
@@ -1119,7 +1119,7 @@
       },
       {
         "hits": "30",
-        "url": "/wp-json/wp/v2/users/3"
+        "url": "/wp-json/wp/v2/users/4"
       },
       {
         "hits": "30",
@@ -1127,7 +1127,7 @@
       },
       {
         "hits": "30",
-        "url": "/wp-json/wp/v2/users/7"
+        "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "30",
@@ -1135,7 +1135,7 @@
       },
       {
         "hits": "30",
-        "url": "/wp-json/wp/v2/users/4"
+        "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "29",
@@ -1159,11 +1159,11 @@
       },
       {
         "hits": "9",
-        "url": "/.env"
+        "url": "/photo/loch-lomond/"
       },
       {
         "hits": "9",
-        "url": "/photo/loch-lomond/"
+        "url": "/.env"
       },
       {
         "hits": "8",
@@ -1183,6 +1183,10 @@
       },
       {
         "hits": "6",
+        "url": "/humans.txt"
+      },
+      {
+        "hits": "6",
         "url": "/tags/corona"
       },
       {
@@ -1198,10 +1202,6 @@
         "url": "/note/the-great-regression"
       },
       {
-        "hits": "6",
-        "url": "/humans.txt"
-      },
-      {
         "hits": "5",
         "url": "/note/flights"
       },
@@ -1211,11 +1211,11 @@
       },
       {
         "hits": "5",
-        "url": "/note/roman-silphium"
+        "url": "/wordpress/wp-admin/"
       },
       {
         "hits": "5",
-        "url": "/note/plath-vs-hughes"
+        "url": "/note/roman-silphium"
       },
       {
         "hits": "5",
@@ -1223,27 +1223,7 @@
       },
       {
         "hits": "5",
-        "url": "/images/uploads/24530.jpeg"
-      },
-      {
-        "hits": "5",
-        "url": "/note/duchy-of-cornwall"
-      },
-      {
-        "hits": "5",
-        "url": "/tags/medicine"
-      },
-      {
-        "hits": "5",
-        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "5",
-        "url": "/photo/south-india/images/IMG_1891_hufdcdb9ce05456e41ca5036f054c92962_136300_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "5",
-        "url": "/note/iranian-shootdown-coverup"
+        "url": "/tags/article"
       },
       {
         "hits": "5",
@@ -1251,11 +1231,7 @@
       },
       {
         "hits": "5",
-        "url": "/note/du-coudray-book"
-      },
-      {
-        "hits": "5",
-        "url": "/note/joe-biden-stutter"
+        "url": "/note/duchy-of-cornwall"
       },
       {
         "hits": "5",
@@ -1263,7 +1239,31 @@
       },
       {
         "hits": "5",
+        "url": "/note/iranian-shootdown-coverup"
+      },
+      {
+        "hits": "5",
+        "url": "/photo/south-india/images/IMG_1891_hufdcdb9ce05456e41ca5036f054c92962_136300_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "5",
+        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "5",
+        "url": "/tags/medicine"
+      },
+      {
+        "hits": "5",
+        "url": "/note/du-coudray-book"
+      },
+      {
+        "hits": "5",
         "url": "/note/low-tech-election-iowa"
+      },
+      {
+        "hits": "5",
+        "url": "/note/joe-biden-stutter"
       },
       {
         "hits": "5",
@@ -1271,15 +1271,15 @@
       },
       {
         "hits": "5",
+        "url": "/images/uploads/24530.jpeg"
+      },
+      {
+        "hits": "5",
+        "url": "/note/low-tech-election-iowa/"
+      },
+      {
+        "hits": "5",
         "url": "/photo/ben-nevis"
-      },
-      {
-        "hits": "5",
-        "url": "/tags/article"
-      },
-      {
-        "hits": "5",
-        "url": "/photo/brockwell-sleeve"
       },
       {
         "hits": "5",
@@ -1296,20 +1296,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "8928",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8928",
+        "hits": "8927",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8927",
@@ -1318,6 +1306,18 @@
       {
         "hits": "8927",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8927",
@@ -1339,7 +1339,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "71450"
+        "hits": "71448"
       }
     ]
   },
@@ -1573,27 +1573,7 @@
       },
       {
         "hits": "30",
-        "url": "/wp-json/wp/v2/users/7"
-      },
-      {
-        "hits": "30",
-        "url": "/wp-json/wp/v2/users/2"
-      },
-      {
-        "hits": "30",
-        "url": "/wp-json/wp/v2/users/6"
-      },
-      {
-        "hits": "30",
-        "url": "/wp-json/wp/v2/users/8"
-      },
-      {
-        "hits": "30",
-        "url": "/wp-json/wp/v2/users/1"
-      },
-      {
-        "hits": "30",
-        "url": "/note/animal-crossing-labour/"
+        "url": "/wp-json/wp/v2/users/3"
       },
       {
         "hits": "30",
@@ -1605,7 +1585,27 @@
       },
       {
         "hits": "30",
-        "url": "/wp-json/wp/v2/users/3"
+        "url": "/wp-json/wp/v2/users/1"
+      },
+      {
+        "hits": "30",
+        "url": "/wp-json/wp/v2/users/2"
+      },
+      {
+        "hits": "30",
+        "url": "/wp-json/wp/v2/users/7"
+      },
+      {
+        "hits": "30",
+        "url": "/wp-json/wp/v2/users/8"
+      },
+      {
+        "hits": "30",
+        "url": "/note/animal-crossing-labour/"
+      },
+      {
+        "hits": "30",
+        "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "29",
@@ -1653,15 +1653,11 @@
       },
       {
         "hits": "18",
-        "url": "/note/james-joyce-estate/"
-      },
-      {
-        "hits": "18",
         "url": "/note/there-is-no-outside/"
       },
       {
         "hits": "18",
-        "url": "/note/eugenics-statistics/"
+        "url": "/note/james-joyce-estate/"
       },
       {
         "hits": "18",
@@ -1670,6 +1666,10 @@
       {
         "hits": "18",
         "url": "/note/aristophanes-wasps/"
+      },
+      {
+        "hits": "18",
+        "url": "/note/eugenics-statistics/"
       },
       {
         "hits": "18",
@@ -1701,15 +1701,7 @@
       },
       {
         "hits": "16",
-        "url": "/note/duchy-of-cornwall/"
-      },
-      {
-        "hits": "16",
         "url": "/work/images/depop.svg"
-      },
-      {
-        "hits": "16",
-        "url": "/note/willard-maps-of-time/"
       },
       {
         "hits": "16",
@@ -1721,7 +1713,15 @@
       },
       {
         "hits": "16",
+        "url": "/note/willard-maps-of-time/"
+      },
+      {
+        "hits": "16",
         "url": "/note/rise-of-the-blur/"
+      },
+      {
+        "hits": "16",
+        "url": "/note/duchy-of-cornwall/"
       },
       {
         "hits": "16",
@@ -1745,40 +1745,40 @@
       },
       {
         "hits": "15",
-        "url": "/note/bob-fosse/"
+        "url": "/note/senate-impeachment-hamilton/"
       }
     ],
     "topApiHits": [
       {
-        "hits": "24615",
+        "hits": "24616",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "24615",
+        "hits": "24616",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "24615",
+        "hits": "24616",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "24615",
+        "hits": "24616",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "24615",
+        "hits": "24616",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "24615",
+        "hits": "24616",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "24615",
+        "hits": "24616",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "24268",
+        "hits": "24269",
         "url": "/analytics"
       },
       {
@@ -1801,7 +1801,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "196697"
+        "hits": "196705"
       }
     ]
   }
