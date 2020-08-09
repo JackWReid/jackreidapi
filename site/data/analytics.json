@@ -2,12 +2,8 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
@@ -35,14 +31,19 @@
       },
       {
         "hits": "1",
-        "url": "/articles/liked/"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "1",
         "url": "/share/note/"
       }
     ],
-    "topSiteMisses": [],
+    "topSiteMisses": [
+      {
+        "hits": "1",
+        "url": "/note/driving-school"
+      }
+    ],
     "topApiHits": [
       {
         "hits": "12",
@@ -79,7 +80,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "12"
+        "hits": "10"
       }
     ],
     "totalApiHits": [
@@ -311,6 +312,10 @@
       {
         "hits": "1",
         "url": "/note/corona-crisis-18-months"
+      },
+      {
+        "hits": "1",
+        "url": "/note/driving-school"
       },
       {
         "hits": "1",
@@ -675,24 +680,8 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "386",
+        "hits": "385",
         "url": "/robots.txt"
-      },
-      {
-        "hits": "16",
-        "url": "/wp-json/wp/v2/users/6"
-      },
-      {
-        "hits": "16",
-        "url": "/wp-json/wp/v2/users/5"
-      },
-      {
-        "hits": "16",
-        "url": "/wp-json/wp/v2/users/7"
-      },
-      {
-        "hits": "16",
-        "url": "/wp-json/wp/v2/users/8"
       },
       {
         "hits": "16",
@@ -700,15 +689,19 @@
       },
       {
         "hits": "16",
+        "url": "/wp-json/wp/v2/users/9"
+      },
+      {
+        "hits": "16",
         "url": "/wp-json/wp/v2/users/1"
       },
       {
         "hits": "16",
-        "url": "/wp-json/wp/v2/users/10"
+        "url": "/wp-json/wp/v2/users/8"
       },
       {
         "hits": "16",
-        "url": "/wp-json/wp/v2/users/9"
+        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "16",
@@ -716,7 +709,19 @@
       },
       {
         "hits": "16",
+        "url": "/wp-json/wp/v2/users/10"
+      },
+      {
+        "hits": "16",
+        "url": "/wp-json/wp/v2/users/6"
+      },
+      {
+        "hits": "16",
         "url": "/wp-json/wp/v2/users/2"
+      },
+      {
+        "hits": "16",
+        "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "9",
@@ -756,15 +761,11 @@
       },
       {
         "hits": "2",
+        "url": "/tags/corona"
+      },
+      {
+        "hits": "2",
         "url": "/wp-config.php.bak"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/article"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/south-india/images/IMG_2369_hu1ddaec928864e2ac7f3bc7f0b4820fb9_698185_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
@@ -772,55 +773,15 @@
       },
       {
         "hits": "2",
-        "url": "/tags/corona"
+        "url": "/photo/norfolk-shore"
       },
       {
         "hits": "2",
-        "url": "/note/uss-fitzgerald"
+        "url": "/photo/south-india/images/IMG_2369_hu1ddaec928864e2ac7f3bc7f0b4820fb9_698185_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "2",
-        "url": "/note/there-is-so-swing-voter"
-      },
-      {
-        "hits": "2",
-        "url": "/note/willard-maps-of-time"
-      },
-      {
-        "hits": "2",
-        "url": "/note/murakami-women-interview"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2019-12-18-finland-media-literacy"
-      },
-      {
-        "hits": "2",
-        "url": "/note/rise-of-the-blur/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/low-tech-election-iowa"
-      },
-      {
-        "hits": "2",
-        "url": "/note/joe-biden-stutter"
-      },
-      {
-        "hits": "2",
-        "url": "/note/precariously-balanced-rocks"
-      },
-      {
-        "hits": "2",
-        "url": "/note/madame-tussaud"
-      },
-      {
-        "hits": "2",
-        "url": "/note/screen-protectors"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-04-16-corona-speculative-fiction"
+        "url": "/tags/article"
       },
       {
         "hits": "2",
@@ -828,11 +789,59 @@
       },
       {
         "hits": "2",
+        "url": "/note/screen-protectors"
+      },
+      {
+        "hits": "2",
+        "url": "/note/uss-fitzgerald"
+      },
+      {
+        "hits": "2",
+        "url": "/note/2019-12-18-finland-media-literacy"
+      },
+      {
+        "hits": "2",
+        "url": "/note/murakami-women-interview"
+      },
+      {
+        "hits": "2",
+        "url": "/note/madame-tussaud"
+      },
+      {
+        "hits": "2",
+        "url": "/note/precariously-balanced-rocks"
+      },
+      {
+        "hits": "2",
+        "url": "/note/driving-school"
+      },
+      {
+        "hits": "2",
+        "url": "/note/joe-biden-stutter"
+      },
+      {
+        "hits": "2",
         "url": "/note/roman-silphium"
       },
       {
         "hits": "2",
-        "url": "/photo/norfolk-shore"
+        "url": "/note/2020-04-16-corona-speculative-fiction"
+      },
+      {
+        "hits": "2",
+        "url": "/note/there-is-so-swing-voter"
+      },
+      {
+        "hits": "2",
+        "url": "/note/low-tech-election-iowa"
+      },
+      {
+        "hits": "2",
+        "url": "/note/rise-of-the-blur/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/willard-maps-of-time"
       },
       {
         "hits": "1",
@@ -869,10 +878,6 @@
       {
         "hits": "1",
         "url": "/note/jacob-rees-mogg/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/jacob-rees-mogg"
       }
     ],
     "topApiHits": [
@@ -915,7 +920,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2710"
+        "hits": "2709"
       }
     ],
     "totalApiHits": [
@@ -1142,15 +1147,27 @@
       },
       {
         "hits": "30",
+        "url": "/wp-json/wp/v2/users/8"
+      },
+      {
+        "hits": "30",
         "url": "/wp-json/wp/v2/users/2"
       },
       {
         "hits": "30",
-        "url": "/wp-json/wp/v2/users/1"
+        "url": "/wp-json/wp/v2/users/3"
+      },
+      {
+        "hits": "30",
+        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "30",
         "url": "/wp-json/wp/v2/users/7"
+      },
+      {
+        "hits": "30",
+        "url": "/wp-json/wp/v2/users/1"
       },
       {
         "hits": "30",
@@ -1159,18 +1176,6 @@
       {
         "hits": "30",
         "url": "/wp-json/wp/v2/users/4"
-      },
-      {
-        "hits": "30",
-        "url": "/wp-json/wp/v2/users/5"
-      },
-      {
-        "hits": "30",
-        "url": "/wp-json/wp/v2/users/3"
-      },
-      {
-        "hits": "30",
-        "url": "/wp-json/wp/v2/users/8"
       },
       {
         "hits": "29",
@@ -1210,27 +1215,7 @@
       },
       {
         "hits": "6",
-        "url": "/note/the-great-regression"
-      },
-      {
-        "hits": "6",
         "url": "/ads.txt"
-      },
-      {
-        "hits": "6",
-        "url": "/apple-touch-icon.png"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/corona"
-      },
-      {
-        "hits": "6",
-        "url": "/wordpress/wp-admin/"
-      },
-      {
-        "hits": "6",
-        "url": "/humans.txt"
       },
       {
         "hits": "6",
@@ -1238,7 +1223,27 @@
       },
       {
         "hits": "6",
+        "url": "/apple-touch-icon.png"
+      },
+      {
+        "hits": "6",
+        "url": "/wordpress/wp-admin/"
+      },
+      {
+        "hits": "6",
+        "url": "/tags/corona"
+      },
+      {
+        "hits": "6",
         "url": "/note/willard-maps-of-time"
+      },
+      {
+        "hits": "6",
+        "url": "/note/the-great-regression"
+      },
+      {
+        "hits": "6",
+        "url": "/humans.txt"
       },
       {
         "hits": "5",
@@ -1246,7 +1251,7 @@
       },
       {
         "hits": "5",
-        "url": "/note/roman-silphium"
+        "url": "/note/sailors-on-wikipedia"
       },
       {
         "hits": "5",
@@ -1254,15 +1259,11 @@
       },
       {
         "hits": "5",
-        "url": "/note/sailors-on-wikipedia"
+        "url": "/note/roman-silphium"
       },
       {
         "hits": "5",
-        "url": "/wp-admin/"
-      },
-      {
-        "hits": "5",
-        "url": "/note/plath-vs-hughes"
+        "url": "/images/uploads/24530.jpeg"
       },
       {
         "hits": "5",
@@ -1270,11 +1271,19 @@
       },
       {
         "hits": "5",
+        "url": "/wp-admin/"
+      },
+      {
+        "hits": "5",
         "url": "/note/avalanche-school"
       },
       {
         "hits": "5",
-        "url": "/tags/article"
+        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
+      },
+      {
+        "hits": "5",
+        "url": "/note/plath-vs-hughes"
       },
       {
         "hits": "5",
@@ -1298,23 +1307,11 @@
       },
       {
         "hits": "5",
+        "url": "/tags/article"
+      },
+      {
+        "hits": "5",
         "url": "/note/low-tech-election-iowa/"
-      },
-      {
-        "hits": "5",
-        "url": "/photo/brockwell-sleeve"
-      },
-      {
-        "hits": "5",
-        "url": "/images/uploads/24530.jpeg"
-      },
-      {
-        "hits": "5",
-        "url": "/note/tools-i-wish-existed/"
-      },
-      {
-        "hits": "5",
-        "url": "/note/there-is-so-swing-voter"
       },
       {
         "hits": "5",
@@ -1322,7 +1319,15 @@
       },
       {
         "hits": "5",
-        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
+        "url": "/photo/brockwell-sleeve"
+      },
+      {
+        "hits": "5",
+        "url": "/note/there-is-so-swing-voter"
+      },
+      {
+        "hits": "5",
+        "url": "/note/tools-i-wish-existed/"
       },
       {
         "hits": "4",
@@ -1332,31 +1337,31 @@
     "topApiHits": [
       {
         "hits": "8928",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8927",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8927",
+        "hits": "8928",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8928",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8928",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8927",
+        "hits": "8928",
         "url": "/films/watched?limit=5000"
       },
       {
         "hits": "8927",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "8927",
         "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8909",
@@ -1374,7 +1379,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "71450"
+        "hits": "71454"
       }
     ]
   },
@@ -1608,11 +1613,11 @@
       },
       {
         "hits": "30",
-        "url": "/wp-json/wp/v2/users/2"
+        "url": "/wp-json/wp/v2/users/3"
       },
       {
         "hits": "30",
-        "url": "/wp-json/wp/v2/users/8"
+        "url": "/wp-json/wp/v2/users/2"
       },
       {
         "hits": "30",
@@ -1620,7 +1625,15 @@
       },
       {
         "hits": "30",
-        "url": "/wp-json/wp/v2/users/3"
+        "url": "/wp-json/wp/v2/users/4"
+      },
+      {
+        "hits": "30",
+        "url": "/wp-json/wp/v2/users/8"
+      },
+      {
+        "hits": "30",
+        "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "30",
@@ -1628,19 +1641,11 @@
       },
       {
         "hits": "30",
-        "url": "/wp-json/wp/v2/users/4"
-      },
-      {
-        "hits": "30",
-        "url": "/wp-json/wp/v2/users/5"
-      },
-      {
-        "hits": "30",
         "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "30",
-        "url": "/wp-json/wp/v2/users/6"
+        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "29",
@@ -1680,11 +1685,11 @@
       },
       {
         "hits": "19",
-        "url": "/note/tech-sabbath/"
+        "url": "/jackreid.xyz/css/style.css"
       },
       {
         "hits": "19",
-        "url": "/jackreid.xyz/css/style.css"
+        "url": "/note/tech-sabbath/"
       },
       {
         "hits": "18",
@@ -1704,15 +1709,15 @@
       },
       {
         "hits": "18",
-        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "18",
         "url": "/note/eugenics-statistics/"
       },
       {
         "hits": "18",
         "url": "/note/aristophanes-wasps/"
+      },
+      {
+        "hits": "18",
+        "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
       },
       {
         "hits": "17",
@@ -1768,11 +1773,7 @@
       },
       {
         "hits": "15",
-        "url": "/photo/south-india/images/IMG_2369_hu1ddaec928864e2ac7f3bc7f0b4820fb9_698185_800x0_resize_q75_box.jpg"
-      },
-      {
-        "hits": "15",
-        "url": "/photo/south-india/images/IMG_2002_hu737147df5fde39d335039aa0fd05e9e4_613917_800x0_resize_q75_box.jpg"
+        "url": "/post/getting-of-off-netlify"
       },
       {
         "hits": "15",
@@ -1781,39 +1782,43 @@
       {
         "hits": "15",
         "url": "/note/senate-impeachment-hamilton/"
+      },
+      {
+        "hits": "15",
+        "url": "/photo/south-india/images/IMG_1796_hu1ddaec928864e2ac7f3bc7f0b4820fb9_170352_800x0_resize_q75_box.jpg"
       }
     ],
     "topApiHits": [
       {
-        "hits": "24426",
+        "hits": "24427",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "24426",
+        "hits": "24427",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "24426",
+        "hits": "24427",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "24426",
+        "hits": "24427",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "24426",
+        "hits": "24427",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "24426",
+        "hits": "24427",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "24426",
+        "hits": "24427",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "24079",
+        "hits": "24080",
         "url": "/analytics"
       },
       {
@@ -1836,7 +1841,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "195184"
+        "hits": "195192"
       }
     ]
   }
