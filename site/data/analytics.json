@@ -2,7 +2,7 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "2",
         "url": "/index.xml"
       },
       {
@@ -46,8 +46,24 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "12",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
@@ -56,39 +72,23 @@
       {
         "hits": "11",
         "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "10"
+        "hits": "9"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "92"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "70",
+        "hits": "69",
         "url": "/index.xml"
       },
       {
@@ -295,6 +295,10 @@
       },
       {
         "hits": "3",
+        "url": "/wp-json/wp/v2/users/9"
+      },
+      {
+        "hits": "3",
         "url": "/wp-json/wp/v2/users/1"
       },
       {
@@ -330,16 +334,8 @@
         "url": "/wp-json/wp/v2/users/8"
       },
       {
-        "hits": "3",
-        "url": "/wp-json/wp/v2/users/9"
-      },
-      {
         "hits": "1",
-        "url": "/tags/article/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/aristophanes-wasps"
+        "url": "/note/2020-04-18-corona-dance-space"
       },
       {
         "hits": "1",
@@ -375,16 +371,12 @@
       },
       {
         "hits": "1",
-        "url": "/note/2020-04-18-corona-dance-space"
+        "url": "/note/aristophanes-wasps"
       }
     ],
     "topApiHits": [
       {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
@@ -408,18 +400,22 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "287",
+        "url": "/pocket?limit=5000"
+      },
+      {
         "hits": "286",
         "url": "/analytics"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "299"
+        "hits": "298"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2295"
+        "hits": "2296"
       }
     ]
   },
@@ -628,32 +624,8 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "376",
+        "hits": "375",
         "url": "/robots.txt"
-      },
-      {
-        "hits": "11",
-        "url": "/wp-json/wp/v2/users/10"
-      },
-      {
-        "hits": "11",
-        "url": "/wp-json/wp/v2/users/7"
-      },
-      {
-        "hits": "11",
-        "url": "/wp-json/wp/v2/users/9"
-      },
-      {
-        "hits": "11",
-        "url": "/wp-json/wp/v2/users/5"
-      },
-      {
-        "hits": "11",
-        "url": "/wp-json/wp/v2/users/3"
-      },
-      {
-        "hits": "11",
-        "url": "/wp-json/wp/v2/users/4"
       },
       {
         "hits": "11",
@@ -661,7 +633,7 @@
       },
       {
         "hits": "11",
-        "url": "/wp-json/wp/v2/users/6"
+        "url": "/wp-json/wp/v2/users/9"
       },
       {
         "hits": "11",
@@ -670,6 +642,30 @@
       {
         "hits": "11",
         "url": "/wp-json/wp/v2/users/1"
+      },
+      {
+        "hits": "11",
+        "url": "/wp-json/wp/v2/users/10"
+      },
+      {
+        "hits": "11",
+        "url": "/wp-json/wp/v2/users/4"
+      },
+      {
+        "hits": "11",
+        "url": "/wp-json/wp/v2/users/6"
+      },
+      {
+        "hits": "11",
+        "url": "/wp-json/wp/v2/users/7"
+      },
+      {
+        "hits": "11",
+        "url": "/wp-json/wp/v2/users/3"
+      },
+      {
+        "hits": "11",
+        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "9",
@@ -681,7 +677,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/eugenics-statistics"
+        "url": "/note/murakami-women-interview"
       },
       {
         "hits": "2",
@@ -689,11 +685,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/murakami-women-interview"
+        "url": "/tags/article/"
       },
       {
         "hits": "2",
-        "url": "/note/duchy-of-cornwall"
+        "url": "/photo/south-india"
       },
       {
         "hits": "2",
@@ -701,7 +697,7 @@
       },
       {
         "hits": "2",
-        "url": "/.well-known/assetlinks.json"
+        "url": "/wp-config.php.bak"
       },
       {
         "hits": "2",
@@ -709,15 +705,7 @@
       },
       {
         "hits": "2",
-        "url": "/wp-config.php.bak"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/article/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/transcontinental-flight"
+        "url": "/note/joe-biden-stutter"
       },
       {
         "hits": "2",
@@ -725,7 +713,19 @@
       },
       {
         "hits": "2",
+        "url": "/1111/feed/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/medicine"
+      },
+      {
+        "hits": "2",
         "url": "/note/tools-i-wish-existed"
+      },
+      {
+        "hits": "2",
+        "url": "/note/duchy-of-cornwall"
       },
       {
         "hits": "2",
@@ -737,19 +737,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/medicine"
+        "url": "/.well-known/assetlinks.json"
       },
       {
         "hits": "2",
-        "url": "/photo/south-india"
-      },
-      {
-        "hits": "2",
-        "url": "/1111/feed/"
-      },
-      {
-        "hits": "2",
-        "url": "/note/joe-biden-stutter"
+        "url": "/note/eugenics-statistics"
       },
       {
         "hits": "1",
@@ -813,6 +805,10 @@
       },
       {
         "hits": "1",
+        "url": "/note/jacob-rees-mogg/"
+      },
+      {
+        "hits": "1",
         "url": "/note/james-joyce-estate"
       },
       {
@@ -821,40 +817,40 @@
       },
       {
         "hits": "1",
-        "url": "/note/jacob-rees-mogg/"
+        "url": "/note/jacob-rees-mogg"
       },
       {
         "hits": "1",
-        "url": "/note/jacob-rees-mogg"
+        "url": "/note/iran-nuclear-era"
       }
     ],
     "topApiHits": [
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2015",
+        "hits": "2016",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -868,12 +864,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2657"
+        "hits": "2656"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16130"
+        "hits": "16137"
       }
     ]
   },
@@ -1284,8 +1280,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "8927",
+        "hits": "8928",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8928",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8927",
@@ -1294,18 +1302,6 @@
       {
         "hits": "8927",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8927",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "8927",
@@ -1322,12 +1318,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10845"
+        "hits": "10844"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71446"
+        "hits": "71448"
       }
     ]
   },
@@ -1738,35 +1734,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "24885",
+        "hits": "24886",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "24885",
+        "hits": "24886",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "24885",
+        "hits": "24886",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "24885",
+        "hits": "24886",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "24885",
+        "hits": "24886",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "24885",
+        "hits": "24886",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "24885",
+        "hits": "24886",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "24536",
+        "hits": "24537",
         "url": "/analytics"
       },
       {
@@ -1789,7 +1785,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "198855"
+        "hits": "198863"
       }
     ]
   }
