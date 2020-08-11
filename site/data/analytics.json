@@ -39,15 +39,23 @@
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
         "url": "/analytics"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "11",
@@ -59,15 +67,7 @@
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -81,7 +81,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "92"
+        "hits": "90"
       }
     ]
   },
@@ -105,11 +105,11 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/highlight/uk-corner-shops-covid/"
       },
       {
         "hits": "24",
-        "url": "/highlight/uk-corner-shops-covid/"
+        "url": "/highlight/index.xml"
       },
       {
         "hits": "18",
@@ -121,11 +121,11 @@
       },
       {
         "hits": "7",
-        "url": "/css/style.css"
+        "url": "/films/watched/"
       },
       {
         "hits": "7",
-        "url": "/films/watched/"
+        "url": "/css/style.css"
       },
       {
         "hits": "6",
@@ -133,11 +133,11 @@
       },
       {
         "hits": "5",
-        "url": "/articles/saved/"
+        "url": "/work/"
       },
       {
         "hits": "5",
-        "url": "/work/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "3",
@@ -153,15 +153,15 @@
       },
       {
         "hits": "2",
-        "url": "/post/2018-09-04-its-you-and-me/"
-      },
-      {
-        "hits": "2",
         "url": "/articles/liked/"
       },
       {
         "hits": "2",
         "url": "/tags/music/"
+      },
+      {
+        "hits": "2",
+        "url": "/sitemap.xml"
       },
       {
         "hits": "2",
@@ -177,11 +177,15 @@
       },
       {
         "hits": "2",
-        "url": "/post/how-this-site-works/"
+        "url": "/post/2018-09-04-its-you-and-me/"
       },
       {
         "hits": "2",
         "url": "/post/2016-08-22-confessions-of-a-news-addict/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "2",
@@ -194,10 +198,6 @@
       {
         "hits": "2",
         "url": "/photo/"
-      },
-      {
-        "hits": "2",
-        "url": "/sitemap.xml"
       },
       {
         "hits": "1",
@@ -237,7 +237,7 @@
       },
       {
         "hits": "1",
-        "url": "/journal/2020-04-05/"
+        "url": "/journal/2020-04-07/"
       },
       {
         "hits": "1",
@@ -253,6 +253,10 @@
       },
       {
         "hits": "1",
+        "url": "/journal/2020-03-30/"
+      },
+      {
+        "hits": "1",
         "url": "/journal/2020-03-28/"
       },
       {
@@ -261,23 +265,15 @@
       },
       {
         "hits": "1",
-        "url": "/journal/"
-      },
-      {
-        "hits": "1",
         "url": "/?author=6"
       },
       {
         "hits": "1",
-        "url": "/journal/2020-03-30/"
+        "url": "/journal/2020-04-05/"
       },
       {
         "hits": "1",
-        "url": "/highlight/wutys-bullet/"
-      },
-      {
-        "hits": "1",
-        "url": "/journal/2020-04-07/"
+        "url": "/journal/"
       },
       {
         "hits": "1",
@@ -285,7 +281,11 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/world-without-cops/"
+        "url": "/journal/2020-05-03/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/wutys-bullet/"
       }
     ],
     "topSiteMisses": [
@@ -396,24 +396,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
+        "hits": "289",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "288",
+        "hits": "289",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "288",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "288",
@@ -428,25 +420,33 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "288",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/analytics"
+      },
+      {
         "hits": "3",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "386"
+        "hits": "385"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2307"
+        "hits": "2309"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "429",
+        "hits": "428",
         "url": "/index.xml"
       },
       {
@@ -850,8 +850,20 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2017",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2017",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2016",
@@ -860,18 +872,6 @@
       {
         "hits": "2016",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2016",
@@ -888,12 +888,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2592"
+        "hits": "2590"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16135"
+        "hits": "16137"
       }
     ]
   },
@@ -1758,35 +1758,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "25204",
+        "hits": "25205",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "25204",
+        "hits": "25205",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "25204",
+        "hits": "25205",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "25204",
+        "hits": "25205",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "25204",
+        "hits": "25205",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "25204",
+        "hits": "25205",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "25204",
+        "hits": "25205",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "24854",
+        "hits": "24855",
         "url": "/analytics"
       },
       {
@@ -1809,7 +1809,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "201409"
+        "hits": "201417"
       }
     ]
   }
