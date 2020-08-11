@@ -59,23 +59,11 @@
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "12",
         "url": "/analytics"
       },
       {
         "hits": "11",
-        "url": "/books/read?limit=5000"
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "11",
@@ -83,11 +71,23 @@
       },
       {
         "hits": "11",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "11",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -101,7 +101,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "93"
+        "hits": "90"
       }
     ]
   },
@@ -137,31 +137,11 @@
       },
       {
         "hits": "5",
-        "url": "/articles/saved/"
-      },
-      {
-        "hits": "5",
         "url": "/films/watched/"
       },
       {
-        "hits": "3",
-        "url": "/?author=6"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=7"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=10"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=2"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=8"
+        "hits": "5",
+        "url": "/articles/saved/"
       },
       {
         "hits": "3",
@@ -169,7 +149,27 @@
       },
       {
         "hits": "3",
+        "url": "/?author=10"
+      },
+      {
+        "hits": "3",
+        "url": "/work/"
+      },
+      {
+        "hits": "3",
+        "url": "/?author=2"
+      },
+      {
+        "hits": "3",
         "url": "/?author=3"
+      },
+      {
+        "hits": "3",
+        "url": "/?author=8"
+      },
+      {
+        "hits": "3",
+        "url": "/?author=6"
       },
       {
         "hits": "3",
@@ -181,6 +181,10 @@
       },
       {
         "hits": "3",
+        "url": "/rss/"
+      },
+      {
+        "hits": "3",
         "url": "/?author=5"
       },
       {
@@ -189,15 +193,15 @@
       },
       {
         "hits": "3",
-        "url": "/rss/"
-      },
-      {
-        "hits": "3",
         "url": "/?author=4"
       },
       {
         "hits": "3",
-        "url": "/work/"
+        "url": "/?author=7"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/food/"
       },
       {
         "hits": "2",
@@ -209,27 +213,11 @@
       },
       {
         "hits": "2",
-        "url": "/uses/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/news/page/2/"
-      },
-      {
-        "hits": "2",
         "url": "/tags/urbanism/"
       },
       {
         "hits": "2",
-        "url": "/tags/funny/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/book/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/food/"
+        "url": "/uses/"
       },
       {
         "hits": "2",
@@ -237,7 +225,15 @@
       },
       {
         "hits": "2",
-        "url": "/post/activist-relief-resources/"
+        "url": "/tags/funny/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/news/page/2/"
+      },
+      {
+        "hits": "2",
+        "url": "/css/style.css"
       },
       {
         "hits": "2",
@@ -245,7 +241,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/sweat-key-cut/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "2",
@@ -253,7 +249,7 @@
       },
       {
         "hits": "2",
-        "url": "/css/style.css"
+        "url": "/tags/book/"
       },
       {
         "hits": "1",
@@ -306,6 +302,10 @@
       {
         "hits": "1",
         "url": "/journal/2020-06-25/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/apartments-from-malls/"
       }
     ],
     "topSiteMisses": [
@@ -412,20 +412,8 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
+        "hits": "287",
         "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
@@ -434,6 +422,18 @@
       {
         "hits": "287",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -450,12 +450,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "362"
+        "hits": "359"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2296"
       }
     ]
   },
@@ -479,18 +479,18 @@
       },
       {
         "hits": "136",
-        "url": "/"
+        "url": "/open-graph.png"
       },
       {
-        "hits": "136",
-        "url": "/open-graph.png"
+        "hits": "135",
+        "url": "/"
       },
       {
         "hits": "52",
         "url": "/highlight/ed-yong-covid/"
       },
       {
-        "hits": "42",
+        "hits": "41",
         "url": "/articles/saved/"
       },
       {
@@ -664,7 +664,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "376",
+        "hits": "375",
         "url": "/robots.txt"
       },
       {
@@ -866,31 +866,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2015",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -904,19 +904,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2671"
+        "hits": "2669"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16134"
+        "hits": "16127"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1687",
+        "hits": "1686",
         "url": "/index.xml"
       },
       {
@@ -956,7 +956,7 @@
         "url": "/work/"
       },
       {
-        "hits": "72",
+        "hits": "71",
         "url": "/post/activist-relief-resources/"
       },
       {
@@ -1358,7 +1358,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10687"
+        "hits": "10685"
       }
     ],
     "totalApiHits": [
@@ -1774,35 +1774,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "25107",
+        "hits": "25108",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "25107",
+        "hits": "25108",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "25107",
+        "hits": "25108",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "25107",
+        "hits": "25108",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "25107",
+        "hits": "25108",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "25107",
+        "hits": "25108",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "25107",
+        "hits": "25108",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "24757",
+        "hits": "24758",
         "url": "/analytics"
       },
       {
@@ -1825,7 +1825,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "200631"
+        "hits": "200639"
       }
     ]
   }
