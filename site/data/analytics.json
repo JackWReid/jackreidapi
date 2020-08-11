@@ -2,12 +2,12 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
-        "url": "/index.xml"
+        "hits": "2",
+        "url": "/post/how-this-site-works/"
       },
       {
         "hits": "2",
-        "url": "/post/how-this-site-works/"
+        "url": "/index.xml"
       },
       {
         "hits": "2",
@@ -66,12 +66,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
+        "hits": "11",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "11",
@@ -91,24 +91,24 @@
       },
       {
         "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "17"
+        "hits": "16"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "91"
+        "hits": "89"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "68",
+        "hits": "67",
         "url": "/index.xml"
       },
       {
@@ -404,12 +404,16 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
@@ -421,11 +425,7 @@
       },
       {
         "hits": "287",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "286",
@@ -434,12 +434,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "293"
+        "hits": "292"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2297"
+        "hits": "2296"
       }
     ]
   },
@@ -900,7 +900,7 @@
   "month": {
     "topSiteHits": [
       {
-        "hits": "1675",
+        "hits": "1674",
         "url": "/index.xml"
       },
       {
@@ -916,7 +916,7 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "408",
+        "hits": "407",
         "url": "/"
       },
       {
@@ -928,7 +928,7 @@
         "url": "/articles/saved/"
       },
       {
-        "hits": "79",
+        "hits": "78",
         "url": "/work/"
       },
       {
@@ -948,23 +948,23 @@
         "url": "/rss/"
       },
       {
-        "hits": "62",
+        "hits": "61",
         "url": "/journal/"
       },
       {
-        "hits": "61",
-        "url": "/media/"
-      },
-      {
-        "hits": "61",
+        "hits": "60",
         "url": "/highlight/"
       },
       {
-        "hits": "58",
+        "hits": "60",
+        "url": "/media/"
+      },
+      {
+        "hits": "57",
         "url": "/books/reading/"
       },
       {
-        "hits": "56",
+        "hits": "55",
         "url": "/post/"
       },
       {
@@ -984,20 +984,20 @@
         "url": "/highlight/ed-yong-covid/"
       },
       {
-        "hits": "51",
+        "hits": "50",
         "url": "/note/"
       },
       {
-        "hits": "47",
+        "hits": "46",
         "url": "/uses/"
-      },
-      {
-        "hits": "45",
-        "url": "/articles/liked/"
       },
       {
         "hits": "44",
         "url": "/highlight/igbo-orthography/"
+      },
+      {
+        "hits": "44",
+        "url": "/articles/liked/"
       },
       {
         "hits": "43",
@@ -1012,12 +1012,12 @@
         "url": "/elsewhere/"
       },
       {
-        "hits": "40",
-        "url": "/link/"
+        "hits": "39",
+        "url": "/highlight/british-slave-businesses/"
       },
       {
         "hits": "39",
-        "url": "/highlight/british-slave-businesses/"
+        "url": "/link/"
       },
       {
         "hits": "39",
@@ -1057,10 +1057,6 @@
       },
       {
         "hits": "33",
-        "url": "/post/how-this-site-works/"
-      },
-      {
-        "hits": "33",
         "url": "/highlight/praise-walking-cofee/"
       },
       {
@@ -1092,6 +1088,10 @@
         "url": "/?author=4"
       },
       {
+        "hits": "33",
+        "url": "/post/how-this-site-works/"
+      },
+      {
         "hits": "32",
         "url": "/highlight/lies-are-free/"
       },
@@ -1102,7 +1102,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1657",
+        "hits": "1656",
         "url": "/robots.txt"
       },
       {
@@ -1304,10 +1304,6 @@
     ],
     "topApiHits": [
       {
-        "hits": "8928",
-        "url": "/articles?limit=5000"
-      },
-      {
         "hits": "8927",
         "url": "/pocket?limit=5000"
       },
@@ -1318,6 +1314,10 @@
       {
         "hits": "8927",
         "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "8927",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "8927",
@@ -1342,12 +1342,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10846"
+        "hits": "10817"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71445"
+        "hits": "71444"
       }
     ]
   },
@@ -1758,35 +1758,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "24961",
+        "hits": "24962",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "24961",
+        "hits": "24962",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "24961",
+        "hits": "24962",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "24961",
+        "hits": "24962",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "24961",
+        "hits": "24962",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "24961",
+        "hits": "24962",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "24961",
+        "hits": "24962",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "24611",
+        "hits": "24612",
         "url": "/analytics"
       },
       {
@@ -1809,7 +1809,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "199462"
+        "hits": "199470"
       }
     ]
   }
