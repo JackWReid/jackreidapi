@@ -2,12 +2,8 @@
   "hour": {
     "topSiteHits": [
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/analytics/day/"
       },
       {
         "hits": "1",
@@ -15,38 +11,43 @@
       },
       {
         "hits": "1",
-        "url": "/note/index.xml"
+        "url": "/analytics/day/"
       },
       {
         "hits": "1",
         "url": "/photo/index.xml"
+      },
+      {
+        "hits": "1",
+        "url": "/post/2016-08-22-confessions-of-a-news-addict/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/cities/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/index.xml"
       }
     ],
-    "topSiteMisses": [],
+    "topSiteMisses": [
+      {
+        "hits": "1",
+        "url": "/note/coronavirus-central-lockdown"
+      },
+      {
+        "hits": "1",
+        "url": "/robots.txt"
+      }
+    ],
     "topApiHits": [
       {
         "hits": "12",
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "12",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "11",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
@@ -55,23 +56,39 @@
       {
         "hits": "11",
         "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "11",
+        "url": "/pocket?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "7"
+        "hits": "10"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "92"
+        "hits": "89"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "69",
+        "hits": "70",
         "url": "/index.xml"
       },
       {
@@ -88,11 +105,11 @@
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/highlight/uk-corner-shops-covid/"
       },
       {
         "hits": "24",
-        "url": "/highlight/uk-corner-shops-covid/"
+        "url": "/note/index.xml"
       },
       {
         "hits": "15",
@@ -116,47 +133,11 @@
       },
       {
         "hits": "4",
-        "url": "/work/"
-      },
-      {
-        "hits": "4",
         "url": "/books/reading/"
       },
       {
-        "hits": "2",
-        "url": "/tags/urbanism/"
-      },
-      {
-        "hits": "2",
-        "url": "/sitemap.xml"
-      },
-      {
-        "hits": "2",
-        "url": "/uses/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/bridgers-rolling-stone/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/book/"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/food/"
-      },
-      {
-        "hits": "2",
-        "url": "/books/read/"
-      },
-      {
-        "hits": "2",
-        "url": "/photo/"
-      },
-      {
-        "hits": "2",
-        "url": "/analytics/day/"
+        "hits": "4",
+        "url": "/work/"
       },
       {
         "hits": "2",
@@ -164,15 +145,35 @@
       },
       {
         "hits": "2",
-        "url": "/post/2018-09-04-its-you-and-me/"
+        "url": "/analytics/day/"
       },
       {
         "hits": "2",
-        "url": "/tags/news/page/2/"
+        "url": "/books/read/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/bridgers-rolling-stone/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/new-york-geology/"
       },
       {
         "hits": "2",
         "url": "/media/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/2016-08-22-confessions-of-a-news-addict/"
+      },
+      {
+        "hits": "2",
+        "url": "/post/2018-09-04-its-you-and-me/"
       },
       {
         "hits": "2",
@@ -184,11 +185,75 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/new-york-geology/"
+        "url": "/sitemap.xml"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/book/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/food/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/news/page/2/"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/urbanism/"
+      },
+      {
+        "hits": "2",
+        "url": "/uses/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/lies-are-free/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/london-floor-plan/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/mother-board-earth/"
+      },
+      {
+        "hits": "1",
+        "url": "/?author=1"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/no-apocalypse/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/pandemic-cars/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/runaway-media/"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/spa-fatigue/"
+      },
+      {
+        "hits": "1",
+        "url": "/?author=5"
+      },
+      {
+        "hits": "1",
+        "url": "/highlight/world-without-cops/"
       },
       {
         "hits": "1",
         "url": "/highlight/wutys-bullet/"
+      },
+      {
+        "hits": "1",
+        "url": "/?author=4"
       },
       {
         "hits": "1",
@@ -197,6 +262,10 @@
       {
         "hits": "1",
         "url": "/link/page/2/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/nature/"
       },
       {
         "hits": "1",
@@ -217,63 +286,11 @@
       {
         "hits": "1",
         "url": "/note/2020-02-10-files-going-extinct/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-02-10-there-is-no-swing-voter/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-04-15-there-is-no-outside/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-05-31t10-00-00/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/calm-technology/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/corona-speculative-fiction/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/sweat-key-cut/"
-      },
-      {
-        "hits": "1",
-        "url": "/post/2015-03-02-internet-rhizome/"
-      },
-      {
-        "hits": "1",
-        "url": "/post/activist-relief-resources/"
-      },
-      {
-        "hits": "1",
-        "url": "/share/highlight/?title=%0A%20%20%20%20%20%20%20%20How%20South%20Asian%20corner%20shop%20culture%20helped%20the%20UK%20survive%20Covid-19%20%7C%20gal-dem%20-%20gal-dem%20%20%20%20&body=Sultan%2C%20Priyesh%20and%20Asiyah%20have%20symbiotic%20relationships%20with%20their%20local%20communities%2C%20but%20their%20accounts%20of%20running%20a%20corner%20shop%20are%20still%20prefaced%20by%20the%20institutional%20racism%20that%20runs%20through%20Britain%E2%80%99s%20history.%20In%20the%201970s%20and%201980s%2C%20South%20Asian%20factory%20workers%20in%20the%20UK%20began%20to%20lose%20their%20jobs%20after%20the%20decline%20of%20traditional%20labour-intensive%20industries.%20%0A%0AThe%20simultaneous%20expansion%20of%20supermarket%20chains%20postwar%20meant%20that%20provincial%20grocery%20stores%20were%20likely%20to%20close%2C%20unless%20they%20were%20part%20of%20groups%20like%20Spar%20or%20Londis.%20Members%20from%20these%20conglomerates%20purchased%20smaller%20village%20stores%20from%20wholesalers.%20More%20often%20than%20not%2C%20your%20local%20corner%20shop%20will%20be%20headed%20by%20a%20Londis%20brand%20as%20opposed%20to%20being%20independently-owned.&url=https%3A%2F%2Fgal-dem.com%2Fhow-south-asian-corner-shop-culture-helped-the-uk-survive-covid-19%2F%3Futm_source%3Dpocket-newtab-global-en-GB"
-      },
-      {
-        "hits": "1",
-        "url": "/share/link/"
-      },
-      {
-        "hits": "1",
-        "url": "/share/share-utils.js"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/"
-      },
-      {
-        "hits": "1",
-        "url": "/tags/academic/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "59",
+        "hits": "60",
         "url": "/robots.txt"
       },
       {
@@ -287,6 +304,10 @@
       {
         "hits": "1",
         "url": "/note/2020-02-10-little-women-gerwig-crit"
+      },
+      {
+        "hits": "1",
+        "url": "/note/coronavirus-central-lockdown"
       },
       {
         "hits": "1",
@@ -376,23 +397,7 @@
     "topApiHits": [
       {
         "hits": "289",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "289",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "289",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "289",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "289",
-        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "288",
@@ -400,11 +405,27 @@
       },
       {
         "hits": "288",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "288",
-        "url": "/books/reading?limit=5000"
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "2",
@@ -413,19 +434,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "362"
+        "hits": "365"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2311"
+        "hits": "2307"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "428",
+        "hits": "429",
         "url": "/index.xml"
       },
       {
@@ -627,7 +648,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "365",
+        "hits": "366",
         "url": "/robots.txt"
       },
       {
@@ -636,7 +657,7 @@
       },
       {
         "hits": "8",
-        "url": "/wp-json/wp/v2/users/4"
+        "url": "/wp-json/wp/v2/users/10"
       },
       {
         "hits": "8",
@@ -648,7 +669,7 @@
       },
       {
         "hits": "8",
-        "url": "/wp-json/wp/v2/users/10"
+        "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "8",
@@ -672,7 +693,7 @@
       },
       {
         "hits": "8",
-        "url": "/wp-json/wp/v2/users/7"
+        "url": "/wp-json/wp/v2/users/4"
       },
       {
         "hits": "6",
@@ -680,15 +701,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/duchy-of-cornwall"
-      },
-      {
-        "hits": "2",
-        "url": "/note/murakami-women-interview"
-      },
-      {
-        "hits": "2",
         "url": "/note/make-writing-easier"
+      },
+      {
+        "hits": "2",
+        "url": "/note/coronavirus-central-lockdown"
       },
       {
         "hits": "2",
@@ -697,6 +714,10 @@
       {
         "hits": "2",
         "url": "/sw.js"
+      },
+      {
+        "hits": "2",
+        "url": "/note/duchy-of-cornwall"
       },
       {
         "hits": "2",
@@ -739,6 +760,10 @@
         "url": "/wp-config.php.bak"
       },
       {
+        "hits": "2",
+        "url": "/note/murakami-women-interview"
+      },
+      {
         "hits": "1",
         "url": "/note/dawn-or-dusk-painting"
       },
@@ -749,10 +774,6 @@
       {
         "hits": "1",
         "url": "/note/2020-01-01-adam-driver-on-marriage-story"
-      },
-      {
-        "hits": "1",
-        "url": "/note/coronavirus-central-lockdown"
       },
       {
         "hits": "1",
@@ -830,27 +851,27 @@
     "topApiHits": [
       {
         "hits": "2017",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2017",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2017",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "2017",
+        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
         "hits": "2016",
-        "url": "/books/read?limit=5000"
+        "url": "/films/towatch?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2016",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2016",
@@ -867,19 +888,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2569"
+        "hits": "2572"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16139"
+        "hits": "16136"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1692",
+        "hits": "1693",
         "url": "/index.xml"
       },
       {
@@ -1081,7 +1102,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "1673",
+        "hits": "1674",
         "url": "/robots.txt"
       },
       {
@@ -1090,15 +1111,7 @@
       },
       {
         "hits": "34",
-        "url": "/wp-json/wp/v2/users/4"
-      },
-      {
-        "hits": "34",
-        "url": "/wp-json/wp/v2/users/1"
-      },
-      {
-        "hits": "34",
-        "url": "/wp-json/wp/v2/users/7"
+        "url": "/wp-json/wp/v2/users/3"
       },
       {
         "hits": "34",
@@ -1106,11 +1119,7 @@
       },
       {
         "hits": "34",
-        "url": "/wp-json/wp/v2/users/6"
-      },
-      {
-        "hits": "34",
-        "url": "/wp-json/wp/v2/users/8"
+        "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "34",
@@ -1118,15 +1127,27 @@
       },
       {
         "hits": "34",
-        "url": "/wp-json/wp/v2/users/3"
+        "url": "/wp-json/wp/v2/users/8"
       },
       {
-        "hits": "33",
-        "url": "/wp-json/wp/v2/users/10"
+        "hits": "34",
+        "url": "/wp-json/wp/v2/users/1"
+      },
+      {
+        "hits": "34",
+        "url": "/wp-json/wp/v2/users/4"
+      },
+      {
+        "hits": "34",
+        "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "33",
         "url": "/wp-json/wp/v2/users/9"
+      },
+      {
+        "hits": "33",
+        "url": "/wp-json/wp/v2/users/10"
       },
       {
         "hits": "29",
@@ -1146,11 +1167,11 @@
       },
       {
         "hits": "9",
-        "url": "/photo/loch-lomond/"
+        "url": "/.env"
       },
       {
         "hits": "9",
-        "url": "/.env"
+        "url": "/photo/loch-lomond/"
       },
       {
         "hits": "7",
@@ -1162,10 +1183,6 @@
       },
       {
         "hits": "6",
-        "url": "/note/duchy-of-cornwall"
-      },
-      {
-        "hits": "6",
         "url": "/note/corona-crisis-18-months"
       },
       {
@@ -1174,11 +1191,15 @@
       },
       {
         "hits": "6",
-        "url": "/note/willard-maps-of-time"
+        "url": "/note/duchy-of-cornwall"
       },
       {
         "hits": "6",
         "url": "/note/the-great-regression"
+      },
+      {
+        "hits": "6",
+        "url": "/note/willard-maps-of-time"
       },
       {
         "hits": "6",
@@ -1190,11 +1211,11 @@
       },
       {
         "hits": "5",
-        "url": "/apple-touch-icon-precomposed.png"
+        "url": "/note/reading-difficult-books"
       },
       {
         "hits": "5",
-        "url": "/ads.txt"
+        "url": "/apple-touch-icon-precomposed.png"
       },
       {
         "hits": "5",
@@ -1202,11 +1223,11 @@
       },
       {
         "hits": "5",
-        "url": "/apple-touch-icon.png"
+        "url": "/ads.txt"
       },
       {
         "hits": "5",
-        "url": "/note/roman-silphium"
+        "url": "/apple-touch-icon.png"
       },
       {
         "hits": "5",
@@ -1214,7 +1235,7 @@
       },
       {
         "hits": "5",
-        "url": "/note/reading-difficult-books"
+        "url": "/wordpress/wp-admin/"
       },
       {
         "hits": "5",
@@ -1222,15 +1243,15 @@
       },
       {
         "hits": "5",
+        "url": "/humans.txt"
+      },
+      {
+        "hits": "5",
         "url": "/note/plath-vs-hughes"
       },
       {
         "hits": "5",
-        "url": "/tags/medicine"
-      },
-      {
-        "hits": "5",
-        "url": "/note/avalanche-school"
+        "url": "/photo/norfolk-shore"
       },
       {
         "hits": "5",
@@ -1242,15 +1263,15 @@
       },
       {
         "hits": "5",
+        "url": "/tags/medicine"
+      },
+      {
+        "hits": "5",
+        "url": "/note/avalanche-school"
+      },
+      {
+        "hits": "5",
         "url": "/note/joe-biden-stutter"
-      },
-      {
-        "hits": "5",
-        "url": "/note/low-tech-election-iowa"
-      },
-      {
-        "hits": "5",
-        "url": "/humans.txt"
       },
       {
         "hits": "5",
@@ -1258,7 +1279,11 @@
       },
       {
         "hits": "5",
-        "url": "/photo/brockwell-sleeve"
+        "url": "/note/low-tech-election-iowa"
+      },
+      {
+        "hits": "5",
+        "url": "/photo/ben-nevis"
       },
       {
         "hits": "5",
@@ -1270,15 +1295,11 @@
       },
       {
         "hits": "5",
-        "url": "/note/tools-i-wish-existed/"
+        "url": "/photo/brockwell-sleeve"
       },
       {
         "hits": "5",
         "url": "/note/there-is-so-swing-voter"
-      },
-      {
-        "hits": "5",
-        "url": "/note/2020-02-10-little-women-gerwig-crit"
       }
     ],
     "topApiHits": [
@@ -1321,7 +1342,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10702"
+        "hits": "10705"
       }
     ],
     "totalApiHits": [
@@ -1333,7 +1354,7 @@
   "year": {
     "topSiteHits": [
       {
-        "hits": "4429",
+        "hits": "4430",
         "url": "/index.xml"
       },
       {
@@ -1535,7 +1556,7 @@
     ],
     "topSiteMisses": [
       {
-        "hits": "4181",
+        "hits": "4182",
         "url": "/robots.txt"
       },
       {
@@ -1560,7 +1581,19 @@
       },
       {
         "hits": "34",
-        "url": "/wp-json/wp/v2/users/5"
+        "url": "/wp-json/wp/v2/users/7"
+      },
+      {
+        "hits": "34",
+        "url": "/wp-json/wp/v2/users/1"
+      },
+      {
+        "hits": "34",
+        "url": "/wp-json/wp/v2/users/2"
+      },
+      {
+        "hits": "34",
+        "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "34",
@@ -1572,23 +1605,11 @@
       },
       {
         "hits": "34",
-        "url": "/wp-json/wp/v2/users/6"
-      },
-      {
-        "hits": "34",
-        "url": "/wp-json/wp/v2/users/2"
-      },
-      {
-        "hits": "34",
-        "url": "/wp-json/wp/v2/users/7"
-      },
-      {
-        "hits": "34",
-        "url": "/wp-json/wp/v2/users/1"
-      },
-      {
-        "hits": "34",
         "url": "/wp-json/wp/v2/users/8"
+      },
+      {
+        "hits": "34",
+        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "33",
@@ -1624,10 +1645,6 @@
       },
       {
         "hits": "19",
-        "url": "/note/tech-sabbath/"
-      },
-      {
-        "hits": "19",
         "url": "/note/there-is-so-swing-voter/"
       },
       {
@@ -1639,6 +1656,10 @@
         "url": "/jackreid.xyz/css/style.css"
       },
       {
+        "hits": "19",
+        "url": "/note/tech-sabbath/"
+      },
+      {
         "hits": "18",
         "url": "/noexist"
       },
@@ -1648,7 +1669,7 @@
       },
       {
         "hits": "18",
-        "url": "/note/madame-tussaud/"
+        "url": "/note/james-joyce-estate/"
       },
       {
         "hits": "18",
@@ -1656,23 +1677,23 @@
       },
       {
         "hits": "18",
-        "url": "/note/james-joyce-estate/"
+        "url": "/note/there-is-no-outside/"
+      },
+      {
+        "hits": "18",
+        "url": "/note/madame-tussaud/"
       },
       {
         "hits": "18",
         "url": "/photo/south-india/images/IMG_2421_hu1ddaec928864e2ac7f3bc7f0b4820fb9_231897_800x0_resize_q75_box.jpg"
       },
       {
-        "hits": "18",
-        "url": "/note/there-is-no-outside/"
+        "hits": "17",
+        "url": "/note/avalanche-school/"
       },
       {
         "hits": "17",
         "url": "/note/tools-i-wish-existed/"
-      },
-      {
-        "hits": "17",
-        "url": "/note/avalanche-school/"
       },
       {
         "hits": "17",
@@ -1732,40 +1753,40 @@
       },
       {
         "hits": "15",
-        "url": "/note/senate-impeachment-hamilton/"
+        "url": "/post/getting-of-off-netlify"
       }
     ],
     "topApiHits": [
       {
-        "hits": "25182",
+        "hits": "25183",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "25182",
+        "hits": "25183",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "25182",
+        "hits": "25183",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "25182",
+        "hits": "25183",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "25182",
+        "hits": "25183",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "25182",
+        "hits": "25183",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "25182",
+        "hits": "25183",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "24832",
+        "hits": "24833",
         "url": "/analytics"
       },
       {
@@ -1783,12 +1804,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "32689"
+        "hits": "32692"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "201232"
+        "hits": "201240"
       }
     ]
   }
