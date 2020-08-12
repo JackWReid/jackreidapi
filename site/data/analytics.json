@@ -10,40 +10,48 @@
         "url": "/index.xml"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/?author=10"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/?author=2"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/?author=3"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/?author=4"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/?author=5"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/?author=6"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/?author=7"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/?author=8"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/?author=9"
+      },
+      {
+        "hits": "2",
+        "url": "/"
+      },
+      {
+        "hits": "2",
+        "url": "/?author=1"
       },
       {
         "hits": "1",
@@ -55,101 +63,93 @@
       },
       {
         "hits": "1",
-        "url": "/"
-      },
-      {
-        "hits": "1",
         "url": "/photo/index.xml"
-      },
-      {
-        "hits": "1",
-        "url": "/?author=1"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/wp-json/wp/v2/users/1"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/wp-json/wp/v2/users/10"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/wp-json/wp/v2/users/2"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/wp-json/wp/v2/users/3"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/wp-json/wp/v2/users/4"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/wp-json/wp/v2/users/5"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/wp-json/wp/v2/users/6"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/wp-json/wp/v2/users/7"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/wp-json/wp/v2/users/8"
       },
       {
-        "hits": "1",
+        "hits": "2",
         "url": "/wp-json/wp/v2/users/9"
       }
     ],
     "topApiHits": [
       {
         "hits": "12",
-        "url": "/analytics"
+        "url": "/pocket?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/films/watched?limit=5000"
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "20"
+        "hits": "31"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "95"
       }
     ]
   },
@@ -169,7 +169,7 @@
       },
       {
         "hits": "24",
-        "url": "/highlight/index.xml"
+        "url": "/note/index.xml"
       },
       {
         "hits": "24",
@@ -177,10 +177,10 @@
       },
       {
         "hits": "24",
-        "url": "/note/index.xml"
+        "url": "/highlight/index.xml"
       },
       {
-        "hits": "17",
+        "hits": "18",
         "url": "/"
       },
       {
@@ -193,11 +193,51 @@
       },
       {
         "hits": "6",
-        "url": "/books/reading/"
+        "url": "/articles/saved/"
       },
       {
         "hits": "6",
-        "url": "/articles/saved/"
+        "url": "/books/reading/"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=5"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=6"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=7"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=8"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=9"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=1"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=10"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=2"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=3"
+      },
+      {
+        "hits": "4",
+        "url": "/?author=4"
       },
       {
         "hits": "4",
@@ -209,23 +249,7 @@
       },
       {
         "hits": "3",
-        "url": "/?author=7"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=8"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=9"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=1"
-      },
-      {
-        "hits": "3",
-        "url": "/admin/"
+        "url": "/books/read/"
       },
       {
         "hits": "3",
@@ -233,35 +257,11 @@
       },
       {
         "hits": "3",
+        "url": "/admin/"
+      },
+      {
+        "hits": "3",
         "url": "/work/"
-      },
-      {
-        "hits": "3",
-        "url": "/books/read/"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=10"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=2"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=3"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=4"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=5"
-      },
-      {
-        "hits": "3",
-        "url": "/?author=6"
       },
       {
         "hits": "2",
@@ -285,10 +285,6 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/oil-derricks-of-la/"
-      },
-      {
-        "hits": "1",
         "url": "/highlight/robert-pattinson/"
       },
       {
@@ -297,7 +293,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/london-bikes-covid/"
+        "url": "/highlight/murakami-translationese/"
       },
       {
         "hits": "1",
@@ -305,7 +301,7 @@
       },
       {
         "hits": "1",
-        "url": "/highlight/larry-kramer-obit/"
+        "url": "/highlight/london-bikes-covid/"
       },
       {
         "hits": "1",
@@ -354,6 +350,10 @@
       {
         "hits": "1",
         "url": "/journal/2020-06-25/"
+      },
+      {
+        "hits": "1",
+        "url": "/journal/2020-07-06/"
       }
     ],
     "topSiteMisses": [
@@ -362,43 +362,43 @@
         "url": "/robots.txt"
       },
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/wp-json/wp/v2/users/1"
       },
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/wp-json/wp/v2/users/10"
       },
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/wp-json/wp/v2/users/2"
       },
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/wp-json/wp/v2/users/3"
       },
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/wp-json/wp/v2/users/4"
       },
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/wp-json/wp/v2/users/6"
       },
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/wp-json/wp/v2/users/7"
       },
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/wp-json/wp/v2/users/8"
       },
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/wp-json/wp/v2/users/9"
       },
       {
-        "hits": "3",
+        "hits": "4",
         "url": "/wp-json/wp/v2/users/5"
       },
       {
@@ -492,12 +492,16 @@
     ],
     "topApiHits": [
       {
-        "hits": "289",
-        "url": "/articles?limit=5000"
+        "hits": "288",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "288",
         "url": "/analytics"
+      },
+      {
+        "hits": "288",
+        "url": "/articles?limit=5000"
       },
       {
         "hits": "288",
@@ -520,22 +524,18 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
         "hits": "3",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "380"
+        "hits": "390"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2308"
+        "hits": "2307"
       }
     ]
   },
@@ -558,7 +558,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "136",
+        "hits": "137",
         "url": "/"
       },
       {
@@ -619,11 +619,11 @@
       },
       {
         "hits": "17",
-        "url": "/rss/"
+        "url": "/post/activist-relief-resources/"
       },
       {
         "hits": "17",
-        "url": "/post/activist-relief-resources/"
+        "url": "/rss/"
       },
       {
         "hits": "13",
@@ -635,10 +635,6 @@
       },
       {
         "hits": "12",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "12",
         "url": "/films/towatch/"
       },
       {
@@ -646,52 +642,56 @@
         "url": "/post/"
       },
       {
+        "hits": "12",
+        "url": "/highlight/"
+      },
+      {
+        "hits": "11",
+        "url": "/?author=3"
+      },
+      {
+        "hits": "11",
+        "url": "/?author=2"
+      },
+      {
+        "hits": "11",
+        "url": "/?author=10"
+      },
+      {
+        "hits": "11",
+        "url": "/?author=1"
+      },
+      {
+        "hits": "11",
+        "url": "/?author=9"
+      },
+      {
+        "hits": "11",
+        "url": "/?author=8"
+      },
+      {
         "hits": "11",
         "url": "/note/"
       },
       {
-        "hits": "10",
-        "url": "/?author=3"
+        "hits": "11",
+        "url": "/?author=7"
       },
       {
-        "hits": "10",
-        "url": "/?author=2"
+        "hits": "11",
+        "url": "/?author=6"
       },
       {
-        "hits": "10",
-        "url": "/?author=10"
+        "hits": "11",
+        "url": "/?author=5"
       },
       {
-        "hits": "10",
-        "url": "/?author=1"
-      },
-      {
-        "hits": "10",
-        "url": "/?author=9"
+        "hits": "11",
+        "url": "/?author=4"
       },
       {
         "hits": "10",
         "url": "/articles/liked/"
-      },
-      {
-        "hits": "10",
-        "url": "/?author=8"
-      },
-      {
-        "hits": "10",
-        "url": "/?author=7"
-      },
-      {
-        "hits": "10",
-        "url": "/?author=6"
-      },
-      {
-        "hits": "10",
-        "url": "/?author=5"
-      },
-      {
-        "hits": "10",
-        "url": "/?author=4"
       },
       {
         "hits": "9",
@@ -749,46 +749,46 @@
       },
       {
         "hits": "11",
-        "url": "/favicon.ico"
-      },
-      {
-        "hits": "10",
         "url": "/wp-json/wp/v2/users/1"
       },
       {
-        "hits": "10",
-        "url": "/wp-json/wp/v2/users/9"
-      },
-      {
-        "hits": "10",
-        "url": "/wp-json/wp/v2/users/5"
-      },
-      {
-        "hits": "10",
-        "url": "/wp-json/wp/v2/users/4"
-      },
-      {
-        "hits": "10",
-        "url": "/wp-json/wp/v2/users/7"
-      },
-      {
-        "hits": "10",
+        "hits": "11",
         "url": "/wp-json/wp/v2/users/6"
       },
       {
-        "hits": "10",
-        "url": "/wp-json/wp/v2/users/8"
+        "hits": "11",
+        "url": "/wp-json/wp/v2/users/9"
       },
       {
-        "hits": "10",
-        "url": "/wp-json/wp/v2/users/3"
+        "hits": "11",
+        "url": "/favicon.ico"
       },
       {
-        "hits": "10",
+        "hits": "11",
+        "url": "/wp-json/wp/v2/users/4"
+      },
+      {
+        "hits": "11",
         "url": "/wp-json/wp/v2/users/2"
       },
       {
-        "hits": "10",
+        "hits": "11",
+        "url": "/wp-json/wp/v2/users/7"
+      },
+      {
+        "hits": "11",
+        "url": "/wp-json/wp/v2/users/8"
+      },
+      {
+        "hits": "11",
+        "url": "/wp-json/wp/v2/users/3"
+      },
+      {
+        "hits": "11",
+        "url": "/wp-json/wp/v2/users/5"
+      },
+      {
+        "hits": "11",
         "url": "/wp-json/wp/v2/users/10"
       },
       {
@@ -950,8 +950,16 @@
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2017",
         "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "2016",
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2016",
@@ -960,14 +968,6 @@
       {
         "hits": "2016",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/books/read?limit=5000"
       },
       {
         "hits": "2016",
@@ -984,12 +984,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2579"
+        "hits": "2590"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16135"
+        "hits": "16136"
       }
     ]
   },
@@ -1012,7 +1012,7 @@
         "url": "/highlight/index.xml"
       },
       {
-        "hits": "418",
+        "hits": "419",
         "url": "/"
       },
       {
@@ -1121,11 +1121,47 @@
       },
       {
         "hits": "37",
+        "url": "/?author=3"
+      },
+      {
+        "hits": "37",
+        "url": "/?author=2"
+      },
+      {
+        "hits": "37",
         "url": "/tags/accessibility/"
       },
       {
-        "hits": "36",
-        "url": "/?author=3"
+        "hits": "37",
+        "url": "/?author=10"
+      },
+      {
+        "hits": "37",
+        "url": "/?author=1"
+      },
+      {
+        "hits": "37",
+        "url": "/?author=9"
+      },
+      {
+        "hits": "37",
+        "url": "/?author=8"
+      },
+      {
+        "hits": "37",
+        "url": "/?author=7"
+      },
+      {
+        "hits": "37",
+        "url": "/?author=6"
+      },
+      {
+        "hits": "37",
+        "url": "/?author=5"
+      },
+      {
+        "hits": "37",
+        "url": "/?author=4"
       },
       {
         "hits": "36",
@@ -1133,43 +1169,7 @@
       },
       {
         "hits": "36",
-        "url": "/?author=2"
-      },
-      {
-        "hits": "36",
-        "url": "/?author=10"
-      },
-      {
-        "hits": "36",
-        "url": "/?author=1"
-      },
-      {
-        "hits": "36",
         "url": "/highlight/murakami-translationese/"
-      },
-      {
-        "hits": "36",
-        "url": "/?author=9"
-      },
-      {
-        "hits": "36",
-        "url": "/?author=8"
-      },
-      {
-        "hits": "36",
-        "url": "/?author=7"
-      },
-      {
-        "hits": "36",
-        "url": "/?author=6"
-      },
-      {
-        "hits": "36",
-        "url": "/?author=5"
-      },
-      {
-        "hits": "36",
-        "url": "/?author=4"
       },
       {
         "hits": "34",
@@ -1206,43 +1206,43 @@
         "url": "/favicon.ico"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/3"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/8"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/6"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/7"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/5"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/2"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/1"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/4"
       },
       {
-        "hits": "35",
+        "hits": "36",
         "url": "/wp-json/wp/v2/users/10"
       },
       {
-        "hits": "35",
+        "hits": "36",
         "url": "/wp-json/wp/v2/users/9"
       },
       {
@@ -1400,32 +1400,32 @@
     ],
     "topApiHits": [
       {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8928",
+        "hits": "8929",
+        "url": "/books/toread?limit=5000"
+      },
+      {
+        "hits": "8929",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8928",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/books/read?limit=5000"
       },
       {
         "hits": "8928",
-        "url": "/books/toread?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "8908",
@@ -1438,12 +1438,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10758"
+        "hits": "10768"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71455"
+        "hits": "71461"
       }
     ]
   },
@@ -1470,7 +1470,7 @@
         "url": "/open-graph.png"
       },
       {
-        "hits": "1412",
+        "hits": "1413",
         "url": "/"
       },
       {
@@ -1591,11 +1591,11 @@
       },
       {
         "hits": "92",
-        "url": "/tags/accessibility/"
+        "url": "/highlight/snowden-gellman/"
       },
       {
         "hits": "92",
-        "url": "/highlight/snowden-gellman/"
+        "url": "/tags/accessibility/"
       },
       {
         "hits": "89",
@@ -1611,11 +1611,11 @@
       },
       {
         "hits": "84",
-        "url": "/books/toread/"
+        "url": "/highlight/reading-in-the-dark/"
       },
       {
         "hits": "84",
-        "url": "/highlight/reading-in-the-dark/"
+        "url": "/books/toread/"
       },
       {
         "hits": "82",
@@ -1676,43 +1676,43 @@
         "url": "/xmlrpc.php"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/5"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/1"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/3"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/7"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/8"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/2"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/6"
       },
       {
-        "hits": "36",
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/4"
       },
       {
-        "hits": "35",
+        "hits": "36",
         "url": "/wp-json/wp/v2/users/10"
       },
       {
-        "hits": "35",
+        "hits": "36",
         "url": "/wp-json/wp/v2/users/9"
       },
       {
@@ -1854,35 +1854,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "25321",
+        "hits": "25322",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "25321",
+        "hits": "25322",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "25321",
+        "hits": "25322",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "25321",
+        "hits": "25322",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "25321",
+        "hits": "25322",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "25321",
+        "hits": "25322",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "25321",
+        "hits": "25322",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "24970",
+        "hits": "24971",
         "url": "/analytics"
       },
       {
@@ -1900,12 +1900,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "32858"
+        "hits": "32869"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "202344"
+        "hits": "202352"
       }
     ]
   }
