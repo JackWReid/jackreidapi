@@ -14,10 +14,6 @@
         "url": "/"
       },
       {
-        "hits": "2",
-        "url": "/articles/saved/"
-      },
-      {
         "hits": "1",
         "url": "/highlight/britain-covid-mctague/"
       },
@@ -61,7 +57,7 @@
     "topSiteMisses": [
       {
         "hits": "1",
-        "url": "/note/rise-of-the-blur"
+        "url": "/tags/medicine/"
       }
     ],
     "topApiHits": [
@@ -70,12 +66,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -95,24 +91,24 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "25"
+        "hits": "23"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "73",
+        "hits": "72",
         "url": "/index.xml"
       },
       {
@@ -319,10 +315,6 @@
       },
       {
         "hits": "3",
-        "url": "/favicon.ico"
-      },
-      {
-        "hits": "3",
         "url": "/wp-json/wp/v2/users/1"
       },
       {
@@ -356,6 +348,10 @@
       {
         "hits": "3",
         "url": "/wp-json/wp/v2/users/8"
+      },
+      {
+        "hits": "3",
+        "url": "/favicon.ico"
       },
       {
         "hits": "3",
@@ -404,6 +400,10 @@
       {
         "hits": "1",
         "url": "/tags/corona"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/medicine/"
       },
       {
         "hits": "1",
@@ -469,15 +469,19 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -493,11 +497,7 @@
       },
       {
         "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/analytics"
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "1",
@@ -506,19 +506,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "334"
+        "hits": "333"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2298"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "425",
+        "hits": "424",
         "url": "/index.xml"
       },
       {
@@ -729,27 +729,7 @@
       },
       {
         "hits": "10",
-        "url": "/wp-json/wp/v2/users/10"
-      },
-      {
-        "hits": "10",
-        "url": "/wp-json/wp/v2/users/9"
-      },
-      {
-        "hits": "10",
         "url": "/wp-json/wp/v2/users/2"
-      },
-      {
-        "hits": "10",
-        "url": "/wp-json/wp/v2/users/7"
-      },
-      {
-        "hits": "10",
-        "url": "/wp-json/wp/v2/users/1"
-      },
-      {
-        "hits": "10",
-        "url": "/wp-json/wp/v2/users/3"
       },
       {
         "hits": "10",
@@ -761,11 +741,31 @@
       },
       {
         "hits": "10",
+        "url": "/wp-json/wp/v2/users/6"
+      },
+      {
+        "hits": "10",
+        "url": "/wp-json/wp/v2/users/1"
+      },
+      {
+        "hits": "10",
+        "url": "/wp-json/wp/v2/users/7"
+      },
+      {
+        "hits": "10",
+        "url": "/wp-json/wp/v2/users/9"
+      },
+      {
+        "hits": "10",
         "url": "/wp-json/wp/v2/users/4"
       },
       {
         "hits": "10",
-        "url": "/wp-json/wp/v2/users/6"
+        "url": "/wp-json/wp/v2/users/3"
+      },
+      {
+        "hits": "10",
+        "url": "/wp-json/wp/v2/users/10"
       },
       {
         "hits": "6",
@@ -777,11 +777,7 @@
       },
       {
         "hits": "2",
-        "url": "/photo/ben-nevis"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-04-16-google-hire-freeze"
+        "url": "/wp-config.php.bak"
       },
       {
         "hits": "2",
@@ -789,7 +785,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/there-is-so-swing-voter"
+        "url": "/note/2020-04-16-google-hire-freeze"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/ben-nevis"
       },
       {
         "hits": "2",
@@ -801,7 +801,7 @@
       },
       {
         "hits": "2",
-        "url": "/wp-admin/"
+        "url": "/.well-known/assetlinks.json"
       },
       {
         "hits": "2",
@@ -809,11 +809,11 @@
       },
       {
         "hits": "2",
-        "url": "/.well-known/assetlinks.json"
+        "url": "/tags/video"
       },
       {
         "hits": "2",
-        "url": "/wp-config.php.bak"
+        "url": "/wp-admin/"
       },
       {
         "hits": "2",
@@ -857,7 +857,11 @@
       },
       {
         "hits": "2",
-        "url": "/tags/video"
+        "url": "/tags/medicine/"
+      },
+      {
+        "hits": "2",
+        "url": "/note/there-is-so-swing-voter"
       },
       {
         "hits": "1",
@@ -897,6 +901,10 @@
       },
       {
         "hits": "1",
+        "url": "/note/iran-nuclear-era"
+      },
+      {
+        "hits": "1",
         "url": "/note/aristophanes-wasps"
       },
       {
@@ -910,43 +918,35 @@
       {
         "hits": "1",
         "url": "/note/academie-francaise"
-      },
-      {
-        "hits": "1",
-        "url": "/note/iran-nuclear-era"
-      },
-      {
-        "hits": "1",
-        "url": "/humans.txt"
       }
     ],
     "topApiHits": [
       {
-        "hits": "2016",
+        "hits": "2017",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2017",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2017",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2017",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2017",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2017",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2017",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -960,19 +960,19 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2396"
+        "hits": "2395"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16135"
+        "hits": "16142"
       }
     ]
   },
   "month": {
     "topSiteHits": [
       {
-        "hits": "1713",
+        "hits": "1712",
         "url": "/index.xml"
       },
       {
@@ -1191,19 +1191,19 @@
       },
       {
         "hits": "37",
-        "url": "/wp-json/wp/v2/users/4"
-      },
-      {
-        "hits": "37",
         "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "37",
-        "url": "/wp-json/wp/v2/users/7"
+        "url": "/wp-json/wp/v2/users/8"
       },
       {
         "hits": "37",
-        "url": "/wp-json/wp/v2/users/8"
+        "url": "/wp-json/wp/v2/users/4"
+      },
+      {
+        "hits": "37",
+        "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "37",
@@ -1295,15 +1295,15 @@
       },
       {
         "hits": "5",
+        "url": "/tags/video"
+      },
+      {
+        "hits": "5",
         "url": "/apple-touch-icon-precomposed.png"
       },
       {
         "hits": "5",
         "url": "/note/precariously-balanced-rocks/"
-      },
-      {
-        "hits": "5",
-        "url": "/wordpress/wp-admin/"
       },
       {
         "hits": "5",
@@ -1327,11 +1327,11 @@
       },
       {
         "hits": "5",
-        "url": "/tags/video"
+        "url": "/tags/medicine/"
       },
       {
         "hits": "5",
-        "url": "/wp-admin/"
+        "url": "/wordpress/wp-admin/"
       },
       {
         "hits": "5",
@@ -1376,32 +1376,32 @@
     ],
     "topApiHits": [
       {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8928",
+        "hits": "8929",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "8929",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "8929",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/films/watched?limit=5000"
       },
       {
         "hits": "8928",
-        "url": "/articles?limit=5000"
+        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "8928",
         "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "8928",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "8928",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "8908",
@@ -1414,12 +1414,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10784"
+        "hits": "10782"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71455"
+        "hits": "71460"
       }
     ]
   },
@@ -1653,23 +1653,11 @@
       },
       {
         "hits": "37",
-        "url": "/wp-json/wp/v2/users/4"
-      },
-      {
-        "hits": "37",
-        "url": "/wp-json/wp/v2/users/3"
-      },
-      {
-        "hits": "37",
-        "url": "/wp-json/wp/v2/users/7"
+        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "37",
         "url": "/wp-json/wp/v2/users/8"
-      },
-      {
-        "hits": "37",
-        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "37",
@@ -1681,7 +1669,19 @@
       },
       {
         "hits": "37",
+        "url": "/wp-json/wp/v2/users/3"
+      },
+      {
+        "hits": "37",
+        "url": "/wp-json/wp/v2/users/7"
+      },
+      {
+        "hits": "37",
         "url": "/wp-json/wp/v2/users/6"
+      },
+      {
+        "hits": "37",
+        "url": "/wp-json/wp/v2/users/4"
       },
       {
         "hits": "36",
@@ -1721,11 +1721,11 @@
       },
       {
         "hits": "19",
-        "url": "/jackreid.xyz/css/style.css"
+        "url": "/note/there-is-so-swing-voter/"
       },
       {
         "hits": "19",
-        "url": "/note/there-is-so-swing-voter/"
+        "url": "/jackreid.xyz/css/style.css"
       },
       {
         "hits": "19",
@@ -1784,6 +1784,10 @@
         "url": "/note/coronavirus-central-lockdown/"
       },
       {
+        "hits": "17",
+        "url": "/tags/medicine/"
+      },
+      {
         "hits": "16",
         "url": "/note/2010-lists/"
       },
@@ -1802,10 +1806,6 @@
       {
         "hits": "16",
         "url": "/note/duchy-of-cornwall/"
-      },
-      {
-        "hits": "16",
-        "url": "/tags/medicine/"
       },
       {
         "hits": "15",
@@ -1830,35 +1830,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "25411",
+        "hits": "25412",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "25411",
+        "hits": "25412",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "25411",
+        "hits": "25412",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "25411",
+        "hits": "25412",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "25411",
+        "hits": "25412",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "25411",
+        "hits": "25412",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "25411",
+        "hits": "25412",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "25060",
+        "hits": "25061",
         "url": "/analytics"
       },
       {
@@ -1881,7 +1881,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "203064"
+        "hits": "203072"
       }
     ]
   }
