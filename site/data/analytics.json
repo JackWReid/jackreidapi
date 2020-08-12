@@ -42,7 +42,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
@@ -77,14 +77,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "89"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "71",
+        "hits": "70",
         "url": "/index.xml"
       },
       {
@@ -93,19 +93,19 @@
       },
       {
         "hits": "27",
-        "url": "/highlight/rich-covid-sharing/"
-      },
-      {
-        "hits": "27",
         "url": "/open-graph.png"
       },
       {
-        "hits": "24",
-        "url": "/note/index.xml"
+        "hits": "27",
+        "url": "/highlight/rich-covid-sharing/"
       },
       {
         "hits": "24",
         "url": "/photo/index.xml"
+      },
+      {
+        "hits": "24",
+        "url": "/note/index.xml"
       },
       {
         "hits": "24",
@@ -125,7 +125,11 @@
       },
       {
         "hits": "5",
-        "url": "/work/"
+        "url": "/?author=4"
+      },
+      {
+        "hits": "5",
+        "url": "/?author=5"
       },
       {
         "hits": "5",
@@ -165,11 +169,7 @@
       },
       {
         "hits": "5",
-        "url": "/?author=4"
-      },
-      {
-        "hits": "5",
-        "url": "/?author=5"
+        "url": "/work/"
       },
       {
         "hits": "4",
@@ -177,11 +177,15 @@
       },
       {
         "hits": "3",
-        "url": "/highlight/chat-roulette-quar/"
+        "url": "/admin/"
       },
       {
         "hits": "3",
-        "url": "/admin/"
+        "url": "/highlight/chat-roulette-quar/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/bread-farmers/"
       },
       {
         "hits": "2",
@@ -193,15 +197,11 @@
       },
       {
         "hits": "2",
-        "url": "/post/"
-      },
-      {
-        "hits": "2",
         "url": "/post/2020-08-12-mull-scraps/"
       },
       {
         "hits": "2",
-        "url": "/journal/2020-07-06/"
+        "url": "/post/"
       },
       {
         "hits": "2",
@@ -209,7 +209,11 @@
       },
       {
         "hits": "2",
-        "url": "/highlight/"
+        "url": "/books/reading/"
+      },
+      {
+        "hits": "2",
+        "url": "/journal/2020-07-06/"
       },
       {
         "hits": "2",
@@ -217,15 +221,7 @@
       },
       {
         "hits": "2",
-        "url": "/books/reading/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/bread-farmers/"
-      },
-      {
-        "hits": "1",
-        "url": "/link/2020-08-12t16-00-00/"
+        "url": "/highlight/"
       },
       {
         "hits": "1",
@@ -282,11 +278,15 @@
       {
         "hits": "1",
         "url": "/tags/history/page/2/"
+      },
+      {
+        "hits": "1",
+        "url": "/tags/lgbtq/"
       }
     ],
     "topSiteMisses": [
       {
-        "hits": "40",
+        "hits": "39",
         "url": "/robots.txt"
       },
       {
@@ -444,16 +444,24 @@
     ],
     "topApiHits": [
       {
-        "hits": "288",
+        "hits": "287",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "288",
+        "hits": "287",
+        "url": "/analytics"
+      },
+      {
+        "hits": "287",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "287",
         "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
       },
       {
         "hits": "287",
@@ -468,26 +476,18 @@
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/analytics"
-      },
-      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "408"
+        "hits": "406"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2299"
+        "hits": "2297"
       }
     ]
   },
@@ -898,6 +898,10 @@
     ],
     "topApiHits": [
       {
+        "hits": "2017",
+        "url": "/articles?limit=5000"
+      },
+      {
         "hits": "2016",
         "url": "/pocket?limit=5000"
       },
@@ -908,10 +912,6 @@
       {
         "hits": "2016",
         "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/articles?limit=5000"
       },
       {
         "hits": "2016",
@@ -941,7 +941,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16135"
+        "hits": "16136"
       }
     ]
   },
@@ -1806,35 +1806,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "25478",
+        "hits": "25479",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "25478",
+        "hits": "25479",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "25478",
+        "hits": "25479",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "25478",
+        "hits": "25479",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "25478",
+        "hits": "25479",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "25478",
+        "hits": "25479",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "25478",
+        "hits": "25479",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "25127",
+        "hits": "25128",
         "url": "/analytics"
       },
       {
@@ -1857,7 +1857,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "203600"
+        "hits": "203608"
       }
     ]
   }
