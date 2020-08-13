@@ -7,6 +7,8 @@ tags:
   - scraps
 ---
 
+{{< figure src="/img/lomond-banks.jpg" caption="Loch Lomond, which is not on the Isle of Mull" >}}
+
 A few weeks ago I went camping in Scotland. Below are some scraps I wrote down while I was on the Isle of Mull.
 
 ---
