@@ -46,9 +46,11 @@ Of course the Docker host gets very little strain because the API gets about .5r
 
 This API allows me to call up the books I’m currently reading according to Goodreads:
 
+
 ```
 GET https://api.jackreid.xyz/books/reading
-
+```
+{{< highlight json >}}
 [
   {
     "title": "Love of Country: A Hebridean Journey",
@@ -61,13 +63,13 @@ GET https://api.jackreid.xyz/books/reading
     "date_updated": "2020-04-16T05:06:51.000Z"
   }
 ]
-```
+{{< /highlight >}}
 
 ## Updating the website
 
 Because [this website](https://github.com/JackWReid/jackreid.xyz "this website") is static, it won’t automatically call the API it renders a page. That’s good, because it means it can be nice and fast, but it means if I want it to show the latest in what I’m reading on the homepage I’ll have to regularly check for changes and re-build the site.
 
-```
+{{< highlight bash >}}
 echo "[$(date)] Starting book and film data update"
 git checkout -f;
 git pull origin master;
@@ -91,7 +93,7 @@ else
 	echo "[$(date)] Changes found"
 	git add . && git commit -m "[$(date)] Updated media data files" && git push origin master;
 fi
-```
+{{< /highlight >}}
 
 The DigitalOcean droplet also has a clone of my website repo. A cron job regularly runs [the above script](https://github.com/JackWReid/jackreid.xyz/blob/master/scripts/update_media.sh "the above script") and calls all the relevant endpoints in my personal API, outputting the results into the `/data` directory of the Hugo site. If anything’s changed, it commits the updates to the data and pushes them so the updated version deploys. If not, do nothing.
 
