@@ -42,12 +42,12 @@
         "url": "/analytics"
       },
       {
-        "hits": "11",
+        "hits": "12",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "11",
-        "url": "/books/reading?limit=5000"
+        "hits": "12",
+        "url": "/pocket?limit=5000"
       },
       {
         "hits": "11",
@@ -67,7 +67,7 @@
       },
       {
         "hits": "11",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       }
     ],
     "totalSiteHits": [
@@ -77,7 +77,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "89"
+        "hits": "91"
       }
     ]
   },
@@ -291,35 +291,7 @@
       },
       {
         "hits": "4",
-        "url": "/wp-json/wp/v2/users/1"
-      },
-      {
-        "hits": "4",
-        "url": "/wp-json/wp/v2/users/10"
-      },
-      {
-        "hits": "4",
-        "url": "/wp-json/wp/v2/users/2"
-      },
-      {
-        "hits": "4",
-        "url": "/wp-json/wp/v2/users/3"
-      },
-      {
-        "hits": "4",
-        "url": "/wp-json/wp/v2/users/4"
-      },
-      {
-        "hits": "4",
-        "url": "/wp-json/wp/v2/users/5"
-      },
-      {
-        "hits": "4",
-        "url": "/wp-json/wp/v2/users/6"
-      },
-      {
-        "hits": "4",
-        "url": "/wp-json/wp/v2/users/7"
+        "url": "/wp-json/wp/v2/users/9"
       },
       {
         "hits": "4",
@@ -327,15 +299,39 @@
       },
       {
         "hits": "4",
-        "url": "/wp-json/wp/v2/users/9"
+        "url": "/wp-json/wp/v2/users/7"
+      },
+      {
+        "hits": "4",
+        "url": "/wp-json/wp/v2/users/6"
+      },
+      {
+        "hits": "4",
+        "url": "/wp-json/wp/v2/users/5"
+      },
+      {
+        "hits": "4",
+        "url": "/wp-json/wp/v2/users/4"
+      },
+      {
+        "hits": "4",
+        "url": "/wp-json/wp/v2/users/3"
+      },
+      {
+        "hits": "4",
+        "url": "/wp-json/wp/v2/users/2"
+      },
+      {
+        "hits": "4",
+        "url": "/wp-json/wp/v2/users/10"
+      },
+      {
+        "hits": "4",
+        "url": "/wp-json/wp/v2/users/1"
       },
       {
         "hits": "2",
         "url": "/favicon.ico"
-      },
-      {
-        "hits": "1",
-        "url": "/note/tools-i-wish-existed/"
       },
       {
         "hits": "1",
@@ -355,6 +351,10 @@
       },
       {
         "hits": "1",
+        "url": "/note/tools-i-wish-existed/"
+      },
+      {
+        "hits": "1",
         "url": "/tags/bestof"
       },
       {
@@ -371,43 +371,7 @@
       },
       {
         "hits": "1",
-        "url": "/wp-login.php"
-      },
-      {
-        "hits": "1",
-        "url": "/note/2020-02-24-kanye-out-west"
-      },
-      {
-        "hits": "1",
-        "url": "/note/coronavirus-central-lockdown/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/files-going-extinct/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/google-maps-hacks/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/iranian-shootdown-coverup/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/jacob-rees-mogg"
-      },
-      {
-        "hits": "1",
-        "url": "/note/low-tech-election-iowa/"
-      },
-      {
-        "hits": "1",
-        "url": "/note/plath-vs-hughes"
-      },
-      {
-        "hits": "1",
-        "url": "/note/rise-of-the-blur"
+        "url": "/note/there-is-so-swing-voter"
       },
       {
         "hits": "1",
@@ -415,41 +379,73 @@
       },
       {
         "hits": "1",
-        "url": "/note/there-is-so-swing-voter"
+        "url": "/note/rise-of-the-blur"
+      },
+      {
+        "hits": "1",
+        "url": "/note/plath-vs-hughes"
+      },
+      {
+        "hits": "1",
+        "url": "/note/low-tech-election-iowa/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/jacob-rees-mogg"
+      },
+      {
+        "hits": "1",
+        "url": "/note/google-maps-hacks/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/files-going-extinct/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/coronavirus-central-lockdown/"
+      },
+      {
+        "hits": "1",
+        "url": "/note/2020-02-24-kanye-out-west"
+      },
+      {
+        "hits": "1",
+        "url": "/wp-login.php"
       }
     ],
     "topApiHits": [
       {
         "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/analytics"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "287",
-        "url": "/books/reading?limit=5000"
+        "hits": "288",
+        "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
+        "url": "/films/watched?limit=5000"
+      },
+      {
+        "hits": "288",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "287",
+        "hits": "288",
         "url": "/books/toread?limit=5000"
       },
       {
         "hits": "287",
-        "url": "/films/towatch?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/films/watched?limit=5000"
-      },
-      {
-        "hits": "287",
-        "url": "/pocket?limit=5000"
+        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "1",
@@ -463,14 +459,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "2298"
+        "hits": "2304"
       }
     ]
   },
   "week": {
     "topSiteHits": [
       {
-        "hits": "433",
+        "hits": "432",
         "url": "/index.xml"
       },
       {
@@ -681,15 +677,11 @@
       },
       {
         "hits": "11",
-        "url": "/wp-json/wp/v2/users/1"
+        "url": "/wp-json/wp/v2/users/9"
       },
       {
         "hits": "11",
-        "url": "/wp-json/wp/v2/users/6"
-      },
-      {
-        "hits": "11",
-        "url": "/wp-json/wp/v2/users/8"
+        "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "11",
@@ -701,15 +693,19 @@
       },
       {
         "hits": "11",
+        "url": "/wp-json/wp/v2/users/1"
+      },
+      {
+        "hits": "11",
         "url": "/wp-json/wp/v2/users/2"
       },
       {
         "hits": "11",
-        "url": "/wp-json/wp/v2/users/7"
+        "url": "/wp-json/wp/v2/users/8"
       },
       {
         "hits": "11",
-        "url": "/wp-json/wp/v2/users/5"
+        "url": "/wp-json/wp/v2/users/6"
       },
       {
         "hits": "11",
@@ -717,7 +713,7 @@
       },
       {
         "hits": "11",
-        "url": "/wp-json/wp/v2/users/9"
+        "url": "/wp-json/wp/v2/users/5"
       },
       {
         "hits": "5",
@@ -725,7 +721,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/google-maps-hacks/"
+        "url": "/tags/corona"
       },
       {
         "hits": "2",
@@ -733,7 +729,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/bestof"
+        "url": "/note/files-going-extinct/"
       },
       {
         "hits": "2",
@@ -741,7 +737,7 @@
       },
       {
         "hits": "2",
-        "url": "/note/files-going-extinct/"
+        "url": "/sw.js"
       },
       {
         "hits": "2",
@@ -749,23 +745,7 @@
       },
       {
         "hits": "2",
-        "url": "/tags/video"
-      },
-      {
-        "hits": "2",
-        "url": "/tags/corona"
-      },
-      {
-        "hits": "2",
         "url": "/wp-config.php.bak"
-      },
-      {
-        "hits": "2",
-        "url": "/note/2020-02-24-kanye-out-west"
-      },
-      {
-        "hits": "2",
-        "url": "/sw.js"
       },
       {
         "hits": "2",
@@ -773,15 +753,31 @@
       },
       {
         "hits": "2",
-        "url": "/note/willard-maps-of-time/"
+        "url": "/note/google-maps-hacks/"
       },
       {
         "hits": "2",
-        "url": "/note/there-is-so-swing-voter"
+        "url": "/note/2020-02-24-kanye-out-west"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/bestof"
+      },
+      {
+        "hits": "2",
+        "url": "/tags/video"
       },
       {
         "hits": "2",
         "url": "/photo/ben-nevis"
+      },
+      {
+        "hits": "2",
+        "url": "/note/tools-i-wish-existed/"
+      },
+      {
+        "hits": "2",
+        "url": "/photo/loch-lomond"
       },
       {
         "hits": "2",
@@ -809,15 +805,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/the-great-regression"
-      },
-      {
-        "hits": "2",
         "url": "/note/the-markup-launch"
       },
       {
         "hits": "2",
-        "url": "/note/tools-i-wish-existed/"
+        "url": "/note/there-is-so-swing-voter"
       },
       {
         "hits": "2",
@@ -825,11 +817,11 @@
       },
       {
         "hits": "2",
-        "url": "/note/precariously-balanced-rocks/"
+        "url": "/note/willard-maps-of-time/"
       },
       {
         "hits": "2",
-        "url": "/photo/loch-lomond"
+        "url": "/note/precariously-balanced-rocks/"
       },
       {
         "hits": "1",
@@ -870,35 +862,39 @@
       {
         "hits": "1",
         "url": "/note/iran-nuclear-era"
+      },
+      {
+        "hits": "1",
+        "url": "/note/aristophanes-wasps"
       }
     ],
     "topApiHits": [
       {
         "hits": "2017",
-        "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "2016",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2017",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2017",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2017",
+        "url": "/articles?limit=5000"
+      },
+      {
+        "hits": "2017",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2017",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2016",
+        "hits": "2017",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -912,12 +908,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "2438"
+        "hits": "2437"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "16138"
+        "hits": "16144"
       }
     ]
   },
@@ -964,7 +960,7 @@
         "url": "/work/"
       },
       {
-        "hits": "68",
+        "hits": "67",
         "url": "/post/activist-relief-resources/"
       },
       {
@@ -1328,31 +1324,31 @@
     ],
     "topApiHits": [
       {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "8928",
+        "hits": "8929",
         "url": "/books/toread?limit=5000"
       },
       {
@@ -1366,12 +1362,12 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10831"
+        "hits": "10830"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "71454"
+        "hits": "71461"
       }
     ]
   },
@@ -1782,35 +1778,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "25558",
+        "hits": "25559",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "25558",
+        "hits": "25559",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "25558",
+        "hits": "25559",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "25558",
+        "hits": "25559",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "25558",
+        "hits": "25559",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "25558",
+        "hits": "25559",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "25558",
+        "hits": "25559",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "25207",
+        "hits": "25208",
         "url": "/analytics"
       },
       {
@@ -1833,7 +1829,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "204241"
+        "hits": "204249"
       }
     ]
   }
