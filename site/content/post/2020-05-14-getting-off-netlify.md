@@ -7,6 +7,7 @@ draft: false
 tags:
   - dev
 ---
+
 I wanted to quickly follow up to [my recent post](/post/how-this-site-works/) about personal infrastructure with some updates I made this week.
 
 ## Why the change
