@@ -82,6 +82,11 @@ figure {
   margin: 2rem 0;
 }
 
+figure img {
+  display: block;
+  width: 100%;
+}
+
 figcaption {
   font-style: italic;
 }
