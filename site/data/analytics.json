@@ -46,7 +46,7 @@
         "url": "/analytics"
       },
       {
-        "hits": "12",
+        "hits": "11",
         "url": "/articles?limit=5000"
       },
       {
@@ -81,14 +81,14 @@
     ],
     "totalApiHits": [
       {
-        "hits": "90"
+        "hits": "89"
       }
     ]
   },
   "day": {
     "topSiteHits": [
       {
-        "hits": "69",
+        "hits": "68",
         "url": "/index.xml"
       },
       {
@@ -112,7 +112,7 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "23",
+        "hits": "22",
         "url": "/open-graph.png"
       },
       {
@@ -177,11 +177,19 @@
       },
       {
         "hits": "3",
-        "url": "/admin/"
+        "url": "/books/toread/"
       },
       {
         "hits": "3",
-        "url": "/books/toread/"
+        "url": "/admin/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/remote-sucks/"
+      },
+      {
+        "hits": "2",
+        "url": "/highlight/"
       },
       {
         "hits": "2",
@@ -190,14 +198,6 @@
       {
         "hits": "2",
         "url": "/note/place-non-place/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/"
-      },
-      {
-        "hits": "2",
-        "url": "/highlight/remote-sucks/"
       },
       {
         "hits": "2",
@@ -214,10 +214,6 @@
       {
         "hits": "1",
         "url": "/highlight/robert-pattinson/"
-      },
-      {
-        "hits": "1",
-        "url": "/highlight/tfl-streetspace/"
       },
       {
         "hits": "1",
@@ -286,6 +282,10 @@
       {
         "hits": "1",
         "url": "/post/activist-relief-resources/"
+      },
+      {
+        "hits": "1",
+        "url": "/rss/"
       }
     ],
     "topSiteMisses": [
@@ -429,27 +429,7 @@
     "topApiHits": [
       {
         "hits": "288",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/analytics"
-      },
-      {
-        "hits": "288",
         "url": "/articles?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/reading?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/read?limit=5000"
-      },
-      {
-        "hits": "288",
-        "url": "/books/toread?limit=5000"
       },
       {
         "hits": "288",
@@ -460,18 +440,38 @@
         "url": "/films/watched?limit=5000"
       },
       {
+        "hits": "288",
+        "url": "/analytics"
+      },
+      {
+        "hits": "288",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/read?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "287",
+        "url": "/books/toread?limit=5000"
+      },
+      {
         "hits": "1",
         "url": "/"
       }
     ],
     "totalSiteHits": [
       {
-        "hits": "346"
+        "hits": "343"
       }
     ],
     "totalApiHits": [
       {
-        "hits": "2305"
+        "hits": "2302"
       }
     ]
   },
@@ -883,31 +883,31 @@
     "topApiHits": [
       {
         "hits": "2017",
-        "url": "/pocket?limit=5000"
-      },
-      {
-        "hits": "2017",
         "url": "/articles?limit=5000"
       },
       {
         "hits": "2017",
+        "url": "/pocket?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "2017",
+        "hits": "2016",
+        "url": "/books/reading?limit=5000"
+      },
+      {
+        "hits": "2016",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "2017",
+        "hits": "2016",
         "url": "/films/watched?limit=5000"
       },
       {
         "hits": "2016",
         "url": "/books/toread?limit=5000"
-      },
-      {
-        "hits": "2016",
-        "url": "/books/reading?limit=5000"
       },
       {
         "hits": "2010",
@@ -925,7 +925,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "16142"
+        "hits": "16139"
       }
     ]
   },
@@ -948,7 +948,7 @@
         "url": "/photo/index.xml"
       },
       {
-        "hits": "424",
+        "hits": "423",
         "url": "/"
       },
       {
@@ -1138,20 +1138,12 @@
         "url": "/robots.txt"
       },
       {
-        "hits": "44",
+        "hits": "43",
         "url": "/favicon.ico"
       },
       {
         "hits": "39",
-        "url": "/wp-json/wp/v2/users/2"
-      },
-      {
-        "hits": "39",
-        "url": "/wp-json/wp/v2/users/3"
-      },
-      {
-        "hits": "39",
-        "url": "/wp-json/wp/v2/users/4"
+        "url": "/wp-json/wp/v2/users/1"
       },
       {
         "hits": "39",
@@ -1159,7 +1151,11 @@
       },
       {
         "hits": "39",
-        "url": "/wp-json/wp/v2/users/7"
+        "url": "/wp-json/wp/v2/users/8"
+      },
+      {
+        "hits": "39",
+        "url": "/wp-json/wp/v2/users/2"
       },
       {
         "hits": "39",
@@ -1167,11 +1163,15 @@
       },
       {
         "hits": "39",
-        "url": "/wp-json/wp/v2/users/8"
+        "url": "/wp-json/wp/v2/users/7"
       },
       {
         "hits": "39",
-        "url": "/wp-json/wp/v2/users/1"
+        "url": "/wp-json/wp/v2/users/4"
+      },
+      {
+        "hits": "39",
+        "url": "/wp-json/wp/v2/users/3"
       },
       {
         "hits": "38",
@@ -1215,10 +1215,6 @@
       },
       {
         "hits": "6",
-        "url": "/note/plath-vs-hughes"
-      },
-      {
-        "hits": "6",
         "url": "/note/flights"
       },
       {
@@ -1231,11 +1227,7 @@
       },
       {
         "hits": "6",
-        "url": "/note/corona-crisis-18-months"
-      },
-      {
-        "hits": "6",
-        "url": "/note/there-is-so-swing-voter"
+        "url": "/note/2020-04-16-google-hire-freeze"
       },
       {
         "hits": "6",
@@ -1243,7 +1235,11 @@
       },
       {
         "hits": "6",
-        "url": "/note/low-tech-election-iowa/"
+        "url": "/note/there-is-so-swing-voter"
+      },
+      {
+        "hits": "6",
+        "url": "/note/corona-crisis-18-months"
       },
       {
         "hits": "6",
@@ -1251,7 +1247,15 @@
       },
       {
         "hits": "6",
-        "url": "/note/willard-maps-of-time"
+        "url": "/tags/medicine/"
+      },
+      {
+        "hits": "6",
+        "url": "/note/plath-vs-hughes"
+      },
+      {
+        "hits": "6",
+        "url": "/note/low-tech-election-iowa/"
       },
       {
         "hits": "6",
@@ -1259,11 +1263,7 @@
       },
       {
         "hits": "6",
-        "url": "/note/2020-04-16-google-hire-freeze"
-      },
-      {
-        "hits": "6",
-        "url": "/tags/medicine/"
+        "url": "/note/willard-maps-of-time"
       },
       {
         "hits": "5",
@@ -1271,7 +1271,11 @@
       },
       {
         "hits": "5",
-        "url": "/tags/article"
+        "url": "/tags/bestof"
+      },
+      {
+        "hits": "5",
+        "url": "/note/jacob-rees-mogg"
       },
       {
         "hits": "5",
@@ -1279,7 +1283,7 @@
       },
       {
         "hits": "5",
-        "url": "/tags/bestof"
+        "url": "/tags/article"
       },
       {
         "hits": "5",
@@ -1319,7 +1323,7 @@
       },
       {
         "hits": "5",
-        "url": "/note/low-tech-election-iowa"
+        "url": "/note/senate-impeachment-hamilton"
       },
       {
         "hits": "5",
@@ -1328,10 +1332,6 @@
       {
         "hits": "5",
         "url": "/humans.txt"
-      },
-      {
-        "hits": "5",
-        "url": "/note/the-markup-launch"
       }
     ],
     "topApiHits": [
@@ -1374,7 +1374,7 @@
     ],
     "totalSiteHits": [
       {
-        "hits": "10753"
+        "hits": "10752"
       }
     ],
     "totalApiHits": [
@@ -1790,35 +1790,35 @@
     ],
     "topApiHits": [
       {
-        "hits": "25590",
+        "hits": "25591",
         "url": "/pocket?limit=5000"
       },
       {
-        "hits": "25590",
+        "hits": "25591",
         "url": "/books/read?limit=5000"
       },
       {
-        "hits": "25590",
+        "hits": "25591",
         "url": "/books/toread?limit=5000"
       },
       {
-        "hits": "25590",
+        "hits": "25591",
         "url": "/films/towatch?limit=5000"
       },
       {
-        "hits": "25590",
+        "hits": "25591",
         "url": "/films/watched?limit=5000"
       },
       {
-        "hits": "25590",
+        "hits": "25591",
         "url": "/articles?limit=5000"
       },
       {
-        "hits": "25590",
+        "hits": "25591",
         "url": "/books/reading?limit=5000"
       },
       {
-        "hits": "25239",
+        "hits": "25240",
         "url": "/analytics"
       },
       {
@@ -1841,7 +1841,7 @@
     ],
     "totalApiHits": [
       {
-        "hits": "204497"
+        "hits": "204505"
       }
     ]
   }
