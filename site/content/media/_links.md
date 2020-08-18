@@ -37,3 +37,4 @@ Here's where I keep track of interesting links that I might come back to much, m
 ## History
 - [Pamphlets About Police Violence](https://policeviolence.wordpress.com/historical-moments/)
 - [How Your History Gets Made](https://acoup.blog/2020/07/09/collections-how-your-history-gets-made/)
+- [Cookbooks and Home Economics](https://archive.org/details/cbk) - Internet Archive of historical cookbooks
