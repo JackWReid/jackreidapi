@@ -7,7 +7,7 @@ tags:
   - scraps
 ---
 
-{{< figure src="/img/lomond-banks.jpg" caption="Loch Lomond, which is not on the Isle of Mull" alt="Clouds partially obscure a mountainside covered in fir trees" >}}
+{{< figure src="/img/machair.jpg" caption="Machair behind the dunes at Salen Bay, Mull" alt="Rivulets cut up boggy and verdant ground at dusk" >}}
 
 A few weeks ago I went camping in Scotland. Below are some scraps I wrote down while I was on the Isle of Mull.
 
