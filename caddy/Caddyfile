@@ -4,17 +4,14 @@
 
 jackreid.xyz {
   encode gzip
-
-  file_server * {
-    root /usr/share/caddy/site
-  }
+  root * /user/share/caddy/site
+  file_server
 
   log {
     output file /etc/caddy/logs/server_log
   }
 
   handle_errors {
-    root * /user/share/caddy/site
     rewrite * /{http.error.status_code}.html
     file_server
   }
