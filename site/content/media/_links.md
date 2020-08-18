@@ -21,7 +21,8 @@ Here's where I keep track of interesting links that I might come back to much, m
 ## Tools
 - [Barbra Flash Cards](https:/barbra.io)
 - [Old Fashioned Cocktail Recipes](https://oldfashioned.tech/)
-- [Z Library Ebooks](https://b-ok.cc")
+- [Z Library Ebooks](https://b-ok.cc)
+- [Witeboard Online Shared Whiteboard](https://witeboard.com/)
 
 ## Coding
 - [`window.location` Cheatsheet](https://www.samanthaming.com/tidbits/86-window-location-cheatsheet/)
