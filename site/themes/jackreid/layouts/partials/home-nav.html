@@ -1,24 +1,20 @@
 <nav class="home-nav">
-  <ul class="home-nav__list">
-    <div class="home-nav__list-column">
-      <li><a href="{{ "media" | absURL }}">Media Diet</a>
-      <li><a href="{{ "highlight" | absURL }}">Highlights</a></li>
-      <li><a href="{{ "links" | absURL }}">Links</a></li>
-      <li><a href="{{ "books/read" | absURL }}">Read</a></li>
-      <li><a href="{{ "books/reading" | absURL }}">Reading</a></li>
-      <li><a href="{{ "books/toread" | absURL }}">To Read</a></li>
-      <li><a href="{{ "films/watched" | absURL }}">Watched</a></li>
-      <li><a href="{{ "films/towatch" | absURL }}">To Watch</a></li>
-      <li><a href="{{ "articles/saved" | absURL }}">Saved Articles</a></li>
-      <li><a href="{{ "articles/liked" | absURL }}">Liked Articles</a></li>
+  <dl>
+    <div>
+      <dt><a href="{{ "media" | absURL }}">Media Diet</a></dt>
+      <dd>Here you can see a breakdown of what I'm reading online, whatbooks I'm reading, and what films I'm watching.</dd>
     </div>
-    <div class="home-nav__list-column">
-      <div class="home-nav__group">
-      <li><a href="{{ "post" | absURL }}">Blog</a></li>
-      <li><a href="{{ "journal" | absURL }}">Journal</a></li>
-      </div>
-      <li><a href="{{ "work" | absURL }}">Work</a></li>
-      <li><a href="{{ "uses" | absURL }}">Uses</a></li>
+    <div>
+      <dt><a href="{{ "post" | absURL }}">Blog</a></dt>
+      <dd>The blog is a big mixture of technical write-ups, creative writing, and quick notes.</dd>
     </div>
-  </ul>
+    <div>
+      <dt><a href="{{ "journal" | absURL }}">Journal</a></dt>
+      <dd>A sporadic daily journal where I can talk through what's happening around me a bit.</dd>
+    </div>
+    <div>
+      <dt><a href="{{ "work" | absURL }}">Work</a></dt>
+      <dd>An overview of my work history and major projects I've worked on, as well as links to my CV etc.</dd>
+    </div>
+  </dl>
 </nav>
