@@ -12,7 +12,7 @@ services:
       - ./site_output:/usr/share/caddy/site
     logging:
       options:
-        max-size: 10m
+        max-size: 1m
   api:
     build:
       context: ./
@@ -25,7 +25,7 @@ services:
       - APP=api
     logging:
       options:
-        max-size: 10m
+        max-size: 1m
   site:
     image: jojomi/hugo:latest
     volumes:
@@ -38,7 +38,7 @@ services:
       - HUGO_THEME=jackreid
     logging:
       options:
-        max-size: 10m
+        max-size: 1m
   log_upload:
     build:
       context: ./
@@ -47,7 +47,7 @@ services:
       - ./caddy/logs:/logs
     logging:
       options:
-        max-size: 10m
+        max-size: 1m
   books_update:
     build:
       context: ./
@@ -58,7 +58,7 @@ services:
       - APP=books_update
     logging:
       options:
-        max-size: 10m
+        max-size: 1m
   pocket_update:
     build:
       context: ./
@@ -69,7 +69,7 @@ services:
       - APP=pocket_update
     logging:
       options:
-        max-size: 10m
+        max-size: 1m
   films_update:
     build:
       context: ./
@@ -80,7 +80,7 @@ services:
       - APP=films_update
     logging:
       options:
-        max-size: 10m
+        max-size: 1m
   articles_update:
     build:
       context: ./
@@ -91,4 +91,4 @@ services:
       - APP=articles_update
     logging:
       options:
-        max-size: 10m
+        max-size: 1m
