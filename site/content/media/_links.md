@@ -12,17 +12,18 @@ Here's where I keep track of interesting links that I might come back to much, m
 - [Postcrossing Postcard Exchange](https://postcrossing.com)
 - [Highland Walks](https://www.walkhighlands.co.uk/)
 - [Ian's Shoelace Website](https://www.fieggen.com/shoelace/)
-- [Tree Talk London Tree Explorer](https://www.treetalk.co.uk/)
+- [Tree Talk](https://www.treetalk.co.uk/) - London Tree Explorer
 
 ## Indie Web
 - [Tilde Town](https://tilde.town)
 - [138 Internet Videos That Blew My Mind](https://docs.google.com/presentation/d/1ub46LTP8NLu306oMk7J0t3Yk7QHiTg_QcirzaS5EZhs/edit#slide=id.g63d1a2360e_0_589)
 
 ## Tools
-- [Barbra Flash Cards](https:/barbra.io)
-- [Old Fashioned Cocktail Recipes](https://oldfashioned.tech/)
-- [Z Library Ebooks](https://b-ok.cc)
-- [Witeboard Online Shared Whiteboard](https://witeboard.com/)
+- [Barbra](https:/barbra.io) - Flash cards
+- [Old Fashioned](https://oldfashioned.tech/) - Cocktail recipes
+- [ZLibrary](https://b-ok.cc) - Free e-books
+- [Witeboard](https://witeboard.com/) - Online shared whiteboard
+- [ScreenplaySubs](https://screenplaysubs.com/) - Read screenplays alongside Netflix
 
 ## Coding
 - [`window.location` Cheatsheet](https://www.samanthaming.com/tidbits/86-window-location-cheatsheet/)
