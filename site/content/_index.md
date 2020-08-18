@@ -12,5 +12,5 @@ Outside of BuzzFeed my personality is unfortunately a thin layer over the last f
 
 I track the [films](/films/watched) I've watched and the [books](/books/read) I've read, but I also post [highlight](/highlight) from articles I read online. You can even see what I've got [saved](/articles/saved) to read later in Pocket. I haven't really worked out a way to do something similar for music and podcasts yet, but rest assured I'm consuming that an unhealthy rate too. Read more about this weird media diet fixation [here](/media).
 
-For some rare pieces of original thought, there's my [notes](/note) (think tweets) and [posts](/post).
+For some rare pieces of original thought, there's my [notes](/note) (think tweets) and [blog](/post).
 
