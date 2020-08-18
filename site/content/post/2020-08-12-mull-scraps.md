@@ -25,6 +25,8 @@ Distinct from machair is **links** (from Old English "hlinc" meaning rising grou
 
 ---
 
+{{< figure src="/img/ardalanish-beach.jpg" caption="Ardalanish Beach at dawn" alt="A sandy beach over a fringe of rough coastal grass" >}}
+
 **Dunlins** are sand-pipers that use their long beaks to pull worms out of the wet sand of coastal areas. They are resident to Mull, Skye, and Uist. We saw a pair on Ardalanish beach.
 
 **Jackdaws** are like crows but a bit smaller and with a silver part at the back of their head and neck, running down onto their breast.
