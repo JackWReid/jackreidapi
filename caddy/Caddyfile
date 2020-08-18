@@ -4,7 +4,7 @@
 
 jackreid.xyz {
   encode gzip
-  root * /user/share/caddy/site
+  root * /usr/share/caddy/site
   file_server
 
   log {
