@@ -14,7 +14,6 @@ jackreid.xyz {
   }
 
   handle_errors {
-    root /usr/share/caddy/site
     rewrite * /{http.error.status_code}.html
     file_server
   }
