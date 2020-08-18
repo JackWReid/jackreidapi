@@ -9,7 +9,7 @@ layout: media
 Here's where I keep track of interesting links that I might come back to much, much later. For things that I'm just reading day to day and saving for later, I have my [Pocket](/articles/saved) and [Feedbin](/articles/liked) mirrored here.
 
 ## Outside
-- [Postcrossing Postcard Exchange](https://postcrossing.com)
+- [Postcrossing](https://postcrossing.com) - Postcard exchange
 - [Highland Walks](https://www.walkhighlands.co.uk/)
 - [Ian's Shoelace Website](https://www.fieggen.com/shoelace/)
 - [Tree Talk](https://www.treetalk.co.uk/) - London Tree Explorer
