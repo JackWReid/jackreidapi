@@ -6,8 +6,8 @@
   --f-base: -apple-system, blinkmacsystemfont, 'segoe ui', roboto, oxygen-sans,
     ubuntu, cantarell, 'helvetica neue', sans-serif;
   --f-mono: Inconsolata, monospace;
-  --s-width-reading: 40rem;
-  --s-width-max: 60rem;
+  --s-width-max: 65rem;
+  --s-width-sidebar: 14rem;
   --s-width-break: 800px;
   --s-indent: .8rem;
 }
@@ -112,13 +112,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   order: 2;
   flex-grow: 1;
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 .two-col-sidebar {
   order: 1;
   flex-shrink: 0;
-  width: 12rem;
+  width: var(--s-width-sidebar);
 }
 
 @media screen and (max-width: 800px) {
@@ -140,49 +140,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 1rem;
     color: var(--c-bg);
     background: var(--c-body);
-  }
-}
-
-/**
- * SITE HEADER
- */
-.site-header-nav {
-  margin-top: .5rem;
-}
-
-.site-header__home-link {
-  display: block;
-  margin-bottom: .2rem;
-  color: var(--c-heading);
-  font-weight: bold; 
-  text-decoration: none;
-}
-
-.site-header__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.site-header__list > li {
-  margin-top: 1rem;
-}
-
-.site-header__list ul {
-  margin: 0;
-  padding: 0 0 0 var(--s-indent);
-  list-style: none;
-}
-
-@media screen and (max-width: 800px) {
-  .site-header__home-link {
-    color: var(--c-bg2);
-  }
-  .site-header-nav {
-    margin: .5rem 0;
-  }
-  .site-header__list {
-    display: none;
   }
 }
 
@@ -232,19 +189,73 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
+ * SITE HEADER NAV
+ */
+.site-header-nav {
+  margin-top: .5rem;
+}
+
+.site-header__home-link {
+  display: block;
+  margin-bottom: .2rem;
+  color: var(--c-heading);
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .site-header__home-link {
+    color: var(--c-bg2);
+  }
+
+  .site-header-nav {
+    margin: .5rem 0;
+  }
+}
+
+/**
+ * MEDIA DIET NAV
+ */
+.media-diet-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .media-diet-nav {
+    grid-template-columns: 1fr;
+  }
+}
+
+.media-diet-nav__item {
+  margin: 1rem 0;
+}
+
+.media-diet-nav__item dt {
+  margin-bottom: .2rem;
+}
+
+.media-diet-nav__item dd {
+  margin: 0;
+  font-size: .8rem;
+}
+
+/**
  * HOME NAV (mobile only)
 */
-.home-nav dl {
-  display: grid;
+.home-nav dl, .site-header-nav dl {
   grid-gap: 1rem;
   grid-template-columns: 1fr;
   margin-bottom: 2rem;
 }
 
-.home-nav div {
-  padding: 1rem;
-  border: 1px solid var(--c-body);
-  background: var(--c-bg2);
+.home-nav dl {
+  display: grid;
+}
+
+.site-header-nav dl {
+  display: none;
 }
 
 .home-nav dd {
@@ -252,20 +263,45 @@ h1, h2, h3, h4, h5, h6 {
   font-size: .8rem;
 }
 
-.home-nav__list {
-  display: flex;
-  width: 100%;
+.site-header-nav dt {
+  font-size: 1rem;
+}
+
+.site-header-nav dd {
   margin: 0;
-  padding: 0;
-  list-style: none;
+  font-size: .8rem;
 }
 
-.home-nav__list-column {
-  width: 50%;
+@media screen and (min-width: 800px) {
+  .home-nav {
+    display: none;
+  }
+
+  .site-header-nav dl {
+    display: grid;
+  }
 }
 
-.home-nav__group {
-  padding-bottom: 1rem;
+/**
+ * SECONDARY SITE NAV
+ */
+
+.site-header-nav--secondary .site-header-nav__home-link {
+  display: flex;
+  width: 7.8rem;
+  margin: 0 auto 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.site-header-nav--secondary dl div {
+  margin-bottom: .2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .site-header-nav--secondary {
+    display: none;
+  }
 }
 
 /**
@@ -466,36 +502,6 @@ form textarea {
   padding: .5rem;
   font-size: 1rem;
   font-family: var(--f-base);
-}
-
-/**
- * MEDIA DIET NAV
- */
-.media-diet-nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
-}
-
-@media screen and (max-width: 800px) {
-  .media-diet-nav {
-    grid-template-columns: 1fr;
-  }
-}
-
-.media-diet-nav__item {
-  padding: 1rem;
-  border: 1px solid var(--c-body);
-  background: var(--c-bg2);
-}
-
-.media-diet-nav__item dt {
-  margin-bottom: .2rem;
-}
-
-.media-diet-nav__item dd {
-  margin: 0;
-  font-size: .8rem;
 }
 
 /**

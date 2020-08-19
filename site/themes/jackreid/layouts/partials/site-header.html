@@ -1,4 +1,21 @@
 <nav class="site-header-nav">
   <a class="site-header__home-link" href="/">Jack Reid</a>
-  {{- partial "home-nav.html" . -}}
+  <dl>
+    <div>
+      <dt><a href="{{ "media" | absURL }}">Media Diet</a></dt>
+      <dd>What I'm reading online, what books I'm reading, and what films I'm watching.</dd>
+    </div>
+    <div>
+      <dt><a href="{{ "post" | absURL }}">Blog</a></dt>
+      <dd>Mixture of technical write-ups, creative writing, and quick notes.</dd>
+    </div>
+    <div>
+      <dt><a href="{{ "journal" | absURL }}">Journal</a></dt>
+      <dd>Sporadic daily journal.</dd>
+    </div>
+    <div>
+      <dt><a href="{{ "work" | absURL }}">Work</a></dt>
+      <dd>An overview of my work history and links to my CV etc.</dd>
+    </div>
+  </dl>
 </nav>
