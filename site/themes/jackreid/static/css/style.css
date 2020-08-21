@@ -80,6 +80,7 @@ td {
 
 blockquote {
   margin-left: 0;
+  margin-right: 0;
   padding-left: var(--s-indent);
   border-left: 1px solid var(--c-body);
 }
@@ -220,6 +221,7 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -229,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .media-diet-nav__item {
-  margin: 1rem 0;
+  margin: 0 0 1rem;
 }
 
 .media-diet-nav__item dt {
