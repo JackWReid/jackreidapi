@@ -3,6 +3,7 @@ const { runQuery } = require('../db');
 async function getLinks({ sort, limit, offset }) {
   const query = `
     SELECT title, link, content, word_count, date_updated FROM pocket
+    WHERE status = 0
     ORDER BY date_updated ${sort}
     LIMIT ${limit} OFFSET ${offset};
   `;

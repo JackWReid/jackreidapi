@@ -50,6 +50,7 @@ async function insertRecords(string, db) {
     const {
       resolved_title,
       resolved_url,
+      status,
       time_added,
       excerpt,
       word_count,
@@ -58,15 +59,17 @@ async function insertRecords(string, db) {
     const date_updated = new Date(parseInt(time_added, 0) * 1000).toISOString();
 
     if (first) {
-      query = SQL`INSERT INTO pocket (title, link, content, word_count, date_updated) VALUES (${resolved_title}, ${resolved_url}, ${excerpt}, ${word_count}, ${date_updated})`;
+      query = SQL`INSERT INTO pocket (title, link, status, content, word_count, date_updated) VALUES (${resolved_title}, ${resolved_url}, ${status}, ${excerpt}, ${word_count}, ${date_updated})`;
+
     } else {
-      const q = SQL`,(${resolved_title}, ${resolved_url}, ${excerpt}, ${word_count}, ${date_updated})`;
+      const q = SQL`,(${resolved_title}, ${resolved_url}, ${status}, ${excerpt}, ${word_count}, ${date_updated})`;
       try {
         query = query.append(q);
       } catch (error) {
         console.error('Failed to build query');
         console.error(JSON.stringify(q));
         console.error(error);
+        throw error;
       }
     }
   }
@@ -74,9 +77,10 @@ async function insertRecords(string, db) {
   try {
     await db.runQuery(query);
   } catch (error) {
+    console.error(JSON.stringify(error));
     console.error('Failed to run query');
-    console.error(JSON.stringify(query));
     console.error(error);
+    throw error;
   }
   return;
 }
