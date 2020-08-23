@@ -10,6 +10,9 @@ services:
       - ./caddy/Caddyfile:/etc/caddy/Caddyfile
       - ./caddy/logs:/etc/caddy/logs
       - ./site_output:/usr/share/caddy/site
+    logging:
+      options:
+        max-size: 1m
   api:
     build:
       context: ./
@@ -20,6 +23,9 @@ services:
       - api_env.env
     environment:
       - APP=api
+    logging:
+      options:
+        max-size: 1m
   site:
     image: jojomi/hugo:latest
     volumes:
@@ -30,12 +36,18 @@ services:
     environment:
       - HUGO_BASEURL=https://jackreid.xyz
       - HUGO_THEME=jackreid
+    logging:
+      options:
+        max-size: 1m
   log_upload:
     build:
       context: ./
       dockerfile: ./scripts/logs/Dockerfile
     volumes:
       - ./caddy/logs:/logs
+    logging:
+      options:
+        max-size: 1m
   books_update:
     build:
       context: ./
@@ -44,6 +56,9 @@ services:
       - api_env.env
     environment:
       - APP=books_update
+    logging:
+      options:
+        max-size: 1m
   pocket_update:
     build:
       context: ./
@@ -52,6 +67,9 @@ services:
       - api_env.env
     environment:
       - APP=pocket_update
+    logging:
+      options:
+        max-size: 1m
   films_update:
     build:
       context: ./
@@ -60,6 +78,9 @@ services:
       - api_env.env
     environment:
       - APP=films_update
+    logging:
+      options:
+        max-size: 1m
   articles_update:
     build:
       context: ./
@@ -68,3 +89,6 @@ services:
       - api_env.env
     environment:
       - APP=articles_update
+    logging:
+      options:
+        max-size: 1m

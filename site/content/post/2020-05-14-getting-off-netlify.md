@@ -7,6 +7,7 @@ draft: false
 tags:
   - dev
 ---
+
 I wanted to quickly follow up to [my recent post](/post/how-this-site-works/) about personal infrastructure with some updates I made this week.
 
 ## Why the change
@@ -32,77 +33,78 @@ Netlify was obviously fast and globally distributed, but I have a sneaky feeling
 ## Solutions
 I moved the Hugo site to the existing repository I use for my personal API and scraper scripts. I added it to the Compose file and made an application that uses a Dockerised Hugo image to build the site to a volume.
 
-	# docker-compose.yml
-	
-	site:
-	  image: jojomi/hugo:latest
-	  volumes:
-	    - ./site/:/src
-	    - ./site_output/:/output
-	  ports:
-	    - "1313:1313"
+{{< highlight yaml >}}
+site:
+  image: jojomi/hugo:latest
+  volumes:
+    - ./site/:/src
+    - ./site_output/:/output
+  ports:
+    - "1313:1313"
+{{< /highlight >}}
 
 ### Recency
 Now that the site was containerised like the rest of the infrastructure it could easily be controlled and wired up to the other services. The reverse proxy (Caddy) could use the same Docker volume that the site build app wrote to and serve the site as static files.
 
-	# caddy/Caddyfile
-	
-	jackreid.xyz {
-	  encode gzip
-	
-	  file_server * {
-	    root /usr/share/caddy/site
-	  }
-	}
+{{< highlight plain >}}
+jackreid.xyz {
+  encode gzip
+
+  file_server * {
+    root /usr/share/caddy/site
+  }
+}
+{{< /highlight >}}
 
 The same script that kicks off the scrapers can now kick off a build of the website. That solves the requirement to have the site rebuild frequently to stay recent. I can run that as frequently as I like on my own infrastructure without risking running out of “build minutes”.
 
-	# scripts/update_site.sh
-	
-	# Download latest data from API
-	curl -Lk https://api.jackreid.xyz/books/reading?limit=5000 | jq . > $PWD/site/data/books/reading.json;
-	...
-	curl -Lk https://api.jackreid.xyz/analytics | jq . > $PWD/site/data/analytics.json
-	
-	# Update git
-	if [ -z "$(git status --porcelain)" ]; then
-		echo "[$(date)] No changes found"
-	else
-		echo "[$(date)] Changes found"
-		git add . && git commit -m "[$(date)] Updated media data files" && git push origin master;
-	fi
-	
-	# Rebuild the site
-	/usr/local/bin/docker-compose up -d --build site
+{{< highlight bash >}}
+# Download latest data from API
+curl -Lk https://api.jackreid.xyz/books/reading?limit=5000 | jq . > $PWD/site/data/books/reading.json;
+...
+curl -Lk https://api.jackreid.xyz/analytics | jq . > $PWD/site/data/analytics.json
+
+# Update git
+if [ -z "$(git status --porcelain)" ]; then
+  echo "[$(date)] No changes found"
+else
+  echo "[$(date)] Changes found"
+  git add . && git commit -m "[$(date)] Updated media data files" && git push origin master;
+fi
+
+# Rebuild the site
+/usr/local/bin/docker-compose up -d --build site
+{{< /highlight >}}
 
 So now I had a cron job pulling my site from GitHub every five minutes, `curl`ing my API to get the latest in my media consumption, building with Hugo, and being statically served by the Caddy reverse proxy.
 
 ### Analytics
 Caddy has great log support, and spews out structured and details access logs to the `stdout` by default. You can also configure them to go to a file or to a network socket. I configured Caddy to write access logs to a directory in another Docker volume.
 
-	# caddy/Caddyfile
-	log {
-	  output file /etc/caddy/logs/server_log
-	}
+{{< highlight plain >}}
+log {
+  output file /etc/caddy/logs/server_log
+}
+{{< /highlight >}}
 
 Then another job in the Docker Compose file can read those logs from Caddy, loop through them and `POST` the log lines one-by-one to a logs endpoint in the API. This is definitely an inefficient part of the workflow (I could insert all the lines from a loaded file at once, for example) but to be honest I wanted to put both the VPS and the database to some good use.
 
-	# docker-compose.yml
-	
-	log_upload:
-	  build:
-	    context: ./
-	    dockerfile: ./scripts/logs/Dockerfile
-	  volumes:
-	    - ./caddy/logs:/logs
+{{< highlight yaml >}}
+log_upload:
+  build:
+    context: ./
+    dockerfile: ./scripts/logs/Dockerfile
+  volumes:
+    - ./caddy/logs:/logs
+{{< /highlight >}}
 
 This means I have all of my server logs in their original form in a table in Postgres. I could query the database to my heart’s content to get insights about the traffic on the site, but I wanted to be able to glance at the top level statistics. I created an `/analytics` endpoint in the API that returned some basic information like the most requested pages, the total hits, the total misses — over the last hour, day, week, month, and year.
 
 I added that endpoint to the list of data loaded into the site directory before Hugo runs:
 
-	# scripts/update_site.sh
-	
-	curl -Lk https://api.jackreid.xyz/analytics | jq . > $PWD/site/data/analytics.json
+{{< highlight bash >}}
+curl -Lk https://api.jackreid.xyz/analytics | jq . > $PWD/site/data/analytics.json
+{{< /highlight >}}
 
 I now have [a statically generated analytics page](https://jackreid.xyz/analytics/day) giving me the latest stats that is updated every five minutes. Analytics sorted, and greatly improved from before.
 

@@ -3,3 +3,8 @@ languageCode = "en-gb"
 title = "Jack Reid"
 theme = "jackreid"
 paginate = 10
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    unsafe = true

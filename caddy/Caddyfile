@@ -4,17 +4,14 @@
 
 jackreid.xyz {
   encode gzip
-
-  file_server * {
-    root /usr/share/caddy/site
-  }
+  root * /usr/share/caddy/site
+  file_server
 
   log {
     output file /etc/caddy/logs/server_log
   }
 
   handle_errors {
-    root /usr/share/caddy/site
     rewrite * /{http.error.status_code}.html
     file_server
   }
@@ -26,10 +23,6 @@ api.jackreid.xyz {
   reverse_proxy * http://api:3000 {
     health_path /health
     health_interval 5m
-  }
-
-  tls /etc/caddy/certs/cert.pem /etc/caddy/certs/privkey.pem {
-    #ca https://acme-staging-v02.api.letsencrypt.org/directory
   }
 
   log {
