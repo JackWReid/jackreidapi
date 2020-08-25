@@ -8,8 +8,10 @@ echo "---" > $new_note_file
 echo "date: ${date_str}" >> $new_note_file
 echo "title: $1" >> $new_note_file
 echo "---" >> $new_note_file
-cat $new_note_file
 
 git add .
 git commit -am "new note"
 git push origin master
+
+./scripts/update_site.sh
+
