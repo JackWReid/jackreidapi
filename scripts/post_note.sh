@@ -15,3 +15,4 @@ git push origin master
 
 /root/jackreidapi/scripts/update_site.sh
 
+cat $new_note_file
