@@ -13,5 +13,5 @@ git add .
 git commit -am "new note"
 git push origin master
 
-./scripts/update_site.sh
+/root/jackreidapi/scripts/update_site.sh
 
