@@ -20,12 +20,12 @@ jackreid.xyz {
 api.jackreid.xyz {
   encode gzip
 
+  reverse_proxy /sync/* localhost:8384
+
   reverse_proxy * http://api:3000 {
     health_path /health
     health_interval 5m
   }
-
-  reverse_proxy /sync/* localhost:8443
 
   log {
     output file /etc/caddy/logs/server_log
