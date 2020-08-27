@@ -20,12 +20,7 @@ jackreid.xyz {
 api.jackreid.xyz {
   encode gzip
 
-  route /sync/* {
-    uri strip_prefix /sync
-    reverse_proxy localhost:8384
-  }
-
-  reverse_proxy * http://api:3000 {
+  reverse_proxy * http://localhost:3000 {
     health_path /health
     health_interval 5m
   }
@@ -38,7 +33,8 @@ api.jackreid.xyz {
 metrics.jackreid.xyz {
   encode gzip
 
-  reverse_proxy * http://127.0.0.1:8384 {
+  reverse_proxy * localhost:8384 {
+    header_up Host localhost
     health_path /
     health_interval 5m
   }
