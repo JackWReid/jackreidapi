@@ -25,6 +25,8 @@ api.jackreid.xyz {
     health_interval 5m
   }
 
+  reverse_proxy /sync/* localhost:8443
+
   log {
     output file /etc/caddy/logs/server_log
   }
