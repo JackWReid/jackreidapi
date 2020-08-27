@@ -46,4 +46,5 @@ metrics.jackreid.xyz {
   log {
     output file /etc/caddy/logs/server_log
   }
+  errors stderr
 }
