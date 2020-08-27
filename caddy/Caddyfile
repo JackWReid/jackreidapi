@@ -19,9 +19,11 @@ jackreid.xyz {
 
 api.jackreid.xyz {
   encode gzip
-  uri strip_prefix /sync  
 
-  reverse_proxy /sync/* localhost:8384
+  route /sync/* {
+    uri strip_prefix /sync
+    reverse_proxy localhost:8384
+  }
 
   reverse_proxy * http://api:3000 {
     health_path /health
