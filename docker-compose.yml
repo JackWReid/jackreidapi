@@ -40,15 +40,6 @@ services:
     logging:
       options:
         max-size: 1m
-  log_upload:
-    build:
-      context: ./
-      dockerfile: ./scripts/logs/Dockerfile
-    volumes:
-      - ./caddy/logs:/logs
-    logging:
-      options:
-        max-size: 1m
   books_update:
     build:
       context: ./
