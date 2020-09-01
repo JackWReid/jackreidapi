@@ -228,6 +228,8 @@
     </device>
     <gui enabled="true" tls="false" debugging="false">
         <address>127.0.0.1:8384</address>
+        <user>jack</user>
+        <password>$2a$10$FYIaPp7c8RwCqsEJhkNjAu/f4cu7BfInqiNPE829XslKogCLpKJXS</password>
         <apikey>4MwzPjKy4uQhawhwnY4mJWKCehtqEFjr</apikey>
         <theme>default</theme>
     </gui>
@@ -266,7 +268,6 @@
         <releasesURL>https://upgrades.syncthing.net/meta.json</releasesURL>
         <overwriteRemoteDeviceNamesOnConnect>false</overwriteRemoteDeviceNamesOnConnect>
         <tempIndexMinBlocks>10</tempIndexMinBlocks>
-        <unackedNotificationID>authenticationUserAndPassword</unackedNotificationID>
         <trafficClass>0</trafficClass>
         <defaultFolderPath>~/folders</defaultFolderPath>
         <setLowPriority>true</setLowPriority>
