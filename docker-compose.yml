@@ -86,6 +86,8 @@ services:
   syncthing:
     image: linuxserver/syncthing
     environment:
+      - PUID=0
+      - PGID=0
       - TZ=Europe/London
     ports:
       - "8384:8384"
@@ -93,7 +95,7 @@ services:
       - "21027:21027/udp"
     volumes:
       - ./syncthing/config:/config
-      - /root/sync:/data1
+      - ./syncthing/data:/data1
     restart: unless-stopped
     logging:
       options:
