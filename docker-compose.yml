@@ -84,3 +84,19 @@ services:
     logging:
       options:
         max-size: 1m
+  syncthing:
+    image: linuxserver/syncthing
+    container_name: syncthing
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - UMASK_SET=<022>
+    ports:
+      - 8385:8384
+      - 22001:22000
+      - 21028:21027/udp
+    restart: unless-stopped
+    logging:
+      options:
+        max-size: 1m
