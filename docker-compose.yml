@@ -2,7 +2,6 @@ version: '3'
 services:
   server:
     image: caddy/caddy:latest
-    network_mode: host
     ports:
       - "80:80"
       - "443:443"
@@ -86,16 +85,15 @@ services:
         max-size: 1m
   syncthing:
     image: linuxserver/syncthing
-    container_name: syncthing
     environment:
-      - PUID=1000
-      - PGID=1000
       - TZ=Europe/London
-      - UMASK_SET=<022>
     ports:
-      - 8385:8384
-      - 22001:22000
-      - 21028:21027/udp
+      - "8384:8384"
+      - "22000:22000"
+      - "21027:21027/udp"
+    volumes:
+      - ./syncthing/config:/config
+      - /root/sync:/data1
     restart: unless-stopped
     logging:
       options:

@@ -20,7 +20,7 @@ jackreid.xyz {
 api.jackreid.xyz {
   encode gzip
 
-  reverse_proxy * http://localhost:3000 {
+  reverse_proxy * http://api:3000 {
     health_path /health
     health_interval 5m
   }
@@ -30,11 +30,10 @@ api.jackreid.xyz {
   }
 }
 
-metrics.jackreid.xyz {
+sync.jackreid.xyz {
   encode gzip
 
-  reverse_proxy * localhost:8384 {
-    header_up Host localhost
+  reverse_proxy * http://syncthing:8384 {
     health_path /
     health_interval 5m
   }
