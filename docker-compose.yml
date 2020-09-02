@@ -15,6 +15,7 @@ services:
       options:
         max-size: 1m
   api:
+    network_mode: host
     build:
       context: ./
       dockerfile: ./api/Dockerfile
@@ -28,6 +29,7 @@ services:
       options:
         max-size: 1m
   site:
+    network_mode: host
     image: jojomi/hugo:latest
     volumes:
       - ./site/:/src
@@ -41,6 +43,7 @@ services:
       options:
         max-size: 1m
   books_update:
+    network_mode: host
     build:
       context: ./
       dockerfile: ./scripts/books/Dockerfile
@@ -52,6 +55,7 @@ services:
       options:
         max-size: 1m
   pocket_update:
+    network_mode: host
     build:
       context: ./
       dockerfile: ./scripts/pocket/Dockerfile
@@ -63,6 +67,7 @@ services:
       options:
         max-size: 1m
   films_update:
+    network_mode: host
     build:
       context: ./
       dockerfile: ./scripts/films/Dockerfile
@@ -74,6 +79,7 @@ services:
       options:
         max-size: 1m
   articles_update:
+    network_mode: host
     build:
       context: ./
       dockerfile: ./scripts/articles/Dockerfile
