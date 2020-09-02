@@ -23,15 +23,15 @@ git checkout -f;
 git pull origin HEAD;
 
 # Download latest data from API
-curl -Lk https://api.jackreid.xyz/books/reading?limit=5000 | jq . > $PWD/site/data/books/reading.json;
-curl -Lk https://api.jackreid.xyz/books/toread?limit=5000 | jq . > $PWD/site/data/books/toread.json;
-curl -Lk https://api.jackreid.xyz/books/read?limit=5000 | jq . > $PWD/site/data/books/read.json;
+curl -Lk localhost:3000/books/reading?limit=5000 | jq . > $PWD/site/data/books/reading.json;
+curl -Lk localhost:3000/books/toread?limit=5000 | jq . > $PWD/site/data/books/toread.json;
+curl -Lk localhost:3000/books/read?limit=5000 | jq . > $PWD/site/data/books/read.json;
 
-curl -Lk https://api.jackreid.xyz/films/watched?limit=5000 | jq . > $PWD/site/data/films/watched.json;
-curl -Lk https://api.jackreid.xyz/films/towatch?limit=5000 | jq . > $PWD/site/data/films/towatch.json;
+curl -Lk localhost:3000/films/watched?limit=5000 | jq . > $PWD/site/data/films/watched.json;
+curl -Lk localhost:3000/films/towatch?limit=5000 | jq . > $PWD/site/data/films/towatch.json;
 
-curl -Lk https://api.jackreid.xyz/pocket?limit=5000 | jq . > $PWD/site/data/pocket.json;
-curl -Lk https://api.jackreid.xyz/articles?limit=5000 | jq . > $PWD/site/data/articles.json;
+curl -Lk localhost:3000/pocket?limit=5000 | jq . > $PWD/site/data/pocket.json;
+curl -Lk localhost:3000/articles?limit=5000 | jq . > $PWD/site/data/articles.json;
 
 # Update git
 echo "[$(date)] Committing updated media data files"
