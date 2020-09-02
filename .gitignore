@@ -9,10 +9,18 @@ api_env.env
 caddy/certs
 caddy/logs
 
+<<<<<<< HEAD
 syncthing/config/index-v0.14.0.db
 syncthing/config/csrftokens.txt
+=======
+syncthing/config/*.db
+>>>>>>> 2b1c793cb90b6238cb41482c60f1f4027adcb507
 syncthing/config/*.pem
+<<<<<<< HEAD
+syncthing/config/csrftokens.txt
+=======
 syncthing/config/folders
+>>>>>>> fda1272d89be09881d5bfefbe0b45f84c1cd4420
 
 site_output
 site/tmp
