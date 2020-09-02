@@ -38,7 +38,7 @@ services:
     ports:
       - "1313:1313"
     environment:
-      - HUGO_BASEURL=https://jackreid.xyz
+      - HUGO_BASEURL=http://jackreid.xyz
       - HUGO_THEME=jackreid
     logging:
       options:
