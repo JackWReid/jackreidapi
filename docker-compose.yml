@@ -87,8 +87,8 @@ services:
   syncthing:
     image: linuxserver/syncthing
     environment:
-      - PUID=0
-      - PGID=0
+      - PUID=1001
+      - PGID=1001
       - TZ=Europe/London
     ports:
       - "8384:8384"
