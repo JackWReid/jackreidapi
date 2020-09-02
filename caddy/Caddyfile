@@ -37,7 +37,7 @@ http://sync.jackreid.xyz {
     jack JDJhJDEwJDBDYmNTc0EycVBxRDJiV3poMGRyOU9YSFhRcTdlWkowa2haVjdEaDZKamFMZ2kvVXhJT1J1
   }
 
-  reverse_proxy * http://syncthing:8384 {
+  reverse_proxy * http://localhost:8384 {
     health_path /
     health_interval 5m
   }
