@@ -2,7 +2,7 @@
   email hello@jackreid.xyz
 }
 
-jackreid.xyz {
+http://jackreid.xyz {
   encode gzip
   root * /usr/share/caddy/site
   file_server
@@ -17,7 +17,7 @@ jackreid.xyz {
   }
 }
 
-api.jackreid.xyz {
+http://api.jackreid.xyz {
   encode gzip
 
   reverse_proxy * http://api:3000 {
@@ -30,8 +30,12 @@ api.jackreid.xyz {
   }
 }
 
-sync.jackreid.xyz {
+http://sync.jackreid.xyz {
   encode gzip
+
+  basicauth * {
+    jack JDJhJDEwJDBDYmNTc0EycVBxRDJiV3poMGRyOU9YSFhRcTdlWkowa2haVjdEaDZKamFMZ2kvVXhJT1J1
+  }
 
   reverse_proxy * http://syncthing:8384 {
     health_path /
