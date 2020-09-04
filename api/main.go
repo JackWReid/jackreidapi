@@ -20,7 +20,6 @@ type Book struct {
 
 func main() {
 	password := os.Getenv("PG_PASS")
-	log.Print(password)
 	connStr := fmt.Sprintf("user=jack dbname=personal host=jackreid.xyz password=%s sslmode=require", password)
 	db, err := sql.Open("postgres", connStr)
 	if err != nil {
