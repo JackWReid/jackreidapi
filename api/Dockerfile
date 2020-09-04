@@ -1,12 +1,8 @@
-FROM node:12
+FROM golang:alpine
 
-WORKDIR /usr/src/app
+RUN mkdir /app
+ADD . /app
+WORKDIR /app
+RUN go build -o main .
 
-COPY ./api/package*.json ./
-RUN npm install
-
-COPY ./api .
-COPY ./shared/* ./
-EXPOSE 3000
-CMD [ "node", "index.js" ]
-
+CMD ["/app/main"]
