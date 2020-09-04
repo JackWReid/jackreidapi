@@ -1,5 +1,5 @@
 git pull --no-edit origin master
-cd /root/jackreidapi/site
+cd ~/server/jackreidapi/site
 
 date_str=$(date +"%Y-%m-%dT%T")
 /home/linuxbrew/.linuxbrew/bin/hugo new note/$date_str.md
@@ -13,6 +13,6 @@ git add .
 git commit -am "new note"
 git push origin master
 
-/root/jackreidapi/scripts/update_site.sh
+~/server/jackreidapi/scripts/update_site.sh
 
 cat $new_note_file
