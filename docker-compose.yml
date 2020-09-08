@@ -9,7 +9,7 @@ services:
     volumes:
       - ./caddy/certs:/etc/caddy/certs
       - ./caddy/Caddyfile:/etc/caddy/Caddyfile
-      - ./caddy/home:/root
+      - ./caddy/data:/data/caddy
       - ./caddy/logs:/etc/caddy/logs
       - ./site_output:/usr/share/caddy/site
     logging:
