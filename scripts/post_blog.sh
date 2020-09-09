@@ -17,7 +17,7 @@ for dep in "${deps[@]}"; do
   installed "${dep}" || die "Missing '${dep}'"
 done
 
-cd ~/server/jackreidapi/site
+cd $SITEDIR
 git pull --no-edit -q origin master
 
 rm ./tmp/*
@@ -34,6 +34,6 @@ git add .
 git commit -am "new post"
 git push origin master
 
-~/server/jackreidapi/scripts/update_site.sh
+$SITEDIR/scripts/update_site.sh
 
 cat $new_post_file

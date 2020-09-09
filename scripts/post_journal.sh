@@ -17,21 +17,22 @@ for dep in "${deps[@]}"; do
   installed "${dep}" || die "Missing '${dep}'"
 done
 
-git pull --no-edit origin master
-cd $SITEDIR 
+cd $SITEDIR
+git pull --no-edit -q origin master
 
-date_str=$(date +"%Y-%m-%dT%T")
-hugo new note/$date_str.md
-new_note_file="content/note/$date_str.md"
-echo "---" > $new_note_file
-echo "date: ${date_str}" >> $new_note_file
-echo "title: $1" >> $new_note_file
-echo "---" >> $new_note_file
+rm ./tmp/*
+echo $1 > ./tmp/$date_str.txt
+decoded=$(base64 -d ./tmp/$date_str.txt)
+date_str=$(date +"%Y-%m-%d")
+
+hugo new journal/$date_str.md
+new_journal_file="content/journal/$date_str.md"
+echo $decoded > $new_post_file
 
 git add .
-git commit -am "new note"
+git commit -am "new journal"
 git push origin master
 
 $SITEDIR/scripts/update_site.sh
 
-cat $new_note_file
+cat $new_journal_file
