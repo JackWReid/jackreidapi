@@ -6,10 +6,8 @@ npm-debug.log*
 
 .env
 api_env.env
-caddy/certs
 caddy/logs
-caddy/data/.ash_history
-caddy/data/**/*.key
+caddy/data/**
 
 syncthing/config/index-v0.14.0.db
 syncthing/config/csrftokens.txt
