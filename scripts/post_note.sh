@@ -18,7 +18,7 @@ for dep in "${deps[@]}"; do
 done
 
 git pull --no-edit origin master
-cd $SITEDIR 
+cd $SITEDIR
 
 date_str=$(date +"%Y-%m-%dT%T")
 hugo new note/$date_str.md
