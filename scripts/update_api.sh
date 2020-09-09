@@ -1,7 +1,22 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-date +"%Y-%m-%dT%T"
+function installed {
+  cmd=$(command -v "${1}")
+
+  [[ -n "${cmd}" ]] && [[ -f "${cmd}" ]]
+  return ${?}
+}
+
+function die {
+  >&2 echo "Fatal: ${@}"
+  exit 1
+}
+
+deps=(docker-compose git)
+for dep in "${deps[@]}"; do
+  installed "${dep}" || die "Missing '${dep}'"
+done
+
 git checkout -f
 git pull origin HEAD
-/usr/local/bin/docker-compose up -d --build books_update films_update articles_update pocket_update
-date +"%Y-%m-%dT%T"
+docker-compose up -d --build books_update films_update articles_update pocket_update
