@@ -1,4 +1,5 @@
 #!/bin/bash
+set -eo pipefail
 
 function installed {
   cmd=$(command -v "${1}")

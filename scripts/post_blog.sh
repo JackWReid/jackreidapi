@@ -1,4 +1,5 @@
 #!/bin/bash
+set -eo pipefail
 
 function installed {
   cmd=$(command -v "${1}")
@@ -16,6 +17,18 @@ deps=(hugo git)
 for dep in "${deps[@]}"; do
   installed "${dep}" || die "Missing '${dep}'"
 done
+
+if [[ $1 == "" ]]
+  then
+  echo "missing base64 encoded post body in first arg"
+  exit 1
+fi
+
+if [[ $2 == "" ]]
+  then
+  echo "missing slug in second arg"
+  exit 1
+fi
 
 cd $SITEDIR/site
 git pull --no-edit -q origin master

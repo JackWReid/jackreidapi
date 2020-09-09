@@ -1,4 +1,5 @@
 #!/bin/bash
+set -eo pipefail
 
 function installed {
   cmd=$(command -v "${1}")
@@ -16,6 +17,12 @@ deps=(hugo git)
 for dep in "${deps[@]}"; do
   installed "${dep}" || die "Missing '${dep}'"
 done
+
+if [[ $1 == "" ]]
+  then
+  echo "No note supplied in first arg"
+  exit 1
+fi
 
 cd $SITEDIR/site
 git pull --no-edit origin master
