@@ -17,7 +17,7 @@ for dep in "${deps[@]}"; do
   installed "${dep}" || die "Missing '${dep}'"
 done
 
-cd $SITEDIR
+cd $SITEDIR/site
 git pull --no-edit origin master
 
 date_str=$(date +"%Y-%m-%dT%T")
