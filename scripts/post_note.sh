@@ -17,8 +17,8 @@ for dep in "${deps[@]}"; do
   installed "${dep}" || die "Missing '${dep}'"
 done
 
-git pull --no-edit origin master
 cd $SITEDIR
+git pull --no-edit origin master
 
 date_str=$(date +"%Y-%m-%dT%T")
 hugo new note/$date_str.md
