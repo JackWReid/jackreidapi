@@ -30,6 +30,7 @@ Here's where I keep track of interesting links that I might come back to much, m
 - [Responsive Image Syntax in HTML](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/)
 - [Scraping Recipe Websites](https://www.benawad.com/scraping-recipe-websites)
 - [Web History](https://css-tricks.com/chapter-1-birth/)
+- [Redis Inventor on Code Comments](http://antirez.com/news/124)
 
 ## Personal Websites
 - [OMGLORD](https://omglord.com)
