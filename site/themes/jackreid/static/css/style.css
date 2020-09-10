@@ -47,8 +47,8 @@ pre {
 
 a {
   color: inherit;
-  text-decoration: underline #313030 solid;
-  text-decoration: underline var(--c-body) solid;
+  text-decoration-line: underline;
+  text-decoration-color: var(--c-body);
 }
 
 a:hover, a:focus {
