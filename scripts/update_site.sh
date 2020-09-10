@@ -1,6 +1,7 @@
 #!/bin/bash
 set -eo pipefail
 export PATH=/usr/bin:/bin:/usr/local/bin
+SITEDIR=/home/jack/server/jackreidapi
 
 function installed {
   cmd=$(command -v "${1}")
