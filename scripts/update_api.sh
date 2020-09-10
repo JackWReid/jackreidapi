@@ -21,4 +21,4 @@ done
 cd $SITEDIR
 git checkout -f
 git pull origin HEAD
-docker-compose up -d --build books_update films_update articles_update pocket_update
+docker-compose up -d books_update films_update articles_update pocket_update
