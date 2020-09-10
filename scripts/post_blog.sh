@@ -1,5 +1,6 @@
 #!/bin/bash
 set -eo pipefail
+SITEDIR=/home/jack/server/jackreidapi
 
 function installed {
   cmd=$(command -v "${1}")
