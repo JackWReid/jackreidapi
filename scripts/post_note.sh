@@ -1,5 +1,6 @@
 #!/bin/bash
 set -eo pipefail
+export PATH=/usr/bin:/bin:/usr/local/bin
 
 function installed {
   cmd=$(command -v "${1}")
