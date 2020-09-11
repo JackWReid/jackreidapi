@@ -24,6 +24,7 @@ Here's where I keep track of interesting links that I might come back to much, m
 - [ZLibrary](https://b-ok.cc) - Free e-books
 - [Witeboard](https://witeboard.com/) - Online shared whiteboard
 - [ScreenplaySubs](https://screenplaysubs.com/) - Read screenplays alongside Netflix
+- [Percollate](https://github.com/danburzo/percollate) - Convert web pages to nice e-reader renders
 
 ## Coding
 - [`window.location` Cheatsheet](https://www.samanthaming.com/tidbits/86-window-location-cheatsheet/)
