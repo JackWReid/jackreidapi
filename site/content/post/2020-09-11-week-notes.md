@@ -12,8 +12,8 @@ Ideally all the books in the API should stay in the store even if they haven’t
 
 You could create a hardened set of API/website management scripts (scraping, building, adding new posts manually) and put them right in `/usr/local/bin`\*, which is where the cron jobs and SSH-from-iPhone would access them from. 
 
-**Pros:** Faster to run quick jobs
-**Cons:** Moves the scripts out of version control
+- **Pros:** Faster to run quick jobs
+- **Cons:** Moves the scripts out of version control
 
 It’s probably also worth having a `$SITEDIR` variable that all the scripts use.
 
