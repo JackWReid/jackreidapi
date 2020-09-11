@@ -67,7 +67,7 @@ Let’s not forget about the costume party for **pub names**. Dress as the name 
 
 Weird pub names date back to when much of society was illiterate and pubs would use painted signs of known symbols to be identified by their illiterate patrons. They would even hang a found object outside: a boot or copper kettle.
 
-—
+---
 
 **Gravitricity** is a company trying to solve the problem of spiky power production coming from renewable sources of energy. Right now many grids use big batteries to build up a buffer to supply smooth power. But batteries are expensive and they degrade.
 
