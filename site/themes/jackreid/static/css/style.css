@@ -1,8 +1,13 @@
 :root {
-  --c-bg: #faeee7;
-  --c-bg2: #fff;
-  --c-body: #313030;
-  --c-heading: #000;
+  --c-bg: #fff6e0;
+  --c-bg2: #09412f;
+  --c-body: #09412f;
+  --c-body2: #9f414f;
+
+  --c-panel-head: #fcbf10;
+  --c-panel-body: #fff;
+  --c-panel-bg: #2c6846;
+
   --f-base: -apple-system, blinkmacsystemfont, 'segoe ui', roboto, oxygen-sans,
     ubuntu, cantarell, 'helvetica neue', sans-serif;
   --f-mono: Inconsolata, monospace;
@@ -14,7 +19,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --c-bg: #232946;
+    --c-bg: #dbebda;
     --c-bg2: #000;
     --c-body: #FFF;
     --c-heading: #FFF;
@@ -32,7 +37,6 @@ body {
 
 body {
   margin: 0 auto;
-  max-width: var(--s-width-max);
   font-family: var(--f-base);
   line-height: 1.5;
   background: var(--c-bg);
@@ -46,9 +50,8 @@ pre {
 }
 
 a {
-  color: inherit;
+  color: var(--c-body3);
   text-decoration-line: underline;
-  text-decoration-color: var(--c-body);
 }
 
 a:hover, a:focus {
@@ -100,49 +103,6 @@ figcaption {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--c-heading);
-}
-
-.two-col-wrapper {
-  display: flex;
-  height: 100%;
-  margin: 2rem 0 4rem;
-  padding: 0 1rem;
-}
-
-.two-col-main {
-  width: 100%;
-  order: 2;
-  flex-grow: 1;
-  padding-left: 2rem;
-}
-
-.two-col-sidebar {
-  order: 1;
-  flex-shrink: 0;
-  width: var(--s-width-sidebar);
-}
-
-@media screen and (max-width: 800px) {
-  .two-col-wrapper {
-    flex-direction: column;
-    margin: 0 0 2rem;
-    padding: 0;
-  }
-
-  .two-col-main {
-    margin-top: 1rem;
-    padding: 0 1rem;
-  }
-
-  .two-col-sidebar {
-    width: auto;
-    position: sticky;
-    top: 0;
-    padding: 0 1rem;
-    color: var(--c-bg);
-    background: var(--c-body);
-  }
 }
 
 /**
@@ -194,117 +154,27 @@ h1, h2, h3, h4, h5, h6 {
  * SITE HEADER NAV
  */
 .site-header-nav {
-  margin-top: .5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: var(--c-panel-body);
+  background-color: var(--c-panel-bg);
+  border-bottom: 1px solid var(--c-panel-head);
+}
+
+.site-header-nav ul {
+  padding: 0;
+  list-style: none;
+  margin: 0 auto;
+  max-width: var(--s-width-max);
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .site-header__home-link {
-  display: block;
-  margin-bottom: .2rem;
-  color: var(--c-heading);
+  max-width: var(--s-width-max);
   font-weight: bold; 
-  text-decoration: none;
-}
-
-@media screen and (max-width: 800px) {
-  .site-header__home-link {
-    color: var(--c-bg2);
-  }
-
-  .site-header-nav {
-    margin: .5rem 0;
-  }
-}
-
-/**
- * MEDIA DIET NAV
- */
-.media-diet-nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
-  margin-top: 2rem;
-}
-
-@media screen and (max-width: 800px) {
-  .media-diet-nav {
-    grid-template-columns: 1fr;
-  }
-}
-
-.media-diet-nav__item {
-  margin: 0 0 1rem;
-}
-
-.media-diet-nav__item dt {
-  margin-bottom: .2rem;
-}
-
-.media-diet-nav__item dd {
-  margin: 0;
-  font-size: .8rem;
-}
-
-/**
- * HOME NAV (mobile only)
-*/
-.home-nav dl, .site-header-nav dl {
-  grid-gap: 1rem;
-  grid-template-columns: 1fr;
-  margin-bottom: 2rem;
-}
-
-.home-nav dl {
-  display: grid;
-}
-
-.site-header-nav dl {
-  display: none;
-}
-
-.home-nav dd {
-  margin: 0;
-  font-size: .8rem;
-}
-
-.site-header-nav dt {
-  font-size: 1rem;
-}
-
-.site-header-nav dd {
-  margin: 0;
-  font-size: .8rem;
-}
-
-@media screen and (min-width: 800px) {
-  .home-nav {
-    display: none;
-  }
-
-  .site-header-nav dl {
-    display: grid;
-  }
-}
-
-/**
- * SECONDARY SITE NAV
- */
-
-.site-header-nav--secondary .site-header-nav__home-link {
-  display: flex;
-  width: 7.8rem;
-  margin: 0 auto 2rem;
-  text-align: center;
-  text-decoration: none;
-}
-
-.site-header-nav--secondary dl div {
-  margin-bottom: .2rem;
-}
-
-@media screen and (max-width: 800px) {
-  .site-header-nav--secondary {
-    display: none;
-  }
+  color: var(--c-panel-head);
 }
 
 /**
@@ -345,6 +215,11 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * DEFAULT SINGLE
  */
+.default-single-main {
+  margin: 0 auto;
+  max-width: var(--s-width-max);
+}
+
 .default-single-main__title {
   margin: 0 0 .5rem 0;
 }

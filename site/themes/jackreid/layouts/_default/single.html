@@ -2,9 +2,6 @@
 <main class="default-single-main">
   <h1 class="default-single-main__title">{{ .Title }}</h1>
   <div class="default-single-main__infoline">
-    <p class="post-section-marker">
-      <a href="/{{ .Section }}">{{ .Section | title }}</a>
-    </p>
     <time class="default-single-main__date"
           datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
       {{ .Date.Format "2 Jan 2006" }}

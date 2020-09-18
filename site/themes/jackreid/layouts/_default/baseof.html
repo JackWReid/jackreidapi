@@ -2,16 +2,9 @@
 <html lang="{{ .Site.LanguageCode }}">
   {{- partial "head.html" . -}}
   <body>
-    <div class="two-col-wrapper">
-      <div class="two-col-main">
-      {{- block "main" . }}{{- end }}
-      </div>
-      <div class="two-col-sidebar">
-      {{- partial "site-header.html" . -}}
-      {{- block "aside" . }}{{- end }}
-      </div>
-    </div>
-    </div>
+    {{- partial "site-header.html" . -}}
+    {{- block "main" . }}{{- end }}
+    {{- block "aside" . }}{{- end }}
     {{- partial "footer.html" . -}}
   </body>
 </html>
