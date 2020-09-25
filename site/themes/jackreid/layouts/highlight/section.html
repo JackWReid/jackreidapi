@@ -4,13 +4,13 @@
 {{ $paginator := .Paginate .Pages }}
 {{ range  $paginator.Pages }}
 <article class="highlight-list-item">
-  <h3>
-    {{ .Title }}
-    (<time class="highlight-list-item__date"
-          datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
-      <a href="{{ .Permalink }}">{{ .Date.Format "2/1/06" }}</a>
-    </time>)
-  </h3>
+  <h3>{{ .Title }}</h3>
+  <time class="highlight-list-item__date"
+        datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
+    <a href="{{ .Permalink }}">
+    {{ .Date.Format "Monday 2 January 2006" }}
+    </a>
+  </time>
   <div class="highlight-list-item__content">
   {{ .Content }}
   </div>
