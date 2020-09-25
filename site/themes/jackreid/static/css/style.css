@@ -158,6 +158,12 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--c-panel-head);
 }
 
+@media screen and (max-width: 800px) {
+  .site-header-nav ul {
+    display: block;
+  }
+}
+
 /**
  * SITE FOOTER
  */
