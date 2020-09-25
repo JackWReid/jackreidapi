@@ -9,3 +9,7 @@ buildFuture = true
     style = "dracula"
   [markup.goldmark.renderer]
     unsafe = true
+[related]
+  [[related.indices]]
+    name = "tags"
+    weight = 100

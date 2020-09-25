@@ -2,3 +2,6 @@
 <h1 class="default-section-title">{{ .Title }}</h1>
 {{ .Content }}
 {{ end }}
+{{ define "subnav" }}
+{{- partial "media-nav.html" -}}
+{{ end }}

@@ -6,11 +6,12 @@
 <article class="journal-section-item">
   <h3 class="journal-section-item__title">
     <time datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
-      <a href="{{ .Permalink }}">{{ .Date.Format "2 Jan 2006" }}</a>
+      <a href="{{ .Permalink }}">{{ .Date.Format "Monday, 2 January 2006" }} </a>
     </time>
   </h3>
   {{ .Summary }}
 </article>
 {{ end }}
 {{- partial "pagination.html" . -}}
+<!-- TODO: Put next and previous journal posts in the aside -->
 {{ end }}

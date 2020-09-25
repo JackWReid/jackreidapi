@@ -3,8 +3,15 @@
   {{- partial "head.html" . -}}
   <body>
     {{- partial "site-header.html" . -}}
-    {{- block "main" . }}{{- end }}
-    {{- block "aside" . }}{{- end }}
+    {{- block "subnav" . }}{{- end }}
+    <div class="site-wrapper">
+      <div class="main-wrapper">
+      {{- block "main" . }}{{- end }}
+      </div>
+      <div class="aside-wrapper">
+      {{- block "aside" . }}{{- end }}
+      </div>
+    </div>
     {{- partial "footer.html" . -}}
   </body>
 </html>
