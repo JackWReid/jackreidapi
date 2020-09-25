@@ -2,15 +2,15 @@
 <html lang="{{ .Site.LanguageCode }}">
   {{- partial "head.html" . -}}
   <body>
-    <div class="two-col-wrapper">
-      <div class="two-col-main">
+    {{- partial "site-header.html" . -}}
+    {{- block "subnav" . }}{{- end }}
+    <div class="site-wrapper">
+      <div class="main-wrapper">
       {{- block "main" . }}{{- end }}
       </div>
-      <div class="two-col-sidebar">
-      {{- partial "site-header.html" . -}}
+      <div class="aside-wrapper">
       {{- block "aside" . }}{{- end }}
       </div>
-    </div>
     </div>
     {{- partial "footer.html" . -}}
   </body>

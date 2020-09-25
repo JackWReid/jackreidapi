@@ -2,14 +2,9 @@
 <main class="default-single-main">
   <h1 class="default-single-main__title">
     <time datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
-      {{ .Date.Format "2 Jan 2006" }}
+      {{ .Date.Format "Monday, 2 January 2006" }}
     </time>
   </h1>
-  <div class="default-single-main__infoline">
-    <p class="post-section-marker">
-      <a href="/{{ .Section }}">{{ .Section | title }}</a>
-    </p>
-  </div>
   <div class="default-single-main__content">
     {{ .Content }}
   </div>

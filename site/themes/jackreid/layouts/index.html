@@ -1,4 +1,6 @@
 {{ define "main" }}
 {{ .Content }}
-{{- partial "home-nav.html" -}}
+{{ end }}
+{{ define "aside" }}
+{{- partial "elsewhere-nav.html" . -}}
 {{ end }}
