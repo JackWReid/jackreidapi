@@ -36,6 +36,7 @@ Here's where I keep track of interesting links that I might come back to much, m
 
 ## Personal Websites
 - [OMGLORD](https://omglord.com)
+- [Devin Argenta](https://devinargenta.com)
 
 ## History
 - [Pamphlets About Police Violence](https://policeviolence.wordpress.com/historical-moments/)
