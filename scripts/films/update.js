@@ -143,14 +143,16 @@ function transformFilms(filmArray, status) {
     link: film['Letterboxd URI'],
     rating: film.Rating || null,
     status,
-  }));
+  })).filter(film => (
+    film.name && film.year && film.link
+  ));
 }
 
 async function fetchFilms() {
   const files = await scrapeLetterboxd();
   console.log('Converting CSV to JSON');
   const watched = transformFilms(
-    await csvToJson().fromString(files['watched.csv']),
+    await csvToJson().fromString(files['diary.csv']),
     'watched',
   );
   const towatch = transformFilms(
