@@ -137,10 +137,11 @@ async function unzip(buffer) {
 
 function transformFilms(filmArray, status) {
   return filmArray.map(film => ({
-    date_updated: film.Date,
+    date_updated: film['Watched Date'] || film.Date,
     name: film.Name,
-    year: film.Year,
+    year: film.Year || null,
     link: film['Letterboxd URI'],
+    rating: film.Rating || null,
     status,
   }));
 }
