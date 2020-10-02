@@ -45,3 +45,6 @@ Here's where I keep track of interesting links that I might come back to much, m
 
 ## Science
 - [Emergent Tool Use from Multi-Agent Interaction](https://openai.com/blog/emergent-tool-use/)- Great AI demonstration showing human-like behaviour adaptation
+
+## Film
+- [Phantom Thread camera tests](https://www.youtube.com/watch?v=Uu5jVmIZBhE)
