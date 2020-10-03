@@ -5,8 +5,8 @@ WORKDIR /usr/src/app
 RUN curl -sL https://deb.nodesource.com/setup_13.x | bash -
 RUN apt install -y nodejs
 
-RUN git clone https://github.com/karlicoss/pockexport.git
-RUN cd pockexport && pip3 install --user -r requirements.txt
+RUN git clone --recursive https://github.com/karlicoss/pockexport.git
+RUN pip3 install --user git+https://github.com/karlicoss/pockexport
 
 COPY ./scripts/pocket/package*.json ./
 RUN npm install
