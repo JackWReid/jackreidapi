@@ -5,6 +5,8 @@ slug: igbo-orthography
 tags:
   - literature
   - language
+  - linguistics
+  - africa
   - design
 ---
 
