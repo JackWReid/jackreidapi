@@ -43,6 +43,7 @@ async function fetchBooks() {
 
       end = parseInt(data.GoodreadsResponse.reviews._attributes.end, 10);
       total = parseInt(data.GoodreadsResponse.reviews._attributes.total, 10);
+      console.log({end, total});
 
       for (review of data.GoodreadsResponse.reviews.review) {
         const book = {
@@ -57,7 +58,7 @@ async function fetchBooks() {
           status: singleOrFirst(review.shelves.shelf, s => s._attributes.name),
           started_at: review.started_at._text,
           date_added: review.date_added._text,
-          date_update: review.date_updated._text,
+          date_updated: review.date_updated._text,
           read_count: review.read_count._text,
         };
 
@@ -79,12 +80,12 @@ async function insertRecords(records, db) {
   for (let i = 0; i < records.length; i++) {
     const first = i === 0;
     const last = i === records.length;
-    const {title, name, image_url, date_updated, goodreads_id, started_at, date_added, read_count, status} = records[i];
+    const {title, name, image_url, date_updated, id, started_at, date_added, read_count, status} = records[i];
 
     if (first) {
-      query = SQL`INSERT INTO books (title, author, image, status, date_updated, goodreads_id, started_at, date_added, read_count) VALUES (${title}, ${name}, ${image_url}, ${status}, ${date_updated}, ${goodreads_id}, ${started_at}, ${date_added}, ${read_count})`;
+      query = SQL`INSERT INTO books (title, author, image, status, date_updated, goodreads_id, started_at, date_added, read_count) VALUES (${title}, ${name}, ${image_url}, ${status}, ${date_updated}, ${id}, ${started_at}, ${date_added}, ${read_count})`;
     } else {
-      const q = SQL`,(${title}, ${name}, ${image_url}, ${status}, ${date_updated}, ${goodreads_id}, ${started_at}, ${date_added}, ${read_count})`;
+      const q = SQL`,(${title}, ${name}, ${image_url}, ${status}, ${date_updated}, ${id}, ${started_at}, ${date_added}, ${read_count})`;
       try {
         query = query.append(q);
       } catch (error) {
