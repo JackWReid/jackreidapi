@@ -62,7 +62,6 @@ async function fetchBooks() {
         };
 
         books.push(book);
-        console.log(`Progress: ${(end / total) * 100}%`);
       }
 
       console.log('Done fetching');
