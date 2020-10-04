@@ -43,7 +43,7 @@ async function fetchBooks() {
 
       end = parseInt(data.GoodreadsResponse.reviews._attributes.end, 10);
       total = parseInt(data.GoodreadsResponse.reviews._attributes.total, 10);
-      console.log({end, total});
+      console.log(end, total);
 
       for (review of data.GoodreadsResponse.reviews.review) {
         const book = {
