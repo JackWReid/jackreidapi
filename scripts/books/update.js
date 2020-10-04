@@ -1,76 +1,88 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const path = require('path');
-const {spawn} = require('child_process');
-const sqlite = require('sqlite');
 const SQL = require('sql-template-strings');
+const axios = require('axios');
+const xmlConvert = require('xml-js');
 
 const db = require('./db');
 const console = require('./log');
 
-const DIR = path.resolve('./');
+const BASE_URL = 'https://www.goodreads.com/';
 
-function createAuthFile() {
-  const auth = {
-    goodreads_personal_token: process.env.GOODREADS_PERSONAL_TOKEN,
-    goodreads_secret: process.env.GOODREADS_SECRET,
-    goodreads_user_id: '54047855',
+const singleOrFirst = (val, fn) => val.length ? val.map(fn)[0]: [val].map(fn)[0];
+
+async function fetchBooks() {
+  const url = `${BASE_URL}review/list/${process.env.GOODREADS_USER_ID}.xml`;
+  const params = {
+    key: process.env.GOODREADS_PERSONAL_TOKEN,
+    v: '2',
+    per_page: '200',
+    sort: 'date_updated',
+    page: 0,
   };
+  
+  let end = -1;
+  let total = 0;
+  const books = [];
 
-  fs.writeFileSync(`${DIR}/auth.json`, JSON.stringify(auth));
-}
+  while (end < total) {
+    params.page++;
 
-async function runPythonScript() {
-  return new Promise((resolve, reject) => {
-    const process = spawn('goodreads-to-sqlite', [
-      'books',
-      `${DIR}/books.db`,
-      '--auth=./auth.json',
-    ]);
+    try {
+      const response = await axios.get(url, {params});
+      const data = xmlConvert.xml2js(response.data, {
+        compact: true,
+        trim: true,
+        sanitize: true,
+        ignoreDeclaration: true,
+        ignoreComment: true,
+        ignoreCdata: true,
+        ignoreDoctype: true,
+      });
 
-    console.log(JSON.stringify(process));
+      end = parseInt(data.GoodreadsResponse.reviews._attributes.end, 10);
+      total = parseInt(data.GoodreadsResponse.reviews._attributes.total, 10);
 
-    process.on('close', code => {
-      console.log(code);
-      if (code !== 0) {
-        reject(`goodreads-to-sqlite failed, code ${code}`);
+      for (review of data.GoodreadsResponse.reviews.review) {
+        const book = {
+          id: review.book.id._text,
+          isbn: review.book.isbn._text,
+          title: review.book.title._text,
+          title_without_series: review.book.title_without_series._text,
+          image: review.book.image_url._text,
+          description: review.book.description._text,
+          author: review.book.authors.author.name._text,
+          rating: review.rating._text,
+          status: singleOrFirst(review.shelves.shelf, s => s._attributes.name),
+          started_at: review.started_at._text,
+          date_added: review.date_added._text,
+          date_updated: review.date_updated._text,
+          read_count: review.read_count._text,
+        };
+
+        books.push(book);
       }
+    } catch (error) {
+      console.log(`Error: ending early at ${end} of ${total}`);
+      throw new Error(error);
+    }
+  }
 
-      resolve();
-    });
-  });
+  console.log('Done fetching');
+  return books;
 }
 
-async function queryTmpDb(shelf) {
-  const db = await sqlite.open(`${DIR}/books.db`);
-  const query = `
-    SELECT shelves.name, books.title, books.image_url, authors.name, reviews.date_updated
-    FROM reviews_shelves
-    INNER JOIN shelves ON shelves.id = shelves_id
-    INNER JOIN reviews ON reviews.id = reviews_id
-    INNER JOIN books ON reviews.book_id = books.id
-    INNER JOIN authors_books ON authors_books.books_id = books.id
-    INNER JOIN authors ON authors_books.authors_id = authors.id
-    WHERE shelves.name = '${shelf}'
-    ORDER BY reviews.date_updated DESC
-    LIMIT 5000;
-  `;
-  const result = await db.all(query);
-  await db.close();
-  return result;
-}
-async function insertRecords(records, status, db) {
+async function insertRecords(records, db) {
   let query;
   for (let i = 0; i < records.length; i++) {
     const first = i === 0;
     const last = i === records.length;
-    const {title, name, image_url, date_updated} = records[i];
+    const {title, author, image, date_updated, id, started_at, date_added, read_count, status} = records[i];
 
     if (first) {
-      query = SQL`INSERT INTO books (title, author, image, status, date_updated) VALUES (${title}, ${name}, ${image_url}, ${status}, ${date_updated})`;
+      query = SQL`INSERT INTO books (title, author, image, status, date_updated, goodreads_id, started_at, date_added, read_count) VALUES (${title}, ${author}, ${image}, ${status}, ${date_updated}, ${id}, ${started_at}, ${date_added}, ${read_count})`;
     } else {
-      const q = SQL`,(${title}, ${name}, ${image_url}, ${status}, ${date_updated})`;
+      const q = SQL`,(${title}, ${author}, ${image}, ${status}, ${date_updated}, ${id}, ${started_at}, ${date_added}, ${read_count})`;
       try {
         query = query.append(q);
       } catch (error) {
@@ -94,19 +106,11 @@ async function insertRecords(records, status, db) {
 (async function main() {
   try {
     console.log('Starting update script');
-    console.log('Creating auth file from env');
-    createAuthFile();
     console.log('Starting to scrape Goodreads');
-    await runPythonScript();
+    const books = await fetchBooks();
     console.log('Finished scraping Goodreads');
-    const reading = await queryTmpDb('currently-reading');
-    const toread = await queryTmpDb('to-read');
-    const read = await queryTmpDb('read');
     await db.runQuery(SQL`DELETE FROM books`);
-    await insertRecords(reading, 'reading', db);
-    await insertRecords(toread, 'toread', db);
-    await insertRecords(read, 'read', db);
-    fs.unlinkSync(`${DIR}/books.db`);
+    await insertRecords(books, db);
     console.log('Finished update script');
     process.exit(0);
   } catch (err) {
