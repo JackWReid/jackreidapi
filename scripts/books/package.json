@@ -10,9 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.20.0",
+    "xml-js": "^1.6.11"
     "sql-template-strings": "^2.2.2",
     "pg": "7.18.2",
-    "prom-client": "12.0.0",
     "sqlite": "^3.0.3"
   }
 }
