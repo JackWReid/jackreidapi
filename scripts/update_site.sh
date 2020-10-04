@@ -45,4 +45,5 @@ else
 	git add . && git commit -m "[$(date)] Updated media data files" && git push origin master;
 fi
 
-docker-compose up -d --build site
+cd site
+hugo
