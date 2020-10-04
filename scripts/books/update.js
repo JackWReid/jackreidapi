@@ -9,8 +9,7 @@ const console = require('./log');
 
 const BASE_URL = 'https://www.goodreads.com/';
 
-const singleOrMap = (val, fn) => val.length ? val.map(fn) : [val].map(fn);
-const singleOrFirst = (val, fn) => singleOrMap(val, fn)[0];
+const singleOrFirst = (val, fn) => val.length ? val.map(fn)[0]: [val].map(fn)[0];
 
 async function fetchBooks() {
   const url = `${BASE_URL}review/list/${process.env.GOODREADS_USER_ID}.xml`;
@@ -43,7 +42,6 @@ async function fetchBooks() {
 
       end = parseInt(data.GoodreadsResponse.reviews._attributes.end, 10);
       total = parseInt(data.GoodreadsResponse.reviews._attributes.total, 10);
-      console.log(end, total);
 
       for (review of data.GoodreadsResponse.reviews.review) {
         const book = {
@@ -53,7 +51,7 @@ async function fetchBooks() {
           title_without_series: review.book.title_without_series._text,
           image: review.book.image_url._text,
           description: review.book.description._text,
-          author: singleOrFirst(review.book.authors.author, a => a.name._text),
+          author: review.book.authors.author.name._text,
           rating: review.rating._text,
           status: singleOrFirst(review.shelves.shelf, s => s._attributes.name),
           started_at: review.started_at._text,
@@ -64,15 +62,14 @@ async function fetchBooks() {
 
         books.push(book);
       }
-
-      console.log('Done fetching');
-      return books;
     } catch (error) {
       console.log(`Error: ending early at ${end} of ${total}`);
-      console.error(error);
-      return books;
+      throw new Error(error);
     }
   }
+
+  console.log('Done fetching');
+  return books;
 }
 
 async function insertRecords(records, db) {
@@ -80,12 +77,12 @@ async function insertRecords(records, db) {
   for (let i = 0; i < records.length; i++) {
     const first = i === 0;
     const last = i === records.length;
-    const {title, name, image_url, date_updated, id, started_at, date_added, read_count, status} = records[i];
+    const {title, author, image, date_updated, id, started_at, date_added, read_count, status} = records[i];
 
     if (first) {
-      query = SQL`INSERT INTO books (title, author, image, status, date_updated, goodreads_id, started_at, date_added, read_count) VALUES (${title}, ${name}, ${image_url}, ${status}, ${date_updated}, ${id}, ${started_at}, ${date_added}, ${read_count})`;
+      query = SQL`INSERT INTO books (title, author, image, status, date_updated, goodreads_id, started_at, date_added, read_count) VALUES (${title}, ${author}, ${image}, ${status}, ${date_updated}, ${id}, ${started_at}, ${date_added}, ${read_count})`;
     } else {
-      const q = SQL`,(${title}, ${name}, ${image_url}, ${status}, ${date_updated}, ${id}, ${started_at}, ${date_added}, ${read_count})`;
+      const q = SQL`,(${title}, ${author}, ${image}, ${status}, ${date_updated}, ${id}, ${started_at}, ${date_added}, ${read_count})`;
       try {
         query = query.append(q);
       } catch (error) {

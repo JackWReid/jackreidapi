@@ -3,7 +3,7 @@ const {runQuery} = require('../db');
 async function getReading({sort, limit, offset}) {
   const query = `
     SELECT title, author, image, date_updated FROM books
-    WHERE status = 'reading'
+    WHERE status = 'currently-reading'
     ORDER BY date_updated ${sort}
     LIMIT ${limit} OFFSET ${offset};
   `;
@@ -25,7 +25,7 @@ async function getRead({sort, limit, offset}) {
 async function getToRead({sort, limit, offset}) {
   const query = `
     SELECT title, author, image, date_updated FROM books
-    WHERE status = 'toread'
+    WHERE status = 'to-read'
     ORDER BY date_updated ${sort}
     LIMIT ${limit} OFFSET ${offset};
   `;
