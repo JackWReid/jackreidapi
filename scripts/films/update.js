@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-core');
 const unzipper = require('unzipper');
 const csvToJson = require('csvtojson');
 const SQL = require('sql-template-strings');
@@ -77,10 +77,13 @@ async function downloadBlob(page) {
 async function scrapeLetterboxd() {
   try {
     const browser = await puppeteer.launch({
+      executablePath: '/usr/bin/chromium',
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
     });
     const page = await browser.newPage();
+    console.log('going to settings page');
     await page.goto(SETTINGS_URL);
+    console.log('got to settings page');
 
     let pageTitle = await page.title();
 

@@ -29,7 +29,10 @@ async function runPythonScript() {
       '--auth=./auth.json',
     ]);
 
+    console.log(JSON.stringify(process));
+
     process.on('close', code => {
+      console.log(code);
       if (code !== 0) {
         reject(`goodreads-to-sqlite failed, code ${code}`);
       }
