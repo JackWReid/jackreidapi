@@ -81,9 +81,7 @@ async function scrapeLetterboxd() {
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
     });
     const page = await browser.newPage();
-    console.log('going to settings page');
     await page.goto(SETTINGS_URL);
-    console.log('got to settings page');
 
     let pageTitle = await page.title();
 

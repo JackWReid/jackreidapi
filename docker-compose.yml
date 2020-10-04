@@ -91,20 +91,3 @@ services:
     logging:
       options:
         max-size: 1m
-  syncthing:
-    image: linuxserver/syncthing
-    environment:
-      - PUID=1001
-      - PGID=1001
-      - TZ=Europe/London
-    ports:
-      - "8384:8384"
-      - "22000:22000"
-      - "21027:21027/udp"
-    volumes:
-      - ./syncthing/config:/config
-      - ./syncthing/data:/data1
-    restart: unless-stopped
-    logging:
-      options:
-        max-size: 1m

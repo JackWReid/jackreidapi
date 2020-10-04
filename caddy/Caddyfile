@@ -4,12 +4,8 @@
 
 jackreid.xyz {
   encode gzip
-  root * /usr/share/caddy/site
+  root * /home/jack/server/site/public
   file_server
-
-  log {
-    output file /etc/caddy/logs/server_log
-  }
 
   handle_errors {
     rewrite * /{http.error.status_code}.html
@@ -23,26 +19,5 @@ api.jackreid.xyz {
   reverse_proxy * http://localhost:3000 {
     health_path /health
     health_interval 5m
-  }
-
-  log {
-    output file /etc/caddy/logs/server_log
-  }
-}
-
-sync.jackreid.xyz {
-  encode gzip
-
-  basicauth * {
-    jack JDJhJDEwJDBDYmNTc0EycVBxRDJiV3poMGRyOU9YSFhRcTdlWkowa2haVjdEaDZKamFMZ2kvVXhJT1J1
-  }
-
-  reverse_proxy * http://localhost:8384 {
-    health_path /
-    health_interval 5m
-  }
-
-  log {
-    output file /etc/caddy/logs/server_log
   }
 }
