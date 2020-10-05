@@ -44,7 +44,8 @@ Here's where I keep track of interesting links that I might come back to much, m
 - [Cookbooks and Home Economics](https://archive.org/details/cbk) - Internet Archive of historical cookbooks
 
 ## Science
-- [Emergent Tool Use from Multi-Agent Interaction](https://openai.com/blog/emergent-tool-use/)- Great AI demonstration showing human-like behaviour adaptation
+- [Emergent Tool Use from Multi-Agent Interaction](https://openai.com/blog/emergent-tool-use/) - Great AI demonstration showing human-like behaviour adaptation
+- [Proceedings of the IRCS Workshop on Prosody in Natural Speech](http://languagelog.ldc.upenn.edu/myl/IRCS_Prosody1992/TableOfContents.html) - One summer in the 90s
 
 ## Film
 - [Phantom Thread camera tests](https://www.youtube.com/watch?v=Uu5jVmIZBhE)
