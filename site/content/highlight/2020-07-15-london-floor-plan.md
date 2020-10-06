@@ -4,6 +4,7 @@ date: 2020-07-15T10:14:51+01:00
 slug: london-floor-plan
 tags:
   - uk
+  - housing
   - cities
   - history
   - architecture
