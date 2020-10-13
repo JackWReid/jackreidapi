@@ -13,7 +13,7 @@ jackreid.xyz {
   }
 
   log {
-    output file /etc/caddy/logs/site_log
+    output file /var/log/access.log
   }
 }
 
@@ -26,6 +26,6 @@ api.jackreid.xyz {
   }
 
   log {
-    output file /etc/caddy/logs/api_log
+    output file /var/log/access.log
   }
 }
