@@ -6,6 +6,9 @@ date: 2020-05-14T13:00:00.000Z
 draft: false
 tags:
   - dev
+  - tech
+  - web
+  - indieweb
 ---
 
 I wanted to quickly follow up to [my recent post](/post/how-this-site-works/) about personal infrastructure with some updates I made this week.
