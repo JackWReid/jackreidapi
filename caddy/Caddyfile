@@ -11,6 +11,10 @@ jackreid.xyz {
     rewrite * /{http.error.status_code}.html
     file_server
   }
+
+  log {
+    output file /etc/caddy/logs/site_log
+  }
 }
 
 api.jackreid.xyz {
@@ -19,5 +23,9 @@ api.jackreid.xyz {
   reverse_proxy * http://localhost:3000 {
     health_path /health
     health_interval 5m
+  }
+
+  log {
+    output file /etc/caddy/logs/api_log
   }
 }
