@@ -14,6 +14,7 @@ jackreid.xyz {
 
   log {
     output file /home/jack/logs/site/access.log
+    format common_log
   }
 }
 
@@ -27,5 +28,6 @@ api.jackreid.xyz {
 
   log {
     output file /home/jack/logs/api/access.log
+    format common_log
   }
 }
