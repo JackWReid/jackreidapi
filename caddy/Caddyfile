@@ -13,7 +13,7 @@ jackreid.xyz {
   }
 
   log {
-    output file /var/log/access.log
+    output file /home/jack/logs/site/access.log
   }
 }
 
@@ -26,6 +26,6 @@ api.jackreid.xyz {
   }
 
   log {
-    output file /var/log/access.log
+    output file /home/jack/logs/api/access.log
   }
 }
