@@ -6,6 +6,9 @@ date: 2020-05-08T16:11:43.634Z
 draft: false
 tags:
   - dev
+  - tech
+  - indieweb
+  - web
 ---
 
 *Note:* There's a follow up to this because I've since made more changes to the infrastructure of the site. [Read more](/post/getting-off-of-netlify).

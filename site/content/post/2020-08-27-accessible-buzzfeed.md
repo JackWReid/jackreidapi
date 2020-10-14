@@ -5,7 +5,7 @@ draft: false
 slug: accessible-buzzfeed
 tags:
   - web
-  - development
+  - dev
   - work
   - buzzfeed
   - accessibility
