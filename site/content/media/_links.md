@@ -10,7 +10,8 @@ Here's where I keep track of interesting links that I might come back to much, m
 
 ## Outside
 - [Postcrossing](https://postcrossing.com) - Postcard exchange
-- [Highland Walks](https://www.walkhighlands.co.uk/)
+- [Highland Walks](https://www.walkhighlands.co.uk/) - Personally vetted walks in the Highlands
+- [FATMAP](https://fatmap.com/guidebooks) - Curated and well-mapped walks in Britain
 - [Ian's Shoelace Website](https://www.fieggen.com/shoelace/)
 - [Tree Talk](https://www.treetalk.co.uk/) - London Tree Explorer
 
