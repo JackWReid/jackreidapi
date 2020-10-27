@@ -12,11 +12,9 @@ This is a brief overview of my work history in tech, covering the major projects
 I work at BuzzFeed as an Engineering Manager. I've been on loads of different projects while I've been there so I'll just pick out a couple of interesting ones.
 
 ### Internet Points
-Internet Points is a feature I've been leading from beginning to end. It's a way of rewarding our BuzzFeed Community users for the stuff they do on the site (did you know anybody can sign up and create a BuzzFeed quiz?).
+Internet Points is a feature I've been working on from the start. It's a way of rewarding our BuzzFeed Community users for the stuff they do on the site (did you know anybody can sign up and create a BuzzFeed quiz?).
 
 When a user creates a post, for example, they are rewarded with points. Their points are displayed next to their username in their posts, on their profile, on leaderboard, and more. Building this system required tying together and simplifying a whole host of systems across BuzzFeed that are responsible for various user actions, then channeling those events into one system.
-
-At the time of writing, there's lots more to build around this system, but I'm excited for where it's all going.
 
 ### Accessibility
 Improving the accessibility of the BuzzFeed website is the biggest tech project I've undertaken. I've been coordinating to fix hundreds of issues big and small that stop users with accessibility needs from enjoying our site and content.

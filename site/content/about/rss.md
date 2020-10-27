@@ -10,5 +10,3 @@ draft: false
 - [Notes](https://jackreid.xyz/note/index.xml)
 - [Posts](https://jackreid.xyz/post/index.xml)
 - [Highlights](https://jackreid.xyz/highlight/index.xml)
-- [Links](https://jackreid.xyz/link/index.xml)
-- [Photos](https://jackreid.xyz/photo/index.xml)
