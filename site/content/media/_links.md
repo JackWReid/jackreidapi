@@ -34,6 +34,7 @@ Here's where I keep track of interesting links that I might come back to much, m
 - [Web History](https://css-tricks.com/chapter-1-birth/)
 - [Redis Inventor on Code Comments](http://antirez.com/news/124)
 - [Goodreads to SQLite](https://rixx.de/blog/goodreads-sqlite/)
+- [Postgres Configuration for Humans](https://postgresqlco.nf/en/doc/param/)
 
 ## Personal Websites
 - [OMGLORD](https://omglord.com)
