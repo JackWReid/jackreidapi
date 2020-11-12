@@ -14,6 +14,8 @@ Here's where I keep track of interesting links that I might come back to much, m
 - [FATMAP](https://fatmap.com/guidebooks) - Curated and well-mapped walks in Britain
 - [Ian's Shoelace Website](https://www.fieggen.com/shoelace/)
 - [Tree Talk](https://www.treetalk.co.uk/) - London Tree Explorer
+- [Diamond Geezer](https://diamondgeezer.blogspot.com) - Incredibly detailed London blog
+- [Dan's Motorcycle Repair Page](http://www.dansmc.com)
 
 ## Indie Web
 - [Tilde Town](https://tilde.town)
