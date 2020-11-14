@@ -1,0 +1,24 @@
+{{ define "main" }}
+<h1 class="default-section-title">{{ .Title }}</h1>
+{{ .Content }}
+{{ $paginator := .Paginate .Pages }}
+{{ range  $paginator.Pages }}
+<article class="photo-section-item">
+  <h3 class="photo-section-item__title">
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h3>
+  <img class="photo-section-item__image" src="{{.Params.image}}" />
+  <p class="photo-section-item__meta">
+  <time class="photo-section-item__date"
+        datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
+    {{ .Date.Format "Monday, 2 January 2006" }}
+  </time>
+  {{ if .Params.location }}
+  <span>&middot;</span>
+  <span>{{ .Params.location }}</span>
+  {{ end }}
+  </p>
+</article>
+{{ end }}
+{{- partial "pagination.html" . -}}
+{{ end }}
