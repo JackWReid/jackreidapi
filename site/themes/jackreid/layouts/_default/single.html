@@ -6,6 +6,10 @@
           datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
       {{ .Date.Format "Monday, 2 January 2006" }}
     </time>
+    {{ if .Params.Location }}
+    <span>&middot;</span>
+    <span>{{ .Params.Location }}</span>
+    {{ end }}
   </div>
   <div class="default-single-main__content">
     {{ .Content }}
