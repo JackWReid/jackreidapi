@@ -3,7 +3,8 @@
 const SQL = require('sql-template-strings');
 const Parser = require('rss-parser');
 const parser = new Parser();
-
+ 
+require('dotenv').config()
 const db = require('./db');
 const console = require('./log');
 

@@ -5,6 +5,7 @@ const path = require('path');
 const {execFile} = require('child_process');
 const SQL = require('sql-template-strings');
 
+require('dotenv').config()
 const db = require('./db');
 const console = require('./log');
 

@@ -3,7 +3,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const morgan = require('morgan');
-
+ 
+require('dotenv').config()
 const console = require('./log');
 
 const goodreads = require('./sources/goodreads');

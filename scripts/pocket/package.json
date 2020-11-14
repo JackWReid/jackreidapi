@@ -10,9 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sql-template-strings": "^2.2.2",
+    "chalk": "3.0.0",
+    "dotenv": "^8.2.0",
     "pg": "7.18.2",
     "prom-client": "12.0.0",
-    "chalk": "3.0.0"
+    "sql-template-strings": "^2.2.2"
   }
 }

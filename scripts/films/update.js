@@ -7,6 +7,7 @@ const unzipper = require('unzipper');
 const csvToJson = require('csvtojson');
 const SQL = require('sql-template-strings');
 
+require('dotenv').config()
 const db = require('./db');
 const console = require('./log');
 
