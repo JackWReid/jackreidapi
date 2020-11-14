@@ -6,7 +6,7 @@ const tr = (input, len) => input.length > len ? `${input.substring(0, len)}...` 
 const pool = new Pool({
   user: 'jack',
   host: 'localhost',
-  database: 'personal',
+  database: process.env.PG_DB,
   password: process.env.PG_PASS,
   port: 5432,
   ssl: {
