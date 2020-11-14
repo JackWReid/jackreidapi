@@ -4,7 +4,7 @@ const SQL = require('sql-template-strings');
 const axios = require('axios');
 const xmlConvert = require('xml-js');
 
-require('dotenv').config()
+require('dotenv').config({ path: '/home/jack/server/scripts/books/.env' });
 const db = require('./db');
 const console = require('./log');
 

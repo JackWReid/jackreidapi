@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const morgan = require('morgan');
  
-require('dotenv').config()
+require('dotenv').config({ path: '/home/jack/server/api/.env' });
 const console = require('./log');
 
 const goodreads = require('./sources/goodreads');

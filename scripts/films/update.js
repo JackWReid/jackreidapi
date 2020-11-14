@@ -7,7 +7,7 @@ const unzipper = require('unzipper');
 const csvToJson = require('csvtojson');
 const SQL = require('sql-template-strings');
 
-require('dotenv').config()
+require('dotenv').config({ path: '/home/jack/server/scripts/films/.env' });
 const db = require('./db');
 const console = require('./log');
 

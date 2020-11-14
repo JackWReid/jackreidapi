@@ -5,7 +5,7 @@ const path = require('path');
 const {execFile} = require('child_process');
 const SQL = require('sql-template-strings');
 
-require('dotenv').config()
+require('dotenv').config({ path: '/home/jack/server/scripts/pocket/.env' });
 const db = require('./db');
 const console = require('./log');
 
