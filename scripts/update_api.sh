@@ -15,7 +15,7 @@ function die {
   exit 1
 }
 
-deps=(docker-compose git)
+deps=(git)
 for dep in "${deps[@]}"; do
   installed "${dep}" || die "Missing '${dep}'"
 done
@@ -23,4 +23,7 @@ done
 cd $SITEDIR
 git checkout -f
 git pull origin HEAD
-docker-compose up -d books_update articles_update pocket_update
+node $SITEDIR/scripts/articles/update.js
+node $SITEDIR/scripts/books/update.js
+node $SITEDIR/scripts/pocket/update.js
+# node $SITEDIR/scripts/films/update.js
