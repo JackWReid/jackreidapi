@@ -7,7 +7,12 @@
   <h3 class="photo-section-item__title">
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </h3>
-  <img class="photo-section-item__image" src="{{.Params.image}}" />
+
+  {{ $src := resources.GetMatch .Params.image }}
+  {{ .Scratch.Set "resized" ($src.Resize "1000x") }}
+  {{ $resized := .Scratch.Get "resized" }}
+  <img src="{{ $resized.RelPermalink }}" alt="">
+
   <p class="photo-section-item__meta">
   <time class="photo-section-item__date"
         datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
