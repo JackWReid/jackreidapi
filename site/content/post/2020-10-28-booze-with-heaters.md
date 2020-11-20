@@ -100,7 +100,7 @@ I woke up with 1800 emails requesting access. I didn’t really have any dreams 
 - Skylight Rooftop - big rooftop with heated outdoor benches and also igloos - bookable
 - Rusty Bike, Mile End
 
-#### West
+#### West
 
 - The Prince, West Brompton (London’s biggest heated garden) The Tabard, Turnham Green :)))
 - The Lamb, Chiswick High Road (lots of heaters)
@@ -129,7 +129,7 @@ I woke up with 1800 emails requesting access. I didn’t really have any dreams 
 - The Albion, Kingston - heaters and great ales/food
 - The Prince Albert - Notting Hill (The tables in the garden against the wall all have heaters.)
 
-#### South
+#### South
 
 - Boro bistro (lots of heaters and cosy )
 - Tamesis Dock, Vauxhall (but only a couple of heaters) The Avalon, Clapham South
