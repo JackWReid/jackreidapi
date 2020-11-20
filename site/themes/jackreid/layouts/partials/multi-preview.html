@@ -1,0 +1,97 @@
+{{ if eq "photo" .Type }}
+<div class="multi-preview-item multi-preview-item--photo">
+  <div class="multi-preview-item__meta">
+    <p class="post-section-marker">
+      <a href="/{{ .Section }}">{{ .Section | title }}</a>
+    </p>
+    <h3 class="multi-preview-item__title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h3>
+    <p class="multi-preview-item__photo-info">
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
+        {{ .Date.Format "Monday, 2 January 2006" }}
+      </time>
+      {{ if .Params.location }}
+      <span>&middot;</span>
+      <span>{{ .Params.location }}</span>
+      {{ end }}
+    </p>
+  </div>
+
+  {{ $src := resources.GetMatch .Params.image }}
+  {{ .Scratch.Set "resized" ($src.Resize "300x") }}
+  {{ $resized := .Scratch.Get "resized" }}
+  <img class="multi-preview-item__image" src="{{ $resized.RelPermalink }}" alt="">
+</div>
+{{ else if eq "highlight" .Type }}
+<div class="multi-preview-item multi-preview-item--highlight">
+  <div class="multi-preview-item__meta">
+    <p class="post-section-marker">
+      <a href="/{{ .Section }}">{{ .Section | title }}</a>
+    </p>
+    <h3 class="multi-preview-item__title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h3>
+    <time class="highlight-list-item__date"
+          datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
+      {{ .Date.Format "Monday 2 January 2006" }}
+      </a>
+    </time>
+  </div>
+
+  <div class="multi-preview-item__highlight-window">
+  {{ .Content | truncate 250 }}
+  </div>
+</div>
+{{ else if eq "post" .Type }}
+<div class="multi-preview-item multi-preview-item--post">
+  <div class="multi-preview-item__meta">
+    <p class="post-section-marker">
+      <a href="/{{ .Section }}">{{ .Section | title }}</a>
+    </p>
+    <h3 class="multi-preview-item__title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h3>
+    <time class="highlight-list-item__date"
+          datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
+      {{ .Date.Format "Monday 2 January 2006" }}
+      </a>
+    </time>
+  </div>
+
+  <div class="multi-preview-item__highlight-window">
+  {{ .Content | truncate 250 }}
+  </div>
+</div>
+{{ else if eq "journal" .Type }}
+<div class="multi-preview-item multi-preview-item--journal">
+  <div class="multi-preview-item__meta">
+    <p class="post-section-marker">
+      <a href="/{{ .Section }}">{{ .Section | title }}</a>
+    </p>
+    <h3 class="multi-preview-item__title">
+      <a href="{{ .Permalink }}">
+        {{ .Date.Format "Monday 2 January 2006" }}
+      </a>
+    </h3>
+  </div>
+
+  <div class="multi-preview-item__highlight-window">
+  {{ .Content | truncate 250 }}
+  </div>
+</div>
+{{ else if eq "note" .Type }}
+<div class="multi-preview-item multi-preview-item--note">
+  <div class="note-list__content">{{ .Title }}</div>
+  <span class="post-section-marker">
+    <a href="/{{ .Section }}">{{ .Section | title }}</a>
+  </span>
+  <time class="note-list__date"
+        datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
+    <a href="{{ .Permalink }}">
+      {{ .Date.Format "2 Jan 2006" }}
+    </a>
+  </time>
+</div>
+{{ else }}
+{{ end }}
