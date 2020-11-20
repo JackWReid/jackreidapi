@@ -16,10 +16,21 @@ Here's where I keep track of interesting links that I might come back to much, m
 - [Tree Talk](https://www.treetalk.co.uk/) - London Tree Explorer
 - [Diamond Geezer](https://diamondgeezer.blogspot.com) - Incredibly detailed London blog
 - [Dan's Motorcycle Repair Page](http://www.dansmc.com)
+- [Jim Machalak's Boat Designs](http://www.jimsboats.com)
+- [The Mother of all Maritime Links](http://www.boat-links.com/boatlink.html)
 
 ## Indie Web
 - [Tilde Town](https://tilde.town)
+- [Low Tech Magazine](https://solar.lowtechmagazine.com)
 - [138 Internet Videos That Blew My Mind](https://docs.google.com/presentation/d/1ub46LTP8NLu306oMk7J0t3Yk7QHiTg_QcirzaS5EZhs/edit#slide=id.g63d1a2360e_0_589)
+
+## Link Directories
+- [Marijn Florence's Linkroll](https://marijnflorence.neocities.org/linkroll/)
+- [Jacob Hall's Linkroll](https://www.jacobhall.net/links.html)
+- [Electric Trash](https://www.electrictrash.com)
+- [Terra](https://terra.finzdani.net)
+- [href.cool](https://href.cool)
+- [Gossip's Web](https://gossipsweb.net)
 
 ## Tools
 - [Barbra](https:/barbra.io) - Flash cards
@@ -28,6 +39,10 @@ Here's where I keep track of interesting links that I might come back to much, m
 - [Witeboard](https://witeboard.com/) - Online shared whiteboard
 - [ScreenplaySubs](https://screenplaysubs.com/) - Read screenplays alongside Netflix
 - [Percollate](https://github.com/danburzo/percollate) - Convert web pages to nice e-reader renders
+- [All the DIY Links You Never Knew You Needed](https://boardgamegeek.com/thread/848512/all-diy-links-you-never-knew-you-needed) - Links and pointers for DIY tabletop games
+- [Doable lists](https://websitesite.kr/doablelist/index.html) - Lists of ideas for doable goals
+- [Chest of Books](https://chestofbooks.com) - A collection of non-fiction books painstakingly converted to HTML
+- [Death Generator](https://deathgenerator.com) - Generate the death screens from classic games with whatever text you want
 
 ## Coding
 - [`window.location` Cheatsheet](https://www.samanthaming.com/tidbits/86-window-location-cheatsheet/)
@@ -42,6 +57,12 @@ Here's where I keep track of interesting links that I might come back to much, m
 ## Personal Websites
 - [OMGLORD](https://omglord.com)
 - [Devin Argenta](https://devinargenta.com)
+- [Marijn Florence](https://marijnflorence.neocities.org)
+- [Monokai](https://monokai.nl) - The creator of the Monokai font creates gorgeous web experiments too
+
+## Language
+- [Marijn van Hoorn, Esq.'s Compendium of Good Words](https://marijnflorence.neocities.org/words/)
+- [My Knipe List](https://cs.stanford.edu/~kach/words.txt)
 
 ## History
 - [Pamphlets About Police Violence](https://policeviolence.wordpress.com/historical-moments/)
