@@ -1,4 +1,9 @@
 {{ $src := resources.GetMatch (.Get "src") }}
+{{ $caption := .Get "caption" }}
+
+{{ if $caption }}
+<figure>
+{{ end }}
 
 {{ if in (.Get "src") "http" }}
 <img src="{{$src}}" {{ with .Get "alt" }}alt="{{.}}"{{ else }}alt=""{{ end }}>
@@ -11,5 +16,11 @@
 {{ $resized := .Scratch.Get "resized" }}
 
 <img src="{{ $resized.RelPermalink }}" {{ with .Get "alt" }}alt="{{.}}"{{ else }}alt=""{{ end }}>
+
+{{ if $caption }}
+<figcaption>{{ $caption }}</figcaption>
+</figure>
+{{ end }}
+
 {{ end }}
 {{ end }}
