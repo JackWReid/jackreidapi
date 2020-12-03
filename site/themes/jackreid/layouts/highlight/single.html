@@ -13,12 +13,7 @@
   <div class="highlight-main__content">
     {{ .Content }}
   </div>
+  {{- partial "see-also.html" . -}}
+  {{- partial "single-tags.html" . -}}
 </main>
-{{ end }}
-{{ define "aside" }}
-{{- partial "see-also.html" . -}}
-{{- partial "single-tags.html" . -}}
-{{ end }}
-{{ define "subnav" }}
-{{- partial "media-nav.html" -}}
 {{ end }}

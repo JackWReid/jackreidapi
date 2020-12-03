@@ -7,7 +7,8 @@ tags:
   - covid-19
   - london
   - cities
-  - mirrors
+  - mirror
+  - reference
 ---
 
 I was forwarded a PDF that began life as a Google Doc, before it was overwhelmed by demand. Crowd-sourced, guerrilla resources often spring up like this in times of difficulty. Perhaps I should be less surprised at how quickly Londoners have acted to work out where to get a pint without exposing yourself to the virus or the freezing cold.

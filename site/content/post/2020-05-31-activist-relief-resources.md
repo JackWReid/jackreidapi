@@ -7,7 +7,8 @@ draft: false
 tags:
   - justice
   - race
-  - usa
+  - us
+  - mirror
 ---
 
 I've been struggling to keep track of links to the relief funds established for [Black Lives Matter activists](https://www.nytimes.com/2020/05/30/us/minneapolis-floyd-protests.html) across the USA who've been arrested, injured, or killed by the police. I'm throwing them up here, with sources linked at the end, to keep track of them for myself and for others who are struggling to pull them out of Twitter. For now, I've donated to the Brooklyn Bail Fund.

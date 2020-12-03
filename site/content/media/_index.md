@@ -1,7 +1,6 @@
 ---
 title: Media Diet
-date: 2020-01-28T16:14:10
-layout: plain
+date: 2020-01-28
 draft: false
 ---
 

@@ -3,7 +3,6 @@ title: Links
 date: 2020-08-17T12:00:00
 draft: false
 url: "/links"
-layout: media
 ---
 
 Here's where I keep track of interesting links that I might come back to much, much later. For things that I'm just reading day to day and saving for later, I have my [Pocket](/articles/saved) and [Feedbin](/articles/liked) mirrored here.
