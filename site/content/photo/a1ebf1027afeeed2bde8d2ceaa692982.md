@@ -1,11 +1,12 @@
 ---
-title: >
-  The Old Street Uniform 👟#vsco #vscofilm #filmphotography #shoreditch #london #streetphotography #streetfashion
-date: 2016-07-28T21:05:12+00:00
+title: "The Old Street Uniform 👟"
+date: 2016-07-28
+image: "/img/photo/a1ebf1027afeeed2bde8d2ceaa692982.jpg"
 location: "Shoreditch"
-image: "/img/a1ebf1027afeeed2bde8d2ceaa692982.jpg"
-draft: false
 instagram: true
+draft: false
+tags:
+ - london
 ---
 
-{{<photo src="/img/a1ebf1027afeeed2bde8d2ceaa692982.jpg">}}
+![The Old Street Uniform 👟](/img/photo/a1ebf1027afeeed2bde8d2ceaa692982.jpg)

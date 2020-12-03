@@ -1,11 +1,10 @@
 ---
-title: >
-  first of a roll of summer disposable shots
-date: 2020-08-23T20:53:07+00:00
+title: "first of a roll of summer disposable shots"
+date: 2020-08-23
+image: "/img/photo/ebab41af19f080dd654bb0e5e1defd24.jpg"
 location: "Brockwell Park"
-image: "/img/ebab41af19f080dd654bb0e5e1defd24.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/ebab41af19f080dd654bb0e5e1defd24.jpg">}}
+![first of a roll of summer disposable shots](/img/photo/ebab41af19f080dd654bb0e5e1defd24.jpg)

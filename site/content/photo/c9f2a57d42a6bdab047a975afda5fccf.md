@@ -1,11 +1,12 @@
 ---
-title: >
-  People of Boston#vsco #VSCOfilm #boston #streetphotography
-date: 2016-03-22T00:19:31+00:00
+title: "People of Boston"
+date: 2016-03-22
+image: "/img/photo/c9f2a57d42a6bdab047a975afda5fccf.jpg"
 location: "Downtown Boston"
-image: "/img/c9f2a57d42a6bdab047a975afda5fccf.jpg"
-draft: false
 instagram: true
+draft: false
+tags:
+ - boston
 ---
 
-{{<photo src="/img/c9f2a57d42a6bdab047a975afda5fccf.jpg">}}
+![People of Boston](/img/photo/c9f2a57d42a6bdab047a975afda5fccf.jpg)

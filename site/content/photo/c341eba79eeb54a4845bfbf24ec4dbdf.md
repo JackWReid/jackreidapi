@@ -1,11 +1,13 @@
 ---
-title: >
-  The Qwaahd at Hahvahd Yahdd#vsco #VSCOfilm #boston #travel #harvard
-date: 2016-03-19T20:31:43+00:00
+title: "The Qwaahd at Hahvahd Yahdd"
+date: 2016-03-19
+image: "/img/photo/c341eba79eeb54a4845bfbf24ec4dbdf.jpg"
 location: "Harvard Yard"
-image: "/img/c341eba79eeb54a4845bfbf24ec4dbdf.jpg"
-draft: false
 instagram: true
+draft: false
+tags:
+ - boston
+ - travel
 ---
 
-{{<photo src="/img/c341eba79eeb54a4845bfbf24ec4dbdf.jpg">}}
+![The Qwaahd at Hahvahd Yahdd](/img/photo/c341eba79eeb54a4845bfbf24ec4dbdf.jpg)

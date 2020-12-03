@@ -1,11 +1,12 @@
 ---
-title: >
-  morning. ben.#vsco #vscofilm #london #landmark #westminster #bigben
-date: 2016-09-08T06:38:24+00:00
+title: "morning. ben."
+date: 2016-09-08
+image: "/img/photo/96db8ffb8cfbcb40c72c1c32ad39d4b2.jpg"
 location: "Big Ben"
-image: "/img/96db8ffb8cfbcb40c72c1c32ad39d4b2.jpg"
-draft: false
 instagram: true
+draft: false
+tags:
+ - london
 ---
 
-{{<photo src="/img/96db8ffb8cfbcb40c72c1c32ad39d4b2.jpg">}}
+![morning. ben.](/img/photo/96db8ffb8cfbcb40c72c1c32ad39d4b2.jpg)

@@ -1,11 +1,9 @@
 ---
-title: >
-  bounce
-date: 2019-07-07T15:02:09+00:00
-
-image: "/img/7af8ffa678d0ba33ddccbb13e178af4a.jpg"
-draft: false
+title: "bounce"
+date: 2019-07-07
+image: "/img/photo/7af8ffa678d0ba33ddccbb13e178af4a.jpg"
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/7af8ffa678d0ba33ddccbb13e178af4a.jpg">}}
+![bounce](/img/photo/7af8ffa678d0ba33ddccbb13e178af4a.jpg)

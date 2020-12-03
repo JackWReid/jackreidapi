@@ -1,11 +1,12 @@
 ---
-title: >
-  Shlohmo Vibes#vsco #VSCOfilm #boston #night #streetphotography
-date: 2016-03-21T00:23:38+00:00
+title: "Shlohmo Vibes"
+date: 2016-03-21
+image: "/img/photo/31c61dfec9f57da33dbcab51c797fac2.jpg"
 location: "Jamaica Plain, Massachusetts"
-image: "/img/31c61dfec9f57da33dbcab51c797fac2.jpg"
-draft: false
 instagram: true
+draft: false
+tags:
+ - boston
 ---
 
-{{<photo src="/img/31c61dfec9f57da33dbcab51c797fac2.jpg">}}
+![Shlohmo Vibes](/img/photo/31c61dfec9f57da33dbcab51c797fac2.jpg)

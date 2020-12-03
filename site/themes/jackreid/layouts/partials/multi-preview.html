@@ -18,10 +18,7 @@
     </p>
   </div>
 
-  {{ $src := resources.GetMatch .Params.image }}
-  {{ .Scratch.Set "resized" ($src.Resize "300x") }}
-  {{ $resized := .Scratch.Get "resized" }}
-  <img class="multi-preview-item__image" src="{{ $resized.RelPermalink }}" alt="">
+  <img class="multi-preview-item__image" src="{{ .Params.image }}" alt="">
 </div>
 {{ else if eq "highlight" .Type }}
 <div class="multi-preview-item multi-preview-item--highlight">

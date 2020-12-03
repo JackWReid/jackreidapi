@@ -1,11 +1,10 @@
 ---
-title: >
-  zing
-date: 2020-03-06T14:48:50+00:00
+title: "zing"
+date: 2020-03-06
+image: "/img/photo/a614acd28fba453bdbfc43ccb169e86d.jpg"
 location: "Kumily"
-image: "/img/a614acd28fba453bdbfc43ccb169e86d.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/a614acd28fba453bdbfc43ccb169e86d.jpg">}}
+![zing](/img/photo/a614acd28fba453bdbfc43ccb169e86d.jpg)

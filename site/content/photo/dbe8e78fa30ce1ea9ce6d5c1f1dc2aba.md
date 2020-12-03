@@ -1,11 +1,13 @@
 ---
-title: >
-  late. grrdrrs. 🏭#vsco #vscofilm #geometric #geometry #architecture #blackandwhite #contrast #london
-date: 2016-09-29T19:06:44+00:00
+title: "late. grrdrrs. 🏭"
+date: 2016-09-29
+image: "/img/photo/dbe8e78fa30ce1ea9ce6d5c1f1dc2aba.jpg"
 location: "London City"
-image: "/img/dbe8e78fa30ce1ea9ce6d5c1f1dc2aba.jpg"
-draft: false
 instagram: true
+draft: false
+tags:
+ - architecture
+ - london
 ---
 
-{{<photo src="/img/dbe8e78fa30ce1ea9ce6d5c1f1dc2aba.jpg">}}
+![late. grrdrrs. 🏭](/img/photo/dbe8e78fa30ce1ea9ce6d5c1f1dc2aba.jpg)

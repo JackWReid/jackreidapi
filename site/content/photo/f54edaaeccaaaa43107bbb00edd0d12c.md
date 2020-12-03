@@ -1,11 +1,12 @@
 ---
-title: >
-  Shard#vsco #VSCOfilm #theshard #shard #london
-date: 2016-02-16T08:51:08+00:00
+title: "Shard"
+date: 2016-02-16
+image: "/img/photo/f54edaaeccaaaa43107bbb00edd0d12c.jpg"
 location: "Blackfriars station"
-image: "/img/f54edaaeccaaaa43107bbb00edd0d12c.jpg"
-draft: false
 instagram: true
+draft: false
+tags:
+ - london
 ---
 
-{{<photo src="/img/f54edaaeccaaaa43107bbb00edd0d12c.jpg">}}
+![Shard](/img/photo/f54edaaeccaaaa43107bbb00edd0d12c.jpg)

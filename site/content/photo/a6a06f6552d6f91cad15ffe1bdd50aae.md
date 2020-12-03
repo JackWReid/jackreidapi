@@ -1,11 +1,10 @@
 ---
-title: >
-  burns
-date: 2020-07-27T07:06:14+00:00
+title: "burns"
+date: 2020-07-27
+image: "/img/photo/a6a06f6552d6f91cad15ffe1bdd50aae.jpg"
 location: "Isle Of Mull"
-image: "/img/a6a06f6552d6f91cad15ffe1bdd50aae.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/a6a06f6552d6f91cad15ffe1bdd50aae.jpg">}}
+![burns](/img/photo/a6a06f6552d6f91cad15ffe1bdd50aae.jpg)

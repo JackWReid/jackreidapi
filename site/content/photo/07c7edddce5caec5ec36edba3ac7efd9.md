@@ -1,11 +1,10 @@
 ---
-title: >
-  bougiebar
-date: 2018-01-03T10:25:02+00:00
+title: "bougiebar"
+date: 2018-01-03
+image: "/img/photo/07c7edddce5caec5ec36edba3ac7efd9.jpg"
 location: "Brixton"
-image: "/img/07c7edddce5caec5ec36edba3ac7efd9.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/07c7edddce5caec5ec36edba3ac7efd9.jpg">}}
+![bougiebar](/img/photo/07c7edddce5caec5ec36edba3ac7efd9.jpg)

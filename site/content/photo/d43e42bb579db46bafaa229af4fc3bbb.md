@@ -1,11 +1,10 @@
 ---
-title: >
-  179.0 - fuddle
-date: 2017-07-23T11:06:15+00:00
+title: "179.0 - fuddle"
+date: 2017-07-23
+image: "/img/photo/d43e42bb579db46bafaa229af4fc3bbb.jpg"
 location: "Brixton"
-image: "/img/d43e42bb579db46bafaa229af4fc3bbb.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/d43e42bb579db46bafaa229af4fc3bbb.jpg">}}
+![179.0 - fuddle](/img/photo/d43e42bb579db46bafaa229af4fc3bbb.jpg)

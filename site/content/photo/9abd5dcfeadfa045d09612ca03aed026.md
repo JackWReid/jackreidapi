@@ -1,11 +1,10 @@
 ---
-title: >
-  hall way
-date: 2019-02-12T11:55:29+00:00
+title: "hall way"
+date: 2019-02-12
+image: "/img/photo/9abd5dcfeadfa045d09612ca03aed026.jpg"
 location: "Cambridge, Cambridgeshire"
-image: "/img/9abd5dcfeadfa045d09612ca03aed026.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/9abd5dcfeadfa045d09612ca03aed026.jpg">}}
+![hall way](/img/photo/9abd5dcfeadfa045d09612ca03aed026.jpg)

@@ -1,11 +1,10 @@
 ---
-title: >
-  evening. frosty window.#vsco #vscofilm #winter #window #essex
-date: 2016-12-03T17:38:29+00:00
+title: "evening. frosty window."
+date: 2016-12-03
+image: "/img/photo/bafc65ef42ea9eb05c65e3ec18aa1dee.jpg"
 location: "Billericay, Essex"
-image: "/img/bafc65ef42ea9eb05c65e3ec18aa1dee.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/bafc65ef42ea9eb05c65e3ec18aa1dee.jpg">}}
+![evening. frosty window.](/img/photo/bafc65ef42ea9eb05c65e3ec18aa1dee.jpg)

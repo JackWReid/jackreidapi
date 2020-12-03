@@ -1,11 +1,12 @@
 ---
-title: >
-  morning. million dollar tenements.#vsco #vscofilm #london #nottinghill
-date: 2016-11-16T09:19:41+00:00
+title: "morning. million dollar tenements."
+date: 2016-11-16
+image: "/img/photo/5defe1bfefb66677c46aebccfa67a93b.jpg"
 location: "Notting Hill"
-image: "/img/5defe1bfefb66677c46aebccfa67a93b.jpg"
-draft: false
 instagram: true
+draft: false
+tags:
+ - london
 ---
 
-{{<photo src="/img/5defe1bfefb66677c46aebccfa67a93b.jpg">}}
+![morning. million dollar tenements.](/img/photo/5defe1bfefb66677c46aebccfa67a93b.jpg)

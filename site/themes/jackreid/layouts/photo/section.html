@@ -8,10 +8,7 @@
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </h3>
 
-  {{ $src := resources.GetMatch .Params.image }}
-  {{ .Scratch.Set "resized" ($src.Resize "1000x") }}
-  {{ $resized := .Scratch.Get "resized" }}
-  <img src="{{ $resized.RelPermalink }}" alt="">
+  <img src="{{ .Params.image }}" alt="">
 
   <p class="photo-section-item__meta">
   <time class="photo-section-item__date"

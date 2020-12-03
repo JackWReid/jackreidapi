@@ -1,11 +1,10 @@
 ---
-title: >
-  clear#london #greenwich #skyline
-date: 2018-02-06T08:51:57+00:00
+title: "clear"
+date: 2018-02-06
+image: "/img/photo/efb1c4325fc508ffe18f1112ecb7bccd.jpg"
 location: "Greenwich Naval College Gardens"
-image: "/img/efb1c4325fc508ffe18f1112ecb7bccd.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/efb1c4325fc508ffe18f1112ecb7bccd.jpg">}}
+![clear](/img/photo/efb1c4325fc508ffe18f1112ecb7bccd.jpg)

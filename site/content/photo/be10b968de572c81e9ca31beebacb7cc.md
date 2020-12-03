@@ -1,11 +1,10 @@
 ---
-title: >
-  15.2 - rose street
-date: 2017-01-15T21:43:22+00:00
+title: "15.2 - rose street"
+date: 2017-01-15
+image: "/img/photo/be10b968de572c81e9ca31beebacb7cc.jpg"
 location: "Rose Street, Edinburgh"
-image: "/img/be10b968de572c81e9ca31beebacb7cc.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/be10b968de572c81e9ca31beebacb7cc.jpg">}}
+![15.2 - rose street](/img/photo/be10b968de572c81e9ca31beebacb7cc.jpg)

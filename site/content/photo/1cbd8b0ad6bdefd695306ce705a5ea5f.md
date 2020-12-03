@@ -1,11 +1,10 @@
 ---
-title: >
-  154.0 - lib/
-date: 2017-06-30T09:14:09+00:00
+title: "154.0 - lib/"
+date: 2017-06-30
+image: "/img/photo/1cbd8b0ad6bdefd695306ce705a5ea5f.jpg"
 location: "Brixton"
-image: "/img/1cbd8b0ad6bdefd695306ce705a5ea5f.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/1cbd8b0ad6bdefd695306ce705a5ea5f.jpg">}}
+![154.0 - lib/](/img/photo/1cbd8b0ad6bdefd695306ce705a5ea5f.jpg)

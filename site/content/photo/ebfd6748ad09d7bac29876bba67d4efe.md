@@ -1,11 +1,10 @@
 ---
-title: >
-  The man himself.#vsco #VSCOfilm #blackandwhite #family #portrait
-date: 2016-04-02T18:28:12+00:00
+title: "The man himself."
+date: 2016-04-02
+image: "/img/photo/ebfd6748ad09d7bac29876bba67d4efe.jpg"
 location: "Kinver"
-image: "/img/ebfd6748ad09d7bac29876bba67d4efe.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/ebfd6748ad09d7bac29876bba67d4efe.jpg">}}
+![The man himself.](/img/photo/ebfd6748ad09d7bac29876bba67d4efe.jpg)

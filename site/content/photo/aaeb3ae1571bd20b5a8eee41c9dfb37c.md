@@ -1,11 +1,10 @@
 ---
-title: >
-  matthew
-date: 2019-08-12T20:42:13+00:00
+title: "matthew"
+date: 2019-08-12
+image: "/img/photo/aaeb3ae1571bd20b5a8eee41c9dfb37c.jpg"
 location: "St Matthew's Church, Brixton"
-image: "/img/aaeb3ae1571bd20b5a8eee41c9dfb37c.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/aaeb3ae1571bd20b5a8eee41c9dfb37c.jpg">}}
+![matthew](/img/photo/aaeb3ae1571bd20b5a8eee41c9dfb37c.jpg)

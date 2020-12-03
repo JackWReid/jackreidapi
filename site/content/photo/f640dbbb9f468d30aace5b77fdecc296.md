@@ -1,11 +1,12 @@
 ---
-title: >
-  mourning. heavy is the head.#vsco #vscofilm #toweroflondon #london #election2016
-date: 2016-11-09T09:02:03+00:00
+title: "mourning. heavy is the head."
+date: 2016-11-09
+image: "/img/photo/f640dbbb9f468d30aace5b77fdecc296.jpg"
 location: "Tower of London"
-image: "/img/f640dbbb9f468d30aace5b77fdecc296.jpg"
-draft: false
 instagram: true
+draft: false
+tags:
+ - london
 ---
 
-{{<photo src="/img/f640dbbb9f468d30aace5b77fdecc296.jpg">}}
+![mourning. heavy is the head.](/img/photo/f640dbbb9f468d30aace5b77fdecc296.jpg)

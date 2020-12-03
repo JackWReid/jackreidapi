@@ -1,11 +1,10 @@
 ---
-title: >
-  bright out
-date: 2018-09-01T13:08:52+00:00
+title: "bright out"
+date: 2018-09-01
+image: "/img/photo/fecc1d23fbc4f271296bfba5b8ef6fa0.jpg"
 location: "Brixton"
-image: "/img/fecc1d23fbc4f271296bfba5b8ef6fa0.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/fecc1d23fbc4f271296bfba5b8ef6fa0.jpg">}}
+![bright out](/img/photo/fecc1d23fbc4f271296bfba5b8ef6fa0.jpg)

@@ -1,11 +1,10 @@
 ---
-title: >
-  guld
-date: 2018-01-24T17:21:48+00:00
+title: "guld"
+date: 2018-01-24
+image: "/img/photo/cffecbd2e255b4a6cc8d6d04fabfc587.jpg"
 location: "The Argyll Arms"
-image: "/img/cffecbd2e255b4a6cc8d6d04fabfc587.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/cffecbd2e255b4a6cc8d6d04fabfc587.jpg">}}
+![guld](/img/photo/cffecbd2e255b4a6cc8d6d04fabfc587.jpg)

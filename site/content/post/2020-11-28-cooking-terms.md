@@ -9,7 +9,7 @@ tags:
   - reference
 ---
 
-I love cooking but the terminology seems so fluid to me until I hear chefs talking to each other about how they prepare an ingredient in a way that sounds so specific. It turns out this words do have distinct meanings that I struggle to hold in my head.
+I love cooking but the terminology seems very fluid to me until I hear chefs talking to each other about how they prepare an ingredient in a way that sounds so specific. It turns out these words do have distinct meanings that I struggle to hold in my head.
 
 ## Sautéing
 A very awkward Frenglish word. Means frying ingredients in not very much oil but over a relatively high heat.

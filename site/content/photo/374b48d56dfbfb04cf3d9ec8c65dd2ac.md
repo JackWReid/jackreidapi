@@ -1,11 +1,10 @@
 ---
-title: >
-  Joshua Trees#landscape #vsco #VSCOfilm
-date: 2016-02-18T04:29:55+00:00
+title: "Joshua Trees"
+date: 2016-02-18
+image: "/img/photo/374b48d56dfbfb04cf3d9ec8c65dd2ac.jpg"
 location: "Mt. Tipton Wilderness"
-image: "/img/374b48d56dfbfb04cf3d9ec8c65dd2ac.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/374b48d56dfbfb04cf3d9ec8c65dd2ac.jpg">}}
+![Joshua Trees](/img/photo/374b48d56dfbfb04cf3d9ec8c65dd2ac.jpg)

@@ -1,11 +1,9 @@
 ---
-title: >
-  
-date: 2012-07-06T13:44:10+00:00
-
-image: "/img/f98258d5bc09dafecef32ed18ce33fbe.jpg"
-draft: false
+title: "Untitled"
+date: 2012-07-06
+image: "/img/photo/f98258d5bc09dafecef32ed18ce33fbe.jpg"
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/f98258d5bc09dafecef32ed18ce33fbe.jpg">}}
+![Untitled](/img/photo/f98258d5bc09dafecef32ed18ce33fbe.jpg)

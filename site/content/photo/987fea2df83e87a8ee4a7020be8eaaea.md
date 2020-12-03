@@ -1,11 +1,10 @@
 ---
-title: >
-  117.0 - arthur
-date: 2017-05-10T10:22:13+00:00
+title: "117.0 - arthur"
+date: 2017-05-10
+image: "/img/photo/987fea2df83e87a8ee4a7020be8eaaea.jpg"
 location: "London, United Kingdom"
-image: "/img/987fea2df83e87a8ee4a7020be8eaaea.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/987fea2df83e87a8ee4a7020be8eaaea.jpg">}}
+![117.0 - arthur](/img/photo/987fea2df83e87a8ee4a7020be8eaaea.jpg)

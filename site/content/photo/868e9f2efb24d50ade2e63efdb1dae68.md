@@ -1,11 +1,10 @@
 ---
-title: >
-  hanging out
-date: 2020-01-19T18:26:14+00:00
+title: "hanging out"
+date: 2020-01-19
+image: "/img/photo/868e9f2efb24d50ade2e63efdb1dae68.jpg"
 location: "Brockwell Park"
-image: "/img/868e9f2efb24d50ade2e63efdb1dae68.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/868e9f2efb24d50ade2e63efdb1dae68.jpg">}}
+![hanging out](/img/photo/868e9f2efb24d50ade2e63efdb1dae68.jpg)

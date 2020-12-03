@@ -1,11 +1,13 @@
 ---
-title: >
-  Natives of the 1️⃣🚇#vsco #VSCOfilm #travel #nyc #streetphotography #candid
-date: 2016-03-10T05:28:39+00:00
+title: "Natives of the 1️⃣🚇"
+date: 2016-03-10
+image: "/img/photo/1a55ebbea07bee4dccba1c2f89cf5b3a.jpg"
 location: "116th Street – Columbia University (IRT Broadway – Seventh Avenue Line)"
-image: "/img/1a55ebbea07bee4dccba1c2f89cf5b3a.jpg"
-draft: false
 instagram: true
+draft: false
+tags:
+ - travel
+ - nyc
 ---
 
-{{<photo src="/img/1a55ebbea07bee4dccba1c2f89cf5b3a.jpg">}}
+![Natives of the 1️⃣🚇](/img/photo/1a55ebbea07bee4dccba1c2f89cf5b3a.jpg)

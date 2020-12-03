@@ -1,11 +1,10 @@
 ---
-title: >
-  cliche
-date: 2018-03-28T19:03:34+00:00
+title: "cliche"
+date: 2018-03-28
+image: "/img/photo/fd4bdb371f5d24ceb7ebf726c348b1aa.jpg"
 location: "Oxford Street"
-image: "/img/fd4bdb371f5d24ceb7ebf726c348b1aa.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/fd4bdb371f5d24ceb7ebf726c348b1aa.jpg">}}
+![cliche](/img/photo/fd4bdb371f5d24ceb7ebf726c348b1aa.jpg)

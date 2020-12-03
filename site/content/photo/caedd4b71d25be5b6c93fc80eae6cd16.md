@@ -1,11 +1,10 @@
 ---
-title: >
-  
-date: 2018-04-14T20:21:00+00:00
+title: "Untitled"
+date: 2018-04-14
+image: "/img/photo/caedd4b71d25be5b6c93fc80eae6cd16.jpg"
 location: "Montmartre"
-image: "/img/caedd4b71d25be5b6c93fc80eae6cd16.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/caedd4b71d25be5b6c93fc80eae6cd16.jpg">}}
+![Untitled](/img/photo/caedd4b71d25be5b6c93fc80eae6cd16.jpg)

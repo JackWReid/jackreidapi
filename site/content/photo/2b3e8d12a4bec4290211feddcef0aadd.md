@@ -1,11 +1,9 @@
 ---
-title: >
-  calmac
-date: 2020-07-26T11:34:46+00:00
-
-image: "/img/2b3e8d12a4bec4290211feddcef0aadd.jpg"
-draft: false
+title: "calmac"
+date: 2020-07-26
+image: "/img/photo/2b3e8d12a4bec4290211feddcef0aadd.jpg"
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/2b3e8d12a4bec4290211feddcef0aadd.jpg">}}
+![calmac](/img/photo/2b3e8d12a4bec4290211feddcef0aadd.jpg)

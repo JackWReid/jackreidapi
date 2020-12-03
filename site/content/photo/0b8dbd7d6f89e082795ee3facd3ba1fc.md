@@ -1,11 +1,13 @@
 ---
-title: >
-  evening. digital workers at work.#vsco #vscofilm #london #city #night
-date: 2016-11-03T18:26:22+00:00
+title: "evening. digital workers at work."
+date: 2016-11-03
+image: "/img/photo/0b8dbd7d6f89e082795ee3facd3ba1fc.jpg"
 location: "Finsbury Square"
-image: "/img/0b8dbd7d6f89e082795ee3facd3ba1fc.jpg"
-draft: false
 instagram: true
+draft: false
+tags:
+ - london
+ - city
 ---
 
-{{<photo src="/img/0b8dbd7d6f89e082795ee3facd3ba1fc.jpg">}}
+![evening. digital workers at work.](/img/photo/0b8dbd7d6f89e082795ee3facd3ba1fc.jpg)

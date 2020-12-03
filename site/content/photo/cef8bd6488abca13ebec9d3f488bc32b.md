@@ -1,11 +1,10 @@
 ---
-title: >
-  268.0 - leg it
-date: 2017-10-22T08:31:01+00:00
+title: "268.0 - leg it"
+date: 2017-10-22
+image: "/img/photo/cef8bd6488abca13ebec9d3f488bc32b.jpg"
 location: "Brockwell Park"
-image: "/img/cef8bd6488abca13ebec9d3f488bc32b.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/cef8bd6488abca13ebec9d3f488bc32b.jpg">}}
+![268.0 - leg it](/img/photo/cef8bd6488abca13ebec9d3f488bc32b.jpg)

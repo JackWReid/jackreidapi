@@ -1,11 +1,10 @@
 ---
-title: >
-  also why
-date: 2017-12-22T17:32:53+00:00
+title: "also why"
+date: 2017-12-22
+image: "/img/photo/dd5cd49e2dd8db6aacfb74bb35b5ae69.jpg"
 location: "Shropshire Inn"
-image: "/img/dd5cd49e2dd8db6aacfb74bb35b5ae69.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/dd5cd49e2dd8db6aacfb74bb35b5ae69.jpg">}}
+![also why](/img/photo/dd5cd49e2dd8db6aacfb74bb35b5ae69.jpg)

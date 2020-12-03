@@ -1,11 +1,10 @@
 ---
-title: >
-  carefully i was
-date: 2020-08-21T08:08:41+00:00
+title: "carefully i was"
+date: 2020-08-21
+image: "/img/photo/c26cb6b8d0c426aea96cb534f97ecfbb.jpg"
 location: "London, United Kingdom"
-image: "/img/c26cb6b8d0c426aea96cb534f97ecfbb.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/c26cb6b8d0c426aea96cb534f97ecfbb.jpg">}}
+![carefully i was](/img/photo/c26cb6b8d0c426aea96cb534f97ecfbb.jpg)

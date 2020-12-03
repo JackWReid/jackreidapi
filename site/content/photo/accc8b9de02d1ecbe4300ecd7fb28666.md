@@ -1,11 +1,10 @@
 ---
-title: >
-  Mo Dome
-date: 2014-04-01T22:02:54+00:00
+title: "Mo Dome"
+date: 2014-04-01
+image: "/img/photo/accc8b9de02d1ecbe4300ecd7fb28666.jpg"
 location: "Reichstag"
-image: "/img/accc8b9de02d1ecbe4300ecd7fb28666.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/accc8b9de02d1ecbe4300ecd7fb28666.jpg">}}
+![Mo Dome](/img/photo/accc8b9de02d1ecbe4300ecd7fb28666.jpg)

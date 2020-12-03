@@ -1,11 +1,13 @@
 ---
-title: >
-  morning. mmmmm chilly sunshine. 🌞#vsco #vscofilm #london #architecture #city #sunshine
-date: 2016-09-23T08:44:06+00:00
-
-image: "/img/eef60c73edbf696a5cfdccf8ecb74fea.jpg"
-draft: false
+title: "morning. mmmmm chilly sunshine. 🌞"
+date: 2016-09-23
+image: "/img/photo/eef60c73edbf696a5cfdccf8ecb74fea.jpg"
 instagram: true
+draft: false
+tags:
+ - london
+ - architecture
+ - city
 ---
 
-{{<photo src="/img/eef60c73edbf696a5cfdccf8ecb74fea.jpg">}}
+![morning. mmmmm chilly sunshine. 🌞](/img/photo/eef60c73edbf696a5cfdccf8ecb74fea.jpg)

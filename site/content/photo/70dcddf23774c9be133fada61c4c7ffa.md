@@ -1,11 +1,12 @@
 ---
-title: >
-  we don't do cars here 🚲#vsco #vscofilm #london #shoreditch #cycling #blackandwhite
-date: 2016-08-14T08:23:13+00:00
+title: "we don't do cars here 🚲"
+date: 2016-08-14
+image: "/img/photo/70dcddf23774c9be133fada61c4c7ffa.jpg"
 location: "Shoreditch"
-image: "/img/70dcddf23774c9be133fada61c4c7ffa.jpg"
-draft: false
 instagram: true
+draft: false
+tags:
+ - london
 ---
 
-{{<photo src="/img/70dcddf23774c9be133fada61c4c7ffa.jpg">}}
+![we don't do cars here 🚲](/img/photo/70dcddf23774c9be133fada61c4c7ffa.jpg)

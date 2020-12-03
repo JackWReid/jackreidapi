@@ -1,11 +1,10 @@
 ---
-title: >
-  twist
-date: 2020-01-17T19:17:44+00:00
+title: "twist"
+date: 2020-01-17
+image: "/img/photo/1cd2cad92cb6f4feb342eb9a26f93e3a.jpg"
 location: "St. Paul's Cathedral"
-image: "/img/1cd2cad92cb6f4feb342eb9a26f93e3a.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/1cd2cad92cb6f4feb342eb9a26f93e3a.jpg">}}
+![twist](/img/photo/1cd2cad92cb6f4feb342eb9a26f93e3a.jpg)

@@ -1,11 +1,10 @@
 ---
-title: >
-  52.1 - texts
-date: 2017-03-04T14:04:43+00:00
+title: "52.1 - texts"
+date: 2017-03-04
+image: "/img/photo/4b4be7e2dc5dafa6ae16754fdb0c6fa0.jpg"
 location: "Billericay, Essex"
-image: "/img/4b4be7e2dc5dafa6ae16754fdb0c6fa0.jpg"
-draft: false
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/4b4be7e2dc5dafa6ae16754fdb0c6fa0.jpg">}}
+![52.1 - texts](/img/photo/4b4be7e2dc5dafa6ae16754fdb0c6fa0.jpg)

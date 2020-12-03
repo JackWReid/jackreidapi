@@ -1,11 +1,9 @@
 ---
-title: >
-  night swimming
-date: 2020-03-16T19:22:37+00:00
-
-image: "/img/34d6f4ea76b46fecd0ffc9068afdbedd.jpg"
-draft: false
+title: "night swimming"
+date: 2020-03-16
+image: "/img/photo/34d6f4ea76b46fecd0ffc9068afdbedd.jpg"
 instagram: true
+draft: false
 ---
 
-{{<photo src="/img/34d6f4ea76b46fecd0ffc9068afdbedd.jpg">}}
+![night swimming](/img/photo/34d6f4ea76b46fecd0ffc9068afdbedd.jpg)
