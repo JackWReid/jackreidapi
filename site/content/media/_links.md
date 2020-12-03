@@ -46,6 +46,7 @@ Here's where I keep track of interesting links that I might come back to much, m
 - [Death Generator](https://deathgenerator.com) - Generate the death screens from classic games with whatever text you want
 
 ## Coding
+- [Learn X in Y minutes](https://learnxinyminutes.com) - The fatest reference I've found for checking language syntaxes
 - [`window.location` Cheatsheet](https://www.samanthaming.com/tidbits/86-window-location-cheatsheet/)
 - [Responsive Image Syntax in HTML](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/)
 - [Scraping Recipe Websites](https://www.benawad.com/scraping-recipe-websites)

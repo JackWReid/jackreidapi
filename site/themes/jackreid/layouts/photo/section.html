@@ -1,14 +1,17 @@
 {{ define "main" }}
 <h1 class="default-section-title">{{ .Title }}</h1>
 {{ .Content }}
-{{ $paginator := .Paginate .Pages }}
+{{ $paginator := .Paginate .Pages 24 }}
+<div class="photo-section-grid">
 {{ range  $paginator.Pages }}
 <article class="photo-section-item">
+  <a href="{{ .Permalink }}">
+    <img src="{{ .Params.image }}" alt="">
+  </a>
+
   <h3 class="photo-section-item__title">
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </h3>
-
-  <img src="{{ .Params.image }}" alt="">
 
   <p class="photo-section-item__meta">
   <time class="photo-section-item__date"
@@ -22,5 +25,6 @@
   </p>
 </article>
 {{ end }}
+</div>
 {{- partial "pagination.html" . -}}
 {{ end }}

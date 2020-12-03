@@ -1,13 +1,11 @@
 {{ define "main" }}
   {{ .Content }}
-  <div class="side-by-side">
-    {{- partial "random-photo.html" . -}}
-    {{- partial "elsewhere-nav.html" . -}}
-  </div>
+  {{- partial "random-photo.html" . -}}
   <h2>Recent posts</h2>
   {{ range sort .Site.RegularPages | first 20 }}
   {{- partial "multi-preview.html" . -}}
   {{ end }}
+  {{- partial "elsewhere-nav.html" . -}}
 {{ end }}
 {{ define "aside" }}
 {{ end }}

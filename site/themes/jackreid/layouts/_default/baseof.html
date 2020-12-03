@@ -4,13 +4,15 @@
   <body>
     {{- partial "site-header.html" . -}}
     {{- block "subnav" . }}{{- end }}
-    <div class="site-wrapper">
+    <div class="site-wrapper site-wrapper--{{.Section}}">
       <div class="main-wrapper">
       {{- block "main" . }}{{- end }}
       </div>
+      {{ if ne .Section "photo" }}
       <div class="aside-wrapper">
       {{- block "aside" . }}{{- end }}
       </div>
+      {{ end }}
     </div>
     {{- partial "footer.html" . -}}
   </body>
