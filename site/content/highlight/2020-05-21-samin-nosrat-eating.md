@@ -1,5 +1,5 @@
 ---
-title: 'Who Eats On Tv'
+title: 'Who Eats On TV'
 slug: samin-nosrat-eating
 link: https%3A%2F%2Fwww.eater.com%2F2018%2F10%2F24%2F18014782%2Fsalt-fat-acid-heat-samin-nosrat-eating-cooking-food-tv-netflix
 date: 2020-05-21T14:46:25.443Z
