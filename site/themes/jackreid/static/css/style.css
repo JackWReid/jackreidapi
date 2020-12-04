@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
  * PLAIN PAGE
  */
 .plain-main {
- /*max-width: var(--s-width-para);*/
+  max-width: var(--s-width-para);
 }
 
 /**
@@ -347,7 +347,11 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * DEFAULT SINGLE
  */
-.default-single-main {
+.default-single-main:not(.default-single-main--wide) {
+  max-width: var(--s-width-para);
+}
+
+.default-single-main--wide p {
   max-width: var(--s-width-para);
 }
 
@@ -628,8 +632,19 @@ form textarea {
   margin-left: 1rem;
 }
 
-.multi-preview-item__photo-info {
+.multi-preview-item__meta p {
   margin: 0;
+}
+
+.multi-preview-item__meta time {
+  margin: 0;
+  font-size: .8rem;
+  font-style: italic;
+}
+
+.multi-preview-item__location {
+  margin: 0;
+  font-size: .8rem;
 }
 
 .multi-preview-item--photo .multi-preview-item__image {
@@ -644,8 +659,8 @@ form textarea {
 .multi-preview-item--highlight,
 .multi-preview-item--journal,
 .multi-preview-item--post {
-  display: flex;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 15rem 1fr;
 }
 
 .multi-preview-item--highlight .multi-preview-item__highlight-window {

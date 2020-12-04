@@ -1,6 +1,5 @@
 {{ define "main" }}
-media single
-<main class="default-single-main">
+<main class="default-single-main default-single-main--{{.Params.format}}">
   <h1 class="default-single-main__title">{{ .Title }}</h1>
   <div class="default-single-main__content">
     {{ .Content }}
