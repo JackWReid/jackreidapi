@@ -1,10 +1,10 @@
 {{ define "main" }}
+<div class="home-main">
   {{ .Content }}
   {{- partial "random-photo.html" . -}}
-  <h2>Recent posts</h2>
+  <h2 class="recent-posts">Recent posts</h2>
   {{ range sort .Site.RegularPages | first 20 }}
   {{- partial "multi-preview.html" . -}}
   {{ end }}
-{{ end }}
-{{ define "aside" }}
+</div>
 {{ end }}

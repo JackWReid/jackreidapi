@@ -12,7 +12,7 @@
   --f-mono: Inconsolata, Hack, monospace;
   --f-base: Charter, Georgia, Times New Roman, times, serif;
   --s-width-max: 65rem;
-  --s-width-sidebar: 15rem;
+  --s-width-para: 40rem;
   --s-width-break: 800px;
   --s-indent: .8rem;
 }
@@ -109,7 +109,7 @@ blockquote {
   margin-left: 0;
   margin-right: 0;
   padding-left: var(--s-indent);
-  border-left: 1px solid var(--c-body);
+  border-left: 2px solid var(--c-body);
 }
 
 .highlight pre {
@@ -225,40 +225,12 @@ h1, h2, h3, h4, h5, h6 {
  * PAGE LAYOUT
  */
 .site-wrapper {
-  display: flex;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
 .site-wrapper:not(.site-wrapper--photo) {
   max-width: var(--s-width-max);
-}
-
-.site-wrapper--photo {
-  max-width: 80rem;
-}
-
-.main-wrapper {
-  flex: 1;
-  overflow: hidden;
-}
-
-.aside-wrapper {
-  flex: 1 1 0;
-  max-width: var(--s-width-sidebar);
-  padding-left: 1rem;
-}
-
-@media screen and (max-width: 800px) {
-  .site-wrapper {
-    display: block;
-  }
-
-  .aside-wrapper {
-    width: 100%;
-    margin-bottom: 1rem;
-    padding: 0;
-  }
 }
 
 /**
@@ -273,48 +245,6 @@ h1, h2, h3, h4, h5, h6 {
 .page-count {
   margin: 0;
   padding: 0 1rem;
-}
-
-/**
- * ELSEWHERE NAV
- */
-.elsewhere-nav h3 {
-  margin: 0 0 .5rem;
-}
-
-.elsewhere-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-/**
- * SINGLE TAGS
- */
-.single-tags {
-}
-
-.single-tags h3 {
-  margin: 0 0 .5rem;
-}
-
-.single-tags ul  {
-  display: block;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.single-tags li {
-  display: inline-block;
-}
-
-.single-tags li:not(:last-child)::after {
-  content: ", ";
-}
-
-.single-tags li a::before {
-  content: "#";
 }
 
 /**
@@ -372,8 +302,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
+ * HOME
+ */
+.home-main {
+  max-width: var(--s-width-para);
+}
+
+.recent-posts {
+  margin-top: 4rem;
+}
+
+/**
+ * PLAIN PAGE
+ */
+.plain-main {
+  max-width: var(--s-width-para);
+}
+
+/**
  * DEFAULT SECTION
  */
+.default-section-main {
+  max-width: var(--s-width-para);
+}
+
 .default-section-title {
   margin-top: 0;
 }
@@ -395,17 +347,34 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * DEFAULT SINGLE
  */
-.default-single-main {
-  margin: 0 auto;
-  max-width: var(--s-width-max);
+.default-single-main:not(.default-single-main--wide) {
+  max-width: var(--s-width-para);
+}
+
+.default-single-main--wide p {
+  max-width: var(--s-width-para);
 }
 
 .default-single-main__title {
-  margin: 0 0 .5rem 0;
+  margin: 1rem 0 0 0;
+}
+
+.default-single-main__infoline {
+  margin-bottom: 1rem;
 }
 
 .default-single-main__date {
   font-style: italic;
+}
+
+.default-single-main__taxonomies-tags {
+  display: inline-block;
+  font-size: .8rem;
+  transform: translateY(-.1rem);
+}
+
+.default-single-main__taxonomies-tags  a::before {
+  content: "#";
 }
 
 .default-single-main__content {
@@ -426,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .default-single-main__content hr {
   border: none;
-  border-bottom: 3px solid var(--c-body);
+  border-bottom: 2px solid var(--c-body);
 }
 
 .post-section-marker {
@@ -445,6 +414,10 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * HIGHLIGHT LIST
  */
+.highlight-section-main {
+  max-width: var(--s-width-para);
+}
+
 .highlight-list-title {
   margin: 0 0 1rem 0;
 }
@@ -479,7 +452,7 @@ h1, h2, h3, h4, h5, h6 {
 .highlight-main__content blockquote {
   margin: 1rem 0 0;
   padding-left: var(--s-indent);
-  border-left: 1px solid var(--c-body);
+  border-left: 2px solid var(--c-body);
 }
 
 /**
@@ -509,6 +482,10 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * JOURNAL SECTION
  */
+.journal-section-main {
+  max-width: var(--s-width-para);
+}
+
 .journal-section-title {
   margin-top: 0;
 }
@@ -655,8 +632,19 @@ form textarea {
   margin-left: 1rem;
 }
 
-.multi-preview-item__photo-info {
+.multi-preview-item__meta p {
   margin: 0;
+}
+
+.multi-preview-item__meta time {
+  margin: 0;
+  font-size: .8rem;
+  font-style: italic;
+}
+
+.multi-preview-item__location {
+  margin: 0;
+  font-size: .8rem;
 }
 
 .multi-preview-item--photo .multi-preview-item__image {
@@ -671,8 +659,8 @@ form textarea {
 .multi-preview-item--highlight,
 .multi-preview-item--journal,
 .multi-preview-item--post {
-  display: flex;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 15rem 1fr;
 }
 
 .multi-preview-item--highlight .multi-preview-item__highlight-window {
@@ -729,6 +717,10 @@ form textarea {
 /**
  * RANDOM PHOTO
  */
+.random-photo {
+  margin-top: 4rem;
+}
+
 .random-photo__image {
   margin-bottom: .5rem;
 }

@@ -1,6 +1,8 @@
 {{ define "main" }}
+<div class="default-section-main">
 <h1 class="default-section-title">{{ .Title }}</h1>
 {{ .Content }}
+{{ if ne .Section "media" }}
 {{ $paginator := .Paginate .Pages }}
 {{ range  $paginator.Pages }}
 <article class="default-section-item">
@@ -15,4 +17,6 @@
 </article>
 {{ end }}
 {{- partial "pagination.html" . -}}
+{{ end }}
+</div>
 {{ end }}

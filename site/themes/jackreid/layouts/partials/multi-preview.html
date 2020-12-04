@@ -11,11 +11,10 @@
       <time datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
         {{ .Date.Format "Monday, 2 January 2006" }}
       </time>
-      {{ if .Params.location }}
-      <span>&middot;</span>
-      <span>{{ .Params.location }}</span>
-      {{ end }}
     </p>
+    {{ if .Params.location }}
+    <p class="multi-preview-item__location">{{ .Params.location }}</p>
+    {{ end }}
   </div>
 
   <img class="multi-preview-item__image" src="{{ .Params.image }}" alt="">

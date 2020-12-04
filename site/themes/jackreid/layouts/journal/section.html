@@ -1,4 +1,5 @@
 {{ define "main" }} 
+<div class="journal-section-main">
 <h1 class="journal-section-title">{{ .Title }}</h1>
 {{ .Content }}
 {{ $paginator := .Paginate .Pages }}
@@ -13,5 +14,5 @@
 </article>
 {{ end }}
 {{- partial "pagination.html" . -}}
-<!-- TODO: Put next and previous journal posts in the aside -->
+</div>
 {{ end }}

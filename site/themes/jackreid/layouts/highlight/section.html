@@ -1,4 +1,5 @@
 {{ define "main" }} 
+<div class="highlight-section-main">
 <h1 class="highlight-list-title">{{ .Title }}</h1>
 {{ .Content }}
 {{ $paginator := .Paginate .Pages }}
@@ -17,7 +18,5 @@
 </article>
 {{ end }}
 {{- partial "pagination.html" . -}}
-{{ end }}
-{{ define "subnav" }}
-{{- partial "media-nav.html" . -}}
+</div>
 {{ end }}
