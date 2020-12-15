@@ -1,5 +1,5 @@
 ---
-title: "Best of 2020 media"
+title: "My top miscellanea of 2020"
 date: 2020-12-04
 slug: best-misc-media-2020
 draft: false
