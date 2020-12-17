@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 .post-section-marker a {
   padding: 0 .5rem;
   background-color: var(--c-body);
-  color: var(--c-bg);
+  color: var(--c-bg) !important;
   text-decoration: none;
 }
 
