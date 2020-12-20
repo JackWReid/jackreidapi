@@ -24,7 +24,7 @@ cd $SITEDIR
 git checkout -f
 git pull origin HEAD
 node $SITEDIR/scripts/articles/update.js
-node $SITEDIR/scripts/books/update.js
+# node $SITEDIR/scripts/books/update.js
 
 cd $SITEDIR/scripts/pocket
 rm -rfv $SITEDIR/scripts/pocket/pockexport
