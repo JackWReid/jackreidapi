@@ -10,10 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "3.0.0",
+    "axios": "^0.21.1",
+    "better-sqlite3": "^7.1.2",
     "dotenv": "^8.2.0",
-    "pg": "7.18.2",
-    "prom-client": "12.0.0",
-    "sql-template-strings": "^2.2.2"
+    "json-from-xml": "1.0.0",
   }
 }
