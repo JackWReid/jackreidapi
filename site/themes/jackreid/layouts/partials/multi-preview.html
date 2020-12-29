@@ -59,23 +59,6 @@
   {{ .Content | truncate 250 }}
   </div>
 </div>
-{{ else if eq "journal" .Type }}
-<div class="multi-preview-item multi-preview-item--journal">
-  <div class="multi-preview-item__meta">
-    <p class="post-section-marker">
-      <a href="/{{ .Section }}">{{ .Section | title }}</a>
-    </p>
-    <h3 class="multi-preview-item__title">
-      <a href="{{ .Permalink }}">
-        {{ .Date.Format "Monday 2 January 2006" }}
-      </a>
-    </h3>
-  </div>
-
-  <div class="multi-preview-item__highlight-window">
-  {{ .Content | truncate 250 }}
-  </div>
-</div>
 {{ else if eq "note" .Type }}
 <div class="multi-preview-item multi-preview-item--note">
   <div class="note-list__content">{{ .Title }}</div>

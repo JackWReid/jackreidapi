@@ -480,25 +480,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
- * JOURNAL SECTION
- */
-.journal-section-main {
-  max-width: var(--s-width-para);
-}
-
-.journal-section-title {
-  margin-top: 0;
-}
-
-.journal-section-item {
-  margin-bottom: 2rem;
-}
-
-.journal-section-item__title {
-  margin: 1rem 0 .5rem 0;
-}
-
-/**
  * PHOTO SECTION
  */
 .photo-section-grid {
@@ -657,7 +638,6 @@ form textarea {
 
 .multi-preview-item--photo,
 .multi-preview-item--highlight,
-.multi-preview-item--journal,
 .multi-preview-item--post {
   display: grid;
   grid-template-columns: 15rem 1fr;
@@ -671,11 +651,6 @@ form textarea {
 .multi-preview-item--post .multi-preview-item__highlight-window {
   color: gray;
   background-color: #eee;
-}
-
-.multi-preview-item--journal .multi-preview-item__highlight-window {
-  color: white;
-  background-color: pink;
 }
 
 .multi-preview-item__highlight-window {
