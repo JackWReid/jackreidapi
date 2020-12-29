@@ -23,13 +23,5 @@ done
 cd $SITEDIR
 git checkout -f
 git pull origin HEAD
-node $SITEDIR/scripts/articles/update.js
-# node $SITEDIR/scripts/books/update.js
+node $SITEDIR/script/update_articles.js
 
-cd $SITEDIR/scripts/pocket
-rm -rfv $SITEDIR/scripts/pocket/pockexport
-git clone --recursive https://github.com/karlicoss/pockexport.git
-pip3 install --user git+https://github.com/karlicoss/pockexport
-node $SITEDIR/scripts/pocket/update.js
-
-# node $SITEDIR/scripts/films/update.js

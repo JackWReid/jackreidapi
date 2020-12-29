@@ -6,12 +6,9 @@ const morgan = require('morgan');
  
 require('dotenv').config({ path: '/home/jack/server/api/.env' });
 const console = require('./log');
+const { closeDb } = require('./db');
 
-const goodreads = require('./sources/goodreads');
-const letterboxd = require('./sources/letterboxd');
-const feedbin = require('./sources/feedbin');
-const pocket = require('./sources/pocket');
-const logs = require('./sources/logs');
+const models = require('./models');
 
 const parseQuery = require('./parseQuery');
 
@@ -38,7 +35,7 @@ app.get('/health', async function(req, res) {
 
 app.get('/books/reading', async function(req, res) {
   try {
-    const reading = await goodreads.getReading(req.config);
+    const reading = await models.getReading(req.config);
     return res.send(reading);
   } catch (error) {
     console.error(error);
@@ -48,7 +45,7 @@ app.get('/books/reading', async function(req, res) {
 
 app.get('/books/toread', async function(req, res) {
   try {
-    const toread = await goodreads.getToRead(req.config);
+    const toread = await models.getToRead(req.config);
     return res.send(toread);
   } catch (error) {
     console.error(error);
@@ -58,31 +55,8 @@ app.get('/books/toread', async function(req, res) {
 
 app.get('/books/read', async function(req, res) {
   try {
-    const read = await goodreads.getRead(req.config);
+    const read = await models.getRead(req.config);
     return res.send(read);
-  } catch (error) {
-    console.error(error);
-    return res.status(500).send({error: error.message});
-  }
-});
-
-app.get('/books/search/:search', async function(req, res) {
-  try {
-    const counts = await goodreads.getSearch({
-      ...req.config,
-      search: req.params.search,
-    });
-    return res.send(counts);
-  } catch (error) {
-    console.error(error);
-    return res.status(500).send({error: error.message});
-  }
-});
-
-app.get('/books/count', async function(req, res) {
-  try {
-    const counts = await goodreads.getCounts();
-    return res.send(counts);
   } catch (error) {
     console.error(error);
     return res.status(500).send({error: error.message});
@@ -91,7 +65,7 @@ app.get('/books/count', async function(req, res) {
 
 app.get('/films/watched', async function(req, res) {
   try {
-    const watched = await letterboxd.getWatched(req.config);
+    const watched = await models.getWatched(req.config);
     return res.send(watched);
   } catch (error) {
     console.error(error);
@@ -101,54 +75,8 @@ app.get('/films/watched', async function(req, res) {
 
 app.get('/films/towatch', async function(req, res) {
   try {
-    const towatch = await letterboxd.getToWatch(req.config);
+    const towatch = await models.getToWatch(req.config);
     return res.send(towatch);
-  } catch (error) {
-    console.error(error);
-    return res.status(500).send({error: error.message});
-  }
-});
-
-app.get('/films/count', async function(req, res) {
-  try {
-    const counts = await letterboxd.getCounts();
-    return res.send(counts);
-  } catch (error) {
-    console.error(error);
-    return res.status(500).send({error: error.message});
-  }
-});
-
-app.get('/films/search/:search', async function(req, res) {
-  try {
-    const films = await letterboxd.getSearch({
-      ...req.config,
-      search: req.params.search,
-    });
-    return res.send(films);
-  } catch (error) {
-    console.error(error);
-    return res.status(500).send({error: error.message});
-  }
-});
-
-app.get('/pocket', async function(req, res) {
-  try {
-    const links = await pocket.getLinks(req.config);
-    return res.send(links);
-  } catch (error) {
-    console.error(error);
-    return res.status(500).send({error: error.message});
-  }
-});
-
-app.get('/pocket/search/:search', async function(req, res) {
-  try {
-    const links = await pocket.getSearch({
-      ...req.config,
-      search: req.params.search,
-    });
-    return res.send(links);
   } catch (error) {
     console.error(error);
     return res.status(500).send({error: error.message});
@@ -157,7 +85,17 @@ app.get('/pocket/search/:search', async function(req, res) {
 
 app.get('/articles', async function(req, res) {
   try {
-    const articles = await feedbin.getLikes(req.config);
+    const articles = await models.getAllArticles(req.config);
+    return res.send(articles);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send({error: error.message});
+  }
+});
+
+app.get('/articles/fave', async function(req, res) {
+  try {
+    const articles = await models.getFaveArticles();
     return res.send(articles);
   } catch (error) {
     console.error(error);
@@ -177,5 +115,6 @@ process.on('SIGINT', shutDown);
 
 function shutDown() {
   console.log('Received kill signal, shutting down gracefully');
+  closeDb();
   process.exit(0);
 }

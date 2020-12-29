@@ -1,4 +1,4 @@
-const proc = process.env.APP;
+const proc = process.env.APP || 'api';
 
 const cLog = string => {
   const dt = new Date().toISOString();

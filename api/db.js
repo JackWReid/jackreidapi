@@ -1,27 +1,19 @@
-const {Pool} = require('pg');
+const Database = require('better-sqlite3');
 const console = require('./log');
 
-const tr = (input, len) => input.length > len ? `${input.substring(0, len)}...` : input;
+const db = new Database('../db/media.db');
 
-const pool = new Pool({
-  user: 'jack',
-  host: 'localhost',
-  database: process.env.PG_DB,
-  password: process.env.PG_PASS,
-  port: 5432,
-  ssl: {
-    rejectUnauthorized: false,
-  },
-});
-
-async function runQuery(query) {
-  const queryPreview = typeof query === 'string' ? tr(query, 1000) : tr(JSON.stringify(query), 1000);
+async function runGetQuery(query) {
+  const sql = db.prepare(query);
   const start = Date.now();
-  return pool.query(query).then(res => {
-    const timing = Date.now() - start;
-    console.info(`Query: (${timing}ms) ${queryPreview}`);
-    return res.rows;
-  });
+  const result = sql.all();
+  const timing = Date.now() - start;
+  console.info(`Query: (${timing}ms) ${query}`);
+  return result;
 }
 
-module.exports = {runQuery};
+function closeDb() {
+  return db.close();
+}
+
+module.exports = {runGetQuery, closeDb};
