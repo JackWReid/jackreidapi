@@ -6,7 +6,6 @@ const XmlParser = require('json-from-xml');
 require('dotenv').config({ path: '/home/jack/server/scripts/articles/.env' });
 
 const PINBOARD_URL = 'https://api.pinboard.in/v1/posts/all';
-const PINBOARD_TOKEN = 'jackreid:C8C8AB6654C40B101BD6';
 
 const transformForInsert = ({ href, time, description, tag, hash }) => ({
   url: href,
