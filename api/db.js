@@ -1,7 +1,7 @@
 const Database = require('better-sqlite3');
 const console = require('./log');
 
-const db = new Database('../db/media.db');
+const db = new Database('/home/jack/server/db/media.db');
 
 async function runGetQuery(query) {
   const sql = db.prepare(query);
