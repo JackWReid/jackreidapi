@@ -1,19 +1,22 @@
 const { runGetQuery } = require('./db');
 
-const transformArticle = ({ title, url, date, tags }) => ({
+const transformArticle = ({ id, title, url, date, tags }) => ({
+  id,
   title,
   url,
   date_updated: date,
   tags: tags.split(' '),
 });
 
-transformBook = ({ title, author, date }) => ({
+transformBook = ({ id, title, author, date }) => ({
+  id,
   title,
   author,
   date_updated: date,
 });
 
-transformFilm = ({ title, year, date }) => ({
+transformFilm = ({ id, title, year, date }) => ({
+  id,
   name: title,
   year,
   date_updated: date,
