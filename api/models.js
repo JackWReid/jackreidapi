@@ -20,7 +20,7 @@ transformFilm = ({ title, year, date }) => ({
 });
 
 async function getAllArticles() {
-  return (await runGetQuery(`SELECT * FROM article ORDER BY date DESC`)).map(transformArticle);
+  return (await runGetQuery(`SELECT * FROM article WHERE tags NOT LIKE '%sex%' ORDER BY date DESC`)).map(transformArticle);
 }
 
 async function getFaveArticles() {
