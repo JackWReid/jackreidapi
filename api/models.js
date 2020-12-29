@@ -44,7 +44,7 @@ async function getWatched() {
 }
 
 async function getToWatch() {
-  return await (runGetQuery(`SELECT * FROM film WHERE type = 'towatch' ORDER BY date DESC`)).map(transformFilm);
+  return (await runGetQuery(`SELECT * FROM film WHERE type = 'towatch' ORDER BY date DESC`)).map(transformFilm);
 }
 
 module.exports = {

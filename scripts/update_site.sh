@@ -33,8 +33,8 @@ curl -Lk https://api.jackreid.xyz/books/read?limit=5000 | jq . > $SITEDIR/site/d
 curl -Lk https://api.jackreid.xyz/films/watched?limit=5000 | jq . > $SITEDIR/site/data/films/watched.json;
 curl -Lk https://api.jackreid.xyz/films/towatch?limit=5000 | jq . > $SITEDIR/site/data/films/towatch.json;
 
-curl -Lk https://api.jackreid.xyz/pocket?limit=5000 | jq . > $SITEDIR/site/data/pocket.json;
-curl -Lk https://api.jackreid.xyz/articles?limit=5000 | jq . > $SITEDIR/site/data/articles.json;
+curl -Lk https://api.jackreid.xyz/articles?limit=5000 | jq . > $SITEDIR/site/data/all_articles.json;
+curl -Lk https://api.jackreid.xyz/articles/fave?limit=5000 | jq . > $SITEDIR/site/data/fave_articles.json;
 
 # Update git
 echo "[$(date)] Committing updated media data files"
