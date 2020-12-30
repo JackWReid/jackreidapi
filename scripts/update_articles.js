@@ -3,7 +3,8 @@
 const Database = require('better-sqlite3');
 const axios = require('axios');
 const XmlParser = require('json-from-xml');
-require('dotenv').config({ path: '/home/jack/server/scripts/articles/.env' });
+require('dotenv').config({ path: '/home/jack/server/scripts/.env' });
+console.log('ENV': process.env);
 
 const PINBOARD_URL = 'https://api.pinboard.in/v1/posts/all';
 
