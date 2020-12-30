@@ -1,11 +1,15 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 import { Table } from 'antd'
-
-import 'antd/dist/antd.css'
 
 import {getBooks} from '../services'
 
 const columns = [
+  {
+    title: 'ID',
+    dataIndex: 'id',
+    key: 'id',
+  },
   {
     title: 'Title',
     dataIndex: 'title',
@@ -24,13 +28,19 @@ const columns = [
 ];
 
 export default function Books({ books }) {
+  const router = useRouter();
+
   return (
     <div>
     <Head>
       <title>Books</title>
     </Head>
 
-    <Table dataSource={books} columns={columns} />
+    <Table
+      dataSource={books}
+      columns={columns}
+      onRow={record => ({onClick: () => router.push(`/book/${record.id}`)})}
+    />
 
     </div>
   );

@@ -6,4 +6,3 @@ export async function getBooks(filters = {}, pagination ={}) {
   const response = await axios.get(API_HOST + '/books/read');
   return response.data;
 }
-

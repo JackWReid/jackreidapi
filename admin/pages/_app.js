@@ -8,14 +8,13 @@ import '../styles/globals.css'
 const { Header, Content, Sider } = Layout;
 
 const getMenuKey = pathname => {
-  console.log({pathname});
   if (pathname === '/') {
     return ['1']
   }
-  if (pathname === '/books') {
+  if (pathname.startsWith('/books')) {
     return ['2']
   }
-  if (pathname === '/films') {
+  if (pathname.startsWith('/films')) {
     return ['3']
   }
   return []
