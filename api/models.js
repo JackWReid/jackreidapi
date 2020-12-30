@@ -15,10 +15,12 @@ transformBook = ({ id, title, author, date }) => ({
   date_updated: date,
 });
 
-transformFilm = ({ id, title, year, date }) => ({
+transformFilm = ({ id, title, year, rating, type, date }) => ({
   id,
   name: title,
   year,
+  rating,
+  status: type,
   date_updated: date,
 });
 
