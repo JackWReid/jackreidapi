@@ -27,7 +27,7 @@ async function main() {
     const allResponse = await axios.get(PINBOARD_URL, {
       method: 'get',
       params: {
-        auth_token: process.env.PINBOARD_TOKEN || PINBOARD_TOKEN,
+        auth_token: process.env.PINBOARD_TOKEN,
       }
     });
 
