@@ -15,7 +15,8 @@
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </h3>
   <p class="section-item__date">
-    {{ .Date.Format "2006-01-02" }}
+    {{ partial "icons/calendar.html" . }}
+    <span>{{ .Date.Format "2006-01-02" }}</span>
   </p>
   {{ .Summary }}
 </article>

@@ -3,34 +3,30 @@
 
   <h1 class="single-main__title">{{ .Title }}</h1>
 
-  <div class="single-main__infoline">
-    <p class="single-main__date">
-      {{ .Date.Format "Monday, 2 January 2006" }}
-    </p>
-    {{ if .Params.Location }}
-    <span>&middot;</span>
-    <span>{{ .Params.Location }}</span>
-    {{ end }}
-  </div>
-
-  <p class="single-main__taxonomies">
-    <span class="post-section-marker">
-      <a href="/{{ .Section }}">{{ .Section | title }}</a>
-    </span>
-    {{ if (.GetTerms "tags") }}
-    <span class="single-main__taxonomies-tags">
-      {{ range (.GetTerms "tags") }}
-      <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-      {{ end }}
-    </span>
-    {{ end }}
+  <p class="single-main__date">
+    {{ partial "icons/calendar.html" . }}
+    {{ .Date.Format "2006-01-02" }}
   </p>
+
+  {{ if (.GetTerms "tags") }}
+  <p class="single-main__tags">
+  {{ range (.GetTerms "tags") }}
+  <a href="{{ .Permalink }}">{{ partial "icons/tag.html" . }}{{ .LinkTitle }}</a>
+  {{ end }}
+  </p>
+  {{ end }}
+
+  {{ if .Params.Location }}
+  <p class="single-main__location">
+  {{ partial "icons/location.html" . }}
+  <span>{{ .Params.location }}</span>
+  </p>
+  {{ end }}
 
   <div class="single-main__content">
     {{ .Content }}
   </div>
 
-  o
   {{- partial "see-also.html" . -}}
 </main>
 {{ end }}

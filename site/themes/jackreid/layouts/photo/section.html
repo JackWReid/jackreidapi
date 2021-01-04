@@ -15,10 +15,12 @@
   </h3>
 
   <p class="photo-section-item__date">
-    {{ .Date.Format "Monday, 2 January 2006" }}
+    {{ partial "icons/calendar.html" . }}
+    {{ .Date.Format "2006-01-02" }}
   </p>
   {{ if .Params.location }}
   <p class="photo-section-item__location">
+    {{ partial "icons/location.html" . }}
     <span>{{ .Params.location }}</span>
   </p>
   {{ end }}

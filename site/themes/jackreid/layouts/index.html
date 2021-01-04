@@ -1,7 +1,9 @@
 {{ define "main" }}
 <div class="home-main">
+  <div class="home-intro">
   {{ .Content }}
-  <h2 class="recent-posts"></h2>
+  </div>
+  <h2 class="recent-posts">Recent posts</h2>
   {{ range sort .Site.RegularPages | first 20 }}
   {{- partial "multi-preview.html" . -}}
   {{ end }}

@@ -1,5 +1,6 @@
-{{ if eq "photo" .Type }}
-<article class="image-item">
+<div class="multi-preview-list">
+  {{ if eq "photo" .Type }}
+  <article class="image-item">
   <div class="image-item__details">
     <p class="image-item__title">
       {{ partial "icons/capture.html" . }}
@@ -9,12 +10,15 @@
       {{ partial "icons/location.html" . }}
       <span>{{ .Params.location }}</span>
     </p>
-    <p class="image-item__date">{{ .Date.Format "2006-01-02" }}</p>
+    <p class="image-item__date">
+      {{ partial "icons/calendar.html" . }}
+      {{ .Date.Format "2006-01-02" }}
+    </p>
   </div>
   <img src="{{ .Params.image }}" />
-</article>
-{{ else if eq "highlight" .Type }}
-<article class="highlight-item">
+  </article>
+  {{ else if eq "highlight" .Type }}
+  <article class="highlight-item">
   <p class="highlight-item__title">
     {{ partial "icons/paperclip.html" . }}
     <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -26,10 +30,13 @@
     {{ end }}
     </p>
   {{ end }}
-  <p class="highlight-item__date">{{ .Date.Format "2006-01-02" }}</p>
-</article>
-{{ else if eq "post" .Type }}
-<article class="blog-item">
+  <p class="highlight-item__date">
+    {{ partial "icons/calendar.html" . }}
+    {{ .Date.Format "2006-01-02" }}
+  </p>
+  </article>
+  {{ else if eq "post" .Type }}
+  <article class="blog-item">
   <p class="blog-item__title">
     {{ partial "icons/pen.html" . }}
     <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -41,15 +48,22 @@
     {{ end }}
     </p>
   {{ end }}
-  <p class="blog-item__date">{{ .Date.Format "2006-01-02" }}</p>
-</article>
-{{ else if eq "note" .Type }}
-<article class="note-item">
+  <p class="blog-item__date">
+    {{ partial "icons/calendar.html" . }}
+    {{ .Date.Format "2006-01-02" }}
+  </p>
+  </article>
+  {{ else if eq "note" .Type }}
+  <article class="note-item">
   <p class="note-item__title">
     {{ partial "icons/speech.html" . }}
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </p>
-  <p class="note-item__date">{{ .Date.Format "2006-01-02" }}</p>
-</article>
-{{ else }}
-{{ end }}
+  <p class="note-item__date">
+    {{ partial "icons/calendar.html" . }}
+    {{ .Date.Format "2006-01-02" }}
+  </p>
+  </article>
+  {{ else }}
+  {{ end }}
+</div>

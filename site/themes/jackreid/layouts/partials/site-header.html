@@ -30,16 +30,18 @@
       <li class="media-nav__towatch"><a href="{{ "films/towatch" | absURL }}">To Watch</a></li>
     </ul>
   </nav>
+
   {{ else }}
   {{ if not .IsPage }}
   <section class="box-card current-box">
+    <p>
     {{ range $reading }}
-    <p>Reading: <em>{{ .title }}</em> by {{ .author }}</p>
+    <span class="current-box__key"><a href="{{ "books/reading" | absURL }}">Reading</a></span> <span><em>{{ .title }}</em> by {{ .author }}</span>
     {{ end }}
     {{ range $watched }}
-    <p>Watched: <em>{{ .name }}</em> {{ if .year }}({{ .year }}){{ end }}<p>
+    <span class="current-box__key"><a href="{{ "films/watched" | absURL }}">Watched</a></span> <span><em>{{ .name }}</em> {{ if .year }}({{ .year }}){{ end }}</span>
     {{ end }}
-    <p>Highlighted: <em>Local power and the social order</em></p>
+    </p>
   </section>
   {{ end }}
   {{ end }}

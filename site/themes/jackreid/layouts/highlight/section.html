@@ -8,13 +8,13 @@
 {{ $paginator := .Paginate .Pages }}
 {{ range  $paginator.Pages }}
 <article class="highlight-list-item">
-  <h3>{{ .Title }}</h3>
-  <time class="highlight-list-item__date"
-        datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
-    <a href="{{ .Permalink }}">
-    {{ .Date.Format "Monday 2 January 2006" }}
-    </a>
-  </time>
+  <h3 class="highlight-list-item__title">
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h3>
+  <p class="highlight-list-item__date">
+    {{ partial "icons/calendar.html" . }}
+    {{ .Date.Format "2006-01-02" }}
+  </p>
   <div class="highlight-list-item__content">
   {{ .Content }}
   </div>
