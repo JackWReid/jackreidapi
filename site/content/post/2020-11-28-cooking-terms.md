@@ -17,7 +17,7 @@ A very awkward Frenglish word. Means frying ingredients in not very much oil but
 ## Searing
 A larger ingredient like a meat is cooked over a very high heat just to brown the surface. The process that makes things go brown is called the Maillard reaction. Usually things are seared and then cooked over a lower heat to get the middle.
 
-##  Sweating
+## Sweating
 Sweating involves cooking diced vegetables, like onions, over a low heat in some oil so that they evaporate some of their moisture without browning at all.
 
 ## Braising

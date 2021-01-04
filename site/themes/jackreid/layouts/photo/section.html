@@ -1,4 +1,5 @@
 {{ define "main" }}
+<main class="photo-section-main">
 <h1 class="default-section-title">{{ .Title }}</h1>
 {{ .Content }}
 {{ $paginator := .Paginate .Pages 24 }}
@@ -13,18 +14,20 @@
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </h3>
 
-  <p class="photo-section-item__meta">
-  <time class="photo-section-item__date"
-        datetime="{{ .Date.Format "2006-01-02T15:04:05.000Z" }}">
-    {{ .Date.Format "Monday, 2 January 2006" }}
-  </time>
+  <p class="photo-section-item__date">
+    {{ partial "icons/calendar.html" . }}
+    {{ .Date.Format "2006-01-02" }}
+  </p>
   {{ if .Params.location }}
-  <span>&middot;</span>
-  <span>{{ .Params.location }}</span>
+  <p class="photo-section-item__location">
+    {{ partial "icons/location.html" . }}
+    <span>{{ .Params.location }}</span>
+  </p>
   {{ end }}
   </p>
 </article>
 {{ end }}
 </div>
 {{- partial "pagination.html" . -}}
+</main>
 {{ end }}

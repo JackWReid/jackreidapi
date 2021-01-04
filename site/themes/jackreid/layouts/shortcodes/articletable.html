@@ -15,14 +15,14 @@
   <thead>
     <tr>
       <th>Title</th>
-      <th>Date</th>
+      <th class="media-table__date">Date</th>
     </tr>
   </thead>
   <tbody>
     {{ range $data }}
     <tr>
       <td class="media-table__title"><a href="{{ .url }}">{{ .title }}</a></td>
-      <td class="media-table__date">{{ dateFormat "2 Jan '06" .date_updated }}</td>
+      <td class="media-table__date">{{ dateFormat "2006-01-02" .date_updated }}</td>
     </tr>
     {{ end }}
   </tbody>

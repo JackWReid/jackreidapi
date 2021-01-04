@@ -27,7 +27,7 @@
     <tr>
       <td class="media-table__title">{{ .name }}</td>
       {{ if eq $key "watched" }}
-      <td class="media-table__date">{{ dateFormat "2 Jan '06" .date_updated }}</td>
+      <td class="media-table__date">{{ dateFormat "2006-01-02" .date_updated }}</td>
       {{ else }}
       <td class="media-table__date">{{ .year }}</td>
       {{ end }}
