@@ -3,7 +3,7 @@
 const Database = require('better-sqlite3');
 const axios = require('axios');
 const XmlParser = require('json-from-xml');
-require('dotenv').config({ path: '/home/jack/server/scripts/articles/.env' });
+require('dotenv').config({ path: '/home/jack/server/scripts/.env' });
 
 const PINBOARD_URL = 'https://api.pinboard.in/v1/posts/all';
 
@@ -27,7 +27,7 @@ async function main() {
     const allResponse = await axios.get(PINBOARD_URL, {
       method: 'get',
       params: {
-        auth_token: process.env.PINBOARD_TOKEN || PINBOARD_TOKEN,
+        auth_token: process.env.PINBOARD_TOKEN,
       }
     });
 

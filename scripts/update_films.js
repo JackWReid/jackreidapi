@@ -6,7 +6,7 @@ const csvToJson = require('csvtojson');
 
 const Database = require('better-sqlite3');
 
-const DIR = path.resolve('./');
+const DB_PATH = '/home/jack/db/media.db';
 
 async function insertRecords(records, db) {
   for (let entry of records) {
@@ -55,7 +55,7 @@ async function fetchFilms() {
     console.log('Starting update script');
 
     console.log('Opening DB');
-    const db = new Database('/Users/jackreid/db/media.db');
+    const db = new Database(DB_PATH);
 
     const {watched, towatch} = await fetchFilms();
     const merged = [...watched, ...towatch];

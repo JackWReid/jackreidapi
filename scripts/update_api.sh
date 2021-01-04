@@ -23,5 +23,5 @@ done
 cd $SITEDIR
 git checkout -f
 git pull origin HEAD
-node $SITEDIR/script/update_articles.js
+node $SITEDIR/scripts/update_articles.js
 
