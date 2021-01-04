@@ -1,9 +1,4 @@
 <footer class="site-footer">
-  <nav class="site-footer__nav">
-    <ul class="site-footer__nav-list">
-      <li><a rel="me" href="mailto:hello@jackreid.xyz">hello@jackreid.xyz</a></li>
-      <li><a href="{{ "rss" | absURL }}">RSS</a></li>
-    </ul>
-  </nav>
-  <p class="site-footer__built"><span>Built:</span> {{ dateFormat "2 Jan '06, 15:04" now }}</p>
+  <p><a href="mailto:hello@jackreid.xyz">hello@jackreid.xyz</a> <a href="{{ "rss" | absURL }}">RSS</a></p>
+  <p>{{ dateFormat "2 Jan '06, 15:04" now }}</p>
 </footer>

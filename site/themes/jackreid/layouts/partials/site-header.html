@@ -1,9 +1,53 @@
-<nav class="site-header-nav">
-  <ul>
-    <li><a class="site-header__home-link" href="{{ "/" | absURL }}">Jack Reid</a></li>
-    <li><a href="{{ "post" | absURL }}">Blog</a></li>
-    <li><a href="{{ "photo" | absURL }}">Photos</a></li>
-    <li><a href="{{ "note" | absURL }}">Notes</a></li>
-    <li><a href="{{ "work" | absURL }}">Work</a></li>
-  </ul>
-</nav>
+{{ $reading := $.Site.Data.books.reading | first 1 }}
+{{ $watched := $.Site.Data.films.watched | first 1 }}
+
+<div class="box-card-row">
+  <header class="site-header box-card">
+    <h1><a href="{{ "/" | absURL }}">Jack Reid</a></h1>
+    <nav>
+      <ul>
+        <li><a href="{{ "post" | absURL }}">Blog</a></li>
+        <li><a href="{{ "photo" | absURL }}">Photo</a></li>
+        <li><a href="{{ "highlight" | absURL }}">Highlights</a></li>
+        <li><a href="{{ "media" | absURL }}">Media</a></li>
+        <li><a href="{{ "links" | absURL }}">Links</a></li>
+        <li><a href="{{ "work" | absURL }}">Work</a></li>
+      </ul>
+    </nav>
+  </header>
+  {{ if eq .Section "media" }}
+  <nav class="box-card media-nav">
+    <ul>
+      <li class="media-nav__section media-nav__articles">Articles</li>
+      <li class="media-nav__saved"><a href="{{ "articles/saved" | absURL }}">Saved</a></li>
+      <li class="media-nav__faved"><a href="{{ "articles/liked" | absURL }}">Faved</a></li>
+      <li class="media-nav__section media-nav__books">Books</li>
+      <li class="media-nav__read"><a href="{{ "books/read" | absURL }}">Read</a></li>
+      <li class="media-nav__reading"><a href="{{ "books/reading" | absURL }}">Reading</a></li>
+      <li class="media-nav__toread"><a href="{{ "books/toread" | absURL }}">To Read</a></li>
+      <li class="media-nav__section media-nav__films">Films</li>
+      <li class="media-nav__watched"><a href="{{ "films/watched" | absURL }}">Watched</a></li>
+      <li class="media-nav__towatch"><a href="{{ "films/towatch" | absURL }}">To Watch</a></li>
+    </ul>
+  </nav>
+  {{ else }}
+  {{ if not .IsPage }}
+  <section class="box-card current-box">
+    {{ range $reading }}
+    <p>Reading: <em>{{ .title }}</em> by {{ .author }}</p>
+    {{ end }}
+    {{ range $watched }}
+    <p>Watched: <em>{{ .name }}</em> {{ if .year }}({{ .year }}){{ end }}<p>
+    {{ end }}
+    <p>Highlighted: <em>Local power and the social order</em></p>
+  </section>
+  {{ end }}
+  {{ end }}
+  <section class="box-card photo-box">
+    {{ range where .Site.RegularPages "Section" "photo" | shuffle | first 1 }}
+      <a class="photo-box__link" href="{{ .Permalink }}">
+        <img class="photo-box__image" src="{{ .Params.image }}" alt="">
+      </a>
+    {{ end }}
+  </section>
+</div>
