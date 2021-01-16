@@ -27,11 +27,16 @@
   <meta property="og:url" content="{{ .Permalink }}" />
   <meta property="og:title" content="{{ .Title }}" />
   <meta property="og:type" content="article" />
-  <meta property="og:image" content="{{ "/open-graph.png" | absURL }}">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@jackreid" />
   <meta name="twitter:creator" content="@jackreid" />
+  {{ if eq .Section "photo" }}
+  <meta property="og:image" content="{{ .Params.image | absURL }}">
+  <meta name="twitter:image" content="{{ .Params.image | absURL }}">
+  {{ else }}
+  <meta property="og:image" content="{{ "/open-graph.png" | absURL }}">
   <meta name="twitter:image" content="{{ "/open-graph.png" | absURL }}">
+  {{ end }}
 
   {{ if or (eq .Section "note") (eq .Section "post") }}
     <meta name="twitter:description" content="{{ .Content | truncate 100 }}">
