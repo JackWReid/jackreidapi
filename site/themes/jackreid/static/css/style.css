@@ -380,7 +380,9 @@ figcaption {
 .section-main,
 .plain-main,
 .highlight-section-main,
-.highlight-main {
+.highlight-main,
+.note-main,
+.note-section-main {
   margin: 0 auto;
   max-width: var(--width-inner);
 }
@@ -456,6 +458,16 @@ figcaption {
 .highlight-main__content blockquote {
   border-left: 1px solid var(--colour-line);
   padding-left: 1rem;
+}
+
+.note-list-item {
+  margin-bottom: 2.5rem;
+}
+
+.note-list__content,
+.note-main__content {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
 }
 
 .photo-section-main {

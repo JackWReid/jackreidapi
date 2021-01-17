@@ -1,4 +1,5 @@
 {{ define "main" }} 
+<main class="note-section-main">
 <h1 class="note-list-title">{{ .Title }}</h1>
 {{ .Content }}
 {{ $paginator := .Paginate .Pages }}
@@ -14,4 +15,6 @@
 </article>
 {{ end }}
 {{- partial "pagination.html" . -}}
+</main>
 {{ end }}
+
