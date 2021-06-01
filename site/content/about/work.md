@@ -11,6 +11,9 @@ This is a brief overview of my work history in tech, covering the major projects
 ## BuzzFeed (2017-)
 I work at BuzzFeed as an Engineering Manager. I've been on loads of different projects while I've been there so I'll just pick out a couple of interesting ones.
 
+### People Management
+Lately I've waded into people management as my main focus at work. It's different! I like it! I'm a few months into it at the point of writing, with a handful of reports. I don't have much to say about it yet, many words of wisdom other than to say I really like fighting for other peoples' interests.
+
 ### Internet Points
 Internet Points is a feature I've been working on from the start. It's a way of rewarding our BuzzFeed Community users for the stuff they do on the site (did you know anybody can sign up and create a BuzzFeed quiz?).
 
